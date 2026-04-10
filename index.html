@@ -1,515 +1,286 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Opportunity Radar + Decision Studio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Opportunity Radar</title>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+:root{--bg:#0A0C10;--bg2:#10131A;--sf:#151922;--sa:#1A1F2B;--bd:#222838;--bh:#2E3548;--gold:#C9A227;--gl:#E2C15E;--gd:#7A6318;--blue:#4A90D9;--cyan:#22D3EE;--green:#10B981;--red:#EF4444;--orange:#F59E0B;--purple:#A78BFA;--tx:#EAEDF3;--mu:#8B95A8;--dm:#5A6478}
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:#0A0C10;color:#EAEDF3;font-family:'Outfit',sans-serif}
-::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:#2E3548;border-radius:3px}
+body{background:var(--bg);color:var(--tx);font-family:'Outfit',sans-serif;overflow-x:hidden}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:var(--bh);border-radius:3px}
 ::selection{background:#C9A22730}
-@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.fi{animation:fadeIn .4s ease forwards;opacity:0}
-.card{background:#151922;border:1px solid #222838;border-radius:8px;transition:border-color .2s}.card:hover{border-color:#2E3548}
-.btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border-radius:5px;font-size:12px;font-weight:600;font-family:'Outfit',sans-serif;cursor:pointer;border:none;transition:all .15s}
-.btn-gold{background:#C9A227;color:#0A0C10}.btn-gold:hover{background:#E2C15E}.btn-gold:disabled{opacity:.5;cursor:not-allowed}
-.btn-ghost{background:transparent;color:#8B95A8;border:1px solid #222838}.btn-ghost:hover{color:#EAEDF3;border-color:#2E3548}
-.btn-ghost.active{color:#C9A227;border-color:#C9A22744;background:#C9A2270a}
-.input{background:#1A1F2B;border:1px solid #222838;border-radius:5px;padding:8px 12px;color:#EAEDF3;font-size:13px;font-family:'Outfit',sans-serif;outline:none;transition:border .2s}
-.input:focus{border-color:#C9A22755}.input::placeholder{color:#5A6478}
-textarea.input{resize:vertical;min-height:56px;line-height:1.6;width:100%}
-.loading{animation:pulse 1.5s infinite}
+.fi{animation:fadeIn .4s ease both}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:8px}
+.badge{display:inline-flex;padding:2px 8px;border-radius:3px;font-size:9px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border-radius:5px;font-size:12px;font-weight:600;font-family:'Outfit',sans-serif;cursor:pointer;border:none;transition:.15s}
+.btn-g{background:var(--gold);color:var(--bg)}.btn-g:hover{background:var(--gl)}.btn-g:disabled{opacity:.5}
+.btn-o{background:transparent;color:var(--mu);border:1px solid var(--bd)}.btn-o:hover{color:var(--tx);border-color:var(--bh)}
+.btn-o.on{color:var(--gold);border-color:#C9A22744;background:#C9A2270a}
+.inp{background:var(--sa);border:1px solid var(--bd);border-radius:5px;padding:8px 12px;color:var(--tx);font-size:13px;font-family:'Outfit',sans-serif;outline:none;width:100%}
+.inp:focus{border-color:#C9A22755}.inp::placeholder{color:var(--dm)}
+textarea.inp{resize:vertical;min-height:56px;line-height:1.6}
+.ld{animation:pulse 1.5s infinite}
+header{background:var(--bg2);border-bottom:1px solid var(--bd);position:sticky;top:0;z-index:100}
+.hdr{display:flex;align-items:center;justify-content:space-between;height:52px;max-width:1300px;margin:0 auto;padding:0 16px}
+.nav-btn{padding:6px 12px;font-size:11px;font-weight:500;font-family:'Outfit',sans-serif;color:var(--dm);background:none;border:none;border-bottom:2px solid transparent;cursor:pointer}
+.nav-btn.on{color:var(--gold);border-bottom-color:var(--gold);background:#C9A2270c}
+main{max-width:1300px;margin:0 auto;padding:16px 16px 60px}
+.empty{padding:36px;text-align:center}
+.progress{padding:8px 12px;margin-bottom:12px;font-size:11px;background:var(--sa);border-radius:6px}
+.stat-grid{display:grid;gap:10px;margin-bottom:20px}
+.stat-card{border-radius:8px;padding:16px 14px;text-align:center}
+.stat-val{font-family:'Crimson Pro',serif;font-size:26px;font-weight:700;line-height:1.1;margin-bottom:6px}
+.stat-lbl{font-size:10px;color:var(--mu);line-height:1.4}
+.pestel-dim{border-radius:0 6px 6px 0;padding:12px 14px;margin-bottom:8px}
+.risk-row{padding:10px 0;border-bottom:1px solid #22283822}
+.verdict-box{border-radius:8px;padding:18px;margin-top:20px;background:linear-gradient(135deg,#C9A22712,#C9A22706);border:1px solid #C9A22730}
+.sig-card{padding:14px;margin-bottom:8px;cursor:pointer;transition:border-color .2s}
+.sig-card:hover{border-color:var(--bh)}
+.key-screen{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;background:var(--bg)}
 </style>
-<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
-<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
 </head>
 <body>
-<div id="root"></div>
-<script type="text/babel">
-const { useState, useEffect, useCallback } = React;
+<div id="app"></div>
+<script>
+// ─── STATE ───
+let state={view:'signals',role:'entrepreneur',scope:'all',apiKey:localStorage.getItem('radar-api-key')||'',signals:[],opportunities:[],lastSig:null,lastOpp:null,sigLoading:false,oppLoading:false,sigMsg:'',oppMsg:'',stQuery:'',stResult:null,stRaw:'',stLoading:false,framework:'strategic',showKey:false};
 
-const C = {
-bg:”#0A0C10”,bg2:”#10131A”,surface:”#151922”,surfaceAlt:”#1A1F2B”,
-border:”#222838”,borderHi:”#2E3548”,
-gold:”#C9A227”,goldLight:”#E2C15E”,goldDim:”#7A6318”,
-blue:”#4A90D9”,cyan:”#22D3EE”,green:”#10B981”,red:”#EF4444”,
-orange:”#F59E0B”,purple:”#A78BFA”,
-text:”#EAEDF3”,muted:”#8B95A8”,dim:”#5A6478”,
-};
-const PESTEL_COLORS={Political:”#4A90D9”,Economic:”#C9A227”,Social:”#22D3EE”,Technological:”#A78BFA”,Environmental:”#10B981”,Legal:”#F59E0B”};
-const RISK_COLORS={Critical:C.red,High:C.orange,Medium:C.gold,Low:C.green};
+function loadStored(){
+try{const s=JSON.parse(localStorage.getItem(‘radar-signals’));if(s){state.signals=purge(s.items||[]);state.lastSig=s.lastRefresh;}}catch{}
+try{const o=JSON.parse(localStorage.getItem(‘radar-opportunities’));if(o){state.opportunities=purge(o.items||[]);state.lastOpp=o.lastRefresh;}}catch{}
+}
+function purge(arr){const cut=Date.now()-30*864e5;return arr.filter(i=>new Date(i._at||i.date).getTime()>cut);}
+function badge(text,color){return`<span class="badge" style="background:${color}14;color:${color};border:1px solid ${color}28">${text}</span>`;}
+function hAgo(ts){return ts?Math.round((Date.now()-new Date(ts).getTime())/36e5):null;}
+function stale(ts){return !ts||hAgo(ts)>=24;}
 
-const SIGNAL_CRITERIA = {
-local:{count:10,label:“🇸🇦 Saudi Local Signals”,description:“Changes impacting Saudi Arabia’s business landscape”,
-types:[“New regulations or policy changes”,“Investment incentives or funding announcements”,“Demographic or labor market shifts”,“Technology adoption milestones”,“Tender openings or procurement notices”,“Mega-project updates (NEOM, Qiddiya, Red Sea, etc.)”,“Sector strategy releases”,“Economic indicators (GDP, FDI, non-oil revenue)”],
-sources:“Vision 2030 updates, Ministry announcements, SAMA, SDAIA, PIF, Monsha’at, SPA, Saudi Gazette, Arab News”},
-global:{count:8,label:“🌐 Global Signals”,description:“Global events with direct or second-order impact on Saudi Arabia”,
-types:[“Geopolitical developments affecting Gulf states”,“Technology disruptions (AI, cybersecurity)”,“Trade policy changes (export controls, tariffs)”,“Energy market shifts (oil, renewables, carbon)”,“Global economic indicators impacting Saudi”,“Benchmark events from peer economies”],
-sources:“Reuters, Bloomberg, FT, WSJ, AP, major tech publications, EU/US government releases”},
-};
-const OPPORTUNITY_CRITERIA = {
-count:{min:5,max:8},
-template:[“Opportunity description linking signals to business need”,“Market size estimation”,“Target customer segments”,“Timing and urgency”,“Competitive landscape and barriers”,“Required capabilities”,“Risks and constraints”],
-scoring:[
-{name:“V2030 Alignment”,desc:“Alignment with Vision 2030 priorities”},
-{name:“Regulatory Support”,desc:“Government incentives, policy tailwinds”},
-{name:“Market Attractiveness”,desc:“Size, growth rate, demand signals”},
-{name:“Ease of Entry”,desc:“Infrastructure, talent, licensing”},
-{name:“Low Competition”,desc:“Inverse competitive intensity”},
-{name:“Investment vs Return”,desc:“Capital efficiency, return profile”},
-],
-};
-const RETENTION_DAYS = 30;
-
-// ─── STORAGE ───
-function loadData(key){try{const v=localStorage.getItem(key);return v?JSON.parse(v):null;}catch{return null;}}
-function saveData(key,data){try{localStorage.setItem(key,JSON.stringify(data));}catch(e){console.error(e);}}
-function getApiKey(){return localStorage.getItem(“radar-api-key”)||””;}
-function setApiKey(k){localStorage.setItem(“radar-api-key”,k);}
-
-function extractJSON(text){
-let c=text.replace(/`json\s*/gi,"").replace(/`\s*/g,””).trim();
-try{return JSON.parse(c);}catch{}
-let d=0,s=-1;
-for(let i=0;i<c.length;i++){if(c[i]===’{’){if(d===0)s=i;d++;}if(c[i]===’}’){d–;if(d===0&&s!==-1){try{return JSON.parse(c.slice(s,i+1));}catch{s=-1;}}}}
-d=0;s=-1;
-for(let i=0;i<c.length;i++){if(c[i]===’[’){if(d===0)s=i;d++;}if(c[i]===’]’){d–;if(d===0&&s!==-1){try{return JSON.parse(c.slice(s,i+1));}catch{s=-1;}}}}
+// ─── API ───
+async function callAPI(msgs,search=true){
+const b={model:‘claude-sonnet-4-20250514’,max_tokens:4096,messages:msgs};
+if(search)b.tools=[{type:‘web_search_20250305’,name:‘web_search’}];
+const r=await fetch(‘https://api.anthropic.com/v1/messages’,{method:‘POST’,headers:{‘Content-Type’:‘application/json’,‘x-api-key’:state.apiKey,‘anthropic-version’:‘2023-06-01’,‘anthropic-dangerous-direct-browser-access’:‘true’},body:JSON.stringify(b)});
+if(!r.ok)throw new Error(‘API ‘+r.status);
+const d=await r.json();
+return(d.content||[]).filter(b=>b.type===‘text’).map(b=>b.text).join(’\n’);
+}
+function extractJSON(t){
+let c=t.replace(/`json\s*/gi,'').replace(/`\s*/g,’’).trim();
+try{return JSON.parse(c)}catch{}
+let d=0,s=-1;for(let i=0;i<c.length;i++){if(c[i]===’{’){if(!d)s=i;d++}if(c[i]===’}’){d–;if(!d&&s>=0){try{return JSON.parse(c.slice(s,i+1))}catch{s=-1}}}}
+d=0;s=-1;for(let i=0;i<c.length;i++){if(c[i]===’[’){if(!d)s=i;d++}if(c[i]===’]’){d–;if(!d&&s>=0){try{return JSON.parse(c.slice(s,i+1))}catch{s=-1}}}}
 return null;
 }
-function purgeOld(items){const cut=Date.now()-RETENTION_DAYS*864e5;return items.filter(i=>new Date(i._fetchedAt||i.date).getTime()>cut);}
 
-// ─── API CALL (with user’s API key + browser access header) ───
-async function callAgent(messages, apiKey, useSearch=true){
-const body={model:“claude-sonnet-4-20250514”,max_tokens:4096,messages};
-if(useSearch)body.tools=[{type:“web_search_20250305”,name:“web_search”}];
-const resp=await fetch(“https://api.anthropic.com/v1/messages”,{
-method:“POST”,
-headers:{
-“Content-Type”:“application/json”,
-“x-api-key”:apiKey,
-“anthropic-version”:“2023-06-01”,
-“anthropic-dangerous-direct-browser-access”:“true”,
-},
-body:JSON.stringify(body),
-});
-if(!resp.ok){const t=await resp.text();throw new Error(`API ${resp.status}: ${t.slice(0,150)}`);}
-const data=await resp.json();
-return(data.content||[]).filter(b=>b.type===“text”).map(b=>b.text).join(”\n”);
-}
-
-// ─── UI COMPONENTS ───
-const Badge=({children,color=C.gold,small})=>(<span style={{display:“inline-flex”,padding:small?“2px 7px”:“3px 10px”,borderRadius:3,fontSize:small?9:10,fontWeight:600,letterSpacing:“0.06em”,textTransform:“uppercase”,background:color+“14”,color,border:`1px solid ${color}28`,whiteSpace:“nowrap”}}>{children}</span>);
-const ScoreRing=({score,size=52})=>{const r=(size-6)/2,circ=2*Math.PI*r,color=score>=90?C.green:score>=80?C.gold:score>=70?C.orange:C.red;return(<svg width={size} height={size} style={{transform:“rotate(-90deg)”,flexShrink:0}}><circle cx={size/2} cy={size/2} r={r} fill="none" stroke={C.border} strokeWidth={3}/><circle cx={size/2} cy={size/2} r={r} fill="none" stroke={color} strokeWidth={3} strokeDasharray={circ} strokeDashoffset={circ-(score/100)*circ} strokeLinecap="round"/><text x={size/2} y={size/2} textAnchor=“middle” dominantBaseline=“central” style={{transform:“rotate(90deg)”,transformOrigin:“center”,fontSize:size*.3,fontWeight:700,fill:color,fontFamily:”‘Crimson Pro’,serif”}}>{score}</text></svg>);};
-const MiniBar=({value,max=100,color=C.gold,label})=>(<div style={{display:“flex”,alignItems:“center”,gap:8}}>{label&&<span style={{fontSize:11,color:C.muted,width:120,flexShrink:0}}>{label}</span>}<div style={{height:5,background:C.border,borderRadius:3,flex:1,overflow:“hidden”}}><div style={{height:“100%”,width:`${(value/max)*100}%`,background:color,borderRadius:3}}/></div><span style={{fontSize:11,fontWeight:600,color,width:26,textAlign:“right”,flexShrink:0}}>{value}</span></div>);
-
-// ─── INFOGRAPHIC RENDERER ───
-function AnalysisRenderer({data}){
-if(!data)return null;
-const StatCard=({value,label,color=C.gold,icon})=>(<div style={{background:color+“10”,border:`1px solid ${color}30`,borderRadius:8,padding:“16px 14px”,textAlign:“center”}}>{icon&&<div style={{fontSize:18,marginBottom:6,opacity:.7}}>{icon}</div>}<div style={{fontFamily:”‘Crimson Pro’,serif”,fontSize:26,fontWeight:700,color,lineHeight:1.1,marginBottom:6}}>{value}</div><div style={{fontSize:10,color:C.muted,lineHeight:1.4}}>{label}</div></div>);
-const PestelDim=({name,rating,detail,color})=>{const rc=rating===“FAVORABLE”?C.green:rating===“UNFAVORABLE”?C.red:C.gold;return(<div style={{background:color+“08”,borderLeft:`3px solid ${color}`,borderRadius:“0 6px 6px 0”,padding:“12px 14px”,marginBottom:8}}><div style={{display:“flex”,justifyContent:“space-between”,alignItems:“center”,marginBottom:4}}><span style={{fontSize:12,fontWeight:700,color,textTransform:“uppercase”,letterSpacing:“0.05em”}}>{name}</span><span style={{fontSize:10,fontWeight:700,color:rc,background:rc+“18”,padding:“2px 8px”,borderRadius:3}}>{rating}</span></div><div style={{fontSize:12,color:C.text,lineHeight:1.6}}>{detail}</div></div>);};
-const RiskRow=({name,probability,impact,mitigation})=>{const pc=RISK_COLORS[probability]||C.gold,ic=RISK_COLORS[impact]||C.gold;return(<div style={{padding:“10px 0”,borderBottom:`1px solid ${C.border}22`}}><div style={{display:“flex”,justifyContent:“space-between”,alignItems:“center”,marginBottom:4}}><span style={{fontSize:12,fontWeight:600}}>{name}</span><div style={{display:“flex”,gap:6}}><span style={{fontSize:9,fontWeight:700,color:pc,background:pc+“18”,padding:“2px 7px”,borderRadius:3}}>P:{probability}</span><span style={{fontSize:9,fontWeight:700,color:ic,background:ic+“18”,padding:“2px 7px”,borderRadius:3}}>I:{impact}</span></div></div><div style={{fontSize:11,color:C.muted,lineHeight:1.5}}>{mitigation}</div></div>);};
-return(<div>
-{data.title&&<div style={{marginBottom:20,paddingBottom:16,borderBottom:`1px solid ${C.border}`}}><div style={{fontFamily:”‘Crimson Pro’,serif”,fontSize:22,fontWeight:600,marginBottom:6,lineHeight:1.3}}>{data.title}</div>{data.subtitle&&<div style={{fontSize:13,color:C.muted,lineHeight:1.5}}>{data.subtitle}</div>}</div>}
-{data.metrics?.length>0&&<div style={{display:“grid”,gridTemplateColumns:`repeat(${Math.min(data.metrics.length,4)},1fr)`,gap:10,marginBottom:20}}>{data.metrics.map((m,i)=><StatCard key={i} value={m.value} label={m.label} color={m.color||[C.gold,C.green,C.blue,C.cyan,C.purple][i%5]} icon={m.icon}/>)}</div>}
-{data.summary&&<div style={{background:C.gold+“08”,border:`1px solid ${C.gold}20`,borderRadius:8,padding:16,marginBottom:20}}><div style={{fontSize:10,fontWeight:700,color:C.gold,textTransform:“uppercase”,letterSpacing:“0.06em”,marginBottom:8}}>Executive Summary</div><div style={{fontSize:13,lineHeight:1.7}}>{data.summary}</div></div>}
-{data.pestel?.length>0&&<div style={{marginBottom:20}}><div style={{fontSize:10,fontWeight:700,color:C.muted,textTransform:“uppercase”,letterSpacing:“0.06em”,marginBottom:10}}>PESTEL Analysis</div>{data.pestel.map((p,i)=><PestelDim key={i} name={p.name} rating={p.rating} detail={p.detail} color={PESTEL_COLORS[p.name]||C.gold}/>)}</div>}
-{data.risks?.length>0&&<div style={{background:C.surfaceAlt,borderRadius:8,padding:16,marginBottom:20,border:`1px solid ${C.border}`}}><div style={{fontSize:10,fontWeight:700,color:C.red,textTransform:“uppercase”,letterSpacing:“0.06em”,marginBottom:10}}>⚠ Risk Assessment</div>{data.risks.map((r,i)=><RiskRow key={i} {…r}/>)}</div>}
-{data.sections?.map((s,i)=><div key={i} style={{marginBottom:16}}><div style={{fontSize:11,fontWeight:700,color:s.color||C.blue,textTransform:“uppercase”,letterSpacing:“0.06em”,marginBottom:8}}>{s.heading}</div><div style={{fontSize:13,lineHeight:1.75}}>{s.content}</div></div>)}
-{data.verdict&&<div style={{background:`linear-gradient(135deg,${C.gold}12,${C.gold}06)`,border:`1px solid ${C.gold}30`,borderRadius:8,padding:18,marginTop:20}}><div style={{fontSize:10,fontWeight:700,color:C.gold,textTransform:“uppercase”,letterSpacing:“0.08em”,marginBottom:8}}>◉ Strategic Verdict</div><div style={{fontSize:14,fontWeight:500,color:C.goldLight,lineHeight:1.6}}>{data.verdict}</div></div>}
-
-  </div>);
-}
-
-// ─── CRITERIA PANEL ───
-function CriteriaPanel({type}){
-const[open,setOpen]=useState(false);
-if(type===“signals”)return(
-<div className="card" style={{padding:14,marginBottom:16}}>
-<div style={{display:“flex”,justifyContent:“space-between”,alignItems:“center”,cursor:“pointer”}} onClick={()=>setOpen(!open)}>
-<div style={{fontSize:11,fontWeight:700,color:C.gold,textTransform:“uppercase”,letterSpacing:“0.06em”}}>Signal Selection Criteria</div>
-<span style={{fontSize:12,color:C.dim}}>{open?“▲”:“▼”}</span>
-</div>
-<div style={{display:“flex”,gap:12,marginTop:8,fontSize:11,color:C.muted,flexWrap:“wrap”}}>
-<span>🇸🇦 <strong style={{color:C.cyan}}>{SIGNAL_CRITERIA.local.count}</strong> local</span>
-<span>🌐 <strong style={{color:C.purple}}>{SIGNAL_CRITERIA.global.count}</strong> global</span>
-<span>📅 {RETENTION_DAYS}-day retention</span>
-<span>🔄 Daily 02:00 AST</span>
-</div>
-{open&&<div style={{marginTop:12,paddingTop:12,borderTop:`1px solid ${C.border}`}}>
-{[“local”,“global”].map(scope=><div key={scope} style={{marginBottom:14}}>
-<div style={{fontSize:11,fontWeight:600,color:scope===“local”?C.cyan:C.purple,marginBottom:6}}>{SIGNAL_CRITERIA[scope].label}</div>
-<div style={{fontSize:11,color:C.muted,marginBottom:6}}>{SIGNAL_CRITERIA[scope].description}</div>
-{SIGNAL_CRITERIA[scope].types.map((t,i)=><div key={i} style={{fontSize:11,color:C.muted,paddingLeft:12,lineHeight:1.6}}>• {t}</div>)}
-<div style={{fontSize:10,color:C.dim,marginTop:6}}>Sources: {SIGNAL_CRITERIA[scope].sources}</div>
-</div>)}
-</div>}
-</div>
-);
-return(
-<div className="card" style={{padding:14,marginBottom:16}}>
-<div style={{display:“flex”,justifyContent:“space-between”,alignItems:“center”,cursor:“pointer”}} onClick={()=>setOpen(!open)}>
-<div style={{fontSize:11,fontWeight:700,color:C.gold,textTransform:“uppercase”,letterSpacing:“0.06em”}}>Opportunity Generation Criteria</div>
-<span style={{fontSize:12,color:C.dim}}>{open?“▲”:“▼”}</span>
-</div>
-<div style={{display:“flex”,gap:12,marginTop:8,fontSize:11,color:C.muted,flexWrap:“wrap”}}>
-<span>◆ <strong style={{color:C.gold}}>{OPPORTUNITY_CRITERIA.count.min}-{OPPORTUNITY_CRITERIA.count.max}</strong> per cycle</span>
-<span>📊 6-dimension scoring</span>
-<span>📅 {RETENTION_DAYS}-day retention</span>
-</div>
-{open&&<div style={{marginTop:12,paddingTop:12,borderTop:`1px solid ${C.border}`}}>
-<div style={{fontSize:11,color:C.dim,marginBottom:6}}>Each opportunity includes:</div>
-{OPPORTUNITY_CRITERIA.template.map((t,i)=><div key={i} style={{fontSize:11,color:C.muted,paddingLeft:12,lineHeight:1.6}}>• {t}</div>)}
-<div style={{fontSize:11,color:C.dim,marginTop:10,marginBottom:6}}>Scoring (0-100):</div>
-{OPPORTUNITY_CRITERIA.scoring.map((s,i)=><div key={i} style={{fontSize:11,color:C.muted,paddingLeft:12,lineHeight:1.6}}>• <strong style={{color:C.gold}}>{s.name}</strong>: {s.desc}</div>)}
-</div>}
-</div>
-);
-}
-
-// ─── API KEY SETUP SCREEN ───
-function ApiKeySetup({onSave}){
-const[key,setKey]=useState(””);
-return(
-<div style={{minHeight:“100vh”,background:C.bg,display:“flex”,alignItems:“center”,justifyContent:“center”,padding:20}}>
-<div className=“card” style={{padding:32,maxWidth:440,width:“100%”,textAlign:“center”}}>
-<div style={{width:48,height:48,borderRadius:12,background:`linear-gradient(135deg,${C.gold},${C.goldDim})`,display:“flex”,alignItems:“center”,justifyContent:“center”,fontSize:22,fontWeight:700,color:C.bg,margin:“0 auto 16px”}}>◉</div>
-<div style={{fontFamily:”‘Crimson Pro’,serif”,fontSize:24,fontWeight:600,color:C.gold,marginBottom:4}}>Opportunity Radar</div>
-<div style={{fontSize:12,color:C.muted,marginBottom:24}}>AI-powered Vision 2030 intelligence platform</div>
-<div style={{fontSize:13,color:C.text,marginBottom:16,lineHeight:1.6,textAlign:“left”}}>
-To power the AI agent, enter your Anthropic API key. It is stored <strong>only in your browser</strong> — never sent anywhere except Anthropic’s API.
-</div>
-<input className=“input” type=“password” placeholder=“sk-ant-api03-…” value={key} onChange={e=>setKey(e.target.value)}
-style={{width:“100%”,marginBottom:12,padding:“12px 14px”,fontSize:14}}/>
-<button className=“btn btn-gold” onClick={()=>{if(key.startsWith(“sk-”)){setApiKey(key);onSave(key);}}}
-disabled={!key.startsWith(“sk-”)}
-style={{width:“100%”,padding:“12px”,fontSize:14,justifyContent:“center”}}>
-🔐 Save & Launch
-</button>
-<div style={{fontSize:10,color:C.dim,marginTop:12}}>Get your key at console.anthropic.com → API Keys</div>
-</div>
-</div>
-);
-}
-
-// ─── MAIN APP ───
-function App(){
-const[apiKeyValue,setApiKeyValue]=useState(getApiKey());
-const[view,setView]=useState(“signals”);
-const[role,setRole]=useState(“entrepreneur”);
-const[signalScope,setSignalScope]=useState(“all”);
-const[signals,setSignals]=useState([]);
-const[opportunities,setOpportunities]=useState([]);
-const[lastSigRefresh,setLastSigRefresh]=useState(null);
-const[lastOppRefresh,setLastOppRefresh]=useState(null);
-const[sigLoading,setSigLoading]=useState(false);
-const[oppLoading,setOppLoading]=useState(false);
-const[sigProgress,setSigProgress]=useState(””);
-const[oppProgress,setOppProgress]=useState(””);
-const[studioQuery,setStudioQuery]=useState(””);
-const[studioResult,setStudioResult]=useState(null);
-const[studioRaw,setStudioRaw]=useState(””);
-const[studioLoading,setStudioLoading]=useState(false);
-const[analysisType,setAnalysisType]=useState(“strategic”);
-const[showKeyEdit,setShowKeyEdit]=useState(false);
-
-useEffect(()=>{
-const sd=loadData(“radar-signals”);
-const od=loadData(“radar-opportunities”);
-if(sd){setSignals(purgeOld(sd.items||[]));setLastSigRefresh(sd.lastRefresh);}
-if(od){setOpportunities(purgeOld(od.items||[]));setLastOppRefresh(od.lastRefresh);}
-},[]);
-
-// If no API key, show setup
-if(!apiKeyValue){
-return <ApiKeySetup onSave={(k)=>setApiKeyValue(k)}/>;
-}
-
-const sectors=[…new Set(signals.map(s=>s.sector).filter(Boolean))];
-const filteredSignals=signals.filter(s=>{if(signalScope===“local”&&s.scope!==“local”)return false;if(signalScope===“global”&&s.scope!==“global”)return false;return true;});
-const hoursAgo=(ts)=>ts?Math.round((Date.now()-new Date(ts).getTime())/36e5):null;
-const needsRefresh=(ts)=>!ts||hoursAgo(ts)>=24;
-
-// ─── FETCH SIGNALS ───
-const fetchSignals=async()=>{
-setSigLoading(true);setSigProgress(“Searching latest news…”);
-const today=new Date().toISOString().split(“T”)[0];
+// ─── SIGNAL FETCH ───
+async function fetchSignals(){
+state.sigLoading=true;state.sigMsg=‘Searching latest news…’;render();
 try{
-const text=await callAgent([{role:“user”,content:`You are the Signal Detection Engine of “Opportunity Radar”, a Vision 2030 business intelligence platform. TODAY: ${today}
+const text=await callAPI([{role:‘user’,content:`You are a Signal Detection Engine for Saudi Arabia Vision 2030. TODAY: ${new Date().toISOString().split(‘T’)[0]}
 
-Search the web for REAL, CURRENT news. Generate exactly ${SIGNAL_CRITERIA.local.count} Saudi local signals and ${SIGNAL_CRITERIA.global.count} global signals.
+Search the web for REAL current news. Generate exactly 10 Saudi local signals and 8 global signals.
 
-LOCAL SIGNAL TYPES: ${SIGNAL_CRITERIA.local.types.join(”; “)}
-GLOBAL SIGNAL TYPES: ${SIGNAL_CRITERIA.global.types.join(”; “)}
+LOCAL TYPES: regulations, investment incentives, demographic shifts, tech milestones, tenders, mega-project updates, sector strategies, economic indicators
+GLOBAL TYPES: geopolitical events affecting Gulf, tech disruptions, trade policy, energy shifts, global economics, peer benchmarks
 
-IMPORTANT: Every signal must be a REAL recent event. Do NOT invent events.
+Every signal must be REAL. Respond ONLY with JSON array:
+[{“scope”:“local|global”,“headline”:”…”,“sector”:”…”,“region”:”…”,“date”:“YYYY-MM-DD”,“impact”:“critical|high|medium”,“source”:”…”,“type”:”…”,“context”:“2-3 sentences”}]`}],true); const p=extractJSON(text); if(Array.isArray(p)&&p.length){ const stamped=p.map(s=>({...s,_at:new Date().toISOString(),_id:Math.random().toString(36).slice(2,9)})); const ex=purge(state.signals);const hs=new Set(ex.map(s=>s.headline)); const fresh=stamped.filter(s=>!hs.has(s.headline)); state.signals=[...fresh,...ex];state.lastSig=new Date().toISOString(); localStorage.setItem('radar-signals',JSON.stringify({items:state.signals,lastRefresh:state.lastSig})); state.sigMsg=`✅ ${fresh.length} new signals. ${state.signals.length} total.`;
+}else state.sigMsg=‘⚠ Could not parse. Try again.’;
+}catch(e){state.sigMsg=’❌ ’+e.message;}
+state.sigLoading=false;render();
+}
 
-Respond ONLY with a JSON array. No markdown. Start with [ end with ].
-
-Each object: {“scope”:“local|global”,“headline”:”…”,“sector”:“Tourism|Fintech|Energy|AI & Digital|Manufacturing|Education|Healthcare|Entertainment|Logistics|Cybersecurity|Technology|Defense|Real Estate|Deep Tech”,“region”:”…”,“date”:“YYYY-MM-DD”,“impact”:“critical|high|medium”,“source”:”…”,“type”:“Regulation|Investment|Policy|Milestone|Incentive|Industrial|Cyber Threat|Geopolitical|Technology|Benchmark|Tender”,“context”:“2-3 sentences on what happened and Saudi impact”}`}],apiKeyValue,true);
-
-```
-  setSigProgress("Parsing signals...");
-  const parsed=extractJSON(text);
-  if(Array.isArray(parsed)&&parsed.length>0){
-    const stamped=parsed.map(s=>({...s,_fetchedAt:new Date().toISOString(),_id:Math.random().toString(36).slice(2,10)}));
-    const existing=purgeOld(signals);
-    const existH=new Set(existing.map(s=>s.headline));
-    const fresh=stamped.filter(s=>!existH.has(s.headline));
-    const merged=[...fresh,...existing];
-    setSignals(merged);
-    const ts=new Date().toISOString();
-    setLastSigRefresh(ts);
-    saveData("radar-signals",{items:merged,lastRefresh:ts});
-    setSigProgress(`✅ ${fresh.length} new signals. ${merged.length} total (${RETENTION_DAYS}-day window).`);
-  }else{setSigProgress("⚠ Could not parse. Try again.");}
-}catch(e){setSigProgress(`❌ ${e.message}`);}
-setTimeout(()=>setSigLoading(false),1500);
-```
-
-};
-
-// ─── GENERATE OPPORTUNITIES ───
-const generateOpps=async()=>{
-if(signals.length===0){setOppProgress(“⚠ Load signals first.”);return;}
-setOppLoading(true);setOppProgress(“Analyzing signal clusters…”);
-const sigSum=signals.slice(0,20).map(s=>`[${s.scope}][${s.impact}] ${s.headline} | ${s.sector} | ${s.date}: ${s.context}`).join(”\n”);
+// ─── OPPORTUNITY GENERATION ───
+async function generateOpps(){
+if(!state.signals.length){state.oppMsg=‘⚠ Load signals first.’;render();return;}
+state.oppLoading=true;state.oppMsg=‘Synthesizing from signals…’;render();
+const ctx=state.signals.slice(0,20).map(s=>`[${s.scope}][${s.impact}] ${s.headline} | ${s.sector}: ${s.context}`).join(’\n’);
 try{
-const text=await callAgent([{role:“user”,content:`You are the Opportunity Engine of “Opportunity Radar”. Analyze these signals and generate ${OPPORTUNITY_CRITERIA.count.min}-${OPPORTUNITY_CRITERIA.count.max} scored opportunities.
+const text=await callAPI([{role:‘user’,content:`Analyze these signals. Generate 5-8 scored Saudi business opportunities.
 
-SIGNALS:\n${sigSum}
+SIGNALS:\n${ctx}
 
-Each opportunity must link to 2+ signals. Score 0-100 on: V2030 Alignment, Regulatory Support, Market Attractiveness, Ease of Entry, Low Competition, Investment vs Return.
+Each links to 2+ signals. Score 0-100 on: V2030 Alignment, Regulatory Support, Market Attractiveness, Ease of Entry, Low Competition, Investment vs Return.
 
-Respond ONLY with JSON array. Each: {“title”:”…”,“sector”:”…”,“region”:”…”,“score”:85,“urgency”:“Emerging|Growing|Mature|Declining”,“marketSize”:”$X.XB”,“growth”:”+XX%”,“description”:“3-4 sentences”,“customers”:”…”,“competition”:”…”,“capabilities”:”…”,“risks”:”…”,“investment”:”$X-XM”,“returnEst”:“Xx/Xyr”,“linkedSignals”:[“headline1”,“headline2”],“scores”:{“v2030”:90,“regulatory”:85,“market”:88,“ease”:70,“competition”:75,“investReturn”:80}}`}],apiKeyValue,false);
-
-```
-  setOppProgress("Parsing opportunities...");
-  const parsed=extractJSON(text);
-  if(Array.isArray(parsed)&&parsed.length>0){
-    const stamped=parsed.map(o=>({...o,_fetchedAt:new Date().toISOString(),_id:Math.random().toString(36).slice(2,10)}));
-    const existing=purgeOld(opportunities);
-    const existT=new Set(existing.map(o=>o.title));
-    const fresh=stamped.filter(o=>!existT.has(o.title));
-    const merged=[...fresh,...existing].sort((a,b)=>(b.score||0)-(a.score||0));
-    setOpportunities(merged);
-    const ts=new Date().toISOString();
-    setLastOppRefresh(ts);
-    saveData("radar-opportunities",{items:merged,lastRefresh:ts});
-    setOppProgress(`✅ ${fresh.length} new opportunities. ${merged.length} total.`);
-  }else{setOppProgress("⚠ Could not parse. Try again.");}
-}catch(e){setOppProgress(`❌ ${e.message}`);}
-setTimeout(()=>setOppLoading(false),1500);
-```
-
-};
+Respond ONLY JSON array:
+[{“title”:”…”,“sector”:”…”,“region”:”…”,“score”:85,“urgency”:“Emerging|Growing”,“marketSize”:”$X.XB”,“growth”:”+XX%”,“description”:”…”,“customers”:”…”,“competition”:”…”,“capabilities”:”…”,“risks”:”…”,“investment”:”$X-XM”,“returnEst”:“Xx/Xyr”,“linkedSignals”:[”…”],“scores”:{“v2030”:90,“regulatory”:85,“market”:88,“ease”:70,“competition”:75,“investReturn”:80}}]`}],false); const p=extractJSON(text); if(Array.isArray(p)&&p.length){ const stamped=p.map(o=>({...o,_at:new Date().toISOString(),_id:Math.random().toString(36).slice(2,9)})); const ex=purge(state.opportunities);const ts=new Set(ex.map(o=>o.title)); const fresh=stamped.filter(o=>!ts.has(o.title)); state.opportunities=[...fresh,...ex].sort((a,b)=>(b.score||0)-(a.score||0)); state.lastOpp=new Date().toISOString(); localStorage.setItem('radar-opportunities',JSON.stringify({items:state.opportunities,lastRefresh:state.lastOpp})); state.oppMsg=`✅ ${fresh.length} new opportunities. ${state.opportunities.length} total.`;
+}else state.oppMsg=‘⚠ Could not parse.’;
+}catch(e){state.oppMsg=’❌ ’+e.message;}
+state.oppLoading=false;render();
+}
 
 // ─── AI STUDIO ───
-const runStudio=async(query,type)=>{
-if(!query.trim())return;
-const fw=type||analysisType;
-setStudioLoading(true);setStudioResult(null);setStudioRaw(””);
-const roleDesc=role===“entrepreneur”?“an entrepreneur/SME owner”:role===“investor”?“a VC/angel investor”:“a government policy maker”;
-const sigCtx=signals.slice(0,18).map(s=>`[${s.scope}][${s.impact}] ${s.headline} | ${s.sector}: ${s.context}`).join(”\n”);
-const oppCtx=opportunities.slice(0,8).map(o=>`${o.title} | Score:${o.score} | ${o.marketSize} | ${o.description}`).join(”\n”);
-
-```
-const schema=fw==="pestel"
-  ?`{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","pestel":[{"name":"Political","rating":"FAVORABLE|NEUTRAL|UNFAVORABLE","detail":"..."},{"name":"Economic","rating":"...","detail":"..."},{"name":"Social","rating":"...","detail":"..."},{"name":"Technological","rating":"...","detail":"..."},{"name":"Environmental","rating":"...","detail":"..."},{"name":"Legal","rating":"...","detail":"..."}],"sections":[{"heading":"...","content":"..."}],"verdict":"..."}`
-  :fw==="risk"
-  ?`{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","risks":[{"name":"...","probability":"High|Medium|Low","impact":"Critical|High|Medium|Low","mitigation":"..."}],"sections":[{"heading":"...","content":"..."}],"verdict":"..."}`
-  :`{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","sections":[{"heading":"...","content":"...","color":"#hex"}],"verdict":"..."}`;
-
+async function runStudio(q){
+if(!q?.trim())return;
+state.stLoading=true;state.stResult=null;state.stRaw=’’;state.stQuery=q;render();
+const fw=state.framework;const ro=state.role===‘entrepreneur’?‘an entrepreneur/SME owner’:state.role===‘investor’?‘a VC/angel investor’:‘a policy maker’;
+const sig=state.signals.slice(0,18).map(s=>`[${s.scope}][${s.impact}] ${s.headline}: ${s.context}`).join(’\n’);
+const opp=state.opportunities.slice(0,8).map(o=>`${o.title} | Score:${o.score} | ${o.marketSize}: ${o.description}`).join(’\n’);
+const schema=fw===‘pestel’?‘Include “pestel”:[{“name”:“Political|Economic|Social|Technological|Environmental|Legal”,“rating”:“FAVORABLE|NEUTRAL|UNFAVORABLE”,“detail”:”…”}]’:’’;
+const riskSchema=fw===‘risk’?‘Include “risks”:[{“name”:”…”,“probability”:“High|Medium|Low”,“impact”:“Critical|High|Medium|Low”,“mitigation”:”…”}]’:’’;
 try{
-  const text=await callAgent([{role:"user",content:`You are the AI Decision Engine of "Opportunity Radar" for Saudi Vision 2030. Respond ONLY with JSON. Schema: ${schema}
-```
+const text=await callAPI([{role:‘user’,content:`AI Decision Engine for Saudi Vision 2030. Respond ONLY JSON:
+{“title”:”…”,“subtitle”:”…”,“metrics”:[{“value”:”…”,“label”:”…”,“icon”:”…”}],“summary”:”…”,“sections”:[{“heading”:”…”,“content”:”…”}],“verdict”:”…”${schema?’,’+schema:’’}${riskSchema?’,’+riskSchema:’’}}
 
-LIVE SIGNALS:\n${sigCtx||“No signals yet — search the web for current Saudi news.”}
-LIVE OPPORTUNITIES:\n${oppCtx||“None yet.”}
-FRAMEWORK: ${fw.toUpperCase()} | STAKEHOLDER: ${roleDesc}
-QUERY: ${query}
-
-3-4 metrics, 2-4 sections, bold verdict. Be specific to Saudi Arabia.`}],apiKeyValue,true); const parsed=extractJSON(text); if(parsed?.title)setStudioResult(parsed);else setStudioRaw(text); }catch(e){setStudioRaw(`Error: ${e.message}`);}
-setStudioLoading(false);
-};
-
-const analyzeSignal=(s)=>{setView(“studio”);const q=`Analyze: "${s.headline}" — implications for Saudi Arabia.`;setStudioQuery(q);setTimeout(()=>runStudio(q),100);};
-const analyzeOpp=(o)=>{setView(“studio”);const q=`Deep analysis: "${o.title}" (Score:${o.score}, Market:${o.marketSize}).`;setStudioQuery(q);setTimeout(()=>runStudio(q),100);};
-
-return(
-<div style={{minHeight:“100vh”,background:C.bg}}>
-{/* Header */}
-<header style={{background:C.bg2,borderBottom:`1px solid ${C.border}`,position:“sticky”,top:0,zIndex:100}}>
-<div style={{display:“flex”,alignItems:“center”,justifyContent:“space-between”,height:52,maxWidth:1300,margin:“0 auto”,padding:“0 16px”}}>
-<div style={{display:“flex”,alignItems:“center”,gap:8}}>
-<div style={{width:26,height:26,borderRadius:6,background:`linear-gradient(135deg,${C.gold},${C.goldDim})`,display:“flex”,alignItems:“center”,justifyContent:“center”,fontSize:12,fontWeight:700,color:C.bg}}>◉</div>
-<span style={{fontFamily:”‘Crimson Pro’,serif”,fontWeight:600,fontSize:15,color:C.gold}}>Opportunity Radar</span>
-</div>
-<div style={{display:“flex”,gap:1}}>
-{[{id:“signals”,l:“Signals”,i:“◈”},{id:“opportunities”,l:“Opps”,i:“◆”},{id:“studio”,l:“AI Studio”,i:“⚡”}].map(t=>(
-<button key={t.id} onClick={()=>setView(t.id)} style={{padding:“6px 12px”,fontSize:11,fontWeight:500,fontFamily:”‘Outfit’,sans-serif”,color:view===t.id?C.gold:C.dim,background:view===t.id?C.gold+“0c”:“transparent”,border:“none”,borderBottom:`2px solid ${view===t.id?C.gold:"transparent"}`,cursor:“pointer”}}>{t.i} {t.l}</button>
-))}
-</div>
-<div style={{display:“flex”,gap:6,alignItems:“center”}}>
-<select className=“input” style={{padding:“3px 6px”,fontSize:10}} value={role} onChange={e=>setRole(e.target.value)}>
-<option value="entrepreneur">🏗 Entrep.</option><option value="investor">📊 Investor</option><option value="policymaker">🏛 Policy</option>
-</select>
-<button className=“btn btn-ghost” style={{padding:“3px 8px”,fontSize:10}} onClick={()=>setShowKeyEdit(!showKeyEdit)}>🔑</button>
-</div>
-</div>
-</header>
-
-```
-  {/* API Key editor */}
-  {showKeyEdit&&<div style={{background:C.surfaceAlt,borderBottom:`1px solid ${C.border}`,padding:"10px 16px"}}>
-    <div style={{maxWidth:1300,margin:"0 auto",display:"flex",gap:10,alignItems:"center"}}>
-      <span style={{fontSize:11,color:C.dim}}>API Key:</span>
-      <input className="input" type="password" defaultValue={apiKeyValue} style={{flex:1,padding:"6px 10px",fontSize:12}}
-        onBlur={e=>{if(e.target.value.startsWith("sk-")){setApiKey(e.target.value);setApiKeyValue(e.target.value);}}}/>
-      <span style={{fontSize:10,color:C.green}}>✓ Saved in browser only</span>
-    </div>
-  </div>}
-
-  <main style={{maxWidth:1300,margin:"0 auto",padding:"16px 16px 60px"}}>
-
-    {/* ═══ SIGNALS ═══ */}
-    {view==="signals"&&<div className="fi">
-      <h1 style={{fontFamily:"'Crimson Pro',serif",fontSize:22,fontWeight:600,marginBottom:4}}>Signal Detection Engine</h1>
-      <p style={{color:C.muted,fontSize:12,marginBottom:14}}>AI-powered extraction from live news. Tap any signal to analyze.</p>
-      <CriteriaPanel type="signals"/>
-      <div className="card" style={{padding:12,marginBottom:14,display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:8}}>
-        <div style={{display:"flex",gap:10,fontSize:11,color:C.muted,alignItems:"center",flexWrap:"wrap"}}>
-          <span>📡 <strong style={{color:C.text}}>{signals.length}</strong></span>
-          <span>🇸🇦 <strong style={{color:C.cyan}}>{signals.filter(s=>s.scope==="local").length}</strong></span>
-          <span>🌐 <strong style={{color:C.purple}}>{signals.filter(s=>s.scope==="global").length}</strong></span>
-          {lastSigRefresh&&<span style={{color:needsRefresh(lastSigRefresh)?C.orange:C.green}}>{hoursAgo(lastSigRefresh)}h ago</span>}
-          {needsRefresh(lastSigRefresh)&&<Badge color={C.orange} small>refresh needed</Badge>}
-        </div>
-        <button className="btn btn-gold" onClick={fetchSignals} disabled={sigLoading} style={{fontSize:11,padding:"6px 14px"}}>
-          {sigLoading?"⏳ Scanning...":"🔄 Refresh Signals"}
-        </button>
-      </div>
-      {(sigLoading||sigProgress)&&<div style={{padding:"8px 12px",marginBottom:12,fontSize:11,color:sigProgress.startsWith("✅")?C.green:sigProgress.startsWith("❌")?C.red:C.gold,background:C.surfaceAlt,borderRadius:6}}>
-        {sigLoading&&<span className="loading">⏳ </span>}{sigProgress}
-      </div>}
-      <div style={{display:"flex",gap:6,marginBottom:14,alignItems:"center"}}>
-        {["all","local","global"].map(s=><button key={s} className={`btn btn-ghost ${signalScope===s?"active":""}`} style={{fontSize:11,padding:"5px 10px"}} onClick={()=>setSignalScope(s)}>{s==="all"?"All":s==="local"?"🇸🇦 Local":"🌐 Global"}</button>)}
-        <Badge color={C.blue}>{filteredSignals.length}</Badge>
-      </div>
-      {signals.length===0&&!sigLoading&&<div className="card" style={{padding:36,textAlign:"center"}}>
-        <div style={{fontSize:28,marginBottom:10}}>◈</div>
-        <div style={{fontSize:14,fontWeight:600,marginBottom:8}}>No signals yet</div>
-        <div style={{fontSize:12,color:C.muted,marginBottom:14}}>Tap "Refresh Signals" to scan live sources for {SIGNAL_CRITERIA.local.count+SIGNAL_CRITERIA.global.count} signals.</div>
-        <button className="btn btn-gold" onClick={fetchSignals} disabled={sigLoading}>🔄 Refresh Signals</button>
-      </div>}
-      {filteredSignals.map((s,i)=><div key={s._id||i} className="card fi" style={{padding:14,marginBottom:8,cursor:"pointer",animationDelay:`${i*.03}s`}} onClick={()=>analyzeSignal(s)}>
-        <div style={{display:"flex",gap:5,flexWrap:"wrap",marginBottom:6}}>
-          <Badge color={s.scope==="global"?C.purple:C.cyan} small>{s.scope}</Badge>
-          <Badge color={s.impact==="critical"?C.red:s.impact==="high"?C.orange:C.gold} small>{s.impact}</Badge>
-          <Badge color={C.blue} small>{s.sector}</Badge>
-          {s.type&&<Badge small>{s.type}</Badge>}
-        </div>
-        <div style={{fontSize:13,fontWeight:600,marginBottom:4,lineHeight:1.4}}>{s.headline}</div>
-        <div style={{fontSize:11,color:C.muted,lineHeight:1.5,marginBottom:4}}>{s.context}</div>
-        <div style={{display:"flex",justifyContent:"space-between",fontSize:10,color:C.dim}}>
-          <span>{s.source} · {s.date}</span>
-          <span style={{color:C.gold,fontWeight:600}}>⚡ Analyze →</span>
-        </div>
-      </div>)}
-    </div>}
-
-    {/* ═══ OPPORTUNITIES ═══ */}
-    {view==="opportunities"&&<div className="fi">
-      <h1 style={{fontFamily:"'Crimson Pro',serif",fontSize:22,fontWeight:600,marginBottom:4}}>Opportunity Explorer</h1>
-      <p style={{color:C.muted,fontSize:12,marginBottom:14}}>AI-scored from signal clusters. Tap to deep-analyze.</p>
-      <CriteriaPanel type="opportunities"/>
-      <div className="card" style={{padding:12,marginBottom:14,display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:8}}>
-        <div style={{display:"flex",gap:10,fontSize:11,color:C.muted,alignItems:"center",flexWrap:"wrap"}}>
-          <span>◆ <strong style={{color:C.text}}>{opportunities.length}</strong></span>
-          <span>from <strong>{signals.length}</strong> signals</span>
-          {lastOppRefresh&&<span style={{color:needsRefresh(lastOppRefresh)?C.orange:C.green}}>{hoursAgo(lastOppRefresh)}h ago</span>}
-        </div>
-        <button className="btn btn-gold" onClick={generateOpps} disabled={oppLoading||signals.length===0} style={{fontSize:11,padding:"6px 14px"}}>
-          {oppLoading?"⏳ Generating...":"🔄 Generate"}
-        </button>
-      </div>
-      {(oppLoading||oppProgress)&&<div style={{padding:"8px 12px",marginBottom:12,fontSize:11,color:oppProgress.startsWith("✅")?C.green:oppProgress.startsWith("❌")?C.red:C.gold,background:C.surfaceAlt,borderRadius:6}}>
-        {oppLoading&&<span className="loading">⏳ </span>}{oppProgress}
-      </div>}
-      {opportunities.length===0&&!oppLoading&&<div className="card" style={{padding:36,textAlign:"center"}}>
-        <div style={{fontSize:28,marginBottom:10}}>◆</div>
-        <div style={{fontSize:14,fontWeight:600,marginBottom:8}}>No opportunities yet</div>
-        <div style={{fontSize:12,color:C.muted,marginBottom:14}}>{signals.length===0?"Load signals first.":"Tap below to synthesize from "+signals.length+" signals."}</div>
-        <button className="btn btn-gold" onClick={signals.length>0?generateOpps:fetchSignals}>{signals.length>0?"🔄 Generate":"🔄 Load Signals First"}</button>
-      </div>}
-      {opportunities.map((o,i)=><div key={o._id||i} className="card fi" style={{padding:16,marginBottom:10,cursor:"pointer",animationDelay:`${i*.04}s`}} onClick={()=>analyzeOpp(o)}>
-        <div style={{display:"flex",gap:14}}>
-          <ScoreRing score={o.score||75} size={52}/>
-          <div style={{flex:1}}>
-            <div style={{display:"flex",gap:5,marginBottom:6,flexWrap:"wrap"}}><Badge color={C.gold}>{o.sector}</Badge>{o.region&&<Badge color={C.green}>{o.region}</Badge>}{o.urgency&&<Badge color={o.urgency==="Critical"?C.red:C.cyan}>{o.urgency}</Badge>}</div>
-            <div style={{fontSize:15,fontWeight:600,fontFamily:"'Crimson Pro',serif",marginBottom:4}}>{o.title}</div>
-            <p style={{fontSize:11,color:C.muted,lineHeight:1.5,marginBottom:8}}>{o.description}</p>
-            <div style={{display:"flex",gap:14,fontSize:11,marginBottom:8,flexWrap:"wrap"}}>
-              {o.marketSize&&<span><span style={{color:C.dim}}>Market</span> <span style={{color:C.gold,fontWeight:600}}>{o.marketSize}</span></span>}
-              {o.growth&&<span><span style={{color:C.dim}}>Growth</span> <span style={{color:C.green,fontWeight:600}}>{o.growth}</span></span>}
-              {o.investment&&<span><span style={{color:C.dim}}>Invest</span> <span style={{fontWeight:500}}>{o.investment}</span></span>}
-            </div>
-            {o.scores&&<div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:4}}>
-              <MiniBar label="V2030" value={o.scores.v2030||0} color={C.gold}/>
-              <MiniBar label="Regulatory" value={o.scores.regulatory||0} color={C.green}/>
-              <MiniBar label="Market" value={o.scores.market||0} color={C.blue}/>
-              <MiniBar label="Competition" value={o.scores.competition||0} color={C.purple}/>
-            </div>}
-          </div>
-        </div>
-      </div>)}
-    </div>}
-
-    {/* ═══ AI STUDIO ═══ */}
-    {view==="studio"&&<div className="fi">
-      <h1 style={{fontFamily:"'Crimson Pro',serif",fontSize:22,fontWeight:600,marginBottom:4}}>AI Decision Studio</h1>
-      <p style={{color:C.muted,fontSize:12,marginBottom:14}}>Structured briefs from {signals.length} live signals and {opportunities.length} opportunities.</p>
-      <div style={{display:"flex",gap:6,marginBottom:10,flexWrap:"wrap",alignItems:"center"}}>
-        <span style={{fontSize:11,color:C.dim}}>Framework:</span>
-        {[{id:"strategic",l:"Strategic",i:"🔬"},{id:"pestel",l:"PESTEL",i:"🌍"},{id:"risk",l:"Risk",i:"⚠️"},{id:"competitive",l:"Competitive",i:"🏁"}].map(f=>
-          <button key={f.id} className={`btn btn-ghost ${analysisType===f.id?"active":""}`} style={{fontSize:10,padding:"4px 10px"}} onClick={()=>setAnalysisType(f.id)}>{f.i} {f.l}</button>
-        )}
-      </div>
-      <div style={{display:"flex",gap:5,marginBottom:12,flexWrap:"wrap"}}>
-        {["Strongest opportunity clusters right now","PESTEL: Saudi AI sector","Risk: Red Sea logistics","Top sectors by signal momentum","Compare top 3 opportunities"].map((q,i)=>
-          <button key={i} className="btn btn-ghost" style={{fontSize:9,padding:"3px 8px"}} onClick={()=>{setStudioQuery(q);runStudio(q);}}>{q}</button>
-        )}
-      </div>
-      <div className="card" style={{padding:14,marginBottom:14}}>
-        <div style={{display:"flex",gap:8}}>
-          <textarea className="input" value={studioQuery} onChange={e=>setStudioQuery(e.target.value)}
-            onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();runStudio(studioQuery);}}}
-            placeholder="Ask about signals, opportunities, risks..."/>
-          <button className="btn btn-gold" onClick={()=>runStudio(studioQuery)} disabled={studioLoading} style={{alignSelf:"flex-end",padding:"10px 18px",fontSize:13}}>
-            {studioLoading?"⏳":"⚡"}
-          </button>
-        </div>
-        <div style={{display:"flex",gap:10,marginTop:6,fontSize:10,color:C.dim,flexWrap:"wrap"}}>
-          <span>📊 {analysisType}</span><span>👤 {role}</span><span>📡 {signals.length} sig</span><span>◆ {opportunities.length} opp</span>
-        </div>
-      </div>
-      {studioLoading&&<div className="card" style={{padding:36,textAlign:"center"}}><div style={{color:C.gold,fontSize:13}} className="loading">AI Agent analyzing...</div></div>}
-      {studioResult&&!studioLoading&&<div className="card fi" style={{padding:20}}><div style={{display:"flex",gap:6,marginBottom:14,paddingBottom:10,borderBottom:`1px solid ${C.border}`}}><Badge color={C.gold}>{analysisType}</Badge><Badge color={C.green}>{role}</Badge><Badge color={C.purple}>live</Badge></div><AnalysisRenderer data={studioResult}/></div>}
-      {studioRaw&&!studioResult&&!studioLoading&&<div className="card fi" style={{padding:20}}><div style={{fontSize:12,lineHeight:1.8,whiteSpace:"pre-wrap"}}>{studioRaw}</div></div>}
-    </div>}
-  </main>
-</div>
-```
-
-);
+SIGNALS:\n${sig||‘None yet’}\nOPPORTUNITIES:\n${opp||‘None yet’}\nFRAMEWORK:${fw} ROLE:${ro}\nQUERY:${q}\n\n3-4 metrics, 2-4 sections, bold verdict. Specific to Saudi Arabia.`}],true);
+const p=extractJSON(text);
+if(p?.title)state.stResult=p;else state.stRaw=text;
+}catch(e){state.stRaw=’Error: ’+e.message;}
+state.stLoading=false;render();
 }
 
-ReactDOM.createRoot(document.getElementById(‘root’)).render(React.createElement(App));
+// ─── RENDER ───
+function render(){
+const app=document.getElementById(‘app’);
+if(!state.apiKey){app.innerHTML=renderKeyScreen();return;}
+app.innerHTML=renderHeader()+’<main>’+
+(state.view===‘signals’?renderSignals():state.view===‘opportunities’?renderOpps():renderStudio())
++’</main>’;
+bindEvents();
+}
+
+function renderKeyScreen(){
+return`<div class="key-screen"><div class="card" style="padding:32px;max-width:420px;width:100%;text-align:center">
+<div style="width:48px;height:48px;border-radius:12px;background:linear-gradient(135deg,var(--gold),var(--gd));display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:700;color:var(--bg);margin:0 auto 16px">◉</div>
+<div style="font-family:'Crimson Pro',serif;font-size:24px;font-weight:600;color:var(--gold);margin-bottom:4px">Opportunity Radar</div>
+<div style="font-size:12px;color:var(--mu);margin-bottom:24px">AI-powered Vision 2030 intelligence</div>
+<div style="font-size:13px;margin-bottom:16px;text-align:left;line-height:1.6">Enter your Anthropic API key. Stored <strong>only in your browser</strong>.</div>
+<input class="inp" id="keyIn" type="password" placeholder="sk-ant-api03-..." style="margin-bottom:12px;padding:12px 14px;font-size:14px">
+<button class="btn btn-g" id="keyBtn" style="width:100%;padding:12px;font-size:14px;justify-content:center">🔐 Save & Launch</button>
+<div style="font-size:10px;color:var(--dm);margin-top:12px">Get key at console.anthropic.com</div>
+
+  </div></div>`;
+}
+
+function renderHeader(){
+const tabs=[{id:‘signals’,l:‘◈ Signals’},{id:‘opportunities’,l:‘◆ Opps’},{id:‘studio’,l:‘⚡ AI Studio’}];
+return`<header><div class="hdr"> <div style="display:flex;align-items:center;gap:8px"> <div style="width:26px;height:26px;border-radius:6px;background:linear-gradient(135deg,var(--gold),var(--gd));display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--bg)">◉</div> <span style="font-family:'Crimson Pro',serif;font-weight:600;font-size:15px;color:var(--gold)">Opportunity Radar</span> </div> <div style="display:flex">${tabs.map(t=>`<button class="nav-btn ${state.view===t.id?'on':''}" data-nav="${t.id}">${t.l}</button>`).join(’’)}</div>
+<div style="display:flex;gap:6px;align-items:center">
+<select class="inp" id="roleSelect" style="padding:3px 6px;font-size:10px;width:auto">
+<option value=“entrepreneur” ${state.role===‘entrepreneur’?‘selected’:’’}>🏗 Entrep.</option>
+<option value=“investor” ${state.role===‘investor’?‘selected’:’’}>📊 Investor</option>
+<option value=“policymaker” ${state.role===‘policymaker’?‘selected’:’’}>🏛 Policy</option>
+</select>
+<button class="btn btn-o" id="keyEditBtn" style="padding:3px 8px;font-size:10px">🔑</button>
+</div>
+
+  </div>${state.showKey?`<div style="background:var(--sa);border-bottom:1px solid var(--bd);padding:10px 16px"><div style="max-width:1300px;margin:0 auto;display:flex;gap:10px;align-items:center"><span style="font-size:11px;color:var(--dm)">API Key:</span><input class="inp" id="keyEdit" type="password" value="${state.apiKey}" style="flex:1;padding:6px 10px;font-size:12px"><span style="font-size:10px;color:var(--green)">✓ Browser only</span></div></div>`:''}</header>`;
+}
+
+function renderSignals(){
+const sigs=state.signals.filter(s=>{if(state.scope===‘local’&&s.scope!==‘local’)return false;if(state.scope===‘global’&&s.scope!==‘global’)return false;return true;});
+const local=state.signals.filter(s=>s.scope===‘local’).length;
+const global=state.signals.filter(s=>s.scope===‘global’).length;
+const h=hAgo(state.lastSig);
+let html=`<div class="fi"> <h1 style="font-family:'Crimson Pro',serif;font-size:22px;font-weight:600;margin-bottom:4px">Signal Detection Engine</h1> <p style="color:var(--mu);font-size:12px;margin-bottom:14px">AI-powered from live news. Tap any signal to analyze.</p> <div class="card" style="padding:12px;margin-bottom:14px"> <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px"> <div style="display:flex;gap:10px;font-size:11px;color:var(--mu);align-items:center;flex-wrap:wrap"> <span>📡 <b style="color:var(--tx)">${state.signals.length}</b></span> <span>🇸🇦 <b style="color:var(--cyan)">${local}</b></span> <span>🌐 <b style="color:var(--purple)">${global}</b></span> ${h!==null?`<span style="color:${stale(state.lastSig)?'var(--orange)':'var(--green)'}">${h}h ago</span>`:''} ${stale(state.lastSig)?badge('refresh needed','#F59E0B'):''} </div> <button class="btn btn-g" id="refreshSig" ${state.sigLoading?'disabled':''} style="font-size:11px;padding:6px 14px">${state.sigLoading?'⏳ Scanning...':'🔄 Refresh Signals'}</button> </div> </div>`;
+if(state.sigMsg)html+=`<div class="progress" style="color:${state.sigMsg[0]==='✅'?'var(--green)':state.sigMsg[0]==='❌'?'var(--red)':'var(--gold)'}">${state.sigLoading?'<span class="ld">⏳</span> ':''}${state.sigMsg}</div>`;
+html+=`<div style="display:flex;gap:6px;margin-bottom:14px;align-items:center"> ${['all','local','global'].map(s=>`<button class="btn btn-o ${state.scope===s?'on':''}" data-scope="${s}" style="font-size:11px;padding:5px 10px">${s===‘all’?‘All’:s===‘local’?‘🇸🇦 Local’:‘🌐 Global’}</button>`).join(’’)}
+${badge(sigs.length,’#4A90D9’)}
+
+  </div>`;
+  if(!state.signals.length&&!state.sigLoading){
+    html+=`<div class="card empty"><div style="font-size:28px;margin-bottom:10px">◈</div><div style="font-size:14px;font-weight:600;margin-bottom:8px">No signals yet</div><div style="font-size:12px;color:var(--mu);margin-bottom:14px">Tap "Refresh Signals" to scan live sources for 18 signals.</div><button class="btn btn-g" id="refreshSig2">🔄 Refresh Signals</button></div>`;
+  }
+  sigs.forEach((s,i)=>{
+    html+=`<div class="card sig-card fi" data-sig="${i}" style="animation-delay:${i*.03}s">
+      <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:6px">
+        ${badge(s.scope,s.scope==='global'?'#A78BFA':'#22D3EE')}
+        ${badge(s.impact,s.impact==='critical'?'#EF4444':s.impact==='high'?'#F59E0B':'#C9A227')}
+        ${badge(s.sector,'#4A90D9')}
+        ${s.type?badge(s.type,'#8B95A8'):''}
+      </div>
+      <div style="font-size:13px;font-weight:600;margin-bottom:4px;line-height:1.4">${s.headline}</div>
+      <div style="font-size:11px;color:var(--mu);line-height:1.5;margin-bottom:4px">${s.context||''}</div>
+      <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--dm)">
+        <span>${s.source||''} · ${s.date||''}</span>
+        <span style="color:var(--gold);font-weight:600">⚡ Analyze →</span>
+      </div>
+    </div>`;
+  });
+  return html+'</div>';
+}
+
+function renderOpps(){
+const opps=state.opportunities;
+let html=`<div class="fi"> <h1 style="font-family:'Crimson Pro',serif;font-size:22px;font-weight:600;margin-bottom:4px">Opportunity Explorer</h1> <p style="color:var(--mu);font-size:12px;margin-bottom:14px">AI-scored from signal clusters. Tap to analyze.</p> <div class="card" style="padding:12px;margin-bottom:14px"> <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px"> <div style="display:flex;gap:10px;font-size:11px;color:var(--mu);flex-wrap:wrap"> <span>◆ <b style="color:var(--tx)">${opps.length}</b></span> <span>from <b>${state.signals.length}</b> signals</span> </div> <button class="btn btn-g" id="genOpp" ${state.oppLoading||!state.signals.length?'disabled':''} style="font-size:11px;padding:6px 14px">${state.oppLoading?'⏳ Generating...':'🔄 Generate'}</button> </div> </div>`;
+if(state.oppMsg)html+=`<div class="progress" style="color:${state.oppMsg[0]==='✅'?'var(--green)':state.oppMsg[0]==='❌'?'var(--red)':'var(--gold)'}">${state.oppLoading?'<span class="ld">⏳</span> ':''}${state.oppMsg}</div>`;
+if(!opps.length&&!state.oppLoading){
+html+=`<div class="card empty"><div style="font-size:28px;margin-bottom:10px">◆</div><div style="font-size:14px;font-weight:600;margin-bottom:8px">No opportunities yet</div><div style="font-size:12px;color:var(--mu);margin-bottom:14px">${!state.signals.length?'Load signals first.':state.signals.length+' signals ready. Tap to generate.'}</div><button class="btn btn-g" id="${state.signals.length?'genOpp2':'refreshSig3'}">${state.signals.length?'🔄 Generate':'🔄 Load Signals First'}</button></div>`;
+}
+opps.forEach((o,i)=>{
+const sc=o.score||75;const col=sc>=90?‘var(–green)’:sc>=80?‘var(–gold)’:sc>=70?‘var(–orange)’:‘var(–red)’;
+const scores=o.scores||{};
+html+=`<div class="card fi" data-opp="${i}" style="padding:16px;margin-bottom:10px;cursor:pointer;animation-delay:${i*.04}s"> <div style="display:flex;gap:14px"> <div style="width:52px;height:52px;border-radius:50%;border:3px solid ${col};display:flex;align-items:center;justify-content:center;font-family:'Crimson Pro',serif;font-size:18px;font-weight:700;color:${col};flex-shrink:0">${sc}</div> <div style="flex:1"> <div style="display:flex;gap:5px;margin-bottom:6px;flex-wrap:wrap">${badge(o.sector,'#C9A227')} ${o.region?badge(o.region,'#10B981'):''} ${o.urgency?badge(o.urgency,o.urgency==='Critical'?'#EF4444':'#22D3EE'):''}</div> <div style="font-size:15px;font-weight:600;font-family:'Crimson Pro',serif;margin-bottom:4px">${o.title}</div> <p style="font-size:11px;color:var(--mu);line-height:1.5;margin-bottom:8px">${o.description||''}</p> <div style="display:flex;gap:14px;font-size:11px;flex-wrap:wrap"> ${o.marketSize?`<span><span style="color:var(--dm)">Market</span> <b style="color:var(--gold)">${o.marketSize}</b></span>`:''} ${o.growth?`<span><span style="color:var(--dm)">Growth</span> <b style="color:var(--green)">${o.growth}</b></span>`:''} ${o.investment?`<span><span style="color:var(--dm)">Invest</span> <b>${o.investment}</b></span>`:''} </div> </div> </div> </div>`;
+});
+return html+’</div>’;
+}
+
+function renderStudio(){
+const fws=[{id:‘strategic’,l:‘🔬 Strategic’},{id:‘pestel’,l:‘🌍 PESTEL’},{id:‘risk’,l:‘⚠️ Risk’},{id:‘competitive’,l:‘🏁 Competitive’}];
+const qs=[“Strongest opportunity clusters”,“PESTEL: Saudi AI sector”,“Risk: Red Sea logistics”,“Top sectors by momentum”,“Compare top 3 opportunities”];
+let html=`<div class="fi"> <h1 style="font-family:'Crimson Pro',serif;font-size:22px;font-weight:600;margin-bottom:4px">AI Decision Studio</h1> <p style="color:var(--mu);font-size:12px;margin-bottom:14px">${state.signals.length} signals · ${state.opportunities.length} opportunities loaded</p> <div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap;align-items:center"> <span style="font-size:11px;color:var(--dm)">Framework:</span> ${fws.map(f=>`<button class="btn btn-o ${state.framework===f.id?'on':''}" data-fw="${f.id}" style="font-size:10px;padding:4px 10px">${f.l}</button>`).join('')} </div> <div style="display:flex;gap:5px;margin-bottom:12px;flex-wrap:wrap"> ${qs.map(q=>`<button class="btn btn-o" data-sq="${q}" style="font-size:9px;padding:3px 8px">${q}</button>`).join('')} </div> <div class="card" style="padding:14px;margin-bottom:14px"> <div style="display:flex;gap:8px"> <textarea class="inp" id="studioInput" placeholder="Ask about signals, opportunities, risks...">${state.stQuery}</textarea> <button class="btn btn-g" id="runStudio" ${state.stLoading?'disabled':''} style="align-self:flex-end;padding:10px 18px;font-size:13px">${state.stLoading?'⏳':'⚡'}</button> </div> </div>`;
+if(state.stLoading)html+=`<div class="card" style="padding:36px;text-align:center"><div style="color:var(--gold);font-size:13px" class="ld">AI Agent analyzing...</div></div>`;
+if(state.stResult&&!state.stLoading)html+=renderInfographic(state.stResult);
+if(state.stRaw&&!state.stResult&&!state.stLoading)html+=`<div class="card fi" style="padding:20px"><div style="font-size:12px;line-height:1.8;white-space:pre-wrap">${state.stRaw}</div></div>`;
+return html+’</div>’;
+}
+
+function renderInfographic(d){
+let h=`<div class="card fi" style="padding:20px"> <div style="display:flex;gap:6px;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--bd)">${badge(state.framework,'#C9A227')} ${badge(state.role,'#10B981')} ${badge('live','#A78BFA')}</div>`;
+if(d.title)h+=`<div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--bd)"><div style="font-family:'Crimson Pro',serif;font-size:22px;font-weight:600;margin-bottom:6px;line-height:1.3">${d.title}</div>${d.subtitle?`<div style="font-size:13px;color:var(--mu);line-height:1.5">${d.subtitle}</div>`:''}</div>`;
+if(d.metrics?.length){
+h+=`<div class="stat-grid" style="grid-template-columns:repeat(${Math.min(d.metrics.length,4)},1fr)">`;
+const cols=[’#C9A227’,’#10B981’,’#4A90D9’,’#22D3EE’,’#A78BFA’];
+d.metrics.forEach((m,i)=>{const c=m.color||cols[i%5];h+=`<div class="stat-card" style="background:${c}10;border:1px solid ${c}30">${m.icon?`<div style="font-size:18px;margin-bottom:6px;opacity:.7">${m.icon}</div>`:''}<div class="stat-val" style="color:${c}">${m.value}</div><div class="stat-lbl">${m.label}</div></div>`;});
+h+=’</div>’;
+}
+if(d.summary)h+=`<div style="background:#C9A22708;border:1px solid #C9A22720;border-radius:8px;padding:16px;margin-bottom:20px"><div style="font-size:10px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">Executive Summary</div><div style="font-size:13px;line-height:1.7">${d.summary}</div></div>`;
+const pc={Political:’#4A90D9’,Economic:’#C9A227’,Social:’#22D3EE’,Technological:’#A78BFA’,Environmental:’#10B981’,Legal:’#F59E0B’};
+if(d.pestel?.length){
+h+=`<div style="margin-bottom:20px"><div style="font-size:10px;font-weight:700;color:var(--mu);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">PESTEL Analysis</div>`;
+d.pestel.forEach(p=>{const c=pc[p.name]||’#C9A227’;const rc=p.rating===‘FAVORABLE’?’#10B981’:p.rating===‘UNFAVORABLE’?’#EF4444’:’#C9A227’;
+h+=`<div class="pestel-dim" style="background:${c}08;border-left:3px solid ${c}"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px"><span style="font-size:12px;font-weight:700;color:${c};text-transform:uppercase;letter-spacing:.05em">${p.name}</span><span style="font-size:10px;font-weight:700;color:${rc};background:${rc}18;padding:2px 8px;border-radius:3px">${p.rating}</span></div><div style="font-size:12px;line-height:1.6">${p.detail}</div></div>`;
+});h+=’</div>’;
+}
+if(d.risks?.length){
+h+=`<div style="background:var(--sa);border-radius:8px;padding:16px;margin-bottom:20px;border:1px solid var(--bd)"><div style="font-size:10px;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px">⚠ Risk Assessment</div>`;
+d.risks.forEach(r=>{const rk={Critical:’#EF4444’,High:’#F59E0B’,Medium:’#C9A227’,Low:’#10B981’};const prc=rk[r.probability]||’#C9A227’;const irc=rk[r.impact]||’#C9A227’;
+h+=`<div class="risk-row"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px"><span style="font-size:12px;font-weight:600">${r.name}</span><div style="display:flex;gap:6px"><span style="font-size:9px;font-weight:700;color:${prc};background:${prc}18;padding:2px 7px;border-radius:3px">P:${r.probability}</span><span style="font-size:9px;font-weight:700;color:${irc};background:${irc}18;padding:2px 7px;border-radius:3px">I:${r.impact}</span></div></div><div style="font-size:11px;color:var(--mu);line-height:1.5">${r.mitigation}</div></div>`;
+});h+=’</div>’;
+}
+if(d.sections)d.sections.forEach(s=>{h+=`<div style="margin-bottom:16px"><div style="font-size:11px;font-weight:700;color:${s.color||'#4A90D9'};text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px">${s.heading}</div><div style="font-size:13px;line-height:1.75">${s.content}</div></div>`;});
+if(d.verdict)h+=`<div class="verdict-box"><div style="font-size:10px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">◉ Strategic Verdict</div><div style="font-size:14px;font-weight:500;color:var(--gl);line-height:1.6">${d.verdict}</div></div>`;
+return h+’</div>’;
+}
+
+// ─── EVENT BINDING ───
+function bindEvents(){
+document.querySelectorAll(’[data-nav]’).forEach(b=>b.onclick=()=>{state.view=b.dataset.nav;render();});
+document.querySelectorAll(’[data-scope]’).forEach(b=>b.onclick=()=>{state.scope=b.dataset.scope;render();});
+document.querySelectorAll(’[data-fw]’).forEach(b=>b.onclick=()=>{state.framework=b.dataset.fw;render();});
+document.querySelectorAll(’[data-sq]’).forEach(b=>b.onclick=()=>{state.stQuery=b.dataset.sq;runStudio(b.dataset.sq);});
+document.querySelectorAll(’[data-sig]’).forEach(b=>b.onclick=()=>{const s=state.signals.filter(s=>{if(state.scope===‘local’&&s.scope!==‘local’)return false;if(state.scope===‘global’&&s.scope!==‘global’)return false;return true;})[+b.dataset.sig];if(s){state.view=‘studio’;state.stQuery=`Analyze: "${s.headline}" — implications for Saudi Arabia.`;render();setTimeout(()=>runStudio(state.stQuery),100);}});
+document.querySelectorAll(’[data-opp]’).forEach(b=>b.onclick=()=>{const o=state.opportunities[+b.dataset.opp];if(o){state.view=‘studio’;state.stQuery=`Deep analysis: "${o.title}" (Score:${o.score}, Market:${o.marketSize}).`;render();setTimeout(()=>runStudio(state.stQuery),100);}});
+const rs=document.getElementById(‘refreshSig’);if(rs)rs.onclick=fetchSignals;
+const rs2=document.getElementById(‘refreshSig2’);if(rs2)rs2.onclick=fetchSignals;
+const rs3=document.getElementById(‘refreshSig3’);if(rs3)rs3.onclick=fetchSignals;
+const go=document.getElementById(‘genOpp’);if(go)go.onclick=generateOpps;
+const go2=document.getElementById(‘genOpp2’);if(go2)go2.onclick=generateOpps;
+const ro=document.getElementById(‘roleSelect’);if(ro)ro.onchange=()=>{state.role=ro.value;};
+const ke=document.getElementById(‘keyEditBtn’);if(ke)ke.onclick=()=>{state.showKey=!state.showKey;render();};
+const ki=document.getElementById(‘keyEdit’);if(ki)ki.onblur=()=>{if(ki.value.startsWith(‘sk-’)){state.apiKey=ki.value;localStorage.setItem(‘radar-api-key’,ki.value);}};
+const kb=document.getElementById(‘keyBtn’);if(kb)kb.onclick=()=>{const v=document.getElementById(‘keyIn’).value;if(v.startsWith(‘sk-’)){state.apiKey=v;localStorage.setItem(‘radar-api-key’,v);render();}};
+const si=document.getElementById(‘studioInput’);if(si){si.onkeydown=(e)=>{if(e.key===‘Enter’&&!e.shiftKey){e.preventDefault();state.stQuery=si.value;runStudio(si.value);}}}
+const rb=document.getElementById(‘runStudio’);if(rb)rb.onclick=()=>{const si=document.getElementById(‘studioInput’);if(si){state.stQuery=si.value;runStudio(si.value);}};
+}
+
+// ─── INIT ───
+loadStored();
+render();
 </script>
 
 </body>
