@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Opportunity Radar + Decision Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0A0C10;color:#EAEDF3;font-family:'Outfit',sans-serif}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:#2E3548;border-radius:3px}
+::selection{background:#C9A22730}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.fi{animation:fadeIn .4s ease forwards;opacity:0}
+.card{background:#151922;border:1px solid #222838;border-radius:8px;transition:border-color .2s}.card:hover{border-color:#2E3548}
+.btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border-radius:5px;font-size:12px;font-weight:600;font-family:'Outfit',sans-serif;cursor:pointer;border:none;transition:all .15s}
+.btn-gold{background:#C9A227;color:#0A0C10}.btn-gold:hover{background:#E2C15E}.btn-gold:disabled{opacity:.5;cursor:not-allowed}
+.btn-ghost{background:transparent;color:#8B95A8;border:1px solid #222838}.btn-ghost:hover{color:#EAEDF3;border-color:#2E3548}
+.btn-ghost.active{color:#C9A227;border-color:#C9A22744;background:#C9A2270a}
+.input{background:#1A1F2B;border:1px solid #222838;border-radius:5px;padding:8px 12px;color:#EAEDF3;font-size:13px;font-family:'Outfit',sans-serif;outline:none;transition:border .2s}
+.input:focus{border-color:#C9A22755}.input::placeholder{color:#5A6478}
+textarea.input{resize:vertical;min-height:56px;line-height:1.6;width:100%}
+.loading{animation:pulse 1.5s infinite}
+</style>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useCallback } = React;
+
+const C = {
+  bg:"#0A0C10",bg2:"#10131A",surface:"#151922",surfaceAlt:"#1A1F2B",
+  border:"#222838",borderHi:"#2E3548",
+  gold:"#C9A227",goldLight:"#E2C15E",goldDim:"#7A6318",
+  blue:"#4A90D9",cyan:"#22D3EE",green:"#10B981",red:"#EF4444",
+  orange:"#F59E0B",purple:"#A78BFA",
+  text:"#EAEDF3",muted:"#8B95A8",dim:"#5A6478",
+};
+const PESTEL_COLORS={Political:"#4A90D9",Economic:"#C9A227",Social:"#22D3EE",Technological:"#A78BFA",Environmental:"#10B981",Legal:"#F59E0B"};
+const RISK_COLORS={Critical:C.red,High:C.orange,Medium:C.gold,Low:C.green};
+
+// ─── CRITERIA (from original document) ───
+const SIGNAL_CRITERIA = {
+  local: {
+    count: 10,
+    label: "🇸🇦 Saudi Local Signals",
+    description: "Changes or announcements impacting Saudi Arabia's business landscape",
+    types: [
+      "New regulations or policy changes",
+      "Investment incentives or funding announcements",
+      "Demographic or labor market shifts",
+      "Technology adoption milestones",
+      "Tender openings or procurement notices",
+      "Mega-project progress updates (NEOM, Qiddiya, Red Sea, etc.)",
+      "Sector strategy releases (tourism, fintech, energy, AI, etc.)",
+      "Economic indicators (GDP, FDI, non-oil revenue)",
+    ],
+    sources: "Vision 2030 updates, Ministry announcements, SAMA, SDAIA, PIF, Monsha'at, SPA, Saudi Gazette, Arab News",
+  },
+  global: {
+    count: 8,
+    label: "🌐 Global Signals",
+    description: "Global events with direct or second-order impact on Saudi Arabia",
+    types: [
+      "Geopolitical developments affecting Gulf states",
+      "Technology disruptions (AI breakthroughs, cybersecurity events)",
+      "Trade policy changes (export controls, tariffs, sanctions)",
+      "Energy market shifts (oil prices, renewables, carbon regulations)",
+      "Global economic indicators impacting Saudi (USD, inflation, FDI flows)",
+      "Benchmark events from peer economies (UAE, India, Singapore, etc.)",
+    ],
+    sources: "Reuters, Bloomberg, FT, WSJ, AP, major tech publications, EU/US government releases",
+  },
+};
+
+const OPPORTUNITY_CRITERIA = {
+  count: { min: 5, max: 8 },
+  label: "AI-Scored Opportunities",
+  description: "Synthesized from converging signals, scored on 6 dimensions",
+  template: [
+    "Opportunity description linking signals to business need",
+    "Market size estimation with available data",
+    "Target customer segments",
+    "Timing and urgency (Emerging / Growing / Mature / Declining)",
+    "Competitive landscape and barriers",
+    "Required capabilities (tech, talent, partnerships, capital)",
+    "Risks and constraints",
+  ],
+  scoring: [
+    { name: "V2030 Alignment", description: "Alignment with Vision 2030 priorities (non-oil GDP, tourism, tech workforce)" },
+    { name: "Regulatory Support", description: "Government incentives, licensing ease, policy tailwinds" },
+    { name: "Market Attractiveness", description: "Market size, growth rate, demand signals" },
+    { name: "Ease of Entry", description: "Infrastructure readiness, talent availability, licensing complexity" },
+    { name: "Low Competition", description: "Inverse of competitive intensity — higher = less competition" },
+    { name: "Investment vs Return", description: "Capital efficiency and expected return profile" },
+  ],
+};
+
+const RETENTION_DAYS = 30;
+
+// ─── STORAGE HELPERS ───
+async function loadData(key) {
+  try {
+    const r = (() => { const v = localStorage.getItem(key); return v ? { value: v } : null; })();
+    return r ? JSON.parse(r.value) : null;
+  } catch { return null; }
+}
+async function saveData(key, data) {
+  try { localStorage.setItem(key, JSON.stringify(data)); } catch(e) { console.error("Storage save failed:", e); }
+}
+
+function extractJSON(text) {
+  let cleaned = text.replace(/```json\s*/gi,"").replace(/```\s*/g,"").trim();
+  try { return JSON.parse(cleaned); } catch(e) {}
+  let depth=0,start=-1;
+  for(let i=0;i<cleaned.length;i++){
+    if(cleaned[i]==='{'){if(depth===0)start=i;depth++;}
+    if(cleaned[i]==='}'){depth--;if(depth===0&&start!==-1){try{return JSON.parse(cleaned.slice(start,i+1));}catch(e){start=-1;}}}
+  }
+  // Try array
+  depth=0;start=-1;
+  for(let i=0;i<cleaned.length;i++){
+    if(cleaned[i]==='['){if(depth===0)start=i;depth++;}
+    if(cleaned[i]===']'){depth--;if(depth===0&&start!==-1){try{return JSON.parse(cleaned.slice(start,i+1));}catch(e){start=-1;}}}
+  }
+  return null;
+}
+
+function purgeOld(items) {
+  const cutoff = Date.now() - RETENTION_DAYS * 86400000;
+  return items.filter(i => new Date(i._fetchedAt || i.date).getTime() > cutoff);
+}
+
+// ─── UI COMPONENTS ───
+const Badge=({children,color=C.gold,small})=>(<span style={{display:"inline-flex",padding:small?"2px 7px":"3px 10px",borderRadius:3,fontSize:small?9:10,fontWeight:600,letterSpacing:"0.06em",textTransform:"uppercase",background:color+"14",color,border:`1px solid ${color}28`,whiteSpace:"nowrap"}}>{children}</span>);
+const ScoreRing=({score,size=52})=>{const r=(size-6)/2,circ=2*Math.PI*r,color=score>=90?C.green:score>=80?C.gold:score>=70?C.orange:C.red;return(<svg width={size} height={size} style={{transform:"rotate(-90deg)",flexShrink:0}}><circle cx={size/2} cy={size/2} r={r} fill="none" stroke={C.border} strokeWidth={3}/><circle cx={size/2} cy={size/2} r={r} fill="none" stroke={color} strokeWidth={3} strokeDasharray={circ} strokeDashoffset={circ-(score/100)*circ} strokeLinecap="round"/><text x={size/2} y={size/2} textAnchor="middle" dominantBaseline="central" style={{transform:"rotate(90deg)",transformOrigin:"center",fontSize:size*.3,fontWeight:700,fill:color,fontFamily:"'Crimson Pro',serif"}}>{score}</text></svg>);};
+const MiniBar=({value,max=100,color=C.gold,label})=>(<div style={{display:"flex",alignItems:"center",gap:8}}>{label&&<span style={{fontSize:11,color:C.muted,width:120,flexShrink:0}}>{label}</span>}<div style={{height:5,background:C.border,borderRadius:3,flex:1,overflow:"hidden"}}><div style={{height:"100%",width:`${(value/max)*100}%`,background:color,borderRadius:3}}/></div><span style={{fontSize:11,fontWeight:600,color,width:26,textAlign:"right",flexShrink:0}}>{value}</span></div>);
+
+function AnalysisRenderer({data}){
+  if(!data)return null;
+  const StatCard=({value,label,color=C.gold,icon})=>(<div style={{background:color+"10",border:`1px solid ${color}30`,borderRadius:8,padding:"16px 14px",textAlign:"center"}}>{icon&&<div style={{fontSize:18,marginBottom:6,opacity:.7}}>{icon}</div>}<div style={{fontFamily:"'Crimson Pro',serif",fontSize:26,fontWeight:700,color,lineHeight:1.1,marginBottom:6}}>{value}</div><div style={{fontSize:10,color:C.muted,lineHeight:1.4}}>{label}</div></div>);
+  const PestelDim=({name,rating,detail,color})=>{const rc=rating==="FAVORABLE"?C.green:rating==="UNFAVORABLE"?C.red:C.gold;return(<div style={{background:color+"08",borderLeft:`3px solid ${color}`,borderRadius:"0 6px 6px 0",padding:"12px 14px",marginBottom:8}}><div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:4}}><span style={{fontSize:12,fontWeight:700,color,textTransform:"uppercase",letterSpacing:"0.05em"}}>{name}</span><span style={{fontSize:10,fontWeight:700,color:rc,background:rc+"18",padding:"2px 8px",borderRadius:3}}>{rating}</span></div><div style={{fontSize:12,color:C.text,lineHeight:1.6}}>{detail}</div></div>);};
+  const RiskRow=({name,probability,impact,mitigation})=>{const pc=RISK_COLORS[probability]||C.gold,ic=RISK_COLORS[impact]||C.gold;return(<div style={{padding:"10px 0",borderBottom:`1px solid ${C.border}22`}}><div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:4}}><span style={{fontSize:12,fontWeight:600,color:C.text}}>{name}</span><div style={{display:"flex",gap:6}}><span style={{fontSize:9,fontWeight:700,color:pc,background:pc+"18",padding:"2px 7px",borderRadius:3}}>P:{probability}</span><span style={{fontSize:9,fontWeight:700,color:ic,background:ic+"18",padding:"2px 7px",borderRadius:3}}>I:{impact}</span></div></div><div style={{fontSize:11,color:C.muted,lineHeight:1.5}}>{mitigation}</div></div>);};
+  return(<div>
+    {data.title&&<div style={{marginBottom:20,paddingBottom:16,borderBottom:`1px solid ${C.border}`}}><div style={{fontFamily:"'Crimson Pro',serif",fontSize:22,fontWeight:600,marginBottom:6,lineHeight:1.3}}>{data.title}</div>{data.subtitle&&<div style={{fontSize:13,color:C.muted,lineHeight:1.5}}>{data.subtitle}</div>}</div>}
+    {data.metrics?.length>0&&<div style={{display:"grid",gridTemplateColumns:`repeat(${Math.min(data.metrics.length,4)},1fr)`,gap:10,marginBottom:20}}>{data.metrics.map((m,i)=><StatCard key={i} value={m.value} label={m.label} color={m.color||[C.gold,C.green,C.blue,C.cyan,C.purple][i%5]} icon={m.icon}/>)}</div>}
+    {data.summary&&<div style={{background:C.gold+"08",border:`1px solid ${C.gold}20`,borderRadius:8,padding:16,marginBottom:20}}><div style={{fontSize:10,fontWeight:700,color:C.gold,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:8}}>Executive Summary</div><div style={{fontSize:13,lineHeight:1.7}}>{data.summary}</div></div>}
+    {data.pestel?.length>0&&<div style={{marginBottom:20}}><div style={{fontSize:10,fontWeight:700,color:C.muted,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:10}}>PESTEL Analysis</div>{data.pestel.map((p,i)=><PestelDim key={i} name={p.name} rating={p.rating} detail={p.detail} color={PESTEL_COLORS[p.name]||C.gold}/>)}</div>}
+    {data.risks?.length>0&&<div style={{background:C.surfaceAlt,borderRadius:8,padding:16,marginBottom:20,border:`1px solid ${C.border}`}}><div style={{fontSize:10,fontWeight:700,color:C.red,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:10}}>⚠ Risk Assessment</div>{data.risks.map((r,i)=><RiskRow key={i} {...r}/>)}</div>}
+    {data.sections?.map((s,i)=><div key={i} style={{marginBottom:16}}><div style={{fontSize:11,fontWeight:700,color:s.color||C.blue,textTransform:"uppercase",letterSpacing:"0.06em",marginBottom:8}}>{s.heading}</div><div style={{fontSize:13,lineHeight:1.75}}>{s.content}</div></div>)}
+    {data.verdict&&<div style={{background:`linear-gradient(135deg,${C.gold}12,${C.gold}06)`,border:`1px solid ${C.gold}30`,borderRadius:8,padding:18,marginTop:20}}><div style={{fontSize:10,fontWeight:700,color:C.gold,textTransform:"uppercase",letterSpacing:"0.08em",marginBottom:8}}>◉ Strategic Verdict</div><div style={{fontSize:14,fontWeight:500,color:C.goldLight,lineHeight:1.6}}>{data.verdict}</div></div>}
+  </div>);
+}
+
+// ─── CRITERIA PANEL ───
+function CriteriaPanel({ type }) {
+  const [open, setOpen] = useState(false);
+  const criteria = type === "signals" ? SIGNAL_CRITERIA : { opportunity: OPPORTUNITY_CRITERIA };
+  
+  if (type === "signals") {
+    return (
+      <div className="card" style={{ padding: 14, marginBottom: 16 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", cursor: "pointer" }} onClick={() => setOpen(!open)}>
+          <div style={{ fontSize: 11, fontWeight: 700, color: C.gold, textTransform: "uppercase", letterSpacing: "0.06em" }}>Signal Selection Criteria</div>
+          <span style={{ fontSize: 12, color: C.dim }}>{open ? "▲" : "▼"}</span>
+        </div>
+        <div style={{ display: "flex", gap: 12, marginTop: 8, fontSize: 11, color: C.muted }}>
+          <span>🇸🇦 <strong style={{ color: C.cyan }}>{SIGNAL_CRITERIA.local.count}</strong> local signals</span>
+          <span>🌐 <strong style={{ color: C.purple }}>{SIGNAL_CRITERIA.global.count}</strong> global signals</span>
+          <span>📅 {RETENTION_DAYS}-day retention</span>
+          <span>🔄 Daily 02:00 AST refresh</span>
+        </div>
+        {open && (
+          <div style={{ marginTop: 12, paddingTop: 12, borderTop: `1px solid ${C.border}` }}>
+            {["local", "global"].map(scope => (
+              <div key={scope} style={{ marginBottom: 14 }}>
+                <div style={{ fontSize: 11, fontWeight: 600, color: scope === "local" ? C.cyan : C.purple, marginBottom: 6 }}>{SIGNAL_CRITERIA[scope].label}</div>
+                <div style={{ fontSize: 11, color: C.muted, marginBottom: 6 }}>{SIGNAL_CRITERIA[scope].description}</div>
+                <div style={{ fontSize: 11, color: C.dim, marginBottom: 4 }}>Types monitored:</div>
+                {SIGNAL_CRITERIA[scope].types.map((t, i) => (
+                  <div key={i} style={{ fontSize: 11, color: C.muted, paddingLeft: 12, lineHeight: 1.6 }}>• {t}</div>
+                ))}
+                <div style={{ fontSize: 10, color: C.dim, marginTop: 6 }}>Sources: {SIGNAL_CRITERIA[scope].sources}</div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  return (
+    <div className="card" style={{ padding: 14, marginBottom: 16 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", cursor: "pointer" }} onClick={() => setOpen(!open)}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: C.gold, textTransform: "uppercase", letterSpacing: "0.06em" }}>Opportunity Generation Criteria</div>
+        <span style={{ fontSize: 12, color: C.dim }}>{open ? "▲" : "▼"}</span>
+      </div>
+      <div style={{ display: "flex", gap: 12, marginTop: 8, fontSize: 11, color: C.muted }}>
+        <span>◆ <strong style={{ color: C.gold }}>{OPPORTUNITY_CRITERIA.count.min}-{OPPORTUNITY_CRITERIA.count.max}</strong> opportunities per cycle</span>
+        <span>📊 6-dimension scoring</span>
+        <span>📅 {RETENTION_DAYS}-day retention</span>
+      </div>
+      {open && (
+        <div style={{ marginTop: 12, paddingTop: 12, borderTop: `1px solid ${C.border}` }}>
+          <div style={{ fontSize: 11, color: C.dim, marginBottom: 6 }}>Each opportunity includes:</div>
+          {OPPORTUNITY_CRITERIA.template.map((t, i) => (
+            <div key={i} style={{ fontSize: 11, color: C.muted, paddingLeft: 12, lineHeight: 1.6 }}>• {t}</div>
+          ))}
+          <div style={{ fontSize: 11, color: C.dim, marginTop: 10, marginBottom: 6 }}>Scoring dimensions (0-100):</div>
+          {OPPORTUNITY_CRITERIA.scoring.map((s, i) => (
+            <div key={i} style={{ fontSize: 11, color: C.muted, paddingLeft: 12, lineHeight: 1.6 }}>
+              • <strong style={{ color: C.gold }}>{s.name}</strong>: {s.description}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── API CALL HELPER ───
+async function callAgent(messages, useSearch = true) {
+  const body = {
+    model: "claude-sonnet-4-20250514",
+    max_tokens: 4096,
+    messages,
+  };
+  if (useSearch) body.tools = [{ type: "web_search_20250305", name: "web_search" }];
+  
+  const resp = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!resp.ok) throw new Error(`API ${resp.status}`);
+  const data = await resp.json();
+  return (data.content || []).filter(b => b.type === "text").map(b => b.text).join("\n");
+}
+
+// ─── MAIN APP ───
+function App() {
+  const [view, setView] = useState("signals");
+  const [role, setRole] = useState("entrepreneur");
+  const [signalScope, setSignalScope] = useState("all");
+
+  // Dynamic data
+  const [signals, setSignals] = useState([]);
+  const [opportunities, setOpportunities] = useState([]);
+  const [lastSignalRefresh, setLastSignalRefresh] = useState(null);
+  const [lastOppRefresh, setLastOppRefresh] = useState(null);
+
+  // Loading states
+  const [signalsLoading, setSignalsLoading] = useState(false);
+  const [oppsLoading, setOppsLoading] = useState(false);
+  const [signalProgress, setSignalProgress] = useState("");
+  const [oppProgress, setOppProgress] = useState("");
+
+  // AI Studio
+  const [studioQuery, setStudioQuery] = useState("");
+  const [studioResult, setStudioResult] = useState(null);
+  const [studioRaw, setStudioRaw] = useState("");
+  const [studioLoading, setStudioLoading] = useState(false);
+  const [analysisType, setAnalysisType] = useState("strategic");
+
+  // Load persisted data on mount
+  useEffect(() => {
+    (async () => {
+      const sd = await loadData("radar-signals");
+      const od = await loadData("radar-opportunities");
+      if (sd) { setSignals(purgeOld(sd.items || [])); setLastSignalRefresh(sd.lastRefresh); }
+      if (od) { setOpportunities(purgeOld(od.items || [])); setLastOppRefresh(od.lastRefresh); }
+    })();
+  }, []);
+
+  const sectors = [...new Set(signals.map(s => s.sector).filter(Boolean))];
+  const filteredSignals = signals.filter(s => {
+    if (signalScope === "local" && s.scope !== "local") return false;
+    if (signalScope === "global" && s.scope !== "global") return false;
+    return true;
+  });
+
+  const hoursAgo = (ts) => ts ? Math.round((Date.now() - new Date(ts).getTime()) / 3600000) : null;
+  const needsRefresh = (ts) => !ts || hoursAgo(ts) >= 24;
+
+  // ─── FETCH SIGNALS ───
+  const fetchSignals = async () => {
+    setSignalsLoading(true);
+    setSignalProgress("Searching for latest Saudi Arabia news and developments...");
+
+    const today = new Date().toISOString().split("T")[0];
+    const prompt = `You are the Signal Detection Engine of "Opportunity Radar", a Vision 2030 business intelligence platform.
+
+TODAY: ${today}
+
+YOUR TASK: Search the web for the LATEST real news and developments, then produce exactly ${SIGNAL_CRITERIA.local.count} Saudi local signals and ${SIGNAL_CRITERIA.global.count} global signals.
+
+SIGNAL SELECTION CRITERIA:
+
+LOCAL SIGNALS (Saudi Arabia):
+${SIGNAL_CRITERIA.local.types.map(t => `- ${t}`).join("\n")}
+Sources to search: ${SIGNAL_CRITERIA.local.sources}
+
+GLOBAL SIGNALS (with Saudi impact):
+${SIGNAL_CRITERIA.global.types.map(t => `- ${t}`).join("\n")}
+Sources to search: ${SIGNAL_CRITERIA.global.sources}
+
+IMPORTANT: Search the web for REAL, CURRENT news. Do NOT make up events. Every signal must be based on an actual recent development.
+
+Respond ONLY with a JSON array. No markdown, no backticks, no other text. Start with [ and end with ].
+
+Each signal object:
+{
+  "scope": "local" or "global",
+  "headline": "Concise factual headline of what happened",
+  "sector": "one of: Tourism, Fintech, Energy, AI & Digital, Manufacturing, Education, Healthcare, Entertainment, Logistics, Cybersecurity, Technology, Defense, Real Estate, Deep Tech",
+  "region": "specific Saudi region or 'Global'",
+  "date": "YYYY-MM-DD",
+  "impact": "critical" or "high" or "medium",
+  "source": "Original source name",
+  "type": "one of: Regulation, Investment, Policy, Milestone, Incentive, Industrial, Cyber Threat, Geopolitical, Technology, Benchmark, Tender",
+  "context": "2-3 sentences: what happened, why it matters for Saudi Arabia's business landscape, who benefits"
+}`;
+
+    try {
+      setSignalProgress("AI agent searching the web for current signals...");
+      const text = await callAgent([{ role: "user", content: prompt }], true);
+      const parsed = extractJSON(text);
+
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        const stamped = parsed.map(s => ({ ...s, _fetchedAt: new Date().toISOString(), _id: Math.random().toString(36).slice(2, 10) }));
+        const existing = purgeOld(signals);
+        // Merge: add new, avoid duplicate headlines
+        const existingHeadlines = new Set(existing.map(s => s.headline));
+        const fresh = stamped.filter(s => !existingHeadlines.has(s.headline));
+        const merged = [...fresh, ...existing];
+
+        setSignals(merged);
+        const ts = new Date().toISOString();
+        setLastSignalRefresh(ts);
+        await saveData("radar-signals", { items: merged, lastRefresh: ts });
+        setSignalProgress(`✅ ${fresh.length} new signals detected. ${merged.length} total in rolling 30-day window.`);
+      } else {
+        setSignalProgress("⚠ Could not parse signals. Raw response saved. Try again.");
+      }
+    } catch (e) {
+      setSignalProgress(`❌ Error: ${e.message}. Check connection and try again.`);
+    }
+    setTimeout(() => setSignalsLoading(false), 1500);
+  };
+
+  // ─── GENERATE OPPORTUNITIES ───
+  const generateOpportunities = async () => {
+    if (signals.length === 0) { setOppProgress("⚠ No signals available. Refresh signals first."); return; }
+    setOppsLoading(true);
+    setOppProgress("Analyzing signal clusters for opportunity synthesis...");
+
+    const signalSummary = signals.slice(0, 20).map(s =>
+      `[${s.scope}][${s.impact}] ${s.headline} | ${s.sector} | ${s.date}: ${s.context}`
+    ).join("\n");
+
+    const prompt = `You are the Opportunity Generation Engine of "Opportunity Radar".
+
+CURRENT ACTIVE SIGNALS:
+${signalSummary}
+
+YOUR TASK: Analyze these signals for converging patterns. Generate ${OPPORTUNITY_CRITERIA.count.min}-${OPPORTUNITY_CRITERIA.count.max} scored business opportunities.
+
+OPPORTUNITY CRITERIA — each must include:
+${OPPORTUNITY_CRITERIA.template.map(t => `- ${t}`).join("\n")}
+
+SCORING (0-100 for each):
+${OPPORTUNITY_CRITERIA.scoring.map(s => `- ${s.name}: ${s.description}`).join("\n")}
+
+RULES:
+- Each opportunity must link to at least 2 signals by headline
+- Score must be the weighted average of all 6 dimensions
+- Urgency: "Emerging" (<1yr window), "Growing" (1-3yr), "Mature" (established market), "Declining"
+- Be specific to Saudi Arabia's current market reality
+
+Respond ONLY with a JSON array. No markdown. Start with [ end with ].
+
+Each opportunity:
+{
+  "title": "Opportunity name",
+  "sector": "Primary sector",
+  "region": "Saudi region or 'National'",
+  "score": 85,
+  "urgency": "Emerging",
+  "marketSize": "$X.XB",
+  "growth": "+XX%",
+  "description": "3-4 sentences linking signals to business need",
+  "customers": "Target segments",
+  "competition": "Competitive landscape assessment",
+  "capabilities": "Required tech, talent, partnerships",
+  "risks": "Key risks and constraints",
+  "investment": "$X-XM range",
+  "returnEst": "Xx over Xyr",
+  "linkedSignals": ["signal headline 1", "signal headline 2"],
+  "scores": {
+    "v2030": 90,
+    "regulatory": 85,
+    "market": 88,
+    "ease": 70,
+    "competition": 75,
+    "investReturn": 80
+  }
+}`;
+
+    try {
+      setOppProgress("AI agent synthesizing opportunities from signal clusters...");
+      const text = await callAgent([{ role: "user", content: prompt }], false);
+      const parsed = extractJSON(text);
+
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        const stamped = parsed.map(o => ({ ...o, _fetchedAt: new Date().toISOString(), _id: Math.random().toString(36).slice(2, 10) }));
+        const existing = purgeOld(opportunities);
+        const existingTitles = new Set(existing.map(o => o.title));
+        const fresh = stamped.filter(o => !existingTitles.has(o.title));
+        const merged = [...fresh, ...existing].sort((a, b) => (b.score || 0) - (a.score || 0));
+
+        setOpportunities(merged);
+        const ts = new Date().toISOString();
+        setLastOppRefresh(ts);
+        await saveData("radar-opportunities", { items: merged, lastRefresh: ts });
+        setOppProgress(`✅ ${fresh.length} new opportunities generated. ${merged.length} total.`);
+      } else {
+        setOppProgress("⚠ Could not parse opportunities. Try again.");
+      }
+    } catch (e) {
+      setOppProgress(`❌ Error: ${e.message}`);
+    }
+    setTimeout(() => setOppsLoading(false), 1500);
+  };
+
+  // ─── AI STUDIO ───
+  const runStudio = async (query, type) => {
+    if (!query.trim()) return;
+    const fw = type || analysisType;
+    setStudioLoading(true); setStudioResult(null); setStudioRaw("");
+
+    const roleDesc = role === "entrepreneur" ? "an entrepreneur/SME owner" : role === "investor" ? "a VC/angel investor" : "a government policy maker";
+    const sigCtx = signals.slice(0, 18).map(s => `[${s.scope}][${s.impact}] ${s.headline} | ${s.sector}: ${s.context}`).join("\n");
+    const oppCtx = opportunities.slice(0, 8).map(o => `${o.title} | Score:${o.score} | ${o.marketSize} | ${o.description}`).join("\n");
+
+    const jsonSchema = fw === "pestel"
+      ? `{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","pestel":[{"name":"Political","rating":"FAVORABLE|NEUTRAL|UNFAVORABLE","detail":"..."},{"name":"Economic","rating":"...","detail":"..."},{"name":"Social","rating":"...","detail":"..."},{"name":"Technological","rating":"...","detail":"..."},{"name":"Environmental","rating":"...","detail":"..."},{"name":"Legal","rating":"...","detail":"..."}],"sections":[{"heading":"...","content":"..."}],"verdict":"..."}`
+      : fw === "risk"
+      ? `{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","risks":[{"name":"...","probability":"High|Medium|Low","impact":"Critical|High|Medium|Low","mitigation":"..."}],"sections":[{"heading":"...","content":"..."}],"verdict":"..."}`
+      : `{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","sections":[{"heading":"...","content":"...","color":"#hex"}],"verdict":"..."}`;
+
+    try {
+      const text = await callAgent([{ role: "user", content: `You are the AI Decision Engine of "Opportunity Radar" for Saudi Vision 2030. Respond ONLY with JSON. No markdown. Schema: ${jsonSchema}
+
+LIVE SIGNALS:\n${sigCtx || "No signals loaded yet — search the web for current Saudi Arabia business news."}
+
+LIVE OPPORTUNITIES:\n${oppCtx || "No opportunities generated yet."}
+
+FRAMEWORK: ${fw.toUpperCase()}
+STAKEHOLDER: ${roleDesc}
+QUERY: ${query}
+
+Rules: 3-4 metrics with quantitative values, 2-4 analysis sections, bold verdict. Be specific to Saudi Arabia. Reference actual signals.` }], true);
+
+      const parsed = extractJSON(text);
+      if (parsed?.title) setStudioResult(parsed);
+      else setStudioRaw(text);
+    } catch (e) {
+      setStudioRaw(`Error: ${e.message}`);
+    }
+    setStudioLoading(false);
+  };
+
+  const analyzeSignal = (s) => { setView("studio"); const q = `Analyze: "${s.headline}" — full implications for Saudi Arabia.`; setStudioQuery(q); setTimeout(() => runStudio(q), 100); };
+  const analyzeOpp = (o) => { setView("studio"); const q = `Deep analysis: "${o.title}" (Score:${o.score}, Market:${o.marketSize}).`; setStudioQuery(q); setTimeout(() => runStudio(q), 100); };
+
+  // ─── RENDER ───
+  const css = `@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');*{box-sizing:border-box;margin:0;padding:0}body{background:${C.bg};color:${C.text};font-family:'Outfit',sans-serif}::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:${C.borderHi};border-radius:3px}::selection{background:${C.gold}30}@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}.fi{animation:fadeIn .4s ease forwards;opacity:0}.card{background:${C.surface};border:1px solid ${C.border};border-radius:8px;transition:border-color .2s}.card:hover{border-color:${C.borderHi}}.btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border-radius:5px;font-size:12px;font-weight:600;font-family:'Outfit',sans-serif;cursor:pointer;border:none;transition:all .15s}.btn-gold{background:${C.gold};color:${C.bg}}.btn-gold:hover{background:${C.goldLight}}.btn-gold:disabled{opacity:.5;cursor:not-allowed}.btn-ghost{background:transparent;color:${C.muted};border:1px solid ${C.border}}.btn-ghost:hover{color:${C.text};border-color:${C.borderHi}}.btn-ghost.active{color:${C.gold};border-color:${C.gold}44;background:${C.gold}0a}.input{background:${C.surfaceAlt};border:1px solid ${C.border};border-radius:5px;padding:8px 12px;color:${C.text};font-size:13px;font-family:'Outfit',sans-serif;outline:none;transition:border .2s}.input:focus{border-color:${C.gold}55}.input::placeholder{color:${C.dim}}textarea.input{resize:vertical;min-height:56px;line-height:1.6;width:100%}.loading{animation:pulse 1.5s infinite}`;
+
+  return (
+    <div style={{ minHeight: "100vh", background: C.bg }}>
+      <style>{css}</style>
+
+      {/* Header */}
+      <header style={{ background: C.bg2, borderBottom: `1px solid ${C.border}`, position: "sticky", top: 0, zIndex: 100 }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 52, maxWidth: 1300, margin: "0 auto", padding: "0 20px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ width: 28, height: 28, borderRadius: 6, background: `linear-gradient(135deg,${C.gold},${C.goldDim})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, color: C.bg }}>◉</div>
+            <span style={{ fontFamily: "'Crimson Pro',serif", fontWeight: 600, fontSize: 16, color: C.gold }}>Opportunity Radar</span>
+          </div>
+          <div style={{ display: "flex", gap: 2 }}>
+            {[{ id: "signals", l: "Signals", i: "◈" }, { id: "opportunities", l: "Opportunities", i: "◆" }, { id: "studio", l: "AI Studio", i: "⚡" }].map(t => (
+              <button key={t.id} onClick={() => setView(t.id)} style={{ padding: "6px 16px", fontSize: 12, fontWeight: 500, fontFamily: "'Outfit',sans-serif", color: view === t.id ? C.gold : C.dim, background: view === t.id ? C.gold + "0c" : "transparent", border: "none", borderBottom: `2px solid ${view === t.id ? C.gold : "transparent"}`, cursor: "pointer" }}>{t.i} {t.l}</button>
+            ))}
+          </div>
+          <select className="input" style={{ padding: "4px 8px", fontSize: 11 }} value={role} onChange={e => setRole(e.target.value)}>
+            <option value="entrepreneur">🏗 Entrepreneur</option><option value="investor">📊 Investor</option><option value="policymaker">🏛 Policy Maker</option>
+          </select>
+        </div>
+      </header>
+
+      <main style={{ maxWidth: 1300, margin: "0 auto", padding: "20px 20px 60px" }}>
+
+        {/* ═══ SIGNALS ═══ */}
+        {view === "signals" && (
+          <div className="fi">
+            <h1 style={{ fontFamily: "'Crimson Pro',serif", fontSize: 24, fontWeight: 600, marginBottom: 4 }}>Signal Detection Engine</h1>
+            <p style={{ color: C.muted, fontSize: 13, marginBottom: 16 }}>AI-powered signal extraction from live news sources. Tap any signal to analyze.</p>
+
+            <CriteriaPanel type="signals" />
+
+            {/* Status bar */}
+            <div className="card" style={{ padding: 14, marginBottom: 16, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
+              <div style={{ display: "flex", gap: 12, fontSize: 11, color: C.muted, alignItems: "center", flexWrap: "wrap" }}>
+                <span>📡 <strong style={{ color: C.text }}>{signals.length}</strong> active signals</span>
+                <span>🇸🇦 <strong style={{ color: C.cyan }}>{signals.filter(s => s.scope === "local").length}</strong> local</span>
+                <span>🌐 <strong style={{ color: C.purple }}>{signals.filter(s => s.scope === "global").length}</strong> global</span>
+                {lastSignalRefresh && <span>🕐 Last refresh: <strong style={{ color: needsRefresh(lastSignalRefresh) ? C.orange : C.green }}>{hoursAgo(lastSignalRefresh)}h ago</strong></span>}
+                {needsRefresh(lastSignalRefresh) && <Badge color={C.orange} small>refresh recommended</Badge>}
+              </div>
+              <button className="btn btn-gold" onClick={fetchSignals} disabled={signalsLoading} style={{ fontSize: 12, padding: "6px 16px" }}>
+                {signalsLoading ? "⏳ Scanning..." : "🔄 Refresh Signals"}
+              </button>
+            </div>
+
+            {/* Progress */}
+            {(signalsLoading || signalProgress) && (
+              <div style={{ padding: "10px 14px", marginBottom: 14, fontSize: 12, color: signalProgress.startsWith("✅") ? C.green : signalProgress.startsWith("❌") ? C.red : C.gold, background: C.surfaceAlt, borderRadius: 6 }}>
+                {signalsLoading && <span className="loading">⏳ </span>}{signalProgress}
+              </div>
+            )}
+
+            {/* Scope filter */}
+            <div style={{ display: "flex", gap: 8, marginBottom: 16, alignItems: "center" }}>
+              {["all", "local", "global"].map(s => (
+                <button key={s} className={`btn btn-ghost ${signalScope === s ? "active" : ""}`} onClick={() => setSignalScope(s)}>
+                  {s === "all" ? "All" : s === "local" ? "🇸🇦 Local" : "🌐 Global"}
+                </button>
+              ))}
+              <Badge color={C.blue}>{filteredSignals.length}</Badge>
+            </div>
+
+            {/* Empty state */}
+            {signals.length === 0 && !signalsLoading && (
+              <div className="card" style={{ padding: 40, textAlign: "center" }}>
+                <div style={{ fontSize: 32, marginBottom: 12 }}>◈</div>
+                <div style={{ fontSize: 15, fontWeight: 600, marginBottom: 8 }}>No signals yet</div>
+                <div style={{ fontSize: 13, color: C.muted, marginBottom: 16 }}>Tap "Refresh Signals" to scan live news sources and generate your first batch of {SIGNAL_CRITERIA.local.count + SIGNAL_CRITERIA.global.count} signals.</div>
+                <button className="btn btn-gold" onClick={fetchSignals} disabled={signalsLoading}>🔄 Refresh Signals</button>
+              </div>
+            )}
+
+            {/* Signal cards */}
+            {filteredSignals.map((s, i) => (
+              <div key={s._id || i} className="card fi" style={{ padding: 16, marginBottom: 10, cursor: "pointer", animationDelay: `${i * .03}s` }} onClick={() => analyzeSignal(s)}>
+                <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: "flex", gap: 5, flexWrap: "wrap", marginBottom: 8 }}>
+                      <Badge color={s.scope === "global" ? C.purple : C.cyan} small>{s.scope}</Badge>
+                      <Badge color={s.impact === "critical" ? C.red : s.impact === "high" ? C.orange : C.gold} small>{s.impact}</Badge>
+                      <Badge color={C.blue} small>{s.sector}</Badge>
+                      {s.type && <Badge small>{s.type}</Badge>}
+                    </div>
+                    <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 4, lineHeight: 1.4 }}>{s.headline}</div>
+                    <div style={{ fontSize: 12, color: C.muted, lineHeight: 1.5 }}>{s.context}</div>
+                  </div>
+                  <div style={{ textAlign: "right", flexShrink: 0, minWidth: 70 }}>
+                    <div style={{ fontSize: 10, color: C.dim }}>{s.date}</div>
+                    <div style={{ fontSize: 10, color: C.dim, marginTop: 2 }}>{s.source}</div>
+                    <div style={{ marginTop: 8, fontSize: 10, color: C.gold, fontWeight: 600 }}>⚡ Analyze →</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* ═══ OPPORTUNITIES ═══ */}
+        {view === "opportunities" && (
+          <div className="fi">
+            <h1 style={{ fontFamily: "'Crimson Pro',serif", fontSize: 24, fontWeight: 600, marginBottom: 4 }}>Opportunity Explorer</h1>
+            <p style={{ color: C.muted, fontSize: 13, marginBottom: 16 }}>AI-scored from converging signals. Tap to trigger deep analysis.</p>
+
+            <CriteriaPanel type="opportunities" />
+
+            <div className="card" style={{ padding: 14, marginBottom: 16, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 10 }}>
+              <div style={{ display: "flex", gap: 12, fontSize: 11, color: C.muted, alignItems: "center", flexWrap: "wrap" }}>
+                <span>◆ <strong style={{ color: C.text }}>{opportunities.length}</strong> active opportunities</span>
+                <span>📡 Generated from <strong>{signals.length}</strong> signals</span>
+                {lastOppRefresh && <span>🕐 <strong style={{ color: needsRefresh(lastOppRefresh) ? C.orange : C.green }}>{hoursAgo(lastOppRefresh)}h ago</strong></span>}
+              </div>
+              <button className="btn btn-gold" onClick={generateOpportunities} disabled={oppsLoading || signals.length === 0} style={{ fontSize: 12, padding: "6px 16px" }}>
+                {oppsLoading ? "⏳ Generating..." : "🔄 Generate Opportunities"}
+              </button>
+            </div>
+
+            {(oppsLoading || oppProgress) && (
+              <div style={{ padding: "10px 14px", marginBottom: 14, fontSize: 12, color: oppProgress.startsWith("✅") ? C.green : oppProgress.startsWith("❌") ? C.red : C.gold, background: C.surfaceAlt, borderRadius: 6 }}>
+                {oppsLoading && <span className="loading">⏳ </span>}{oppProgress}
+              </div>
+            )}
+
+            {opportunities.length === 0 && !oppsLoading && (
+              <div className="card" style={{ padding: 40, textAlign: "center" }}>
+                <div style={{ fontSize: 32, marginBottom: 12 }}>◆</div>
+                <div style={{ fontSize: 15, fontWeight: 600, marginBottom: 8 }}>No opportunities yet</div>
+                <div style={{ fontSize: 13, color: C.muted, marginBottom: 16 }}>
+                  {signals.length === 0 ? "Load signals first, then generate opportunities." : `${signals.length} signals available. Tap below to synthesize ${OPPORTUNITY_CRITERIA.count.min}-${OPPORTUNITY_CRITERIA.count.max} scored opportunities.`}
+                </div>
+                <button className="btn btn-gold" onClick={signals.length > 0 ? generateOpportunities : fetchSignals} disabled={oppsLoading}>
+                  {signals.length > 0 ? "🔄 Generate Opportunities" : "🔄 Load Signals First"}
+                </button>
+              </div>
+            )}
+
+            {opportunities.map((o, i) => (
+              <div key={o._id || i} className="card fi" style={{ padding: 20, marginBottom: 12, cursor: "pointer", animationDelay: `${i * .04}s` }} onClick={() => analyzeOpp(o)}>
+                <div style={{ display: "flex", gap: 16 }}>
+                  <ScoreRing score={o.score || 75} size={56} />
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: "flex", gap: 5, marginBottom: 8, flexWrap: "wrap" }}>
+                      <Badge color={C.gold}>{o.sector}</Badge>
+                      {o.region && <Badge color={C.green}>{o.region}</Badge>}
+                      {o.urgency && <Badge color={o.urgency === "Critical" ? C.red : o.urgency === "Emerging" ? C.cyan : C.orange}>{o.urgency}</Badge>}
+                    </div>
+                    <div style={{ fontSize: 17, fontWeight: 600, fontFamily: "'Crimson Pro',serif", marginBottom: 6 }}>{o.title}</div>
+                    <p style={{ fontSize: 12, color: C.muted, lineHeight: 1.5, marginBottom: 10 }}>{o.description}</p>
+                    <div style={{ display: "flex", gap: 18, fontSize: 12, marginBottom: 10, flexWrap: "wrap" }}>
+                      {o.marketSize && <span><span style={{ color: C.dim }}>Market</span> <span style={{ color: C.gold, fontWeight: 600 }}>{o.marketSize}</span></span>}
+                      {o.growth && <span><span style={{ color: C.dim }}>Growth</span> <span style={{ color: C.green, fontWeight: 600 }}>{o.growth}</span></span>}
+                      {o.investment && <span><span style={{ color: C.dim }}>Investment</span> <span style={{ fontWeight: 500 }}>{o.investment}</span></span>}
+                    </div>
+                    {o.scores && (
+                      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 5 }}>
+                        <MiniBar label="V2030" value={o.scores.v2030 || 0} color={C.gold} />
+                        <MiniBar label="Regulatory" value={o.scores.regulatory || 0} color={C.green} />
+                        <MiniBar label="Market" value={o.scores.market || 0} color={C.blue} />
+                        <MiniBar label="Low Competition" value={o.scores.competition || 0} color={C.purple} />
+                      </div>
+                    )}
+                  </div>
+                  <div style={{ fontSize: 10, color: C.gold, fontWeight: 600, flexShrink: 0 }}>⚡ →</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* ═══ AI STUDIO ═══ */}
+        {view === "studio" && (
+          <div className="fi">
+            <h1 style={{ fontFamily: "'Crimson Pro',serif", fontSize: 24, fontWeight: 600, marginBottom: 4 }}>AI Decision Studio</h1>
+            <p style={{ color: C.muted, fontSize: 13, marginBottom: 16 }}>Structured intelligence briefs using live signals ({signals.length}) and opportunities ({opportunities.length}).</p>
+
+            <div style={{ display: "flex", gap: 6, marginBottom: 12, flexWrap: "wrap", alignItems: "center" }}>
+              <span style={{ fontSize: 11, color: C.dim }}>Framework:</span>
+              {[{ id: "strategic", l: "Strategic", i: "🔬" }, { id: "pestel", l: "PESTEL", i: "🌍" }, { id: "risk", l: "Risk", i: "⚠️" }, { id: "competitive", l: "Competitive", i: "🏁" }].map(f => (
+                <button key={f.id} className={`btn btn-ghost ${analysisType === f.id ? "active" : ""}`} style={{ fontSize: 11, padding: "5px 12px" }} onClick={() => setAnalysisType(f.id)}>{f.i} {f.l}</button>
+              ))}
+            </div>
+
+            <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
+              {["What are the strongest opportunity clusters right now?", "PESTEL: Saudi AI sector", "Risk assessment: Red Sea logistics exposure", "Which sectors have the best signal momentum?", "Compare top 3 opportunities for market entry"].map((q, i) => (
+                <button key={i} className="btn btn-ghost" style={{ fontSize: 10, padding: "4px 10px" }} onClick={() => { setStudioQuery(q); runStudio(q); }}>{q}</button>
+              ))}
+            </div>
+
+            <div className="card" style={{ padding: 16, marginBottom: 16 }}>
+              <div style={{ display: "flex", gap: 10 }}>
+                <textarea className="input" value={studioQuery} onChange={e => setStudioQuery(e.target.value)}
+                  onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); runStudio(studioQuery); } }}
+                  placeholder="Ask about live signals, opportunities, sector dynamics, risks..." />
+                <button className="btn btn-gold" onClick={() => runStudio(studioQuery)} disabled={studioLoading} style={{ alignSelf: "flex-end", padding: "12px 22px", fontSize: 13 }}>
+                  {studioLoading ? "⏳" : "⚡ Run"}
+                </button>
+              </div>
+              <div style={{ display: "flex", gap: 14, marginTop: 8, fontSize: 10, color: C.dim, flexWrap: "wrap" }}>
+                <span>📊 {analysisType}</span>
+                <span>👤 {role}</span>
+                <span>📡 {signals.length} live signals</span>
+                <span>◆ {opportunities.length} opportunities</span>
+              </div>
+            </div>
+
+            {studioLoading && <div className="card" style={{ padding: 40, textAlign: "center" }}><div style={{ color: C.gold, fontSize: 14, fontWeight: 500 }} className="loading">AI Agent analyzing...</div></div>}
+            {studioResult && !studioLoading && <div className="card fi" style={{ padding: 24 }}><div style={{ display: "flex", gap: 6, marginBottom: 16, paddingBottom: 12, borderBottom: `1px solid ${C.border}` }}><Badge color={C.gold}>{analysisType}</Badge><Badge color={C.green}>{role}</Badge><Badge color={C.purple}>live data</Badge></div><AnalysisRenderer data={studioResult} /></div>}
+            {studioRaw && !studioResult && !studioLoading && <div className="card fi" style={{ padding: 24 }}><div style={{ fontSize: 13, lineHeight: 1.85, whiteSpace: "pre-wrap" }}>{studioRaw}</div></div>}
+          </div>
+        )}
+      </main>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+</script>
+</body>
+</html>
