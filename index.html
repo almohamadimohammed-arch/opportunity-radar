@@ -30,7 +30,6 @@ textarea.inp{min-height:60px;resize:vertical}
 </style>
 </head>
 <body>
-
 <div id="error-display"></div>
 <div id="app">
   <div style="text-align:center;padding:60px 20px">
@@ -38,466 +37,195 @@ textarea.inp{min-height:60px;resize:vertical}
     <div style="color:#8B95A8;font-size:13px">Loading Opportunity Radar...</div>
   </div>
 </div>
-
 <script>
 window.onerror = function(msg, src, line, col, err) {
   document.getElementById('error-display').innerHTML = '<div class="err"><b>Error:</b> ' + msg + '<br>Line: ' + line + '</div>';
 };
-
 try {
-
 var S = {
-  view: 'signals',
-  role: 'entrepreneur',
-  scope: 'all',
+  view: 'signals', role: 'entrepreneur', scope: 'all',
   apiKey: localStorage.getItem('radar-api-key') || '',
-  signals: [],
-  opps: [],
-  lastSig: null,
-  lastOpp: null,
-  sigLoading: false,
-  oppLoading: false,
-  sigMsg: '',
-  oppMsg: '',
-  stQuery: '',
-  stResult: null,
-  stRaw: '',
-  stLoading: false,
-  fw: 'strategic'
+  signals: [], opps: [], lastSig: null, lastOpp: null,
+  sigLoading: false, oppLoading: false, sigMsg: '', oppMsg: '',
+  stQuery: '', stResult: null, stRaw: '', stLoading: false, fw: 'strategic'
 };
+try { var sd = JSON.parse(localStorage.getItem('radar-signals')); if (sd && sd.items) { S.signals = sd.items; S.lastSig = sd.lastRefresh; } } catch(e) {}
+try { var od = JSON.parse(localStorage.getItem('radar-opportunities')); if (od && od.items) { S.opps = od.items; S.lastOpp = od.lastRefresh; } } catch(e) {}
 
-try {
-  var sd = JSON.parse(localStorage.getItem('radar-signals'));
-  if (sd && sd.items) { S.signals = sd.items; S.lastSig = sd.lastRefresh; }
-} catch(e) {}
-try {
-  var od = JSON.parse(localStorage.getItem('radar-opportunities'));
-  if (od && od.items) { S.opps = od.items; S.lastOpp = od.lastRefresh; }
-} catch(e) {}
-
-function bg(text, color) {
-  return '<span class="badge" style="background:' + color + '14;color:' + color + ';border:1px solid ' + color + '28">' + text + '</span>';
-}
-
-function hrsAgo(ts) {
-  if (!ts) return null;
-  return Math.round((Date.now() - new Date(ts).getTime()) / 3600000);
-}
-
+function bg(text, color) { return ‘<span class="badge" style="background:' + color + '14;color:' + color + ';border:1px solid ' + color + '28">’ + text + ‘</span>’; }
+function hrsAgo(ts) { if (!ts) return null; return Math.round((Date.now() - new Date(ts).getTime()) / 3600000); }
 function extractJSON(text) {
-  var c = text.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim();
-  try { return JSON.parse(c); } catch(e) {}
-  var depth = 0, start = -1;
-  for (var i = 0; i < c.length; i++) {
-    if (c[i] === '[' || c[i] === '{') { if (depth === 0) start = i; depth++; }
-    if (c[i] === ']' || c[i] === '}') { depth--; if (depth === 0 && start >= 0) { try { return JSON.parse(c.slice(start, i + 1)); } catch(e) { start = -1; } } }
-  }
-  return null;
+var c = text.replace(/`json\s*/gi, '').replace(/`\s*/g, ‘’).trim();
+try { return JSON.parse(c); } catch(e) {}
+var depth = 0, start = -1;
+for (var i = 0; i < c.length; i++) {
+if (c[i] === ‘[’ || c[i] === ‘{’) { if (depth === 0) start = i; depth++; }
+if (c[i] === ‘]’ || c[i] === ‘}’) { depth–; if (depth === 0 && start >= 0) { try { return JSON.parse(c.slice(start, i + 1)); } catch(e) { start = -1; } } }
 }
-
+return null;
+}
 function callAPI(msgs, search) {
-  var body = { model: 'claude-sonnet-4-20250514', max_tokens: 4096, messages: msgs };
-  if (search) body.tools = [{ type: 'web_search_20250305', name: 'web_search' }];
-  return fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': S.apiKey,
-      'anthropic-version': '2023-06-01',
-      'anthropic-dangerous-direct-browser-access': 'true'
-    },
-    body: JSON.stringify(body)
-  })
-  .then(function(r) {
-    if (!r.ok) return r.text().then(function(t) { throw new Error('API ' + r.status + ': ' + t.slice(0, 100)); });
-    return r.json();
-  })
-  .then(function(d) {
-    return (d.content || []).filter(function(b) { return b.type === 'text'; }).map(function(b) { return b.text; }).join('\n');
-  });
+var body = { model: ‘claude-sonnet-4-20250514’, max_tokens: 4096, messages: msgs };
+if (search) body.tools = [{ type: ‘web_search_20250305’, name: ‘web_search’ }];
+return fetch(‘https://api.anthropic.com/v1/messages’, {
+method: ‘POST’,
+headers: { ‘Content-Type’: ‘application/json’, ‘x-api-key’: S.apiKey, ‘anthropic-version’: ‘2023-06-01’, ‘anthropic-dangerous-direct-browser-access’: ‘true’ },
+body: JSON.stringify(body)
+}).then(function(r) {
+if (!r.ok) return r.text().then(function(t) { throw new Error(‘API ’ + r.status + ‘: ’ + t.slice(0, 100)); });
+return r.json();
+}).then(function(d) {
+return (d.content || []).filter(function(b) { return b.type === ‘text’; }).map(function(b) { return b.text; }).join(’\n’);
+});
 }
-
 function fetchSignals() {
-  S.sigLoading = true;
-  S.sigMsg = 'Searching latest news...';
-  draw();
-  var today = new Date().toISOString().split('T')[0];
-  callAPI([{ role: 'user', content: 'You are a Signal Detection Engine for Saudi Arabia Vision 2030. TODAY: ' + today + '\n\nSearch the web for REAL current news. Generate exactly 10 Saudi local signals and 8 global signals.\n\nLOCAL: regulations, investments, tenders, mega-projects, economic indicators\nGLOBAL: geopolitics, tech disruptions, trade policy, energy shifts\n\nRespond ONLY with JSON array:\n[{"scope":"local","headline":"...","sector":"...","region":"...","date":"YYYY-MM-DD","impact":"critical|high|medium","source":"...","type":"...","context":"..."}]' }], true)
-  .then(function(text) {
-    var p = extractJSON(text);
-    if (Array.isArray(p) && p.length > 0) {
-      var existing = {};
-      S.signals.forEach(function(s) { existing[s.headline] = true; });
-      var fresh = [];
-      p.forEach(function(s) {
-        if (!existing[s.headline]) {
-          s._at = new Date().toISOString();
-          s._id = Math.random().toString(36).slice(2, 9);
-          fresh.push(s);
-        }
-      });
-      S.signals = fresh.concat(S.signals);
-      S.lastSig = new Date().toISOString();
-      localStorage.setItem('radar-signals', JSON.stringify({ items: S.signals, lastRefresh: S.lastSig }));
-      S.sigMsg = fresh.length + ' new signals. ' + S.signals.length + ' total.';
-    } else {
-      S.sigMsg = 'Could not parse signals. Try again.';
-    }
-    S.sigLoading = false;
-    draw();
-  })
-  .catch(function(e) {
-    S.sigMsg = 'Error: ' + e.message;
-    S.sigLoading = false;
-    draw();
-  });
+S.sigLoading = true; S.sigMsg = ‘Searching latest news…’; draw();
+var today = new Date().toISOString().split(‘T’)[0];
+callAPI([{ role: ‘user’, content: ‘You are a Signal Detection Engine for Saudi Arabia Vision 2030. TODAY: ’ + today + ‘\n\nSearch the web for REAL current news. Generate exactly 10 Saudi local signals and 8 global signals.\n\nLOCAL: regulations, investments, tenders, mega-projects, economic indicators\nGLOBAL: geopolitics, tech disruptions, trade policy, energy shifts\n\nRespond ONLY with JSON array:\n[{“scope”:“local”,“headline”:”…”,“sector”:”…”,“region”:”…”,“date”:“YYYY-MM-DD”,“impact”:“critical|high|medium”,“source”:”…”,“type”:”…”,“context”:”…”}]’ }], true)
+.then(function(text) {
+var p = extractJSON(text);
+if (Array.isArray(p) && p.length > 0) {
+var existing = {}; S.signals.forEach(function(s) { existing[s.headline] = true; });
+var fresh = [];
+p.forEach(function(s) { if (!existing[s.headline]) { s._at = new Date().toISOString(); s._id = Math.random().toString(36).slice(2, 9); fresh.push(s); } });
+S.signals = fresh.concat(S.signals); S.lastSig = new Date().toISOString();
+localStorage.setItem(‘radar-signals’, JSON.stringify({ items: S.signals, lastRefresh: S.lastSig }));
+S.sigMsg = fresh.length + ’ new signals. ’ + S.signals.length + ’ total.’;
+} else { S.sigMsg = ‘Could not parse signals. Try again.’; }
+S.sigLoading = false; draw();
+}).catch(function(e) { S.sigMsg = ‘Error: ’ + e.message; S.sigLoading = false; draw(); });
 }
-
 function genOpps() {
-  if (!S.signals.length) { S.oppMsg = 'Load signals first.'; draw(); return; }
-  S.oppLoading = true;
-  S.oppMsg = 'Synthesizing from signals...';
-  draw();
-  var ctx = S.signals.slice(0, 20).map(function(s) {
-    return '[' + s.scope + '][' + s.impact + '] ' + s.headline + ' | ' + s.sector + ': ' + (s.context || '');
-  }).join('\n');
-  callAPI([{ role: 'user', content: 'Analyze these signals. Generate 5-8 scored Saudi business opportunities.\n\nSIGNALS:\n' + ctx + '\n\nRespond ONLY JSON array:\n[{"title":"...","sector":"...","region":"...","score":85,"urgency":"Emerging","marketSize":"$X.XB","growth":"+XX%","description":"...","investment":"$X-XM","scores":{"v2030":90,"regulatory":85,"market":88,"ease":70,"competition":75}}]' }], false)
-  .then(function(text) {
-    var p = extractJSON(text);
-    if (Array.isArray(p) && p.length > 0) {
-      p.forEach(function(o) { o._at = new Date().toISOString(); o._id = Math.random().toString(36).slice(2, 9); });
-      S.opps = p.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
-      S.lastOpp = new Date().toISOString();
-      localStorage.setItem('radar-opportunities', JSON.stringify({ items: S.opps, lastRefresh: S.lastOpp }));
-      S.oppMsg = p.length + ' opportunities generated.';
-    } else {
-      S.oppMsg = 'Could not parse. Try again.';
-    }
-    S.oppLoading = false;
-    draw();
-  })
-  .catch(function(e) {
-    S.oppMsg = 'Error: ' + e.message;
-    S.oppLoading = false;
-    draw();
-  });
+if (!S.signals.length) { S.oppMsg = ‘Load signals first.’; draw(); return; }
+S.oppLoading = true; S.oppMsg = ‘Synthesizing from signals…’; draw();
+var ctx = S.signals.slice(0, 20).map(function(s) { return ‘[’ + s.scope + ‘][’ + s.impact + ‘] ’ + s.headline + ’ | ’ + s.sector + ‘: ’ + (s.context || ‘’); }).join(’\n’);
+callAPI([{ role: ‘user’, content: ‘Analyze these signals. Generate 5-8 scored Saudi business opportunities.\n\nSIGNALS:\n’ + ctx + ‘\n\nRespond ONLY JSON array:\n[{“title”:”…”,“sector”:”…”,“region”:”…”,“score”:85,“urgency”:“Emerging”,“marketSize”:”$X.XB”,“growth”:”+XX%”,“description”:”…”,“investment”:”$X-XM”,“scores”:{“v2030”:90,“regulatory”:85,“market”:88,“ease”:70,“competition”:75}}]’ }], false)
+.then(function(text) {
+var p = extractJSON(text);
+if (Array.isArray(p) && p.length > 0) {
+p.forEach(function(o) { o._at = new Date().toISOString(); o._id = Math.random().toString(36).slice(2, 9); });
+S.opps = p.sort(function(a, b) { return (b.score || 0) - (a.score || 0); }); S.lastOpp = new Date().toISOString();
+localStorage.setItem(‘radar-opportunities’, JSON.stringify({ items: S.opps, lastRefresh: S.lastOpp }));
+S.oppMsg = p.length + ’ opportunities generated.’;
+} else { S.oppMsg = ‘Could not parse. Try again.’; }
+S.oppLoading = false; draw();
+}).catch(function(e) { S.oppMsg = ‘Error: ’ + e.message; S.oppLoading = false; draw(); });
 }
-
 function runStudio(q) {
-  if (!q) return;
-  S.stLoading = true; S.stResult = null; S.stRaw = ''; S.stQuery = q;
-  draw();
-  var sig = S.signals.slice(0, 15).map(function(s) { return s.headline + ': ' + (s.context || ''); }).join('\n');
-  var opp = S.opps.slice(0, 6).map(function(o) { return o.title + ' Score:' + o.score + ' ' + o.marketSize; }).join('\n');
-  callAPI([{ role: 'user', content: 'AI Decision Engine for Saudi Vision 2030. Respond ONLY with JSON object:\n{"title":"...","subtitle":"...","metrics":[{"value":"...","label":"...","icon":"..."}],"summary":"...","sections":[{"heading":"...","content":"..."}],"verdict":"..."}\n\nSIGNALS:\n' + (sig || 'None') + '\nOPPS:\n' + (opp || 'None') + '\nFRAMEWORK:' + S.fw + ' ROLE:' + S.role + '\nQUERY:' + q }], true)
-  .then(function(text) {
-    var p = extractJSON(text);
-    if (p && p.title) S.stResult = p;
-    else S.stRaw = text || 'No response.';
-    S.stLoading = false;
-    draw();
-  })
-  .catch(function(e) {
-    S.stRaw = 'Error: ' + e.message;
-    S.stLoading = false;
-    draw();
-  });
+if (!q) return;
+S.stLoading = true; S.stResult = null; S.stRaw = ‘’; S.stQuery = q; draw();
+var sig = S.signals.slice(0, 15).map(function(s) { return s.headline + ‘: ’ + (s.context || ‘’); }).join(’\n’);
+var opp = S.opps.slice(0, 6).map(function(o) { return o.title + ’ Score:’ + o.score + ’ ’ + o.marketSize; }).join(’\n’);
+callAPI([{ role: ‘user’, content: ‘AI Decision Engine for Saudi Vision 2030. Respond ONLY with JSON object:\n{“title”:”…”,“subtitle”:”…”,“metrics”:[{“value”:”…”,“label”:”…”,“icon”:”…”}],“summary”:”…”,“sections”:[{“heading”:”…”,“content”:”…”}],“verdict”:”…”}\n\nSIGNALS:\n’ + (sig || ‘None’) + ‘\nOPPS:\n’ + (opp || ‘None’) + ‘\nFRAMEWORK:’ + S.fw + ’ ROLE:’ + S.role + ‘\nQUERY:’ + q }], true)
+.then(function(text) {
+var p = extractJSON(text);
+if (p && p.title) S.stResult = p; else S.stRaw = text || ‘No response.’;
+S.stLoading = false; draw();
+}).catch(function(e) { S.stRaw = ‘Error: ’ + e.message; S.stLoading = false; draw(); });
 }
-
 function renderResult(d) {
-  var h = '';
-  if (d.title) h += '<div style="font-size:18px;font-weight:600;margin-bottom:6px">' + d.title + '</div>';
-  if (d.subtitle) h += '<div style="font-size:12px;color:#8B95A8;margin-bottom:16px">' + d.subtitle + '</div>';
-  if (d.metrics && d.metrics.length) {
-    var cols = ['#C9A227', '#10B981', '#4A90D9', '#22D3EE'];
-    h += '<div style="display:grid;grid-template-columns:repeat(' + Math.min(d.metrics.length, 4) + ',1fr);gap:8px;margin-bottom:16px">';
-    d.metrics.forEach(function(m, i) {
-      var c = cols[i % 4];
-      h += '<div style="background:' + c + '10;border:1px solid ' + c + '30;border-radius:8px;padding:14px;text-align:center">';
-      if (m.icon) h += '<div style="font-size:16px;margin-bottom:4px">' + m.icon + '</div>';
-      h += '<div style="font-size:22px;font-weight:700;color:' + c + ';margin-bottom:4px">' + m.value + '</div>';
-      h += '<div style="font-size:10px;color:#8B95A8">' + m.label + '</div></div>';
-    });
-    h += '</div>';
-  }
-  if (d.summary) {
-    h += '<div style="background:#C9A22708;border:1px solid #C9A22720;border-radius:8px;padding:14px;margin-bottom:16px">';
-    h += '<div style="font-size:10px;font-weight:700;color:#C9A227;text-transform:uppercase;margin-bottom:6px">Summary</div>';
-    h += '<div style="font-size:12px;line-height:1.7">' + d.summary + '</div></div>';
-  }
-  if (d.pestel && d.pestel.length) {
-    var pc = { Political: '#4A90D9', Economic: '#C9A227', Social: '#22D3EE', Technological: '#A78BFA', Environmental: '#10B981', Legal: '#F59E0B' };
-    d.pestel.forEach(function(p) {
-      var c = pc[p.name] || '#C9A227';
-      var rc = p.rating === 'FAVORABLE' ? '#10B981' : p.rating === 'UNFAVORABLE' ? '#EF4444' : '#C9A227';
-      h += '<div style="background:' + c + '08;border-left:3px solid ' + c + ';border-radius:0 6px 6px 0;padding:12px;margin-bottom:8px">';
-      h += '<div style="display:flex;justify-content:space-between;margin-bottom:4px">';
-      h += '<span style="font-size:11px;font-weight:700;color:' + c + ';text-transform:uppercase">' + p.name + '</span>';
-      h += '<span style="font-size:9px;font-weight:700;color:' + rc + ';background:' + rc + '18;padding:2px 8px;border-radius:3px">' + p.rating + '</span></div>';
-      h += '<div style="font-size:11px;line-height:1.6">' + p.detail + '</div></div>';
-    });
-  }
-  if (d.risks && d.risks.length) {
-    var rk = { Critical: '#EF4444', High: '#F59E0B', Medium: '#C9A227', Low: '#10B981' };
-    h += '<div style="background:#1A1F2B;border-radius:8px;padding:14px;margin-bottom:16px;border:1px solid #222838">';
-    h += '<div style="font-size:10px;font-weight:700;color:#EF4444;text-transform:uppercase;margin-bottom:10px">Risks</div>';
-    d.risks.forEach(function(r) {
-      var prc = rk[r.probability] || '#C9A227';
-      var irc = rk[r.impact] || '#C9A227';
-      h += '<div style="padding:8px 0;border-bottom:1px solid #22283822">';
-      h += '<div style="display:flex;justify-content:space-between;margin-bottom:4px">';
-      h += '<span style="font-size:11px;font-weight:600">' + r.name + '</span>';
-      h += '<div><span style="font-size:9px;font-weight:700;color:' + prc + ';background:' + prc + '18;padding:2px 6px;border-radius:3px;margin-right:4px">P:' + r.probability + '</span>';
-      h += '<span style="font-size:9px;font-weight:700;color:' + irc + ';background:' + irc + '18;padding:2px 6px;border-radius:3px">I:' + r.impact + '</span></div></div>';
-      h += '<div style="font-size:10px;color:#8B95A8;line-height:1.5">' + (r.mitigation || '') + '</div></div>';
-    });
-    h += '</div>';
-  }
-  if (d.sections) {
-    d.sections.forEach(function(s) {
-      h += '<div style="margin-bottom:14px">';
-      h += '<div style="font-size:10px;font-weight:700;color:' + (s.color || '#4A90D9') + ';text-transform:uppercase;margin-bottom:6px">' + s.heading + '</div>';
-      h += '<div style="font-size:12px;line-height:1.7">' + s.content + '</div></div>';
-    });
-  }
-  if (d.verdict) {
-    h += '<div style="background:linear-gradient(135deg,#C9A22712,#C9A22706);border:1px solid #C9A22730;border-radius:8px;padding:16px;margin-top:14px">';
-    h += '<div style="font-size:10px;font-weight:700;color:#C9A227;text-transform:uppercase;margin-bottom:6px">Verdict</div>';
-    h += '<div style="font-size:13px;font-weight:500;color:#E2C15E;line-height:1.6">' + d.verdict + '</div></div>';
-  }
-  return h;
+var h = ‘’;
+if (d.title) h += ‘<div style="font-size:18px;font-weight:600;margin-bottom:6px">’ + d.title + ‘</div>’;
+if (d.subtitle) h += ‘<div style="font-size:12px;color:#8B95A8;margin-bottom:16px">’ + d.subtitle + ‘</div>’;
+if (d.metrics && d.metrics.length) {
+var cols = [’#C9A227’, ‘#10B981’, ‘#4A90D9’, ‘#22D3EE’];
+h += ‘<div style="display:grid;grid-template-columns:repeat(' + Math.min(d.metrics.length, 4) + ',1fr);gap:8px;margin-bottom:16px">’;
+d.metrics.forEach(function(m, i) { var c = cols[i % 4]; h += ‘<div style="background:' + c + '10;border:1px solid ' + c + '30;border-radius:8px;padding:14px;text-align:center">’; if (m.icon) h += ‘<div style="font-size:16px;margin-bottom:4px">’ + m.icon + ‘</div>’; h += ‘<div style="font-size:22px;font-weight:700;color:' + c + ';margin-bottom:4px">’ + m.value + ‘</div><div style="font-size:10px;color:#8B95A8">’ + m.label + ‘</div></div>’; });
+h += ‘</div>’;
 }
-
+if (d.summary) h += ‘<div style="background:#C9A22708;border:1px solid #C9A22720;border-radius:8px;padding:14px;margin-bottom:16px"><div style="font-size:10px;font-weight:700;color:#C9A227;text-transform:uppercase;margin-bottom:6px">Summary</div><div style="font-size:12px;line-height:1.7">’ + d.summary + ‘</div></div>’;
+if (d.pestel && d.pestel.length) {
+var pc = { Political: ‘#4A90D9’, Economic: ‘#C9A227’, Social: ‘#22D3EE’, Technological: ‘#A78BFA’, Environmental: ‘#10B981’, Legal: ‘#F59E0B’ };
+d.pestel.forEach(function(p) { var c = pc[p.name] || ‘#C9A227’; var rc = p.rating === ‘FAVORABLE’ ? ‘#10B981’ : p.rating === ‘UNFAVORABLE’ ? ‘#EF4444’ : ‘#C9A227’; h += ‘<div style="background:' + c + '08;border-left:3px solid ' + c + ';border-radius:0 6px 6px 0;padding:12px;margin-bottom:8px"><div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:11px;font-weight:700;color:' + c + ';text-transform:uppercase">’ + p.name + ‘</span><span style="font-size:9px;font-weight:700;color:' + rc + ';background:' + rc + '18;padding:2px 8px;border-radius:3px">’ + p.rating + ‘</span></div><div style="font-size:11px;line-height:1.6">’ + p.detail + ‘</div></div>’; });
+}
+if (d.risks && d.risks.length) {
+var rk = { Critical: ‘#EF4444’, High: ‘#F59E0B’, Medium: ‘#C9A227’, Low: ‘#10B981’ };
+h += ‘<div style="background:#1A1F2B;border-radius:8px;padding:14px;margin-bottom:16px;border:1px solid #222838"><div style="font-size:10px;font-weight:700;color:#EF4444;text-transform:uppercase;margin-bottom:10px">Risks</div>’;
+d.risks.forEach(function(r) { var prc = rk[r.probability] || ‘#C9A227’; var irc = rk[r.impact] || ‘#C9A227’; h += ‘<div style="padding:8px 0;border-bottom:1px solid #22283822"><div style="display:flex;justify-content:space-between;margin-bottom:4px"><span style="font-size:11px;font-weight:600">’ + r.name + ‘</span><div><span style="font-size:9px;font-weight:700;color:' + prc + ';background:' + prc + '18;padding:2px 6px;border-radius:3px;margin-right:4px">P:’ + r.probability + ‘</span><span style="font-size:9px;font-weight:700;color:' + irc + ';background:' + irc + '18;padding:2px 6px;border-radius:3px">I:’ + r.impact + ‘</span></div></div><div style="font-size:10px;color:#8B95A8;line-height:1.5">’ + (r.mitigation || ‘’) + ‘</div></div>’; });
+h += ‘</div>’;
+}
+if (d.sections) { d.sections.forEach(function(s) { h += ‘<div style="margin-bottom:14px"><div style="font-size:10px;font-weight:700;color:' + (s.color || '#4A90D9') + ';text-transform:uppercase;margin-bottom:6px">’ + s.heading + ‘</div><div style="font-size:12px;line-height:1.7">’ + s.content + ‘</div></div>’; }); }
+if (d.verdict) h += ‘<div style="background:linear-gradient(135deg,#C9A22712,#C9A22706);border:1px solid #C9A22730;border-radius:8px;padding:16px;margin-top:14px"><div style="font-size:10px;font-weight:700;color:#C9A227;text-transform:uppercase;margin-bottom:6px">Verdict</div><div style="font-size:13px;font-weight:500;color:#E2C15E;line-height:1.6">’ + d.verdict + ‘</div></div>’;
+return h;
+}
 function draw() {
-  var app = document.getElementById('app');
+var app = document.getElementById(‘app’);
+if (!S.apiKey) {
+app.innerHTML = ‘<div style="text-align:center;padding:40px 0"><div style="font-size:28px;margin-bottom:12px">◉</div><div style="font-size:20px;font-weight:600;color:#C9A227;margin-bottom:4px">Opportunity Radar</div><div style="font-size:12px;color:#8B95A8;margin-bottom:24px">Enter your Anthropic API key</div><div style="font-size:12px;margin-bottom:16px;text-align:left;line-height:1.6">Stored only in your browser. Never sent anywhere except Anthropic.</div><input class="inp" id="keyIn" type="password" placeholder="sk-ant-api03-..." style="margin-bottom:12px"><br><button class="btn btn-g" id="keyBtn" style="width:100%;padding:12px">Save and Launch</button><div style="font-size:10px;color:#5A6478;margin-top:12px">Get key at console.anthropic.com</div></div>’;
+document.getElementById(‘keyBtn’).onclick = function() { var v = document.getElementById(‘keyIn’).value; if (v && v.indexOf(‘sk-’) === 0) { S.apiKey = v; localStorage.setItem(‘radar-api-key’, v); draw(); } };
+return;
+}
+var oldH = document.getElementById(‘hdr-el’); if (oldH) oldH.remove();
+var hdr = document.createElement(‘div’); hdr.id = ‘hdr-el’;
+hdr.innerHTML = ‘<div class="hdr"><div class="hdr-inner"><span style="font-weight:600;color:#C9A227">◉ Radar</span><div class="tabs"><button class="tab' + (S.view === 'signals' ? ' on' : '') + '" id="navSig">Signals</button><button class="tab' + (S.view === 'opportunities' ? ' on' : '') + '" id="navOpp">Opps</button><button class="tab' + (S.view === 'studio' ? ' on' : '') + '" id="navStu">Studio</button></div><select class="inp" id="roleSel" style="width:auto;padding:3px 6px;font-size:10px"><option value=“entrepreneur”’ + (S.role === ‘entrepreneur’ ? ’ selected’ : ‘’) + ‘>Entrepreneur</option><option value=“investor”’ + (S.role === ‘investor’ ? ’ selected’ : ‘’) + ‘>Investor</option><option value=“policymaker”’ + (S.role === ‘policymaker’ ? ’ selected’ : ‘’) + ‘>Policy Maker</option></select></div></div>’;
+document.body.insertBefore(hdr, app);
+document.getElementById(‘navSig’).onclick = function() { S.view = ‘signals’; draw(); };
+document.getElementById(‘navOpp’).onclick = function() { S.view = ‘opportunities’; draw(); };
+document.getElementById(‘navStu’).onclick = function() { S.view = ‘studio’; draw(); };
+document.getElementById(‘roleSel’).onchange = function() { S.role = this.value; };
+var html = ‘’;
 
-  if (!S.apiKey) {
-    app.innerHTML = '<div style="text-align:center;padding:40px 0">' +
-      '<div style="font-size:28px;margin-bottom:12px">◉</div>' +
-      '<div style="font-size:20px;font-weight:600;color:#C9A227;margin-bottom:4px">Opportunity Radar</div>' +
-      '<div style="font-size:12px;color:#8B95A8;margin-bottom:24px">Enter your Anthropic API key</div>' +
-      '<div style="font-size:12px;margin-bottom:16px;text-align:left;line-height:1.6">Stored only in your browser. Never sent anywhere except Anthropic.</div>' +
-      '<input class="inp" id="keyIn" type="password" placeholder="sk-ant-api03-..." style="margin-bottom:12px">' +
-      '<br><button class="btn btn-g" id="keyBtn" style="width:100%;padding:12px">Save and Launch</button>' +
-      '<div style="font-size:10px;color:#5A6478;margin-top:12px">Get key at console.anthropic.com</div></div>';
-    document.getElementById('keyBtn').onclick = function() {
-      var v = document.getElementById('keyIn').value;
-      if (v && v.indexOf('sk-') === 0) { S.apiKey = v; localStorage.setItem('radar-api-key', v); draw(); }
-    };
-    return;
-  }
-
-  // Remove old header
-  var oldH = document.getElementById('hdr-el');
-  if (oldH) oldH.remove();
-
-  // Build header
-  var hdr = document.createElement('div');
-  hdr.id = 'hdr-el';
-  hdr.innerHTML = '<div class="hdr"><div class="hdr-inner">' +
-    '<span style="font-weight:600;color:#C9A227">◉ Radar</span>' +
-    '<div class="tabs">' +
-    '<button class="tab' + (S.view === 'signals' ? ' on' : '') + '" id="navSig">◈ Signals</button>' +
-    '<button class="tab' + (S.view === 'opportunities' ? ' on' : '') + '" id="navOpp">◆ Opps</button>' +
-    '<button class="tab' + (S.view === 'studio' ? ' on' : '') + '" id="navStu">⚡ Studio</button>' +
-    '</div>' +
-    '<select class="inp" id="roleSel" style="width:auto;padding:3px 6px;font-size:10px">' +
-    '<option value="entrepreneur"' + (S.role === 'entrepreneur' ? ' selected' : '') + '>Entrepreneur</option>' +
-    '<option value="investor"' + (S.role === 'investor' ? ' selected' : '') + '>Investor</option>' +
-    '<option value="policymaker"' + (S.role === 'policymaker' ? ' selected' : '') + '>Policy Maker</option>' +
-    '</select></div></div>';
-  document.body.insertBefore(hdr, app);
-
-  document.getElementById('navSig').onclick = function() { S.view = 'signals'; draw(); };
-  document.getElementById('navOpp').onclick = function() { S.view = 'opportunities'; draw(); };
-  document.getElementById('navStu').onclick = function() { S.view = 'studio'; draw(); };
-  document.getElementById('roleSel').onchange = function() { S.role = this.value; };
-
-  var html = '';
-
-  // ═══ SIGNALS ═══
-  if (S.view === 'signals') {
-    var local = S.signals.filter(function(s) { return s.scope === 'local'; }).length;
-    var global = S.signals.filter(function(s) { return s.scope === 'global'; }).length;
-    var h = hrsAgo(S.lastSig);
-
-    html += '<h2 style="font-size:20px;font-weight:600;margin-bottom:4px">Signal Detection Engine</h2>';
-    html += '<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">AI-powered from live news. Tap any signal to analyze.</p>';
-    html += '<div class="card" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">';
-    html += '<div style="font-size:11px;color:#8B95A8">Total <b>' + S.signals.length + '</b> · Local ' + local + ' · Global ' + global;
-    if (h !== null) html += ' · ' + h + 'h ago';
-    html += '</div>';
-    html += '<button class="btn btn-g" id="btnRefSig"' + (S.sigLoading ? ' disabled' : '') + '>' + (S.sigLoading ? 'Scanning...' : 'Refresh') + '</button></div>';
-
-    if (S.sigMsg) html += '<div class="card" style="font-size:11px;color:#C9A227">' + S.sigMsg + '</div>';
-
-    html += '<div style="display:flex;gap:6px;margin-bottom:12px">';
-    ['all', 'local', 'global'].forEach(function(sc) {
-      html += '<button class="btn btn-o' + (S.scope === sc ? ' on' : '') + '" id="scope_' + sc + '">' +
-        (sc === 'all' ? 'All' : sc === 'local' ? 'Local' : 'Global') + '</button>';
-    });
-    html += '</div>';
-
-    var filtered = S.signals.filter(function(s) {
-      if (S.scope === 'local' && s.scope !== 'local') return false;
-      if (S.scope === 'global' && s.scope !== 'global') return false;
-      return true;
-    });
-
-    if (filtered.length === 0 && !S.sigLoading) {
-      html += '<div class="card" style="text-align:center;padding:30px">';
-      html += '<div style="font-size:24px;margin-bottom:8px">◈</div>';
-      html += '<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">No signals yet. Tap Refresh.</p>';
-      html += '<button class="btn btn-g" id="btnRefSig2">Refresh Signals</button></div>';
-    }
-
-    filtered.forEach(function(s, i) {
-      html += '<div class="card" style="cursor:pointer" data-sidx="' + i + '">';
-      html += '<div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:6px">';
-      html += bg(s.scope || '', s.scope === 'global' ? '#A78BFA' : '#22D3EE') + ' ';
-      html += bg(s.impact || '', s.impact === 'critical' ? '#EF4444' : s.impact === 'high' ? '#F59E0B' : '#C9A227') + ' ';
-      html += bg(s.sector || '', '#4A90D9');
-      if (s.type) html += ' ' + bg(s.type, '#8B95A8');
-      html += '</div>';
-      html += '<div style="font-size:13px;font-weight:600;margin-bottom:4px;line-height:1.4">' + (s.headline || '') + '</div>';
-      html += '<div style="font-size:11px;color:#8B95A8;line-height:1.5;margin-bottom:4px">' + (s.context || '') + '</div>';
-      html += '<div style="display:flex;justify-content:space-between;font-size:10px;color:#5A6478">';
-      html += '<span>' + (s.source || '') + ' · ' + (s.date || '') + '</span>';
-      html += '<span style="color:#C9A227;font-weight:600">⚡ Analyze</span></div></div>';
-    });
-  }
-
-  // ═══ OPPORTUNITIES ═══
-  if (S.view === 'opportunities') {
-    html += '<h2 style="font-size:20px;font-weight:600;margin-bottom:4px">Opportunity Explorer</h2>';
-    html += '<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">AI-scored from signal clusters.</p>';
-    html += '<div class="card" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">';
-    html += '<span style="font-size:11px;color:#8B95A8">◆ <b>' + S.opps.length + '</b> from <b>' + S.signals.length + '</b> signals</span>';
-    html += '<button class="btn btn-g" id="btnGenOpp"' + (S.oppLoading || !S.signals.length ? ' disabled' : '') + '>' + (S.oppLoading ? 'Generating...' : 'Generate') + '</button></div>';
-
-    if (S.oppMsg) html += '<div class="card" style="font-size:11px;color:#C9A227">' + S.oppMsg + '</div>';
-
-    if (!S.opps.length && !S.oppLoading) {
-      html += '<div class="card" style="text-align:center;padding:30px">';
-      html += '<div style="font-size:24px;margin-bottom:8px">◆</div>';
-      html += '<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">' + (!S.signals.length ? 'Load signals first.' : 'Tap Generate.') + '</p>';
-      html += '<button class="btn btn-g" id="' + (S.signals.length ? 'btnGenOpp2' : 'btnRefSig3') + '">' + (S.signals.length ? 'Generate' : 'Load Signals') + '</button></div>';
-    }
-
-    S.opps.forEach(function(o, i) {
-      var sc = o.score || 75;
-      var col = sc >= 90 ? '#10B981' : sc >= 80 ? '#C9A227' : '#F59E0B';
-      html += '<div class="card" style="cursor:pointer" data-oidx="' + i + '">';
-      html += '<div style="display:flex;gap:12px">';
-      html += '<div style="width:48px;height:48px;border-radius:50%;border:3px solid ' + col + ';display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:' + col + ';flex-shrink:0">' + sc + '</div>';
-      html += '<div style="flex:1">';
-      html += '<div style="display:flex;gap:4px;margin-bottom:6px;flex-wrap:wrap">' + bg(o.sector || '', '#C9A227');
-      if (o.region) html += ' ' + bg(o.region, '#10B981');
-      if (o.urgency) html += ' ' + bg(o.urgency, '#22D3EE');
-      html += '</div>';
-      html += '<div style="font-size:14px;font-weight:600;margin-bottom:4px">' + (o.title || '') + '</div>';
-      html += '<div style="font-size:11px;color:#8B95A8;line-height:1.5;margin-bottom:6px">' + (o.description || '') + '</div>';
-      html += '<div style="font-size:11px;color:#5A6478">';
-      if (o.marketSize) html += 'Market: <b style="color:#C9A227">' + o.marketSize + '</b> ';
-      if (o.growth) html += 'Growth: <b style="color:#10B981">' + o.growth + '</b>';
-      html += '</div></div></div></div>';
-    });
-  }
-
-  // ═══ AI STUDIO ═══
-  if (S.view === 'studio') {
-    var fws = [['strategic', 'Strategic'], ['pestel', 'PESTEL'], ['risk', 'Risk'], ['competitive', 'Competitive']];
-
-    html += '<h2 style="font-size:20px;font-weight:600;margin-bottom:4px">AI Decision Studio</h2>';
-    html += '<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">' + S.signals.length + ' signals · ' + S.opps.length + ' opportunities</p>';
-
-    html += '<div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap">';
-    fws.forEach(function(f) {
-      html += '<button class="btn btn-o' + (S.fw === f[0] ? ' on' : '') + '" id="fw_' + f[0] + '" style="font-size:10px;padding:4px 10px">' + f[1] + '</button>';
-    });
-    html += '</div>';
-
-    html += '<div class="card">';
-    html += '<textarea class="inp" id="studioIn" placeholder="Ask about signals, opportunities, risks...">' + (S.stQuery || '') + '</textarea>';
-
-```
-html += '<div style="margin-top:8px"><button class="btn btn-g" id="btnStudio"' + (S.stLoading ? ' disabled' : '') + '>' + (S.stLoading ? 'Analyzing...' : '⚡ Run Agent') + '</button></div></div>';
-
-if (S.stLoading) {
-  html += '<div class="card" style="text-align:center;padding:30px;color:#C9A227"><div class="spinner" style="margin:0 auto 12px"></div>AI Agent analyzing...</div>';
+if (S.view === ‘signals’) {
+var local = S.signals.filter(function(s) { return s.scope === ‘local’; }).length;
+var global = S.signals.filter(function(s) { return s.scope === ‘global’; }).length;
+var h = hrsAgo(S.lastSig);
+html += ‘<h2 style="font-size:20px;font-weight:600;margin-bottom:4px">Signal Detection Engine</h2>’;
+html += ‘<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">AI-powered from live news. Tap any signal to analyze.</p>’;
+html += ‘<div class="card" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px"><div style="font-size:11px;color:#8B95A8">Total <b>’ + S.signals.length + ‘</b> | Local ’ + local + ’ | Global ’ + global;
+if (h !== null) html += ’ | ’ + h + ‘h ago’;
+html += ‘</div><button class=“btn btn-g” id=“btnRefSig”’ + (S.sigLoading ? ’ disabled’ : ‘’) + ‘>’ + (S.sigLoading ? ‘Scanning…’ : ‘Refresh’) + ‘</button></div>’;
+if (S.sigMsg) html += ‘<div class="card" style="font-size:11px;color:#C9A227">’ + S.sigMsg + ‘</div>’;
+html += ‘<div style="display:flex;gap:6px;margin-bottom:12px">’;
+[‘all’, ‘local’, ‘global’].forEach(function(sc) { html += ‘<button class="btn btn-o' + (S.scope === sc ? ' on' : '') + '" id="scope_' + sc + '">’ + (sc === ‘all’ ? ‘All’ : sc === ‘local’ ? ‘Local’ : ‘Global’) + ‘</button>’; });
+html += ‘</div>’;
+var filtered = S.signals.filter(function(s) { if (S.scope === ‘local’ && s.scope !== ‘local’) return false; if (S.scope === ‘global’ && s.scope !== ‘global’) return false; return true; });
+if (filtered.length === 0 && !S.sigLoading) { html += ‘<div class="card" style="text-align:center;padding:30px"><div style="font-size:24px;margin-bottom:8px">◈</div><p style="color:#8B95A8;font-size:12px;margin-bottom:14px">No signals yet. Tap Refresh.</p><button class="btn btn-g" id="btnRefSig2">Refresh Signals</button></div>’; }
+filtered.forEach(function(s, i) {
+html += ‘<div class="card" style="cursor:pointer" data-sidx="' + i + '"><div style="display:flex;gap:4px;flex-wrap:wrap;margin-bottom:6px">’ + bg(s.scope || ‘’, s.scope === ‘global’ ? ‘#A78BFA’ : ‘#22D3EE’) + ’ ’ + bg(s.impact || ‘’, s.impact === ‘critical’ ? ‘#EF4444’ : s.impact === ‘high’ ? ‘#F59E0B’ : ‘#C9A227’) + ’ ’ + bg(s.sector || ‘’, ‘#4A90D9’) + (s.type ? ’ ’ + bg(s.type, ‘#8B95A8’) : ‘’) + ‘</div><div style="font-size:13px;font-weight:600;margin-bottom:4px;line-height:1.4">’ + (s.headline || ‘’) + ‘</div><div style="font-size:11px;color:#8B95A8;line-height:1.5;margin-bottom:4px">’ + (s.context || ‘’) + ‘</div><div style="display:flex;justify-content:space-between;font-size:10px;color:#5A6478"><span>’ + (s.source || ‘’) + ’ | ’ + (s.date || ‘’) + ‘</span><span style="color:#C9A227;font-weight:600">Analyze</span></div></div>’;
+});
 }
 
-if (S.stResult && !S.stLoading) {
-  html += '<div class="card">' + renderResult(S.stResult) + '</div>';
+if (S.view === ‘opportunities’) {
+html += ‘<h2 style="font-size:20px;font-weight:600;margin-bottom:4px">Opportunity Explorer</h2>’;
+html += ‘<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">AI-scored from signal clusters.</p>’;
+html += ‘<div class="card" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px"><span style="font-size:11px;color:#8B95A8"><b>’ + S.opps.length + ‘</b> from <b>’ + S.signals.length + ‘</b> signals</span><button class=“btn btn-g” id=“btnGenOpp”’ + (S.oppLoading || !S.signals.length ? ’ disabled’ : ‘’) + ‘>’ + (S.oppLoading ? ‘Generating…’ : ‘Generate’) + ‘</button></div>’;
+if (S.oppMsg) html += ‘<div class="card" style="font-size:11px;color:#C9A227">’ + S.oppMsg + ‘</div>’;
+if (!S.opps.length && !S.oppLoading) { html += ‘<div class="card" style="text-align:center;padding:30px"><div style="font-size:24px;margin-bottom:8px">◆</div><p style="color:#8B95A8;font-size:12px;margin-bottom:14px">’ + (!S.signals.length ? ‘Load signals first.’ : ‘Tap Generate.’) + ‘</p><button class="btn btn-g" id="' + (S.signals.length ? 'btnGenOpp2' : 'btnRefSig3') + '">’ + (S.signals.length ? ‘Generate’ : ‘Load Signals’) + ‘</button></div>’; }
+S.opps.forEach(function(o, i) {
+var sc = o.score || 75; var col = sc >= 90 ? ‘#10B981’ : sc >= 80 ? ‘#C9A227’ : ‘#F59E0B’;
+html += ‘<div class="card" style="cursor:pointer" data-oidx="' + i + '"><div style="display:flex;gap:12px"><div style="width:48px;height:48px;border-radius:50%;border:3px solid ' + col + ';display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:' + col + ';flex-shrink:0">’ + sc + ‘</div><div style="flex:1"><div style="display:flex;gap:4px;margin-bottom:6px;flex-wrap:wrap">’ + bg(o.sector || ‘’, ‘#C9A227’) + (o.region ? ’ ’ + bg(o.region, ‘#10B981’) : ‘’) + (o.urgency ? ’ ’ + bg(o.urgency, ‘#22D3EE’) : ‘’) + ‘</div><div style="font-size:14px;font-weight:600;margin-bottom:4px">’ + (o.title || ‘’) + ‘</div><div style="font-size:11px;color:#8B95A8;line-height:1.5;margin-bottom:6px">’ + (o.description || ‘’) + ‘</div><div style="font-size:11px;color:#5A6478">’ + (o.marketSize ? ‘Market: <b style="color:#C9A227">’ + o.marketSize + ’</b> ’ : ‘’) + (o.growth ? ‘Growth: <b style="color:#10B981">’ + o.growth + ‘</b>’ : ‘’) + ‘</div></div></div></div>’;
+});
 }
 
-if (S.stRaw && !S.stResult && !S.stLoading) {
-  html += '<div class="card"><div style="font-size:12px;line-height:1.7;white-space:pre-wrap">' + S.stRaw + '</div></div>';
-}
-```
-
+if (S.view === ‘studio’) {
+var fws = [[‘strategic’, ‘Strategic’], [‘pestel’, ‘PESTEL’], [‘risk’, ‘Risk’], [‘competitive’, ‘Competitive’]];
+html += ‘<h2 style="font-size:20px;font-weight:600;margin-bottom:4px">AI Decision Studio</h2>’;
+html += ‘<p style="color:#8B95A8;font-size:12px;margin-bottom:14px">’ + S.signals.length + ’ signals | ’ + S.opps.length + ’ opportunities</p>’;
+html += ‘<div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap">’;
+fws.forEach(function(f) { html += ‘<button class="btn btn-o' + (S.fw === f[0] ? ' on' : '') + '" id="fw_' + f[0] + '" style="font-size:10px;padding:4px 10px">’ + f[1] + ‘</button>’; });
+html += ‘</div>’;
+html += ‘<div class="card"><textarea class="inp" id="studioIn" placeholder="Ask about signals, opportunities, risks...">’ + (S.stQuery || ‘’) + ‘</textarea>’;
+html += ‘<div style="margin-top:8px"><button class=“btn btn-g” id=“btnStudio”’ + (S.stLoading ? ’ disabled’ : ‘’) + ‘>’ + (S.stLoading ? ‘Analyzing…’ : ‘Run Agent’) + ‘</button></div></div>’;
+if (S.stLoading) { html += ‘<div class="card" style="text-align:center;padding:30px;color:#C9A227"><div class="spinner" style="margin:0 auto 12px"></div>AI Agent analyzing…</div>’; }
+if (S.stResult && !S.stLoading) { html += ‘<div class="card">’ + renderResult(S.stResult) + ‘</div>’; }
+if (S.stRaw && !S.stResult && !S.stLoading) { html += ‘<div class="card"><div style="font-size:12px;line-height:1.7;white-space:pre-wrap">’ + S.stRaw + ‘</div></div>’; }
 }
 
 app.innerHTML = html;
 
-// ─── BIND EVENTS ───
 var r1 = document.getElementById(‘btnRefSig’); if (r1) r1.onclick = fetchSignals;
 var r2 = document.getElementById(‘btnRefSig2’); if (r2) r2.onclick = fetchSignals;
 var r3 = document.getElementById(‘btnRefSig3’); if (r3) r3.onclick = fetchSignals;
 var g1 = document.getElementById(‘btnGenOpp’); if (g1) g1.onclick = genOpps;
 var g2 = document.getElementById(‘btnGenOpp2’); if (g2) g2.onclick = genOpps;
-
-var sb = document.getElementById(‘btnStudio’);
-if (sb) sb.onclick = function() {
-var inp = document.getElementById(‘studioIn’);
-if (inp && inp.value) runStudio(inp.value);
-};
-
-[‘all’, ‘local’, ‘global’].forEach(function(sc) {
-var btn = document.getElementById(‘scope_’ + sc);
-if (btn) btn.onclick = function() { S.scope = sc; draw(); };
-});
-
-[‘strategic’, ‘pestel’, ‘risk’, ‘competitive’].forEach(function(f) {
-var btn = document.getElementById(‘fw_’ + f);
-if (btn) btn.onclick = function() { S.fw = f; draw(); };
-});
-
-document.querySelectorAll(’[data-sidx]’).forEach(function(el) {
-el.onclick = function() {
-var filtered = S.signals.filter(function(s) {
-if (S.scope === ‘local’ && s.scope !== ‘local’) return false;
-if (S.scope === ‘global’ && s.scope !== ‘global’) return false;
-return true;
-});
-var s = filtered[parseInt(el.dataset.sidx)];
-if (s) {
-S.view = ‘studio’;
-S.stQuery = ‘Analyze: “’ + s.headline + ‘” - implications for Saudi Arabia.’;
+var sb = document.getElementById(‘btnStudio’); if (sb) sb.onclick = function() { var inp = document.getElementById(‘studioIn’); if (inp && inp.value) runStudio(inp.value); };
+[‘all’, ‘local’, ‘global’].forEach(function(sc) { var btn = document.getElementById(‘scope_’ + sc); if (btn) btn.onclick = function() { S.scope = sc; draw(); }; });
+[‘strategic’, ‘pestel’, ‘risk’, ‘competitive’].forEach(function(f) { var btn = document.getElementById(‘fw_’ + f); if (btn) btn.onclick = function() { S.fw = f; draw(); }; });
+document.querySelectorAll(’[data-sidx]’).forEach(function(el) { el.onclick = function() { var filtered = S.signals.filter(function(s) { if (S.scope === ‘local’ && s.scope !== ‘local’) return false; if (S.scope === ‘global’ && s.scope !== ‘global’) return false; return true; }); var s = filtered[parseInt(el.dataset.sidx)]; if (s) { S.view = ‘studio’; S.stQuery = ‘Analyze: “’ + s.headline + ‘” - implications for Saudi Arabia.’; draw(); setTimeout(function() { runStudio(S.stQuery); }, 100); } }; });
+document.querySelectorAll(’[data-oidx]’).forEach(function(el) { el.onclick = function() { var o = S.opps[parseInt(el.dataset.oidx)]; if (o) { S.view = ‘studio’; S.stQuery = ‘Deep analysis: “’ + o.title + ‘” (Score:’ + o.score + ‘, Market:’ + o.marketSize + ‘)’; draw(); setTimeout(function() { runStudio(S.stQuery); }, 100); } }; });
+}
 draw();
-setTimeout(function() { runStudio(S.stQuery); }, 100);
-}
-};
-});
-
-document.querySelectorAll(’[data-oidx]’).forEach(function(el) {
-el.onclick = function() {
-var o = S.opps[parseInt(el.dataset.oidx)];
-if (o) {
-S.view = ‘studio’;
-S.stQuery = ‘Deep analysis: “’ + o.title + ‘” (Score:’ + o.score + ‘, Market:’ + o.marketSize + ‘)’;
-draw();
-setTimeout(function() { runStudio(S.stQuery); }, 100);
-}
-};
-});
-}
-
-draw();
-
-} catch(e) {
-document.getElementById(‘error-display’).innerHTML = ’<div class="err"><b>Startup Error:</b> ’ + e.message + ‘</div>’;
-}
+} catch(e) { document.getElementById(‘error-display’).innerHTML = ’<div class="err"><b>Startup Error:</b> ’ + e.message + ‘</div>’; }
 </script>
 
 </body>
