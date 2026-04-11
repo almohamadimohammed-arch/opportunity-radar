@@ -151,7 +151,7 @@ function draw() {
   var app = document.getElementById('app');
   if (!S.apiKey) {
     app.innerHTML = '<div style="text-align:center;padding:40px 0"><div style="font-size:28px;margin-bottom:12px">&#9673;</div><div style="font-size:20px;font-weight:600;color:#C9A227;margin-bottom:4px">Opportunity Radar</div><div style="font-size:12px;color:#8B95A8;margin-bottom:24px">Enter your Anthropic API key</div><div style="font-size:12px;margin-bottom:16px;text-align:left;line-height:1.6">Stored only in your browser. Never sent anywhere except Anthropic.</div><input class="inp" id="keyIn" type="password" placeholder="sk-ant-api03-..." style="margin-bottom:12px"><br><button class="btn btn-g" id="keyBtn" style="width:100%;padding:12px">Save and Launch</button><div style="font-size:10px;color:#5A6478;margin-top:12px">Get key at console.anthropic.com</div></div>';
-    document.getElementById('keyBtn').onclick = function() { var v = document.getElementById('keyIn').value; if (v && v.indexOf('sk-') === 0) { S.apiKey = v; localStorage.setItem('radar-api-key', v); draw(); } };
+    document.getElementById('keyBtn').onclick = function() { var v = document.getElementById('keyIn').value; if(v&&v.length>10) { S.apiKey = v; localStorage.setItem('radar-api-key', v); draw(); } };
     return;
   }
   var oldH = document.getElementById('hdr-el'); if (oldH) oldH.remove();
