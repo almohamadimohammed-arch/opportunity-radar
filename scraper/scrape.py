@@ -1,33 +1,39 @@
 import requests
 import json
 import os
+import re
 from datetime import datetime
 
 GROQ_KEY = os.environ.get(“GROQ_API_KEY”, “”)
 NEWS_KEY = os.environ.get(“NEWS_API_KEY”, “”)
 GNEWS_KEY = os.environ.get(“GNEWS_API_KEY”, “”)
 
+REDDIT_HEADERS = {“User-Agent”: “OpportunityRadar/1.0 (signal-scanner)”}
+
 def fetch_news():
 articles = []
-queries_news = [
-“Saudi Arabia Vision 2030”,
-“Saudi investment NEOM Qiddiya”,
-“SAMA fintech regulation Saudi”,
-“Saudi oil energy renewable”,
-“Gulf geopolitics trade”,
-“Saudi Arabia tourism entertainment”,
-“PIF Saudi fund investment”
-]
-for q in queries_news:
-try:
-r = requests.get(“https://newsapi.org/v2/everything”, params={“q”: q, “sortBy”: “publishedAt”, “pageSize”: 5, “language”: “en”, “apiKey”: NEWS_KEY}, timeout=15)
-if r.status_code == 200:
-for a in r.json().get(“articles”, []):
-articles.append({“title”: a.get(“title”,””), “source”: a.get(“source”,{}).get(“name”,””), “description”: a.get(“description”,””), “date”: a.get(“publishedAt”,””)[:10], “category”: “business”})
-except:
-pass
 
 ```
+# ─── NewsAPI: Saudi business + policy ───
+queries_news = [
+    "Saudi Arabia Vision 2030",
+    "Saudi investment NEOM Qiddiya",
+    "SAMA fintech regulation Saudi",
+    "Saudi oil energy renewable",
+    "Gulf geopolitics trade",
+    "Saudi Arabia tourism entertainment",
+    "PIF Saudi fund investment"
+]
+for q in queries_news:
+    try:
+        r = requests.get("https://newsapi.org/v2/everything", params={"q": q, "sortBy": "publishedAt", "pageSize": 5, "language": "en", "apiKey": NEWS_KEY}, timeout=15)
+        if r.status_code == 200:
+            for a in r.json().get("articles", []):
+                articles.append({"title": a.get("title",""), "source": "NewsAPI: " + a.get("source",{}).get("name",""), "description": a.get("description",""), "date": a.get("publishedAt","")[:10], "category": "business"})
+    except:
+        pass
+
+# ─── GNews: emerging tech + innovation ───
 queries_tech = [
     "artificial intelligence breakthrough",
     "quantum computing",
@@ -42,19 +48,138 @@ for q in queries_tech:
         r = requests.get("https://gnews.io/api/v4/search", params={"q": q, "max": 5, "lang": "en", "token": GNEWS_KEY}, timeout=15)
         if r.status_code == 200:
             for a in r.json().get("articles", []):
-                articles.append({"title": a.get("title",""), "source": a.get("source",{}).get("name",""), "description": a.get("description",""), "date": a.get("publishedAt","")[:10], "category": "technology"})
+                articles.append({"title": a.get("title",""), "source": "GNews: " + a.get("source",{}).get("name",""), "description": a.get("description",""), "date": a.get("publishedAt","")[:10], "category": "technology"})
     except:
         pass
 
-return articles
+# ─── Reddit: full subreddit scan (no API key needed) ───
+reddit_subs = [
+    # News & Geopolitics
+    {"sub": "worldnews", "label": "World news"},
+    {"sub": "news", "label": "General news"},
+    {"sub": "geopolitics", "label": "Geopolitical analysis"},
+    {"sub": "saudiarabia", "label": "Saudi discussions"},
+    # Business & Finance
+    {"sub": "business", "label": "Business news"},
+    {"sub": "economics", "label": "Economic analysis"},
+    {"sub": "finance", "label": "Finance"},
+    # Technology & AI
+    {"sub": "technology", "label": "Tech trends"},
+    {"sub": "TechNews", "label": "Tech news"},
+    {"sub": "ArtificialIntelligence", "label": "AI developments"},
+    {"sub": "MachineLearning", "label": "ML research"},
+    {"sub": "Futurology", "label": "Emerging trends"},
+    # Cybersecurity
+    {"sub": "netsec", "label": "Network security"},
+    {"sub": "DataBreaches", "label": "Data breaches"},
+    # Hardware & Devices
+    {"sub": "hardware", "label": "Hardware trends"},
+    {"sub": "gadgets", "label": "Consumer tech"},
+    # Startups & Entrepreneurship
+    {"sub": "startups", "label": "Startup ecosystem"},
+    {"sub": "Entrepreneur", "label": "Entrepreneurship"},
+    {"sub": "SaaS", "label": "SaaS market"},
+]
+
+for src in reddit_subs:
+    try:
+        url = "https://www.reddit.com/r/" + src["sub"] + "/hot.json?limit=5&t=week"
+        r = requests.get(url, headers=REDDIT_HEADERS, timeout=15)
+        if r.status_code == 200:
+            posts = r.json().get("data", {}).get("children", [])
+            for post in posts:
+                d = post.get("data", {})
+                if d.get("stickied"):
+                    continue
+                title = d.get("title", "")
+                score = d.get("score", 0)
+                if score < 10:
+                    continue
+                created = d.get("created_utc", 0)
+                date_str = datetime.fromtimestamp(created).strftime("%Y-%m-%d") if created else ""
+                selftext = (d.get("selftext", "") or "")[:300]
+                articles.append({
+                    "title": title,
+                    "source": "Reddit r/" + src["sub"] + " (" + str(score) + " upvotes)",
+                    "description": selftext if selftext else title,
+                    "date": date_str,
+                    "category": "reddit_" + src["label"].lower().replace(" ", "_")
+                })
+        import time
+        time.sleep(1)
+    except:
+        pass
+
+# ─── Reddit: targeted searches ───
+reddit_searches = [
+    {"q": "Saudi Arabia", "sub": "worldnews"},
+    {"q": "Vision 2030", "sub": "saudiarabia"},
+    {"q": "NEOM", "sub": "saudiarabia"},
+    {"q": "Gulf investment", "sub": "finance"},
+    {"q": "AI regulation", "sub": "technology"},
+    {"q": "quantum computing", "sub": "technology"},
+    {"q": "semiconductor export", "sub": "geopolitics"},
+    {"q": "cybersecurity breach", "sub": "netsec"},
+    {"q": "SaaS startup", "sub": "SaaS"},
+    {"q": "data breach", "sub": "DataBreaches"},
+    {"q": "AI startup", "sub": "startups"},
+    {"q": "machine learning production", "sub": "MachineLearning"},
+]
+for rs in reddit_searches:
+    try:
+        url = "https://www.reddit.com/r/" + rs["sub"] + "/search.json?q=" + rs["q"] + "&sort=new&t=week&limit=3"
+        r = requests.get(url, headers=REDDIT_HEADERS, timeout=15)
+        if r.status_code == 200:
+            posts = r.json().get("data", {}).get("children", [])
+            for post in posts:
+                d = post.get("data", {})
+                title = d.get("title", "")
+                score = d.get("score", 0)
+                created = d.get("created_utc", 0)
+                date_str = datetime.fromtimestamp(created).strftime("%Y-%m-%d") if created else ""
+                selftext = (d.get("selftext", "") or "")[:300]
+                articles.append({
+                    "title": title,
+                    "source": "Reddit r/" + rs["sub"] + " search:'" + rs["q"] + "' (" + str(score) + " pts)",
+                    "description": selftext if selftext else title,
+                    "date": date_str,
+                    "category": "reddit_search"
+                })
+        import time
+        time.sleep(1)
+    except:
+        pass
+
+# Deduplicate by title
+seen = set()
+unique = []
+for a in articles:
+    t = a["title"].strip().lower()
+    if t and t not in seen and len(t) > 10:
+        seen.add(t)
+        unique.append(a)
+
+return unique
 ```
 
 def generate_signals(articles):
-news_text = “”
-for a in articles[:50]:
-news_text += a[“title”] + “ | “ + a[“source”] + “ | “ + a[“date”] + “ | “ + (a[“description”] or “”) + “\n”
+news_articles = [a for a in articles if a[“source”].startswith(“NewsAPI”)]
+tech_articles = [a for a in articles if a[“source”].startswith(“GNews”)]
+reddit_articles = [a for a in articles if a[“source”].startswith(“Reddit”)]
 
 ```
+news_text = "=== NEWS (Saudi business, policy, investment) ===\n"
+for a in news_articles[:25]:
+    news_text += a["title"] + " | " + a["source"] + " | " + a["date"] + " | " + (a["description"] or "") + "\n"
+
+news_text += "\n=== TECHNOLOGY (emerging tech, innovation) ===\n"
+for a in tech_articles[:20]:
+    news_text += a["title"] + " | " + a["source"] + " | " + a["date"] + " | " + (a["description"] or "") + "\n"
+
+news_text += "\n=== REDDIT (community intelligence, discussions, weak signals) ===\n"
+for a in reddit_articles[:30]:
+    news_text += a["title"] + " | " + a["source"] + " | " + a["date"] + " | " + (a["description"] or "")[:200] + "\n"
+
 today = datetime.now().strftime("%Y-%m-%d")
 
 prompt = """You are a Signal Detection Engine for Saudi Arabia Vision 2030.
@@ -62,26 +187,35 @@ prompt = """You are a Signal Detection Engine for Saudi Arabia Vision 2030.
 
 TODAY: “”” + today + “””
 
-Here are real news articles:
+Below are REAL articles from 3 source types:
+
+- NewsAPI: professional news on Saudi business, policy, investment
+- GNews: technology and innovation news
+- Reddit: community discussions from 19 subreddits covering world news, geopolitics, Saudi Arabia, business, economics, finance, technology, AI, machine learning, cybersecurity, data breaches, hardware, startups, entrepreneurship, SaaS, and futurology
 
 “”” + news_text + “””
 
-From these REAL articles, generate exactly 10 Saudi local signals and 8 global signals.
+Generate exactly 10 Saudi local signals and 8 global signals.
 
 LOCAL: events directly about Saudi Arabia
 GLOBAL: international events that impact Saudi Arabia
 
-IMPORTANT: Only use information from the articles above. Do not invent events.
+RULES:
 
-For EACH signal, apply this 8-question classification:
+- Only use information from the articles above
+- Reddit discussions reveal emerging sentiment and weak signals that mainstream news misses
+- Each signal must cite its source
+- Prioritize high-impact, actionable signals over noise
 
-1. What exactly happened? (the headline)
-1. What driver is behind it? (regulation / technology / customer_behavior / capital / geopolitics / competition)
-1. Which market layer is affected? (supplier / platform / distributor / operator / customer / regulator)
-1. What is the likely effect? (cost / revenue / demand / adoption / compliance / speed / trust / differentiation)
+For EACH signal, apply 8-question classification:
+
+1. What happened? (headline)
+1. Driver? (regulation / technology / customer_behavior / capital / geopolitics / competition)
+1. Affected layer? (supplier / platform / distributor / operator / customer / regulator)
+1. Likely effect? (cost / revenue / demand / adoption / compliance / speed / trust / differentiation)
 1. Time horizon? (now / 1-2yr / 3-5yr / later)
-1. Is it a threat, opportunity, both, or noise?
-1. Who benefits and who loses?
+1. Classification? (threat / opportunity / both / noise)
+1. Who benefits / who loses?
 1. Recommended action? (monitor / study / defend / partner / pilot / invest / escalate)
 
 Respond ONLY with a JSON array:
@@ -93,7 +227,7 @@ Respond ONLY with a JSON array:
 “date”: “YYYY-MM-DD”,
 “impact”: “critical / high / medium”,
 “source”: “original source name”,
-“type”: “Regulation / Investment / Policy / Milestone / Incentive / Industrial / Cyber Threat / Geopolitical / Technology / Benchmark / Tender”,
+“type”: “Regulation / Investment / Policy / Milestone / Incentive / Industrial / Cyber Threat / Geopolitical / Technology / Benchmark / Tender / Community Signal”,
 “context”: “2-3 sentences on what happened and Saudi impact”,
 “driver”: “regulation / technology / customer_behavior / capital / geopolitics / competition”,
 “affected_layer”: “supplier / platform / distributor / operator / customer / regulator”,
@@ -111,6 +245,8 @@ try:
     if r.status_code == 200:
         text = r.json()["choices"][0]["message"]["content"]
         return extract_json(text)
+    else:
+        print("Groq signals error:", r.status_code, r.text[:200])
 except Exception as e:
     print("Groq signals error:", e)
 return None
@@ -119,22 +255,26 @@ return None
 def generate_opportunities(signals):
 sig_text = “”
 for s in signals:
-sig_text += “[” + s.get(“scope”,””) + “][” + s.get(“impact”,””) + “][” + s.get(“classification”,””) + “] “ + s.get(“headline”,””) + “ | “ + s.get(“sector”,””) + “ | Driver:” + s.get(“driver”,””) + “ | Effect:” + s.get(“likely_effect”,””) + “ | Horizon:” + s.get(“time_horizon”,””) + “ | Action:” + s.get(“recommended_action”,””) + “\n  Context: “ + s.get(“context”,””) + “\n”
+sig_text += “[” + s.get(“scope”,””) + “][” + s.get(“impact”,””) + “][” + s.get(“classification”,””) + “] “
+sig_text += s.get(“headline”,””) + “ | “ + s.get(“sector”,””)
+sig_text += “ | Driver:” + s.get(“driver”,””) + “ | Effect:” + s.get(“likely_effect”,””)
+sig_text += “ | Horizon:” + s.get(“time_horizon”,””) + “ | Action:” + s.get(“recommended_action”,””)
+sig_text += “\n  Context: “ + s.get(“context”,””) + “\n”
 
 ```
 prompt = """Analyze these classified signals. Generate 5-8 scored Saudi business opportunities.
 ```
 
-SIGNALS WITH CLASSIFICATION:
+SIGNALS:
 “”” + sig_text + “””
 
-For each opportunity, provide:
+For each opportunity:
 
 - Link to at least 2 signals
 - Score 0-100 on 6 dimensions
-- TAM/SAM/SOM estimation
-- Entry mode recommendation (build / buy / partner / invest / wait)
-- Timing classification (enter now / prepare now / monitor only)
+- Estimate TAM / SAM / SOM
+- Recommend entry mode: build / buy / partner / invest / wait
+- Classify timing: enter now / prepare now / monitor only
 
 Respond ONLY with a JSON array:
 [{
@@ -173,13 +313,14 @@ try:
     if r.status_code == 200:
         text = r.json()["choices"][0]["message"]["content"]
         return extract_json(text)
+    else:
+        print("Groq opps error:", r.status_code, r.text[:200])
 except Exception as e:
     print("Groq opps error:", e)
 return None
 ```
 
 def extract_json(text):
-import re
 text = re.sub(r’`json\s*', '', text) text = re.sub(r'`\s*’, ‘’, text)
 text = text.strip()
 try:
@@ -228,42 +369,54 @@ merged = fresh + [s for s in existing if datetime.fromisoformat(s.get(’_at’,
 return merged
 
 def main():
-print(“Fetching news…”)
-articles = fetch_news()
-print(f”Got {len(articles)} articles”)
+print(”=” * 50)
+print(“OPPORTUNITY RADAR - Signal Scraper v2”)
+print(“Sources: NewsAPI + GNews + Reddit (19 subreddits)”)
+print(”=” * 50)
 
 ```
-print("Generating classified signals...")
+print("\n[1/4] Fetching from all sources...")
+articles = fetch_news()
+news_count = len([a for a in articles if a["source"].startswith("NewsAPI")])
+tech_count = len([a for a in articles if a["source"].startswith("GNews")])
+reddit_count = len([a for a in articles if a["source"].startswith("Reddit")])
+print(f"  NewsAPI:  {news_count} articles")
+print(f"  GNews:    {tech_count} articles")
+print(f"  Reddit:   {reddit_count} posts (19 subreddits + 12 searches)")
+print(f"  Total:    {len(articles)} unique items")
+
+print("\n[2/4] Generating classified signals via Groq...")
 new_signals = generate_signals(articles)
 if not new_signals:
-    print("Failed to generate signals")
+    print("  FAILED to generate signals")
     return
 
-print(f"Generated {len(new_signals)} signals")
-
-# Count classifications
-threats = len([s for s in new_signals if s.get('classification') == 'threat'])
-opps = len([s for s in new_signals if s.get('classification') == 'opportunity'])
-both = len([s for s in new_signals if s.get('classification') == 'both'])
-print(f"Classification: {threats} threats, {opps} opportunities, {both} both")
+local = len([s for s in new_signals if s.get('scope') == 'local'])
+global_s = len([s for s in new_signals if s.get('scope') == 'global'])
+threats = len([s for s in new_signals if s.get('classification') in ['threat', 'both']])
+opps_c = len([s for s in new_signals if s.get('classification') in ['opportunity', 'both']])
+print(f"  Generated: {len(new_signals)} signals ({local} local, {global_s} global)")
+print(f"  Threats: {threats} | Opportunities: {opps_c}")
 
 existing_signals = load_existing('signals.json')
 merged_signals = merge_items(existing_signals, new_signals, 'headline')
+print(f"  Merged: {len(merged_signals)} total (30-day rolling window)")
 
-print("Generating opportunities with entry mode analysis...")
+print("\n[3/4] Generating opportunities via Groq...")
 new_opps = generate_opportunities(merged_signals[:20])
 if not new_opps:
-    print("Failed to generate opportunities")
+    print("  FAILED to generate opportunities")
     new_opps = []
+else:
+    print(f"  Generated: {len(new_opps)} opportunities")
 
-print(f"Generated {len(new_opps)} opportunities")
 existing_opps = load_existing('opps.json')
 merged_opps = merge_items(existing_opps, [dict(o, headline=o.get('title','')) for o in new_opps], 'headline')
 for o in merged_opps:
     if 'headline' in o and 'title' in o:
         del o['headline']
+print(f"  Merged: {len(merged_opps)} total opportunities")
 
-# Stats
 stats = {
     "totalSignals": len(merged_signals),
     "localSignals": len([s for s in merged_signals if s.get('scope') == 'local']),
@@ -273,18 +426,19 @@ stats = {
     "criticalSignals": len([s for s in merged_signals if s.get('impact') == 'critical']),
     "totalOpps": len(merged_opps),
     "avgScore": round(sum(o.get('score', 0) for o in merged_opps) / max(len(merged_opps), 1)),
+    "sources": {"newsapi": news_count, "gnews": tech_count, "reddit": reddit_count}
 }
 
-signals_out = {"items": merged_signals, "lastRefresh": datetime.now().isoformat(), "stats": stats}
-opps_out = {"items": merged_opps, "lastRefresh": datetime.now().isoformat()}
-
+print("\n[4/4] Saving files...")
 with open('signals.json', 'w') as f:
-    json.dump(signals_out, f, indent=2)
+    json.dump({"items": merged_signals, "lastRefresh": datetime.now().isoformat(), "stats": stats}, f, indent=2)
 with open('opps.json', 'w') as f:
-    json.dump(opps_out, f, indent=2)
+    json.dump({"items": merged_opps, "lastRefresh": datetime.now().isoformat()}, f, indent=2)
 
-print(f"Done. {len(merged_signals)} signals, {len(merged_opps)} opportunities saved.")
-print(f"Stats: {json.dumps(stats)}")
+print(f"\nDONE.")
+print(f"  Signals:       {len(merged_signals)}")
+print(f"  Opportunities: {len(merged_opps)} (avg score: {stats['avgScore']})")
+print(f"  Sources:       NewsAPI({news_count}) + GNews({tech_count}) + Reddit({reddit_count})")
 ```
 
 if **name** == “**main**”:
