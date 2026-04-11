@@ -1,0 +1,157 @@
+{
+  "items": [
+    {
+      "title": "Saudi Tourism Infrastructure Development",
+      "sector": "Tourism",
+      "region": "Riyadh",
+      "score": 90,
+      "urgency": "High",
+      "marketSize": "$10.5B",
+      "growth": "+15%",
+      "description": "The growth of Saudi Arabia's tourism industry is driven by government support and investment in infrastructure development. The opening of new museums and cultural attractions, such as the Black Gold Museum, is expected to attract tourists and boost the economy. With a growing number of international visitors, there is a need for high-quality tourism infrastructure, including hotels, restaurants, and transportation services. Investment in this sector can yield significant returns, with potential for long-term growth and development.",
+      "investment": "$500M-$1B",
+      "scores": {
+        "v2030": 95,
+        "regulatory": 90,
+        "market": 92,
+        "ease": 80,
+        "competition": 70
+      },
+      "_at": "2026-04-11T18:35:15.234253"
+    },
+    {
+      "title": "Middle East and Africa Travel Retail Market",
+      "sector": "Retail",
+      "region": "Jeddah",
+      "score": 88,
+      "urgency": "Medium",
+      "marketSize": "$5.2B",
+      "growth": "+10%",
+      "description": "The Middle East and Africa travel retail market is driven by strong tourism policies, airport capacity growth, and mobile wallet use. Saudi Arabia is a key player in this market, with duty-free perks, VAT refunds, and AfCFTA enhancing business travel and e-commerce conversions. The market's growth is expected to have a positive impact on Saudi Arabia's economy and tourism industry, with opportunities for investment in travel retail infrastructure and services. With a growing number of international travelers, there is a need for high-quality travel retail experiences, including duty-free shopping and entertainment options.",
+      "investment": "$200M-$500M",
+      "scores": {
+        "v2030": 90,
+        "regulatory": 85,
+        "market": 88,
+        "ease": 75,
+        "competition": 80
+      },
+      "_at": "2026-04-11T18:35:15.234260"
+    },
+    {
+      "title": "Saudi Arabia's Event Management Market",
+      "sector": "Events",
+      "region": "Riyadh",
+      "score": 85,
+      "urgency": "Emerging",
+      "marketSize": "$1.5B",
+      "growth": "+12%",
+      "description": "The GCC event management market is expected to grow, driven by government support for infrastructure, climate-adapted environments, and digital engagement tools. Saudi Arabia is a key player in this market, with companies such as Live Nation Middle East, MDLBEAST, and SELA contributing to the market's growth. The market's growth is expected to have a positive impact on Saudi Arabia's events and tourism industry, with opportunities for investment in event management services, venues, and equipment. With a growing number of international events, there is a need for high-quality event management services, including logistics, catering, and entertainment options.",
+      "investment": "$100M-$200M",
+      "scores": {
+        "v2030": 85,
+        "regulatory": 80,
+        "market": 82,
+        "ease": 70,
+        "competition": 75
+      },
+      "_at": "2026-04-11T18:35:15.234262"
+    },
+    {
+      "title": "Glass Reinforced Plastic (GRP) Piping Market",
+      "sector": "Manufacturing",
+      "region": "Jeddah",
+      "score": 80,
+      "urgency": "Medium",
+      "marketSize": "$800M",
+      "growth": "+8%",
+      "description": "The GRP piping market is gaining momentum in corrosion-resistant applications across oil and gas, water management, and urban development. Saudi Arabia is a key player in this market, with the sustainable infrastructure boom driving demand for GRP piping. The market's growth is expected to have a positive impact on Saudi Arabia's manufacturing and construction industries, with opportunities for investment in GRP piping production and distribution. With a growing need for sustainable infrastructure solutions, there is a need for high-quality GRP piping products, including pipes, fittings, and valves.",
+      "investment": "$50M-$100M",
+      "scores": {
+        "v2030": 80,
+        "regulatory": 75,
+        "market": 78,
+        "ease": 65,
+        "competition": 70
+      },
+      "_at": "2026-04-11T18:35:15.234263"
+    },
+    {
+      "title": "Underwater Drones Market",
+      "sector": "Technology",
+      "region": "Jeddah",
+      "score": 78,
+      "urgency": "Emerging",
+      "marketSize": "$400M",
+      "growth": "+15%",
+      "description": "The underwater drones market is expected to grow, driven by the adoption of ROVs and AUVs in deep-water exploration, subsea inspections, and defense surveillance. Saudi Arabia is a key player in this market, with the growth of the underwater drones market expected to have a positive impact on the country's oil and gas, and defense industries. With a growing need for underwater exploration and inspection services, there is a need for high-quality underwater drones, including ROVs, AUVs, and sensors.",
+      "investment": "$20M-$50M",
+      "scores": {
+        "v2030": 75,
+        "regulatory": 70,
+        "market": 72,
+        "ease": 60,
+        "competition": 65
+      },
+      "_at": "2026-04-11T18:35:15.234264"
+    },
+    {
+      "title": "King Abdulaziz International Airport Expansion",
+      "sector": "Aviation",
+      "region": "Jeddah",
+      "score": 92,
+      "urgency": "High",
+      "marketSize": "$2.5B",
+      "growth": "+10%",
+      "description": "King Abdulaziz International Airport in Jeddah is fully operational, despite some flight delays, and is undergoing expansion to increase its capacity. The airport's expansion is expected to have a positive impact on Saudi Arabia's tourism and travel industry, as well as the country's economy. With a growing number of international travelers, there is a need for high-quality airport infrastructure, including terminals, runways, and logistics services. Investment in this sector can yield significant returns, with potential for long-term growth and development.",
+      "investment": "$1B-$2B",
+      "scores": {
+        "v2030": 95,
+        "regulatory": 90,
+        "market": 92,
+        "ease": 80,
+        "competition": 70
+      },
+      "_at": "2026-04-11T18:35:15.234265"
+    },
+    {
+      "title": "Saudi Arabia's New Museum and Cultural Attractions",
+      "sector": "Tourism",
+      "region": "Riyadh",
+      "score": 85,
+      "urgency": "Medium",
+      "marketSize": "$1.2B",
+      "growth": "+12%",
+      "description": "Saudi Arabia is emerging as a hub for design and culture, with the opening of new museums and cultural attractions. The Black Gold Museum in Riyadh is one such example, showcasing the legacy of oil through art. The growth of Saudi Arabia's cultural and tourism industry is expected to have a positive impact on the country's economy and international reputation. With a growing number of international visitors, there is a need for high-quality cultural and tourism experiences, including museums, galleries, and historical sites.",
+      "investment": "$500M-$1B",
+      "scores": {
+        "v2030": 90,
+        "regulatory": 85,
+        "market": 88,
+        "ease": 75,
+        "competition": 70
+      },
+      "_at": "2026-04-11T18:35:15.234266"
+    },
+    {
+      "title": "Middle East and Africa Infrastructure Construction Market",
+      "sector": "Construction",
+      "region": "Riyadh",
+      "score": 95,
+      "urgency": "High",
+      "marketSize": "$280B",
+      "growth": "+10%",
+      "description": "The Middle East and Africa infrastructure construction market is expected to expand by over $280 billion by 2030, driven by sovereign wealth funding, expanding public budgets, and PPP reforms. Saudi Arabia is a key player in this market, with opportunities in transportation and utilities, and a focus on energy transition. The market's growth is expected to have a positive impact on Saudi Arabia's economy and infrastructure development, with opportunities for investment in construction services, materials, and equipment. With a growing need for sustainable infrastructure solutions, there is a need for high-quality construction services, including design, engineering, and project management.",
+      "investment": "$5B-$10B",
+      "scores": {
+        "v2030": 98,
+        "regulatory": 95,
+        "market": 96,
+        "ease": 85,
+        "competition": 75
+      },
+      "_at": "2026-04-11T18:35:15.234267"
+    }
+  ],
+  "lastRefresh": "2026-04-11T18:35:15.234274"
+}
