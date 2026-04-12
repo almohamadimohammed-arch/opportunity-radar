@@ -20,6 +20,6 @@ jobs:
       - run: |
           git config user.name "Bot"
           git config user.email "bot@radar.dev"
-          git add signals.json opps.json
+          git add radar.json signals.json plays.json
           git diff --cached --quiet || git commit -m "Daily signals update"
           git push
