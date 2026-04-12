@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "title": "Pakistan sends military force to Saudi Arabia as part of pact",
+      "source": "Fortune, The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-11",
+      "category": "geopolitics",
+      "geography": "Saudi, Pakistan",
+      "affected_domains": [
+        "defense",
+        "international relations"
+      ],
+      "summary": "Pakistan has sent a military force to Saudi Arabia as part of a strategic mutual defense agreement. The force comprises air force fighter jets and support aircraft. This move is seen as a significant development in the regional security landscape.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's defense and security, as it strengthens the kingdom's military capabilities and reinforces its alliances in the region.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-12T16:03:26.673221"
+    },
+    {
+      "title": "Goyal holds talks with Saudi trade minister on strengthening supply chains",
+      "source": "BusinessLine, The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-11",
+      "category": "business",
+      "geography": "Saudi, India",
+      "affected_domains": [
+        "trade",
+        "economy"
+      ],
+      "summary": "Indian minister Goyal held talks with the Saudi trade minister to discuss ways to strengthen supply chains and ensure smooth trade flows. The meeting highlighted the need for coordinated efforts to address the strain on regional supply chains caused by conflict.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's economy, as it seeks to diversify its trade relationships and reduce its dependence on traditional partners.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-12T16:03:26.673229"
+    },
+    {
+      "title": "Saudi Arabia's SATORP Refinery Shut Down After Attack",
+      "source": "OilPrice.com, The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-10",
+      "category": "energy",
+      "geography": "Saudi",
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Saudi Arabia's SATORP refinery, jointly owned by Aramco and TotalEnergies, was shut down after one of its refining units was damaged in an attack. The shutdown is expected to impact the kingdom's oil production and exports.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's energy sector, as it highlights the vulnerability of the kingdom's oil infrastructure to attacks and disruptions.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-12T16:03:26.673237"
+    },
+    {
+      "title": "King Abdulaziz International Airport Operational with Some Flight Delays",
+      "source": "Ibtimes.com.au",
+      "source_tier": 2,
+      "time": "2026-04-09",
+      "category": "infrastructure",
+      "geography": "Saudi",
+      "affected_domains": [
+        "aviation",
+        "transportation"
+      ],
+      "summary": "King Abdulaziz International Airport in Jeddah is fully operational, despite some flight delays. The airport is a vital gateway for domestic and international travel in Saudi Arabia.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's transportation sector, as it highlights the importance of maintaining operational airports and minimizing disruptions to air travel.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-12T16:03:26.673239"
+    },
+    {
+      "title": "Pakistani Military Force Arrives in Saudi Arabia Under Strategic Mutual Defense Agreement",
+      "source": "Globalsecurity.org",
+      "source_tier": 2,
+      "time": "2026-04-11",
+      "category": "geopolitics",
+      "geography": "Saudi, Pakistan",
+      "affected_domains": [
+        "defense",
+        "international relations"
+      ],
+      "summary": "A Pakistani military force has arrived in Saudi Arabia as part of a strategic mutual defense agreement. The agreement aims to strengthen defense cooperation between the two countries.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's defense and security, as it reinforces the kingdom's alliances and enhances its military capabilities.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-12T16:03:26.673240"
+    },
+    {
       "title": "Saudi Business Tycoon Abudawood to join Merit Incentives Group as Chairman of the Board",
       "source": "GlobeNewswire",
       "source_tier": 2,
@@ -65,17 +150,17 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-12T02:22:20.346236",
+  "lastRefresh": "2026-04-12T16:04:40.518810",
   "gate_report": {
-    "articles_to_model": 21,
-    "radar_items": 4,
-    "radar_confirmed": 0,
-    "radar_reported": 4,
+    "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
+    "articles_to_model": 27,
+    "radar_generated": 5,
+    "radar_confirmed": 3,
+    "radar_reported": 2,
     "radar_alleged": 0,
-    "signals_generated": 0,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 0,
-    "signals_weak": 0,
-    "plays_generated": 0
+    "signals_moderate": 3,
+    "plays_generated": 3
   }
 }
