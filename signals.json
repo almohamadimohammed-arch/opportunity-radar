@@ -685,20 +685,5 @@
       "_at": "2026-04-11T18:35:11.288281"
     }
   ],
-  "lastRefresh": "2026-04-12T00:05:05.207605",
-  "stats": {
-    "totalSignals": 41,
-    "localSignals": 21,
-    "globalSignals": 20,
-    "threats": 4,
-    "opportunities_count": 18,
-    "criticalSignals": 2,
-    "totalOpps": 8,
-    "avgScore": 87,
-    "sources": {
-      "newsapi": 27,
-      "gnews": 4,
-      "reddit": 0
-    }
-  }
+  "lastRefresh": "2026-04-12T02:22:20.346574"
 }

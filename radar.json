@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "title": "Saudi Business Tycoon Abudawood to join Merit Incentives Group as Chairman of the Board",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-10",
+      "category": "business",
+      "geography": "Saudi",
+      "affected_domains": [
+        "economy",
+        "leadership"
+      ],
+      "summary": "Mohammed H. Abudawood has been appointed as the Chairman of the Board of Merit Incentives Group, strengthening its governance and leadership. This move is expected to bring new insights and expertise to the company. Abudawood is a well-known Saudi business leader.",
+      "why_it_matters": "This appointment may have a positive impact on the Saudi economy, as Abudawood's experience and leadership could help drive growth and development in the region. It also highlights the importance of strong governance and leadership in Saudi businesses.",
+      "verification_status": "reported",
+      "_at": "2026-04-12T02:21:40.188624"
+    },
+    {
+      "title": "Oil Flows from Saudi Port Steady for Now despite Attack",
+      "source": "Rigzone",
+      "source_tier": 2,
+      "time": "2026-04-11",
+      "category": "energy",
+      "geography": "Saudi",
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "Despite a drone attack on Saudi Arabia's vital cross-country pipeline, oil exports via the Red Sea are holding steady for now. The impact of the attack has yet to be fully felt. The stability of oil flows is crucial for the global energy market.",
+      "why_it_matters": "The steady oil flows from Saudi ports are crucial for the global energy market, and any disruption could have significant consequences for the economy and energy security. The fact that the impact of the attack has not yet been felt suggests that the situation is being closely monitored and managed.",
+      "verification_status": "reported",
+      "_at": "2026-04-12T02:21:40.188635"
+    },
+    {
+      "title": "Rising Oil Prices to Increase Plastic Costs",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-10",
+      "category": "energy",
+      "geography": "Global",
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Rising oil prices and geopolitical tensions are expected to disrupt global petrochemical supply chains and increase plastic costs. This could have a significant impact on industries that rely heavily on plastics. The Gulf region's role in feedstocks is vital in this context.",
+      "why_it_matters": "The increase in plastic costs could have a significant impact on various industries, including packaging, construction, and consumer goods. Saudi Arabia, as a major oil producer, may need to consider the implications of rising oil prices on its economy and trade relationships.",
+      "verification_status": "reported",
+      "_at": "2026-04-12T02:21:40.188638"
+    },
+    {
+      "title": "CIA Uses AI to Generate Autonomous Intelligence Report",
+      "source": "Decrypt",
+      "source_tier": 2,
+      "time": "2026-04-10",
+      "category": "technology",
+      "geography": "Global",
+      "affected_domains": [
+        "security",
+        "intelligence"
+      ],
+      "summary": "The CIA has used AI to generate its first-ever autonomous intelligence report, marking a significant milestone in the use of AI in intelligence gathering. The agency expects to use full AI agent teams in the future.",
+      "why_it_matters": "The use of AI in intelligence gathering could have significant implications for national security and global geopolitics. Saudi Arabia, as a key player in regional security, may need to consider the potential benefits and risks of using AI in its own intelligence operations.",
+      "verification_status": "reported",
+      "_at": "2026-04-12T02:21:40.188639"
+    }
+  ],
+  "lastRefresh": "2026-04-12T02:22:20.346236",
+  "gate_report": {
+    "articles_to_model": 21,
+    "radar_items": 4,
+    "radar_confirmed": 0,
+    "radar_reported": 4,
+    "radar_alleged": 0,
+    "signals_generated": 0,
+    "signals_strong": 0,
+    "signals_moderate": 0,
+    "signals_weak": 0,
+    "plays_generated": 0
+  }
+}
