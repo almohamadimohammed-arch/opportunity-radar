@@ -1,6 +1,50 @@
 {
   "items": [
     {
+      "title": "Global oil market experiences unprecedented price surge",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-12",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The global oil market is experiencing an unprecedented price surge, with traders paying high prices for prompt cargoes. This surge is driven by a desperate scramble for immediately available oil supplies.",
+      "why_it_matters": "The surge in oil prices can have significant implications for Saudi Arabia's economy, as the country is heavily reliant on oil exports. The price increase can also impact the global economy, leading to higher inflation and slower growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-13T22:05:46.985810"
+    },
+    {
+      "title": "India and Saudi Arabia discuss strengthening trade relations",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-11",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "trade"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "diplomacy"
+      ],
+      "summary": "India and Saudi Arabia are discussing ways to strengthen their trade relations, including enhancing energy supply cooperation. The two countries are also pushing for progress on a trade agreement with the Gulf Cooperation Council.",
+      "why_it_matters": "Strengthening trade relations with India can help Saudi Arabia diversify its economy and reduce its reliance on oil exports. The partnership can also enhance Saudi Arabia's position in the global trade landscape.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-13T22:05:46.985824"
+    },
+    {
       "title": "Saudi Arabia's East-West pipeline back to full capacity after attacks",
       "source": "Al Jazeera English, Fortune",
       "source_tier": 1,
@@ -227,7 +271,7 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-13T21:37:30.635430",
+  "lastRefresh": "2026-04-13T22:06:31.021427",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
@@ -241,7 +285,7 @@
     "signals_strong": 0,
     "signals_moderate": 2,
     "signals_ksa_grounded": 2,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "statement": "Global oil supply has loosened",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Restoration of the East-West pipeline's capacity increases oil exports, stabilizing the global oil market",
+      "ksa_grounding": "Increased oil exports will positively impact Saudi Arabia's economy, particularly the oil and gas sector",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia's East-West pipeline back to full capacity after attacks",
+        "Global oil market experiences unprecedented price surge"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "global oil market traders"
+      ],
+      "time_horizon": "now",
+      "upside": "Stabilization of the global oil market, increased oil exports for Saudi Arabia",
+      "downside": "Potential for decreased oil prices, impacting Saudi Arabia's oil revenue",
+      "first_order": "Increased oil exports",
+      "second_order": "Stabilization of the global oil market, potential decrease in oil prices",
+      "invalidation": "A significant disruption to the East-West pipeline or a major decrease in global oil demand",
+      "_at": "2026-04-13T22:05:53.681100"
+    },
+    {
+      "statement": "Trade relations between India and Saudi Arabia are strengthening",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Discussion of trade agreements and energy supply cooperation between India and Saudi Arabia",
+      "ksa_grounding": "Strengthened trade relations with India will increase Saudi Arabia's energy exports and diversify its economy",
+      "affected_sectors": [
+        "trade",
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "India and Saudi Arabia discuss strengthening trade relations",
+        "Saudi Arabia's East-West pipeline back to full capacity after attacks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Indian and Saudi Arabian trade officials",
+        "energy exporters"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased energy exports, diversified economy for Saudi Arabia",
+      "downside": "Potential for trade agreements to not materialize or have limited impact",
+      "first_order": "Increased energy exports to India",
+      "second_order": "Diversification of Saudi Arabia's economy, potential for increased trade with other countries",
+      "invalidation": "Failure to reach a trade agreement or significant decrease in Indian demand for Saudi Arabian energy",
+      "_at": "2026-04-13T22:05:53.681112"
+    },
+    {
       "statement": "Global oil supply has increased",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -166,5 +223,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-13T21:37:30.635852"
+  "lastRefresh": "2026-04-13T22:06:31.021929"
 }

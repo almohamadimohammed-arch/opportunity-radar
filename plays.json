@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "title": "Saudi Oil and Gas Sector Expansion",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "Global oil refineries",
+      "problem": "Global oil supply has loosened, creating opportunities for Saudi Arabia to increase its oil exports",
+      "action_path": "Saudi Aramco can expand its oil production and exports to meet the increasing global demand. This can be achieved by investing in new oil fields and improving the efficiency of existing ones. Additionally, Saudi Aramco can explore new markets and trade agreements to diversify its customer base.",
+      "entry_mode": "build",
+      "monetization": "Increased oil exports will generate revenue for Saudi Aramco and contribute to the growth of Saudi Arabia's economy",
+      "capabilities": "Oil production and export capabilities, market research and analysis",
+      "barriers": "Geopolitical tensions, global economic downturn",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply has loosened"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Increased oil exports will positively impact Saudi Arabia's economy, particularly the oil and gas sector",
+      "assumptions": "Global demand for oil will continue to grow, and Saudi Aramco will be able to expand its production and exports without significant disruptions",
+      "invalidation": "A significant disruption to the East-West pipeline or a major decrease in global oil demand",
+      "_at": "2026-04-13T22:06:31.021386"
+    },
+    {
+      "title": "India-Saudi Arabia Trade Agreement",
+      "play_type": "policy_play",
+      "actor": "Saudi Government",
+      "customer": "Indian energy companies",
+      "problem": "Strengthening trade relations between India and Saudi Arabia can increase Saudi Arabia's energy exports",
+      "action_path": "The Saudi Government can negotiate and finalize a trade agreement with India to increase energy exports and cooperation. This can be achieved by offering competitive pricing, improving logistics, and providing incentives for Indian companies to invest in Saudi Arabia's energy sector. Additionally, the Saudi Government can promote Saudi Arabia as a reliable and stable energy supplier to India.",
+      "entry_mode": "partner",
+      "monetization": "Increased energy exports will generate revenue for Saudi Arabia and create jobs in the energy sector",
+      "capabilities": "Trade negotiation and diplomacy, energy production and export capabilities",
+      "barriers": "Geopolitical tensions, Indian domestic politics",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Trade relations between India and Saudi Arabia are strengthening"
+      ],
+      "sector": "trade",
+      "relevant_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "relevant_regions": [
+        "riyadh"
+      ],
+      "ksa_grounding": "Strengthened trade relations with India will increase Saudi Arabia's energy exports and diversify its economy",
+      "assumptions": "India will continue to grow its economy and increase its energy demand, and Saudi Arabia will be able to negotiate a favorable trade agreement",
+      "invalidation": "Failure to reach a trade agreement or significant decrease in Indian demand for Saudi Arabian energy",
+      "_at": "2026-04-13T22:06:31.021400"
+    },
+    {
       "title": "Saudi Oil Exporters Enhancing Trade Relationships",
       "play_type": "business_play",
       "actor": "Saudi oil exporters",
@@ -214,5 +272,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-13T21:37:30.636080"
+  "lastRefresh": "2026-04-13T22:06:31.022257"
 }
