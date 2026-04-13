@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "statement": "Global oil supply has increased",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "The East-West pipeline is back to full capacity, increasing the global oil supply",
+      "ksa_grounding": "This increase in oil supply will positively impact Saudi Arabia's economy by potentially increasing oil exports and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia's East-West pipeline back to full capacity after attacks",
+        "Global oil market experiences physical market frenzy"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil traders",
+        "Saudi Aramco"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential decrease in oil prices due to increased supply",
+      "first_order": "Increased oil supply",
+      "second_order": "Potential decrease in oil prices, increased competition in the oil market",
+      "invalidation": "A significant decrease in global oil demand or a major disruption to oil production in Saudi Arabia",
+      "_at": "2026-04-13T21:37:23.050778"
+    },
+    {
+      "statement": "Saudi Arabia's trade relationships are strengthening",
+      "change_type": "institutional priority",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "India and Saudi Arabia are discussing ways to strengthen their trade relations and enhance energy supply cooperation",
+      "ksa_grounding": "This strengthening of trade relationships will positively impact Saudi Arabia's economy by potentially increasing trade and investment with India",
+      "affected_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "India and Saudi Arabia discuss strengthening trade relations and enhancing energy supply",
+        "Saudi Arabia's East-West pipeline back to full capacity after attacks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Indian government",
+        "Saudi government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased trade and investment between India and Saudi Arabia",
+      "downside": "Potential trade tensions or disagreements between the two countries",
+      "first_order": "Increased trade and investment",
+      "second_order": "Potential economic growth and job creation in Saudi Arabia",
+      "invalidation": "A significant deterioration in India-Saudi Arabia relations or a major global economic downturn",
+      "_at": "2026-04-13T21:37:23.050789"
+    },
+    {
       "statement": "Energy supply chain resilience has decreased",
       "change_type": "supply",
       "mechanism": "Attacks on oil infrastructure and refinery shutdowns are reducing the availability of energy supplies",
@@ -109,5 +166,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-13T06:33:52.167741"
+  "lastRefresh": "2026-04-13T21:37:30.635852"
 }

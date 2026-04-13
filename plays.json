@@ -1,6 +1,99 @@
 {
   "items": [
     {
+      "title": "Saudi Oil Exporters Enhancing Trade Relationships",
+      "play_type": "business_play",
+      "actor": "Saudi oil exporters",
+      "customer": "Indian energy companies",
+      "problem": "Increasing global oil supply and strengthening trade relationships with India",
+      "action_path": "Saudi oil exporters should enhance their trade relationships with Indian energy companies to increase oil exports and revenue. They should invest in building strong partnerships and negotiate favorable trade agreements. This will enable them to capitalize on the increased global oil supply and strengthening trade relationships with India.",
+      "entry_mode": "build",
+      "monetization": "Increased oil exports and revenue",
+      "capabilities": "Strong partnership building and trade negotiation capabilities",
+      "barriers": "Competition from other oil-exporting countries and potential disruptions to oil production",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply has increased",
+        "Saudi Arabia's trade relationships are strengthening"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by leveraging the country's strategic location and oil reserves to increase exports and revenue",
+      "assumptions": "India's energy demand will continue to grow, and Saudi Arabia's oil production will remain stable",
+      "invalidation": "A significant decrease in global oil demand or a major disruption to oil production in Saudi Arabia",
+      "_at": "2026-04-13T21:37:30.635396"
+    },
+    {
+      "title": "Indian Energy Companies Investing in Saudi Oil Infrastructure",
+      "play_type": "market_entry_play",
+      "actor": "Indian energy companies",
+      "customer": "Saudi oil exporters",
+      "problem": "Increasing global oil supply and strengthening trade relationships with Saudi Arabia",
+      "action_path": "Indian energy companies should invest in Saudi oil infrastructure to secure a stable oil supply and capitalize on the strengthening trade relationships. They should partner with Saudi oil exporters to develop new oil fields and increase production capacity. This will enable them to reduce their dependence on other oil-exporting countries and increase their energy security.",
+      "entry_mode": "invest",
+      "monetization": "Secure and stable oil supply",
+      "capabilities": "Oil infrastructure development and investment capabilities",
+      "barriers": "Competition from other energy companies and potential regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil supply has increased",
+        "Saudi Arabia's trade relationships are strengthening"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by leveraging the country's oil reserves and infrastructure to increase energy security and reduce dependence on other oil-exporting countries",
+      "assumptions": "Saudi Arabia's oil production will remain stable, and India's energy demand will continue to grow",
+      "invalidation": "A significant decrease in global oil demand or a major disruption to oil production in Saudi Arabia",
+      "_at": "2026-04-13T21:37:30.635406"
+    },
+    {
+      "title": "Saudi Government Supporting Oil Exporters",
+      "play_type": "policy_play",
+      "actor": "Saudi government",
+      "customer": "Saudi oil exporters",
+      "problem": "Increasing global oil supply and strengthening trade relationships with India",
+      "action_path": "The Saudi government should support Saudi oil exporters by providing incentives and subsidies to increase oil production and exports. They should also negotiate favorable trade agreements with India to increase oil exports and revenue. This will enable Saudi oil exporters to capitalize on the increased global oil supply and strengthening trade relationships with India.",
+      "entry_mode": "build",
+      "monetization": "Increased oil exports and revenue",
+      "capabilities": "Policy development and trade negotiation capabilities",
+      "barriers": "Competition from other oil-exporting countries and potential disruptions to oil production",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply has increased",
+        "Saudi Arabia's trade relationships are strengthening"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by leveraging the government's support to increase oil exports and revenue",
+      "assumptions": "India's energy demand will continue to grow, and Saudi Arabia's oil production will remain stable",
+      "invalidation": "A significant decrease in global oil demand or a major disruption to oil production in Saudi Arabia",
+      "_at": "2026-04-13T21:37:30.635408"
+    },
+    {
       "title": "Enhanced Regional Security Services",
       "actor": "Cybersecurity firms",
       "customer": "Regional governments and enterprises",
@@ -121,5 +214,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-13T06:33:52.167911"
+  "lastRefresh": "2026-04-13T21:37:30.636080"
 }
