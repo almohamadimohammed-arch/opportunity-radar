@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "statement": "Energy supply chain resilience has decreased",
+      "change_type": "supply",
+      "mechanism": "Attacks on oil infrastructure and refinery shutdowns are reducing the availability of energy supplies",
+      "evidence": [
+        "Saudi Pipeline Attack Removes 700,000 Barrels Daily from Oil Exports",
+        "Saudi Arabia's SATORP Refinery Shut Down After Attack"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "India",
+        "Global energy markets"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential for price increases and supply shortages",
+      "first_order": "Reduced oil exports and refinery capacity",
+      "second_order": "Economic impacts on energy-importing countries and industries",
+      "invalidation": "A significant increase in global oil production or alternative energy sources to compensate for the losses",
+      "_at": "2026-04-13T06:33:45.298397"
+    },
+    {
+      "statement": "Trade cooperation between India and Saudi Arabia may increase",
+      "change_type": "feasibility",
+      "mechanism": "Discussions between India and Saudi Arabia on strengthening trade relations and enhancing energy supply cooperation may lead to increased cooperation",
+      "evidence": [
+        "India and Saudi Arabia discuss strengthening trade relations and enhancing energy supply",
+        "Pakistan sends military force to Saudi Arabia as part of pact"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "India",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased trade and economic cooperation",
+      "downside": "None",
+      "first_order": "Increased trade agreements and energy supply cooperation",
+      "second_order": "Economic benefits for both countries and potential for increased regional cooperation",
+      "invalidation": "A failure to reach a trade agreement or a significant deterioration in India-Saudi Arabia relations",
+      "_at": "2026-04-13T06:33:45.298406"
+    },
+    {
       "statement": "Regional security risk has increased",
       "change_type": "risk",
       "mechanism": "Deployment of military forces and refinery shutdowns can escalate tensions and instability",
@@ -66,5 +109,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-12T16:04:40.519158"
+  "lastRefresh": "2026-04-13T06:33:52.167741"
 }
