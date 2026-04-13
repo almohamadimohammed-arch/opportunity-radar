@@ -1,0 +1,25 @@
+name: Daily Signal Scrape (2am AST)
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r scraper/requirements.txt
+      - run: python scraper/scrape.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+      - run: |
+          git config user.name "Bot"
+          git config user.email "bot@radar.dev"
+          git add radar.json signals.json plays.json
+          git diff --cached --quiet || git commit -m "Daily signals update"
+          git push
