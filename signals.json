@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "statement": "Risk exposure in the global oil market has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "US blockade of Iranian ports, potential disruptions to global oil supplies",
+      "ksa_grounding": "Increased risk in the global oil market can impact Saudi Arabia's oil exports and economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "US moves to blockade Iranian ports, affecting global oil prices",
+        "Iran war's global energy crisis sharpens China's advantage in clean tech"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil importers",
+        "exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices, revenue for Saudi Arabia",
+      "downside": "Potential for decreased oil exports, economic instability",
+      "first_order": "Direct impact on global oil supplies, prices",
+      "second_order": "Potential shift to renewable energy sources, decreased demand for oil",
+      "invalidation": "A resolution to the US-Iran conflict, stabilization of the global oil market",
+      "_at": "2026-04-14T06:14:12.229477"
+    },
+    {
+      "statement": "Feasibility of renewable energy has increased",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Global shift from fossil fuels to renewable energy, driven by the Iran war and disruptions in the Strait of Hormuz",
+      "ksa_grounding": "Increased feasibility of renewable energy can lead to a decrease in Saudi Arabia's oil exports, but also opportunities for investment in renewable energy",
+      "affected_sectors": [
+        "renewable_energy",
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Iran war's global energy crisis sharpens China's advantage in clean tech",
+        "India and Saudi Arabia discuss strengthening trade relations and energy supply"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "renewable energy investors",
+        "oil exporters"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for decreased carbon emissions, increased investment in renewable energy",
+      "downside": "Potential for decreased oil exports, economic instability",
+      "first_order": "Direct impact on the global energy market, shift to renewable energy",
+      "second_order": "Potential impact on Saudi Arabia's economy, trade relationships",
+      "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy",
+      "_at": "2026-04-14T06:14:12.229486"
+    },
+    {
       "statement": "Global oil supply has loosened",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -223,5 +278,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-13T22:06:31.021929"
+  "lastRefresh": "2026-04-14T06:14:20.305159"
 }

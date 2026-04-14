@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Diversification of Energy Portfolio",
+      "play_type": "business_play",
+      "actor": "Saudi Arabian energy companies",
+      "customer": "Saudi Arabian government and citizens",
+      "problem": "Increased risk exposure in the global oil market and loosened global oil supply",
+      "action_path": "Invest in renewable energy sources, such as solar and wind power, to reduce dependence on oil exports. Develop strategic partnerships with international renewable energy companies to acquire new technologies and expertise. Diversify energy portfolio to include renewable energy sources, enhancing energy security and reducing risk.",
+      "entry_mode": "invest",
+      "monetization": "Reduced dependence on oil exports, increased energy security, and potential revenue from renewable energy sources",
+      "capabilities": "Renewable energy technologies, strategic partnership development, and energy portfolio management",
+      "barriers": "High upfront costs, lack of expertise, and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil supply has loosened",
+        "Risk exposure in the global oil market has increased"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Diversification of energy portfolio aligns with Saudi Arabia's Vision 2030, aiming to reduce dependence on oil exports and develop a more diversified economy",
+      "assumptions": "Renewable energy technologies will continue to improve, and global demand for renewable energy will increase",
+      "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy, or failure to develop strategic partnerships",
+      "_at": "2026-04-14T06:14:20.304585"
+    },
+    {
+      "title": "Enhanced Oil Export Infrastructure",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Arabian oil companies",
+      "customer": "Saudi Arabian government and oil companies",
+      "problem": "Increased risk exposure in the global oil market and loosened global oil supply",
+      "action_path": "Develop and enhance oil export infrastructure, including pipelines, ports, and storage facilities, to increase efficiency and reduce costs. Invest in digital technologies, such as IoT and AI, to optimize oil production and export operations. Enhance cybersecurity measures to protect against potential disruptions.",
+      "entry_mode": "build",
+      "monetization": "Increased oil exports, reduced costs, and improved efficiency",
+      "capabilities": "Oil export infrastructure development, digital technologies, and cybersecurity",
+      "barriers": "High upfront costs, regulatory hurdles, and cybersecurity threats",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil supply has loosened",
+        "Risk exposure in the global oil market has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Enhanced oil export infrastructure aligns with Saudi Arabia's goal to increase oil production and exports, supporting the country's economy",
+      "assumptions": "Global demand for oil will remain stable, and oil prices will remain relatively high",
+      "invalidation": "A significant decrease in global oil demand, or a failure to develop and enhance oil export infrastructure",
+      "_at": "2026-04-14T06:14:20.304595"
+    },
+    {
+      "title": "Renewable Energy Research and Development",
+      "play_type": "research_play",
+      "actor": "Saudi Arabian research institutions and universities",
+      "customer": "Saudi Arabian government and energy companies",
+      "problem": "Increased feasibility of renewable energy and need for diversified energy portfolio",
+      "action_path": "Conduct research and development in renewable energy technologies, such as solar and wind power, to improve efficiency and reduce costs. Collaborate with international research institutions and universities to acquire new knowledge and expertise. Develop strategic partnerships with energy companies to commercialize research findings.",
+      "entry_mode": "invest",
+      "monetization": "New knowledge and expertise in renewable energy technologies, potential revenue from commercialized research findings",
+      "capabilities": "Research and development, collaboration and partnership development, and technology commercialization",
+      "barriers": "Limited funding, lack of expertise, and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Feasibility of renewable energy has increased"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "renewable_energy",
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Renewable energy research and development aligns with Saudi Arabia's Vision 2030, aiming to develop a more diversified economy and reduce dependence on oil exports",
+      "assumptions": "Renewable energy technologies will continue to improve, and global demand for renewable energy will increase",
+      "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy, or failure to develop strategic partnerships",
+      "_at": "2026-04-14T06:14:20.304597"
+    },
+    {
       "title": "Saudi Oil and Gas Sector Expansion",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -272,5 +363,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-13T22:06:31.022257"
+  "lastRefresh": "2026-04-14T06:14:20.305598"
 }
