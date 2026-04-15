@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Diversify Oil Supply Sources",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "China",
+      "problem": "Decrease in demand for Saudi oil due to China's diversification efforts",
+      "action_path": "Saudi Aramco should explore alternative oil supply sources and partnerships to mitigate the risk of decreased demand from China. This could involve investing in oil infrastructure in Central Asia or partnering with other oil-producing countries. Additionally, Saudi Aramco could focus on increasing its oil sales to other regions, such as Europe or India.",
+      "entry_mode": "partner",
+      "monetization": "Increased oil sales and revenue",
+      "capabilities": "Oil production and supply chain management",
+      "barriers": "Geopolitical tensions and competition from other oil-producing countries",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "China is diversifying its oil supply sources"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil sales to China are expected to halve, indicating a potential decrease in demand for Saudi oil",
+      "assumptions": "China's efforts to diversify its oil supply sources will be successful, and Saudi Arabia's oil sales to China will decrease",
+      "invalidation": "If China's efforts to diversify its oil supply sources are unsuccessful, or if Saudi Arabia finds alternative markets for its oil",
+      "_at": "2026-04-15T06:15:09.762309"
+    },
+    {
+      "title": "Invest in Oil Infrastructure",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Government",
+      "customer": "Oil-producing companies",
+      "problem": "Tighter global oil supply due to US blockade of Iranian ports",
+      "action_path": "The Saudi government should invest in oil infrastructure, such as pipelines and storage facilities, to increase the country's oil production and export capabilities. This could involve partnering with international oil companies or investing in domestic oil infrastructure projects. Additionally, the government could focus on improving the efficiency of its oil supply chain to reduce costs and increase competitiveness.",
+      "entry_mode": "invest",
+      "monetization": "Increased oil production and export revenue",
+      "capabilities": "Oil infrastructure development and management",
+      "barriers": "High upfront costs and geopolitical tensions",
+      "timing": "invest now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil supply has become tighter"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "makkah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil sales to China are expected to halve due to the Hormuz crisis, indicating a potential shift in global oil supply dynamics",
+      "assumptions": "The US blockade of Iranian ports will continue, and global oil supply will remain tight",
+      "invalidation": "If the US blockade is lifted or Iran finds alternative routes for oil exports",
+      "_at": "2026-04-15T06:15:09.762318"
+    },
+    {
       "title": "Diversification of Energy Portfolio",
       "play_type": "business_play",
       "actor": "Saudi Arabian energy companies",
@@ -363,5 +423,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-14T06:14:20.305598"
+  "lastRefresh": "2026-04-15T06:15:09.763556"
 }

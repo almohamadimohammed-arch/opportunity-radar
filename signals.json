@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "statement": "Global oil supply has become tighter",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "US blockade of Iranian ports and resulting disruptions to global oil supplies",
+      "ksa_grounding": "Saudi Arabia's oil sales to China are expected to halve due to the Hormuz crisis, indicating a potential shift in global oil supply dynamics",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US Blockade of Iranian Ports Takes Effect",
+        "Saudi Oil Sales to China to Halve Due to Hormuz Crisis"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "oil consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "potential increase in oil prices for Saudi Arabia",
+      "downside": "potential decrease in oil sales for Saudi Arabia",
+      "first_order": "direct impact on global oil supplies",
+      "second_order": "potential impact on Saudi Arabia's oil revenue",
+      "invalidation": "if the US blockade is lifted or Iran finds alternative routes for oil exports",
+      "_at": "2026-04-15T06:14:32.718267"
+    },
+    {
+      "statement": "China is diversifying its oil supply sources",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "China's efforts to mitigate risks to its oil supplies from the Middle East by turning to Central Asia",
+      "ksa_grounding": "Saudi Arabia's oil sales to China are expected to halve, indicating a potential decrease in demand for Saudi oil",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Oil Sales to China to Halve Due to Hormuz Crisis",
+        "China Turns to Central Asia to Mitigate Middle East Oil Supply Risk"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil consumers",
+        "oil producers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential increase in oil supply diversity for China",
+      "downside": "potential decrease in oil sales for Saudi Arabia",
+      "first_order": "direct impact on China's oil supply sources",
+      "second_order": "potential impact on Saudi Arabia's oil revenue",
+      "invalidation": "if China's efforts to diversify its oil supply sources are unsuccessful",
+      "_at": "2026-04-15T06:14:32.718276"
+    },
+    {
+      "statement": "Saudi Arabia's non-oil sectors are growing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Support for Vision 2030 and growth of non-oil sectors such as tourism and hospitality",
+      "ksa_grounding": "Riyadh is hosting the Saudi WoodShow to support the growth of the wood and woodworking industry",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Riyadh Hosts Saudi WoodShow to Support Vision 2030"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "businesses",
+        "investors"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "potential increase in non-oil revenue for Saudi Arabia",
+      "downside": "potential lack of investment in non-oil sectors",
+      "first_order": "direct impact on non-oil sectors",
+      "second_order": "potential impact on Saudi Arabia's economic diversification",
+      "invalidation": "if the Saudi WoodShow is not successful in supporting the growth of non-oil sectors",
+      "_at": "2026-04-15T06:14:32.718278"
+    },
+    {
+      "statement": "Fintech is becoming more prominent in Saudi Arabia",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "RedCloud's $30 million licensing agreement to deploy its RAID engine across the FMCG market in Saudi Arabia",
+      "ksa_grounding": "The agreement indicates a potential increase in fintech adoption in Saudi Arabia",
+      "affected_sectors": [
+        "fintech",
+        "logistics"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "RedCloud Signs $30M Saudi Licensing Agreement"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "fintech companies",
+        "logistics providers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential increase in fintech adoption and innovation",
+      "downside": "potential lack of investment in fintech",
+      "first_order": "direct impact on fintech adoption",
+      "second_order": "potential impact on Saudi Arabia's economic diversification",
+      "invalidation": "if the licensing agreement is not successful in promoting fintech adoption",
+      "_at": "2026-04-15T06:14:32.718280"
+    },
+    {
       "statement": "Risk exposure in the global oil market has increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -278,5 +390,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-14T06:14:20.305159"
+  "lastRefresh": "2026-04-15T06:15:09.763031"
 }
