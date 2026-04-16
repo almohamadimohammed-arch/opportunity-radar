@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to fintech integration has not changed, but risk exposure in oil and gas sector is rising",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The war in Iran has disrupted oil flows, lifted prices, and affected Saudi Arabia's crude sales to China, indicating increased risk exposure in the oil and gas sector",
+      "ksa_grounding": "Saudi Arabia's economy is affected by the disruption in oil flows and the potential decrease in crude sales to China, which may impact the country's revenue and economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Middle East oil production plunges due to Iran war",
+        "Saudi Arabia's crude sales to China to halve next month"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for increased oil prices and revenue",
+      "downside": "potential for decreased oil sales and revenue",
+      "first_order": "direct impact on oil production and sales",
+      "second_order": "downstream effects on the economy and related industries",
+      "invalidation": "a swift resolution to the Iran war and restoration of oil flows would prove this wrong",
+      "_at": "2026-04-16T06:16:36.404432"
+    },
+    {
+      "statement": "Supply of oil is tightening due to geopolitical disruptions",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "The war in Iran has disrupted oil flows, leading to a plunge in Middle East oil production and a decrease in Saudi Arabia's crude sales to China",
+      "ksa_grounding": "Saudi Arabia's economy is affected by the decrease in oil production and sales, which may impact the country's revenue and economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Middle East oil production plunges due to Iran war",
+        "Saudi Arabia's crude sales to China to halve next month"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for increased oil prices and revenue",
+      "downside": "potential for decreased oil sales and revenue",
+      "first_order": "direct impact on oil production and sales",
+      "second_order": "downstream effects on the economy and related industries",
+      "invalidation": "a swift increase in oil production from other regions would prove this wrong",
+      "_at": "2026-04-16T06:16:36.404441"
+    },
+    {
       "statement": "Global oil supply has become tighter",
       "change_type": "supply",
       "change_vector": "supply_tighter",
@@ -390,5 +448,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-15T06:15:09.763031"
+  "lastRefresh": "2026-04-16T06:16:44.474323"
 }
