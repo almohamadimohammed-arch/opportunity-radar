@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to economic diversification has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Saudi Arabia's Public Investment Fund's approved 2026-2030 strategy focuses on maximizing financial returns and strengthening investment efficiency, driving economic transformation",
+      "ksa_grounding": "The strategy aims to reduce dependence on oil exports and drive economic transformation, which will have a positive impact on Saudi Arabia's economy",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "renewable_energy",
+        "fintech",
+        "banking",
+        "tourism"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia's Public Investment Fund Approves 2026-2030 Strategy",
+        "Saudi Arabia's Wealth Fund to Boost Returns and Build Global Champions"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Public Investment Fund",
+        "Saudi Arabia's government"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased economic diversification and reduced dependence on oil exports",
+      "downside": "Potential risks associated with rapid economic transformation",
+      "first_order": "Direct investment in key sectors",
+      "second_order": "Job creation and economic growth",
+      "invalidation": "If the Public Investment Fund's strategy is not implemented or fails to achieve its goals",
+      "_at": "2026-04-17T06:16:56.050752"
+    },
+    {
+      "statement": "Risk exposure to global trade disruptions has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Iran's threat to disrupt trade in the Gulf region in response to the US naval blockade could have significant implications for global oil supplies and trade routes",
+      "ksa_grounding": "As a major oil exporter, Saudi Arabia's economy is vulnerable to disruptions in global trade and oil supplies",
+      "affected_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Iran Threatens to Disrupt Gulf Trade in Response to US Naval Blockade",
+        "Oil Prices Fall on Hopes Diplomacy Can End US-Iran War"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Iran",
+        "US",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to global oil supplies and trade routes",
+      "first_order": "Direct impact on oil prices and trade",
+      "second_order": "Potential impact on global economy and energy markets",
+      "invalidation": "If Iran's threat is not carried out or is effectively mitigated",
+      "_at": "2026-04-17T06:16:56.050763"
+    },
+    {
+      "statement": "Feasibility of economic transformation has increased",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "The Public Investment Fund's approved 2026-2030 strategy and the wealth fund's efforts to boost returns and build global champions demonstrate a commitment to economic transformation",
+      "ksa_grounding": "The increased feasibility of economic transformation will have a positive impact on Saudi Arabia's economy, as it will attract more investment and create new opportunities",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "renewable_energy",
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia's Public Investment Fund Approves 2026-2030 Strategy",
+        "Saudi Arabia's Wealth Fund to Boost Returns and Build Global Champions"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Public Investment Fund",
+        "Saudi Arabia's government"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased economic diversification and reduced dependence on oil exports",
+      "downside": "Potential risks associated with rapid economic transformation",
+      "first_order": "Direct investment in key sectors",
+      "second_order": "Job creation and economic growth",
+      "invalidation": "If the Public Investment Fund's strategy is not implemented or fails to achieve its goals",
+      "_at": "2026-04-17T06:16:56.050765"
+    },
+    {
       "statement": "Regulatory barrier to fintech integration has not changed, but risk exposure in oil and gas sector is rising",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -448,5 +548,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-16T06:16:44.474323"
+  "lastRefresh": "2026-04-17T06:17:33.757704"
 }

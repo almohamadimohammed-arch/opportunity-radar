@@ -1,6 +1,101 @@
 {
   "items": [
     {
+      "title": "Saudi Economic Diversification Play",
+      "play_type": "business_play",
+      "actor": "Saudi enterprises and investors",
+      "customer": "Saudi government and private sector",
+      "problem": "Reducing dependence on oil exports and driving economic transformation",
+      "action_path": "Invest in non-oil sectors such as fintech, banking, and renewable energy to drive economic diversification. Develop strategic partnerships with international companies to attract foreign investment and expertise. Support the growth of small and medium-sized enterprises (SMEs) to create new job opportunities.",
+      "entry_mode": "invest",
+      "monetization": "Creating new revenue streams and jobs",
+      "capabilities": "Financial resources, business expertise, and partnerships with international companies",
+      "barriers": "Regulatory hurdles, lack of expertise, and limited access to funding",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Regulatory barrier to economic diversification has reduced"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "renewable_energy",
+        "fintech",
+        "banking"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "The play connects to Saudi market structure by supporting the government's vision to reduce dependence on oil exports and drive economic transformation",
+      "assumptions": "The Saudi government will continue to support economic diversification efforts, and international companies will be interested in investing in the Saudi market",
+      "invalidation": "If the Saudi government's economic diversification efforts are not successful, or if international companies are not interested in investing in the Saudi market",
+      "_at": "2026-04-17T06:17:33.756774"
+    },
+    {
+      "title": "Risk Mitigation Play",
+      "play_type": "defensive_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Saudi government and oil and gas companies",
+      "problem": "Mitigating the risk of global trade disruptions",
+      "action_path": "Develop contingency plans to address potential disruptions to global trade, such as diversifying supply chains and investing in alternative transportation routes. Enhance cybersecurity capabilities to protect against potential cyber threats. Develop strategic partnerships with international companies to share risk and expertise.",
+      "entry_mode": "build",
+      "monetization": "Reducing the risk of financial losses and reputational damage",
+      "capabilities": "Risk management expertise, cybersecurity capabilities, and strategic partnerships",
+      "barriers": "Limited resources, lack of expertise, and regulatory hurdles",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure to global trade disruptions has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "trade"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "The play connects to Saudi market structure by supporting the government's efforts to mitigate the risk of global trade disruptions and protect the economy",
+      "assumptions": "The risk of global trade disruptions will continue to exist, and the Saudi government will support efforts to mitigate this risk",
+      "invalidation": "If the risk of global trade disruptions decreases, or if the Saudi government is not interested in supporting risk mitigation efforts",
+      "_at": "2026-04-17T06:17:33.756784"
+    },
+    {
+      "title": "Economic Transformation Play",
+      "play_type": "policy_play",
+      "actor": "Saudi government",
+      "customer": "Saudi citizens and businesses",
+      "problem": "Driving economic transformation and creating new opportunities",
+      "action_path": "Implement policies to support economic diversification, such as investing in education and training programs, and providing incentives for businesses to invest in non-oil sectors. Develop strategic partnerships with international companies to attract foreign investment and expertise. Support the growth of SMEs to create new job opportunities.",
+      "entry_mode": "build",
+      "monetization": "Creating new revenue streams and jobs",
+      "capabilities": "Policy-making expertise, financial resources, and partnerships with international companies",
+      "barriers": "Regulatory hurdles, lack of expertise, and limited access to funding",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Feasibility of economic transformation has increased"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "renewable_energy",
+        "fintech",
+        "banking"
+      ],
+      "relevant_regions": [
+        "neom",
+        "red_sea"
+      ],
+      "ksa_grounding": "The play connects to Saudi market structure by supporting the government's vision to drive economic transformation and create new opportunities",
+      "assumptions": "The Saudi government will continue to support economic transformation efforts, and international companies will be interested in investing in the Saudi market",
+      "invalidation": "If the Saudi government's economic transformation efforts are not successful, or if international companies are not interested in investing in the Saudi market",
+      "_at": "2026-04-17T06:17:33.756786"
+    },
+    {
       "title": "Diversification of Oil and Gas Sector",
       "play_type": "business_play",
       "actor": "Saudi Arabian oil and gas companies",
@@ -512,5 +607,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-16T06:16:44.474828"
+  "lastRefresh": "2026-04-17T06:17:33.758277"
 }

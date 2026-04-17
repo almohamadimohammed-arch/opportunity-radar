@@ -1,6 +1,125 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia's Public Investment Fund Approves 2026-2030 Strategy",
+      "source": "Aawsat.com, Financial Post",
+      "source_tier": 2,
+      "time": "2026-04-15",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals",
+        "renewable_energy",
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "investment"
+      ],
+      "summary": "The Public Investment Fund (PIF) of Saudi Arabia has approved its 2026-2030 strategy, focusing on maximizing financial returns and strengthening investment efficiency. The strategy aims to drive the economic transformation of Saudi Arabia. The PIF will prioritize six key themes, including tourism, urban development, and clean energy.",
+      "why_it_matters": "This move is strategically important for Saudi Arabia as it aims to diversify its economy and reduce dependence on oil exports. The new strategy will help the PIF to play a key role in achieving the goals of Saudi Vision 2030.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-17T06:16:18.726135"
+    },
+    {
+      "title": "LIV Golf Reassures Players Over Saudi Withdrawal Rumors",
+      "source": "Yahoo Entertainment, Financial Post, USA Today",
+      "source_tier": 2,
+      "time": "2026-04-16",
+      "event_type": "company_move",
+      "category": "sports",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment",
+        "tourism"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "sports",
+        "economy"
+      ],
+      "summary": "LIV Golf has reassured players and staff that it remains fully funded, despite reports that Saudi Arabia may withdraw its funding after the 2026 season. The league's CEO, Scott O'Neil, sent a memo to staff, stating that the 2026 season will continue as planned.",
+      "why_it_matters": "This development is strategically important for Saudi Arabia as LIV Golf is a key component of the country's sports tourism strategy. The potential withdrawal of Saudi funding could have significant implications for the league's future and the country's reputation as a sports destination.",
+      "verification_status": "reported",
+      "source_count": 3,
+      "_at": "2026-04-17T06:16:18.726146"
+    },
+    {
+      "title": "Iran Threatens to Disrupt Gulf Trade in Response to US Naval Blockade",
+      "source": "BusinessLine, New York Post",
+      "source_tier": 2,
+      "time": "2026-04-16",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "trade"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "trade",
+        "security"
+      ],
+      "summary": "Iran has threatened to disrupt trade in the Gulf region in response to the US naval blockade. The move could have significant implications for global oil supplies and trade routes.",
+      "why_it_matters": "This development is strategically important for Saudi Arabia as it could impact the country's oil exports and trade relationships. The potential disruption to trade in the Gulf region could also have broader implications for regional security and stability.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-04-17T06:16:18.726149"
+    },
+    {
+      "title": "Saudi Arabia's Wealth Fund to Boost Returns and Build Global Champions",
+      "source": "Livemint, Financial Post",
+      "source_tier": 2,
+      "time": "2026-04-15",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals",
+        "renewable_energy",
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "investment"
+      ],
+      "summary": "Saudi Arabia's sovereign wealth fund will step up efforts to boost returns and build portfolio companies into global champions. The fund aims to drive the economic transformation of Saudi Arabia and reduce dependence on oil exports.",
+      "why_it_matters": "This move is strategically important for Saudi Arabia as it aims to diversify its economy and increase the competitiveness of its companies. The wealth fund's new strategy will help to achieve the goals of Saudi Vision 2030.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-17T06:16:18.726150"
+    },
+    {
+      "title": "Oil Prices Fall on Hopes Diplomacy Can End US-Iran War",
+      "source": "Barchart.com, OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-04-14",
+      "event_type": "market_shift",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Oil prices have fallen on hopes that diplomacy can end the US-Iran war. The decline in oil prices could have significant implications for the global economy and energy markets.",
+      "why_it_matters": "This development is strategically important for Saudi Arabia as it is a major oil producer and exporter. The decline in oil prices could impact the country's revenue and economic stability.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-04-17T06:16:18.726152"
+    },
+    {
       "title": "Middle East oil production plunges due to Iran war",
       "source": "CNBC, Breitbart News",
       "source_tier": 1,
@@ -562,20 +681,20 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-16T06:16:44.473577",
+  "lastRefresh": "2026-04-17T06:17:33.756826",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
+    "articles_to_model": 35,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
-    "signals_ksa_grounded": 2,
+    "signals_moderate": 3,
+    "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3
   }
