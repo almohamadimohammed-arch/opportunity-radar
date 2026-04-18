@@ -1,6 +1,67 @@
 {
   "items": [
     {
+      "statement": "Regulatory support for domestic economy has increased",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Shift in Public Investment Fund's focus to domestic growth under a new 5-year plan",
+      "ksa_grounding": "Boost to domestic sectors such as tourism, urban development, and clean energy, contributing to Saudi Arabia's economic diversification",
+      "affected_sectors": [
+        "tourism",
+        "urban development",
+        "clean energy"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia's Public Investment Fund shifts focus to domestic economy under new 5-year plan",
+        "Saudi Arabia scraps tourism funding in Vision 2030 shake-up"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Public Investment Fund",
+        "domestic businesses"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased economic growth and diversification",
+      "downside": "Potential misallocation of resources",
+      "first_order": "Direct investment in domestic sectors",
+      "second_order": "Job creation and economic multiplier effects",
+      "invalidation": "Announcement of a new policy prioritizing foreign investments over domestic economy",
+      "_at": "2026-04-18T05:27:28.780151"
+    },
+    {
+      "statement": "Diversification of oil export routes is becoming more urgent",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Gulf countries seeking alternative oil routes due to the Strait of Hormuz closure",
+      "ksa_grounding": "Impact on Saudi Arabia's oil export capabilities and revenue, necessitating investment in alternative routes",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Gulf countries seek alternative oil routes as Hormuz remains closed"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil and gas companies",
+        "government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Reduced dependence on a single export route",
+      "downside": "Increased costs and logistical challenges",
+      "first_order": "Investment in new infrastructure",
+      "second_order": "Enhanced energy security and potential for increased oil exports",
+      "invalidation": "Reopening of the Strait of Hormuz",
+      "_at": "2026-04-18T05:27:28.780161"
+    },
+    {
       "statement": "Regulatory barrier to economic diversification has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -548,5 +609,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-17T06:17:33.757704"
+  "lastRefresh": "2026-04-18T05:27:36.430104"
 }

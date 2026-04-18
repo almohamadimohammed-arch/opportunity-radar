@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia's Public Investment Fund shifts focus to domestic economy under new 5-year plan",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-15",
+      "event_type": "policy_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "urban development",
+        "clean energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "investment"
+      ],
+      "summary": "Saudi Arabia's Public Investment Fund is shifting its focus to domestic growth under a new 5-year plan, prioritizing six key themes including tourism, urban development, and clean energy. The fund aims to boost returns and build portfolio companies into global champions. This move is part of the kingdom's efforts to contend with the economic costs of the Iran war.",
+      "why_it_matters": "This shift in focus has significant strategic consequences for Saudi Arabia, as it aims to reduce its dependence on oil exports and diversify its economy. The new plan is expected to have a positive impact on the country's economic growth and development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-18T05:26:52.084826"
+    },
+    {
+      "title": "Saudi Arabia scraps tourism funding in Vision 2030 shake-up",
+      "source": "Skift",
+      "source_tier": 2,
+      "time": "2026-04-16",
+      "event_type": "policy_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "tourism",
+        "economy"
+      ],
+      "summary": "Saudi Arabia has scrapped tourism funding in a shake-up of its Vision 2030 plan, which was expected to be a major driver of the country's economic growth. This move is a significant shift in the kingdom's strategy, as tourism was seen as a key sector for diversification.",
+      "why_it_matters": "The scrapping of tourism funding has significant implications for Saudi Arabia's economic development and its ability to achieve the goals of Vision 2030. The move may also impact the country's ability to attract foreign investment and talent.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-18T05:26:52.084837"
+    },
+    {
+      "title": "LIV Golf's future uncertain due to possible Saudi withdrawal",
+      "source": "The Irish Times",
+      "source_tier": 2,
+      "time": "2026-04-16",
+      "event_type": "company_move",
+      "category": "sports",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "sports",
+        "entertainment"
+      ],
+      "summary": "LIV Golf's future is uncertain due to the possible withdrawal of Saudi Arabia's Public Investment Fund, which has been the main backer of the breakaway golf tour. The tour's CEO has sent a rallying email to staff, but the future remains uncertain.",
+      "why_it_matters": "The possible withdrawal of Saudi funding has significant implications for LIV Golf's future and the broader golf industry. The move may also impact Saudi Arabia's reputation as a sports investor and its ability to attract top talent.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-18T05:26:52.084839"
+    },
+    {
+      "title": "Saudi Arabia's sovereign wealth fund to build global champions",
+      "source": "Livemint",
+      "source_tier": 2,
+      "time": "2026-04-15",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "investment"
+      ],
+      "summary": "Saudi Arabia's sovereign wealth fund will step up efforts to boost returns and build portfolio companies into global champions as the kingdom contends with the economic costs of the Iran war. The fund will reorganize its investments into three portfolios to achieve this goal.",
+      "why_it_matters": "This move has significant implications for Saudi Arabia's economic development and its ability to achieve the goals of Vision 2030. The fund's efforts to build global champions will also impact the country's reputation as a major investor and its ability to attract foreign talent.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-18T05:26:52.084850"
+    },
+    {
+      "title": "Gulf countries seek alternative oil routes as Hormuz remains closed",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-16",
+      "event_type": "infrastructure_disruption",
+      "category": "energy",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "Gulf countries are seeking alternative oil routes as the Strait of Hormuz remains closed, highlighting the urgent need for diversification of oil export routes. This move has significant implications for global energy security and the regional economy.",
+      "why_it_matters": "The closure of the Strait of Hormuz has significant strategic consequences for Saudi Arabia and the broader region, as it impacts the country's ability to export oil and maintain energy security. The search for alternative routes is a critical response to this challenge.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-18T05:26:52.084852"
+    },
+    {
       "title": "Saudi Arabia's Public Investment Fund Approves 2026-2030 Strategy",
       "source": "Aawsat.com, Financial Post",
       "source_tier": 2,
@@ -681,20 +795,20 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-17T06:17:33.756826",
+  "lastRefresh": "2026-04-18T05:27:36.429168",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
     "articles_to_model": 35,
     "radar_generated": 5,
-    "radar_confirmed": 2,
-    "radar_reported": 3,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
+    "signals_generated": 2,
     "signals_strong": 0,
-    "signals_moderate": 3,
-    "signals_ksa_grounded": 3,
+    "signals_moderate": 1,
+    "signals_ksa_grounded": 2,
     "plays_generated": 3,
     "plays_ksa_grounded": 3
   }

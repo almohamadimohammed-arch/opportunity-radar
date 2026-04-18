@@ -1,6 +1,102 @@
 {
   "items": [
     {
+      "title": "Saudi Tourism Development",
+      "play_type": "business_play",
+      "actor": "Saudi tourism companies",
+      "customer": "Domestic and international tourists",
+      "problem": "Lack of diversified tourism offerings in Saudi Arabia",
+      "action_path": "Develop and invest in new tourism projects, focusing on sustainable and eco-friendly initiatives, to capitalize on the regulatory support for domestic economy. This can include building new hotels, resorts, and tourist attractions. Partner with international companies to bring in expertise and best practices.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue from tourism activities",
+      "capabilities": "Project development, marketing, and management capabilities",
+      "barriers": "Bureaucratic hurdles, lack of infrastructure",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory support for domestic economy has increased"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "urban development",
+        "clean energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification by developing the tourism sector",
+      "assumptions": "The regulatory support will continue, and the tourism sector will remain a priority for the government",
+      "invalidation": "Announcement of a new policy prioritizing foreign investments over domestic economy",
+      "_at": "2026-04-18T05:27:36.429092"
+    },
+    {
+      "title": "Clean Energy Infrastructure Development",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi energy companies",
+      "customer": "Saudi government, industrial, and residential sectors",
+      "problem": "Limited clean energy infrastructure in Saudi Arabia",
+      "action_path": "Develop and invest in clean energy infrastructure projects, such as solar and wind farms, to support the growth of the domestic economy. This can include partnering with international companies to bring in expertise and technology. Focus on projects that can be completed within the next 3-5 years.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue from clean energy production and sales",
+      "capabilities": "Project development, engineering, and construction capabilities",
+      "barriers": "High upfront costs, lack of expertise",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory support for domestic economy has increased"
+      ],
+      "sector": "clean energy",
+      "relevant_sectors": [
+        "clean energy",
+        "tourism",
+        "urban development"
+      ],
+      "relevant_regions": [
+        "neom",
+        "red_sea",
+        "qiddiya"
+      ],
+      "ksa_grounding": "Supports the growth of the domestic economy by developing clean energy infrastructure",
+      "assumptions": "The regulatory support will continue, and the clean energy sector will remain a priority for the government",
+      "invalidation": "Announcement of a new policy prioritizing fossil fuels over clean energy",
+      "_at": "2026-04-18T05:27:36.429102"
+    },
+    {
+      "title": "Urban Development and Planning",
+      "play_type": "policy_play",
+      "actor": "Saudi government",
+      "customer": "Saudi citizens, businesses, and tourists",
+      "problem": "Limited urban planning and development in Saudi Arabia",
+      "action_path": "Develop and implement comprehensive urban planning and development strategies, focusing on sustainable and eco-friendly initiatives, to support the growth of the domestic economy. This can include creating new urban planning regulations and investing in infrastructure projects. Partner with international companies to bring in expertise and best practices.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue from urban development projects",
+      "capabilities": "Urban planning, policy development, and project management capabilities",
+      "barriers": "Bureaucratic hurdles, lack of expertise",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory support for domestic economy has increased"
+      ],
+      "sector": "urban development",
+      "relevant_sectors": [
+        "urban development",
+        "tourism",
+        "clean energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "Supports the growth of the domestic economy by developing urban areas",
+      "assumptions": "The regulatory support will continue, and the urban development sector will remain a priority for the government",
+      "invalidation": "Announcement of a new policy prioritizing rural development over urban development",
+      "_at": "2026-04-18T05:27:36.429104"
+    },
+    {
       "title": "Saudi Economic Diversification Play",
       "play_type": "business_play",
       "actor": "Saudi enterprises and investors",
@@ -607,5 +703,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-17T06:17:33.758277"
+  "lastRefresh": "2026-04-18T05:27:36.430781"
 }
