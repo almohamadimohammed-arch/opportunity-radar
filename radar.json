@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia's Public Investment Fund (PIF) is scaling back its sports investments, including LIV Golf",
+      "source": "USA Today, The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-17",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "LIV Golf",
+        "sports industry"
+      ],
+      "summary": "Saudi Arabia's PIF is reducing its investments in sports, including LIV Golf, as it shifts focus from cultural influence to financial returns. This move may impact the future of LIV Golf and other sports ventures backed by the PIF.",
+      "why_it_matters": "This change in strategy may have significant implications for Saudi Arabia's sports and entertainment sectors, as well as its international reputation and influence.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-04-19T00:06:01.230541"
+    },
+    {
+      "title": "Saudi Arabia is mediating US-Iran ceasefire talks amid regional tensions",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-17",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "geopolitics"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "US-Iran relations",
+        "regional stability"
+      ],
+      "summary": "Saudi Arabia is facilitating ceasefire talks between the US and Iran, which could help reduce regional tensions and improve diplomatic relations.",
+      "why_it_matters": "This development may have significant implications for regional stability and the global oil market, as well as Saudi Arabia's role as a mediator in international conflicts.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-19T00:06:01.230552"
+    },
+    {
+      "title": "Australia's petrol prices hit $2.03/L amid oil market volatility",
+      "source": "Ibtimes.com.au",
+      "source_tier": 2,
+      "time": "2026-04-16",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "oil market",
+        "petrol prices"
+      ],
+      "summary": "Australia's petrol prices have reached $2.03/L due to oil market volatility, which may be influenced by global events and supply chain disruptions.",
+      "why_it_matters": "This development may have implications for Saudi Arabia's oil exports and the global energy market, as well as the country's economic interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-19T00:06:01.230554"
+    },
+    {
+      "title": "Valvoline by Aramco launches new FIFA World Cup 2026 campaign",
+      "source": "PR Newswire UK",
+      "source_tier": 2,
+      "time": "2026-04-17",
+      "event_type": "product_launch",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "Aramco",
+        "FIFA World Cup"
+      ],
+      "summary": "Valvoline by Aramco has launched a new campaign for the FIFA World Cup 2026, which may help promote the company's brand and products globally.",
+      "why_it_matters": "This development may have implications for Aramco's marketing and branding efforts, as well as its partnerships with international organizations.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-19T00:06:01.230556"
+    },
+    {
       "title": "Saudi Arabia's Public Investment Fund shifts focus to domestic economy under new 5-year plan",
       "source": "The Times of India",
       "source_tier": 2,
@@ -795,21 +885,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-18T05:27:36.429168",
+  "lastRefresh": "2026-04-19T00:06:43.688281",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 35,
+    "articles_to_model": 36,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
-    "signals_ksa_grounded": 2,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "signals_moderate": 0,
+    "signals_ksa_grounded": 3,
+    "plays_generated": 0,
+    "plays_ksa_grounded": 0
   }
 }

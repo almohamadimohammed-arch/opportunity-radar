@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "statement": "Regulatory support for tourism is decreasing",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "Cancellation of tourism funding in Vision 2030 plan",
+      "ksa_grounding": "Reduced government support for tourism sector may impact economic development and diversification efforts in Saudi Arabia",
+      "affected_sectors": [
+        "tourism"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah",
+        "madinah"
+      ],
+      "evidence": [
+        "Saudi Arabia scraps tourism funding in Vision 2030 shake-up"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Tourism businesses",
+        "Investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for private sector to fill funding gap",
+      "downside": "Decreased tourism revenue and economic growth",
+      "first_order": "Direct impact on tourism sector",
+      "second_order": "Indirect impact on related sectors such as hospitality and entertainment",
+      "invalidation": "Announcement of new tourism funding initiatives or reinstatement of cancelled funding",
+      "_at": "2026-04-19T00:06:38.687642"
+    },
+    {
+      "statement": "Investment priorities are shifting from sports and entertainment to more financially viable sectors",
+      "change_type": "institutional priority",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "PIF's reduction of sports investments, including LIV Golf",
+      "ksa_grounding": "Shift in investment focus may impact Saudi Arabia's economic development and diversification efforts, potentially leading to increased investment in other sectors",
+      "affected_sectors": [
+        "entertainment",
+        "sports"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia's Public Investment Fund (PIF) is scaling back its sports investments, including LIV Golf"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Sports and entertainment businesses",
+        "Investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment in more financially viable sectors",
+      "downside": "Decreased investment in sports and entertainment sectors",
+      "first_order": "Direct impact on sports and entertainment sectors",
+      "second_order": "Indirect impact on related sectors such as tourism and hospitality",
+      "invalidation": "Announcement of new sports and entertainment investments or reversal of PIF's investment shift",
+      "_at": "2026-04-19T00:06:38.687652"
+    },
+    {
+      "statement": "Global oil market volatility is increasing",
+      "change_type": "market",
+      "change_vector": "supply_looser",
+      "mechanism": "Oil market volatility leading to price fluctuations",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be impacted by global oil market volatility, potentially affecting oil revenue and economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Australia's petrol prices hit $2.03/L amid oil market volatility"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Oil producers",
+        "Consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil revenue due to higher prices",
+      "downside": "Decreased oil revenue due to lower prices",
+      "first_order": "Direct impact on oil prices",
+      "second_order": "Indirect impact on related sectors such as petrochemicals and refining",
+      "invalidation": "Stabilization of oil prices or decrease in market volatility",
+      "_at": "2026-04-19T00:06:38.687653"
+    },
+    {
       "statement": "Regulatory support for domestic economy has increased",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -609,5 +696,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-18T05:27:36.430104"
+  "lastRefresh": "2026-04-19T00:06:43.689432"
 }
