@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to sports investments has increased",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "Shift in focus from cultural influence to financial returns, indicating a more cautious approach to investments",
+      "ksa_grounding": "This change may impact Saudi Arabia's ability to attract foreign investment in the sports sector, potentially affecting the growth of the entertainment and culture industries",
+      "affected_sectors": [
+        "entertainment",
+        "culture",
+        "sports"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia's sports investments shifting focus from cultural influence to financial returns",
+        "LIV Golf CEO confirms Saudi funding will end after this season"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Public Investment Fund",
+        "LIV Golf"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for more financially sustainable investments",
+      "downside": "Potential decrease in foreign investment and growth in the sports sector",
+      "first_order": "Direct impact on sports investments",
+      "second_order": "Indirect impact on the entertainment and culture industries",
+      "invalidation": "Announcement of new, large-scale sports investments by the Public Investment Fund",
+      "_at": "2026-04-20T06:35:24.873767"
+    },
+    {
+      "statement": "Risk exposure in the oil and gas sector has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Potential two-year timeline for Persian Gulf energy recovery, impacting global energy prices and supply chains",
+      "ksa_grounding": "This change may impact Saudi Arabia's oil and gas production, potentially affecting the country's economy and energy exports",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "Persian Gulf"
+      ],
+      "evidence": [
+        "IEA Chief warns of potential two-year timeline for Persian Gulf energy recovery"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "IEA",
+        "Saudi Aramco"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment in energy recovery efforts",
+      "downside": "Potential decrease in oil and gas production, impacting Saudi Arabia's economy",
+      "first_order": "Direct impact on oil and gas production",
+      "second_order": "Indirect impact on the global energy market",
+      "invalidation": "Announcement of a shorter timeline for energy recovery or increased production from other regions",
+      "_at": "2026-04-20T06:35:24.873777"
+    },
+    {
       "statement": "Regulatory support for tourism is decreasing",
       "change_type": "regulation",
       "change_vector": "regulation_tightening",
@@ -696,5 +753,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-19T00:06:43.689432"
+  "lastRefresh": "2026-04-20T06:35:33.034044"
 }
