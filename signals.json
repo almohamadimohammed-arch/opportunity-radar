@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "statement": "Regional economic cooperation is increasing",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "GCC states working towards joint economic development",
+      "ksa_grounding": "Saudi Arabia's economy will benefit from increased regional cooperation and joint development initiatives",
+      "affected_sectors": [
+        "oil_gas",
+        "renewable_energy",
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "GCC states need to work towards joint defence, energy security and economic development",
+        "NSA Ajit Doval holds high-level talks in Riyadh, discusses bilateral and regional issues"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "GCC states",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased economic cooperation and joint development initiatives",
+      "downside": "Potential risks of increased dependence on regional cooperation",
+      "first_order": "Direct economic benefits from joint development initiatives",
+      "second_order": "Downstream effects on regional stability and security",
+      "invalidation": "Failure of GCC states to implement joint economic development initiatives",
+      "_at": "2026-04-21T06:17:23.893962"
+    },
+    {
+      "statement": "Global oil supply is becoming more uncertain",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "US seizure of Iranian vessel near Strait of Hormuz",
+      "ksa_grounding": "Saudi Arabia's oil exports may be affected by increased uncertainty in global oil supply",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "US seizes Iranian vessel near Strait of Hormuz, oil prices surge"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "US",
+        "Iran",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in oil prices benefiting Saudi Arabia's economy",
+      "downside": "Potential risks of supply disruptions and increased uncertainty",
+      "first_order": "Direct impact on global oil supply",
+      "second_order": "Downstream effects on oil prices and Saudi Arabia's economy",
+      "invalidation": "Resolution of the US-Iran conflict and stabilization of global oil supply",
+      "_at": "2026-04-21T06:17:23.893971"
+    },
+    {
+      "statement": "Fintech innovation is accelerating",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Advances in AI-native agentic platforms and enterprise AI infrastructure",
+      "ksa_grounding": "Saudi Arabia's fintech sector will benefit from increased innovation and investment in AI-native technologies",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Alibaba launches AI-native agentic platform for enterprises",
+        "IBM and Arm partner to develop enterprise AI infrastructure"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Alibaba",
+        "IBM",
+        "Arm"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased innovation and investment in fintech sector",
+      "downside": "Potential risks of increased competition and disruption",
+      "first_order": "Direct impact on fintech innovation",
+      "second_order": "Downstream effects on Saudi Arabia's fintech sector and economy",
+      "invalidation": "Failure of AI-native technologies to gain traction in the fintech sector",
+      "_at": "2026-04-21T06:17:23.893973"
+    },
+    {
       "statement": "Regulatory barrier to sports investments has increased",
       "change_type": "regulation",
       "change_vector": "regulation_tightening",
@@ -753,5 +841,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-20T06:35:33.034044"
+  "lastRefresh": "2026-04-21T06:18:01.265891"
 }

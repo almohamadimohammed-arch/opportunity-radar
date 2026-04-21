@@ -1,6 +1,125 @@
 {
   "items": [
     {
+      "title": "GCC states need to work towards joint defence, energy security and economic development",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-04-19",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy",
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "security"
+      ],
+      "summary": "The GCC has unity, it now needs joint defence and development. GCC states need to work towards joint defence, energy security and economic development. This will help to support peace and stability in the region.",
+      "why_it_matters": "This move is strategically important for Saudi Arabia as it will help to strengthen the country's position in the region and enhance its economic and energy security.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-21T06:16:46.698385"
+    },
+    {
+      "title": "US seizes Iranian vessel near Strait of Hormuz, oil prices surge",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-04-20",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The US has seized an Iranian vessel near the Strait of Hormuz, causing oil prices to surge. This move has reignited fears of a prolonged supply disruption.",
+      "why_it_matters": "This event is strategically important for Saudi Arabia as it may impact the country's oil exports and revenue.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-21T06:16:46.698395"
+    },
+    {
+      "title": "NSA Ajit Doval holds high-level talks in Riyadh, discusses bilateral and regional issues",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-20",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "economy",
+        "security"
+      ],
+      "summary": "National Security Advisor Ajit Doval visited Saudi Arabia for high-level talks, discussing bilateral ties, energy cooperation, and regional issues.",
+      "why_it_matters": "This move is strategically important for Saudi Arabia as it will help to strengthen the country's relationship with India and enhance its economic and energy security.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-21T06:16:46.698398"
+    },
+    {
+      "title": "Alibaba launches AI-native agentic platform for enterprises",
+      "source": "The Manila Times",
+      "source_tier": 2,
+      "time": "2026-04-20",
+      "event_type": "product_launch",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "business",
+        "economy"
+      ],
+      "summary": "Alibaba has launched an AI-native agentic platform for enterprises, designed to bring advanced agentic capabilities directly into business workflows.",
+      "why_it_matters": "This launch is strategically important for Saudi Arabia as it may impact the country's fintech and banking sectors, and enhance its economic competitiveness.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-21T06:16:46.698399"
+    },
+    {
+      "title": "IBM and Arm partner to develop enterprise AI infrastructure",
+      "source": "The Manila Times",
+      "source_tier": 2,
+      "time": "2026-04-18",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "business",
+        "economy"
+      ],
+      "summary": "IBM and Arm have partnered to develop dual-architecture hardware aimed at supporting artificial intelligence and data-intensive workloads.",
+      "why_it_matters": "This partnership is strategically important for Saudi Arabia as it may impact the country's fintech and banking sectors, and enhance its economic competitiveness.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-21T06:16:46.698403"
+    },
+    {
       "title": "Saudi Arabia's sports investments shifting focus from cultural influence to financial returns",
       "source": "The Times of India",
       "source_tier": 2,
@@ -997,20 +1116,20 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-20T06:35:33.032897",
+  "lastRefresh": "2026-04-21T06:18:01.264673",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 30,
+    "articles_to_model": 20,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
-    "signals_ksa_grounded": 2,
+    "signals_moderate": 2,
+    "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3
   }
