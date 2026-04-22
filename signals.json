@@ -1,6 +1,122 @@
 {
   "items": [
     {
+      "statement": "Risk of supply disruption in the oil and gas sector has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical tensions and infrastructure disruptions in the Strait of Hormuz may lead to prolonged supply chain disruptions",
+      "ksa_grounding": "Saudi Arabia's economy, being heavily reliant on oil and gas exports, may face significant challenges due to potential supply chain disruptions",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Gulf Worries U.S.-Iran Talks May Cement Tehran's 'Golden' Grip On Hormuz",
+        "Oil prices surge after US seizes Iranian vessel near Strait of Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil and gas exporters"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased oil prices, benefiting Saudi Arabia's oil exports",
+      "downside": "Potential for decreased oil exports, negatively impacting Saudi Arabia's economy",
+      "first_order": "Direct impact on oil and gas supply chains",
+      "second_order": "Downstream effects on global energy prices and economic growth",
+      "invalidation": "A significant reduction in geopolitical tensions or a swift resolution to the conflict in the region would invalidate this signal",
+      "_at": "2026-04-22T06:15:00.631626"
+    },
+    {
+      "statement": "Recovery of oil and gas production in the Persian Gulf may take up to two years",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Conflict-related damage to oil and gas infrastructure may lead to a prolonged recovery period",
+      "ksa_grounding": "Saudi Arabia's oil and gas production may be impacted by the prolonged recovery period, affecting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "IEA Chief Warns Persian Gulf Energy Recovery Could Take Up to Two Years",
+        "Gulf Worries U.S.-Iran Talks May Cement Tehran's 'Golden' Grip On Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil and gas exporters"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased oil prices, benefiting Saudi Arabia's oil exports",
+      "downside": "Potential for decreased oil exports, negatively impacting Saudi Arabia's economy",
+      "first_order": "Direct impact on oil and gas production",
+      "second_order": "Downstream effects on global energy prices and economic growth",
+      "invalidation": "A swift recovery of oil and gas production in the Persian Gulf or a significant increase in production from other regions would invalidate this signal",
+      "_at": "2026-04-22T06:15:00.631638"
+    },
+    {
+      "statement": "Saudi Arabia's healthcare sector may experience increased innovation and research",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Partnerships between Saudi healthcare institutions and international organizations may lead to increased innovation and research",
+      "ksa_grounding": "Saudi Arabia's healthcare sector may benefit from the partnership between King Faisal Specialist Hospital & Research Centre and C3 Davos of Healthcare, leading to improved healthcare outcomes and increased medical tourism",
+      "affected_sectors": [
+        "healthcare"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "King Faisal Specialist Hospital & Research Centre joins C3 Davos of Healthcare as a Global Strategic Partner"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "King Faisal Specialist Hospital & Research Centre",
+        "C3 Davos of Healthcare"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for improved healthcare outcomes and increased medical tourism",
+      "downside": "Potential for increased costs and decreased accessibility of healthcare services",
+      "first_order": "Direct impact on healthcare innovation and research",
+      "second_order": "Downstream effects on healthcare outcomes and medical tourism",
+      "invalidation": "A lack of significant progress or outcomes from the partnership between King Faisal Specialist Hospital & Research Centre and C3 Davos of Healthcare would invalidate this signal",
+      "_at": "2026-04-22T06:15:00.631643"
+    },
+    {
+      "statement": "Saudi Arabia's tourism sector may experience increased growth and investment",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Saudi Arabia's emerging luxury tourism market may attract increased investment and tourism",
+      "ksa_grounding": "Saudi Arabia's tourism sector may benefit from the country's emerging luxury tourism market, leading to increased investment and tourism revenue",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "jeddah",
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia is a rising luxury tourism hub, but Western brands like Nammos need more than a proven formula to succeed"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "tourism investors",
+        "hospitality providers"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased tourism revenue and investment",
+      "downside": "Potential for decreased tourism revenue due to increased competition or decreased demand",
+      "first_order": "Direct impact on tourism demand",
+      "second_order": "Downstream effects on tourism revenue and investment",
+      "invalidation": "A significant decrease in tourism demand or a lack of investment in Saudi Arabia's tourism sector would invalidate this signal",
+      "_at": "2026-04-22T06:15:00.631644"
+    },
+    {
       "statement": "Regional economic cooperation is increasing",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -841,5 +957,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-21T06:18:01.265891"
+  "lastRefresh": "2026-04-22T06:15:38.414957"
 }

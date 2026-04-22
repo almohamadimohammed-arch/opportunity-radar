@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "title": "Gulf Worries U.S.-Iran Talks May Cement Tehran's 'Golden' Grip On Hormuz",
+      "source": "HuffPost, The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-21",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "shipping",
+        "trade"
+      ],
+      "summary": "The Gulf region is concerned that U.S.-Iran talks may cement Tehran's control over the Strait of Hormuz. Iran's threats to Gulf shipping during the war have broken long-standing taboos around the Strait. This could have significant implications for global trade and energy security.",
+      "why_it_matters": "This development could impact Saudi Arabia's oil exports and the stability of the global energy market, potentially affecting the country's economy and Vision 2030 goals.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-22T06:14:22.219691"
+    },
+    {
+      "title": "IEA Chief Warns Persian Gulf Energy Recovery Could Take Up to Two Years",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-04-19",
+      "event_type": "capacity_change",
+      "category": "energy",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The IEA Chief has warned that the recovery of Persian Gulf oil and gas production could take up to two years due to conflict-related damage. This could lead to prolonged high energy prices and impact global economic growth.",
+      "why_it_matters": "This warning could have significant implications for Saudi Arabia's oil production and exports, potentially affecting the country's revenue and economic stability.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-22T06:14:22.219705"
+    },
+    {
+      "title": "Oil prices surge after US seizes Iranian vessel near Strait of Hormuz",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-04-20",
+      "event_type": "infrastructure_disruption",
+      "category": "energy",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "Oil prices have surged after the US seized an Iranian vessel near the Strait of Hormuz, reigniting fears of a prolonged supply disruption. This could lead to higher energy prices and impact global economic growth.",
+      "why_it_matters": "This development could impact Saudi Arabia's oil exports and the stability of the global energy market, potentially affecting the country's economy and Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-22T06:14:22.219707"
+    },
+    {
+      "title": "King Faisal Specialist Hospital & Research Centre joins C3 Davos of Healthcare as a Global Strategic Partner",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-20",
+      "event_type": "partnership",
+      "category": "healthcare",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "healthcare",
+        "research"
+      ],
+      "summary": "King Faisal Specialist Hospital & Research Centre has joined C3 Davos of Healthcare as a Global Strategic Partner. This partnership aims to advance healthcare research and innovation in Saudi Arabia.",
+      "why_it_matters": "This partnership could enhance Saudi Arabia's healthcare sector and contribute to the country's Vision 2030 goals, particularly in the areas of healthcare and research.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-22T06:14:22.219709"
+    },
+    {
+      "title": "Saudi Arabia is a rising luxury tourism hub, but Western brands like Nammos need more than a proven formula to succeed",
+      "source": "Skift",
+      "source_tier": 2,
+      "time": "2026-04-20",
+      "event_type": "market_shift",
+      "category": "tourism",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism"
+      ],
+      "region_tags": [
+        "jeddah",
+        "riyadh"
+      ],
+      "affected_domains": [
+        "tourism",
+        "hospitality"
+      ],
+      "summary": "Saudi Arabia is emerging as a luxury tourism hub, but Western brands like Nammos need to adapt to local preferences and regulations to succeed. This could lead to new opportunities for tourism and hospitality investments in the country.",
+      "why_it_matters": "This development could contribute to Saudi Arabia's Vision 2030 goals, particularly in the areas of tourism and economic diversification.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-22T06:14:22.219710"
+    },
+    {
       "title": "GCC states need to work towards joint defence, energy security and economic development",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -1116,20 +1231,20 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-21T06:18:01.264673",
+  "lastRefresh": "2026-04-22T06:15:38.413646",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 20,
+    "articles_to_model": 28,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
+    "signals_generated": 4,
     "signals_strong": 0,
     "signals_moderate": 2,
-    "signals_ksa_grounded": 3,
+    "signals_ksa_grounded": 4,
     "plays_generated": 3,
     "plays_ksa_grounded": 3
   }
