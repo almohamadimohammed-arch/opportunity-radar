@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to fintech integration has not changed, but demand for technology in healthcare and pharma is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Partnerships between major companies like Merck and Google Cloud are driving investment in AI initiatives, indicating a growing need for technological advancements in these sectors",
+      "ksa_grounding": "This increased demand for technology in healthcare and pharma could lead to more investment and innovation in Saudi Arabia's own healthcare sector, potentially driving growth and improving services",
+      "affected_sectors": [
+        "healthcare",
+        "pharma",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Merck partners with Google Cloud on AI initiatives",
+        "Google puts AI agents at heart of its enterprise money-making push"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "healthcare providers",
+        "pharmaceutical companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved healthcare services and increased investment in technological advancements",
+      "downside": "Dependence on foreign technology and potential job displacement",
+      "first_order": "Increased investment in AI initiatives",
+      "second_order": "Potential for improved healthcare outcomes and increased competitiveness in the sector",
+      "invalidation": "A significant decline in investment in AI initiatives or a failure of these partnerships to yield meaningful results",
+      "_at": "2026-04-23T06:21:23.142724"
+    },
+    {
+      "statement": "Global energy market volatility is increasing",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical conflicts, such as the Iran conflict, are leading to potential fuel shortages and price increases, which could have significant implications for the global energy market and economy",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy could be affected by increased volatility in the global energy market, potentially leading to fluctuations in oil prices and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran conflict may drive European fuel issues, crude oil could hit $90"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil producers",
+        "energy consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices and revenue",
+      "downside": "Potential for decreased oil prices and revenue, as well as increased instability in the region",
+      "first_order": "Increased volatility in the global energy market",
+      "second_order": "Potential for decreased economic stability and increased uncertainty",
+      "invalidation": "A resolution to the Iran conflict or a significant decrease in global energy demand",
+      "_at": "2026-04-23T06:21:23.142734"
+    },
+    {
+      "statement": "Demand for construction materials is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "The Saudi Arabian government's investment in infrastructure projects is driving demand for construction materials, such as cement additives",
+      "ksa_grounding": "This increased demand could lead to growth in the construction sector and related industries, such as cement production, in Saudi Arabia",
+      "affected_sectors": [
+        "construction",
+        "mining"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia's construction sector to drive demand for cement additives"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "construction companies",
+        "cement producers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for growth in the construction sector and related industries",
+      "downside": "Potential for increased costs and decreased profitability for construction companies",
+      "first_order": "Increased demand for construction materials",
+      "second_order": "Potential for growth in the construction sector and related industries",
+      "invalidation": "A significant decrease in government investment in infrastructure projects or a decline in construction activity",
+      "_at": "2026-04-23T06:21:23.142736"
+    },
+    {
       "statement": "Risk of supply disruption in the oil and gas sector has increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -957,5 +1044,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-22T06:15:38.414957"
+  "lastRefresh": "2026-04-23T06:21:32.353266"
 }
