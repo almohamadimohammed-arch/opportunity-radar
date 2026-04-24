@@ -1,6 +1,105 @@
 {
   "items": [
     {
+      "title": "SpaceX eyes opportunity in artificial intelligence",
+      "source": "Reuters",
+      "source_tier": 1,
+      "time": "2026-04-23",
+      "event_type": "company_move",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "artificial intelligence",
+        "space exploration"
+      ],
+      "summary": "Elon Musk's SpaceX is exploring opportunities in artificial intelligence, marking a potential shift in the company's focus. This move could lead to significant advancements in AI technology. SpaceX has already made significant strides in space exploration and satellite technology.",
+      "why_it_matters": "This development could have strategic consequences for Saudi Arabia's technology sector, particularly in the areas of fintech and artificial intelligence. It may also create opportunities for collaboration between SpaceX and Saudi technology companies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-24T06:24:37.102439"
+    },
+    {
+      "title": "Saudi Arabia's precast concrete facade panels market sees growth opportunities",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-22",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "construction"
+      ],
+      "region_tags": [
+        "riyadh",
+        "jeddah"
+      ],
+      "affected_domains": [
+        "construction",
+        "building materials"
+      ],
+      "summary": "The Saudi Arabian precast concrete facade panels market is expected to grow due to increasing demand for sustainable construction and tourism projects. The government's focus on green building initiatives and the expanding hospitality sector are driving this growth. The market offers opportunities for companies to invest in innovative and aesthetic precast concrete solutions.",
+      "why_it_matters": "This growth in the precast concrete facade panels market could have strategic consequences for Saudi Arabia's construction sector, particularly in the areas of sustainable building and tourism development. It may also create opportunities for Saudi companies to invest in and develop innovative construction materials.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-24T06:24:37.102452"
+    },
+    {
+      "title": "Yuno receives payment technical service provider certification from SAMA",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-22",
+      "event_type": "regulation",
+      "category": "finance",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "fintech",
+        "payments"
+      ],
+      "summary": "Yuno has received a payment technical service provider certification from the Saudi Central Bank (SAMA), allowing the company to operate as a payment service provider in the kingdom. This certification is a significant milestone for Yuno and demonstrates the company's commitment to compliance with Saudi regulatory requirements.",
+      "why_it_matters": "This certification could have strategic consequences for Saudi Arabia's fintech sector, particularly in the areas of payments and financial services. It may also create opportunities for Yuno to expand its services and collaborate with other Saudi fintech companies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-24T06:24:37.102456"
+    },
+    {
+      "title": "Investment chief recommends doubling down in the Gulf",
+      "source": "Fortune",
+      "source_tier": 2,
+      "time": "2026-04-22",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "capital_markets",
+        "fintech"
+      ],
+      "region_tags": [
+        "riyadh",
+        "jeddah"
+      ],
+      "affected_domains": [
+        "investments",
+        "finance"
+      ],
+      "summary": "A $75 billion investment chief has recommended doubling down in the Gulf, citing the region's potential for growth and returns. The chief argues that confusing volatility with vulnerability is a mistake and that the Gulf offers attractive investment opportunities. The region's economic diversification efforts and growing fintech sector are key drivers of this growth.",
+      "why_it_matters": "This recommendation could have strategic consequences for Saudi Arabia's economy, particularly in the areas of investments and financial services. It may also create opportunities for Saudi companies to attract foreign investment and collaborate with international investors.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-24T06:24:37.102457"
+    },
+    {
       "title": "Merck partners with Google Cloud on AI initiatives",
       "source": "Bnn Bloomberg",
       "source_tier": 1,
@@ -1342,21 +1441,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-23T06:21:32.351851",
+  "lastRefresh": "2026-04-24T06:25:21.070105",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 38,
+    "articles_to_model": 27,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
+    "signals_generated": 2,
     "signals_strong": 0,
-    "signals_moderate": 1,
-    "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "signals_moderate": 2,
+    "signals_ksa_grounded": 2,
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

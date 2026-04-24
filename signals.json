@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to fintech integration has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "SAMA's certification of payment technical service providers allows more companies to operate in the kingdom",
+      "ksa_grounding": "This change will increase foreign investment and job creation in Saudi Arabia's fintech sector, contributing to the country's economic diversification efforts",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Yuno receives payment technical service provider certification from SAMA",
+        "Investment chief recommends doubling down in the Gulf"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "fintech companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment and job creation in the fintech sector",
+      "downside": "Potential risks associated with rapid growth and lack of regulation",
+      "first_order": "More fintech companies will be able to operate in Saudi Arabia",
+      "second_order": "This will lead to increased innovation and competition in the sector, driving economic growth",
+      "invalidation": "If SAMA were to revoke or tighten its certification process, this signal would be invalidated",
+      "_at": "2026-04-24T06:24:43.809788"
+    },
+    {
+      "statement": "Investment in the Gulf region is becoming more attractive",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "The Gulf region's economic diversification efforts and growing fintech sector are driving investment opportunities",
+      "ksa_grounding": "This change will increase foreign investment in Saudi Arabia, contributing to the country's economic growth and diversification efforts",
+      "affected_sectors": [
+        "capital_markets",
+        "fintech"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Investment chief recommends doubling down in the Gulf",
+        "Yuno receives payment technical service provider certification from SAMA"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "investors",
+        "fintech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment and economic growth in the region",
+      "downside": "Potential risks associated with market volatility and geopolitical uncertainty",
+      "first_order": "More investors will be attracted to the Gulf region",
+      "second_order": "This will lead to increased economic activity and job creation in the region",
+      "invalidation": "If the investment chief's recommendation were to be proven incorrect or if the Gulf region were to experience significant economic or geopolitical instability, this signal would be invalidated",
+      "_at": "2026-04-24T06:24:43.809798"
+    },
+    {
       "statement": "Regulatory barrier to fintech integration has not changed, but demand for technology in healthcare and pharma is increasing",
       "change_type": "demand",
       "change_vector": "demand_up",
@@ -1044,5 +1103,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-23T06:21:32.353266"
+  "lastRefresh": "2026-04-24T06:25:21.071583"
 }
