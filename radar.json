@@ -1,6 +1,168 @@
 {
   "items": [
     {
+      "title": "LIV Golf faces uncertain future due to Saudi funding withdrawal",
+      "source": "The New Yorker",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "company_move",
+      "category": "sports",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "golf",
+        "sports"
+      ],
+      "summary": "LIV Golf is facing an uncertain future due to the withdrawal of Saudi funding, which may lead to the demise of the golf organization. This move has significant implications for the sports industry and Saudi Arabia's investments in golf.",
+      "why_it_matters": "The potential demise of LIV Golf may have strategic consequences for Saudi Arabia's sports and entertainment sectors, particularly in terms of the country's investments in golf and its reputation as a sports destination.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599329"
+    },
+    {
+      "title": "UAE B2B Buy Now Pay Later market poised for significant growth",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-22",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "UAE",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "B2B payments",
+        "fintech"
+      ],
+      "summary": "The UAE's B2B Buy Now Pay Later market is expected to experience significant growth, driven by increasing demand for flexible payment options and robust government digitization efforts. This growth may have implications for Saudi Arabia's fintech sector.",
+      "why_it_matters": "The growth of the UAE's B2B Buy Now Pay Later market may have strategic consequences for Saudi Arabia's fintech sector, particularly in terms of competition and innovation in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599339"
+    },
+    {
+      "title": "Jeddah Tower on track to become world's first kilometer-tall building",
+      "source": "Dezeen",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "infrastructure_disruption",
+      "category": "construction",
+      "geography": "Saudi Arabia",
+      "sector_tags": [
+        "construction",
+        "real estate"
+      ],
+      "region_tags": [
+        "jeddah"
+      ],
+      "affected_domains": [
+        "construction",
+        "real estate"
+      ],
+      "summary": "The Jeddah Tower is on track to become the world's first kilometer-tall building, with its architect stating that the project is capable of meeting its deadline. This achievement may have significant implications for Saudi Arabia's construction and real estate sectors.",
+      "why_it_matters": "The completion of the Jeddah Tower may have strategic consequences for Saudi Arabia's construction and real estate sectors, particularly in terms of the country's ability to attract investment and talent.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599341"
+    },
+    {
+      "title": "India and Qatar discuss ways to boost trade and strengthen supply chains",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "India, Qatar",
+      "sector_tags": [
+        "trade",
+        "logistics"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "trade",
+        "supply chains"
+      ],
+      "summary": "India and Qatar are discussing ways to boost trade and strengthen supply chains, particularly in the context of the West Asia crisis. This move may have implications for Saudi Arabia's trade and logistics sectors.",
+      "why_it_matters": "The strengthening of trade and supply chains between India and Qatar may have strategic consequences for Saudi Arabia's trade and logistics sectors, particularly in terms of competition and cooperation in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599343"
+    },
+    {
+      "title": "Goldman Sachs predicts rapid oil output recovery if Iran war ends",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-04-24",
+      "event_type": "geopolitical_move",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "oil production",
+        "energy markets"
+      ],
+      "summary": "Goldman Sachs analysts predict that crude oil production could recover rapidly if the Iran war ends, with recovery potentially taking only a few months. This prediction may have significant implications for Saudi Arabia's oil and gas sector.",
+      "why_it_matters": "The potential rapid recovery of oil production may have strategic consequences for Saudi Arabia's oil and gas sector, particularly in terms of the country's oil exports and revenue.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599344"
+    },
+    {
+      "title": "Pimco lends $10 billion to Gulf states in wartime deals",
+      "source": "Yahoo Entertainment",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "funding",
+      "category": "finance",
+      "geography": "Gulf",
+      "sector_tags": [
+        "banking",
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "investment"
+      ],
+      "summary": "Pimco has lent $10 billion to Gulf states in wartime deals, as these states build cash buffers to deal with potential economic fallout from the Iran war. This move may have implications for Saudi Arabia's financial sector.",
+      "why_it_matters": "The lending of $10 billion to Gulf states may have strategic consequences for Saudi Arabia's financial sector, particularly in terms of the country's ability to attract investment and manage economic risk.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599346"
+    },
+    {
+      "title": "Google deepens push into enterprise software with AI agents",
+      "source": "The Manila Times",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "product_launch",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "artificial intelligence",
+        "enterprise software"
+      ],
+      "summary": "Google is deepening its push into enterprise software, signaling to investors that artificial intelligence agents will be at the heart of its enterprise money-making efforts. This move may have implications for Saudi Arabia's technology sector.",
+      "why_it_matters": "The increased focus on AI agents in enterprise software may have strategic consequences for Saudi Arabia's technology sector, particularly in terms of the country's ability to adopt and innovate with AI-powered solutions.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-25T05:32:45.599347"
+    },
+    {
       "title": "SpaceX eyes opportunity in artificial intelligence",
       "source": "Reuters",
       "source_tier": 1,
@@ -1441,20 +1603,20 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-24T06:25:21.070105",
+  "lastRefresh": "2026-04-25T05:34:00.089628",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 27,
-    "radar_generated": 5,
+    "articles_to_model": 32,
+    "radar_generated": 9,
     "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_reported": 9,
     "radar_alleged": 0,
-    "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "radar_sector_tagged": 9,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
-    "signals_ksa_grounded": 2,
+    "signals_moderate": 1,
+    "signals_ksa_grounded": 3,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
   }
