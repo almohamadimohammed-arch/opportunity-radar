@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "EU considers helping with Mideast energy infrastructure",
+      "source": "Abcnews.com",
+      "source_tier": 2,
+      "time": "2026-04-25",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Mideast",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "politics"
+      ],
+      "summary": "The EU is considering funding alternative energy infrastructure in the Middle East to bypass conflict zones. This move could help reduce the region's reliance on traditional energy sources and promote more sustainable options.",
+      "why_it_matters": "This development could have significant strategic consequences for Saudi Arabia's energy sector, particularly in the areas of oil and gas production, as well as renewable energy development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-26T06:23:11.422394"
+    },
+    {
+      "title": "Oman's health technology sector enters growth phase",
+      "source": "Middleeastbriefing.com",
+      "source_tier": 2,
+      "time": "2026-04-25",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Oman",
+      "sector_tags": [
+        "healthcare",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "healthcare",
+        "technology"
+      ],
+      "summary": "Oman's health technology sector is entering a structured growth phase under the 2026-2030 policy cycle, driven by digital health reforms. This growth could lead to increased investment and innovation in the sector.",
+      "why_it_matters": "This growth in Oman's health technology sector could have strategic consequences for Saudi Arabia's healthcare sector, particularly in the areas of medical technology and digital health.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-26T06:23:11.422407"
+    },
+    {
+      "title": "Brent crude tops $120 as Hormuz closure cuts supply",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "infrastructure_disruption",
+      "category": "energy",
+      "geography": "Mideast",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The closure of the Strait of Hormuz has led to a significant increase in Brent crude prices, topping $120. This disruption to global oil supply chains could have far-reaching consequences for the energy market.",
+      "why_it_matters": "This disruption to global oil supply chains could have significant strategic consequences for Saudi Arabia's oil and gas sector, particularly in terms of production and export.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-26T06:23:11.422410"
+    },
+    {
+      "title": "Infosys collaborates with OpenAI to accelerate AI adoption",
+      "source": "Outlook Business",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "technology",
+        "business"
+      ],
+      "summary": "Infosys has announced a strategic collaboration with OpenAI to accelerate enterprise adoption of artificial intelligence and modernize software development processes. This partnership could lead to increased innovation and growth in the tech industry.",
+      "why_it_matters": "This partnership could have significant strategic consequences for Saudi Arabia's technology and business sectors, particularly in the areas of fintech and AI development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-26T06:23:11.422412"
+    },
+    {
       "title": "LIV Golf faces uncertain future due to Saudi funding withdrawal",
       "source": "The New Yorker",
       "source_tier": 2,
@@ -1603,21 +1694,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-25T05:34:00.089628",
+  "lastRefresh": "2026-04-26T06:23:57.141092",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
-    "radar_generated": 9,
+    "articles_to_model": 34,
+    "radar_generated": 5,
     "radar_confirmed": 0,
-    "radar_reported": 9,
+    "radar_reported": 5,
     "radar_alleged": 0,
-    "radar_sector_tagged": 9,
+    "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }
