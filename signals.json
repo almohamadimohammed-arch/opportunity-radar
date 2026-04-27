@@ -1,6 +1,88 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to fintech integration are not changing, but innovation and investment in the sector are increasing",
+      "change_type": "innovation",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Partnerships and collaborations between companies are driving innovation and investment in the fintech sector",
+      "ksa_grounding": "This could lead to increased investment and innovation in Saudi Arabia's fintech sector, potentially creating new opportunities for economic growth",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "SpaceX eyes opportunity in artificial intelligence",
+        "Infosys collaborates with OpenAI to accelerate enterprise adoption of artificial intelligence"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "fintech companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased innovation and investment in the fintech sector",
+      "downside": "Potential disruption to traditional financial institutions",
+      "first_order": "Increased investment and innovation in the fintech sector",
+      "second_order": "Potential creation of new jobs and economic growth",
+      "invalidation": "A significant decline in fintech investment and innovation would prove this wrong",
+      "_at": "2026-04-27T07:45:08.142819"
+    },
+    {
+      "statement": "Global demand for healthcare technology is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Digital health reforms and increased investment are driving growth in the healthcare technology sector",
+      "ksa_grounding": "This could lead to increased demand for healthcare technology in Saudi Arabia, potentially creating new opportunities for economic growth",
+      "affected_sectors": [
+        "healthcare",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Oman's health technology industry is entering a structured growth phase",
+        "Global additive manufacturing in defense market projected to hit USD 24.81 billion by 2035"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "healthcare providers",
+        "patients"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased access to healthcare technology and improved health outcomes",
+      "downside": "Potential increased costs for healthcare providers and patients",
+      "first_order": "Increased demand for healthcare technology",
+      "second_order": "Potential creation of new jobs and economic growth",
+      "invalidation": "A significant decline in healthcare technology demand would prove this wrong",
+      "_at": "2026-04-27T07:45:08.142831"
+    },
+    {
+      "statement": "Global supply chains are at risk of disruption",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Potential blockades and trade disruptions are increasing the risk of supply chain disruptions",
+      "ksa_grounding": "This could lead to increased risks for Saudi Arabia's oil and gas sector, potentially disrupting global energy markets",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Strait of Hormuz blockade threatens oil supply"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil and gas companies",
+        "global energy markets"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to global energy markets and increased costs for oil and gas companies",
+      "first_order": "Increased risk of supply chain disruptions",
+      "second_order": "Potential economic losses and instability",
+      "invalidation": "A significant reduction in global supply chain risks would prove this wrong",
+      "_at": "2026-04-27T07:45:08.142833"
+    },
+    {
       "statement": "Regulatory barriers to alternative energy integration are decreasing",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -1275,5 +1357,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-26T06:23:57.142839"
+  "lastRefresh": "2026-04-27T07:45:14.650392"
 }

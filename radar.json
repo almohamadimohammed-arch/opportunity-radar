@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Oman's health technology industry is entering a structured growth phase",
+      "source": "Middleeastbriefing.com",
+      "source_tier": 2,
+      "time": "2026-04-25",
+      "event_type": "market_shift",
+      "category": "healthcare",
+      "geography": "Gulf",
+      "sector_tags": [
+        "healthcare",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "health technology",
+        "digital health"
+      ],
+      "summary": "Oman's health technology sector is entering a structured growth phase under the 2026-2030 policy cycle, driven by digital health reforms. This growth phase could lead to increased investment and innovation in the sector.",
+      "why_it_matters": "This growth phase in Oman's health technology sector could have implications for Saudi Arabia's own healthcare sector, particularly in terms of investment and innovation. It could also create opportunities for collaboration and knowledge-sharing between the two countries.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-27T07:44:31.008401"
+    },
+    {
+      "title": "Global additive manufacturing in defense market projected to hit USD 24.81 billion by 2035",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-24",
+      "event_type": "market_shift",
+      "category": "defense",
+      "geography": "Global",
+      "sector_tags": [
+        "defense",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "additive manufacturing",
+        "defense industry"
+      ],
+      "summary": "The global additive manufacturing in defense market is projected to hit USD 24.81 billion by 2035, driven by rapid prototyping, lightweight components, and defense modernization. This growth could lead to increased investment and innovation in the sector.",
+      "why_it_matters": "This growth in the global additive manufacturing in defense market could have implications for Saudi Arabia's own defense sector, particularly in terms of investment and innovation. It could also create opportunities for collaboration and knowledge-sharing between the Kingdom and other countries.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-27T07:44:31.008412"
+    },
+    {
+      "title": "Strait of Hormuz blockade threatens oil supply",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-25",
+      "event_type": "infrastructure_disruption",
+      "category": "energy",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "oil supply",
+        "global energy market"
+      ],
+      "summary": "A blockade of the Strait of Hormuz could threaten oil supply and lead to increased market volatility. The blockade could also have significant implications for the global energy market and the economy.",
+      "why_it_matters": "This blockade could have significant implications for Saudi Arabia's oil exports and the Kingdom's economy. It could also lead to increased investment in alternative energy sources and infrastructure to mitigate the impact of the blockade.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-27T07:44:31.008414"
+    },
+    {
+      "title": "Infosys collaborates with OpenAI to accelerate enterprise adoption of artificial intelligence",
+      "source": "Outlook Business",
+      "source_tier": 2,
+      "time": "2026-04-23",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "artificial intelligence",
+        "enterprise software"
+      ],
+      "summary": "Infosys has announced a strategic collaboration with OpenAI to accelerate enterprise adoption of artificial intelligence and modernize software development processes. This partnership could lead to increased innovation and investment in the tech sector.",
+      "why_it_matters": "This partnership could have significant implications for Saudi Arabia's technology sector, particularly in the areas of fintech and artificial intelligence. It could also create new opportunities for collaboration and investment in the Kingdom.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-27T07:44:31.008416"
+    },
+    {
       "title": "EU considers helping with Mideast energy infrastructure",
       "source": "Abcnews.com",
       "source_tier": 2,
@@ -1694,11 +1785,11 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-26T06:23:57.141092",
+  "lastRefresh": "2026-04-27T07:45:14.648662",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 19,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -1706,9 +1797,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
