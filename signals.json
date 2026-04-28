@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "statement": "Global energy supply is becoming less reliant on traditional oil-producing regions",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Diversification of energy production and exports, led by the US, is reducing dependence on traditional oil-producing regions",
+      "ksa_grounding": "This change may lead to increased competition for Saudi Arabia's oil exports, potentially affecting the country's economy",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran war hands OPEC's swing producer crown to America",
+        "Aramco Ventures invests $7.5 billion in strategic tech"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "OPEC"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased global energy security",
+      "downside": "Potential decline in Saudi oil exports",
+      "first_order": "Reduced dependence on traditional oil-producing regions",
+      "second_order": "Potential shift in global energy market dynamics",
+      "invalidation": "A significant increase in global demand for oil, leading to a resurgence in traditional oil-producing regions",
+      "_at": "2026-04-28T07:44:36.900054"
+    },
+    {
+      "statement": "Regional geopolitical tensions are increasing risk exposure for businesses and investors",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The Strait of Hormuz crisis and other regional conflicts are creating uncertainty and instability, making it riskier for businesses and investors to operate in the region",
+      "ksa_grounding": "This increased risk exposure may deter investment in Saudi Arabia and affect the country's economic growth",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "banking"
+      ],
+      "affected_regions": [
+        "eastern_province",
+        "jeddah"
+      ],
+      "evidence": [
+        "Strait of Hormuz crisis may lead Gulf region into recession",
+        "Iran war hands OPEC's swing producer crown to America"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "foreign investors",
+        "regional businesses"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in risk mitigation and management",
+      "downside": "Decreased investor confidence and potential economic downturn",
+      "first_order": "Increased risk exposure for businesses and investors",
+      "second_order": "Potential decline in regional economic growth",
+      "invalidation": "A significant reduction in regional geopolitical tensions, leading to increased stability and security",
+      "_at": "2026-04-28T07:44:36.900066"
+    },
+    {
+      "statement": "Investment in emerging technologies is increasing in the energy sector",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Aramco's investment in strategic tech is driving innovation and efficiency in the energy sector",
+      "ksa_grounding": "This investment may lead to increased competitiveness and growth for Saudi Arabia's energy sector",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Aramco Ventures invests $7.5 billion in strategic tech",
+        "Japan's Nikkei closes above 60,000 for the first time"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "energy sector investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased efficiency and competitiveness in the energy sector",
+      "downside": "Potential risks associated with emerging technologies",
+      "first_order": "Increased investment in emerging technologies",
+      "second_order": "Potential for increased innovation and growth in the energy sector",
+      "invalidation": "A significant decline in investment in emerging technologies, leading to reduced innovation and growth",
+      "_at": "2026-04-28T07:44:36.900067"
+    },
+    {
       "statement": "Regulatory barriers to fintech integration are not changing, but innovation and investment in the sector are increasing",
       "change_type": "innovation",
       "change_vector": "feasibility_increasing",
@@ -1357,5 +1449,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-27T07:45:14.650392"
+  "lastRefresh": "2026-04-28T07:44:44.378987"
 }

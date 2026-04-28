@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "title": "Japan's Nikkei closes above 60,000 for the first time",
+      "source": "RTE, The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-27",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "finance"
+      ],
+      "summary": "Japan's Nikkei closed above the key 60,000 mark for the first time as optimism over corporate earnings overshadowed concerns about the Middle East conflict. This milestone indicates a positive trend in the Japanese stock market. The Nikkei's rise is attributed to heavyweight technology shares and hopes for a breakthrough in the Middle East conflict.",
+      "why_it_matters": "This development may have implications for Saudi Arabia's energy sector, as a strong Japanese economy could lead to increased demand for oil and petrochemicals. Additionally, a stable Middle East conflict resolution could positively impact the global energy market.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-04-28T07:43:59.637906"
+    },
+    {
+      "title": "Iran war hands OPEC's swing producer crown to America",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-27",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "politics"
+      ],
+      "summary": "The Iran war has led to an oil crunch, but the US is increasing oil exports and using its strategic reserves to help alleviate the shortage. As a result, America has become the world's energy superpower.",
+      "why_it_matters": "This shift in the global energy landscape may impact Saudi Arabia's position as a major oil producer and affect its relationships with other oil-producing countries. Saudi Arabia may need to adapt its energy strategy to remain competitive in a changing market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-28T07:43:59.637920"
+    },
+    {
+      "title": "Aramco Ventures invests $7.5 billion in strategic tech",
+      "source": "Forbes",
+      "source_tier": 2,
+      "time": "2026-04-26",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "technology"
+      ],
+      "summary": "Aramco's venture capital arm is investing $7.5 billion in emerging technologies that add value and bring efficiencies to the energy giant's operations. This investment aims to support the company's strategic growth and diversification.",
+      "why_it_matters": "This investment demonstrates Aramco's commitment to innovation and technology, which is crucial for Saudi Arabia's economic diversification and growth. The investment may also lead to the development of new technologies that can benefit the Saudi energy sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-28T07:43:59.637922"
+    },
+    {
+      "title": "Oman's health technology industry enters structured growth phase",
+      "source": "Middleeastbriefing.com",
+      "source_tier": 2,
+      "time": "2026-04-25",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "healthcare"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "healthcare",
+        "technology"
+      ],
+      "summary": "Oman's health technology sector is entering a structured growth phase under the 2026-2030 policy cycle, driven by digital health reforms. This growth is expected to lead to increased investment and innovation in the sector.",
+      "why_it_matters": "This development may have implications for Saudi Arabia's healthcare sector, as Oman's growth in health technology could lead to increased collaboration and knowledge sharing between the two countries. Saudi Arabia may also learn from Oman's experiences in implementing digital health reforms.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-28T07:43:59.637924"
+    },
+    {
+      "title": "Strait of Hormuz crisis may lead Gulf region into recession",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-26",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The Strait of Hormuz crisis, caused by attacks, shipping restrictions, and diplomatic efforts, may lead the Gulf region into recession. The crisis is affecting the global oil market and has significant implications for the regional economy.",
+      "why_it_matters": "This crisis may have far-reaching consequences for Saudi Arabia's economy, as the country is heavily reliant on oil exports. A recession in the Gulf region could lead to decreased demand for oil and petrochemicals, affecting Saudi Arabia's revenue and economic stability.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-28T07:43:59.637925"
+    },
+    {
       "title": "Oman's health technology industry is entering a structured growth phase",
       "source": "Middleeastbriefing.com",
       "source_tier": 2,
@@ -1785,21 +1898,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-27T07:45:14.648662",
+  "lastRefresh": "2026-04-28T07:44:44.377098",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 19,
+    "articles_to_model": 23,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }
