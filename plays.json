@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Saudi Oil Producers Increasing Production",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "Global oil refineries",
+      "problem": "Tightening global oil supply due to Iran's storage issues",
+      "action_path": "Increase oil production to capitalize on higher prices, invest in production capacity expansion, and optimize supply chain logistics. This will enable Saudi Aramco to meet the increased demand and maintain its market share. Additionally, the company can explore opportunities to diversify its revenue streams through petrochemicals and refining.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue through higher oil prices and expanded production capacity",
+      "capabilities": "Oil production, supply chain management, and petrochemicals expertise",
+      "barriers": "Geopolitical tensions, operational challenges, and potential competition from other oil-producing countries",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply is tightening due to Iran's storage issues"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's position as a major oil producer and its ability to benefit from higher oil prices due to reduced global supply",
+      "assumptions": "Iran's storage issues will continue, and global demand for oil will remain steady",
+      "invalidation": "Iran's storage issues are resolved, or alternative oil supplies are found, leading to a decrease in oil prices",
+      "_at": "2026-04-29T07:37:52.602034"
+    },
+    {
+      "title": "Diversification of Saudi Economy",
+      "play_type": "policy_play",
+      "actor": "Saudi Government",
+      "customer": "Saudi citizens and businesses",
+      "problem": "Over-reliance on oil exports and vulnerability to fluctuations in global oil prices",
+      "action_path": "Implement policies to diversify the economy, such as investing in renewable energy, tourism, and manufacturing. This will reduce the country's dependence on oil exports and create new revenue streams. Additionally, the government can provide incentives for foreign investment and support the development of small and medium-sized enterprises.",
+      "entry_mode": "invest",
+      "monetization": "Reduced reliance on oil exports, increased economic growth, and creation of new job opportunities",
+      "capabilities": "Economic planning, policy-making, and investment promotion",
+      "barriers": "Resistance to change, lack of infrastructure, and competition from other countries",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil supply is tightening due to Iran's storage issues"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "tourism",
+        "manufacturing"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's Vision 2030 and its goal to diversify the economy and reduce dependence on oil exports",
+      "assumptions": "The government will continue to support economic diversification efforts, and the private sector will respond positively to new investment opportunities",
+      "invalidation": "The government's economic diversification efforts are unsuccessful, or the private sector is not interested in investing in new sectors",
+      "_at": "2026-04-29T07:37:52.602043"
+    },
+    {
       "title": "Diversify Energy Exports",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -1436,5 +1496,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-28T07:44:44.380250"
+  "lastRefresh": "2026-04-29T07:37:52.605410"
 }

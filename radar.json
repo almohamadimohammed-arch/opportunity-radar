@@ -1,6 +1,114 @@
 {
   "items": [
     {
+      "title": "Iran faces crude oil storage crunch, potential forced output cuts looming",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-27",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Iran's storage issues may tighten global oil supply, impacting prices and challenging OPEC+ stability amid existing market pressures. The US blockade has cut Iran's oil exports, leading to a storage crunch. This could force Iran to reduce its oil production.",
+      "why_it_matters": "This development could impact Saudi Arabia's oil production and exports, as well as the global energy market. It may also affect Saudi Arabia's economic diversification efforts under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-29T07:37:08.499665"
+    },
+    {
+      "title": "Saudi Banks Post Record Quarterly Profits of $6.4 Billion",
+      "source": "Aawsat.com",
+      "source_tier": 2,
+      "time": "2026-04-27",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance"
+      ],
+      "summary": "Saudi Arabia's banking sector has posted a record start to 2026 with unprecedented first-quarter profits. The Kingdom's 10 listed banks posted combined profits of $6.4 billion.",
+      "why_it_matters": "This development indicates a strong and stable banking sector in Saudi Arabia, which is crucial for the country's economic growth and diversification efforts under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-29T07:37:08.499677"
+    },
+    {
+      "title": "Europe accelerates renewables push amid Iran war energy disruption",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-27",
+      "event_type": "market_shift",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Europe's renewable energy acceleration could mitigate future energy crises, reducing reliance on volatile oil markets amid geopolitical tensions. The Iran war has disrupted energy supplies, prompting Europe to accelerate its transition to renewable energy.",
+      "why_it_matters": "This development could impact Saudi Arabia's oil exports and revenue, as well as its own efforts to diversify its energy mix under Vision 2030. It may also create opportunities for Saudi Arabia to invest in renewable energy and reduce its dependence on oil.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-29T07:37:08.499679"
+    },
+    {
+      "title": "Aramco Ventures Is Pumping $7.5 Billion Into Strategic Tech",
+      "source": "Forbes",
+      "source_tier": 2,
+      "time": "2026-04-26",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "technology"
+      ],
+      "summary": "Aramco's venture capital arm is investing $7.5 billion in emerging technologies that add value and bring efficiencies to the energy giant's operations. The investment focuses on strategic tech that can enhance Aramco's operations and support its growth.",
+      "why_it_matters": "This development indicates Aramco's efforts to diversify its operations and invest in new technologies, which is crucial for Saudi Arabia's economic growth and diversification efforts under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-29T07:37:08.499680"
+    },
+    {
+      "title": "Saudi Arabia offers Nigerian students petroleum scholarships",
+      "source": "The Punch",
+      "source_tier": 2,
+      "time": "2026-04-27",
+      "event_type": "partnership",
+      "category": "education",
+      "geography": "Saudi",
+      "sector_tags": [
+        "education",
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "education",
+        "energy"
+      ],
+      "summary": "Saudi Arabia is offering 50 fully funded petroleum and mineral studies scholarships to Nigerian students annually to boost human capital in key sectors.",
+      "why_it_matters": "This development indicates Saudi Arabia's efforts to build partnerships and invest in human capital, which is crucial for the country's economic growth and diversification efforts under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-29T07:37:08.499684"
+    },
+    {
       "title": "Japan's Nikkei closes above 60,000 for the first time",
       "source": "RTE, The Times of India",
       "source_tier": 2,
@@ -1898,21 +2006,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-28T07:44:44.377098",
+  "lastRefresh": "2026-04-29T07:37:52.602123",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 23,
+    "articles_to_model": 30,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
