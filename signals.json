@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "statement": "Investment in advanced technologies is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Aramco's investment in AI and advanced technologies may lead to increased adoption and development of these technologies in the energy sector",
+      "ksa_grounding": "This may lead to increased competitiveness and diversification of Saudi Arabia's energy sector",
+      "affected_sectors": [
+        "oil_gas",
+        "fintech"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Aramco invests in AI and advanced technologies",
+        "UAE's exit from OPEC may lead to a shift in global oil market dynamics"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "energy sector investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased competitiveness and diversification of Saudi Arabia's energy sector",
+      "downside": "Potential disruption to traditional energy sector business models",
+      "first_order": "Increased investment in advanced technologies",
+      "second_order": "Potential for increased efficiency and productivity in the energy sector",
+      "invalidation": "A significant decline in Aramco's investment in advanced technologies or a failure to adopt these technologies in the energy sector",
+      "_at": "2026-04-30T07:41:46.276714"
+    },
+    {
+      "statement": "Demand for safe-haven assets is rising",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Global gold demand rose 2% in the Jan-Mar quarter, driven by a surge in bar and coin investment, indicating growing investor interest in safe-haven assets",
+      "ksa_grounding": "This may lead to increased investment in Saudi Arabia's gold and precious metals market",
+      "affected_sectors": [
+        "banking",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Global gold demand rises 2% in Jan-Mar quarter",
+        "UAE's exit from OPEC may lead to a shift in global oil market dynamics"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "investors",
+        "banks"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in Saudi Arabia's gold and precious metals market",
+      "downside": "Potential for decreased investment in other asset classes",
+      "first_order": "Increased demand for safe-haven assets",
+      "second_order": "Potential for increased stability in financial markets",
+      "invalidation": "A significant decline in global gold demand or a shift away from safe-haven assets",
+      "_at": "2026-04-30T07:41:46.276726"
+    },
+    {
+      "statement": "E-commerce market is growing",
+      "change_type": "market",
+      "change_vector": "demand_up",
+      "mechanism": "Saudi Arabia's e-commerce apparel market is expected to grow, driven by increased smartphone penetration and online shopping",
+      "ksa_grounding": "This may lead to increased economic activity and job creation in Saudi Arabia's retail sector",
+      "affected_sectors": [
+        "tourism",
+        "hospitality",
+        "entertainment"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia's e-commerce apparel market poised for growth",
+        "Aramco invests in AI and advanced technologies"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "consumers",
+        "retailers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased economic activity and job creation in Saudi Arabia's retail sector",
+      "downside": "Potential for disruption to traditional retail business models",
+      "first_order": "Increased demand for e-commerce",
+      "second_order": "Potential for increased efficiency and productivity in the retail sector",
+      "invalidation": "A significant decline in e-commerce growth or a shift away from online shopping",
+      "_at": "2026-04-30T07:41:46.276728"
+    },
+    {
       "statement": "Global oil supply is tightening",
       "change_type": "supply",
       "change_vector": "supply_tighter",
@@ -1531,5 +1621,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-29T07:37:52.604058"
+  "lastRefresh": "2026-04-30T07:42:24.056883"
 }

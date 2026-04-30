@@ -1,6 +1,127 @@
 {
   "items": [
     {
+      "title": "UAE's exit from OPEC may lead to a shift in global oil market dynamics",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-28",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE's decision to leave OPEC may lead to a shift in global oil market dynamics, potentially affecting oil prices and the cartel's future. The UAE is OPEC's third-largest oil producer, and its exit may lead to other countries following suit. This move may have significant implications for the global energy market.",
+      "why_it_matters": "The UAE's exit from OPEC may impact Saudi Arabia's oil market strategy and potentially lead to a shift in the global energy landscape, affecting Saudi Arabia's economy and energy sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-30T07:41:09.075581"
+    },
+    {
+      "title": "Aramco invests in AI and advanced technologies",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-04-28",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "fintech"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "energy",
+        "technology"
+      ],
+      "summary": "Aramco is investing in AI and advanced technologies, diversifying its portfolio beyond energy. This move may help Aramco stay competitive in a rapidly changing energy landscape.",
+      "why_it_matters": "Aramco's investment in AI and advanced technologies may have significant implications for Saudi Arabia's energy sector and economy, potentially leading to increased competitiveness and innovation.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-30T07:41:09.075595"
+    },
+    {
+      "title": "Global gold demand rises 2% in Jan-Mar quarter",
+      "source": "The Economic Times",
+      "source_tier": 2,
+      "time": "2026-04-29",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "banking",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "finance"
+      ],
+      "summary": "Global gold demand rose 2% in the Jan-Mar quarter, driven by a surge in bar and coin investment. This increase may be a sign of growing investor interest in safe-haven assets.",
+      "why_it_matters": "The rise in global gold demand may have implications for Saudi Arabia's financial sector, potentially leading to increased investment in gold and other safe-haven assets.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-30T07:41:09.075600"
+    },
+    {
+      "title": "Saudi Arabia's e-commerce apparel market poised for growth",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-04-28",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality",
+        "entertainment"
+      ],
+      "region_tags": [
+        "riyadh",
+        "jeddah"
+      ],
+      "affected_domains": [
+        "retail",
+        "e-commerce"
+      ],
+      "summary": "Saudi Arabia's e-commerce apparel market is expected to grow, driven by increased smartphone penetration and online shopping. This growth may have significant implications for Saudi Arabia's retail sector.",
+      "why_it_matters": "The growth of Saudi Arabia's e-commerce apparel market may lead to increased investment in the retail sector, potentially creating new job opportunities and driving economic growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-30T07:41:09.075601"
+    },
+    {
+      "title": "GCC summit in Saudi Arabia focuses on Iranian missile threat",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-04-29",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "security"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "defense",
+        "security"
+      ],
+      "summary": "The GCC summit in Saudi Arabia focused on the Iranian missile threat, highlighting regional defense concerns. This move may lead to increased cooperation among GCC countries on defense and security issues.",
+      "why_it_matters": "The GCC summit's focus on the Iranian missile threat may have significant implications for Saudi Arabia's national security and defense strategy, potentially leading to increased cooperation with other GCC countries.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-04-30T07:41:09.075603"
+    },
+    {
       "title": "Iran faces crude oil storage crunch, potential forced output cuts looming",
       "source": "Crypto Briefing",
       "source_tier": 2,
@@ -2006,11 +2127,11 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-29T07:37:52.602123",
+  "lastRefresh": "2026-04-30T07:42:24.054815",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 30,
+    "articles_to_model": 36,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -2018,9 +2139,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

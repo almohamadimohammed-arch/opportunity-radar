@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "title": "Saudi Fintech Firms Developing AI-Powered Solutions for Oil and Gas",
+      "play_type": "business_play",
+      "actor": "Saudi fintech firms",
+      "customer": "Oil and gas companies",
+      "problem": "Inefficient use of advanced technologies in the energy sector",
+      "action_path": "Develop AI-powered solutions for oil and gas companies to increase efficiency and competitiveness. Partner with Aramco to leverage their investment in AI and advanced technologies. Offer customized solutions to meet the specific needs of oil and gas companies.",
+      "entry_mode": "build",
+      "monetization": "Revenue from sales of AI-powered solutions",
+      "capabilities": "AI and data analytics capabilities, cloud-native capabilities",
+      "barriers": "High development costs, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Investment in advanced technologies is increasing in the oil and gas sector"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "oil_gas",
+        "fintech"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by leveraging Aramco's investment in AI and advanced technologies to increase competitiveness and diversification of Saudi Arabia's energy sector",
+      "assumptions": "Aramco's investment in AI and advanced technologies will continue, oil and gas companies will adopt AI-powered solutions",
+      "invalidation": "A significant decline in Aramco's investment in advanced technologies or a failure to adopt AI-powered solutions in the energy sector",
+      "_at": "2026-04-30T07:42:24.054706"
+    },
+    {
+      "title": "Saudi Banks Offering Safe-Haven Assets to Investors",
+      "play_type": "business_play",
+      "actor": "Saudi banks",
+      "customer": "Investors",
+      "problem": "Increasing demand for safe-haven assets",
+      "action_path": "Offer gold and other precious metals as safe-haven assets to investors. Develop investment products that cater to the growing demand for safe-haven assets. Partner with gold and precious metals suppliers to ensure a stable supply.",
+      "entry_mode": "build",
+      "monetization": "Revenue from sales of safe-haven assets",
+      "capabilities": "Investment banking capabilities, risk management capabilities",
+      "barriers": "High storage and security costs, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Demand for safe-haven assets is rising"
+      ],
+      "sector": "banking",
+      "relevant_sectors": [
+        "banking",
+        "capital_markets"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by catering to the growing demand for safe-haven assets in Saudi Arabia's gold and precious metals market",
+      "assumptions": "Demand for safe-haven assets will continue to rise, investors will prefer Saudi banks for their safe-haven asset needs",
+      "invalidation": "A significant decline in global gold demand or a shift away from safe-haven assets",
+      "_at": "2026-04-30T07:42:24.054718"
+    },
+    {
+      "title": "E-commerce Platforms for Tourism and Hospitality in Saudi Arabia",
+      "play_type": "market_entry_play",
+      "actor": "E-commerce companies",
+      "customer": "Tourists and hospitality businesses",
+      "problem": "Limited online presence of tourism and hospitality businesses in Saudi Arabia",
+      "action_path": "Develop e-commerce platforms that cater to the tourism and hospitality sector in Saudi Arabia. Offer online booking and payment services to tourists and hospitality businesses. Partner with tourism and hospitality businesses to increase their online presence.",
+      "entry_mode": "build",
+      "monetization": "Revenue from commission on bookings and payments",
+      "capabilities": "E-commerce capabilities, digital marketing capabilities",
+      "barriers": "High development costs, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "E-commerce market is growing in Saudi Arabia"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "hospitality",
+        "entertainment"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by increasing economic activity and job creation in Saudi Arabia's retail sector",
+      "assumptions": "E-commerce growth will continue in Saudi Arabia, tourists and hospitality businesses will adopt online booking and payment services",
+      "invalidation": "A significant decline in e-commerce growth or a shift away from online shopping",
+      "_at": "2026-04-30T07:42:24.054720"
+    },
+    {
       "title": "Saudi Oil Producers Increasing Production",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -1496,5 +1588,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-04-29T07:37:52.605410"
+  "lastRefresh": "2026-04-30T07:42:24.058319"
 }
