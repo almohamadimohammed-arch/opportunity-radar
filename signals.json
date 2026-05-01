@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "statement": "Regulatory cohesion among OPEC members has decreased",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "UAE's exit from OPEC may lead to a decrease in regulatory cohesion among member states, potentially causing instability in the global oil market",
+      "ksa_grounding": "Saudi Arabia's influence within OPEC may be affected, potentially altering its oil production and pricing strategies",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "UAE quits OPEC, potentially altering global oil market dynamics",
+        "UAE's OPEC exit exposes deep rift with Saudi Arabia"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC members",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for Saudi Arabia to increase its influence within OPEC",
+      "downside": "Potential for instability in the global oil market",
+      "first_order": "Decrease in regulatory cohesion among OPEC members",
+      "second_order": "Potential changes in oil production and pricing strategies",
+      "invalidation": "If the UAE's exit from OPEC leads to an increase in regulatory cohesion among member states",
+      "_at": "2026-05-01T07:39:56.665913"
+    },
+    {
+      "statement": "Investment in sports and entertainment is decreasing",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "Saudi Arabia's decision to stop funding LIV Golf may indicate a decrease in investment in the sports and entertainment sectors",
+      "ksa_grounding": "The decision may impact the development of sports and entertainment infrastructure in Saudi Arabia",
+      "affected_sectors": [
+        "entertainment",
+        "sports"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia to stop funding LIV Golf next season"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "LIV Golf",
+        "Saudi Arabia's Public Investment Fund"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for Saudi Arabia to allocate funds to other sectors",
+      "downside": "Potential impact on the sports and entertainment industries in Saudi Arabia",
+      "first_order": "Decrease in investment in sports and entertainment",
+      "second_order": "Potential impact on tourism and hospitality sectors",
+      "invalidation": "If Saudi Arabia announces new investments in the sports and entertainment sectors",
+      "_at": "2026-05-01T07:39:56.665923"
+    },
+    {
+      "statement": "Adoption of advanced technologies is increasing",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Aramco's expansion into AI and advanced technologies may indicate an increase in the adoption of these technologies in the energy sector",
+      "ksa_grounding": "The move may enhance Aramco's competitiveness and innovation capabilities, contributing to Saudi Arabia's economic diversification",
+      "affected_sectors": [
+        "oil_gas",
+        "technology"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Aramco deepens push into AI and advanced technologies",
+        "Amazon tops cloud expectations on strong AI demand"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "Saudi Arabia's energy sector"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased efficiency and innovation in the energy sector",
+      "downside": "Potential risks associated with the adoption of new technologies",
+      "first_order": "Increase in adoption of advanced technologies",
+      "second_order": "Potential impact on Saudi Arabia's economic diversification",
+      "invalidation": "If Aramco's expansion into AI and advanced technologies is unsuccessful",
+      "_at": "2026-05-01T07:39:56.665924"
+    },
+    {
       "statement": "Investment in advanced technologies is increasing",
       "change_type": "investment",
       "change_vector": "feasibility_increasing",
@@ -1621,5 +1710,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-04-30T07:42:24.056883"
+  "lastRefresh": "2026-05-01T07:40:33.707403"
 }

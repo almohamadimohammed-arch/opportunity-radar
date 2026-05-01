@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "title": "UAE quits OPEC, potentially altering global oil market dynamics",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-04-29",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE has announced its decision to leave OPEC, a move that could significantly impact the global oil market. This decision may lead to changes in oil production and pricing strategies. The UAE's exit could also influence other OPEC members to reconsider their membership.",
+      "why_it_matters": "This move may have significant implications for Saudi Arabia's oil production and pricing strategies, as well as its relationships with other OPEC members. The UAE's decision could potentially lead to a shift in the global oil market, affecting Saudi Arabia's economy and energy sector.",
+      "verification_status": "confirmed",
+      "source_count": 1,
+      "_at": "2026-05-01T07:39:49.529132"
+    },
+    {
+      "title": "Saudi Arabia to stop funding LIV Golf next season",
+      "source": "BBC News",
+      "source_tier": 1,
+      "time": "2026-04-30",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "sports",
+        "investment"
+      ],
+      "summary": "Saudi Arabia's Public Investment Fund will stop funding LIV Golf after the current season, casting doubt on the future of the golf series. This decision may impact the sports and entertainment sectors in Saudi Arabia.",
+      "why_it_matters": "The withdrawal of Saudi funding for LIV Golf could have implications for the kingdom's sports and entertainment strategies, as well as its investments in international events and partnerships.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-01T07:39:49.529143"
+    },
+    {
+      "title": "Aramco deepens push into AI and advanced technologies",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-04-28",
+      "event_type": "company_move",
+      "category": "technology",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "technology"
+      ],
+      "summary": "Aramco is expanding its presence in artificial intelligence and advanced technologies, diversifying its investments beyond the energy sector. This move may enhance Aramco's competitiveness and innovation capabilities.",
+      "why_it_matters": "Aramco's push into AI and advanced technologies could have significant implications for Saudi Arabia's energy sector, as well as its overall economic diversification strategy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-01T07:39:49.529145"
+    },
+    {
+      "title": "UAE's OPEC exit exposes deep rift with Saudi Arabia",
+      "source": "BusinessLine",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "politics"
+      ],
+      "summary": "The UAE's decision to leave OPEC has revealed a deepening rift with Saudi Arabia, potentially altering the dynamics of the Gulf region's oil politics. This move may lead to changes in the regional balance of power and influence.",
+      "why_it_matters": "The UAE's exit from OPEC may have significant implications for Saudi Arabia's relationships with its Gulf neighbors, as well as its own oil production and pricing strategies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-01T07:39:49.529147"
+    },
+    {
+      "title": "Amazon tops cloud expectations on strong AI demand",
+      "source": "The Star",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "technology",
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "technology",
+        "business"
+      ],
+      "summary": "Amazon's cloud sales have exceeded expectations, driven by strong demand for artificial intelligence and enterprise spending. This trend may have implications for the global technology market and the adoption of AI solutions.",
+      "why_it_matters": "The growing demand for AI and cloud services could have significant implications for Saudi Arabia's technology sector, as well as its overall economic diversification strategy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-01T07:39:49.529148"
+    },
+    {
       "title": "UAE's exit from OPEC may lead to a shift in global oil market dynamics",
       "source": "The Times of India",
       "source_tier": 2,
@@ -2127,21 +2240,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-04-30T07:42:24.054815",
+  "lastRefresh": "2026-05-01T07:40:33.705296",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 36,
+    "articles_to_model": 33,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
