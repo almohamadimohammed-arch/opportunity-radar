@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "title": "UAE exits OPEC, potentially shifting global energy dynamics",
+      "source": "Al Jazeera English, DW (English), BusinessLine",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE has announced its exit from OPEC, potentially altering the global energy landscape. This move may impact Saudi Arabia's influence in the oil market. The UAE's decision is seen as a strategic break in Gulf power dynamics.",
+      "why_it_matters": "This development could have significant implications for Saudi Arabia's energy sector and its position in the global oil market. The UAE's exit may lead to a shift in the balance of power in the region, potentially affecting Saudi Arabia's economic and geopolitical interests.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-05-02T06:24:06.285752"
+    },
+    {
+      "title": "Saudi Arabia's Public Investment Fund withdraws funding for LIV Golf",
+      "source": "DW (English), Golf.com, Dailymail.com",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "golf",
+        "sports"
+      ],
+      "summary": "The Saudi Public Investment Fund has announced that it will no longer fund LIV Golf, a professional golf tour. This decision may impact the future of the tour and its players. The fund cited 'current macro dynamics' as the reason for its decision.",
+      "why_it_matters": "This development could have significant implications for Saudi Arabia's sports and entertainment sector, as well as its international reputation. The withdrawal of funding may also affect the careers of golfers involved with LIV Golf.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-05-02T06:24:06.285761"
+    },
+    {
+      "title": "Amazon reports strong cloud sales growth driven by AI demand",
+      "source": "RTE.ie, Slashdot.org",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "cloud computing",
+        "artificial intelligence"
+      ],
+      "summary": "Amazon has reported strong growth in its cloud sales, driven by increasing demand for artificial intelligence services. This development may impact the global cloud computing market and the adoption of AI technologies.",
+      "why_it_matters": "This growth in cloud sales and AI demand could have significant implications for Saudi Arabia's technology and fintech sectors, as well as its efforts to diversify its economy. The increasing adoption of AI technologies may also impact various industries in the kingdom.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-05-02T06:24:06.285764"
+    },
+    {
+      "title": "UAE's OPEC exit may put African crude exports at risk",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-05-01",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "The UAE's exit from OPEC may put African crude exports at risk, as the global energy landscape continues to shift. This development could have significant implications for the global oil market and trade dynamics.",
+      "why_it_matters": "This potential disruption to African crude exports could have significant implications for Saudi Arabia's energy sector and its position in the global oil market. The UAE's exit from OPEC may lead to a shift in the balance of power in the region, potentially affecting Saudi Arabia's economic and geopolitical interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-02T06:24:06.285767"
+    },
+    {
+      "title": "Global oil prices swing due to war disruptions and supply and demand volatility",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Global oil prices are experiencing volatility due to war disruptions and fluctuations in supply and demand. This development may impact the global oil market and the economies of oil-producing countries, including Saudi Arabia.",
+      "why_it_matters": "This volatility in global oil prices could have significant implications for Saudi Arabia's energy sector and its economy. The kingdom's oil exports and revenue may be affected by the fluctuations in global oil prices.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-02T06:24:06.285769"
+    },
+    {
       "title": "UAE quits OPEC, potentially altering global oil market dynamics",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -2240,19 +2352,19 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-05-01T07:40:33.705296",
+  "lastRefresh": "2026-05-02T06:24:50.365400",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 33,
+    "articles_to_model": 36,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
