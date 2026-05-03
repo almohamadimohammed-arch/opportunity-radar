@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to oil production has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "UAE's exit from OPEC may lead to increased oil production",
+      "ksa_grounding": "Saudi Arabia's oil market dynamics may be altered, potentially affecting its oil production and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "UAE exits OPEC, potentially altering global oil market dynamics",
+        "Gulf countries' plans to bypass Hormuz face significant challenges"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "OPEC"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in oil production and revenue",
+      "downside": "Potential decrease in oil prices and revenue",
+      "first_order": "Increased oil production",
+      "second_order": "Impact on global oil market dynamics",
+      "invalidation": "OPEC's ability to maintain production cuts and stabilize the market",
+      "_at": "2026-05-03T07:27:31.495390"
+    },
+    {
+      "statement": "Risk exposure in the Gulf region has decreased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "US military de-escalation and reduced tensions in the region",
+      "ksa_grounding": "Reduced risk of conflict and increased stability in the region may positively impact Saudi Arabia's economy and investment climate",
+      "affected_sectors": [
+        "oil_gas",
+        "logistics"
+      ],
+      "affected_regions": [
+        "eastern_province",
+        "jeddah"
+      ],
+      "evidence": [
+        "USS Gerald R. Ford departs the Middle East, signaling partial US military de-escalation",
+        "Iran inflicts significant damage on US military bases in the Gulf"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "US military",
+        "Iran"
+      ],
+      "time_horizon": "now",
+      "upside": "Reduced risk of conflict and increased stability",
+      "downside": "Potential for future conflict and instability",
+      "first_order": "Reduced US military presence",
+      "second_order": "Impact on regional stability and global oil market",
+      "invalidation": "Escalation of conflict between the US and Iran",
+      "_at": "2026-05-03T07:27:31.495399"
+    },
+    {
+      "statement": "Investment in sports and entertainment has decreased",
+      "change_type": "investment",
+      "change_vector": "cost_falling",
+      "mechanism": "Withdrawal of Saudi funding for LIV Golf",
+      "ksa_grounding": "Reduced investment in sports and entertainment may impact Saudi Arabia's tourism and hospitality sectors",
+      "affected_sectors": [
+        "entertainment",
+        "sports"
+      ],
+      "affected_regions": [
+        "jeddah",
+        "riyadh"
+      ],
+      "evidence": [
+        "LIV Golf loses Saudi funding, faces uncertain future"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Public Investment Fund of Saudi Arabia",
+        "LIV Golf"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential reduction in costs and increased focus on other investments",
+      "downside": "Potential impact on Saudi Arabia's reputation and tourism industry",
+      "first_order": "Reduced investment in LIV Golf",
+      "second_order": "Impact on Saudi Arabia's sports and entertainment sectors",
+      "invalidation": "Reinstatement of Saudi funding for LIV Golf",
+      "_at": "2026-05-03T07:27:31.495401"
+    },
+    {
       "statement": "Global energy market dynamics are shifting",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -1767,5 +1857,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-02T06:24:50.367611"
+  "lastRefresh": "2026-05-03T07:28:09.093825"
 }

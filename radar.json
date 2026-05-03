@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "title": "UAE exits OPEC, potentially altering global oil market dynamics",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-05-01",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE's decision to leave OPEC may lead to increased oil production and potentially lower prices. This move could also signal a shift in the UAE's alignment with US interests. The exit may impact the global oil market, particularly if the Strait of Hormuz opens.",
+      "why_it_matters": "This development could have significant implications for Saudi Arabia's oil market share and influence, as well as the overall stability of the global energy market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-03T07:27:24.430636"
+    },
+    {
+      "title": "LIV Golf loses Saudi funding, faces uncertain future",
+      "source": "DW (English)",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "golf",
+        "sports"
+      ],
+      "summary": "The Public Investment Fund of Saudi Arabia has withdrawn its funding for LIV Golf, leaving the league's future uncertain. This decision may impact the golf industry and the reputation of Saudi Arabia's investments.",
+      "why_it_matters": "This development could affect Saudi Arabia's reputation as a reliable investor and its ability to attract international sports events, potentially influencing the country's tourism and entertainment sectors.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-03T07:27:24.430648"
+    },
+    {
+      "title": "Iran inflicts significant damage on US military bases in the Gulf",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-05-02",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Gulf",
+      "sector_tags": [
+        "defense"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "military",
+        "security"
+      ],
+      "summary": "Iran has caused significant damage to US military bases in the Gulf, including facilities in Kuwait and Qatar. This development may impact regional security and the US military presence in the area.",
+      "why_it_matters": "This incident could escalate tensions between the US and Iran, potentially affecting Saudi Arabia's security and stability, as well as the overall stability of the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-03T07:27:24.430650"
+    },
+    {
+      "title": "USS Gerald R. Ford departs the Middle East, signaling partial US military de-escalation",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-05-02",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "defense"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "military",
+        "security"
+      ],
+      "summary": "The USS Gerald R. Ford's departure from the Middle East may ease regional tensions and reduce the risk of immediate conflict with Iran. This development could impact the stability of the region and the global oil market.",
+      "why_it_matters": "This move could have significant implications for Saudi Arabia's security and stability, as well as the overall stability of the region, potentially influencing the country's oil market and economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-03T07:27:24.430652"
+    },
+    {
+      "title": "Gulf countries' plans to bypass Hormuz face significant challenges",
+      "source": "Digital Journal",
+      "source_tier": 2,
+      "time": "2026-05-01",
+      "event_type": "infrastructure_disruption",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "logistics"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "Gulf countries' plans to bypass the Strait of Hormuz face significant challenges, including the need for significant investment and infrastructure development. This development could impact the stability of the global oil market and the economy of the region.",
+      "why_it_matters": "This challenge could have significant implications for Saudi Arabia's oil exports and economy, as well as the overall stability of the global energy market, potentially influencing the country's economic diversification efforts.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-03T07:27:24.430653"
+    },
+    {
       "title": "UAE exits OPEC, potentially shifting global energy dynamics",
       "source": "Al Jazeera English, DW (English), BusinessLine",
       "source_tier": 2,
@@ -2352,21 +2464,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-05-02T06:24:50.365400",
+  "lastRefresh": "2026-05-03T07:28:09.091488",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 36,
+    "articles_to_model": 34,
     "radar_generated": 5,
-    "radar_confirmed": 2,
-    "radar_reported": 3,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }
