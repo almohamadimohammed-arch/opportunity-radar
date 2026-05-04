@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "statement": "Demand for cloud services is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Strong enterprise spending on artificial intelligence is driving growth in cloud sales",
+      "ksa_grounding": "Saudi Arabia's growing technology sector may benefit from increased demand for cloud services, particularly in areas such as AI development",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Amazon tops cloud expectations on strong AI demand"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Amazon",
+        "Saudi tech companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential growth opportunities for Saudi tech companies",
+      "downside": "Potential increased competition in the cloud services market",
+      "first_order": "Increased demand for cloud services",
+      "second_order": "Potential growth in Saudi Arabia's technology sector",
+      "invalidation": "If cloud sales growth slows down, or if AI demand decreases",
+      "_at": "2026-05-04T08:09:54.898498"
+    },
+    {
+      "statement": "Strategic partnerships between Saudi Arabia and other countries are increasing",
+      "change_type": "institutional priority",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Saudi Arabia's Industry and Mineral Resources Minister highlights 'strategic' ties with T\u00fcrkiye, indicating a shift in priorities towards strengthening international partnerships",
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased trade and investment opportunities with countries such as T\u00fcrkiye",
+      "affected_sectors": [
+        "oil_gas",
+        "mining"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi minister hails 'strategic' ties with T\u00fcrkiye"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi government",
+        "Turkish businesses"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in trade and investment opportunities",
+      "downside": "Potential risks associated with international partnerships, such as geopolitical tensions",
+      "first_order": "Increased strategic partnerships between Saudi Arabia and other countries",
+      "second_order": "Potential growth in Saudi Arabia's economy through increased trade and investment",
+      "invalidation": "If Saudi Arabia's international partnerships do not lead to increased trade and investment opportunities",
+      "_at": "2026-05-04T08:09:54.898507"
+    },
+    {
       "statement": "Regulatory barrier to oil production has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -1857,5 +1913,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-03T07:28:09.093825"
+  "lastRefresh": "2026-05-04T08:10:02.062586"
 }

@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "UAE's exit from OPEC signals closer alignment with US interests",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-05-01",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE's decision to leave OPEC has been described as a major earthquake in the oil market, with potential implications for the global energy landscape. The UAE wants to supply more oil than its OPEC quota, which could help push down prices once the Strait of Hormuz opens. This move may signal a closer alignment with US interests.",
+      "why_it_matters": "This development could have significant strategic consequences for Saudi Arabia, potentially impacting its oil exports and relationships with other Gulf states. The UAE's exit from OPEC may also lead to a shift in the global energy balance, affecting Saudi Arabia's position in the market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-04T08:09:17.780824"
+    },
+    {
+      "title": "Saudi minister hails 'strategic' ties with T\u00fcrkiye",
+      "source": "Hurriyet Daily News",
+      "source_tier": 2,
+      "time": "2026-05-02",
+      "event_type": "partnership",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "trade",
+        "diplomacy"
+      ],
+      "summary": "Saudi Arabia's Industry and Mineral Resources Minister Bandar bin Ibrahim AlKhorayef stated that relations with T\u00fcrkiye have reached a 'distinguished and strategic' level, pointing to new opportunities in trade and investment.",
+      "why_it_matters": "This development may have strategic consequences for Saudi Arabia, as strengthened ties with T\u00fcrkiye could lead to increased trade and investment opportunities, potentially diversifying the Saudi economy. This partnership could also impact regional dynamics, influencing Saudi Arabia's position in the Middle East.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-04T08:09:17.780834"
+    },
+    {
+      "title": "Intelligent Traffic Signal System Market growth driven by AI adoption",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-05-01",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "logistics",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "urban planning",
+        "transportation"
+      ],
+      "summary": "The Intelligent Traffic Signal System Market is expected to grow, driven by the adoption of AI-driven traffic systems, which can transform urban infrastructure with real-time data and adaptive signal control.",
+      "why_it_matters": "This trend may present opportunities for Saudi Arabia to invest in and develop its own smart urban mobility solutions, potentially improving traffic management and reducing congestion in cities like Riyadh and Jeddah. This could also contribute to the country's Vision 2030 goals, focusing on sustainable and efficient transportation systems.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-04T08:09:17.780836"
+    },
+    {
+      "title": "UAE's OPEC exit may impact global oil prices and Gulf dynamics",
+      "source": "Mondoweiss, Al Jazeera English",
+      "source_tier": 2,
+      "time": "2026-05-01",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE's decision to leave OPEC may lead to changes in global oil prices and impact the dynamics of the Gulf region, potentially affecting Saudi Arabia's oil exports and relationships with other Gulf states.",
+      "why_it_matters": "This development could have significant strategic consequences for Saudi Arabia, as it may need to adapt to a new oil market landscape and potentially reassess its relationships with other Gulf states. The UAE's exit from OPEC may also lead to a shift in the global energy balance, affecting Saudi Arabia's position in the market.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-05-04T08:09:17.780837"
+    },
+    {
       "title": "UAE exits OPEC, potentially altering global oil market dynamics",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -2464,21 +2554,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-05-03T07:28:09.091488",
+  "lastRefresh": "2026-05-04T08:10:02.060253",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 29,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
