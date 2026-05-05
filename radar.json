@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Amazon reports cloud sales growth above expectations driven by strong AI demand",
+      "source": "The Star, RTE.ie",
+      "source_tier": 2,
+      "time": "2026-04-30",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "cloud computing",
+        "artificial intelligence"
+      ],
+      "summary": "Amazon's cloud sales growth exceeded Wall Street expectations, driven by strong enterprise spending on artificial intelligence. This growth indicates a increasing demand for AI-powered cloud services. Amazon's cloud business is a significant player in the global cloud market.",
+      "why_it_matters": "This development may impact Saudi Arabia's fintech and capital markets sectors, as companies may increasingly adopt cloud-based AI solutions, potentially disrupting traditional financial services.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-05-05T06:37:51.134282"
+    },
+    {
+      "title": "UAE oil giant ADNOC pledges $55 billion in new projects by 2028",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-05-03",
+      "event_type": "capacity_change",
+      "category": "energy",
+      "geography": "UAE",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy production",
+        "infrastructure development"
+      ],
+      "summary": "ADNOC announced plans to spend $55 billion on new projects over the next two years, aiming to increase its oil production capacity.",
+      "why_it_matters": "This investment may impact the global oil market and potentially affect Saudi Arabia's oil production plans, as well as its relations with the UAE.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-05T06:37:51.134294"
+    },
+    {
+      "title": "OPEC+ adjusts oil output by 188,000 Bpd, Russia gets biggest boost",
+      "source": "Sputnikglobe.com",
+      "source_tier": 2,
+      "time": "2026-05-03",
+      "event_type": "market_shift",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "oil production",
+        "global energy market"
+      ],
+      "summary": "OPEC+ countries agreed to raise production by 188,000 barrels per day in June, with Russia receiving the largest increase.",
+      "why_it_matters": "This decision may impact the global oil market and affect Saudi Arabia's oil production plans, as well as its relations with other OPEC+ countries.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-05T06:37:51.134297"
+    },
+    {
+      "title": "HUMAIN ONE, powered by AWS, to be the industry's first enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale",
+      "source": "PR Newswire UK",
+      "source_tier": 2,
+      "time": "2026-05-04",
+      "event_type": "product_launch",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "artificial intelligence",
+        "cloud computing"
+      ],
+      "summary": "HUMAIN, a PIF company, announced the launch of HUMAIN ONE, an enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale, powered by AWS.",
+      "why_it_matters": "This launch may impact Saudi Arabia's fintech and capital markets sectors, as companies may increasingly adopt AI-powered solutions, potentially disrupting traditional financial services.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-05T06:37:51.134298"
+    },
+    {
       "title": "UAE's exit from OPEC signals closer alignment with US interests",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -2554,21 +2644,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-05-04T08:10:02.060253",
+  "lastRefresh": "2026-05-05T06:38:36.205586",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 29,
+    "articles_to_model": 24,
     "radar_generated": 5,
-    "radar_confirmed": 2,
-    "radar_reported": 3,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

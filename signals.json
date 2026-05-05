@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Demand for AI-powered cloud services is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Enterprise spending on artificial intelligence is driving growth in cloud sales",
+      "ksa_grounding": "This increase in demand for AI-powered cloud services can benefit Saudi Arabia's fintech and capital markets sectors, potentially attracting more investments and creating new opportunities",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Amazon reports cloud sales growth above expectations driven by strong AI demand",
+        "HUMAIN ONE, powered by AWS, to be the industry's first enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Enterprises",
+        "Cloud service providers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased adoption of AI-powered cloud services can lead to improved efficiency and innovation in various sectors",
+      "downside": "Over-reliance on cloud services can pose security and data privacy risks",
+      "first_order": "Direct increase in demand for AI-powered cloud services",
+      "second_order": "Potential expansion of cloud services to other sectors, such as healthcare and education",
+      "invalidation": "A significant decline in AI adoption or a major security breach in cloud services would invalidate this signal",
+      "_at": "2026-05-05T06:37:58.577286"
+    },
+    {
+      "statement": "Regulatory barriers to fintech integration are reducing",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "New products and services, such as HUMAIN ONE, are being launched to support fintech integration",
+      "ksa_grounding": "Reducing regulatory barriers can facilitate the growth of Saudi Arabia's fintech sector, attracting more investments and creating new opportunities",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "HUMAIN ONE, powered by AWS, to be the industry's first enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale",
+        "Amazon reports cloud sales growth above expectations driven by strong AI demand"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Fintech companies",
+        "Regulatory bodies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased fintech integration can lead to improved financial services and increased access to capital",
+      "downside": "Reducing regulatory barriers can also increase the risk of non-compliance and financial instability",
+      "first_order": "Direct reduction in regulatory barriers to fintech integration",
+      "second_order": "Potential expansion of fintech services to other sectors, such as healthcare and education",
+      "invalidation": "A major regulatory setback or a significant increase in non-compliance cases would invalidate this signal",
+      "_at": "2026-05-05T06:37:58.577295"
+    },
+    {
+      "statement": "Global oil supply is increasing",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "OPEC+ countries have agreed to raise production, and ADNOC has announced plans to increase its oil production capacity",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be affected by the increase in global oil supply, potentially leading to decreased oil prices and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "Eastern Province"
+      ],
+      "evidence": [
+        "OPEC+ adjusts oil output by 188,000 Bpd, Russia gets biggest boost",
+        "UAE oil giant ADNOC pledges $55 billion in new projects by 2028"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Oil producers",
+        "OPEC+ countries"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil supply can lead to decreased oil prices, benefiting consumers and potentially stimulating economic growth",
+      "downside": "Decreased oil prices can also lead to decreased revenue for oil-producing countries, such as Saudi Arabia",
+      "first_order": "Direct increase in global oil supply",
+      "second_order": "Potential impact on Saudi Arabia's oil revenue and economy",
+      "invalidation": "A significant disruption to oil production or a major increase in global oil demand would invalidate this signal",
+      "_at": "2026-05-05T06:37:58.577297"
+    },
+    {
       "statement": "Demand for cloud services is increasing",
       "change_type": "demand",
       "change_vector": "demand_up",
@@ -1913,5 +1998,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-04T08:10:02.062586"
+  "lastRefresh": "2026-05-05T06:38:36.208041"
 }
