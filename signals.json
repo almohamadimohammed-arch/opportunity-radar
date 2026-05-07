@@ -1,6 +1,87 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to international cooperation in the oil and gas sector have decreased",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "International partnerships and collaborations are becoming more feasible",
+      "ksa_grounding": "Saudi Arabia's position in OPEC may be impacted by the UAE's withdrawal, potentially leading to increased cooperation with other countries",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE Withdraws From OAPEC Following Exit From OPEC Alliance",
+        "IBM and Aramco Explore Collaboration to Accelerate AI and Innovation"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "OPEC"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased international cooperation and investment in the oil and gas sector",
+      "downside": "Potential loss of influence for Saudi Arabia in OPEC",
+      "first_order": "Increased cooperation between Saudi Arabia and other countries",
+      "second_order": "Potential for increased foreign investment in the Saudi oil and gas sector",
+      "invalidation": "If Saudi Arabia's influence in OPEC increases despite the UAE's withdrawal",
+      "_at": "2026-05-07T08:07:18.919067"
+    },
+    {
+      "statement": "The cost of doing business in the oil and gas sector is increasing due to rising oil prices",
+      "change_type": "cost",
+      "change_vector": "cost_rising",
+      "mechanism": "Rising oil prices are increasing the cost of production and operation",
+      "ksa_grounding": "Rising oil prices may strain Saudi Arabia's economy and energy sector",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Oil Prices Surge as US-Israel-Iran Tensions Disrupt Supply Routes",
+        "UAE Withdraws From OAPEC Following Exit From OPEC Alliance"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "Saudi oil producers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased revenue for Saudi oil producers",
+      "downside": "Potential for decreased profitability and increased costs for Saudi oil producers",
+      "first_order": "Increased cost of production and operation",
+      "second_order": "Potential for decreased investment in the Saudi oil and gas sector",
+      "invalidation": "If oil prices decrease despite ongoing geopolitical tensions",
+      "_at": "2026-05-07T08:07:18.919084"
+    },
+    {
+      "statement": "The feasibility of investing in the Saudi fintech sector is increasing",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Increased investment and cooperation between Saudi Arabia and other countries is facilitating fintech growth",
+      "ksa_grounding": "The opening of a Saudi PIF office in Shanghai may facilitate dealmaking and cooperation between Saudi Arabia and China, benefiting the fintech sector",
+      "affected_sectors": [
+        "fintech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi PIF Opens Shanghai Office to Facilitate China Dealmaking",
+        "IBM and Aramco Explore Collaboration to Accelerate AI and Innovation"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi PIF",
+        "fintech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment and growth in the Saudi fintech sector",
+      "downside": "Potential for increased competition and decreased profitability for existing fintech companies",
+      "first_order": "Increased investment and cooperation in the fintech sector",
+      "second_order": "Potential for increased innovation and job creation in the Saudi fintech sector",
+      "invalidation": "If the Saudi PIF office in Shanghai fails to facilitate significant dealmaking and cooperation",
+      "_at": "2026-05-07T08:07:18.919087"
+    },
+    {
       "statement": "Demand for AI-powered cloud services is increasing",
       "change_type": "demand",
       "change_vector": "demand_up",
@@ -1998,5 +2079,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-05T06:38:36.208041"
+  "lastRefresh": "2026-05-07T08:07:26.747292"
 }
