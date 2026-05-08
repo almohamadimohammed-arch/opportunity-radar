@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "statement": "Global oil market volatility has increased",
+      "change_type": "market",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical tensions and supply route disruptions are causing oil price surges",
+      "ksa_grounding": "Saudi Arabia's oil exports and economy may be affected by the increased volatility",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Oil Prices Surge as US-Israel-Iran Tensions Disrupt Supply Routes",
+        "Trump Reportedly Backed Off Hormuz Plan After Angry Response From Allies"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "importers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices to benefit Saudi Arabia's oil exports",
+      "downside": "Potential for decreased oil demand and economic instability",
+      "first_order": "Direct impact on oil prices and trade",
+      "second_order": "Downstream effects on global economies and investment strategies",
+      "invalidation": "A significant and sustained decrease in oil prices would invalidate this signal",
+      "_at": "2026-05-08T06:12:18.508009"
+    },
+    {
+      "statement": "Saudi Arabia's oil pricing strategy is becoming more competitive",
+      "change_type": "market",
+      "change_vector": "cost_falling",
+      "mechanism": "Saudi Arabia is adjusting its official selling price to remain competitive in the global market",
+      "ksa_grounding": "Saudi Arabia's oil exports and revenue may increase due to the more competitive pricing strategy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia Cuts Arab Light June OSP for Asia",
+        "Oil Prices Surge as US-Israel-Iran Tensions Disrupt Supply Routes"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "importers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential for decreased profit margins due to lower prices",
+      "first_order": "Direct impact on oil prices and trade",
+      "second_order": "Downstream effects on Saudi Arabia's economy and investment strategies",
+      "invalidation": "A significant increase in oil prices would invalidate this signal",
+      "_at": "2026-05-08T06:12:18.508022"
+    },
+    {
+      "statement": "Digital transformation in Saudi Arabia's oil and gas sector is accelerating",
+      "change_type": "technology",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Partnerships between Saudi companies and technology providers are driving innovation and digitalization",
+      "ksa_grounding": "Saudi Arabia's oil and gas sector may become more efficient and competitive due to digital transformation",
+      "affected_sectors": [
+        "oil_gas",
+        "fintech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "IBM and Aramco Explore Collaboration to Accelerate AI and Innovation",
+        "Saudi Arabia Cuts Arab Light June OSP for Asia"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil and gas companies",
+        "technology providers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased efficiency and competitiveness in Saudi Arabia's oil and gas sector",
+      "downside": "Potential for job displacement and cybersecurity risks",
+      "first_order": "Direct impact on oil and gas operations",
+      "second_order": "Downstream effects on Saudi Arabia's economy and investment strategies",
+      "invalidation": "A lack of significant investment in digital transformation would invalidate this signal",
+      "_at": "2026-05-08T06:12:18.508024"
+    },
+    {
       "statement": "Regulatory barriers to international cooperation in the oil and gas sector have decreased",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2079,5 +2167,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-07T08:07:26.747292"
+  "lastRefresh": "2026-05-08T06:12:56.113013"
 }
