@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "title": "US and Iran engage in military exchange in Strait of Hormuz",
+      "source": "Multiple sources including US Central Command, NPR, and Mediaite",
+      "source_tier": 2,
+      "time": "2026-05-07",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global security",
+        "oil trade"
+      ],
+      "summary": "The US military intercepted Iranian attacks on US Navy ships in the Strait of Hormuz, responding with self-defense strikes. The exchange occurred as US Navy destroyers transited the Strait of Hormuz. The incident raises concerns about the escalation of tensions between the US and Iran.",
+      "why_it_matters": "The incident has significant implications for global security and the oil trade, particularly for Saudi Arabia, which relies heavily on the Strait of Hormuz for its oil exports. The escalation of tensions between the US and Iran could lead to further disruptions in the region, affecting Saudi Arabia's economy and security.",
+      "verification_status": "confirmed",
+      "source_count": 5,
+      "_at": "2026-05-08T23:54:29.669878"
+    },
+    {
+      "title": "IBM and Aramco explore collaboration on AI and innovation",
+      "source": "PRNewswire",
+      "source_tier": 2,
+      "time": "2026-05-05",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "technology"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "oil and gas",
+        "technology"
+      ],
+      "summary": "Aramco and IBM announced their intended collaboration on opportunities to advance artificial intelligence, agentic AI, and autonomous systems in Saudi Arabia. The partnership aims to drive innovation and digital transformation in the oil and gas sector.",
+      "why_it_matters": "The partnership could have significant implications for Saudi Arabia's oil and gas sector, as well as its broader economy. The adoption of AI and autonomous systems could improve efficiency and productivity, supporting the country's economic diversification goals under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-08T23:54:29.669889"
+    },
+    {
+      "title": "Saudi Venture Firms Press Ahead With Fundraising Despite War",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-05-06",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "venture_capital"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "venture capital",
+        "fintech"
+      ],
+      "summary": "Saudi Arabian venture capital firms are pressing ahead with fundraising and deployment despite disruptions from the regional conflict. The move is seen as a sign of confidence in the country's startup ecosystem.",
+      "why_it_matters": "The continued fundraising and investment activities of Saudi venture capital firms could have significant implications for the country's startup ecosystem and economic diversification goals under Vision 2030. It may also attract more foreign investment and talent to the country.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-08T23:54:29.669891"
+    },
+    {
+      "title": "UAE Running Ghost Tankers Through Hormuz to Escape Iran\u2019s Blockade",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-05-07",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global security",
+        "oil trade"
+      ],
+      "summary": "The UAE is running loaded crude oil tankers through the Strait of Hormuz, disguising them as empty vessels to avoid Iranian blockade. The move is seen as an attempt to maintain oil exports and bypass Iranian restrictions.",
+      "why_it_matters": "The use of ghost tankers by the UAE could have significant implications for the global oil market and the regional security situation. It may also affect Saudi Arabia's oil exports and revenue, as well as its relationships with other countries in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-08T23:54:29.669896"
+    },
+    {
       "title": "Saudi Arabia Cuts Arab Light June OSP for Asia",
       "source": "CNA",
       "source_tier": 2,
@@ -2776,14 +2868,14 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-05-08T06:12:56.110435",
+  "lastRefresh": "2026-05-08T23:55:14.280093",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 26,
+    "articles_to_model": 32,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,

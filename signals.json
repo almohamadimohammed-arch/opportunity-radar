@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to innovation in the oil and gas sector are decreasing",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Collaboration between Aramco and IBM on AI and innovation is driving digital transformation",
+      "ksa_grounding": "This partnership will increase the competitiveness of Saudi Arabia's oil and gas sector",
+      "affected_sectors": [
+        "oil_gas",
+        "technology"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "IBM and Aramco explore collaboration on AI and innovation",
+        "US and Iran engage in military exchange in Strait of Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "IBM"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased innovation and competitiveness in the oil and gas sector",
+      "downside": "Dependence on foreign technology and expertise",
+      "first_order": "Direct investment in AI and innovation",
+      "second_order": "Increased efficiency and productivity in the oil and gas sector",
+      "invalidation": "Cancellation of the Aramco-IBM partnership or failure to deliver expected results",
+      "_at": "2026-05-08T23:55:06.776364"
+    },
+    {
+      "statement": "Supply chains in the oil and gas sector are becoming more resilient",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Diversification of supply routes and tactics, such as the UAE's use of ghost tankers",
+      "ksa_grounding": "This will reduce the impact of regional conflicts on Saudi Arabia's oil exports",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "UAE Running Ghost Tankers Through Hormuz to Escape Iran\u2019s Blockade",
+        "US and Iran engage in military exchange in Strait of Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "UAE",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "now",
+      "upside": "Reduced risk of supply disruptions",
+      "downside": "Increased costs and complexity of supply chain management",
+      "first_order": "Increased use of alternative supply routes",
+      "second_order": "Reduced dependence on traditional supply routes",
+      "invalidation": "Failure of ghost tankers to evade Iranian blockade or significant increase in costs",
+      "_at": "2026-05-08T23:55:06.776373"
+    },
+    {
+      "statement": "Confidence in the Saudi startup ecosystem is increasing",
+      "change_type": "trust",
+      "change_vector": "trust_rising",
+      "mechanism": "Saudi venture capital firms continuing to fundraise and deploy capital despite regional conflict",
+      "ksa_grounding": "This will attract more investment and talent to the Saudi startup ecosystem",
+      "affected_sectors": [
+        "fintech",
+        "venture_capital"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Venture Firms Press Ahead With Fundraising Despite War",
+        "US and Iran engage in military exchange in Strait of Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi venture capital firms"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment and growth in the Saudi startup ecosystem",
+      "downside": "Overconfidence and potential for overheating in the market",
+      "first_order": "Increased fundraising and deployment of capital",
+      "second_order": "Growth of new startups and industries",
+      "invalidation": "Significant decline in venture capital investment or startup activity",
+      "_at": "2026-05-08T23:55:06.776377"
+    },
+    {
       "statement": "Global oil market volatility has increased",
       "change_type": "market",
       "change_vector": "risk_exposure_rising",
@@ -2167,5 +2253,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-08T06:12:56.113013"
+  "lastRefresh": "2026-05-08T23:55:14.282865"
 }

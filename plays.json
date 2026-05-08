@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "title": "Resilient Oil and Gas Supply Chains",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Oil and gas companies in Saudi Arabia",
+      "problem": "Vulnerability of supply chains to regional conflicts",
+      "action_path": "Diversify supply routes and tactics, such as using ghost tankers, to reduce the impact of regional conflicts on oil exports. Invest in logistics and transportation infrastructure to enhance supply chain resilience. Develop contingency plans to mitigate potential disruptions.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of supply chain disruptions and increased revenue through reliable oil exports",
+      "capabilities": "Logistics and transportation expertise, supply chain management, contingency planning",
+      "barriers": "High costs, complexity of logistics, and potential for conflict escalation",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Supply chains in the oil and gas sector are becoming more resilient"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "This will reduce the impact of regional conflicts on Saudi Arabia's oil exports",
+      "assumptions": "The use of ghost tankers will be effective in evading blockades, and the Saudi government will continue to support the development of logistics and transportation infrastructure",
+      "invalidation": "Failure of ghost tankers to evade Iranian blockade or significant increase in costs",
+      "_at": "2026-05-08T23:55:14.279970"
+    },
+    {
+      "title": "Saudi Startup Ecosystem Growth",
+      "play_type": "market_entry_play",
+      "actor": "Saudi venture capital firms",
+      "customer": "Startups in Saudi Arabia",
+      "problem": "Limited access to funding and talent for Saudi startups",
+      "action_path": "Continue to fundraise and deploy capital to support the growth of the Saudi startup ecosystem. Attract more investment and talent to the ecosystem through marketing and networking efforts. Develop programs to support startup development, such as incubators and accelerators.",
+      "entry_mode": "invest",
+      "monetization": "Returns on investment in successful startups, increased economic growth, and job creation",
+      "capabilities": "Venture capital expertise, networking and marketing skills, startup development expertise",
+      "barriers": "Limited access to funding, lack of talent, and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Confidence in the Saudi startup ecosystem is increasing"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "fintech",
+        "venture_capital"
+      ],
+      "relevant_regions": [
+        "riyadh"
+      ],
+      "ksa_grounding": "This will attract more investment and talent to the Saudi startup ecosystem",
+      "assumptions": "The Saudi venture capital firms will continue to fundraise and deploy capital, and the Saudi government will support the development of the startup ecosystem",
+      "invalidation": "Significant decline in venture capital investment or startup activity",
+      "_at": "2026-05-08T23:55:14.279980"
+    },
+    {
       "title": "Saudi Oil and Gas Digital Transformation",
       "play_type": "business_play",
       "actor": "Saudi oil and gas companies, technology providers",
@@ -2094,5 +2151,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-05-08T06:12:56.114888"
+  "lastRefresh": "2026-05-08T23:55:14.284795"
 }
