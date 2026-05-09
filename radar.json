@@ -1,6 +1,124 @@
 {
   "items": [
     {
+      "title": "Co-Diagnostics Joint Venture CoMira Finalizes Lease Agreement for Manufacturing Facility in Saudi Arabia's Sudair Industrial City",
+      "source": "PRNewswire",
+      "source_tier": 2,
+      "time": "2026-05-08",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare",
+        "biotech"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "pharmaceuticals",
+        "medical devices"
+      ],
+      "summary": "CoMira, a joint venture between Co-Diagnostics and a Saudi partner, has finalized a lease agreement for a manufacturing facility in Sudair Industrial City, Saudi Arabia. The facility will support the production of diagnostic products. This move is part of Saudi Arabia's Vision 2030 to develop its healthcare sector.",
+      "why_it_matters": "This development contributes to Saudi Arabia's goal of diversifying its economy and developing its healthcare sector, which is a key aspect of Vision 2030. It also highlights the growing interest of international companies in investing in Saudi Arabia's healthcare industry.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-09T23:43:05.335845"
+    },
+    {
+      "title": "Sarwa Reaches $1B in Client Assets, a First for a Homegrown UAE Fintech",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-05-08",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "financial services",
+        "investment"
+      ],
+      "summary": "Sarwa, a UAE-based fintech company, has reached $1 billion in client assets, marking a significant milestone for the company and the region's fintech industry. This achievement demonstrates the growing demand for digital financial services in the UAE and the wider Gulf region.",
+      "why_it_matters": "This development highlights the growth and potential of the fintech sector in the Gulf region, which is an area of interest for Saudi Arabia as it seeks to diversify its economy and develop its financial sector. It also underscores the importance of innovation and digitalization in the financial services industry.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-09T23:43:05.335857"
+    },
+    {
+      "title": "Russia, Saudi Arabia Support Normalization of Relations Between Iran, Arab States",
+      "source": "Sputnikglobe.com",
+      "source_tier": 2,
+      "time": "2026-05-08",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "geopolitics"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "international relations",
+        "energy"
+      ],
+      "summary": "Russia and Saudi Arabia have expressed support for normalizing relations between Iran and Arab states, according to a statement by the Russian Foreign Ministry. This development could have significant implications for regional stability and the global energy market.",
+      "why_it_matters": "This move could potentially ease tensions in the region and create a more stable environment for Saudi Arabia to pursue its economic and strategic goals, including those related to the energy sector. It also highlights the complex geopolitical dynamics at play in the region and the importance of international cooperation.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-09T23:43:05.335859"
+    },
+    {
+      "title": "Denarius Metals Announces Formation of First Two Companies, ProGrowth Nominee to Board and Proposed Initial Equity Investment Pursuant to Saudi Strategic Collaboration",
+      "source": "PRNewswire",
+      "source_tier": 2,
+      "time": "2026-05-07",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "mining industry",
+        "investment"
+      ],
+      "summary": "Denarius Metals has announced the formation of its first two companies and the nomination of a ProGrowth representative to its board, as part of its strategic collaboration with Saudi partners. The company also proposed an initial equity investment to support its growth plans.",
+      "why_it_matters": "This development highlights the growing interest of international mining companies in investing in Saudi Arabia's mining sector, which is a key aspect of the country's economic diversification strategy. It also underscores the importance of strategic partnerships and collaborations in driving growth and development in the sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-09T23:43:05.335863"
+    },
+    {
+      "title": "Altea Partners Appoints Nawaf AlOtaibi as Chief Executive Officer of Altea Partners Saudi Arabia",
+      "source": "PR Newswire UK",
+      "source_tier": 2,
+      "time": "2026-05-07",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "financial services",
+        "investment"
+      ],
+      "summary": "Altea Partners has appointed Nawaf AlOtaibi as the Chief Executive Officer of its Saudi Arabian operations, marking a significant move to strengthen its presence in the region. AlOtaibi will be responsible for driving the company's growth and expansion plans in Saudi Arabia.",
+      "why_it_matters": "This appointment highlights the growing importance of the Saudi market for international financial services companies and the need for local expertise and leadership to drive growth and success. It also underscores the potential for Saudi Arabia to become a hub for financial services and investment in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-09T23:43:05.335866"
+    },
+    {
       "title": "US and Iran engage in military exchange in Strait of Hormuz",
       "source": "Multiple sources including US Central Command, NPR, and Mediaite",
       "source_tier": 2,
@@ -2868,21 +2986,21 @@
       "_at": "2026-04-12T02:21:40.188639"
     }
   ],
-  "lastRefresh": "2026-05-08T23:55:14.280093",
+  "lastRefresh": "2026-05-09T23:43:18.535927",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
+    "articles_to_model": 38,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
+    "signals_generated": 2,
     "signals_strong": 0,
-    "signals_moderate": 3,
-    "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "signals_moderate": 2,
+    "signals_ksa_grounded": 2,
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
