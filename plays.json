@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Saudi Oil and Gas Regulatory Compliance",
+      "play_type": "compliance_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Saudi oil and gas companies",
+      "problem": "Increased regulatory scrutiny due to UAE's exit from OPEC and fragile Iran ceasefire",
+      "action_path": "Develop and implement robust compliance frameworks to mitigate regulatory risks. Engage with regulatory bodies to ensure understanding of new requirements. Invest in technology to streamline compliance processes.",
+      "entry_mode": "build",
+      "monetization": "Reduced regulatory fines and improved reputation",
+      "capabilities": "Regulatory expertise, compliance software, and risk management",
+      "barriers": "Limited regulatory expertise, high costs of compliance software",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Regulatory tensions in the oil and gas sector are rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil production and exports may be impacted by the UAE's decision, potentially affecting the Kingdom's economy",
+      "assumptions": "UAE's exit from OPEC will lead to increased regulatory scrutiny, Saudi oil and gas companies will prioritize compliance",
+      "invalidation": "A reconciliation between the UAE and Saudi Arabia, or a significant increase in global oil demand",
+      "_at": "2026-05-10T23:48:58.800561"
+    },
+    {
+      "title": "Risk Management for Saudi Oil and Gas",
+      "play_type": "defensive_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Saudi oil and gas companies",
+      "problem": "Increased regulatory scrutiny and potential supply chain disruptions",
+      "action_path": "Develop and implement risk management strategies to mitigate potential disruptions. Diversify supply chains and engage with regulatory bodies to ensure understanding of new requirements.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of supply chain disruptions and regulatory fines",
+      "capabilities": "Risk management expertise, supply chain management software, and regulatory expertise",
+      "barriers": "Limited risk management expertise, high costs of supply chain management software",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Regulatory tensions in the oil and gas sector are rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil production and exports may be impacted by the UAE's decision, potentially affecting the Kingdom's economy",
+      "assumptions": "UAE's exit from OPEC will lead to increased regulatory scrutiny and potential supply chain disruptions, Saudi oil and gas companies will prioritize risk management",
+      "invalidation": "A reconciliation between the UAE and Saudi Arabia, or a significant increase in global oil demand",
+      "_at": "2026-05-10T23:48:58.800571"
+    },
+    {
       "title": "Saudi Healthcare Investment Opportunity",
       "play_type": "market_entry_play",
       "actor": "Healthcare companies and investors",
@@ -2211,5 +2271,5 @@
       "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-05-09T23:43:18.540784"
+  "lastRefresh": "2026-05-10T23:48:58.805615"
 }

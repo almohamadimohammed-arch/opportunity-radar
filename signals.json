@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Regulatory tensions in the oil and gas sector are rising",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "UAE's exit from OPEC and fragile Iran ceasefire may lead to increased regulatory scrutiny",
+      "ksa_grounding": "Saudi Arabia's oil production and exports may be impacted by the UAE's decision, potentially affecting the Kingdom's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "UAE exits OPEC after nearly 59 years, escalating tensions with Saudi Arabia over oil production",
+        "Fragile Iran ceasefire appears to hold, Bahrain detains dozens over suspected Revolutionary Guard links"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "OPEC"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices",
+      "downside": "Potential for decreased oil exports and revenue",
+      "first_order": "Direct impact on Saudi Arabia's oil production and exports",
+      "second_order": "Downstream effects on the Kingdom's economy and trade relationships",
+      "invalidation": "A reconciliation between the UAE and Saudi Arabia, or a significant increase in global oil demand",
+      "_at": "2026-05-10T23:48:22.149967"
+    },
+    {
+      "statement": "Investment in Saudi Arabia's healthcare and biotech sectors is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Co-Diagnostics' joint venture CoMira finalizing a lease agreement for a manufacturing facility in Saudi Arabia",
+      "ksa_grounding": "The investment in the healthcare and biotech sectors aligns with Saudi Arabia's Vision 2030 goals, potentially driving economic growth and diversification",
+      "affected_sectors": [
+        "healthcare",
+        "biotech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Co-Diagnostics Joint Venture CoMira Finalizes Lease Agreement for Manufacturing Facility in Saudi Arabia's Sudair Industrial City"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Co-Diagnostics",
+        "Saudi Arabian government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased economic growth and job creation",
+      "downside": "Potential for increased competition in the healthcare and biotech sectors",
+      "first_order": "Direct impact on the healthcare and biotech sectors",
+      "second_order": "Downstream effects on the Kingdom's economy and trade relationships",
+      "invalidation": "Co-Diagnostics' joint venture CoMira failing to deliver on its investment plans or the Saudi Arabian government changing its economic priorities",
+      "_at": "2026-05-10T23:48:22.149977"
+    },
+    {
+      "statement": "Global demand for AI chips is rising, potentially benefiting Saudi Arabia's fintech sector",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Increasing adoption of generative AI driving growth in the global AI chip market",
+      "ksa_grounding": "The growth in the global AI chip market may have significant implications for Saudi Arabia's fintech sector, potentially driving innovation and investment",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Global AI Chip Market to Soar to $670.2 Billion by 2036 Amid Generative AI Boom"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Fintech companies",
+        "Technology startups"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased innovation and investment in the fintech sector",
+      "downside": "Potential for increased competition and job displacement",
+      "first_order": "Direct impact on the fintech sector",
+      "second_order": "Downstream effects on the Kingdom's economy and trade relationships",
+      "invalidation": "A significant decline in global demand for AI chips or a failure of the fintech sector to adapt to the growing demand",
+      "_at": "2026-05-10T23:48:22.149979"
+    },
+    {
       "statement": "Investment in Saudi Arabia's healthcare sector is increasing",
       "change_type": "investment",
       "change_vector": "feasibility_increasing",
@@ -2311,5 +2396,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-09T23:43:18.538748"
+  "lastRefresh": "2026-05-10T23:48:58.803544"
 }
