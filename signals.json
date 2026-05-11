@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Regulatory stability in the oil market is decreasing",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "Geopolitical moves and market disruptions are increasing uncertainty",
+      "ksa_grounding": "Saudi Arabia's oil production and exports may be impacted by the UAE's exit from OPEC and the potential disruption to oil markets",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "UAE exits OPEC after nearly 59 years",
+        "Aramco CEO warns of long oil market disruption"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "OPEC"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased oil prices",
+      "downside": "Potential for decreased oil exports and revenue",
+      "first_order": "Direct impact on Saudi Arabia's oil production and exports",
+      "second_order": "Downstream effects on the Saudi economy and investments",
+      "invalidation": "A swift resolution to the geopolitical tensions and a return to stable oil markets",
+      "_at": "2026-05-11T23:55:39.195276"
+    },
+    {
+      "statement": "Investment in Central Asia is becoming more risky",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical tensions and conflicts are increasing uncertainty",
+      "ksa_grounding": "Saudi Arabia's investments in Central Asia may be impacted by the Iran war and the disruption to the Gulf investment boom",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Iran war threatens Gulf investment boom in Central Asia",
+        "UAE exits OPEC after nearly 59 years"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi investors",
+        "Gulf investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment opportunities in other regions",
+      "downside": "Potential for decreased investment returns and increased risk",
+      "first_order": "Direct impact on Saudi investments in Central Asia",
+      "second_order": "Downstream effects on the Saudi economy and investments",
+      "invalidation": "A swift resolution to the geopolitical tensions and a return to stable investment environments",
+      "_at": "2026-05-11T23:55:39.195285"
+    },
+    {
+      "statement": "The global AI chip market is growing rapidly",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Increasing adoption of AI and machine learning technologies",
+      "ksa_grounding": "Saudi Arabia may benefit from the growing demand for AI chips, particularly in the fintech and technology sectors",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Global AI chip market to soar to $670.2 billion by 2036"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi tech companies",
+        "Global AI chip manufacturers"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased investment and growth in the Saudi tech sector",
+      "downside": "Potential for increased competition and decreased market share",
+      "first_order": "Direct impact on the Saudi tech sector",
+      "second_order": "Downstream effects on the Saudi economy and investments",
+      "invalidation": "A significant decline in the global demand for AI chips",
+      "_at": "2026-05-11T23:55:39.195287"
+    },
+    {
       "statement": "Regulatory tensions in the oil and gas sector are rising",
       "change_type": "regulation",
       "change_vector": "regulation_tightening",
@@ -2396,5 +2481,5 @@
       "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-10T23:48:58.803544"
+  "lastRefresh": "2026-05-11T23:56:17.239178"
 }
