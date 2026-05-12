@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Global energy supply disruption is increasing",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "The crisis in the Strait of Hormuz is causing a disruption to oil supplies, leading to increased prices and concerns about global energy security",
+      "ksa_grounding": "This disruption benefits Saudi Aramco's bottom line due to increased oil prices, but may also lead to increased costs for other sectors in Saudi Arabia",
+      "affected_sectors": [
+        "oil_gas",
+        "tourism",
+        "healthcare"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Oil Jumps as Hormuz Crisis Deepens",
+        "Aramco Sees Slow Oil Market Recovery after Shock Supply Loss"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased revenue for Saudi Aramco",
+      "downside": "Increased costs for other sectors in Saudi Arabia",
+      "first_order": "Direct impact on oil prices",
+      "second_order": "Potential impact on other sectors such as tourism and healthcare",
+      "invalidation": "A rapid resolution to the Hormuz crisis, leading to a decrease in oil prices",
+      "_at": "2026-05-12T23:58:01.618193"
+    },
+    {
+      "statement": "Investment in Saudi healthcare sector is increasing",
+      "change_type": "funding",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "The funding of healthtech companies such as Hakeem Health is increasing, indicating a growing interest in the Saudi healthcare sector",
+      "ksa_grounding": "This investment can lead to improved healthcare services and increased access to healthcare for the Saudi population",
+      "affected_sectors": [
+        "healthcare"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Hakeem Health raises $1.65 million backed by Merak Capital"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Hakeem Health",
+        "Merak Capital"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved healthcare services and increased access to healthcare",
+      "downside": "Potential risks associated with investing in a new and developing sector",
+      "first_order": "Direct impact on Hakeem Health's services",
+      "second_order": "Potential impact on the broader Saudi healthcare sector",
+      "invalidation": "A decline in investment in the Saudi healthcare sector, indicating a lack of interest in the sector",
+      "_at": "2026-05-12T23:58:01.618202"
+    },
+    {
+      "statement": "Saudi tourism sector is experiencing growth",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "The Saudi Tourism Authority has welcomed the WTTC findings that position Saudi as the largest and fastest-growing travel and tourism market in the region",
+      "ksa_grounding": "This growth can lead to increased revenue and job creation in the Saudi tourism sector",
+      "affected_sectors": [
+        "tourism"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Accelerates Tourism Growth as WTTC Confirms Global Standing and Domestic Travel Surges"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Tourism Authority",
+        "tourists"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased revenue and job creation in the Saudi tourism sector",
+      "downside": "Potential risks associated with over-tourism, such as strain on infrastructure and resources",
+      "first_order": "Direct impact on tourism revenue",
+      "second_order": "Potential impact on other sectors such as hospitality and entertainment",
+      "invalidation": "A decline in tourism numbers, indicating a lack of interest in Saudi tourism",
+      "_at": "2026-05-12T23:58:01.618204"
+    },
+    {
       "statement": "Regulatory stability in the oil market is decreasing",
       "change_type": "regulation",
       "change_vector": "regulation_tightening",
@@ -2414,72 +2500,7 @@
       "second_order": "Economic benefits for both countries and potential for increased regional cooperation",
       "invalidation": "A failure to reach a trade agreement or a significant deterioration in India-Saudi Arabia relations",
       "_at": "2026-04-13T06:33:45.298406"
-    },
-    {
-      "statement": "Regional security risk has increased",
-      "change_type": "risk",
-      "mechanism": "Deployment of military forces and refinery shutdowns can escalate tensions and instability",
-      "evidence": [
-        "Pakistan sends military force to Saudi Arabia as part of pact",
-        "Saudi Arabia's SATORP Refinery Shut Down After Attack"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabia",
-        "Pakistan",
-        "regional trade partners"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased cooperation and stability if the mutual defense agreement is effective",
-      "downside": "Potential for further conflict and destabilization",
-      "first_order": "Increased military presence and refinery shutdown",
-      "second_order": "Disruption to regional trade and potential for further attacks",
-      "invalidation": "A significant reduction in regional tensions and successful resolution of conflicts without further escalation",
-      "_at": "2026-04-12T16:04:03.632745"
-    },
-    {
-      "statement": "Supply chain resilience has decreased",
-      "change_type": "supply",
-      "mechanism": "Refinery shutdowns and potential for further disruptions can impact oil production and exports",
-      "evidence": [
-        "Saudi Arabia's SATORP Refinery Shut Down After Attack",
-        "Goyal holds talks with Saudi trade minister on strengthening supply chains"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabia",
-        "regional trade partners",
-        "oil importers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased cooperation and investment in supply chain infrastructure",
-      "downside": "Potential for further disruptions and price increases",
-      "first_order": "Refinery shutdown and potential for further disruptions",
-      "second_order": "Impact on regional trade and potential for price increases",
-      "invalidation": "A significant increase in supply chain resilience and successful mitigation of disruptions",
-      "_at": "2026-04-12T16:04:03.632752"
-    },
-    {
-      "statement": "Defense cooperation between Pakistan and Saudi Arabia has increased",
-      "change_type": "feasibility",
-      "mechanism": "Deployment of Pakistani military forces to Saudi Arabia under a mutual defense agreement",
-      "evidence": [
-        "Pakistan sends military force to Saudi Arabia as part of pact",
-        "Pakistani Military Force Arrives in Saudi Arabia Under Strategic Mutual Defense Agreement"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Pakistan",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased regional stability and cooperation",
-      "downside": "Potential for further conflict and destabilization",
-      "first_order": "Deployment of Pakistani military forces",
-      "second_order": "Increased cooperation and potential for further agreements",
-      "invalidation": "A significant reduction in defense cooperation between Pakistan and Saudi Arabia",
-      "_at": "2026-04-12T16:04:03.632754"
     }
   ],
-  "lastRefresh": "2026-05-11T23:56:17.239178"
+  "lastRefresh": "2026-05-12T23:58:39.502434"
 }

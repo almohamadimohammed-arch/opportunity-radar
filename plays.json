@@ -1,6 +1,102 @@
 {
   "items": [
     {
+      "title": "Diversify Energy Sources for Saudi Tourism and Healthcare",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Government and Private Sector",
+      "customer": "Tourism and Healthcare Industries",
+      "problem": "Global energy supply disruption is increasing, affecting Saudi tourism and healthcare sectors",
+      "action_path": "Invest in renewable energy sources, such as solar and wind power, to reduce dependence on oil and gas. Develop energy-efficient infrastructure for tourism and healthcare facilities. Encourage private sector investment in renewable energy projects.",
+      "entry_mode": "invest",
+      "monetization": "Reduced energy costs, increased energy security, and improved environmental sustainability",
+      "capabilities": "Renewable energy technologies, energy-efficient infrastructure, project financing",
+      "barriers": "High upfront costs, regulatory hurdles, lack of expertise",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global energy supply disruption is increasing"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "tourism",
+        "healthcare",
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by reducing the country's dependence on oil and gas, while supporting the growth of tourism and healthcare sectors",
+      "assumptions": "The global energy supply disruption will continue, and the Saudi government will provide incentives for renewable energy investments",
+      "invalidation": "A rapid resolution to the Hormuz crisis, leading to a decrease in oil prices, making renewable energy less competitive",
+      "_at": "2026-05-12T23:58:39.499428"
+    },
+    {
+      "title": "Develop Energy-Efficient Solutions for Saudi Industries",
+      "play_type": "business_play",
+      "actor": "Saudi Private Sector",
+      "customer": "Saudi Industries, including oil and gas, tourism, and healthcare",
+      "problem": "Global energy supply disruption is increasing, affecting Saudi industries",
+      "action_path": "Develop and implement energy-efficient solutions, such as energy management systems and energy-efficient equipment, to reduce energy consumption and costs. Provide consulting services to help industries optimize their energy usage.",
+      "entry_mode": "build",
+      "monetization": "Reduced energy costs, increased energy security, and improved environmental sustainability",
+      "capabilities": "Energy-efficient technologies, energy management systems, consulting services",
+      "barriers": "High upfront costs, lack of expertise, regulatory hurdles",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global energy supply disruption is increasing"
+      ],
+      "sector": "energy_efficiency",
+      "relevant_sectors": [
+        "oil_gas",
+        "tourism",
+        "healthcare"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by supporting the growth of Saudi industries, while reducing their energy consumption and costs",
+      "assumptions": "The global energy supply disruption will continue, and Saudi industries will be willing to invest in energy-efficient solutions",
+      "invalidation": "A rapid resolution to the Hormuz crisis, leading to a decrease in oil prices, making energy-efficient solutions less competitive",
+      "_at": "2026-05-12T23:58:39.499438"
+    },
+    {
+      "title": "Monitor Global Energy Supply Disruption",
+      "play_type": "watchlist_play",
+      "actor": "Saudi Government and Private Sector",
+      "customer": "Saudi Industries, including oil and gas, tourism, and healthcare",
+      "problem": "Global energy supply disruption is increasing, affecting Saudi industries",
+      "action_path": "Monitor the global energy supply disruption and its impact on Saudi industries. Analyze the effects of the disruption on energy prices, supply chains, and industry operations.",
+      "entry_mode": "wait",
+      "monetization": "Improved situational awareness, reduced risk, and informed decision-making",
+      "capabilities": "Market analysis, risk assessment, industry expertise",
+      "barriers": "Lack of expertise, limited access to information, regulatory hurdles",
+      "timing": "monitor only",
+      "action_posture": "Monitor",
+      "linked_signals": [
+        "Global energy supply disruption is increasing"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "tourism",
+        "healthcare"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by providing Saudi industries with timely and accurate information on the global energy supply disruption",
+      "assumptions": "The global energy supply disruption will continue, and Saudi industries will need to adapt to the changing energy landscape",
+      "invalidation": "A rapid resolution to the Hormuz crisis, leading to a decrease in oil prices, making the monitoring effort less necessary",
+      "_at": "2026-05-12T23:58:39.499440"
+    },
+    {
       "title": "Diversification of Oil and Gas Investments",
       "play_type": "business_play",
       "actor": "Saudi Arabian oil and gas companies",
@@ -2301,67 +2397,7 @@
       "assumptions": "Trade discussions between India and Saudi Arabia will lead to increased cooperation, and trade consulting and logistics companies can develop effective solutions",
       "invalidation": "A failure to reach a trade agreement or a significant deterioration in India-Saudi Arabia relations",
       "_at": "2026-04-13T06:33:52.167359"
-    },
-    {
-      "title": "Regional Security Risk Mitigation",
-      "actor": "Cybersecurity firms",
-      "customer": "Saudi enterprises",
-      "problem": "Increased regional security risk",
-      "action_path": "Develop and offer cybersecurity solutions to Saudi enterprises to mitigate the increased regional security risk. This can include threat detection, incident response, and security consulting services. By doing so, cybersecurity firms can help Saudi enterprises protect themselves from potential cyber threats.",
-      "entry_mode": "Build",
-      "monetization": "Revenue from cybersecurity services",
-      "capabilities": "Cloud-native cybersecurity capabilities",
-      "barriers": "Competition from established players",
-      "timing": "Enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regional security risk has increased"
-      ],
-      "sector": "Cybersecurity",
-      "assumptions": "Saudi enterprises will prioritize cybersecurity in response to increased regional security risk",
-      "invalidation": "A significant reduction in regional tensions and successful resolution of conflicts without further escalation",
-      "_at": "2026-04-12T16:04:40.518787"
-    },
-    {
-      "title": "Supply Chain Resilience Enhancement",
-      "actor": "Logistics and supply chain management companies",
-      "customer": "Oil production and export companies",
-      "problem": "Decreased supply chain resilience",
-      "action_path": "Offer logistics and supply chain management services to oil production and export companies to enhance their supply chain resilience. This can include risk assessment, contingency planning, and supply chain optimization. By doing so, logistics and supply chain management companies can help oil production and export companies mitigate the impact of refinery shutdowns and potential disruptions.",
-      "entry_mode": "Partner",
-      "monetization": "Revenue from logistics and supply chain management services",
-      "capabilities": "Supply chain risk management and optimization capabilities",
-      "barriers": "Competition from established players",
-      "timing": "Prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Supply chain resilience has decreased"
-      ],
-      "sector": "Logistics and supply chain management",
-      "assumptions": "Oil production and export companies will prioritize supply chain resilience in response to decreased supply chain resilience",
-      "invalidation": "A significant increase in supply chain resilience and successful mitigation of disruptions",
-      "_at": "2026-04-12T16:04:40.518798"
-    },
-    {
-      "title": "Defense Cooperation Opportunity",
-      "actor": "Defense companies",
-      "customer": "Pakistani and Saudi Arabian militaries",
-      "problem": "Increased defense cooperation between Pakistan and Saudi Arabia",
-      "action_path": "Develop and offer defense solutions to the Pakistani and Saudi Arabian militaries to support their increased defense cooperation. This can include joint training exercises, equipment sales, and defense consulting services. By doing so, defense companies can help the Pakistani and Saudi Arabian militaries enhance their defense capabilities.",
-      "entry_mode": "Invest",
-      "monetization": "Revenue from defense sales and services",
-      "capabilities": "Defense equipment and services capabilities",
-      "barriers": "Competition from established players",
-      "timing": "Invest now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Defense cooperation between Pakistan and Saudi Arabia has increased"
-      ],
-      "sector": "Defense",
-      "assumptions": "Pakistani and Saudi Arabian militaries will prioritize defense cooperation and seek external support",
-      "invalidation": "A significant reduction in defense cooperation between Pakistan and Saudi Arabia",
-      "_at": "2026-04-12T16:04:40.518800"
     }
   ],
-  "lastRefresh": "2026-05-11T23:56:17.241182"
+  "lastRefresh": "2026-05-12T23:58:39.504489"
 }
