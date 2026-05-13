@@ -1,6 +1,123 @@
 {
   "items": [
     {
+      "statement": "Geopolitical tensions between Saudi Arabia and Iran are increasing",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Escalating covert attacks and diplomatic tensions increase the likelihood of conflict",
+      "ksa_grounding": "Increased risk of conflict could disrupt oil supplies and impact Saudi Arabia's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia launched numerous covert attacks on Iran",
+        "Iran says US must accept peace plan or face 'failure'"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Iran",
+        "US"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to oil supplies and increased conflict",
+      "first_order": "Increased risk of conflict",
+      "second_order": "Potential economic disruption and loss of investment",
+      "invalidation": "A verified peace agreement between Saudi Arabia and Iran",
+      "_at": "2026-05-13T23:54:02.462275"
+    },
+    {
+      "statement": "Oil prices are rising due to geopolitical uncertainty",
+      "change_type": "cost",
+      "change_vector": "cost_rising",
+      "mechanism": "Increased risk of conflict and supply disruptions drive up oil prices",
+      "ksa_grounding": "Higher oil prices could increase revenue for Saudi Arabia's oil sector, but also lead to higher costs for other industries",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Oil prices rise due to doubts over US-Iran ceasefire",
+        "Saudi Arabia launched numerous covert attacks on Iran"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Oil consumers",
+        "Oil producers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increased revenue for Saudi Arabia's oil sector",
+      "downside": "Higher costs for other industries and potential economic disruption",
+      "first_order": "Increased oil prices",
+      "second_order": "Potential economic disruption and loss of investment",
+      "invalidation": "A significant decrease in oil prices due to increased global supply or reduced demand",
+      "_at": "2026-05-13T23:54:02.462285"
+    },
+    {
+      "statement": "Bilateral economic growth between the US and Saudi Arabia is being promoted",
+      "change_type": "institutional_priority",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "The U.S.-Saudi Business Council's new Board of Directors aims to accelerate bilateral economic growth",
+      "ksa_grounding": "Increased economic cooperation between the US and Saudi Arabia could lead to new investment and trade opportunities",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "U.S.-Saudi Business Council announces new Board of Directors"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "US businesses",
+        "Saudi businesses"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential new investment and trade opportunities",
+      "downside": "None",
+      "first_order": "Increased economic cooperation",
+      "second_order": "Potential new investment and trade opportunities",
+      "invalidation": "A significant decrease in bilateral trade or investment between the US and Saudi Arabia",
+      "_at": "2026-05-13T23:54:02.462287"
+    },
+    {
+      "statement": "Saudi Arabia's tourism sector is growing rapidly",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Saudi Arabia is accelerating its tourism growth, with the Saudi Tourism Authority welcoming the WTTC findings",
+      "ksa_grounding": "Increased tourism could lead to new revenue streams and job opportunities for Saudi Arabia's economy",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "jeddah",
+        "makkah",
+        "madinah"
+      ],
+      "evidence": [
+        "Saudi Arabia accelerates tourism growth"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Tourists",
+        "Saudi tourism businesses"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential new revenue streams and job opportunities",
+      "downside": "None",
+      "first_order": "Increased tourism demand",
+      "second_order": "Potential new investment and development in the tourism sector",
+      "invalidation": "A significant decrease in tourism demand or revenue",
+      "_at": "2026-05-13T23:54:02.462288"
+    },
+    {
       "statement": "Global energy supply disruption is increasing",
       "change_type": "supply",
       "change_vector": "supply_tighter",
@@ -2343,164 +2460,7 @@
       "second_order": "Potential impact on Saudi Arabia's economy, trade relationships",
       "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy",
       "_at": "2026-04-14T06:14:12.229486"
-    },
-    {
-      "statement": "Global oil supply has loosened",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Restoration of the East-West pipeline's capacity increases oil exports, stabilizing the global oil market",
-      "ksa_grounding": "Increased oil exports will positively impact Saudi Arabia's economy, particularly the oil and gas sector",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia's East-West pipeline back to full capacity after attacks",
-        "Global oil market experiences unprecedented price surge"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "global oil market traders"
-      ],
-      "time_horizon": "now",
-      "upside": "Stabilization of the global oil market, increased oil exports for Saudi Arabia",
-      "downside": "Potential for decreased oil prices, impacting Saudi Arabia's oil revenue",
-      "first_order": "Increased oil exports",
-      "second_order": "Stabilization of the global oil market, potential decrease in oil prices",
-      "invalidation": "A significant disruption to the East-West pipeline or a major decrease in global oil demand",
-      "_at": "2026-04-13T22:05:53.681100"
-    },
-    {
-      "statement": "Trade relations between India and Saudi Arabia are strengthening",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Discussion of trade agreements and energy supply cooperation between India and Saudi Arabia",
-      "ksa_grounding": "Strengthened trade relations with India will increase Saudi Arabia's energy exports and diversify its economy",
-      "affected_sectors": [
-        "trade",
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "India and Saudi Arabia discuss strengthening trade relations",
-        "Saudi Arabia's East-West pipeline back to full capacity after attacks"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Indian and Saudi Arabian trade officials",
-        "energy exporters"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased energy exports, diversified economy for Saudi Arabia",
-      "downside": "Potential for trade agreements to not materialize or have limited impact",
-      "first_order": "Increased energy exports to India",
-      "second_order": "Diversification of Saudi Arabia's economy, potential for increased trade with other countries",
-      "invalidation": "Failure to reach a trade agreement or significant decrease in Indian demand for Saudi Arabian energy",
-      "_at": "2026-04-13T22:05:53.681112"
-    },
-    {
-      "statement": "Global oil supply has increased",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "The East-West pipeline is back to full capacity, increasing the global oil supply",
-      "ksa_grounding": "This increase in oil supply will positively impact Saudi Arabia's economy by potentially increasing oil exports and revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia's East-West pipeline back to full capacity after attacks",
-        "Global oil market experiences physical market frenzy"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil traders",
-        "Saudi Aramco"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased oil exports and revenue for Saudi Arabia",
-      "downside": "Potential decrease in oil prices due to increased supply",
-      "first_order": "Increased oil supply",
-      "second_order": "Potential decrease in oil prices, increased competition in the oil market",
-      "invalidation": "A significant decrease in global oil demand or a major disruption to oil production in Saudi Arabia",
-      "_at": "2026-04-13T21:37:23.050778"
-    },
-    {
-      "statement": "Saudi Arabia's trade relationships are strengthening",
-      "change_type": "institutional priority",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "India and Saudi Arabia are discussing ways to strengthen their trade relations and enhance energy supply cooperation",
-      "ksa_grounding": "This strengthening of trade relationships will positively impact Saudi Arabia's economy by potentially increasing trade and investment with India",
-      "affected_sectors": [
-        "oil_gas",
-        "trade"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "India and Saudi Arabia discuss strengthening trade relations and enhancing energy supply",
-        "Saudi Arabia's East-West pipeline back to full capacity after attacks"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Indian government",
-        "Saudi government"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased trade and investment between India and Saudi Arabia",
-      "downside": "Potential trade tensions or disagreements between the two countries",
-      "first_order": "Increased trade and investment",
-      "second_order": "Potential economic growth and job creation in Saudi Arabia",
-      "invalidation": "A significant deterioration in India-Saudi Arabia relations or a major global economic downturn",
-      "_at": "2026-04-13T21:37:23.050789"
-    },
-    {
-      "statement": "Energy supply chain resilience has decreased",
-      "change_type": "supply",
-      "mechanism": "Attacks on oil infrastructure and refinery shutdowns are reducing the availability of energy supplies",
-      "evidence": [
-        "Saudi Pipeline Attack Removes 700,000 Barrels Daily from Oil Exports",
-        "Saudi Arabia's SATORP Refinery Shut Down After Attack"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabia",
-        "India",
-        "Global energy markets"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential for price increases and supply shortages",
-      "first_order": "Reduced oil exports and refinery capacity",
-      "second_order": "Economic impacts on energy-importing countries and industries",
-      "invalidation": "A significant increase in global oil production or alternative energy sources to compensate for the losses",
-      "_at": "2026-04-13T06:33:45.298397"
-    },
-    {
-      "statement": "Trade cooperation between India and Saudi Arabia may increase",
-      "change_type": "feasibility",
-      "mechanism": "Discussions between India and Saudi Arabia on strengthening trade relations and enhancing energy supply cooperation may lead to increased cooperation",
-      "evidence": [
-        "India and Saudi Arabia discuss strengthening trade relations and enhancing energy supply",
-        "Pakistan sends military force to Saudi Arabia as part of pact"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "India",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased trade and economic cooperation",
-      "downside": "None",
-      "first_order": "Increased trade agreements and energy supply cooperation",
-      "second_order": "Economic benefits for both countries and potential for increased regional cooperation",
-      "invalidation": "A failure to reach a trade agreement or a significant deterioration in India-Saudi Arabia relations",
-      "_at": "2026-04-13T06:33:45.298406"
     }
   ],
-  "lastRefresh": "2026-05-12T23:58:39.502434"
+  "lastRefresh": "2026-05-13T23:54:10.119027"
 }
