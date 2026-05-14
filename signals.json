@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The U.S.-Saudi Business Council's new Board of Directors aims to accelerate bilateral economic growth and strengthen trade ties",
+      "ksa_grounding": "This change can lead to increased foreign investment and trade between the US and Saudi Arabia, boosting the Saudi economy",
+      "affected_sectors": [
+        "fintech",
+        "banking",
+        "tourism"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "U.S.-Saudi Business Council Unveils Powerhouse Board of Directors to Accelerate Bilateral Economic Growth",
+        "Saudi Accelerates Tourism Growth as WTTC Confirms Global Standing and Domestic Travel Surges"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "US and Saudi businesses",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased economic cooperation and investment between the US and Saudi Arabia",
+      "downside": "Potential cultural and regulatory differences hindering cooperation",
+      "first_order": "Direct increase in bilateral trade and investment",
+      "second_order": "Potential growth in related sectors such as tourism and finance",
+      "invalidation": "Failure of the U.S.-Saudi Business Council to achieve its goals or a significant deterioration in US-Saudi relations",
+      "_at": "2026-05-14T23:54:54.585134"
+    },
+    {
+      "statement": "Supply chain risks in the oil and gas sector have increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The closure of the Strait of Hormuz has disrupted global oil supply, increasing reliance on alternative routes and suppliers",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy is vulnerable to supply chain disruptions and changes in global oil demand",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "OPEC sees slower demand growth this year as production falls more than 30% on Hormuz closure"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil and gas companies",
+        "Saudi Aramco"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for Saudi Arabia to increase its market share in the oil and gas sector",
+      "downside": "Increased costs and decreased revenue due to supply chain disruptions",
+      "first_order": "Direct impact on oil production and supply",
+      "second_order": "Potential long-term effects on the Saudi economy and oil and gas sector",
+      "invalidation": "Reopening of the Strait of Hormuz or significant increase in oil production from other sources",
+      "_at": "2026-05-14T23:54:54.585145"
+    },
+    {
+      "statement": "Investment opportunities in the Saudi real estate sector have increased",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "Saudi Aramco's potential sale and leaseback deal for its real estate assets could attract investors and increase liquidity in the market",
+      "ksa_grounding": "This change can lead to increased investment in the Saudi real estate sector, contributing to the country's economic diversification efforts",
+      "affected_sectors": [
+        "oil_gas",
+        "real estate"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Aramco Looks to Raise $10 Billion from Real Estate Asset Deal"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "real estate developers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment and development in the Saudi real estate sector",
+      "downside": "Potential risks associated with large-scale real estate investments",
+      "first_order": "Direct increase in investment opportunities in the Saudi real estate sector",
+      "second_order": "Potential growth in related sectors such as construction and finance",
+      "invalidation": "Failure of Saudi Aramco to secure the sale and leaseback deal or a significant decline in investor interest",
+      "_at": "2026-05-14T23:54:54.585147"
+    },
+    {
       "statement": "Geopolitical tensions between Saudi Arabia and Iran are increasing",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2405,62 +2491,7 @@
       "second_order": "potential impact on Saudi Arabia's economic diversification",
       "invalidation": "if the licensing agreement is not successful in promoting fintech adoption",
       "_at": "2026-04-15T06:14:32.718280"
-    },
-    {
-      "statement": "Risk exposure in the global oil market has increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "US blockade of Iranian ports, potential disruptions to global oil supplies",
-      "ksa_grounding": "Increased risk in the global oil market can impact Saudi Arabia's oil exports and economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "US moves to blockade Iranian ports, affecting global oil prices",
-        "Iran war's global energy crisis sharpens China's advantage in clean tech"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil importers",
-        "exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil prices, revenue for Saudi Arabia",
-      "downside": "Potential for decreased oil exports, economic instability",
-      "first_order": "Direct impact on global oil supplies, prices",
-      "second_order": "Potential shift to renewable energy sources, decreased demand for oil",
-      "invalidation": "A resolution to the US-Iran conflict, stabilization of the global oil market",
-      "_at": "2026-04-14T06:14:12.229477"
-    },
-    {
-      "statement": "Feasibility of renewable energy has increased",
-      "change_type": "feasibility",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Global shift from fossil fuels to renewable energy, driven by the Iran war and disruptions in the Strait of Hormuz",
-      "ksa_grounding": "Increased feasibility of renewable energy can lead to a decrease in Saudi Arabia's oil exports, but also opportunities for investment in renewable energy",
-      "affected_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Iran war's global energy crisis sharpens China's advantage in clean tech",
-        "India and Saudi Arabia discuss strengthening trade relations and energy supply"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "renewable energy investors",
-        "oil exporters"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for decreased carbon emissions, increased investment in renewable energy",
-      "downside": "Potential for decreased oil exports, economic instability",
-      "first_order": "Direct impact on the global energy market, shift to renewable energy",
-      "second_order": "Potential impact on Saudi Arabia's economy, trade relationships",
-      "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy",
-      "_at": "2026-04-14T06:14:12.229486"
     }
   ],
-  "lastRefresh": "2026-05-13T23:54:10.119027"
+  "lastRefresh": "2026-05-14T23:55:31.941203"
 }

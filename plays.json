@@ -1,6 +1,67 @@
 {
   "items": [
     {
+      "title": "US-Saudi Fintech Partnership",
+      "play_type": "market_entry_play",
+      "actor": "US-based fintech companies",
+      "customer": "Saudi banks and financial institutions",
+      "problem": "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced, creating opportunities for fintech partnerships",
+      "action_path": "US-based fintech companies can partner with Saudi banks to offer innovative financial services, leveraging the reduced regulatory barriers. They can invest in building relationships with key stakeholders and developing tailored solutions for the Saudi market. This can lead to increased revenue and market share for the fintech companies.",
+      "entry_mode": "partner",
+      "monetization": "Revenue sharing and transaction fees",
+      "capabilities": "Cloud-native capabilities, compliance with Saudi regulations, and cultural understanding",
+      "barriers": "Competition from established players, regulatory complexities, and cultural differences",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to the Saudi market structure by leveraging the government's efforts to diversify the economy and promote foreign investment",
+      "assumptions": "The US-Saudi Business Council's efforts will be successful in reducing regulatory barriers, and Saudi banks will be receptive to partnerships with US-based fintech companies",
+      "invalidation": "Failure of the US-Saudi Business Council to achieve its goals or a significant deterioration in US-Saudi relations",
+      "_at": "2026-05-14T23:55:31.938203"
+    },
+    {
+      "title": "Saudi Tourism Digital Transformation",
+      "play_type": "business_play",
+      "actor": "Saudi tourism companies",
+      "customer": "International tourists",
+      "problem": "Reduced regulatory barriers can increase tourism revenue, but Saudi tourism companies need to digitize their services to attract more visitors",
+      "action_path": "Saudi tourism companies can invest in digital transformation, developing online platforms and mobile apps to showcase their services and facilitate bookings. They can also partner with US-based tech companies to leverage their expertise and capabilities. This can lead to increased tourism revenue and competitiveness for the Saudi tourism industry.",
+      "entry_mode": "build",
+      "monetization": "Increased tourism revenue and bookings",
+      "capabilities": "Digital transformation capabilities, user experience design, and online marketing",
+      "barriers": "Competition from established players, regulatory complexities, and limited digital literacy",
+      "timing": "prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "relevant_regions": [
+        "jeddah",
+        "makkah",
+        "madinah"
+      ],
+      "ksa_grounding": "This play connects to the Saudi market structure by supporting the government's efforts to develop the tourism sector and increase foreign investment",
+      "assumptions": "The Saudi government will continue to support the development of the tourism sector, and international tourists will be interested in visiting Saudi Arabia",
+      "invalidation": "Failure of the Saudi government to deliver on its tourism development plans or a significant decline in international tourism demand",
+      "_at": "2026-05-14T23:55:31.938212"
+    },
+    {
       "title": "Saudi Oil and Gas Sector Diversification",
       "play_type": "business_play",
       "actor": "Saudi Aramco, Saudi government",
@@ -2186,98 +2247,7 @@
       "assumptions": "The US blockade of Iranian ports will continue, and global oil supply will remain tight",
       "invalidation": "If the US blockade is lifted or Iran finds alternative routes for oil exports",
       "_at": "2026-04-15T06:15:09.762318"
-    },
-    {
-      "title": "Diversification of Energy Portfolio",
-      "play_type": "business_play",
-      "actor": "Saudi Arabian energy companies",
-      "customer": "Saudi Arabian government and citizens",
-      "problem": "Increased risk exposure in the global oil market and loosened global oil supply",
-      "action_path": "Invest in renewable energy sources, such as solar and wind power, to reduce dependence on oil exports. Develop strategic partnerships with international renewable energy companies to acquire new technologies and expertise. Diversify energy portfolio to include renewable energy sources, enhancing energy security and reducing risk.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on oil exports, increased energy security, and potential revenue from renewable energy sources",
-      "capabilities": "Renewable energy technologies, strategic partnership development, and energy portfolio management",
-      "barriers": "High upfront costs, lack of expertise, and regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Global oil supply has loosened",
-        "Risk exposure in the global oil market has increased"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Diversification of energy portfolio aligns with Saudi Arabia's Vision 2030, aiming to reduce dependence on oil exports and develop a more diversified economy",
-      "assumptions": "Renewable energy technologies will continue to improve, and global demand for renewable energy will increase",
-      "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy, or failure to develop strategic partnerships",
-      "_at": "2026-04-14T06:14:20.304585"
-    },
-    {
-      "title": "Enhanced Oil Export Infrastructure",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi Arabian oil companies",
-      "customer": "Saudi Arabian government and oil companies",
-      "problem": "Increased risk exposure in the global oil market and loosened global oil supply",
-      "action_path": "Develop and enhance oil export infrastructure, including pipelines, ports, and storage facilities, to increase efficiency and reduce costs. Invest in digital technologies, such as IoT and AI, to optimize oil production and export operations. Enhance cybersecurity measures to protect against potential disruptions.",
-      "entry_mode": "build",
-      "monetization": "Increased oil exports, reduced costs, and improved efficiency",
-      "capabilities": "Oil export infrastructure development, digital technologies, and cybersecurity",
-      "barriers": "High upfront costs, regulatory hurdles, and cybersecurity threats",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Global oil supply has loosened",
-        "Risk exposure in the global oil market has increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "eastern_province",
-        "red_sea"
-      ],
-      "ksa_grounding": "Enhanced oil export infrastructure aligns with Saudi Arabia's goal to increase oil production and exports, supporting the country's economy",
-      "assumptions": "Global demand for oil will remain stable, and oil prices will remain relatively high",
-      "invalidation": "A significant decrease in global oil demand, or a failure to develop and enhance oil export infrastructure",
-      "_at": "2026-04-14T06:14:20.304595"
-    },
-    {
-      "title": "Renewable Energy Research and Development",
-      "play_type": "research_play",
-      "actor": "Saudi Arabian research institutions and universities",
-      "customer": "Saudi Arabian government and energy companies",
-      "problem": "Increased feasibility of renewable energy and need for diversified energy portfolio",
-      "action_path": "Conduct research and development in renewable energy technologies, such as solar and wind power, to improve efficiency and reduce costs. Collaborate with international research institutions and universities to acquire new knowledge and expertise. Develop strategic partnerships with energy companies to commercialize research findings.",
-      "entry_mode": "invest",
-      "monetization": "New knowledge and expertise in renewable energy technologies, potential revenue from commercialized research findings",
-      "capabilities": "Research and development, collaboration and partnership development, and technology commercialization",
-      "barriers": "Limited funding, lack of expertise, and regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Feasibility of renewable energy has increased"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Renewable energy research and development aligns with Saudi Arabia's Vision 2030, aiming to develop a more diversified economy and reduce dependence on oil exports",
-      "assumptions": "Renewable energy technologies will continue to improve, and global demand for renewable energy will increase",
-      "invalidation": "A significant decrease in the cost of oil, decreased investment in renewable energy, or failure to develop strategic partnerships",
-      "_at": "2026-04-14T06:14:20.304597"
     }
   ],
-  "lastRefresh": "2026-05-13T23:54:10.121092"
+  "lastRefresh": "2026-05-14T23:55:31.943260"
 }
