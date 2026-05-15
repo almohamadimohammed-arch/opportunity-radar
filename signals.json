@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "statement": "Global oil demand is decreasing",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "OPEC's reduction in demand forecast may lead to decreased oil production and investment",
+      "ksa_grounding": "Saudi Arabia's oil-dependent economy may experience reduced revenue and economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "OPEC cuts demand forecast for 2026"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "OPEC",
+        "Saudi Aramco"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in renewable energy sources",
+      "downside": "Potential for decreased government revenue and economic growth",
+      "first_order": "Decreased oil demand",
+      "second_order": "Potential for decreased investment in oil and gas sector",
+      "invalidation": "Increase in global oil demand or significant growth in Saudi Arabia's non-oil sectors",
+      "_at": "2026-05-15T23:53:21.354682"
+    },
+    {
+      "statement": "Saudi Arabia is increasing its investment in sports and tourism",
+      "change_type": "investment",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Saudi Arabia's sovereign wealth fund investment in soccer aims to promote the country's sports industry and tourism sector",
+      "ksa_grounding": "Increased investment in sports and tourism may lead to growth in these sectors and contribute to Saudi Arabia's economic diversification",
+      "affected_sectors": [
+        "entertainment",
+        "tourism"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia's sovereign wealth fund invests in soccer"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia's sovereign wealth fund",
+        "tourism industry"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased tourism revenue and economic growth",
+      "downside": "Potential for decreased investment returns or failure to attract tourists",
+      "first_order": "Increased investment in sports and tourism",
+      "second_order": "Potential for growth in related industries such as hospitality and entertainment",
+      "invalidation": "Decrease in investment in sports and tourism or failure to attract tourists",
+      "_at": "2026-05-15T23:53:21.354692"
+    },
+    {
+      "statement": "The Iran war is negatively impacting Gulf economies",
+      "change_type": "geopolitics",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The Iran war has impacted oil prices, trade, and investment in the Gulf countries, including Saudi Arabia",
+      "ksa_grounding": "The war may lead to increased uncertainty and risk for Saudi Arabia's economy, particularly in the oil and gas sector",
+      "affected_sectors": [
+        "oil_gas",
+        "economy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Iran war impacts Gulf economies"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Gulf countries",
+        "oil and gas industry"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in defense and security",
+      "downside": "Potential for decreased economic growth and increased uncertainty",
+      "first_order": "Negative impact on Gulf economies",
+      "second_order": "Potential for decreased investment and trade in the region",
+      "invalidation": "Resolution of the Iran war or significant decrease in its impact on Gulf economies",
+      "_at": "2026-05-15T23:53:21.354694"
+    },
+    {
+      "statement": "Business ties between the US and Saudi Arabia are strengthening",
+      "change_type": "partnership",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Executives from major US companies have joined the US-Saudi Business Council board, aiming to promote business ties between the two countries",
+      "ksa_grounding": "Strengthened business ties may lead to increased investment and trade between the US and Saudi Arabia, contributing to Saudi Arabia's economic growth and diversification",
+      "affected_sectors": [
+        "fintech",
+        "energy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Google, Coca-Cola, ExxonMobil executives join US-Saudi Business Council board"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "US-Saudi Business Council",
+        "US and Saudi companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment and trade between the US and Saudi Arabia",
+      "downside": "Potential for decreased investment returns or failure to strengthen business ties",
+      "first_order": "Strengthened business ties",
+      "second_order": "Potential for growth in related industries such as finance and energy",
+      "invalidation": "Decrease in business ties or investment between the US and Saudi Arabia",
+      "_at": "2026-05-15T23:53:21.354695"
+    },
+    {
       "statement": "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2379,119 +2491,7 @@
       "second_order": "downstream effects on the economy and related industries",
       "invalidation": "a swift increase in oil production from other regions would prove this wrong",
       "_at": "2026-04-16T06:16:36.404441"
-    },
-    {
-      "statement": "Global oil supply has become tighter",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "US blockade of Iranian ports and resulting disruptions to global oil supplies",
-      "ksa_grounding": "Saudi Arabia's oil sales to China are expected to halve due to the Hormuz crisis, indicating a potential shift in global oil supply dynamics",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "US Blockade of Iranian Ports Takes Effect",
-        "Saudi Oil Sales to China to Halve Due to Hormuz Crisis"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil producers",
-        "oil consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "potential increase in oil prices for Saudi Arabia",
-      "downside": "potential decrease in oil sales for Saudi Arabia",
-      "first_order": "direct impact on global oil supplies",
-      "second_order": "potential impact on Saudi Arabia's oil revenue",
-      "invalidation": "if the US blockade is lifted or Iran finds alternative routes for oil exports",
-      "_at": "2026-04-15T06:14:32.718267"
-    },
-    {
-      "statement": "China is diversifying its oil supply sources",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "China's efforts to mitigate risks to its oil supplies from the Middle East by turning to Central Asia",
-      "ksa_grounding": "Saudi Arabia's oil sales to China are expected to halve, indicating a potential decrease in demand for Saudi oil",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi Oil Sales to China to Halve Due to Hormuz Crisis",
-        "China Turns to Central Asia to Mitigate Middle East Oil Supply Risk"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil consumers",
-        "oil producers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "potential increase in oil supply diversity for China",
-      "downside": "potential decrease in oil sales for Saudi Arabia",
-      "first_order": "direct impact on China's oil supply sources",
-      "second_order": "potential impact on Saudi Arabia's oil revenue",
-      "invalidation": "if China's efforts to diversify its oil supply sources are unsuccessful",
-      "_at": "2026-04-15T06:14:32.718276"
-    },
-    {
-      "statement": "Saudi Arabia's non-oil sectors are growing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Support for Vision 2030 and growth of non-oil sectors such as tourism and hospitality",
-      "ksa_grounding": "Riyadh is hosting the Saudi WoodShow to support the growth of the wood and woodworking industry",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Riyadh Hosts Saudi WoodShow to Support Vision 2030"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "businesses",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "potential increase in non-oil revenue for Saudi Arabia",
-      "downside": "potential lack of investment in non-oil sectors",
-      "first_order": "direct impact on non-oil sectors",
-      "second_order": "potential impact on Saudi Arabia's economic diversification",
-      "invalidation": "if the Saudi WoodShow is not successful in supporting the growth of non-oil sectors",
-      "_at": "2026-04-15T06:14:32.718278"
-    },
-    {
-      "statement": "Fintech is becoming more prominent in Saudi Arabia",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "RedCloud's $30 million licensing agreement to deploy its RAID engine across the FMCG market in Saudi Arabia",
-      "ksa_grounding": "The agreement indicates a potential increase in fintech adoption in Saudi Arabia",
-      "affected_sectors": [
-        "fintech",
-        "logistics"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "RedCloud Signs $30M Saudi Licensing Agreement"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "fintech companies",
-        "logistics providers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "potential increase in fintech adoption and innovation",
-      "downside": "potential lack of investment in fintech",
-      "first_order": "direct impact on fintech adoption",
-      "second_order": "potential impact on Saudi Arabia's economic diversification",
-      "invalidation": "if the licensing agreement is not successful in promoting fintech adoption",
-      "_at": "2026-04-15T06:14:32.718280"
     }
   ],
-  "lastRefresh": "2026-05-14T23:55:31.941203"
+  "lastRefresh": "2026-05-15T23:53:26.358960"
 }
