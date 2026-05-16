@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "statement": "Infrastructure development is increasing in Saudi Arabia",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Large-scale infrastructure projects under Saudi Vision 2030 are driving growth in the construction equipment market",
+      "ksa_grounding": "The expansion of infrastructure in Saudi Arabia will support the growth of various sectors, including tourism and hospitality",
+      "affected_sectors": [
+        "tourism",
+        "hospitality",
+        "construction"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "evidence": [
+        "Saudi Arabia Construction Equipment Market to Expand at a CAGR of 4.71% from 2024 to 2030",
+        "Saudi Arabia Elevator and Escalator Market to Grow at a CAGR of 3.73% from 2025 to 2031"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "construction companies",
+        "tourism operators"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased economic growth and job creation",
+      "downside": "Potential environmental impacts and strain on resources",
+      "first_order": "Direct investment in infrastructure projects",
+      "second_order": "Growth in related industries, such as tourism and hospitality",
+      "invalidation": "A significant decline in construction equipment market growth or a slowdown in infrastructure development",
+      "_at": "2026-05-16T23:49:26.492797"
+    },
+    {
+      "statement": "Regional geopolitical tensions may be rising",
+      "change_type": "geopolitics",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Historical conflicts and alliances in the region contribute to ongoing tensions",
+      "ksa_grounding": "As a key player in the region, Saudi Arabia may be affected by increased geopolitical tensions, potentially impacting its oil and gas sector",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Trump Admits US Went to War with Iran for Israel",
+        "UAE to Double Oil Export Capacity Bypassing Hormuz by 2027"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil and gas companies",
+        "government agencies"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to oil supplies and increased regional instability",
+      "first_order": "Direct impact on regional security and stability",
+      "second_order": "Potential economic impacts on the oil and gas sector",
+      "invalidation": "A significant reduction in regional tensions or a resolution to historical conflicts",
+      "_at": "2026-05-16T23:49:26.492808"
+    },
+    {
+      "statement": "Demand for tourism and hospitality services is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Growing investment in infrastructure and events, such as the FIFA World Cup 2026, is driving demand for tourism and hospitality services",
+      "ksa_grounding": "The growth in demand for tourism and hospitality services will support the development of these sectors in Saudi Arabia",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "evidence": [
+        "PIF Named as Official Tournament Supporter of FIFA World Cup 2026",
+        "Saudi Arabia Elevator and Escalator Market to Grow at a CAGR of 3.73% from 2025 to 2031"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "tourism operators",
+        "hospitality providers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased revenue and job creation in the tourism and hospitality sectors",
+      "downside": "Potential strain on resources and infrastructure",
+      "first_order": "Direct investment in tourism and hospitality infrastructure",
+      "second_order": "Growth in related industries, such as construction and transportation",
+      "invalidation": "A significant decline in tourism and hospitality demand or a failure to deliver on infrastructure projects",
+      "_at": "2026-05-16T23:49:26.492810"
+    },
+    {
       "statement": "Global oil demand is decreasing",
       "change_type": "demand",
       "change_vector": "demand_down",
@@ -2433,65 +2525,7 @@
       "second_order": "Job creation and economic growth",
       "invalidation": "If the Public Investment Fund's strategy is not implemented or fails to achieve its goals",
       "_at": "2026-04-17T06:16:56.050765"
-    },
-    {
-      "statement": "Regulatory barrier to fintech integration has not changed, but risk exposure in oil and gas sector is rising",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "The war in Iran has disrupted oil flows, lifted prices, and affected Saudi Arabia's crude sales to China, indicating increased risk exposure in the oil and gas sector",
-      "ksa_grounding": "Saudi Arabia's economy is affected by the disruption in oil flows and the potential decrease in crude sales to China, which may impact the country's revenue and economic growth",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Middle East oil production plunges due to Iran war",
-        "Saudi Arabia's crude sales to China to halve next month"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "potential for increased oil prices and revenue",
-      "downside": "potential for decreased oil sales and revenue",
-      "first_order": "direct impact on oil production and sales",
-      "second_order": "downstream effects on the economy and related industries",
-      "invalidation": "a swift resolution to the Iran war and restoration of oil flows would prove this wrong",
-      "_at": "2026-04-16T06:16:36.404432"
-    },
-    {
-      "statement": "Supply of oil is tightening due to geopolitical disruptions",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "The war in Iran has disrupted oil flows, leading to a plunge in Middle East oil production and a decrease in Saudi Arabia's crude sales to China",
-      "ksa_grounding": "Saudi Arabia's economy is affected by the decrease in oil production and sales, which may impact the country's revenue and economic growth",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Middle East oil production plunges due to Iran war",
-        "Saudi Arabia's crude sales to China to halve next month"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "potential for increased oil prices and revenue",
-      "downside": "potential for decreased oil sales and revenue",
-      "first_order": "direct impact on oil production and sales",
-      "second_order": "downstream effects on the economy and related industries",
-      "invalidation": "a swift increase in oil production from other regions would prove this wrong",
-      "_at": "2026-04-16T06:16:36.404441"
     }
   ],
-  "lastRefresh": "2026-05-15T23:53:26.358960"
+  "lastRefresh": "2026-05-16T23:50:04.043338"
 }
