@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "statement": "Regional oil supply risks have increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Strait of Hormuz shutdown and potential conflict escalation",
+      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        ""
+      ],
+      "evidence": [
+        "Oil Prices Surge as Hormuz Shutdown Keeps Supply Fears Alive",
+        "UAE to Double Oil Export Capacity Bypassing Hormuz by 2027"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "traders"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for increased oil prices, benefiting Saudi Arabia's oil exports",
+      "downside": "potential for decreased oil exports, affecting Saudi Arabia's economy",
+      "first_order": "direct impact on oil supply and prices",
+      "second_order": "downstream effects on the global economy and trade",
+      "invalidation": "a resolution to the U.S.-Iran conflict, reducing tensions and supply concerns",
+      "_at": "2026-05-17T23:55:17.043051"
+    },
+    {
+      "statement": "Infrastructure development in the region is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Investments in infrastructure projects, such as Abu Dhabi's L'imad Holding",
+      "ksa_grounding": "Saudi Arabia may benefit from increased infrastructure development in the region, enhancing trade and economic growth",
+      "affected_sectors": [
+        "infrastructure"
+      ],
+      "affected_regions": [
+        ""
+      ],
+      "evidence": [
+        "Abu Dhabi\u2019s L\u2019imad Eyes $30 Billion Infra Push With Temasek, GIP"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "developers"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "potential for increased economic growth and development",
+      "downside": "potential for increased costs and debt",
+      "first_order": "direct impact on infrastructure development",
+      "second_order": "downstream effects on trade, tourism, and economic growth",
+      "invalidation": "a decrease in infrastructure investments or a shift in economic priorities",
+      "_at": "2026-05-17T23:55:17.043064"
+    },
+    {
+      "statement": "Saudi Arabia's reputation in the global sports industry is increasing",
+      "change_type": "trust",
+      "change_vector": "trust_rising",
+      "mechanism": "Partnerships and investments in international sports events, such as the FIFA World Cup 2026",
+      "ksa_grounding": "Enhanced reputation may attract tourism, investments, and talent to Saudi Arabia",
+      "affected_sectors": [
+        "sports",
+        "entertainment",
+        "tourism"
+      ],
+      "affected_regions": [
+        ""
+      ],
+      "evidence": [
+        "PIF Named as Official Tournament Supporter of FIFA World Cup 2026"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "sports fans",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential for increased tourism and investments",
+      "downside": "potential for reputational risks if not managed properly",
+      "first_order": "direct impact on Saudi Arabia's reputation",
+      "second_order": "downstream effects on tourism, investments, and economic growth",
+      "invalidation": "a failure to deliver on sports-related investments or a decline in the global sports industry",
+      "_at": "2026-05-17T23:55:17.043065"
+    },
+    {
       "statement": "Infrastructure development is increasing in Saudi Arabia",
       "change_type": "infrastructure",
       "change_vector": "infrastructure_expanding",
@@ -2425,107 +2512,7 @@
       "second_order": "Enhanced energy security and potential for increased oil exports",
       "invalidation": "Reopening of the Strait of Hormuz",
       "_at": "2026-04-18T05:27:28.780161"
-    },
-    {
-      "statement": "Regulatory barrier to economic diversification has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Saudi Arabia's Public Investment Fund's approved 2026-2030 strategy focuses on maximizing financial returns and strengthening investment efficiency, driving economic transformation",
-      "ksa_grounding": "The strategy aims to reduce dependence on oil exports and drive economic transformation, which will have a positive impact on Saudi Arabia's economy",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals",
-        "renewable_energy",
-        "fintech",
-        "banking",
-        "tourism"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia's Public Investment Fund Approves 2026-2030 Strategy",
-        "Saudi Arabia's Wealth Fund to Boost Returns and Build Global Champions"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Public Investment Fund",
-        "Saudi Arabia's government"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased economic diversification and reduced dependence on oil exports",
-      "downside": "Potential risks associated with rapid economic transformation",
-      "first_order": "Direct investment in key sectors",
-      "second_order": "Job creation and economic growth",
-      "invalidation": "If the Public Investment Fund's strategy is not implemented or fails to achieve its goals",
-      "_at": "2026-04-17T06:16:56.050752"
-    },
-    {
-      "statement": "Risk exposure to global trade disruptions has increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Iran's threat to disrupt trade in the Gulf region in response to the US naval blockade could have significant implications for global oil supplies and trade routes",
-      "ksa_grounding": "As a major oil exporter, Saudi Arabia's economy is vulnerable to disruptions in global trade and oil supplies",
-      "affected_sectors": [
-        "oil_gas",
-        "trade"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Iran Threatens to Disrupt Gulf Trade in Response to US Naval Blockade",
-        "Oil Prices Fall on Hopes Diplomacy Can End US-Iran War"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Iran",
-        "US",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential disruption to global oil supplies and trade routes",
-      "first_order": "Direct impact on oil prices and trade",
-      "second_order": "Potential impact on global economy and energy markets",
-      "invalidation": "If Iran's threat is not carried out or is effectively mitigated",
-      "_at": "2026-04-17T06:16:56.050763"
-    },
-    {
-      "statement": "Feasibility of economic transformation has increased",
-      "change_type": "feasibility",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "The Public Investment Fund's approved 2026-2030 strategy and the wealth fund's efforts to boost returns and build global champions demonstrate a commitment to economic transformation",
-      "ksa_grounding": "The increased feasibility of economic transformation will have a positive impact on Saudi Arabia's economy, as it will attract more investment and create new opportunities",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals",
-        "renewable_energy",
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia's Public Investment Fund Approves 2026-2030 Strategy",
-        "Saudi Arabia's Wealth Fund to Boost Returns and Build Global Champions"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Public Investment Fund",
-        "Saudi Arabia's government"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased economic diversification and reduced dependence on oil exports",
-      "downside": "Potential risks associated with rapid economic transformation",
-      "first_order": "Direct investment in key sectors",
-      "second_order": "Job creation and economic growth",
-      "invalidation": "If the Public Investment Fund's strategy is not implemented or fails to achieve its goals",
-      "_at": "2026-04-17T06:16:56.050765"
     }
   ],
-  "lastRefresh": "2026-05-16T23:50:04.043338"
+  "lastRefresh": "2026-05-17T23:55:24.736779"
 }
