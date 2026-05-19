@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "statement": "Regional security concerns have increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Drone strikes on critical infrastructure and airspace violations have heightened security risks",
+      "ksa_grounding": "Saudi Arabia's oil and gas sector may face increased security threats, potentially disrupting production and exports",
+      "affected_sectors": [
+        "oil_gas",
+        "security"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Drone strike on UAE's Barakah nuclear power plant",
+        "Saudis intercept drones from Iraqi territory"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Defense Ministry",
+        "UAE foreign minister"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased security measures may enhance protection of critical infrastructure",
+      "downside": "Heightened security risks may lead to supply chain disruptions and economic losses",
+      "first_order": "Direct impact on regional security",
+      "second_order": "Potential downstream effects on global oil markets and trade",
+      "invalidation": "A significant reduction in drone strikes and airspace violations in the region would prove this wrong",
+      "_at": "2026-05-19T00:03:31.507559"
+    },
+    {
+      "statement": "Regional air travel and logistics have been disrupted",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Bahrain International Airport's resumption of operations may lead to increased air travel and logistics activity",
+      "ksa_grounding": "Saudi Arabia's tourism and logistics sectors may benefit from increased air travel and connectivity in the region",
+      "affected_sectors": [
+        "tourism",
+        "logistics"
+      ],
+      "affected_regions": [
+        "jeddah"
+      ],
+      "evidence": [
+        "Bahrain International Airport resumes operations"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Gulf Air",
+        "Travelers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased air travel and logistics activity may boost regional economies",
+      "downside": "Disruptions to air travel and logistics may continue to affect regional trade and tourism",
+      "first_order": "Direct impact on regional air travel and logistics",
+      "second_order": "Potential downstream effects on Saudi Arabia's tourism and logistics sectors",
+      "invalidation": "A significant decline in air travel and logistics activity in the region would prove this wrong",
+      "_at": "2026-05-19T00:03:31.507572"
+    },
+    {
       "statement": "Regional oil supply risks have increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2451,68 +2510,7 @@
       "second_order": "Indirect impact on related sectors such as petrochemicals and refining",
       "invalidation": "Stabilization of oil prices or decrease in market volatility",
       "_at": "2026-04-19T00:06:38.687653"
-    },
-    {
-      "statement": "Regulatory support for domestic economy has increased",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Shift in Public Investment Fund's focus to domestic growth under a new 5-year plan",
-      "ksa_grounding": "Boost to domestic sectors such as tourism, urban development, and clean energy, contributing to Saudi Arabia's economic diversification",
-      "affected_sectors": [
-        "tourism",
-        "urban development",
-        "clean energy"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia's Public Investment Fund shifts focus to domestic economy under new 5-year plan",
-        "Saudi Arabia scraps tourism funding in Vision 2030 shake-up"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Public Investment Fund",
-        "domestic businesses"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased economic growth and diversification",
-      "downside": "Potential misallocation of resources",
-      "first_order": "Direct investment in domestic sectors",
-      "second_order": "Job creation and economic multiplier effects",
-      "invalidation": "Announcement of a new policy prioritizing foreign investments over domestic economy",
-      "_at": "2026-04-18T05:27:28.780151"
-    },
-    {
-      "statement": "Diversification of oil export routes is becoming more urgent",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Gulf countries seeking alternative oil routes due to the Strait of Hormuz closure",
-      "ksa_grounding": "Impact on Saudi Arabia's oil export capabilities and revenue, necessitating investment in alternative routes",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Gulf countries seek alternative oil routes as Hormuz remains closed"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil and gas companies",
-        "government"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Reduced dependence on a single export route",
-      "downside": "Increased costs and logistical challenges",
-      "first_order": "Investment in new infrastructure",
-      "second_order": "Enhanced energy security and potential for increased oil exports",
-      "invalidation": "Reopening of the Strait of Hormuz",
-      "_at": "2026-04-18T05:27:28.780161"
     }
   ],
-  "lastRefresh": "2026-05-17T23:55:24.736779"
+  "lastRefresh": "2026-05-19T00:03:39.246484"
 }
