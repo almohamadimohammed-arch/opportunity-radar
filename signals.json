@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "statement": "Technological advancement in oil and gas sector is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Quantum computing services are being provided to various industries, including oil and gas",
+      "ksa_grounding": "This will enhance the efficiency and productivity of the oil and gas sector in Saudi Arabia",
+      "affected_sectors": [
+        "oil_gas",
+        "fintech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Aramco and Pasqal launch Saudi Arabia's first Quantum Computer and Middle East's first commercial Quantum Computing as a Service platform",
+        "KSA IoT Market to Reach USD 4.33 Billion by 2031"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "Pasqal"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased efficiency and productivity in the oil and gas sector",
+      "downside": "Dependence on new technology, potential job losses",
+      "first_order": "Direct impact on oil and gas sector",
+      "second_order": "Indirect impact on related industries, such as fintech",
+      "invalidation": "If the quantum computing services are not adopted by the oil and gas sector, or if they do not lead to increased efficiency and productivity",
+      "_at": "2026-05-20T00:00:19.292784"
+    },
+    {
+      "statement": "Regional security is becoming more volatile",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Deployment of troops and jets to Saudi Arabia, and potential attack on Iran",
+      "ksa_grounding": "This will increase the risk of conflict and instability in the region, affecting Saudi Arabia's economy and security",
+      "affected_sectors": [
+        "oil_gas",
+        "defence"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Pakistan deploys jets and troops to Saudi Arabia for Iran war",
+        "Trump claims he cancelled planned attack on Iran at request of Gulf States"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Pakistan",
+        "Saudi Arabia",
+        "US"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Increased risk of conflict and instability in the region",
+      "first_order": "Direct impact on regional security",
+      "second_order": "Indirect impact on oil and gas sector, and related industries",
+      "invalidation": "If the situation in the region stabilizes, and the risk of conflict decreases",
+      "_at": "2026-05-20T00:00:19.292794"
+    },
+    {
+      "statement": "Investment in healthcare and pharmaceutical sector is increasing",
+      "change_type": "funding",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Funding for AI-driven pharmaceutical procurement platform",
+      "ksa_grounding": "This will enhance the capabilities of the healthcare and pharmaceutical sector in Saudi Arabia, and provide better services to clients",
+      "affected_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Aumet Raises $12 Million for AI-Driven Pharmaceutical Procurement"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Aumet"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Enhanced capabilities of the healthcare and pharmaceutical sector",
+      "downside": "Dependence on new technology, potential job losses",
+      "first_order": "Direct impact on healthcare and pharmaceutical sector",
+      "second_order": "Indirect impact on related industries, such as fintech",
+      "invalidation": "If the funding does not lead to enhanced capabilities, or if the AI-driven pharmaceutical procurement platform is not successful",
+      "_at": "2026-05-20T00:00:19.292795"
+    },
+    {
       "statement": "Regional security concerns have increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2423,94 +2511,7 @@
       "second_order": "Indirect impact on the global energy market",
       "invalidation": "Announcement of a shorter timeline for energy recovery or increased production from other regions",
       "_at": "2026-04-20T06:35:24.873777"
-    },
-    {
-      "statement": "Regulatory support for tourism is decreasing",
-      "change_type": "regulation",
-      "change_vector": "regulation_tightening",
-      "mechanism": "Cancellation of tourism funding in Vision 2030 plan",
-      "ksa_grounding": "Reduced government support for tourism sector may impact economic development and diversification efforts in Saudi Arabia",
-      "affected_sectors": [
-        "tourism"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "makkah",
-        "madinah"
-      ],
-      "evidence": [
-        "Saudi Arabia scraps tourism funding in Vision 2030 shake-up"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Tourism businesses",
-        "Investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for private sector to fill funding gap",
-      "downside": "Decreased tourism revenue and economic growth",
-      "first_order": "Direct impact on tourism sector",
-      "second_order": "Indirect impact on related sectors such as hospitality and entertainment",
-      "invalidation": "Announcement of new tourism funding initiatives or reinstatement of cancelled funding",
-      "_at": "2026-04-19T00:06:38.687642"
-    },
-    {
-      "statement": "Investment priorities are shifting from sports and entertainment to more financially viable sectors",
-      "change_type": "institutional priority",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "PIF's reduction of sports investments, including LIV Golf",
-      "ksa_grounding": "Shift in investment focus may impact Saudi Arabia's economic development and diversification efforts, potentially leading to increased investment in other sectors",
-      "affected_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Arabia's Public Investment Fund (PIF) is scaling back its sports investments, including LIV Golf"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Sports and entertainment businesses",
-        "Investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased investment in more financially viable sectors",
-      "downside": "Decreased investment in sports and entertainment sectors",
-      "first_order": "Direct impact on sports and entertainment sectors",
-      "second_order": "Indirect impact on related sectors such as tourism and hospitality",
-      "invalidation": "Announcement of new sports and entertainment investments or reversal of PIF's investment shift",
-      "_at": "2026-04-19T00:06:38.687652"
-    },
-    {
-      "statement": "Global oil market volatility is increasing",
-      "change_type": "market",
-      "change_vector": "supply_looser",
-      "mechanism": "Oil market volatility leading to price fluctuations",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be impacted by global oil market volatility, potentially affecting oil revenue and economic growth",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Australia's petrol prices hit $2.03/L amid oil market volatility"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Oil producers",
-        "Consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil revenue due to higher prices",
-      "downside": "Decreased oil revenue due to lower prices",
-      "first_order": "Direct impact on oil prices",
-      "second_order": "Indirect impact on related sectors such as petrochemicals and refining",
-      "invalidation": "Stabilization of oil prices or decrease in market volatility",
-      "_at": "2026-04-19T00:06:38.687653"
     }
   ],
-  "lastRefresh": "2026-05-19T00:03:39.246484"
+  "lastRefresh": "2026-05-20T00:00:26.133513"
 }
