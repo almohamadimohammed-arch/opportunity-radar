@@ -1,6 +1,67 @@
 {
   "items": [
     {
+      "statement": "Risk of regional instability affecting global markets has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Potential military conflict in the region and its impact on global markets",
+      "ksa_grounding": "Saudi Arabia's economy is vulnerable to regional instability, which could affect oil prices and global market sentiment",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Trump delays military strike on Iran amid ongoing negotiations",
+        "Japan and China lead foreign government retreat from US Treasuries"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "global investors"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for diplomatic solutions and reduced tensions",
+      "downside": "Increased risk of military conflict and global market volatility",
+      "first_order": "Increased risk of military conflict",
+      "second_order": "Impact on global markets and oil prices",
+      "invalidation": "If a peaceful resolution is reached between the US and Iran",
+      "_at": "2026-05-21T00:08:19.642783"
+    },
+    {
+      "statement": "Innovation and advancements in the energy sector are expected to increase",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Launch of Saudi Arabia's first Quantum Computer and commercial Quantum Computing as a Service platform",
+      "ksa_grounding": "Saudi Arabia's energy sector is expected to benefit from the adoption of quantum computing technology, driving innovation and advancements",
+      "affected_sectors": [
+        "oil_gas",
+        "technology"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Aramco and Pasqal launch Saudi Arabia's first Quantum Computer"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Aramco",
+        "energy companies"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased efficiency and productivity in the energy sector",
+      "downside": "High upfront costs and potential technical challenges",
+      "first_order": "Adoption of quantum computing technology",
+      "second_order": "Increased innovation and advancements in the energy sector",
+      "invalidation": "If the quantum computing technology fails to deliver expected results",
+      "_at": "2026-05-21T00:08:19.642794"
+    },
+    {
       "statement": "Technological advancement in oil and gas sector is increasing",
       "change_type": "infrastructure",
       "change_vector": "infrastructure_expanding",
@@ -2454,64 +2515,7 @@
       "second_order": "Downstream effects on Saudi Arabia's fintech sector and economy",
       "invalidation": "Failure of AI-native technologies to gain traction in the fintech sector",
       "_at": "2026-04-21T06:17:23.893973"
-    },
-    {
-      "statement": "Regulatory barrier to sports investments has increased",
-      "change_type": "regulation",
-      "change_vector": "regulation_tightening",
-      "mechanism": "Shift in focus from cultural influence to financial returns, indicating a more cautious approach to investments",
-      "ksa_grounding": "This change may impact Saudi Arabia's ability to attract foreign investment in the sports sector, potentially affecting the growth of the entertainment and culture industries",
-      "affected_sectors": [
-        "entertainment",
-        "culture",
-        "sports"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi Arabia's sports investments shifting focus from cultural influence to financial returns",
-        "LIV Golf CEO confirms Saudi funding will end after this season"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Public Investment Fund",
-        "LIV Golf"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for more financially sustainable investments",
-      "downside": "Potential decrease in foreign investment and growth in the sports sector",
-      "first_order": "Direct impact on sports investments",
-      "second_order": "Indirect impact on the entertainment and culture industries",
-      "invalidation": "Announcement of new, large-scale sports investments by the Public Investment Fund",
-      "_at": "2026-04-20T06:35:24.873767"
-    },
-    {
-      "statement": "Risk exposure in the oil and gas sector has increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Potential two-year timeline for Persian Gulf energy recovery, impacting global energy prices and supply chains",
-      "ksa_grounding": "This change may impact Saudi Arabia's oil and gas production, potentially affecting the country's economy and energy exports",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "Persian Gulf"
-      ],
-      "evidence": [
-        "IEA Chief warns of potential two-year timeline for Persian Gulf energy recovery"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "IEA",
-        "Saudi Aramco"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased investment in energy recovery efforts",
-      "downside": "Potential decrease in oil and gas production, impacting Saudi Arabia's economy",
-      "first_order": "Direct impact on oil and gas production",
-      "second_order": "Indirect impact on the global energy market",
-      "invalidation": "Announcement of a shorter timeline for energy recovery or increased production from other regions",
-      "_at": "2026-04-20T06:35:24.873777"
     }
   ],
-  "lastRefresh": "2026-05-20T00:00:26.133513"
+  "lastRefresh": "2026-05-21T00:08:56.926696"
 }
