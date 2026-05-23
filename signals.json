@@ -1,6 +1,122 @@
 {
   "items": [
     {
+      "statement": "Investment in Saudi entertainment sector is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Increased funding and investment in entertainment projects",
+      "ksa_grounding": "The growth of the entertainment sector in Saudi Arabia is expected to contribute to the country's economic diversification efforts",
+      "affected_sectors": [
+        "entertainment",
+        "sports"
+      ],
+      "affected_regions": [
+        ""
+      ],
+      "evidence": [
+        "LIV Golf seeks to raise up to $350 million from investors",
+        "Film AlUla Bolsters Role as Movie Industry Driver"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "LIV Golf",
+        "Film AlUla"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased economic activity and job creation in the entertainment sector",
+      "downside": "Risk of over-investment in a single sector, potentially leading to market saturation",
+      "first_order": "Direct investment in entertainment projects",
+      "second_order": "Potential for increased tourism and hospitality activity",
+      "invalidation": "A significant decline in investor interest or a major setback in the entertainment sector",
+      "_at": "2026-05-23T00:03:42.739465"
+    },
+    {
+      "statement": "Trade cooperation between the UK and Gulf Cooperation Council is strengthening",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Trade agreements and partnerships",
+      "ksa_grounding": "The trade deal is expected to enhance fintech collaboration and boost digital asset markets in Saudi Arabia",
+      "affected_sectors": [
+        "fintech",
+        "trade"
+      ],
+      "affected_regions": [
+        ""
+      ],
+      "evidence": [
+        "UK strikes \u00a33.7B trade deal with Gulf Cooperation Council"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "UK",
+        "Gulf Cooperation Council"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased trade and investment between the UK and GCC countries",
+      "downside": "Risk of trade disputes or disagreements between the parties",
+      "first_order": "Direct trade benefits",
+      "second_order": "Potential for increased economic cooperation and investment",
+      "invalidation": "A failure to implement the trade agreement or a significant deterioration in relations between the UK and GCC countries",
+      "_at": "2026-05-23T00:03:42.739477"
+    },
+    {
+      "statement": "Saudi Arabia's oil export income is increasing despite production declines",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased oil prices and efficient production",
+      "ksa_grounding": "The increase in oil export income is expected to contribute to Saudi Arabia's economic growth and stability",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        ""
+      ],
+      "evidence": [
+        "Saudi Oil Export Income Jumped to 3.5-Year High in March"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Aramco"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased government revenue and economic stability",
+      "downside": "Risk of over-reliance on oil exports and vulnerability to price fluctuations",
+      "first_order": "Direct increase in oil export income",
+      "second_order": "Potential for increased government spending and investment",
+      "invalidation": "A significant decline in oil prices or a major disruption to Saudi oil production",
+      "_at": "2026-05-23T00:03:42.739479"
+    },
+    {
+      "statement": "Tourism and hospitality development in Saudi Arabia is accelerating",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Investment in tourism and hospitality projects",
+      "ksa_grounding": "The development of tourism and hospitality infrastructure is expected to contribute to Saudi Arabia's economic diversification efforts",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "Red Sea"
+      ],
+      "evidence": [
+        "Red Sea Global Launches First JV Resort",
+        "Film AlUla Bolsters Role as Movie Industry Driver"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Red Sea Global",
+        "Film AlUla"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased tourism and economic activity",
+      "downside": "Risk of over-investment in tourism infrastructure, potentially leading to market saturation",
+      "first_order": "Direct investment in tourism and hospitality projects",
+      "second_order": "Potential for increased economic activity and job creation",
+      "invalidation": "A significant decline in tourist arrivals or a major setback in the development of tourism infrastructure",
+      "_at": "2026-05-23T00:03:42.739480"
+    },
+    {
       "statement": "Regulatory barrier to trade has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2403,123 +2519,7 @@
       "second_order": "Potential for growth in the construction sector and related industries",
       "invalidation": "A significant decrease in government investment in infrastructure projects or a decline in construction activity",
       "_at": "2026-04-23T06:21:23.142736"
-    },
-    {
-      "statement": "Risk of supply disruption in the oil and gas sector has increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Geopolitical tensions and infrastructure disruptions in the Strait of Hormuz may lead to prolonged supply chain disruptions",
-      "ksa_grounding": "Saudi Arabia's economy, being heavily reliant on oil and gas exports, may face significant challenges due to potential supply chain disruptions",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Gulf Worries U.S.-Iran Talks May Cement Tehran's 'Golden' Grip On Hormuz",
-        "Oil prices surge after US seizes Iranian vessel near Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil and gas exporters"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased oil prices, benefiting Saudi Arabia's oil exports",
-      "downside": "Potential for decreased oil exports, negatively impacting Saudi Arabia's economy",
-      "first_order": "Direct impact on oil and gas supply chains",
-      "second_order": "Downstream effects on global energy prices and economic growth",
-      "invalidation": "A significant reduction in geopolitical tensions or a swift resolution to the conflict in the region would invalidate this signal",
-      "_at": "2026-04-22T06:15:00.631626"
-    },
-    {
-      "statement": "Recovery of oil and gas production in the Persian Gulf may take up to two years",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "Conflict-related damage to oil and gas infrastructure may lead to a prolonged recovery period",
-      "ksa_grounding": "Saudi Arabia's oil and gas production may be impacted by the prolonged recovery period, affecting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "IEA Chief Warns Persian Gulf Energy Recovery Could Take Up to Two Years",
-        "Gulf Worries U.S.-Iran Talks May Cement Tehran's 'Golden' Grip On Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil and gas exporters"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased oil prices, benefiting Saudi Arabia's oil exports",
-      "downside": "Potential for decreased oil exports, negatively impacting Saudi Arabia's economy",
-      "first_order": "Direct impact on oil and gas production",
-      "second_order": "Downstream effects on global energy prices and economic growth",
-      "invalidation": "A swift recovery of oil and gas production in the Persian Gulf or a significant increase in production from other regions would invalidate this signal",
-      "_at": "2026-04-22T06:15:00.631638"
-    },
-    {
-      "statement": "Saudi Arabia's healthcare sector may experience increased innovation and research",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Partnerships between Saudi healthcare institutions and international organizations may lead to increased innovation and research",
-      "ksa_grounding": "Saudi Arabia's healthcare sector may benefit from the partnership between King Faisal Specialist Hospital & Research Centre and C3 Davos of Healthcare, leading to improved healthcare outcomes and increased medical tourism",
-      "affected_sectors": [
-        "healthcare"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "King Faisal Specialist Hospital & Research Centre joins C3 Davos of Healthcare as a Global Strategic Partner"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "King Faisal Specialist Hospital & Research Centre",
-        "C3 Davos of Healthcare"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for improved healthcare outcomes and increased medical tourism",
-      "downside": "Potential for increased costs and decreased accessibility of healthcare services",
-      "first_order": "Direct impact on healthcare innovation and research",
-      "second_order": "Downstream effects on healthcare outcomes and medical tourism",
-      "invalidation": "A lack of significant progress or outcomes from the partnership between King Faisal Specialist Hospital & Research Centre and C3 Davos of Healthcare would invalidate this signal",
-      "_at": "2026-04-22T06:15:00.631643"
-    },
-    {
-      "statement": "Saudi Arabia's tourism sector may experience increased growth and investment",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Saudi Arabia's emerging luxury tourism market may attract increased investment and tourism",
-      "ksa_grounding": "Saudi Arabia's tourism sector may benefit from the country's emerging luxury tourism market, leading to increased investment and tourism revenue",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "jeddah",
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Arabia is a rising luxury tourism hub, but Western brands like Nammos need more than a proven formula to succeed"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "tourism investors",
-        "hospitality providers"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased tourism revenue and investment",
-      "downside": "Potential for decreased tourism revenue due to increased competition or decreased demand",
-      "first_order": "Direct impact on tourism demand",
-      "second_order": "Downstream effects on tourism revenue and investment",
-      "invalidation": "A significant decrease in tourism demand or a lack of investment in Saudi Arabia's tourism sector would invalidate this signal",
-      "_at": "2026-04-22T06:15:00.631644"
     }
   ],
-  "lastRefresh": "2026-05-22T00:00:16.373376"
+  "lastRefresh": "2026-05-23T00:04:19.483815"
 }
