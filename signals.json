@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to healthcare innovation have decreased",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Saudi FDA approval of new therapies",
+      "ksa_grounding": "Increased access to specialty oncology treatments for Saudi patients",
+      "affected_sectors": [
+        "healthcare",
+        "pharma"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Venus Remedies Gets Saudi FDA Approval for Specialty Oncology Therapy"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "patients",
+        " healthcare providers"
+      ],
+      "time_horizon": "now",
+      "upside": "improved patient outcomes",
+      "downside": "potential increased healthcare costs",
+      "first_order": "increased access to new treatments",
+      "second_order": "potential for increased investment in healthcare research and development",
+      "invalidation": "rejection of future FDA approval applications for innovative therapies",
+      "_at": "2026-05-26T00:03:26.990809"
+    },
+    {
+      "statement": "Adoption of AI and digital transformation is increasing",
+      "change_type": "technology",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "partnerships between companies and edtech providers",
+      "ksa_grounding": "accelerated digital transformation across various sectors in Saudi Arabia",
+      "affected_sectors": [
+        "fintech",
+        "education",
+        "edtech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Accenture Partners with HUMAIN to Accelerate AI Adoption across Saudi Arabia",
+        "Persistent Systems Partners with Kong to Help Businesses Securely Implement AI"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "businesses",
+        "educational institutions"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "increased efficiency and competitiveness",
+      "downside": "potential job displacement",
+      "first_order": "increased adoption of AI solutions",
+      "second_order": "potential for increased innovation and entrepreneurship",
+      "invalidation": "lack of further partnerships or investments in AI and digital transformation",
+      "_at": "2026-05-26T00:03:26.990821"
+    },
+    {
       "statement": "Regulatory barrier to healthcare innovation has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2370,92 +2426,7 @@
       "second_order": "Increased prices, reduced economic growth, and potential trade disruptions",
       "invalidation": "Announcement of new infrastructure or agreements that stabilize global oil supply chains",
       "_at": "2026-04-26T06:23:49.810248"
-    },
-    {
-      "statement": "Regulatory barriers to fintech integration in the UAE are reducing, potentially influencing Saudi Arabia's fintech sector",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Government digitization efforts and growing demand for flexible payment options are driving the reduction of regulatory barriers",
-      "ksa_grounding": "This could lead to increased competition and innovation in Saudi Arabia's fintech sector, as UAE's growth may attract more investment and talent to the region",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "UAE B2B Buy Now Pay Later market poised for significant growth"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Fintech companies",
-        "Banks"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased innovation and competition in the fintech sector",
-      "downside": "Potential disruption to traditional banking systems",
-      "first_order": "Reduced regulatory barriers in the UAE",
-      "second_order": "Increased competition and innovation in Saudi Arabia's fintech sector",
-      "invalidation": "If the UAE's fintech market experiences a significant decline or if Saudi Arabia implements stricter regulations on fintech",
-      "_at": "2026-04-25T05:33:22.916370"
-    },
-    {
-      "statement": "Investment in artificial intelligence is increasing, potentially leading to advancements in various sectors",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Companies like SpaceX and Merck are investing in AI, driving innovation and improvements in various sectors",
-      "ksa_grounding": "This could lead to increased efficiency and productivity in Saudi Arabia's healthcare, technology, and other sectors",
-      "affected_sectors": [
-        "healthcare",
-        "technology",
-        "fintech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "SpaceX eyes opportunity in artificial intelligence",
-        "Merck partners with Google Cloud on AI initiatives"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Healthcare companies",
-        "Technology firms"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Improved efficiency and productivity in various sectors",
-      "downside": "Potential job displacement due to automation",
-      "first_order": "Increased investment in AI",
-      "second_order": "Advancements in various sectors",
-      "invalidation": "If AI investment declines or if the technology fails to deliver expected benefits",
-      "_at": "2026-04-25T05:33:22.916377"
-    },
-    {
-      "statement": "Saudi Arabia's construction sector is experiencing significant growth, driven by large-scale projects",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Projects like the Jeddah Tower are driving growth in the construction sector",
-      "ksa_grounding": "This could lead to increased economic activity and job creation in Saudi Arabia's construction sector",
-      "affected_sectors": [
-        "construction",
-        "real estate"
-      ],
-      "affected_regions": [
-        "jeddah"
-      ],
-      "evidence": [
-        "Jeddah Tower on track to become world's first kilometer-tall building"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Construction companies",
-        "Real estate developers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased economic activity and job creation",
-      "downside": "Potential environmental and social impacts of large-scale construction projects",
-      "first_order": "Growth in the construction sector",
-      "second_order": "Increased economic activity and job creation",
-      "invalidation": "If the Jeddah Tower project is delayed or cancelled",
-      "_at": "2026-04-25T05:33:22.916379"
     }
   ],
-  "lastRefresh": "2026-05-24T23:57:30.989027"
+  "lastRefresh": "2026-05-26T00:03:33.915006"
 }

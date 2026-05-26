@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "EdTech Partnerships for AI Adoption",
+      "play_type": "business_play",
+      "actor": "EdTech companies and fintech firms",
+      "customer": "Saudi enterprises and educational institutions",
+      "problem": "Limited access to AI and digital transformation solutions",
+      "action_path": "EdTech companies can partner with fintech firms to develop and implement AI-powered solutions for Saudi enterprises and educational institutions. This can include creating customized AI training programs and providing access to digital transformation tools. By doing so, EdTech companies can help accelerate the adoption of AI and digital transformation in Saudi Arabia.",
+      "entry_mode": "partner",
+      "monetization": "Revenue sharing models and subscription-based services",
+      "capabilities": "AI development, digital transformation expertise, and cloud-native capabilities",
+      "barriers": "Competition from established players and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Adoption of AI and digital transformation is increasing"
+      ],
+      "sector": "edtech",
+      "relevant_sectors": [
+        "fintech",
+        "education"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Accelerated digital transformation across various sectors in Saudi Arabia",
+      "assumptions": "Continued investment in AI and digital transformation, and a willingness from Saudi enterprises and educational institutions to adopt new technologies",
+      "invalidation": "Lack of further partnerships or investments in AI and digital transformation",
+      "_at": "2026-05-26T00:03:33.912189"
+    },
+    {
+      "title": "AI-Powered Education Platforms",
+      "play_type": "market_entry_play",
+      "actor": "International EdTech companies",
+      "customer": "Saudi students and educational institutions",
+      "problem": "Limited access to high-quality educational resources and AI-powered learning tools",
+      "action_path": "International EdTech companies can enter the Saudi market by developing and offering AI-powered education platforms tailored to the local curriculum and educational needs. This can include partnering with local educational institutions and organizations to ensure cultural and linguistic relevance. By doing so, EdTech companies can help improve educational outcomes and increase access to quality education in Saudi Arabia.",
+      "entry_mode": "invest",
+      "monetization": "Subscription-based models and revenue sharing with local partners",
+      "capabilities": "AI development, educational content creation, and cultural adaptation expertise",
+      "barriers": "Regulatory hurdles, competition from local players, and cultural adaptation challenges",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Adoption of AI and digital transformation is increasing"
+      ],
+      "sector": "edtech",
+      "relevant_sectors": [
+        "education"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "Growing demand for high-quality education and digital transformation in the Saudi education sector",
+      "assumptions": "Continued investment in education and a willingness from Saudi students and educational institutions to adopt new technologies",
+      "invalidation": "Lack of interest from Saudi students and educational institutions in AI-powered education platforms",
+      "_at": "2026-05-26T00:03:33.912201"
+    },
+    {
       "title": "Entertainment and Sports Investment Opportunity",
       "play_type": "business_play",
       "actor": "Saudi-based entertainment and sports companies",
@@ -2026,69 +2086,7 @@
       "assumptions": "The global oil market will continue to be volatile, and the Saudi oil industry will be affected",
       "invalidation": "Announcement of new infrastructure or agreements that stabilize global oil supply chains",
       "_at": "2026-04-26T06:23:57.141021"
-    },
-    {
-      "title": "Saudi Healthcare AI Adoption",
-      "play_type": "business_play",
-      "actor": "Saudi healthcare providers",
-      "customer": "Saudi patients and healthcare institutions",
-      "problem": "Inefficient healthcare services and diagnosis processes",
-      "action_path": "Develop and implement AI-powered diagnostic tools and healthcare management systems to improve patient care and operational efficiency. Partner with AI technology providers to integrate their solutions into existing healthcare infrastructure. Invest in employee training to ensure effective utilization of AI capabilities.",
-      "entry_mode": "partner",
-      "monetization": "Improved patient outcomes, reduced costs, and increased operational efficiency",
-      "capabilities": "AI development and integration, healthcare management, employee training",
-      "barriers": "Regulatory hurdles, data privacy concerns, and resistance to technological change",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Investment in artificial intelligence is increasing, potentially leading to advancements in various sectors"
-      ],
-      "sector": "healthcare",
-      "relevant_sectors": [
-        "healthcare",
-        "technology",
-        "fintech"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by leveraging the increasing investment in AI to improve healthcare services, aligning with the Saudi Vision 2030's goals for a more efficient and effective healthcare system",
-      "assumptions": "AI technology will continue to advance and improve, and Saudi healthcare providers will be willing to adopt and invest in AI solutions",
-      "invalidation": "If AI investment declines or if the technology fails to deliver expected benefits, this play may not be viable",
-      "_at": "2026-04-25T05:34:00.089548"
-    },
-    {
-      "title": "Saudi Fintech AI-Powered Services",
-      "play_type": "market_entry_play",
-      "actor": "Fintech companies",
-      "customer": "Saudi financial institutions and consumers",
-      "problem": "Limited access to advanced financial services and products",
-      "action_path": "Develop and launch AI-powered financial services and products, such as personalized investment platforms and credit scoring systems. Partner with Saudi financial institutions to integrate these services into their existing offerings. Invest in marketing and customer education to promote the adoption of these services.",
-      "entry_mode": "build",
-      "monetization": "Revenue from financial services and products, as well as data analytics and insights",
-      "capabilities": "AI development, financial services, marketing and customer education",
-      "barriers": "Regulatory hurdles, competition from established financial institutions, and consumer resistance to new technologies",
-      "timing": "invest now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Investment in artificial intelligence is increasing, potentially leading to advancements in various sectors"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "banking",
-        "capital_markets"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by leveraging the increasing investment in AI to develop and launch innovative financial services and products, aligning with the Saudi Vision 2030's goals for a more diversified and advanced financial sector",
-      "assumptions": "AI technology will continue to advance and improve, and Saudi financial institutions and consumers will be willing to adopt and invest in AI-powered financial services",
-      "invalidation": "If AI investment declines or if the technology fails to deliver expected benefits, this play may not be viable",
-      "_at": "2026-04-25T05:34:00.089554"
     }
   ],
-  "lastRefresh": "2026-05-24T23:57:30.991005"
+  "lastRefresh": "2026-05-26T00:03:33.917129"
 }
