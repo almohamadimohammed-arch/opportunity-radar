@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "statement": "Investment in data centers is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Growing demand for cloud services and data localization is driving investment in data centers",
+      "ksa_grounding": "Saudi Arabia's data center market is expected to grow, driven by Vision 2030 and investments in AI and renewables, which will contribute to the country's economic diversification",
+      "affected_sectors": [
+        "fintech",
+        "renewable_energy"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "GCC Data Centre Projects Market Analysis Report 2026",
+        "Saudi Arabia Green Data Center Market Forecast and Competitive Analysis Report 2025-2030"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Amazon Web Services",
+        "regional developers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased economic growth and job creation",
+      "downside": "Potential environmental impact and high energy consumption",
+      "first_order": "Direct investment in data centers",
+      "second_order": "Growth of related industries such as fintech and renewable energy",
+      "invalidation": "A significant decline in demand for cloud services or data localization in Saudi Arabia",
+      "_at": "2026-05-27T23:58:53.813027"
+    },
+    {
+      "statement": "Saudi Arabia's oil and gas sector is facing challenges",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "The end of Saudi Arabia's spending spree and geopolitical tensions are affecting the oil and gas sector",
+      "ksa_grounding": "The challenges facing the oil and gas sector will impact Saudi Arabia's economy, as the sector is a significant contributor to the country's revenue",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia's spending spree reaches the end of the line",
+        "U.S. Launches 'Self-Defense' Strikes on Iran"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "Petronas"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased efficiency and reduced costs",
+      "downside": "Potential for reduced revenue and economic growth",
+      "first_order": "Direct impact on the oil and gas sector",
+      "second_order": "Impact on related industries such as petrochemicals and the broader economy",
+      "invalidation": "A significant increase in oil prices or a resolution to the geopolitical tensions in the region",
+      "_at": "2026-05-27T23:58:53.813038"
+    },
+    {
       "statement": "Global trade risks are increasing",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2315,89 +2375,7 @@
       "second_order": "Potential for increased innovation and growth in the energy sector",
       "invalidation": "A significant decline in investment in emerging technologies, leading to reduced innovation and growth",
       "_at": "2026-04-28T07:44:36.900067"
-    },
-    {
-      "statement": "Regulatory barriers to fintech integration are not changing, but innovation and investment in the sector are increasing",
-      "change_type": "innovation",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Partnerships and collaborations between companies are driving innovation and investment in the fintech sector",
-      "ksa_grounding": "This could lead to increased investment and innovation in Saudi Arabia's fintech sector, potentially creating new opportunities for economic growth",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "SpaceX eyes opportunity in artificial intelligence",
-        "Infosys collaborates with OpenAI to accelerate enterprise adoption of artificial intelligence"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "fintech companies",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased innovation and investment in the fintech sector",
-      "downside": "Potential disruption to traditional financial institutions",
-      "first_order": "Increased investment and innovation in the fintech sector",
-      "second_order": "Potential creation of new jobs and economic growth",
-      "invalidation": "A significant decline in fintech investment and innovation would prove this wrong",
-      "_at": "2026-04-27T07:45:08.142819"
-    },
-    {
-      "statement": "Global demand for healthcare technology is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Digital health reforms and increased investment are driving growth in the healthcare technology sector",
-      "ksa_grounding": "This could lead to increased demand for healthcare technology in Saudi Arabia, potentially creating new opportunities for economic growth",
-      "affected_sectors": [
-        "healthcare",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Oman's health technology industry is entering a structured growth phase",
-        "Global additive manufacturing in defense market projected to hit USD 24.81 billion by 2035"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "healthcare providers",
-        "patients"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased access to healthcare technology and improved health outcomes",
-      "downside": "Potential increased costs for healthcare providers and patients",
-      "first_order": "Increased demand for healthcare technology",
-      "second_order": "Potential creation of new jobs and economic growth",
-      "invalidation": "A significant decline in healthcare technology demand would prove this wrong",
-      "_at": "2026-04-27T07:45:08.142831"
-    },
-    {
-      "statement": "Global supply chains are at risk of disruption",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Potential blockades and trade disruptions are increasing the risk of supply chain disruptions",
-      "ksa_grounding": "This could lead to increased risks for Saudi Arabia's oil and gas sector, potentially disrupting global energy markets",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Strait of Hormuz blockade threatens oil supply"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil and gas companies",
-        "global energy markets"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential disruption to global energy markets and increased costs for oil and gas companies",
-      "first_order": "Increased risk of supply chain disruptions",
-      "second_order": "Potential economic losses and instability",
-      "invalidation": "A significant reduction in global supply chain risks would prove this wrong",
-      "_at": "2026-04-27T07:45:08.142833"
     }
   ],
-  "lastRefresh": "2026-05-27T00:03:04.404608"
+  "lastRefresh": "2026-05-27T23:59:00.511573"
 }
