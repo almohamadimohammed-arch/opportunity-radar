@@ -1,6 +1,125 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia's spending spree reaches its limit due to economic pressures",
+      "source": "BBC News",
+      "source_tier": 1,
+      "time": "2026-05-25",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "investment"
+      ],
+      "summary": "Saudi Arabia's Vision 2030 project is facing economic pressures, and the country's spending spree has reached its limit. The project's ambitious goals and high costs have put a strain on the country's finances. As a result, the government is being forced to reassess its priorities and make difficult decisions about where to allocate its resources.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia's economic future and its ability to achieve its Vision 2030 goals. It may also impact the country's relationships with international investors and its position in the global economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-27T00:01:49.214609"
+    },
+    {
+      "title": "ZOE Energy Storage partners with local Saudi ally to build battery storage manufacturing base",
+      "source": "PR Newswire UK",
+      "source_tier": 2,
+      "time": "2026-05-25",
+      "event_type": "partnership",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "renewable_energy",
+        "hydrogen"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "energy",
+        "manufacturing"
+      ],
+      "summary": "ZOE Energy Storage has partnered with a local Saudi company to build the country's first world-class battery energy storage system manufacturing base. The partnership aims to support Saudi Arabia's renewable energy goals and reduce its reliance on fossil fuels.",
+      "why_it_matters": "This partnership has the potential to drive growth in Saudi Arabia's renewable energy sector and support the country's efforts to diversify its economy. It may also create new job opportunities and stimulate local economic development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-27T00:01:49.214621"
+    },
+    {
+      "title": "Aramco to transfer PRefChem stakes to Malaysia's Petronas",
+      "source": "CNA",
+      "source_tier": 2,
+      "time": "2026-05-25",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "investment"
+      ],
+      "summary": "Aramco has announced plans to transfer its equity stakes in the PRefChem refining and petrochemical joint ventures in Malaysia to Petronas. The move is part of Aramco's efforts to optimize its portfolio and focus on its core business.",
+      "why_it_matters": "This development may have implications for Aramco's business strategy and its relationships with international partners. It may also impact the company's financial performance and its ability to achieve its long-term goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-27T00:01:49.214623"
+    },
+    {
+      "title": "Trump mandates Arab nations to normalize ties with Israel as part of Iran deal",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-05-25",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "diplomacy",
+        "international relations"
+      ],
+      "summary": "US President Trump has mandated that Arab nations normalize their ties with Israel as part of a potential deal with Iran. The move is seen as a significant shift in US foreign policy and may have far-reaching implications for the region.",
+      "why_it_matters": "This development has the potential to reshape the Middle East's geopolitical landscape and impact Saudi Arabia's relationships with its regional neighbors. It may also influence the country's position on key issues such as the Israeli-Palestinian conflict.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-27T00:01:49.214625"
+    },
+    {
+      "title": "Iran pushes 'toll' plan on the Strait of Hormuz, threatening global trade chaos",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-05-25",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "logistics"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "trade",
+        "international relations"
+      ],
+      "summary": "Iran has announced plans to create a new authority that would charge fees for any ship passing through the Strait of Hormuz. The move is seen as a threat to global trade and may have significant implications for the global economy.",
+      "why_it_matters": "This development has the potential to disrupt global trade flows and impact Saudi Arabia's oil exports. It may also lead to increased tensions between Iran and its regional neighbors, including Saudi Arabia.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-27T00:01:49.214626"
+    },
+    {
       "title": "Accenture Partners with HUMAIN to Accelerate AI Adoption across Saudi Arabia",
       "source": "Yahoo Entertainment",
       "source_tier": 2,
@@ -2818,114 +2937,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-04-27T07:44:31.008416"
-    },
-    {
-      "title": "EU considers helping with Mideast energy infrastructure",
-      "source": "Abcnews.com",
-      "source_tier": 2,
-      "time": "2026-04-25",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Mideast",
-      "sector_tags": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "politics"
-      ],
-      "summary": "The EU is considering funding alternative energy infrastructure in the Middle East to bypass conflict zones. This move could help reduce the region's reliance on traditional energy sources and promote more sustainable options.",
-      "why_it_matters": "This development could have significant strategic consequences for Saudi Arabia's energy sector, particularly in the areas of oil and gas production, as well as renewable energy development.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-26T06:23:11.422394"
-    },
-    {
-      "title": "Oman's health technology sector enters growth phase",
-      "source": "Middleeastbriefing.com",
-      "source_tier": 2,
-      "time": "2026-04-25",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Oman",
-      "sector_tags": [
-        "healthcare",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "healthcare",
-        "technology"
-      ],
-      "summary": "Oman's health technology sector is entering a structured growth phase under the 2026-2030 policy cycle, driven by digital health reforms. This growth could lead to increased investment and innovation in the sector.",
-      "why_it_matters": "This growth in Oman's health technology sector could have strategic consequences for Saudi Arabia's healthcare sector, particularly in the areas of medical technology and digital health.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-26T06:23:11.422407"
-    },
-    {
-      "title": "Brent crude tops $120 as Hormuz closure cuts supply",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-04-23",
-      "event_type": "infrastructure_disruption",
-      "category": "energy",
-      "geography": "Mideast",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "The closure of the Strait of Hormuz has led to a significant increase in Brent crude prices, topping $120. This disruption to global oil supply chains could have far-reaching consequences for the energy market.",
-      "why_it_matters": "This disruption to global oil supply chains could have significant strategic consequences for Saudi Arabia's oil and gas sector, particularly in terms of production and export.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-26T06:23:11.422410"
-    },
-    {
-      "title": "Infosys collaborates with OpenAI to accelerate AI adoption",
-      "source": "Outlook Business",
-      "source_tier": 2,
-      "time": "2026-04-23",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "business"
-      ],
-      "summary": "Infosys has announced a strategic collaboration with OpenAI to accelerate enterprise adoption of artificial intelligence and modernize software development processes. This partnership could lead to increased innovation and growth in the tech industry.",
-      "why_it_matters": "This partnership could have significant strategic consequences for Saudi Arabia's technology and business sectors, particularly in the areas of fintech and AI development.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-26T06:23:11.422412"
     }
   ],
-  "lastRefresh": "2026-05-26T00:03:33.912305",
+  "lastRefresh": "2026-05-27T00:03:04.401893",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 19,
-    "radar_generated": 5,
+    "articles_to_model": 40,
+    "radar_generated": 6,
     "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_reported": 6,
     "radar_alleged": 0,
-    "radar_sector_tagged": 5,
+    "radar_sector_tagged": 6,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }
