@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "title": "RedCloud Launches Saudi Operations Under $30M Joint Venture with Kayanat",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-05-27",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "investment"
+      ],
+      "summary": "RedCloud has launched its Saudi operations under a $30M joint venture with Kayanat, targeting the $68 billion Saudi FMCG market. The joint venture aims to deploy RAID Intelligence Infrastructure on Anthropic Claude across the Kingdom. This move is part of RedCloud's expansion into the Saudi market under Vision 2030's digitization pathway.",
+      "why_it_matters": "This move has strategic consequences for Saudi Arabia's economy, as it brings in foreign investment and expertise, potentially boosting the country's FMCG market and contributing to its Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-29T00:08:08.700329"
+    },
+    {
+      "title": "Gulf States Face Investment Downturn Amid Iran War",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-05-27",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "investment",
+        "security"
+      ],
+      "summary": "The Iran war has disrupted markets and global capital flows, leading to a reduced investment capacity in Gulf states. This downturn may hinder global financial markets and crypto growth, impacting long-term economic strategies.",
+      "why_it_matters": "The investment downturn in Gulf states has strategic consequences for Saudi Arabia, as it may affect the country's ability to attract foreign investment and achieve its economic diversification goals under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-29T00:08:08.700340"
+    },
+    {
+      "title": "UAE Quits OPEC After Nearly Six Decades",
+      "source": "Activistpost.com",
+      "source_tier": 2,
+      "time": "2026-05-26",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The UAE has announced its exit from OPEC after nearly six decades, striking a major blow to the oil cartel and its unofficial leader, Saudi Arabia. This move may have significant implications for the global energy market.",
+      "why_it_matters": "The UAE's exit from OPEC has strategic consequences for Saudi Arabia, as it may affect the country's influence over the global oil market and its ability to achieve its economic goals under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-29T00:08:08.700342"
+    },
+    {
+      "title": "US Releases 53 Million Barrels From Strategic Petroleum Reserve",
+      "source": "Activistpost.com",
+      "source_tier": 2,
+      "time": "2026-05-28",
+      "event_type": "infrastructure_disruption",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "The US has released 53 million barrels from its Strategic Petroleum Reserve to relieve rising gas prices. This move may have implications for the global energy market and Saudi Arabia's oil exports.",
+      "why_it_matters": "The US release of oil from its Strategic Petroleum Reserve has strategic consequences for Saudi Arabia, as it may affect the country's oil exports and revenue, potentially impacting its economic goals under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-29T00:08:08.700344"
+    },
+    {
+      "title": "Aramco Exits Malaysian Refining, Petrochemical Complex",
+      "source": "Rigzone",
+      "source_tier": 2,
+      "time": "2026-05-27",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Aramco has exited its Malaysian refining and petrochemical complex, citing operational agility and strategic national significance. This move may have implications for Saudi Arabia's energy sector and global investments.",
+      "why_it_matters": "Aramco's exit from the Malaysian refining and petrochemical complex has strategic consequences for Saudi Arabia, as it may affect the company's global investments and the country's energy sector, potentially impacting its economic goals under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-05-29T00:08:08.700345"
+    },
+    {
       "title": "Saudi Arabia's spending spree reaches the end of the line",
       "source": "BBC News",
       "source_tier": 1,
@@ -2824,136 +2938,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-04-29T07:37:08.499684"
-    },
-    {
-      "title": "Japan's Nikkei closes above 60,000 for the first time",
-      "source": "RTE, The Times of India",
-      "source_tier": 2,
-      "time": "2026-04-27",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "finance"
-      ],
-      "summary": "Japan's Nikkei closed above the key 60,000 mark for the first time as optimism over corporate earnings overshadowed concerns about the Middle East conflict. This milestone indicates a positive trend in the Japanese stock market. The Nikkei's rise is attributed to heavyweight technology shares and hopes for a breakthrough in the Middle East conflict.",
-      "why_it_matters": "This development may have implications for Saudi Arabia's energy sector, as a strong Japanese economy could lead to increased demand for oil and petrochemicals. Additionally, a stable Middle East conflict resolution could positively impact the global energy market.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-04-28T07:43:59.637906"
-    },
-    {
-      "title": "Iran war hands OPEC's swing producer crown to America",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-04-27",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "politics"
-      ],
-      "summary": "The Iran war has led to an oil crunch, but the US is increasing oil exports and using its strategic reserves to help alleviate the shortage. As a result, America has become the world's energy superpower.",
-      "why_it_matters": "This shift in the global energy landscape may impact Saudi Arabia's position as a major oil producer and affect its relationships with other oil-producing countries. Saudi Arabia may need to adapt its energy strategy to remain competitive in a changing market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-28T07:43:59.637920"
-    },
-    {
-      "title": "Aramco Ventures invests $7.5 billion in strategic tech",
-      "source": "Forbes",
-      "source_tier": 2,
-      "time": "2026-04-26",
-      "event_type": "funding",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "technology"
-      ],
-      "summary": "Aramco's venture capital arm is investing $7.5 billion in emerging technologies that add value and bring efficiencies to the energy giant's operations. This investment aims to support the company's strategic growth and diversification.",
-      "why_it_matters": "This investment demonstrates Aramco's commitment to innovation and technology, which is crucial for Saudi Arabia's economic diversification and growth. The investment may also lead to the development of new technologies that can benefit the Saudi energy sector.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-28T07:43:59.637922"
-    },
-    {
-      "title": "Oman's health technology industry enters structured growth phase",
-      "source": "Middleeastbriefing.com",
-      "source_tier": 2,
-      "time": "2026-04-25",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "healthcare"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "healthcare",
-        "technology"
-      ],
-      "summary": "Oman's health technology sector is entering a structured growth phase under the 2026-2030 policy cycle, driven by digital health reforms. This growth is expected to lead to increased investment and innovation in the sector.",
-      "why_it_matters": "This development may have implications for Saudi Arabia's healthcare sector, as Oman's growth in health technology could lead to increased collaboration and knowledge sharing between the two countries. Saudi Arabia may also learn from Oman's experiences in implementing digital health reforms.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-28T07:43:59.637924"
-    },
-    {
-      "title": "Strait of Hormuz crisis may lead Gulf region into recession",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-04-26",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "The Strait of Hormuz crisis, caused by attacks, shipping restrictions, and diplomatic efforts, may lead the Gulf region into recession. The crisis is affecting the global oil market and has significant implications for the regional economy.",
-      "why_it_matters": "This crisis may have far-reaching consequences for Saudi Arabia's economy, as the country is heavily reliant on oil exports. A recession in the Gulf region could lead to decreased demand for oil and petrochemicals, affecting Saudi Arabia's revenue and economic stability.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-04-28T07:43:59.637925"
     }
   ],
-  "lastRefresh": "2026-05-27T23:59:00.509044",
+  "lastRefresh": "2026-05-29T00:09:23.794860",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 31,
+    "articles_to_model": 32,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
-    "signals_ksa_grounded": 2,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "signals_moderate": 1,
+    "signals_ksa_grounded": 3,
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }
