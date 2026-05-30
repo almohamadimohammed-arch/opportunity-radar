@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "statement": "Regional stability has increased",
+      "change_type": "geopolitics",
+      "change_vector": "trust_rising",
+      "mechanism": "Saudi Arabia's proposal for non-aggression pact with Iran",
+      "ksa_grounding": "Improved relations between Saudi Arabia and Iran, potentially leading to increased trade and investment",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia Seeks Non-Aggression Pact with Iran"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased regional trade and investment",
+      "downside": "Potential for failed negotiations",
+      "first_order": "Improved relations between Saudi Arabia and Iran",
+      "second_order": "Increased trade and investment in the region",
+      "invalidation": "Failure of non-aggression pact negotiations",
+      "_at": "2026-05-30T00:07:02.650038"
+    },
+    {
       "statement": "Regulatory barrier to fintech integration has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2283,89 +2312,7 @@
       "second_order": "Potential for increased efficiency and productivity in the retail sector",
       "invalidation": "A significant decline in e-commerce growth or a shift away from online shopping",
       "_at": "2026-04-30T07:41:46.276728"
-    },
-    {
-      "statement": "Global oil supply is tightening",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "Iran's storage issues and potential forced output cuts reduce global oil supply",
-      "ksa_grounding": "Saudi Arabia, as a major oil producer, may benefit from higher oil prices due to reduced global supply",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Iran faces crude oil storage crunch, potential forced output cuts looming",
-        "Aramco Ventures Is Pumping $7.5 Billion Into Strategic Tech"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "OPEC+",
-        "oil producers"
-      ],
-      "time_horizon": "now",
-      "upside": "potential increase in oil prices",
-      "downside": "potential market volatility",
-      "first_order": "reduced global oil supply",
-      "second_order": "potential increase in oil prices, impacting global economy",
-      "invalidation": "Iran's storage issues are resolved, or alternative oil supplies are found",
-      "_at": "2026-04-29T07:37:15.311392"
-    },
-    {
-      "statement": "Saudi Arabia's banking sector is experiencing growth",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Record quarterly profits indicate increased demand for banking services",
-      "ksa_grounding": "Saudi Arabia's banking sector growth contributes to the country's economic development",
-      "affected_sectors": [
-        "banking"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Banks Post Record Quarterly Profits of $6.4 Billion"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "banks",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "potential increase in banking sector investments",
-      "downside": "potential risk of over-reliance on banking sector",
-      "first_order": "increased banking sector profits",
-      "second_order": "potential increase in economic growth",
-      "invalidation": "Saudi Arabia's banking sector experiences a decline in profits",
-      "_at": "2026-04-29T07:37:15.311403"
-    },
-    {
-      "statement": "Renewable energy demand is increasing globally",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Europe's acceleration of renewables push drives global demand",
-      "ksa_grounding": "Saudi Arabia, with its Vision 2030, aims to increase its renewable energy production, potentially benefiting from global demand growth",
-      "affected_sectors": [
-        "renewable_energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Europe accelerates renewables push amid Iran war energy disruption"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "renewable energy producers",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "potential increase in renewable energy investments",
-      "downside": "potential competition from other energy sources",
-      "first_order": "increased demand for renewable energy",
-      "second_order": "potential decrease in reliance on fossil fuels",
-      "invalidation": "global demand for renewable energy decreases",
-      "_at": "2026-04-29T07:37:15.311405"
     }
   ],
-  "lastRefresh": "2026-05-29T00:09:23.797734"
+  "lastRefresh": "2026-05-30T00:07:09.654765"
 }
