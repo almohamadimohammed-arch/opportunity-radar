@@ -1,6 +1,89 @@
 {
   "items": [
     {
+      "statement": "Investment capacity in Gulf states is decreasing",
+      "change_type": "investment",
+      "change_vector": "supply_looser",
+      "mechanism": "Global market disruptions and reduced investment capacity are affecting Gulf states",
+      "ksa_grounding": "This change will impact Saudi Arabia's ability to attract foreign investment, potentially hindering economic growth",
+      "affected_sectors": [
+        "oil_gas",
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Gulf States Face Investment Downturn Amid Iran War Disruptions"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Gulf states",
+        "investors"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in alternative sectors",
+      "downside": "Reduced economic growth and investment in key sectors",
+      "first_order": "Reduced investment in key sectors",
+      "second_order": "Economic slowdown and reduced job creation",
+      "invalidation": "If the Iran war is resolved quickly and global markets stabilize",
+      "_at": "2026-05-30T23:58:54.841578"
+    },
+    {
+      "statement": "Global demand for digital healthcare solutions is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "The digital transformation in the healthcare market is driving growth and investment",
+      "ksa_grounding": "This change will increase demand for digital healthcare solutions in Saudi Arabia, aligning with the country's healthcare goals",
+      "affected_sectors": [
+        "healthcare",
+        "biotech",
+        "pharma"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Digital Transformation in Healthcare Market to Hit USD 340 Billion by 2035"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "healthcare providers",
+        "patients"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Improved healthcare outcomes and increased investment in digital healthcare solutions",
+      "downside": "Potential disruption to traditional healthcare sector",
+      "first_order": "Increased investment in digital healthcare solutions",
+      "second_order": "Improved healthcare outcomes and reduced costs",
+      "invalidation": "If the digital transformation in the healthcare market slows down or is hindered by regulatory barriers",
+      "_at": "2026-05-30T23:58:54.841590"
+    },
+    {
+      "statement": "Global AI dominance is shifting away from the US",
+      "change_type": "technology",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Chinese AI models are rapidly becoming a global artificial intelligence force",
+      "ksa_grounding": "This change will impact Saudi Arabia's technology partnerships and investments, potentially leading to increased collaboration with Chinese companies",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "China's AI Models Surge in 2026, Signaling a Global Shift Away from US AI Dominance"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "tech companies",
+        "investors"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased investment and collaboration in AI research and development",
+      "downside": "Potential disruption to existing technology partnerships and investments",
+      "first_order": "Shift in global AI dominance",
+      "second_order": "Increased investment and collaboration in AI research and development",
+      "invalidation": "If the US regains its dominance in the global AI market",
+      "_at": "2026-05-30T23:58:54.841592"
+    },
+    {
       "statement": "Regional stability has increased",
       "change_type": "geopolitics",
       "change_vector": "trust_rising",
@@ -2222,97 +2305,7 @@
       "second_order": "Potential impact on Saudi Arabia's economic diversification",
       "invalidation": "If Aramco's expansion into AI and advanced technologies is unsuccessful",
       "_at": "2026-05-01T07:39:56.665924"
-    },
-    {
-      "statement": "Investment in advanced technologies is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Aramco's investment in AI and advanced technologies may lead to increased adoption and development of these technologies in the energy sector",
-      "ksa_grounding": "This may lead to increased competitiveness and diversification of Saudi Arabia's energy sector",
-      "affected_sectors": [
-        "oil_gas",
-        "fintech"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Aramco invests in AI and advanced technologies",
-        "UAE's exit from OPEC may lead to a shift in global oil market dynamics"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Aramco",
-        "energy sector investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased competitiveness and diversification of Saudi Arabia's energy sector",
-      "downside": "Potential disruption to traditional energy sector business models",
-      "first_order": "Increased investment in advanced technologies",
-      "second_order": "Potential for increased efficiency and productivity in the energy sector",
-      "invalidation": "A significant decline in Aramco's investment in advanced technologies or a failure to adopt these technologies in the energy sector",
-      "_at": "2026-04-30T07:41:46.276714"
-    },
-    {
-      "statement": "Demand for safe-haven assets is rising",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Global gold demand rose 2% in the Jan-Mar quarter, driven by a surge in bar and coin investment, indicating growing investor interest in safe-haven assets",
-      "ksa_grounding": "This may lead to increased investment in Saudi Arabia's gold and precious metals market",
-      "affected_sectors": [
-        "banking",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Global gold demand rises 2% in Jan-Mar quarter",
-        "UAE's exit from OPEC may lead to a shift in global oil market dynamics"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "investors",
-        "banks"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased investment in Saudi Arabia's gold and precious metals market",
-      "downside": "Potential for decreased investment in other asset classes",
-      "first_order": "Increased demand for safe-haven assets",
-      "second_order": "Potential for increased stability in financial markets",
-      "invalidation": "A significant decline in global gold demand or a shift away from safe-haven assets",
-      "_at": "2026-04-30T07:41:46.276726"
-    },
-    {
-      "statement": "E-commerce market is growing",
-      "change_type": "market",
-      "change_vector": "demand_up",
-      "mechanism": "Saudi Arabia's e-commerce apparel market is expected to grow, driven by increased smartphone penetration and online shopping",
-      "ksa_grounding": "This may lead to increased economic activity and job creation in Saudi Arabia's retail sector",
-      "affected_sectors": [
-        "tourism",
-        "hospitality",
-        "entertainment"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Arabia's e-commerce apparel market poised for growth",
-        "Aramco invests in AI and advanced technologies"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "consumers",
-        "retailers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased economic activity and job creation in Saudi Arabia's retail sector",
-      "downside": "Potential for disruption to traditional retail business models",
-      "first_order": "Increased demand for e-commerce",
-      "second_order": "Potential for increased efficiency and productivity in the retail sector",
-      "invalidation": "A significant decline in e-commerce growth or a shift away from online shopping",
-      "_at": "2026-04-30T07:41:46.276728"
     }
   ],
-  "lastRefresh": "2026-05-30T00:07:09.654765"
+  "lastRefresh": "2026-05-30T23:58:59.847993"
 }
