@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Saudi Trade Facilitation",
+      "play_type": "business_play",
+      "actor": "Saudi logistics and trade companies",
+      "customer": "Regional traders and businesses",
+      "problem": "Regulatory barriers to regional trade are reducing, creating opportunities for increased trade",
+      "action_path": "Develop trade facilitation services, such as customs clearance and freight forwarding, to capitalize on the easing of trade restrictions. Invest in digital platforms to streamline trade processes and improve efficiency. Partner with regional businesses to expand trade networks.",
+      "entry_mode": "build",
+      "monetization": "Revenue from trade facilitation services and increased trade volumes",
+      "capabilities": "Logistics and trade expertise, digital platform development, regional business networks",
+      "barriers": "Competition from established trade facilitation companies, regulatory complexities",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory barriers to regional trade are reducing"
+      ],
+      "sector": "trade",
+      "relevant_sectors": [
+        "oil_gas",
+        "logistics"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy will benefit from increased trade with Oman and potentially improved oil supply chains",
+      "assumptions": "The Comprehensive Economic Partnership Agreement will be successful in boosting trade, and the Strait of Hormuz will remain open",
+      "invalidation": "Failure of the Comprehensive Economic Partnership Agreement to boost trade or the Strait of Hormuz remaining closed",
+      "_at": "2026-06-02T00:10:30.930642"
+    },
+    {
+      "title": "Renewable Energy Infrastructure Development",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi renewable energy companies",
+      "customer": "Saudi government and regional businesses",
+      "problem": "Demand for renewable energy is increasing in the Middle East",
+      "action_path": "Develop and invest in renewable energy infrastructure, such as solar and wind farms, to meet growing demand. Partner with regional governments and businesses to develop renewable energy projects. Build capabilities in renewable energy technology and project development.",
+      "entry_mode": "invest",
+      "monetization": "Revenue from renewable energy sales and project development",
+      "capabilities": "Renewable energy technology expertise, project development and management",
+      "barriers": "High upfront costs, regulatory complexities",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Demand for renewable energy is increasing in the Middle East"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "electricity"
+      ],
+      "relevant_regions": [
+        "neom",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy will benefit from its emerging role as a leader in electric vehicle adoption and manufacturing",
+      "assumptions": "Saudi Arabia will maintain its leadership in electric vehicle adoption and manufacturing, and demand for renewable energy will continue to grow",
+      "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
+      "_at": "2026-06-02T00:10:30.930651"
+    },
+    {
+      "title": "Electric Vehicle Manufacturing",
+      "play_type": "market_entry_play",
+      "actor": "Saudi manufacturing companies",
+      "customer": "Regional automotive markets",
+      "problem": "Demand for electric vehicles is increasing in the Middle East",
+      "action_path": "Develop and manufacture electric vehicles, partnering with regional automotive companies and investing in electric vehicle technology. Build capabilities in electric vehicle manufacturing and supply chain management.",
+      "entry_mode": "build",
+      "monetization": "Revenue from electric vehicle sales",
+      "capabilities": "Electric vehicle manufacturing expertise, supply chain management",
+      "barriers": "High upfront costs, competition from established automotive manufacturers",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Demand for renewable energy is increasing in the Middle East"
+      ],
+      "sector": "electricity",
+      "relevant_sectors": [
+        "renewable_energy",
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "jeddah",
+        "riyadh"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy will benefit from its emerging role as a leader in electric vehicle adoption and manufacturing",
+      "assumptions": "Demand for electric vehicles will continue to grow, and Saudi Arabia will maintain its leadership in electric vehicle adoption and manufacturing",
+      "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
+      "_at": "2026-06-02T00:10:30.930653"
+    },
+    {
       "title": "Diversification of Energy Sources",
       "play_type": "business_play",
       "actor": "Saudi Arabian energy companies",
@@ -1938,67 +2029,7 @@
       "assumptions": "Global oil demand will remain stable, regional economic stability will be maintained",
       "invalidation": "OPEC's ability to maintain production cuts and stabilize the market",
       "_at": "2026-05-03T07:28:09.091392"
-    },
-    {
-      "title": "Diversification of Saudi Energy Sector",
-      "play_type": "business_play",
-      "actor": "Saudi energy companies",
-      "customer": "Saudi government and energy consumers",
-      "problem": "Potential loss of influence in the oil market due to the UAE's exit from OPEC",
-      "action_path": "Saudi energy companies should diversify their investments in the energy sector, focusing on renewable energy sources and reducing dependence on oil exports. This can be achieved by partnering with international companies and investing in research and development of new energy technologies. By doing so, Saudi Arabia can maintain its influence in the global energy market and reduce the impact of the UAE's exit from OPEC.",
-      "entry_mode": "partner",
-      "monetization": "Increased revenue through diversified energy sources and reduced dependence on oil exports",
-      "capabilities": "Renewable energy technologies, research and development, international partnerships",
-      "barriers": "High initial investment costs, lack of expertise in renewable energy",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Global energy market dynamics are shifting"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "renewable_energy",
-        "energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "The play connects to Saudi market structure by reducing the country's dependence on oil exports and maintaining its influence in the global energy market",
-      "assumptions": "The UAE's exit from OPEC will lead to significant changes in global energy market dynamics, and Saudi Arabia will be able to successfully diversify its energy sector",
-      "invalidation": "If the UAE's exit from OPEC does not lead to significant changes in global energy market dynamics, or if Saudi Arabia is unable to successfully diversify its energy sector",
-      "_at": "2026-05-02T06:24:50.365300"
-    },
-    {
-      "title": "Development of Energy Trading Platforms",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi energy companies and fintech firms",
-      "customer": "Energy traders and consumers",
-      "problem": "Need for efficient and transparent energy trading platforms in a fragmented global energy market",
-      "action_path": "Develop energy trading platforms that utilize blockchain technology and artificial intelligence to facilitate efficient and transparent energy trading. This can be achieved by partnering with fintech firms and investing in research and development of new energy trading technologies. By doing so, Saudi Arabia can establish itself as a hub for energy trading in the region.",
-      "entry_mode": "build",
-      "monetization": "Transaction fees and revenue from energy trading",
-      "capabilities": "Blockchain technology, artificial intelligence, energy trading expertise",
-      "barriers": "High development costs, regulatory hurdles",
-      "timing": "build",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Global energy market dynamics are shifting"
-      ],
-      "sector": "energy",
-      "relevant_sectors": [
-        "fintech",
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "The play connects to Saudi market structure by establishing the country as a hub for energy trading in the region",
-      "assumptions": "The UAE's exit from OPEC will lead to a more fragmented global energy market, and Saudi Arabia will be able to successfully develop energy trading platforms",
-      "invalidation": "If the UAE's exit from OPEC does not lead to a more fragmented global energy market, or if Saudi Arabia is unable to successfully develop energy trading platforms",
-      "_at": "2026-05-02T06:24:50.365310"
     }
   ],
-  "lastRefresh": "2026-06-01T00:04:35.522833"
+  "lastRefresh": "2026-06-02T00:10:30.935079"
 }
