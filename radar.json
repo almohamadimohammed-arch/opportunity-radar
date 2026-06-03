@@ -1,6 +1,113 @@
 {
   "items": [
     {
+      "title": "Global Health Exhibition 2026 expands into growth sectors",
+      "source": "Weeklyvoice.com",
+      "source_tier": 2,
+      "time": "2026-06-01",
+      "event_type": "product_launch",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "healthcare industry"
+      ],
+      "summary": "The Global Health Exhibition 2026 is expanding into growth sectors such as Dermatology & Aesthetics, Orthopaedics & Rehab, and Dental. The exhibition is under the patronage of the Ministry of Health and supported by Vision 2030. Registration for the exhibition is now open.",
+      "why_it_matters": "This expansion is significant for Saudi Arabia's healthcare sector, as it highlights the growing importance of specialized healthcare services in the country. It also demonstrates the government's commitment to supporting the development of the healthcare industry.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-03T00:25:46.464824"
+    },
+    {
+      "title": "Saudi National Housing Company emerges as a central force in reshaping the Kingdom's housing market",
+      "source": "Aawsat.com",
+      "source_tier": 2,
+      "time": "2026-05-31",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "real estate"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "housing market"
+      ],
+      "summary": "The Saudi National Housing Company has emerged as a central force in reshaping the Kingdom's housing market, evolving from a state-backed developer into a key engine of Crown Prince Mohammed bin Salman's vision for the country's housing sector.",
+      "why_it_matters": "This development is significant for Saudi Arabia's real estate sector, as it highlights the government's efforts to address the country's housing needs and promote economic growth. It also demonstrates the company's growing importance in the Kingdom's housing market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-03T00:25:46.464832"
+    },
+    {
+      "title": "Oil prices surge due to Israel-Iran conflict",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-06-01",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global oil market"
+      ],
+      "summary": "Oil prices have surged due to the conflict between Israel and Iran, with crude oil gaining over 2%. The escalation of the conflict has weakened hopes for a U.S.-Iran ceasefire extension.",
+      "why_it_matters": "This development is significant for Saudi Arabia's oil and gas sector, as it highlights the potential impact of geopolitical tensions on global oil prices. It also demonstrates the importance of the region's oil production in the global energy market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-03T00:25:46.464834"
+    },
+    {
+      "title": "India-Oman Comprehensive Economic Partnership Agreement comes into effect",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-06-01",
+      "event_type": "regulation",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "trade"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "international trade"
+      ],
+      "summary": "The India-Oman Comprehensive Economic Partnership Agreement has come into effect, providing Indian exporters with preferential market access in Oman. The agreement also enables Indian firms to hire workers without local quotas.",
+      "why_it_matters": "This development is significant for Saudi Arabia's trade sector, as it highlights the growing importance of regional trade agreements in promoting economic cooperation and growth. It also demonstrates the potential for increased trade between India and Oman.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-03T00:25:46.464836"
+    },
+    {
+      "title": "Japan to disburse $20 million to World Bank to spur critical minerals supply chains",
+      "source": "Japan Today",
+      "source_tier": 2,
+      "time": "2026-06-01",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "mining industry"
+      ],
+      "summary": "Japan will disburse $20 million to the World Bank to spur investments in developing countries to strengthen supply chains of critical minerals. The move aims to promote the development of critical minerals and reduce dependence on limited suppliers.",
+      "why_it_matters": "This development is significant for Saudi Arabia's mining sector, as it highlights the growing importance of critical minerals in the global economy. It also demonstrates Japan's efforts to promote the development of critical minerals and reduce dependence on limited suppliers.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-03T00:25:46.464837"
+    },
+    {
       "title": "Saudi Arabia emerges as a leading force in electric vehicle adoption and manufacturing in the Middle East",
       "source": "Arabnews.jp",
       "source_tier": 2,
@@ -2762,135 +2869,23 @@
       "verification_status": "confirmed",
       "source_count": 2,
       "_at": "2026-05-04T08:09:17.780837"
-    },
-    {
-      "title": "UAE exits OPEC, potentially altering global oil market dynamics",
-      "source": "Al Jazeera English",
-      "source_tier": 1,
-      "time": "2026-05-01",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "The UAE's decision to leave OPEC may lead to increased oil production and potentially lower prices. This move could also signal a shift in the UAE's alignment with US interests. The exit may impact the global oil market, particularly if the Strait of Hormuz opens.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's oil market share and influence, as well as the overall stability of the global energy market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-03T07:27:24.430636"
-    },
-    {
-      "title": "LIV Golf loses Saudi funding, faces uncertain future",
-      "source": "DW (English)",
-      "source_tier": 2,
-      "time": "2026-04-30",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "entertainment",
-        "sports"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "golf",
-        "sports"
-      ],
-      "summary": "The Public Investment Fund of Saudi Arabia has withdrawn its funding for LIV Golf, leaving the league's future uncertain. This decision may impact the golf industry and the reputation of Saudi Arabia's investments.",
-      "why_it_matters": "This development could affect Saudi Arabia's reputation as a reliable investor and its ability to attract international sports events, potentially influencing the country's tourism and entertainment sectors.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-03T07:27:24.430648"
-    },
-    {
-      "title": "Iran inflicts significant damage on US military bases in the Gulf",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-05-02",
-      "event_type": "infrastructure_disruption",
-      "category": "security",
-      "geography": "Gulf",
-      "sector_tags": [
-        "defense"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "military",
-        "security"
-      ],
-      "summary": "Iran has caused significant damage to US military bases in the Gulf, including facilities in Kuwait and Qatar. This development may impact regional security and the US military presence in the area.",
-      "why_it_matters": "This incident could escalate tensions between the US and Iran, potentially affecting Saudi Arabia's security and stability, as well as the overall stability of the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-03T07:27:24.430650"
-    },
-    {
-      "title": "USS Gerald R. Ford departs the Middle East, signaling partial US military de-escalation",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-05-02",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "defense"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "military",
-        "security"
-      ],
-      "summary": "The USS Gerald R. Ford's departure from the Middle East may ease regional tensions and reduce the risk of immediate conflict with Iran. This development could impact the stability of the region and the global oil market.",
-      "why_it_matters": "This move could have significant implications for Saudi Arabia's security and stability, as well as the overall stability of the region, potentially influencing the country's oil market and economy.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-03T07:27:24.430652"
-    },
-    {
-      "title": "Gulf countries' plans to bypass Hormuz face significant challenges",
-      "source": "Digital Journal",
-      "source_tier": 2,
-      "time": "2026-05-01",
-      "event_type": "infrastructure_disruption",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas",
-        "logistics"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "trade"
-      ],
-      "summary": "Gulf countries' plans to bypass the Strait of Hormuz face significant challenges, including the need for significant investment and infrastructure development. This development could impact the stability of the global oil market and the economy of the region.",
-      "why_it_matters": "This challenge could have significant implications for Saudi Arabia's oil exports and economy, as well as the overall stability of the global energy market, potentially influencing the country's economic diversification efforts.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-03T07:27:24.430653"
     }
   ],
-  "lastRefresh": "2026-06-02T00:10:30.930754",
+  "lastRefresh": "2026-06-03T00:27:00.732875",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 25,
+    "articles_to_model": 26,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
-    "signals_ksa_grounded": 2,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "signals_moderate": 1,
+    "signals_ksa_grounded": 3,
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

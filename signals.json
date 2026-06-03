@@ -1,6 +1,58 @@
 {
   "items": [
     {
+      "statement": "Investment in critical minerals supply chains is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Countries are investing in critical minerals supply chains to reduce dependence on limited suppliers",
+      "ksa_grounding": "Saudi Arabia's mining sector may benefit from increased investment in critical minerals supply chains, potentially leading to increased production and exports",
+      "affected_sectors": [
+        "mining"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Japan to disburse $20 million to World Bank to spur critical minerals supply chains"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "mining companies",
+        "investors"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased investment in critical minerals supply chains",
+      "downside": "Potential for decreased investment or failure to produce significant results",
+      "first_order": "Increased investment in critical minerals supply chains",
+      "second_order": "Potential for increased production and exports of critical minerals in Saudi Arabia",
+      "invalidation": "If Japan's investment in critical minerals supply chains fails to produce significant results or is revoked",
+      "_at": "2026-06-03T00:26:23.690680"
+    },
+    {
+      "statement": "Demand for healthcare services is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "The Global Health Exhibition 2026 is expanding into growth sectors, indicating increased demand for healthcare services",
+      "ksa_grounding": "Saudi Arabia's healthcare sector may benefit from increased demand for healthcare services, potentially leading to increased investment and growth",
+      "affected_sectors": [
+        "healthcare"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Global Health Exhibition 2026 expands into growth sectors"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "healthcare providers",
+        "patients"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased demand for healthcare services",
+      "downside": "Potential for decreased demand or failure to produce significant results",
+      "first_order": "Increased demand for healthcare services",
+      "second_order": "Potential for increased investment and growth in Saudi Arabia's healthcare sector",
+      "invalidation": "If the Global Health Exhibition 2026 fails to produce significant results or is cancelled",
+      "_at": "2026-06-03T00:26:23.690688"
+    },
+    {
       "statement": "Regulatory barriers to regional trade are reducing",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2214,97 +2266,7 @@
       "second_order": "Potential growth in Saudi Arabia's economy through increased trade and investment",
       "invalidation": "If Saudi Arabia's international partnerships do not lead to increased trade and investment opportunities",
       "_at": "2026-05-04T08:09:54.898507"
-    },
-    {
-      "statement": "Regulatory barrier to oil production has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "UAE's exit from OPEC may lead to increased oil production",
-      "ksa_grounding": "Saudi Arabia's oil market dynamics may be altered, potentially affecting its oil production and revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "UAE exits OPEC, potentially altering global oil market dynamics",
-        "Gulf countries' plans to bypass Hormuz face significant challenges"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "OPEC"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in oil production and revenue",
-      "downside": "Potential decrease in oil prices and revenue",
-      "first_order": "Increased oil production",
-      "second_order": "Impact on global oil market dynamics",
-      "invalidation": "OPEC's ability to maintain production cuts and stabilize the market",
-      "_at": "2026-05-03T07:27:31.495390"
-    },
-    {
-      "statement": "Risk exposure in the Gulf region has decreased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_falling",
-      "mechanism": "US military de-escalation and reduced tensions in the region",
-      "ksa_grounding": "Reduced risk of conflict and increased stability in the region may positively impact Saudi Arabia's economy and investment climate",
-      "affected_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "affected_regions": [
-        "eastern_province",
-        "jeddah"
-      ],
-      "evidence": [
-        "USS Gerald R. Ford departs the Middle East, signaling partial US military de-escalation",
-        "Iran inflicts significant damage on US military bases in the Gulf"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "US military",
-        "Iran"
-      ],
-      "time_horizon": "now",
-      "upside": "Reduced risk of conflict and increased stability",
-      "downside": "Potential for future conflict and instability",
-      "first_order": "Reduced US military presence",
-      "second_order": "Impact on regional stability and global oil market",
-      "invalidation": "Escalation of conflict between the US and Iran",
-      "_at": "2026-05-03T07:27:31.495399"
-    },
-    {
-      "statement": "Investment in sports and entertainment has decreased",
-      "change_type": "investment",
-      "change_vector": "cost_falling",
-      "mechanism": "Withdrawal of Saudi funding for LIV Golf",
-      "ksa_grounding": "Reduced investment in sports and entertainment may impact Saudi Arabia's tourism and hospitality sectors",
-      "affected_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "affected_regions": [
-        "jeddah",
-        "riyadh"
-      ],
-      "evidence": [
-        "LIV Golf loses Saudi funding, faces uncertain future"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Public Investment Fund of Saudi Arabia",
-        "LIV Golf"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential reduction in costs and increased focus on other investments",
-      "downside": "Potential impact on Saudi Arabia's reputation and tourism industry",
-      "first_order": "Reduced investment in LIV Golf",
-      "second_order": "Impact on Saudi Arabia's sports and entertainment sectors",
-      "invalidation": "Reinstatement of Saudi funding for LIV Golf",
-      "_at": "2026-05-03T07:27:31.495401"
     }
   ],
-  "lastRefresh": "2026-06-02T00:10:30.933220"
+  "lastRefresh": "2026-06-03T00:27:00.735506"
 }
