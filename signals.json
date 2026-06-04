@@ -1,6 +1,88 @@
 {
   "items": [
     {
+      "statement": "Investment in global markets is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Gulf states, including Saudi Arabia, are spending billions on global investments, indicating a growing demand for investment opportunities",
+      "ksa_grounding": "This increase in investment could lead to a more diversified economy in Saudi Arabia, with potential benefits for the banking and fintech sectors",
+      "affected_sectors": [
+        "banking",
+        "fintech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Gulf states spend almost $26 billion on global investments in March, April, and May"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Gulf states",
+        "investors"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased economic growth and diversification",
+      "downside": "Risk of over-investment in volatile markets",
+      "first_order": "Increased investment in global markets",
+      "second_order": "Potential for increased economic growth and job creation in Saudi Arabia",
+      "invalidation": "A significant decline in global investment by Gulf states would invalidate this signal",
+      "_at": "2026-06-04T00:29:15.066719"
+    },
+    {
+      "statement": "Construction sector faces supply chain challenges",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Saudi Arabia's domestic sand is unsuitable for construction, leading to imports from countries like Australia, which can be costly and logistically challenging",
+      "ksa_grounding": "This supply chain challenge could lead to increased costs and delays in construction projects in Saudi Arabia, potentially impacting the country's infrastructure development plans",
+      "affected_sectors": [
+        "construction"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia imports sand from countries like Australia due to the unsuitability of domestic sand for construction"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "construction companies",
+        "importers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in domestic sand production or alternative materials",
+      "downside": "Risk of increased costs and delays in construction projects",
+      "first_order": "Increased reliance on imported construction materials",
+      "second_order": "Potential for increased costs and delays in infrastructure development projects",
+      "invalidation": "A significant improvement in domestic sand production or a reduction in construction material imports would invalidate this signal",
+      "_at": "2026-06-04T00:29:15.066729"
+    },
+    {
+      "statement": "Digital transformation is accelerating",
+      "change_type": "technology",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Companies like DAMAC Digital are expanding their IT capacity, and AI is poised to automate enterprise data tasks, indicating a growing demand for digital infrastructure and services",
+      "ksa_grounding": "This acceleration in digital transformation could lead to increased investment in Saudi Arabia's technology sector, with potential benefits for the country's economic diversification plans",
+      "affected_sectors": [
+        "technology",
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "DAMAC Digital reaches 6,000MW planned IT capacity landbank across North America, Europe, Asia, and the Middle East",
+        "AI could automate 50% of enterprise data work in 18 months"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "technology companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased economic growth and job creation in the technology sector",
+      "downside": "Risk of job displacement due to automation",
+      "first_order": "Increased investment in digital infrastructure and services",
+      "second_order": "Potential for increased economic growth and job creation in the technology sector",
+      "invalidation": "A significant decline in digital transformation investments or a failure to automate enterprise data tasks would invalidate this signal",
+      "_at": "2026-06-04T00:29:15.066732"
+    },
+    {
       "statement": "Investment in critical minerals supply chains is increasing",
       "change_type": "investment",
       "change_vector": "feasibility_increasing",
@@ -2210,63 +2292,7 @@
       "second_order": "Potential impact on Saudi Arabia's oil revenue and economy",
       "invalidation": "A significant disruption to oil production or a major increase in global oil demand would invalidate this signal",
       "_at": "2026-05-05T06:37:58.577297"
-    },
-    {
-      "statement": "Demand for cloud services is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Strong enterprise spending on artificial intelligence is driving growth in cloud sales",
-      "ksa_grounding": "Saudi Arabia's growing technology sector may benefit from increased demand for cloud services, particularly in areas such as AI development",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Amazon tops cloud expectations on strong AI demand"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Amazon",
-        "Saudi tech companies"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential growth opportunities for Saudi tech companies",
-      "downside": "Potential increased competition in the cloud services market",
-      "first_order": "Increased demand for cloud services",
-      "second_order": "Potential growth in Saudi Arabia's technology sector",
-      "invalidation": "If cloud sales growth slows down, or if AI demand decreases",
-      "_at": "2026-05-04T08:09:54.898498"
-    },
-    {
-      "statement": "Strategic partnerships between Saudi Arabia and other countries are increasing",
-      "change_type": "institutional priority",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "Saudi Arabia's Industry and Mineral Resources Minister highlights 'strategic' ties with T\u00fcrkiye, indicating a shift in priorities towards strengthening international partnerships",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased trade and investment opportunities with countries such as T\u00fcrkiye",
-      "affected_sectors": [
-        "oil_gas",
-        "mining"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi minister hails 'strategic' ties with T\u00fcrkiye"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi government",
-        "Turkish businesses"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in trade and investment opportunities",
-      "downside": "Potential risks associated with international partnerships, such as geopolitical tensions",
-      "first_order": "Increased strategic partnerships between Saudi Arabia and other countries",
-      "second_order": "Potential growth in Saudi Arabia's economy through increased trade and investment",
-      "invalidation": "If Saudi Arabia's international partnerships do not lead to increased trade and investment opportunities",
-      "_at": "2026-05-04T08:09:54.898507"
     }
   ],
-  "lastRefresh": "2026-06-03T00:27:00.735506"
+  "lastRefresh": "2026-06-04T00:29:52.474300"
 }

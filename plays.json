@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Saudi Fintech Digital Infrastructure Expansion",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi fintech companies, IT service providers",
+      "customer": "Saudi banks, financial institutions",
+      "problem": "Growing demand for digital infrastructure and services due to accelerating digital transformation",
+      "action_path": "Develop and deploy cloud-native digital infrastructure solutions to support the automation of enterprise data tasks. This can include data storage, processing, and analytics services. Partner with key stakeholders to ensure seamless integration and adoption.",
+      "entry_mode": "build",
+      "monetization": "Revenue streams from infrastructure provision, data analytics, and IT services",
+      "capabilities": "Cloud-native capabilities, data analytics, cybersecurity",
+      "barriers": "High initial investment, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Digital transformation is accelerating"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "technology",
+        "banking"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Supports Saudi Arabia's economic diversification plans by investing in the technology sector",
+      "assumptions": "Digital transformation will continue to accelerate, and demand for digital infrastructure will increase",
+      "invalidation": "A significant decline in digital transformation investments or a failure to automate enterprise data tasks",
+      "_at": "2026-06-04T00:29:52.471331"
+    },
+    {
+      "title": "AI-Powered Data Task Automation",
+      "play_type": "business_play",
+      "actor": "Saudi IT service providers, AI startups",
+      "customer": "Saudi enterprises, financial institutions",
+      "problem": "Inefficient manual data tasks hindering business operations",
+      "action_path": "Develop and implement AI-powered solutions to automate enterprise data tasks, such as data processing and analytics. Collaborate with key stakeholders to ensure customized solutions. Invest in employee training and development to support AI adoption.",
+      "entry_mode": "build",
+      "monetization": "Revenue streams from AI solution provision, data analytics, and IT services",
+      "capabilities": "AI development, data analytics, IT service provision",
+      "barriers": "High initial investment, talent acquisition and retention",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Digital transformation is accelerating"
+      ],
+      "sector": "technology",
+      "relevant_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification plans by investing in the technology sector and supporting digital transformation",
+      "assumptions": "AI adoption will increase, and demand for automated data tasks will grow",
+      "invalidation": "A significant decline in AI adoption or a failure to automate enterprise data tasks",
+      "_at": "2026-06-04T00:29:52.471340"
+    },
+    {
+      "title": "Cybersecurity for Digital Infrastructure",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi cybersecurity firms, IT service providers",
+      "customer": "Saudi fintech companies, financial institutions",
+      "problem": "Growing cybersecurity threats due to accelerating digital transformation",
+      "action_path": "Develop and deploy cloud-native cybersecurity solutions to protect digital infrastructure and data. Collaborate with key stakeholders to ensure seamless integration and adoption. Invest in employee training and development to support cybersecurity expertise.",
+      "entry_mode": "build",
+      "monetization": "Revenue streams from cybersecurity solution provision, IT services",
+      "capabilities": "Cloud-native cybersecurity, threat detection, incident response",
+      "barriers": "High initial investment, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Digital transformation is accelerating"
+      ],
+      "sector": "cybersecurity",
+      "relevant_sectors": [
+        "technology",
+        "fintech",
+        "banking"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Supports Saudi Arabia's economic diversification plans by investing in the technology sector and ensuring cybersecurity",
+      "assumptions": "Cybersecurity threats will increase, and demand for cybersecurity solutions will grow",
+      "invalidation": "A significant decline in cybersecurity threats or a failure to protect digital infrastructure",
+      "_at": "2026-06-04T00:29:52.471342"
+    },
+    {
       "title": "Saudi Trade Expansion",
       "play_type": "business_play",
       "actor": "Saudi enterprises, trade companies",
@@ -1971,37 +2062,7 @@
       "assumptions": "The global oil supply will continue to increase, and oil prices will decrease",
       "invalidation": "A significant disruption to oil production or a major increase in global oil demand",
       "_at": "2026-05-05T06:38:36.205489"
-    },
-    {
-      "title": "Saudi Oil Producers Enhance Competitiveness",
-      "play_type": "business_play",
-      "actor": "Saudi oil production companies",
-      "customer": "Global oil market",
-      "problem": "Increased competition in the global oil market due to UAE's exit from OPEC",
-      "action_path": "Saudi oil producers should enhance their competitiveness by increasing production efficiency, reducing costs, and improving product quality. This can be achieved by investing in new technologies and processes, such as artificial intelligence and data analytics. Additionally, they should focus on developing strategic partnerships with other oil-producing countries to maintain market share.",
-      "entry_mode": "build",
-      "monetization": "Increased revenue through higher production volumes and better pricing",
-      "capabilities": "Operational efficiency, technological innovation, strategic partnership development",
-      "barriers": "High upfront investment costs, potential resistance to change from existing stakeholders",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "UAE's exit from OPEC allows for increased oil production"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports may be affected by the UAE's decision, potentially leading to increased competition in the global oil market",
-      "assumptions": "The UAE's exit from OPEC will lead to an increase in oil production, and Saudi Arabia will need to enhance its competitiveness to maintain market share",
-      "invalidation": "If the UAE's exit from OPEC does not lead to an increase in oil production, or if OPEC is able to maintain its market share",
-      "_at": "2026-05-04T08:10:02.060149"
     }
   ],
-  "lastRefresh": "2026-06-03T00:27:00.737409"
+  "lastRefresh": "2026-06-04T00:29:52.476344"
 }
