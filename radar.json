@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "title": "IMF warns that a prolonged Iran war could weigh on Saudi Arabia's medium-term outlook",
+      "source": "The National",
+      "source_tier": 2,
+      "time": "2026-06-03",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "economy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance"
+      ],
+      "summary": "The IMF has warned that a prolonged war in Iran could have negative consequences for Saudi Arabia's economy in the medium term.",
+      "why_it_matters": "This warning from the IMF highlights the potential risks to Saudi Arabia's economic stability due to regional geopolitical tensions.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-05T00:02:52.596182"
+    },
+    {
+      "title": "UAE's Permus Software House launches Myndlab, the region's first native Arabic AI application builder",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-06-03",
+      "event_type": "product_launch",
+      "category": "technology",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "edtech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "innovation"
+      ],
+      "summary": "Permus Software House has launched Myndlab, a platform for building native Arabic AI applications, which could empower GCC founders, developers, and SMEs.",
+      "why_it_matters": "This launch could boost innovation and entrepreneurship in the Gulf region, with potential benefits for Saudi Arabia's tech sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-05T00:02:52.596192"
+    },
+    {
+      "title": "Saudi Arabia and Russia draw closer amid OPEC upheaval",
+      "source": "DW (English)",
+      "source_tier": 2,
+      "time": "2026-06-03",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Saudi Arabia and Russia are deepening their cooperation, which could shift the balance of power in global energy markets.",
+      "why_it_matters": "This closer relationship between Saudi Arabia and Russia may have significant implications for the global energy landscape and Saudi Arabia's role within it.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-05T00:02:52.596194"
+    },
+    {
+      "title": "Meta launches enterprise-focused AI 'business agent' to automate daily operations",
+      "source": "MarketScreener",
+      "source_tier": 2,
+      "time": "2026-06-03",
+      "event_type": "product_launch",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "innovation"
+      ],
+      "summary": "Meta has launched an AI-powered 'business agent' to help businesses automate daily operations, which could have implications for Saudi companies and the broader economy.",
+      "why_it_matters": "This launch may lead to increased adoption of AI solutions in Saudi Arabia, driving innovation and efficiency in various sectors.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-05T00:02:52.596195"
+    },
+    {
       "title": "Saudi Arabia imports sand from countries like Australia due to the unsuitability of domestic sand for construction",
       "source": "Space Daily",
       "source_tier": 1,
@@ -2911,113 +2997,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-05-07T08:06:41.544058"
-    },
-    {
-      "title": "Amazon reports cloud sales growth above expectations driven by strong AI demand",
-      "source": "The Star, RTE.ie",
-      "source_tier": 2,
-      "time": "2026-04-30",
-      "event_type": "market_shift",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "cloud computing",
-        "artificial intelligence"
-      ],
-      "summary": "Amazon's cloud sales growth exceeded Wall Street expectations, driven by strong enterprise spending on artificial intelligence. This growth indicates a increasing demand for AI-powered cloud services. Amazon's cloud business is a significant player in the global cloud market.",
-      "why_it_matters": "This development may impact Saudi Arabia's fintech and capital markets sectors, as companies may increasingly adopt cloud-based AI solutions, potentially disrupting traditional financial services.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-05-05T06:37:51.134282"
-    },
-    {
-      "title": "UAE oil giant ADNOC pledges $55 billion in new projects by 2028",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-05-03",
-      "event_type": "capacity_change",
-      "category": "energy",
-      "geography": "UAE",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy production",
-        "infrastructure development"
-      ],
-      "summary": "ADNOC announced plans to spend $55 billion on new projects over the next two years, aiming to increase its oil production capacity.",
-      "why_it_matters": "This investment may impact the global oil market and potentially affect Saudi Arabia's oil production plans, as well as its relations with the UAE.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-05T06:37:51.134294"
-    },
-    {
-      "title": "OPEC+ adjusts oil output by 188,000 Bpd, Russia gets biggest boost",
-      "source": "Sputnikglobe.com",
-      "source_tier": 2,
-      "time": "2026-05-03",
-      "event_type": "market_shift",
-      "category": "energy",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "oil production",
-        "global energy market"
-      ],
-      "summary": "OPEC+ countries agreed to raise production by 188,000 barrels per day in June, with Russia receiving the largest increase.",
-      "why_it_matters": "This decision may impact the global oil market and affect Saudi Arabia's oil production plans, as well as its relations with other OPEC+ countries.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-05T06:37:51.134297"
-    },
-    {
-      "title": "HUMAIN ONE, powered by AWS, to be the industry's first enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale",
-      "source": "PR Newswire UK",
-      "source_tier": 2,
-      "time": "2026-05-04",
-      "event_type": "product_launch",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "artificial intelligence",
-        "cloud computing"
-      ],
-      "summary": "HUMAIN, a PIF company, announced the launch of HUMAIN ONE, an enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale, powered by AWS.",
-      "why_it_matters": "This launch may impact Saudi Arabia's fintech and capital markets sectors, as companies may increasingly adopt AI-powered solutions, potentially disrupting traditional financial services.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-05T06:37:51.134298"
     }
   ],
-  "lastRefresh": "2026-06-04T00:29:52.471477",
+  "lastRefresh": "2026-06-05T00:03:36.948739",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 31,
-    "radar_generated": 10,
+    "articles_to_model": 33,
+    "radar_generated": 5,
     "radar_confirmed": 0,
-    "radar_reported": 10,
+    "radar_reported": 5,
     "radar_alleged": 0,
-    "radar_sector_tagged": 10,
+    "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

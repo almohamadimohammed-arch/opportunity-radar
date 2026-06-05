@@ -1,6 +1,86 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to fintech integration are not changing, but the fintech sector is experiencing innovation",
+      "change_type": "innovation",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "New AI-powered tools are being launched to automate daily operations and empower GCC founders, developers, and SMEs",
+      "ksa_grounding": "The launch of new fintech products, such as Myndlab and Meta's 'business agent', could increase the feasibility of fintech integration in Saudi Arabia's economy",
+      "affected_sectors": [
+        "fintech",
+        "edtech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE's Permus Software House launches Myndlab, the region's first native Arabic AI application builder",
+        "Meta launches enterprise-focused AI 'business agent' to automate daily operations"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "GCC founders, developers, and SMEs"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased efficiency and innovation in the fintech sector",
+      "downside": "Potential disruption to traditional banking and financial services",
+      "first_order": "Direct impact on fintech companies and their customers",
+      "second_order": "Potential downstream effects on the broader economy, such as increased competitiveness and job creation",
+      "invalidation": "If the adoption of these new fintech products is slow or unsuccessful, it would prove this signal wrong",
+      "_at": "2026-06-05T00:03:30.210688"
+    },
+    {
+      "statement": "Saudi Arabia's construction sector is experiencing supply chain disruptions",
+      "change_type": "supply chain disruption",
+      "change_vector": "supply_tighter",
+      "mechanism": "The unsuitability of domestic sand for construction is forcing Saudi Arabia to import sand from other countries, leading to increased costs and potential supply chain disruptions",
+      "ksa_grounding": "The importation of construction-grade sand from countries like Australia could lead to increased costs and supply chain disruptions in Saudi Arabia's construction sector",
+      "affected_sectors": [
+        "construction"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia imports sand from countries like Australia due to the unsuitability of domestic sand for construction"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Construction companies and their suppliers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in domestic sand production or alternative construction materials",
+      "downside": "Increased costs and potential delays in construction projects",
+      "first_order": "Direct impact on construction companies and their suppliers",
+      "second_order": "Potential downstream effects on the broader economy, such as increased costs and decreased competitiveness",
+      "invalidation": "If Saudi Arabia finds a domestic source of suitable construction-grade sand, it would prove this signal wrong",
+      "_at": "2026-06-05T00:03:30.210698"
+    },
+    {
+      "statement": "Geopolitical tensions are increasing, which could impact Saudi Arabia's economy",
+      "change_type": "geopolitical risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "A prolonged war in Iran could have negative consequences for Saudi Arabia's economy, and Saudi Arabia's cooperation with Russia could shift the balance of power in global energy markets",
+      "ksa_grounding": "The potential for increased geopolitical tensions, particularly with regards to Iran and Russia, could increase the risk exposure of Saudi Arabia's economy",
+      "affected_sectors": [
+        "economy",
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "IMF warns that a prolonged Iran war could weigh on Saudi Arabia's medium-term outlook",
+        "Saudi Arabia and Russia draw closer amid OPEC upheaval"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia's government and economy"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased cooperation and stability in the region",
+      "downside": "Increased risk of conflict and economic disruption",
+      "first_order": "Direct impact on Saudi Arabia's economy and government",
+      "second_order": "Potential downstream effects on the broader region and global economy",
+      "invalidation": "If the geopolitical tensions in the region decrease, it would prove this signal wrong",
+      "_at": "2026-06-05T00:03:30.210700"
+    },
+    {
       "statement": "Investment in global markets is increasing",
       "change_type": "demand",
       "change_vector": "demand_up",
@@ -2207,92 +2287,7 @@
       "second_order": "Potential for increased innovation and job creation in the Saudi fintech sector",
       "invalidation": "If the Saudi PIF office in Shanghai fails to facilitate significant dealmaking and cooperation",
       "_at": "2026-05-07T08:07:18.919087"
-    },
-    {
-      "statement": "Demand for AI-powered cloud services is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Enterprise spending on artificial intelligence is driving growth in cloud sales",
-      "ksa_grounding": "This increase in demand for AI-powered cloud services can benefit Saudi Arabia's fintech and capital markets sectors, potentially attracting more investments and creating new opportunities",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Amazon reports cloud sales growth above expectations driven by strong AI demand",
-        "HUMAIN ONE, powered by AWS, to be the industry's first enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Enterprises",
-        "Cloud service providers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased adoption of AI-powered cloud services can lead to improved efficiency and innovation in various sectors",
-      "downside": "Over-reliance on cloud services can pose security and data privacy risks",
-      "first_order": "Direct increase in demand for AI-powered cloud services",
-      "second_order": "Potential expansion of cloud services to other sectors, such as healthcare and education",
-      "invalidation": "A significant decline in AI adoption or a major security breach in cloud services would invalidate this signal",
-      "_at": "2026-05-05T06:37:58.577286"
-    },
-    {
-      "statement": "Regulatory barriers to fintech integration are reducing",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "New products and services, such as HUMAIN ONE, are being launched to support fintech integration",
-      "ksa_grounding": "Reducing regulatory barriers can facilitate the growth of Saudi Arabia's fintech sector, attracting more investments and creating new opportunities",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "HUMAIN ONE, powered by AWS, to be the industry's first enterprise-grade operating system for building, deploying, and governing autonomous AI agents at scale",
-        "Amazon reports cloud sales growth above expectations driven by strong AI demand"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Fintech companies",
-        "Regulatory bodies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased fintech integration can lead to improved financial services and increased access to capital",
-      "downside": "Reducing regulatory barriers can also increase the risk of non-compliance and financial instability",
-      "first_order": "Direct reduction in regulatory barriers to fintech integration",
-      "second_order": "Potential expansion of fintech services to other sectors, such as healthcare and education",
-      "invalidation": "A major regulatory setback or a significant increase in non-compliance cases would invalidate this signal",
-      "_at": "2026-05-05T06:37:58.577295"
-    },
-    {
-      "statement": "Global oil supply is increasing",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "OPEC+ countries have agreed to raise production, and ADNOC has announced plans to increase its oil production capacity",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be affected by the increase in global oil supply, potentially leading to decreased oil prices and revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "Eastern Province"
-      ],
-      "evidence": [
-        "OPEC+ adjusts oil output by 188,000 Bpd, Russia gets biggest boost",
-        "UAE oil giant ADNOC pledges $55 billion in new projects by 2028"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Oil producers",
-        "OPEC+ countries"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased oil supply can lead to decreased oil prices, benefiting consumers and potentially stimulating economic growth",
-      "downside": "Decreased oil prices can also lead to decreased revenue for oil-producing countries, such as Saudi Arabia",
-      "first_order": "Direct increase in global oil supply",
-      "second_order": "Potential impact on Saudi Arabia's oil revenue and economy",
-      "invalidation": "A significant disruption to oil production or a major increase in global oil demand would invalidate this signal",
-      "_at": "2026-05-05T06:37:58.577297"
     }
   ],
-  "lastRefresh": "2026-06-04T00:29:52.474300"
+  "lastRefresh": "2026-06-05T00:03:36.951557"
 }
