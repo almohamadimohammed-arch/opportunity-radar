@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "statement": "Saudi Arabia's economy is becoming more diversified",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Government investments and initiatives are driving growth in non-oil sectors",
+      "ksa_grounding": "Reducing dependence on oil exports and increasing economic resilience",
+      "affected_sectors": [
+        "tourism",
+        "entertainment",
+        "renewable_energy"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "IMF warns of potential impact on Saudi Arabia's medium-term outlook due to prolonged Iran war",
+        "Saudi Arabia emerging as luxury fashion's next cultural growth market"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "government",
+        "private sector"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased economic stability and growth",
+      "downside": "Potential disruption to traditional industries",
+      "first_order": "Direct investment in non-oil sectors",
+      "second_order": "Increased economic activity and job creation",
+      "invalidation": "A significant decline in oil prices or a major setback in non-oil sector development",
+      "_at": "2026-06-06T00:04:25.215462"
+    },
+    {
+      "statement": "The Saudi renewable energy sector is experiencing increased investment",
+      "change_type": "investment",
+      "change_vector": "supply_looser",
+      "mechanism": "International companies are partnering with Saudi entities to develop renewable energy projects",
+      "ksa_grounding": "Increasing power generation capacity and reducing dependence on fossil fuels",
+      "affected_sectors": [
+        "renewable_energy",
+        "energy"
+      ],
+      "affected_regions": [
+        "jafurah"
+      ],
+      "evidence": [
+        "South Korea's KEPCO wins Saudi Jafurah power project contract",
+        "IMF warns of potential impact on Saudi Arabia's medium-term outlook due to prolonged Iran war"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "KEPCO",
+        "Saudi state-owned energy company"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased power generation capacity and reduced carbon emissions",
+      "downside": "Potential technical or logistical challenges",
+      "first_order": "Direct investment in renewable energy projects",
+      "second_order": "Increased energy security and reduced dependence on fossil fuels",
+      "invalidation": "A significant delay or cancellation of the Jafurah power project",
+      "_at": "2026-06-06T00:04:25.215475"
+    },
+    {
+      "statement": "Saudi Arabia's fintech sector is becoming more accessible to local developers",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "New platforms and tools are being developed to support local fintech innovation",
+      "ksa_grounding": "Increasing access to financial services and promoting economic growth",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE's Permus Software House launches Myndlab, a native Arabic AI application builder"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "local developers",
+        "fintech companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased innovation and access to financial services",
+      "downside": "Potential regulatory or technical challenges",
+      "first_order": "Direct access to new platforms and tools",
+      "second_order": "Increased fintech innovation and economic growth",
+      "invalidation": "A significant decline in fintech investment or innovation in the region",
+      "_at": "2026-06-06T00:04:25.215477"
+    },
+    {
       "statement": "Regulatory barriers to fintech integration are not changing, but the fintech sector is experiencing innovation",
       "change_type": "innovation",
       "change_vector": "feasibility_increasing",
@@ -2289,5 +2378,5 @@
       "_at": "2026-05-07T08:07:18.919087"
     }
   ],
-  "lastRefresh": "2026-06-05T00:03:36.951557"
+  "lastRefresh": "2026-06-06T00:04:32.769134"
 }

@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "title": "Saudi Renewable Energy Development",
+      "play_type": "infrastructure_play",
+      "actor": "International companies and Saudi entities",
+      "customer": "Saudi government and private sector",
+      "problem": "Increasing power generation capacity and reducing dependence on fossil fuels",
+      "action_path": "Develop and invest in renewable energy projects, such as solar and wind farms, to increase power generation capacity and reduce dependence on fossil fuels. Partner with Saudi entities to leverage local expertise and resources. Collaborate with government agencies to ensure regulatory compliance and support.",
+      "entry_mode": "partner",
+      "monetization": "Revenue from power generation and sales",
+      "capabilities": "Renewable energy development, project management, and regulatory compliance",
+      "barriers": "High upfront costs, regulatory hurdles, and competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "The Saudi renewable energy sector is experiencing increased investment"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "energy",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Increasing power generation capacity and reducing dependence on fossil fuels to support economic diversification",
+      "assumptions": "Government support and regulatory framework will remain in place, and oil prices will not significantly decline",
+      "invalidation": "A significant delay or cancellation of the Jafurah power project, or a major decline in oil prices",
+      "_at": "2026-06-06T00:04:32.766146"
+    },
+    {
+      "title": "Tourism and Entertainment Sector Development",
+      "play_type": "market_entry_play",
+      "actor": "Private sector companies and investors",
+      "customer": "Tourists and entertainment seekers",
+      "problem": "Limited entertainment and tourism options in Saudi Arabia",
+      "action_path": "Develop and invest in tourism and entertainment infrastructure, such as hotels, resorts, and theme parks, to cater to growing demand. Partner with local companies to leverage expertise and resources. Collaborate with government agencies to ensure regulatory compliance and support.",
+      "entry_mode": "invest",
+      "monetization": "Revenue from tourism and entertainment activities",
+      "capabilities": "Hospitality management, entertainment production, and marketing",
+      "barriers": "High upfront costs, regulatory hurdles, and competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Saudi Arabia's economy is becoming more diversified"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "entertainment",
+        "hospitality"
+      ],
+      "relevant_regions": [
+        "jeddah",
+        "riyadh",
+        "makkah"
+      ],
+      "ksa_grounding": "Diversifying the economy and increasing economic resilience by developing non-oil sectors",
+      "assumptions": "Government support and regulatory framework will remain in place, and tourism demand will continue to grow",
+      "invalidation": "A significant decline in tourism demand or a major setback in non-oil sector development",
+      "_at": "2026-06-06T00:04:32.766158"
+    },
+    {
       "title": "Fintech Integration Acceleration",
       "play_type": "business_play",
       "actor": "Fintech companies",
@@ -2037,5 +2100,5 @@
       "_at": "2026-05-07T08:07:26.744566"
     }
   ],
-  "lastRefresh": "2026-06-05T00:03:36.953562"
+  "lastRefresh": "2026-06-06T00:04:32.771225"
 }
