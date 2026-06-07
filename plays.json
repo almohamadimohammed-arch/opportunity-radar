@@ -1,6 +1,67 @@
 {
   "items": [
     {
+      "title": "Saudi Fintech AI Capability Development",
+      "play_type": "business_play",
+      "actor": "Saudi fintech companies",
+      "customer": "Saudi banks and financial institutions",
+      "problem": "Strained global supply chains for AI technology",
+      "action_path": "Develop internal AI capabilities to reduce reliance on global supply chains. Partner with local technology firms to build cloud-native AI solutions. Invest in AI talent development to support growth.",
+      "entry_mode": "build",
+      "monetization": "Increased efficiency and competitiveness in the Saudi fintech market",
+      "capabilities": "Cloud-native AI capabilities, AI talent development",
+      "barriers": "High upfront investment costs, limited local AI talent pool",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "The demand for AI technology is increasing, straining global supply chains"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's investment in technology and innovation, particularly in the fintech sector, creates an opportunity for local companies to develop internal AI capabilities",
+      "assumptions": "The demand for AI technology will continue to grow in the Saudi fintech sector, and local companies will be able to develop the necessary capabilities",
+      "invalidation": "A significant decline in demand for AI technology or a rapid increase in global supply chain capacity",
+      "_at": "2026-06-07T00:02:49.196945"
+    },
+    {
+      "title": "AI Supply Chain Diversification",
+      "play_type": "policy_play",
+      "actor": "Saudi government",
+      "customer": "Saudi businesses and citizens",
+      "problem": "Strained global supply chains for AI technology",
+      "action_path": "Diversify AI supply chains by attracting international AI companies to set up operations in Saudi Arabia. Offer incentives for local companies to develop AI capabilities. Develop policies to support the growth of the local AI industry.",
+      "entry_mode": "invest",
+      "monetization": "Increased economic growth and competitiveness in the Saudi economy",
+      "capabilities": "Policy development, investment attraction, industry support",
+      "barriers": "High upfront investment costs, regulatory complexities",
+      "timing": "invest now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "The demand for AI technology is increasing, straining global supply chains"
+      ],
+      "sector": "technology",
+      "relevant_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "neom"
+      ],
+      "ksa_grounding": "Saudi Arabia's economic diversification strategy and investment in technology and innovation create an opportunity for the government to support the growth of the local AI industry",
+      "assumptions": "The demand for AI technology will continue to grow globally, and Saudi Arabia can attract international AI companies to set up operations locally",
+      "invalidation": "A significant decline in demand for AI technology or a failure to attract international AI companies to set up operations in Saudi Arabia",
+      "_at": "2026-06-07T00:02:49.196959"
+    },
+    {
       "title": "Saudi Renewable Energy Development",
       "play_type": "infrastructure_play",
       "actor": "International companies and Saudi entities",
@@ -2006,99 +2067,7 @@
       "assumptions": "Oil price volatility will continue, risk management strategies will be effective",
       "invalidation": "A significant and sustained decrease in oil prices would invalidate this play",
       "_at": "2026-05-08T06:12:56.110333"
-    },
-    {
-      "title": "Saudi Oil and Gas Companies Forming International Partnerships",
-      "play_type": "business_play",
-      "actor": "Saudi oil and gas companies",
-      "customer": "International oil and gas companies",
-      "problem": "Regulatory barriers to international cooperation in the oil and gas sector have decreased, creating opportunities for partnerships",
-      "action_path": "Saudi oil and gas companies can form partnerships with international companies to leverage expertise, technology, and resources. This can help them improve efficiency, reduce costs, and increase competitiveness. Partnerships can be formed through joint ventures, strategic alliances, or mergers and acquisitions.",
-      "entry_mode": "partner",
-      "monetization": "Increased revenue through improved efficiency and competitiveness",
-      "capabilities": "International partnership management, joint venture management, strategic alliance management",
-      "barriers": "Regulatory hurdles, cultural differences, competitive landscape",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory barriers to international cooperation in the oil and gas sector have decreased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's position in OPEC may be impacted by the UAE's withdrawal, potentially leading to increased cooperation with other countries",
-      "assumptions": "Saudi oil and gas companies have the necessary capabilities and resources to form international partnerships, international companies are interested in partnering with Saudi companies",
-      "invalidation": "If Saudi Arabia's influence in OPEC increases despite the UAE's withdrawal, making international partnerships less necessary",
-      "_at": "2026-05-07T08:07:26.744552"
-    },
-    {
-      "title": "Fintech Investment and Cooperation between Saudi Arabia and China",
-      "play_type": "market_entry_play",
-      "actor": "Saudi and Chinese fintech companies",
-      "customer": "Saudi and Chinese consumers and businesses",
-      "problem": "The feasibility of investing in the Saudi fintech sector is increasing, creating opportunities for cooperation between Saudi Arabia and China",
-      "action_path": "Saudi and Chinese fintech companies can invest in and cooperate with each other to develop new financial technologies and services. This can help them tap into the growing demand for fintech solutions in Saudi Arabia and China. Cooperation can be facilitated through the Saudi PIF office in Shanghai.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue through new financial technologies and services",
-      "capabilities": "Fintech development, investment management, cross-border cooperation",
-      "barriers": "Regulatory hurdles, cultural differences, competitive landscape",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "The feasibility of investing in the Saudi fintech sector is increasing"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "banking",
-        "capital_markets"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "shanghai"
-      ],
-      "ksa_grounding": "The opening of a Saudi PIF office in Shanghai may facilitate dealmaking and cooperation between Saudi Arabia and China, benefiting the fintech sector",
-      "assumptions": "Saudi and Chinese fintech companies have the necessary capabilities and resources to invest in and cooperate with each other, the Saudi PIF office in Shanghai can facilitate significant dealmaking and cooperation",
-      "invalidation": "If the Saudi PIF office in Shanghai fails to facilitate significant dealmaking and cooperation",
-      "_at": "2026-05-07T08:07:26.744564"
-    },
-    {
-      "title": "Cost Reduction Strategies for Saudi Oil and Gas Companies",
-      "play_type": "defensive_play",
-      "actor": "Saudi oil and gas companies",
-      "customer": "Saudi oil and gas companies",
-      "problem": "The cost of doing business in the oil and gas sector is increasing due to rising oil prices",
-      "action_path": "Saudi oil and gas companies can implement cost reduction strategies to mitigate the impact of rising oil prices. This can include optimizing operations, reducing waste, and improving efficiency. Companies can also invest in new technologies and innovations to reduce costs.",
-      "entry_mode": "build",
-      "monetization": "Cost savings through improved efficiency and operations",
-      "capabilities": "Cost management, operational optimization, innovation management",
-      "barriers": "Regulatory hurdles, competitive landscape, technological limitations",
-      "timing": "prepare now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "The cost of doing business in the oil and gas sector is increasing due to rising oil prices"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Rising oil prices may strain Saudi Arabia's economy and energy sector",
-      "assumptions": "Saudi oil and gas companies have the necessary capabilities and resources to implement cost reduction strategies, oil prices will continue to rise",
-      "invalidation": "If oil prices decrease despite ongoing geopolitical tensions",
-      "_at": "2026-05-07T08:07:26.744566"
     }
   ],
-  "lastRefresh": "2026-06-06T00:04:32.771225"
+  "lastRefresh": "2026-06-07T00:02:49.201946"
 }
