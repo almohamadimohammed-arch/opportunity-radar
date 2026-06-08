@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "statement": "Risk exposure in the Middle East is rising due to geopolitical tensions",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical tensions and conflicts lead to increased risk exposure",
+      "ksa_grounding": "Saudi Arabia's economy may be affected by the rising risk exposure in the region, particularly in the oil and gas sector",
+      "affected_sectors": [
+        "oil_gas",
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "OPEC Output Plunges Further Due to War Between US-Israeli Alliance and Iran",
+        "US Embassy Issues Travel Alert for Middle East Due to High Tensions"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "investors",
+        "travelers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased security measures and diplomatic efforts to mitigate risk",
+      "downside": "Potential for decreased investment and tourism in the region",
+      "first_order": "Direct impact on oil prices and tourism revenue",
+      "second_order": "Indirect impact on related industries such as logistics and hospitality",
+      "invalidation": "A significant decrease in geopolitical tensions or a resolution to the conflict would invalidate this signal",
+      "_at": "2026-06-08T00:04:00.370159"
+    },
+    {
+      "statement": "Demand for air travel in Saudi Arabia is increasing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Increased demand for air travel driven by tourism and business growth",
+      "ksa_grounding": "Saudi Arabia's vision for its aviation sector is expected to support the growth of air travel demand",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Boeing Delivers Riyadh Air's First Two 787 Dreamliner Jets"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "airlines",
+        "travelers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased economic growth and job creation in the aviation sector",
+      "downside": "Potential for increased air traffic and congestion",
+      "first_order": "Direct impact on airline revenue and passenger numbers",
+      "second_order": "Indirect impact on related industries such as hospitality and tourism",
+      "invalidation": "A significant decrease in air travel demand or a shift to alternative modes of transportation would invalidate this signal",
+      "_at": "2026-06-08T00:04:00.370172"
+    },
+    {
       "statement": "The demand for air travel in Saudi Arabia is increasing",
       "change_type": "demand",
       "change_vector": "demand_up",
@@ -2204,181 +2264,7 @@
       "second_order": "Job creation and economic growth in the fintech sector",
       "invalidation": "A significant decline in fintech adoption in the Gulf region",
       "_at": "2026-05-09T23:43:11.802891"
-    },
-    {
-      "statement": "Regulatory barriers to innovation in the oil and gas sector are decreasing",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Collaboration between Aramco and IBM on AI and innovation is driving digital transformation",
-      "ksa_grounding": "This partnership will increase the competitiveness of Saudi Arabia's oil and gas sector",
-      "affected_sectors": [
-        "oil_gas",
-        "technology"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "IBM and Aramco explore collaboration on AI and innovation",
-        "US and Iran engage in military exchange in Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Aramco",
-        "IBM"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased innovation and competitiveness in the oil and gas sector",
-      "downside": "Dependence on foreign technology and expertise",
-      "first_order": "Direct investment in AI and innovation",
-      "second_order": "Increased efficiency and productivity in the oil and gas sector",
-      "invalidation": "Cancellation of the Aramco-IBM partnership or failure to deliver expected results",
-      "_at": "2026-05-08T23:55:06.776364"
-    },
-    {
-      "statement": "Supply chains in the oil and gas sector are becoming more resilient",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Diversification of supply routes and tactics, such as the UAE's use of ghost tankers",
-      "ksa_grounding": "This will reduce the impact of regional conflicts on Saudi Arabia's oil exports",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "UAE Running Ghost Tankers Through Hormuz to Escape Iran\u2019s Blockade",
-        "US and Iran engage in military exchange in Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "UAE",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "now",
-      "upside": "Reduced risk of supply disruptions",
-      "downside": "Increased costs and complexity of supply chain management",
-      "first_order": "Increased use of alternative supply routes",
-      "second_order": "Reduced dependence on traditional supply routes",
-      "invalidation": "Failure of ghost tankers to evade Iranian blockade or significant increase in costs",
-      "_at": "2026-05-08T23:55:06.776373"
-    },
-    {
-      "statement": "Confidence in the Saudi startup ecosystem is increasing",
-      "change_type": "trust",
-      "change_vector": "trust_rising",
-      "mechanism": "Saudi venture capital firms continuing to fundraise and deploy capital despite regional conflict",
-      "ksa_grounding": "This will attract more investment and talent to the Saudi startup ecosystem",
-      "affected_sectors": [
-        "fintech",
-        "venture_capital"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi Venture Firms Press Ahead With Fundraising Despite War",
-        "US and Iran engage in military exchange in Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi venture capital firms"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment and growth in the Saudi startup ecosystem",
-      "downside": "Overconfidence and potential for overheating in the market",
-      "first_order": "Increased fundraising and deployment of capital",
-      "second_order": "Growth of new startups and industries",
-      "invalidation": "Significant decline in venture capital investment or startup activity",
-      "_at": "2026-05-08T23:55:06.776377"
-    },
-    {
-      "statement": "Global oil market volatility has increased",
-      "change_type": "market",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Geopolitical tensions and supply route disruptions are causing oil price surges",
-      "ksa_grounding": "Saudi Arabia's oil exports and economy may be affected by the increased volatility",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Oil Prices Surge as US-Israel-Iran Tensions Disrupt Supply Routes",
-        "Trump Reportedly Backed Off Hormuz Plan After Angry Response From Allies"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "importers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil prices to benefit Saudi Arabia's oil exports",
-      "downside": "Potential for decreased oil demand and economic instability",
-      "first_order": "Direct impact on oil prices and trade",
-      "second_order": "Downstream effects on global economies and investment strategies",
-      "invalidation": "A significant and sustained decrease in oil prices would invalidate this signal",
-      "_at": "2026-05-08T06:12:18.508009"
-    },
-    {
-      "statement": "Saudi Arabia's oil pricing strategy is becoming more competitive",
-      "change_type": "market",
-      "change_vector": "cost_falling",
-      "mechanism": "Saudi Arabia is adjusting its official selling price to remain competitive in the global market",
-      "ksa_grounding": "Saudi Arabia's oil exports and revenue may increase due to the more competitive pricing strategy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia Cuts Arab Light June OSP for Asia",
-        "Oil Prices Surge as US-Israel-Iran Tensions Disrupt Supply Routes"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "importers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil exports and revenue for Saudi Arabia",
-      "downside": "Potential for decreased profit margins due to lower prices",
-      "first_order": "Direct impact on oil prices and trade",
-      "second_order": "Downstream effects on Saudi Arabia's economy and investment strategies",
-      "invalidation": "A significant increase in oil prices would invalidate this signal",
-      "_at": "2026-05-08T06:12:18.508022"
-    },
-    {
-      "statement": "Digital transformation in Saudi Arabia's oil and gas sector is accelerating",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Partnerships between Saudi companies and technology providers are driving innovation and digitalization",
-      "ksa_grounding": "Saudi Arabia's oil and gas sector may become more efficient and competitive due to digital transformation",
-      "affected_sectors": [
-        "oil_gas",
-        "fintech"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "IBM and Aramco Explore Collaboration to Accelerate AI and Innovation",
-        "Saudi Arabia Cuts Arab Light June OSP for Asia"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil and gas companies",
-        "technology providers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased efficiency and competitiveness in Saudi Arabia's oil and gas sector",
-      "downside": "Potential for job displacement and cybersecurity risks",
-      "first_order": "Direct impact on oil and gas operations",
-      "second_order": "Downstream effects on Saudi Arabia's economy and investment strategies",
-      "invalidation": "A lack of significant investment in digital transformation would invalidate this signal",
-      "_at": "2026-05-08T06:12:18.508024"
     }
   ],
-  "lastRefresh": "2026-06-07T00:02:49.199934"
+  "lastRefresh": "2026-06-08T00:04:07.983684"
 }
