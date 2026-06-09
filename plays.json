@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Saudi AI Chip Manufacturing Opportunity",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi government and private sector investors",
+      "customer": "Fintech and logistics companies in Saudi Arabia",
+      "problem": "Strained global supply chain for AI chips affecting Saudi businesses",
+      "action_path": "Invest in building AI chip manufacturing capabilities in Saudi Arabia to reduce reliance on global supply chains. Partner with international chip manufacturers to transfer technology and expertise. Develop a local ecosystem to support the growth of AI chip manufacturing.",
+      "entry_mode": "invest",
+      "monetization": "Reduced reliance on imports, increased local job creation, and potential export opportunities",
+      "capabilities": "Access to capital, technology transfer agreements, and skilled workforce",
+      "barriers": "High initial investment costs, need for specialized expertise",
+      "timing": "invest now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Demand for AI chips is increasing, straining the supply chain"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "fintech",
+        "logistics"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Diversification of Saudi economy through investment in AI and chip manufacturing",
+      "assumptions": "Continued growth in demand for AI chips, ability to attract international investment and expertise",
+      "invalidation": "Decrease in demand for AI chips or rapid resolution of global supply chain issues",
+      "_at": "2026-06-09T00:03:24.286710"
+    },
+    {
+      "title": "Cloud-Native Cybersecurity for AI Chip Supply Chain",
+      "play_type": "business_play",
+      "actor": "Cybersecurity firms with cloud-native capabilities",
+      "customer": "Fintech and logistics companies in Saudi Arabia",
+      "problem": "Vulnerabilities in AI chip supply chain due to increased demand",
+      "action_path": "Develop and offer cloud-native cybersecurity solutions to protect AI chip supply chains from potential threats. Partner with AI chip manufacturers to integrate security solutions into their products. Provide training and support to local businesses on AI chip security best practices.",
+      "entry_mode": "build",
+      "monetization": "Revenue from cybersecurity solution sales and services",
+      "capabilities": "Cloud-native cybersecurity expertise, access to AI chip manufacturers",
+      "barriers": "Competition from established cybersecurity players, need for specialized expertise",
+      "timing": "build now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Demand for AI chips is increasing, straining the supply chain"
+      ],
+      "sector": "cybersecurity",
+      "relevant_sectors": [
+        "fintech",
+        "logistics"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Protection of Saudi businesses from AI chip supply chain vulnerabilities",
+      "assumptions": "Continued growth in demand for AI chips, increasing awareness of cybersecurity threats",
+      "invalidation": "Decrease in demand for AI chips or lack of adoption of cloud-native cybersecurity solutions",
+      "_at": "2026-06-09T00:03:24.286721"
+    },
+    {
       "title": "Mitigating Risk Exposure in Oil and Gas",
       "play_type": "defensive_play",
       "actor": "Saudi oil and gas companies",
@@ -1956,67 +2016,7 @@
       "assumptions": "UAE's exit from OPEC will lead to increased regulatory scrutiny and potential supply chain disruptions, Saudi oil and gas companies will prioritize risk management",
       "invalidation": "A reconciliation between the UAE and Saudi Arabia, or a significant increase in global oil demand",
       "_at": "2026-05-10T23:48:58.800571"
-    },
-    {
-      "title": "Saudi Healthcare Investment Opportunity",
-      "play_type": "market_entry_play",
-      "actor": "Healthcare companies and investors",
-      "customer": "Saudi Arabian healthcare sector",
-      "problem": "Limited access to quality healthcare services in Saudi Arabia",
-      "action_path": "Invest in joint ventures and partnerships to develop Saudi Arabia's healthcare sector, focusing on innovative treatments and medical technologies. This will contribute to the development of the sector, aligning with Vision 2030 goals. By doing so, companies can capitalize on the increasing investment in the healthcare sector.",
-      "entry_mode": "partner",
-      "monetization": "Revenue growth through increased market share and access to new markets",
-      "capabilities": "Ability to form strategic partnerships, access to innovative medical technologies, and understanding of the Saudi Arabian healthcare market",
-      "barriers": "Regulatory hurdles, competition from established players, and cultural differences",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Investment in Saudi Arabia's healthcare sector is increasing"
-      ],
-      "sector": "healthcare",
-      "relevant_sectors": [
-        "healthcare",
-        "biotech"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Contribution to the development of Saudi Arabia's healthcare sector, aligning with Vision 2030 goals",
-      "assumptions": "Continued investment in the healthcare sector, growing demand for quality healthcare services, and a favorable business environment",
-      "invalidation": "A significant decline in foreign investment in Saudi Arabia's healthcare sector",
-      "_at": "2026-05-09T23:43:18.535802"
-    },
-    {
-      "title": "Fintech Adoption in the Gulf Region",
-      "play_type": "business_play",
-      "actor": "Fintech companies and banks",
-      "customer": "Individuals and businesses in the Gulf region",
-      "problem": "Limited access to digital financial services in the Gulf region",
-      "action_path": "Develop and offer digital financial services, such as mobile payments and online banking, to capitalize on the growing demand for fintech adoption. This will contribute to the development of the financial sector, aligning with Vision 2030 goals. By doing so, companies can increase their market share and revenue.",
-      "entry_mode": "build",
-      "monetization": "Revenue growth through increased transaction volumes and fees",
-      "capabilities": "Ability to develop and implement digital financial services, understanding of the Gulf region's financial market, and compliance with regulatory requirements",
-      "barriers": "Regulatory hurdles, competition from established players, and cybersecurity risks",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Fintech adoption in the Gulf region is rising"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Contribution to the development of Saudi Arabia's financial sector, aligning with Vision 2030 goals",
-      "assumptions": "Continued growth in demand for digital financial services, a favorable business environment, and effective regulatory frameworks",
-      "invalidation": "A significant decline in fintech adoption in the Gulf region",
-      "_at": "2026-05-09T23:43:18.535812"
     }
   ],
-  "lastRefresh": "2026-06-08T00:04:07.985619"
+  "lastRefresh": "2026-06-09T00:03:24.291226"
 }
