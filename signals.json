@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Global crude oil supply has loosened slightly",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "OPEC+ plans to raise oil output quota, increasing global supply",
+      "ksa_grounding": "Saudi Arabia's oil exports may increase, supporting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "OPEC+ plans small oil output quota hike for July",
+        "China reduces oil imports, capping global crude prices"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC+",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in oil exports and revenue for Saudi Arabia",
+      "downside": "Limited actual impact due to geopolitical tensions",
+      "first_order": "Increased oil supply",
+      "second_order": "Potential decrease in global crude prices",
+      "invalidation": "If OPEC+ fails to implement the planned output quota hike or if geopolitical tensions worsen",
+      "_at": "2026-06-10T00:09:56.724258"
+    },
+    {
+      "statement": "Cloud and AI growth in the region is accelerating",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Rackspace Technology establishes regional headquarters in Riyadh, supporting cloud and AI growth",
+      "ksa_grounding": "Saudi Arabia's technology sector may benefit from increased investment and expertise",
+      "affected_sectors": [
+        "fintech",
+        "logistics"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Rackspace Technology establishes regional headquarters in Riyadh"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Rackspace Technology",
+        "Saudi technology companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in technology investment and job creation",
+      "downside": "Limited impact if Rackspace Technology's investment is not followed by others",
+      "first_order": "Increased cloud and AI capabilities in the region",
+      "second_order": "Potential increase in technology-related jobs and investment",
+      "invalidation": "If Rackspace Technology's investment does not lead to significant growth in the region's technology sector",
+      "_at": "2026-06-10T00:09:56.724267"
+    },
+    {
+      "statement": "Risk exposure in the oil refining sector is rising",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Disruptions in Middle East crude supplies are affecting refinery projects",
+      "ksa_grounding": "Saudi Arabia's oil refining sector may be impacted by delays in Chinese refinery projects",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "China delays major refinery projects due to Middle East crude supply disruptions",
+        "China reduces oil imports, capping global crude prices"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Chinese refiners",
+        "oil suppliers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in oil prices due to reduced refining capacity",
+      "downside": "Potential decrease in oil demand due to reduced refining capacity",
+      "first_order": "Delays in refinery projects",
+      "second_order": "Potential impact on global oil prices and demand",
+      "invalidation": "If the disruptions in Middle East crude supplies are resolved quickly",
+      "_at": "2026-06-10T00:09:56.724271"
+    },
+    {
       "statement": "Global oil supply is increasing",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2205,92 +2290,7 @@
       "second_order": "Downstream effects on the Saudi economy and investments",
       "invalidation": "A significant decline in the global demand for AI chips",
       "_at": "2026-05-11T23:55:39.195287"
-    },
-    {
-      "statement": "Regulatory tensions in the oil and gas sector are rising",
-      "change_type": "regulation",
-      "change_vector": "regulation_tightening",
-      "mechanism": "UAE's exit from OPEC and fragile Iran ceasefire may lead to increased regulatory scrutiny",
-      "ksa_grounding": "Saudi Arabia's oil production and exports may be impacted by the UAE's decision, potentially affecting the Kingdom's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "UAE exits OPEC after nearly 59 years, escalating tensions with Saudi Arabia over oil production",
-        "Fragile Iran ceasefire appears to hold, Bahrain detains dozens over suspected Revolutionary Guard links"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "OPEC"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil prices",
-      "downside": "Potential for decreased oil exports and revenue",
-      "first_order": "Direct impact on Saudi Arabia's oil production and exports",
-      "second_order": "Downstream effects on the Kingdom's economy and trade relationships",
-      "invalidation": "A reconciliation between the UAE and Saudi Arabia, or a significant increase in global oil demand",
-      "_at": "2026-05-10T23:48:22.149967"
-    },
-    {
-      "statement": "Investment in Saudi Arabia's healthcare and biotech sectors is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Co-Diagnostics' joint venture CoMira finalizing a lease agreement for a manufacturing facility in Saudi Arabia",
-      "ksa_grounding": "The investment in the healthcare and biotech sectors aligns with Saudi Arabia's Vision 2030 goals, potentially driving economic growth and diversification",
-      "affected_sectors": [
-        "healthcare",
-        "biotech"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Co-Diagnostics Joint Venture CoMira Finalizes Lease Agreement for Manufacturing Facility in Saudi Arabia's Sudair Industrial City"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Co-Diagnostics",
-        "Saudi Arabian government"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased economic growth and job creation",
-      "downside": "Potential for increased competition in the healthcare and biotech sectors",
-      "first_order": "Direct impact on the healthcare and biotech sectors",
-      "second_order": "Downstream effects on the Kingdom's economy and trade relationships",
-      "invalidation": "Co-Diagnostics' joint venture CoMira failing to deliver on its investment plans or the Saudi Arabian government changing its economic priorities",
-      "_at": "2026-05-10T23:48:22.149977"
-    },
-    {
-      "statement": "Global demand for AI chips is rising, potentially benefiting Saudi Arabia's fintech sector",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Increasing adoption of generative AI driving growth in the global AI chip market",
-      "ksa_grounding": "The growth in the global AI chip market may have significant implications for Saudi Arabia's fintech sector, potentially driving innovation and investment",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Global AI Chip Market to Soar to $670.2 Billion by 2036 Amid Generative AI Boom"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Fintech companies",
-        "Technology startups"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased innovation and investment in the fintech sector",
-      "downside": "Potential for increased competition and job displacement",
-      "first_order": "Direct impact on the fintech sector",
-      "second_order": "Downstream effects on the Kingdom's economy and trade relationships",
-      "invalidation": "A significant decline in global demand for AI chips or a failure of the fintech sector to adapt to the growing demand",
-      "_at": "2026-05-10T23:48:22.149979"
     }
   ],
-  "lastRefresh": "2026-06-09T00:03:24.289386"
+  "lastRefresh": "2026-06-10T00:10:03.746126"
 }
