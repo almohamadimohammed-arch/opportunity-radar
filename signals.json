@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "statement": "Global crude oil supply has loosened due to reduced imports by China",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "China's reduction in oil imports has increased global crude oil supply, putting downward pressure on prices",
+      "ksa_grounding": "This could lead to decreased revenue for Saudi Arabia's oil and gas sector, affecting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "China reduces oil imports, capping global crude prices",
+        "Kuwait seeks pipeline alternatives to export crude oil"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil and gas companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased global economic growth due to lower oil prices",
+      "downside": "Decreased revenue for Saudi Arabia's oil and gas sector",
+      "first_order": "Decreased oil prices",
+      "second_order": "Potential for decreased investment in the oil and gas sector",
+      "invalidation": "If China were to increase its oil imports, leading to a tightening of global crude oil supply",
+      "_at": "2026-06-11T00:12:55.672300"
+    },
+    {
+      "statement": "Investment in AI and fintech is increasing in Saudi Arabia",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Gulf states, including Saudi Arabia, are investing heavily in AI and fintech, making it easier for companies to operate in these sectors",
+      "ksa_grounding": "This could lead to increased economic growth and diversification in Saudi Arabia, with a focus on developing the technology and attracting international investment",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Gulf states invest in AI, with Saudi Arabia a key player",
+        "Rackspace Technology establishes regional headquarters in Riyadh"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "startups",
+        "tech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased economic growth and diversification",
+      "downside": "Potential for increased competition in the AI and fintech sectors",
+      "first_order": "Increased investment in AI and fintech",
+      "second_order": "Potential for increased job creation and economic growth",
+      "invalidation": "If investment in AI and fintech were to decrease, leading to a decrease in feasibility for companies operating in these sectors",
+      "_at": "2026-06-11T00:12:55.672313"
+    },
+    {
+      "statement": "Regulatory barriers to fintech integration have reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "There is no direct evidence of regulatory change, but increased investment in AI and fintech suggests a more open regulatory environment",
+      "ksa_grounding": "This could lead to increased adoption of fintech solutions in Saudi Arabia, driving economic growth and innovation",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Gulf states invest in AI, with Saudi Arabia a key player",
+        "Rackspace Technology establishes regional headquarters in Riyadh"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "fintech companies",
+        "banks"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased adoption of fintech solutions",
+      "downside": "Potential for increased risk of fintech-related fraud or cybersecurity threats",
+      "first_order": "Increased investment in AI and fintech",
+      "second_order": "Potential for increased economic growth and innovation",
+      "invalidation": "If regulatory barriers to fintech integration were to increase, leading to a decrease in adoption of fintech solutions",
+      "_at": "2026-06-11T00:12:55.672315"
+    },
+    {
       "statement": "Global crude oil supply has loosened slightly",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2205,92 +2294,7 @@
       "second_order": "Potential impact on other sectors such as hospitality and entertainment",
       "invalidation": "A decline in tourism numbers, indicating a lack of interest in Saudi tourism",
       "_at": "2026-05-12T23:58:01.618204"
-    },
-    {
-      "statement": "Regulatory stability in the oil market is decreasing",
-      "change_type": "regulation",
-      "change_vector": "regulation_tightening",
-      "mechanism": "Geopolitical moves and market disruptions are increasing uncertainty",
-      "ksa_grounding": "Saudi Arabia's oil production and exports may be impacted by the UAE's exit from OPEC and the potential disruption to oil markets",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "UAE exits OPEC after nearly 59 years",
-        "Aramco CEO warns of long oil market disruption"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "OPEC"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased oil prices",
-      "downside": "Potential for decreased oil exports and revenue",
-      "first_order": "Direct impact on Saudi Arabia's oil production and exports",
-      "second_order": "Downstream effects on the Saudi economy and investments",
-      "invalidation": "A swift resolution to the geopolitical tensions and a return to stable oil markets",
-      "_at": "2026-05-11T23:55:39.195276"
-    },
-    {
-      "statement": "Investment in Central Asia is becoming more risky",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Geopolitical tensions and conflicts are increasing uncertainty",
-      "ksa_grounding": "Saudi Arabia's investments in Central Asia may be impacted by the Iran war and the disruption to the Gulf investment boom",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Iran war threatens Gulf investment boom in Central Asia",
-        "UAE exits OPEC after nearly 59 years"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi investors",
-        "Gulf investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased investment opportunities in other regions",
-      "downside": "Potential for decreased investment returns and increased risk",
-      "first_order": "Direct impact on Saudi investments in Central Asia",
-      "second_order": "Downstream effects on the Saudi economy and investments",
-      "invalidation": "A swift resolution to the geopolitical tensions and a return to stable investment environments",
-      "_at": "2026-05-11T23:55:39.195285"
-    },
-    {
-      "statement": "The global AI chip market is growing rapidly",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Increasing adoption of AI and machine learning technologies",
-      "ksa_grounding": "Saudi Arabia may benefit from the growing demand for AI chips, particularly in the fintech and technology sectors",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Global AI chip market to soar to $670.2 billion by 2036"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi tech companies",
-        "Global AI chip manufacturers"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased investment and growth in the Saudi tech sector",
-      "downside": "Potential for increased competition and decreased market share",
-      "first_order": "Direct impact on the Saudi tech sector",
-      "second_order": "Downstream effects on the Saudi economy and investments",
-      "invalidation": "A significant decline in the global demand for AI chips",
-      "_at": "2026-05-11T23:55:39.195287"
     }
   ],
-  "lastRefresh": "2026-06-10T00:10:03.746126"
+  "lastRefresh": "2026-06-11T00:13:33.629592"
 }
