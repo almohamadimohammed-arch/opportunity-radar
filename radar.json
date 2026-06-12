@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia lifts ban on Lebanese imports after five years",
+      "source": "Associated Press, Abcnews.com, seattlepi.com",
+      "source_tier": 1,
+      "time": "2026-06-10",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi, Lebanon",
+      "sector_tags": [
+        "trade",
+        "economy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "international relations",
+        "trade"
+      ],
+      "summary": "Saudi Arabia has lifted its five-year ban on Lebanese imports, aiming to rebuild relations between Lebanon and Gulf countries. The ban was imposed in 2021 and targeted Lebanese fruits and vegetables. This move is expected to improve economic ties between the two countries.",
+      "why_it_matters": "The lifting of the ban is a significant step towards normalizing relations between Saudi Arabia and Lebanon, which could have positive implications for Saudi Arabia's economy and regional stability.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-06-12T00:17:07.085721"
+    },
+    {
+      "title": "Gulf wealth funds order billions in SpaceX IPO shares",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-06-10",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "space"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "investment",
+        "space exploration"
+      ],
+      "summary": "Gulf wealth funds have ordered billions of dollars' worth of shares in the upcoming SpaceX IPO. This investment could reshape global tech finance and have implications for US-Gulf relations.",
+      "why_it_matters": "The investment by Gulf wealth funds in SpaceX's IPO could have significant strategic consequences for Saudi Arabia, including potential access to advanced technology and increased influence in the global space industry.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-12T00:17:07.085734"
+    },
+    {
+      "title": "Saudi Arabia's Public Investment Fund invests in Electronic Arts",
+      "source": "GamesIndustry.biz",
+      "source_tier": 2,
+      "time": "2026-06-10",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment",
+        "gaming"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "investment",
+        "gaming"
+      ],
+      "summary": "Saudi Arabia's Public Investment Fund has invested in Electronic Arts, a leading video game developer. This investment is part of a larger trend of Saudi investment in the global gaming industry.",
+      "why_it_matters": "The investment by Saudi Arabia's Public Investment Fund in Electronic Arts could have strategic consequences for Saudi Arabia's entertainment and gaming sectors, including potential job creation and economic growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-12T00:17:07.085736"
+    },
+    {
+      "title": "OPEC oil output lowest since 2000",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-06-10",
+      "event_type": "capacity_change",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy production",
+        "global markets"
+      ],
+      "summary": "OPEC oil output has fallen to its lowest level since 2000, primarily due to a US naval blockade impacting Iran's exports. This decline could have significant implications for global energy markets.",
+      "why_it_matters": "The decline in OPEC oil output could have strategic consequences for Saudi Arabia's energy sector, including potential increases in oil prices and changes in global energy market dynamics.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-12T00:17:07.085741"
+    },
+    {
       "title": "Kuwait seeks pipeline alternatives to export crude oil",
       "source": "Financial Post",
       "source_tier": 2,
@@ -2898,128 +2989,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-05-13T23:53:24.985924"
-    },
-    {
-      "title": "Saudi Aramco reports 25% jump in Q1 profit as Iran War reshapes oil market",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-05-11",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "Saudi Aramco's Q1 profit has increased by 25% due to the Iran War's impact on the oil market. The war has led to a significant increase in oil prices, benefiting Aramco's bottom line. Aramco's President and CEO Amin Nasser stated that recent events are a 'stark reminder that reliable energy supply is critical'.",
-      "why_it_matters": "This increase in profit is strategically significant for Saudi Arabia as it highlights the country's continued importance in the global energy market. The war's impact on the oil market also underscores the need for Saudi Arabia to diversify its economy, as outlined in Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-12T23:57:24.201287"
-    },
-    {
-      "title": "Saudi Accelerates Tourism Growth as WTTC Confirms Global Standing and Domestic Travel Surges",
-      "source": "BusinessLine",
-      "source_tier": 2,
-      "time": "2026-05-11",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "travel"
-      ],
-      "summary": "The Saudi Tourism Authority has welcomed the WTTC findings that position Saudi as the largest and fastest-growing travel and tourism market in the region. Domestic travel is also surging, contributing to the country's tourism growth.",
-      "why_it_matters": "This growth in tourism is strategically significant for Saudi Arabia as it aligns with the country's Vision 2030 goals to diversify its economy and increase tourism revenue. The surge in domestic travel also highlights the potential for Saudi Arabia to develop its internal tourism market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-12T23:57:24.201299"
-    },
-    {
-      "title": "Hakeem Health raises $1.65 million backed by Merak Capital",
-      "source": "Wamda",
-      "source_tier": 2,
-      "time": "2026-05-11",
-      "event_type": "funding",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "healthcare"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "healthtech"
-      ],
-      "summary": "Saudi Arabia-based healthtech Hakeem Health has raised $1.65 million in a funding round led by Merak Capital. The funding will likely be used to support the growth and development of Hakeem Health's services.",
-      "why_it_matters": "This funding is strategically significant for Saudi Arabia as it highlights the country's growing healthtech sector and the potential for innovation in healthcare. The investment also demonstrates the confidence of investors in Saudi Arabia's healthcare market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-12T23:57:24.201301"
-    },
-    {
-      "title": "Oil Jumps as Hormuz Crisis Deepens",
-      "source": "Rigzone",
-      "source_tier": 2,
-      "time": "2026-05-11",
-      "event_type": "infrastructure_disruption",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "The oil market is experiencing a surge in prices due to the deepening crisis in the Strait of Hormuz. The disruption to oil supplies has led to increased prices and concerns about global energy security.",
-      "why_it_matters": "This disruption is strategically significant for Saudi Arabia as it highlights the country's vulnerability to global events and the need to diversify its economy. The crisis also underscores the importance of Saudi Arabia's role in maintaining global energy security.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-12T23:57:24.201303"
-    },
-    {
-      "title": "Aramco Sees Slow Oil Market Recovery after Shock Supply Loss",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-05-11",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "Aramco has stated that the oil market will take months to recover from the shock supply loss caused by the crisis in the Strait of Hormuz. The company expects a slow recovery due to the significant impact on global oil supplies.",
-      "why_it_matters": "This slow recovery is strategically significant for Saudi Arabia as it highlights the country's need to adapt to changing global energy market conditions. The recovery period also underscores the importance of Saudi Arabia's role in maintaining global energy security.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-12T23:57:24.201304"
     }
   ],
-  "lastRefresh": "2026-06-11T00:13:33.626709",
+  "lastRefresh": "2026-06-12T00:18:21.396456",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 35,
+    "articles_to_model": 40,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

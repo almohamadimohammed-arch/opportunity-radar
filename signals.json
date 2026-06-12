@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to trade with Lebanon has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Lifting of import ban allows for increased trade between Saudi Arabia and Lebanon",
+      "ksa_grounding": "Improved economic ties with Lebanon can increase Saudi Arabia's trade volumes and revenue",
+      "affected_sectors": [
+        "trade",
+        "economy"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia lifts ban on Lebanese imports after five years"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabian businesses",
+        "Lebanese businesses"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased trade and revenue for Saudi Arabian businesses",
+      "downside": "Potential for increased competition from Lebanese imports",
+      "first_order": "Direct increase in trade between Saudi Arabia and Lebanon",
+      "second_order": "Potential for increased economic cooperation and investment between the two countries",
+      "invalidation": "Reimposition of the import ban or significant decline in trade between the two countries",
+      "_at": "2026-06-12T00:17:44.347084"
+    },
+    {
+      "statement": "Investment in global tech and gaming industries is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Gulf wealth funds' investments in SpaceX and Electronic Arts increase feasibility of tech and gaming projects",
+      "ksa_grounding": "Saudi Arabia's Public Investment Fund's investment in Electronic Arts can increase the country's presence in the global gaming industry",
+      "affected_sectors": [
+        "fintech",
+        "entertainment",
+        "gaming"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Gulf wealth funds order billions in SpaceX IPO shares",
+        "Saudi Arabia's Public Investment Fund invests in Electronic Arts"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Gulf wealth funds",
+        "tech and gaming companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment and growth in the tech and gaming industries",
+      "downside": "Potential for over-investment and decreased returns",
+      "first_order": "Direct investment in tech and gaming companies",
+      "second_order": "Potential for increased innovation and job creation in the industries",
+      "invalidation": "Significant decline in investment in the tech and gaming industries or poor performance of the invested companies",
+      "_at": "2026-06-12T00:17:44.347096"
+    },
+    {
+      "statement": "Global oil supply has tightened",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "OPEC oil output decline reduces global oil supply",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia may benefit from increased oil prices due to the supply decline",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "OPEC oil output lowest since 2000"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil producers",
+        "oil consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased revenue for oil producers",
+      "downside": "Potential for increased costs for oil consumers",
+      "first_order": "Direct decline in global oil supply",
+      "second_order": "Potential for increased prices and volatility in the oil market",
+      "invalidation": "Significant increase in OPEC oil output or discovery of new oil reserves",
+      "_at": "2026-06-12T00:17:44.347098"
+    },
+    {
       "statement": "Global crude oil supply has loosened due to reduced imports by China",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2208,93 +2294,7 @@
       "second_order": "Potential new investment and development in the tourism sector",
       "invalidation": "A significant decrease in tourism demand or revenue",
       "_at": "2026-05-13T23:54:02.462288"
-    },
-    {
-      "statement": "Global energy supply disruption is increasing",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "The crisis in the Strait of Hormuz is causing a disruption to oil supplies, leading to increased prices and concerns about global energy security",
-      "ksa_grounding": "This disruption benefits Saudi Aramco's bottom line due to increased oil prices, but may also lead to increased costs for other sectors in Saudi Arabia",
-      "affected_sectors": [
-        "oil_gas",
-        "tourism",
-        "healthcare"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Oil Jumps as Hormuz Crisis Deepens",
-        "Aramco Sees Slow Oil Market Recovery after Shock Supply Loss"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased revenue for Saudi Aramco",
-      "downside": "Increased costs for other sectors in Saudi Arabia",
-      "first_order": "Direct impact on oil prices",
-      "second_order": "Potential impact on other sectors such as tourism and healthcare",
-      "invalidation": "A rapid resolution to the Hormuz crisis, leading to a decrease in oil prices",
-      "_at": "2026-05-12T23:58:01.618193"
-    },
-    {
-      "statement": "Investment in Saudi healthcare sector is increasing",
-      "change_type": "funding",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "The funding of healthtech companies such as Hakeem Health is increasing, indicating a growing interest in the Saudi healthcare sector",
-      "ksa_grounding": "This investment can lead to improved healthcare services and increased access to healthcare for the Saudi population",
-      "affected_sectors": [
-        "healthcare"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Hakeem Health raises $1.65 million backed by Merak Capital"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Hakeem Health",
-        "Merak Capital"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Improved healthcare services and increased access to healthcare",
-      "downside": "Potential risks associated with investing in a new and developing sector",
-      "first_order": "Direct impact on Hakeem Health's services",
-      "second_order": "Potential impact on the broader Saudi healthcare sector",
-      "invalidation": "A decline in investment in the Saudi healthcare sector, indicating a lack of interest in the sector",
-      "_at": "2026-05-12T23:58:01.618202"
-    },
-    {
-      "statement": "Saudi tourism sector is experiencing growth",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "The Saudi Tourism Authority has welcomed the WTTC findings that position Saudi as the largest and fastest-growing travel and tourism market in the region",
-      "ksa_grounding": "This growth can lead to increased revenue and job creation in the Saudi tourism sector",
-      "affected_sectors": [
-        "tourism"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Accelerates Tourism Growth as WTTC Confirms Global Standing and Domestic Travel Surges"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Tourism Authority",
-        "tourists"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased revenue and job creation in the Saudi tourism sector",
-      "downside": "Potential risks associated with over-tourism, such as strain on infrastructure and resources",
-      "first_order": "Direct impact on tourism revenue",
-      "second_order": "Potential impact on other sectors such as hospitality and entertainment",
-      "invalidation": "A decline in tourism numbers, indicating a lack of interest in Saudi tourism",
-      "_at": "2026-05-12T23:58:01.618204"
     }
   ],
-  "lastRefresh": "2026-06-11T00:13:33.629592"
+  "lastRefresh": "2026-06-12T00:18:21.399289"
 }
