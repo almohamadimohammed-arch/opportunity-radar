@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "title": "OPEC lowers 2026 global oil demand growth forecast",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "OPEC has reduced its 2026 oil demand growth forecast to 970,000 barrels per day, marking a second consecutive cut. The group sees less impact from the Iran war than other agencies.",
+      "why_it_matters": "This reduction in oil demand growth forecast may impact Saudi Arabia's oil production and revenue, affecting the country's economic growth and Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-13T00:17:48.845607"
+    },
+    {
+      "title": "Kuwait offers crude to Asian buyers for the first time since 1990-91 Gulf War",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Kuwait Petroleum Corp. has offered crude oil to Asian buyers for the first time since the 1990-91 Gulf War, marking a significant shift in the state-owned company's sales strategy.",
+      "why_it_matters": "This move may increase competition for Saudi Arabia's oil exports in the Asian market, potentially affecting the country's oil revenue and market share.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-13T00:17:48.845620"
+    },
+    {
+      "title": "King Faisal Specialist Hospital & Research Centre advances practical AI applications in healthcare",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "scientific_result",
+      "category": "science",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "healthcare"
+      ],
+      "summary": "King Faisal Specialist Hospital & Research Centre will highlight its practical applications of artificial intelligence during its participation in a conference, driving transformation across specialized healthcare.",
+      "why_it_matters": "This advancement in AI applications in healthcare may improve patient outcomes and enhance the quality of healthcare services in Saudi Arabia, aligning with the country's Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-13T00:17:48.845622"
+    },
+    {
+      "title": "Crude oil prices climb as US-Iran tensions escalate",
+      "source": "Barchart.com",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Crude oil prices are moving higher as US-Iran tensions escalate, with July WTI crude oil up +0.48 (+0.53%) and July RBOB gasoline up +0.0431 (+1.39%).",
+      "why_it_matters": "The escalation of US-Iran tensions may lead to increased crude oil prices, affecting Saudi Arabia's oil revenue and the global energy market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-13T00:17:48.845624"
+    },
+    {
+      "title": "Saudi economy redraws ambitions, focusing on domestic priorities",
+      "source": "Fortune",
+      "source_tier": 2,
+      "time": "2026-06-10",
+      "event_type": "policy_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals",
+        "mining",
+        "renewable_energy",
+        "hydrogen",
+        "fintech",
+        "banking",
+        "insurance",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy"
+      ],
+      "summary": "After a decade of dizzying investments, Saudi Arabia is now focused on domestic priorities, with the economy redrawing its ambitions.",
+      "why_it_matters": "This shift in focus may impact Saudi Arabia's economic growth, diversification, and Vision 2030 goals, as the country prioritizes domestic development over international investments.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-13T00:17:48.845625"
+    },
+    {
       "title": "Saudi Arabia lifts ban on Lebanese imports after five years",
       "source": "Associated Press, Abcnews.com, seattlepi.com",
       "source_tier": 1,
@@ -2874,131 +2989,16 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-05-14T23:54:16.963125"
-    },
-    {
-      "title": "Saudi Arabia launched numerous covert attacks on Iran",
-      "source": "Haaretz, New York Post",
-      "source_tier": 2,
-      "time": "2026-05-12",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "defense",
-        "foreign policy"
-      ],
-      "summary": "Saudi Arabia has launched numerous covert attacks on Iran in retaliation for attacks carried out in the kingdom during the Middle East war. The strikes were not publicly announced, but were confirmed by Western officials. The move marks an escalation of tensions between the two countries.",
-      "why_it_matters": "This development has significant strategic consequences for Saudi Arabia, as it indicates a willingness to take bold action to protect its interests in the region. It also highlights the complex and volatile nature of the Middle East conflict.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-05-13T23:53:24.985905"
-    },
-    {
-      "title": "U.S.-Saudi Business Council announces new Board of Directors",
-      "source": "PRNewswire",
-      "source_tier": 2,
-      "time": "2026-05-12",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi Arabia, USA",
-      "sector_tags": [
-        "fintech",
-        "banking"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economy",
-        "trade"
-      ],
-      "summary": "The U.S.-Saudi Business Council has announced the appointment of its new Board of Directors, featuring a range of prominent business leaders. The move aims to accelerate bilateral economic growth between the two countries.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it highlights the country's efforts to strengthen its economic ties with the United States and promote business growth.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-13T23:53:24.985917"
-    },
-    {
-      "title": "Iran says US must accept peace plan or face 'failure'",
-      "source": "Hurriyet Daily News",
-      "source_tier": 2,
-      "time": "2026-05-12",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "defense",
-        "foreign policy"
-      ],
-      "summary": "Iran's chief negotiator has stated that the US must accept Tehran's latest peace plan or face failure. The move comes after US President Donald Trump warned that the truce in the Middle East war was on the brink of collapse.",
-      "why_it_matters": "This development has significant strategic consequences for Saudi Arabia, as it indicates a potential shift in the regional balance of power and highlights the ongoing tensions between Iran and the US.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-13T23:53:24.985919"
-    },
-    {
-      "title": "Oil prices rise due to doubts over US-Iran ceasefire",
-      "source": "CNA, OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-05-12",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "Oil prices have risen due to doubts over the US-Iran ceasefire, with Brent crude nearing $110. The move comes after US President Donald Trump warned that the truce was on the brink of collapse.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it affects the global oil market and the country's economy. The rise in oil prices could have a positive impact on Saudi Arabia's oil exports.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-05-13T23:53:24.985923"
-    },
-    {
-      "title": "Saudi Arabia accelerates tourism growth",
-      "source": "BusinessLine",
-      "source_tier": 2,
-      "time": "2026-05-11",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi Arabia",
-      "sector_tags": [
-        "tourism",
-        "hospitality"
-      ],
-      "region_tags": [
-        "riyadh",
-        "jeddah"
-      ],
-      "affected_domains": [
-        "economy",
-        "culture"
-      ],
-      "summary": "Saudi Arabia is accelerating its tourism growth, with the Saudi Tourism Authority welcoming the WTTC findings that position Saudi as the largest and fastest-growing travel and tourism market in the region.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it highlights the country's efforts to diversify its economy and promote tourism growth.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-13T23:53:24.985924"
     }
   ],
-  "lastRefresh": "2026-06-12T00:18:21.396456",
+  "lastRefresh": "2026-06-13T00:18:32.833843",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 34,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,

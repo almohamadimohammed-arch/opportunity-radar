@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "title": "Diversification of Saudi Economy",
+      "play_type": "business_play",
+      "actor": "Saudi government and private sector",
+      "customer": "Saudi citizens and businesses",
+      "problem": "Decrease in oil exports affecting the country's revenue",
+      "action_path": "Invest in non-oil sectors such as renewable energy, tourism, and fintech to reduce dependence on oil exports. Encourage foreign investment and partnerships to drive growth. Develop infrastructure to support new industries.",
+      "entry_mode": "invest",
+      "monetization": "Creation of new job opportunities, increase in non-oil GDP, and attraction of foreign investment",
+      "capabilities": "Strong governance, investment in infrastructure, and development of human capital",
+      "barriers": "Bureaucratic red tape, lack of skilled workforce, and competition from established industries",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil demand growth is slowing down"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "tourism",
+        "fintech"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "neom"
+      ],
+      "ksa_grounding": "Diversification of the Saudi economy to reduce dependence on oil exports, in line with Vision 2030",
+      "assumptions": "The Saudi government will continue to support economic diversification, and the private sector will be willing to invest in new industries",
+      "invalidation": "An increase in global oil demand growth forecast by OPEC or other reputable sources, leading to a decrease in urgency for economic diversification",
+      "_at": "2026-06-13T00:18:32.833731"
+    },
+    {
+      "title": "Development of Energy Efficiency Solutions",
+      "play_type": "business_play",
+      "actor": "Saudi energy companies and startups",
+      "customer": "Saudi households and businesses",
+      "problem": "Reduced oil demand leading to decreased revenue for energy companies",
+      "action_path": "Develop and invest in energy efficiency solutions such as smart grids, energy storage, and renewable energy systems. Partner with international companies to bring in new technologies and expertise.",
+      "entry_mode": "build",
+      "monetization": "Creation of new revenue streams, reduction in energy consumption, and increase in energy efficiency",
+      "capabilities": "Strong technical expertise, investment in research and development, and partnerships with international companies",
+      "barriers": "High upfront costs, lack of skilled workforce, and competition from established industries",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil demand growth is slowing down"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "energy_efficiency"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Development of energy efficiency solutions to reduce energy consumption and increase revenue for Saudi energy companies",
+      "assumptions": "The Saudi government will continue to support the development of energy efficiency solutions, and the private sector will be willing to invest in new technologies",
+      "invalidation": "A significant decrease in energy prices, making energy efficiency solutions less economically viable",
+      "_at": "2026-06-13T00:18:32.833744"
+    },
+    {
       "title": "Saudi Gaming Industry Expansion",
       "play_type": "market_entry_play",
       "actor": "Saudi gaming companies",
@@ -1887,98 +1950,7 @@
       "assumptions": "The Saudi government will continue to support the development of the tourism sector, and international tourists will be interested in visiting Saudi Arabia",
       "invalidation": "Failure of the Saudi government to deliver on its tourism development plans or a significant decline in international tourism demand",
       "_at": "2026-05-14T23:55:31.938212"
-    },
-    {
-      "title": "Saudi Oil and Gas Sector Diversification",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco, Saudi government",
-      "customer": "Saudi oil and gas companies, international investors",
-      "problem": "Geopolitical tensions and rising oil prices create uncertainty for Saudi oil and gas sector",
-      "action_path": "Diversify the Saudi oil and gas sector by investing in renewable energy sources, such as solar and wind power, to reduce dependence on oil exports. This can be achieved through partnerships with international companies and investment in local renewable energy projects. Additionally, the sector can focus on developing energy-efficient technologies to reduce costs and increase competitiveness.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue from diversified energy sources, reduced costs from energy-efficient technologies",
-      "capabilities": "Renewable energy expertise, energy-efficient technologies, international partnerships",
-      "barriers": "High upfront investment costs, regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Geopolitical tensions between Saudi Arabia and Iran are increasing",
-        "Oil prices are rising due to geopolitical uncertainty"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "renewable_energy",
-        "energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Diversification of the oil and gas sector can reduce Saudi Arabia's dependence on oil exports and increase its competitiveness in the global energy market",
-      "assumptions": "The Saudi government will continue to support the diversification of the oil and gas sector, international investors will be interested in partnering with Saudi companies",
-      "invalidation": "A significant decrease in oil prices, a verified peace agreement between Saudi Arabia and Iran",
-      "_at": "2026-05-13T23:54:10.115979"
-    },
-    {
-      "title": "Cybersecurity for Saudi Oil and Gas Sector",
-      "play_type": "defensive_play",
-      "actor": "Saudi Aramco, Saudi government, cybersecurity firms",
-      "customer": "Saudi oil and gas companies",
-      "problem": "Geopolitical tensions and rising oil prices create increased risk of cyberattacks on Saudi oil and gas sector",
-      "action_path": "Implement advanced cybersecurity measures to protect Saudi oil and gas infrastructure from potential cyberattacks. This can be achieved through partnerships with international cybersecurity firms and investment in local cybersecurity talent. Additionally, the sector can focus on developing incident response plans to minimize the impact of potential cyberattacks.",
-      "entry_mode": "partner",
-      "monetization": "Reduced risk of cyberattacks, increased security for oil and gas infrastructure",
-      "capabilities": "Cybersecurity expertise, incident response planning, international partnerships",
-      "barriers": "High upfront investment costs, regulatory hurdles",
-      "timing": "prepare now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "Geopolitical tensions between Saudi Arabia and Iran are increasing",
-        "Oil prices are rising due to geopolitical uncertainty"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "cybersecurity"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Protecting the Saudi oil and gas sector from cyberattacks can reduce the risk of disruptions to oil supplies and minimize the impact on the Saudi economy",
-      "assumptions": "The Saudi government will continue to support the implementation of advanced cybersecurity measures, international cybersecurity firms will be interested in partnering with Saudi companies",
-      "invalidation": "A significant decrease in oil prices, a verified peace agreement between Saudi Arabia and Iran",
-      "_at": "2026-05-13T23:54:10.115988"
-    },
-    {
-      "title": "Saudi Oil and Gas Sector Risk Management",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco, Saudi government, risk management firms",
-      "customer": "Saudi oil and gas companies",
-      "problem": "Geopolitical tensions and rising oil prices create increased risk for Saudi oil and gas sector",
-      "action_path": "Develop and implement advanced risk management strategies to mitigate the impact of geopolitical tensions and rising oil prices on the Saudi oil and gas sector. This can be achieved through partnerships with international risk management firms and investment in local risk management talent. Additionally, the sector can focus on diversifying its revenue streams to reduce dependence on oil exports.",
-      "entry_mode": "partner",
-      "monetization": "Reduced risk, increased revenue from diversified revenue streams",
-      "capabilities": "Risk management expertise, international partnerships, revenue diversification",
-      "barriers": "High upfront investment costs, regulatory hurdles",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Geopolitical tensions between Saudi Arabia and Iran are increasing",
-        "Oil prices are rising due to geopolitical uncertainty"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "risk_management"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Effective risk management can reduce the impact of geopolitical tensions and rising oil prices on the Saudi oil and gas sector, and increase its competitiveness in the global energy market",
-      "assumptions": "The Saudi government will continue to support the development and implementation of advanced risk management strategies, international risk management firms will be interested in partnering with Saudi companies",
-      "invalidation": "A significant decrease in oil prices, a verified peace agreement between Saudi Arabia and Iran",
-      "_at": "2026-05-13T23:54:10.115991"
     }
   ],
-  "lastRefresh": "2026-06-12T00:18:21.401185"
+  "lastRefresh": "2026-06-13T00:18:32.838605"
 }

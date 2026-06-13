@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Global oil demand growth is slowing down",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "Reduced forecast by OPEC due to lower-than-expected impact from the Iran war",
+      "ksa_grounding": "Saudi Arabia's oil exports may decrease, affecting the country's revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "OPEC lowers 2026 global oil demand growth forecast",
+        "Crude oil prices climb as US-Iran tensions escalate"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased focus on renewable energy sources",
+      "downside": "Decreased revenue for Saudi Arabia",
+      "first_order": "Direct impact on oil demand",
+      "second_order": "Potential impact on Saudi Arabia's economy and investment in other sectors",
+      "invalidation": "An increase in global oil demand growth forecast by OPEC or other reputable sources",
+      "_at": "2026-06-13T00:18:25.915806"
+    },
+    {
+      "statement": "Saudi Arabia is shifting its economic priorities to domestic focus",
+      "change_type": "institutional priority",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Redrawing of economic ambitions after a decade of investments",
+      "ksa_grounding": "Increased focus on domestic priorities may lead to more investment in local sectors",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "mining",
+        "renewable_energy",
+        "hydrogen",
+        "fintech",
+        "banking",
+        "insurance",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi economy redraws ambitions, focusing on domestic priorities"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased economic growth and diversification",
+      "downside": "Potential for decreased investment in international markets",
+      "first_order": "Direct impact on Saudi Arabia's economic priorities",
+      "second_order": "Potential impact on various sectors and regions within Saudi Arabia",
+      "invalidation": "A statement from the Saudi government indicating a return to previous economic priorities",
+      "_at": "2026-06-13T00:18:25.915819"
+    },
+    {
+      "statement": "Kuwait is expanding its crude oil sales to new markets",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Kuwait Petroleum Corp.'s offer of crude oil to Asian buyers for the first time since 1990-91",
+      "ksa_grounding": "Potential increased competition for Saudi Arabia's oil exports in Asian markets",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Kuwait offers crude to Asian buyers for the first time since 1990-91 Gulf War"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Kuwait",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil sales for Kuwait",
+      "downside": "Potential for decreased oil sales for Saudi Arabia",
+      "first_order": "Direct impact on Kuwait's oil sales",
+      "second_order": "Potential impact on Saudi Arabia's oil exports and revenue",
+      "invalidation": "A statement from Kuwait Petroleum Corp. indicating a cancellation of the offer",
+      "_at": "2026-06-13T00:18:25.915823"
+    },
+    {
       "statement": "Regulatory barrier to trade with Lebanon has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2177,124 +2263,7 @@
       "second_order": "Potential growth in related sectors such as construction and finance",
       "invalidation": "Failure of Saudi Aramco to secure the sale and leaseback deal or a significant decline in investor interest",
       "_at": "2026-05-14T23:54:54.585147"
-    },
-    {
-      "statement": "Geopolitical tensions between Saudi Arabia and Iran are increasing",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Escalating covert attacks and diplomatic tensions increase the likelihood of conflict",
-      "ksa_grounding": "Increased risk of conflict could disrupt oil supplies and impact Saudi Arabia's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia launched numerous covert attacks on Iran",
-        "Iran says US must accept peace plan or face 'failure'"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabia",
-        "Iran",
-        "US"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential disruption to oil supplies and increased conflict",
-      "first_order": "Increased risk of conflict",
-      "second_order": "Potential economic disruption and loss of investment",
-      "invalidation": "A verified peace agreement between Saudi Arabia and Iran",
-      "_at": "2026-05-13T23:54:02.462275"
-    },
-    {
-      "statement": "Oil prices are rising due to geopolitical uncertainty",
-      "change_type": "cost",
-      "change_vector": "cost_rising",
-      "mechanism": "Increased risk of conflict and supply disruptions drive up oil prices",
-      "ksa_grounding": "Higher oil prices could increase revenue for Saudi Arabia's oil sector, but also lead to higher costs for other industries",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Oil prices rise due to doubts over US-Iran ceasefire",
-        "Saudi Arabia launched numerous covert attacks on Iran"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Oil consumers",
-        "Oil producers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential increased revenue for Saudi Arabia's oil sector",
-      "downside": "Higher costs for other industries and potential economic disruption",
-      "first_order": "Increased oil prices",
-      "second_order": "Potential economic disruption and loss of investment",
-      "invalidation": "A significant decrease in oil prices due to increased global supply or reduced demand",
-      "_at": "2026-05-13T23:54:02.462285"
-    },
-    {
-      "statement": "Bilateral economic growth between the US and Saudi Arabia is being promoted",
-      "change_type": "institutional_priority",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "The U.S.-Saudi Business Council's new Board of Directors aims to accelerate bilateral economic growth",
-      "ksa_grounding": "Increased economic cooperation between the US and Saudi Arabia could lead to new investment and trade opportunities",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "U.S.-Saudi Business Council announces new Board of Directors"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "US businesses",
-        "Saudi businesses"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential new investment and trade opportunities",
-      "downside": "None",
-      "first_order": "Increased economic cooperation",
-      "second_order": "Potential new investment and trade opportunities",
-      "invalidation": "A significant decrease in bilateral trade or investment between the US and Saudi Arabia",
-      "_at": "2026-05-13T23:54:02.462287"
-    },
-    {
-      "statement": "Saudi Arabia's tourism sector is growing rapidly",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Saudi Arabia is accelerating its tourism growth, with the Saudi Tourism Authority welcoming the WTTC findings",
-      "ksa_grounding": "Increased tourism could lead to new revenue streams and job opportunities for Saudi Arabia's economy",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "jeddah",
-        "makkah",
-        "madinah"
-      ],
-      "evidence": [
-        "Saudi Arabia accelerates tourism growth"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Tourists",
-        "Saudi tourism businesses"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential new revenue streams and job opportunities",
-      "downside": "None",
-      "first_order": "Increased tourism demand",
-      "second_order": "Potential new investment and development in the tourism sector",
-      "invalidation": "A significant decrease in tourism demand or revenue",
-      "_at": "2026-05-13T23:54:02.462288"
     }
   ],
-  "lastRefresh": "2026-06-12T00:18:21.399289"
+  "lastRefresh": "2026-06-13T00:18:32.836620"
 }
