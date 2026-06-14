@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "title": "Kuwait Offers Crude to Asian Buyers for First Time Since 1990-91 Gulf War",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "Kuwait Petroleum Corp. has offered crude oil to Asian buyers for the first time since the 1990-91 Gulf War, marking a significant shift in the state-owned company\u2019s sales strategy. This move could impact the global oil market and potentially affect Saudi Arabia's oil exports.",
+      "why_it_matters": "This development could influence Saudi Arabia's oil export strategies and impact the country's energy sector, particularly if other Gulf countries follow suit.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-14T00:03:22.344668"
+    },
+    {
+      "title": "King Faisal Specialist Hospital & Research Centre Highlights Strategic Value of Tertiary Care AI Datasets",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-06-12",
+      "event_type": "scientific_result",
+      "category": "science",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare",
+        "biotech"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "medicine",
+        "research"
+      ],
+      "summary": "King Faisal Specialist Hospital & Research Centre will use its participation at HLTH Europe 2026 to highlight the strategic value of tertiary care AI datasets in advancing precision medicine and clinical innovation.",
+      "why_it_matters": "This development could enhance Saudi Arabia's healthcare sector and contribute to the country's vision for a more advanced and innovative healthcare system.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-14T00:03:22.344679"
+    },
+    {
+      "title": "Tata Consultancy Services Partners with Anthropic to Scale Enterprise AI",
+      "source": "The Tribune",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "education"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "business",
+        "technology"
+      ],
+      "summary": "Tata Consultancy Services has announced a global partnership with AI major Anthropic to help customers scale enterprise artificial intelligence adoption.",
+      "why_it_matters": "This partnership could impact Saudi Arabia's fintech and education sectors, as well as the country's overall digital transformation efforts.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-14T00:03:22.344682"
+    },
+    {
+      "title": "Innefu Labs Raises $30M to Advance Sovereign AI for National Security",
+      "source": "The Tribune",
+      "source_tier": 2,
+      "time": "2026-06-11",
+      "event_type": "funding",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "security"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "security"
+      ],
+      "summary": "Innefu Labs, an Indian AI company, has raised $30M to advance sovereign AI for national security, which could have implications for Saudi Arabia's national security and defense strategies.",
+      "why_it_matters": "This development could influence Saudi Arabia's approach to AI adoption in the defense and security sectors, particularly if the country considers similar investments in sovereign AI capabilities.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-14T00:03:22.344686"
+    },
+    {
       "title": "OPEC lowers 2026 global oil demand growth forecast",
       "source": "The Times of India",
       "source_tier": 2,
@@ -2900,112 +2992,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-05-15T23:52:43.240537"
-    },
-    {
-      "title": "OPEC sees slower demand growth this year as production falls more than 30% on Hormuz closure",
-      "source": "CNBC",
-      "source_tier": 1,
-      "time": "2026-05-13",
-      "event_type": "infrastructure_disruption",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "OPEC has reported a significant decline in oil production due to the closure of the Strait of Hormuz, resulting in slower demand growth. The closure has effectively cut off supply from the Persian Gulf. This has led to a major disruption in the global oil market.",
-      "why_it_matters": "The disruption in the global oil market could have significant strategic consequences for Saudi Arabia, potentially impacting its economy and energy exports. The country may need to reassess its energy production and export strategies in response to the changing global market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-14T23:54:16.963110"
-    },
-    {
-      "title": "Saudi Aramco Looks to Raise $10 Billion from Real Estate Asset Deal",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-05-13",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "finance"
-      ],
-      "summary": "Saudi Aramco is considering a sale and leaseback deal for its real estate assets, including its Dhahran Camp residential community, in an effort to raise at least $10 billion. The move is seen as a strategic decision to optimize the company's assets and generate revenue.",
-      "why_it_matters": "The potential deal could have significant implications for Saudi Aramco's financial position and its ability to invest in its core business. It may also reflect a broader trend of Saudi companies seeking to diversify their assets and revenue streams.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-14T23:54:16.963121"
-    },
-    {
-      "title": "U.S.-Saudi Business Council Unveils Powerhouse Board of Directors to Accelerate Bilateral Economic Growth",
-      "source": "PRNewswire",
-      "source_tier": 2,
-      "time": "2026-05-12",
-      "event_type": "partnership",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "fintech",
-        "banking"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance",
-        "trade"
-      ],
-      "summary": "The U.S.-Saudi Business Council has announced the appointment of a new Board of Directors, featuring prominent business leaders from both countries. The move is aimed at accelerating bilateral economic growth and strengthening trade ties between the two nations.",
-      "why_it_matters": "The partnership could have significant implications for Saudi Arabia's economic development, potentially leading to increased investment and trade with the United States. It may also reflect a broader trend of Saudi Arabia seeking to strengthen its economic ties with key global partners.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-14T23:54:16.963124"
-    },
-    {
-      "title": "Saudi Arabia Defense Market Report 2026-2035",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-05-13",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "mining",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "defense",
-        "security"
-      ],
-      "summary": "A new report has been released on the Saudi Arabia defense market, highlighting key trends and opportunities for growth. The report notes that the country's defense sector is shifting towards domestic manufacturing, R&D, and procurement.",
-      "why_it_matters": "The shift in the defense sector could have significant strategic consequences for Saudi Arabia, potentially leading to increased self-sufficiency and reduced reliance on foreign suppliers. It may also reflect a broader trend of Saudi Arabia seeking to develop its domestic industries and reduce its dependence on imports.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-14T23:54:16.963125"
     }
   ],
-  "lastRefresh": "2026-06-13T00:18:32.833843",
+  "lastRefresh": "2026-06-14T00:04:06.211343",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 40,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
+    "signals_generated": 2,
     "signals_strong": 0,
     "signals_moderate": 1,
-    "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "signals_ksa_grounded": 2,
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

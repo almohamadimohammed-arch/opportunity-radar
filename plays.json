@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Diversification of Saudi Oil and Gas Sector",
+      "play_type": "business_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Saudi government, international investors",
+      "problem": "Decrease in oil demand growth and potential decrease in Saudi Arabia's oil exports and revenue",
+      "action_path": "Saudi oil and gas companies should diversify their operations to include renewable energy sources, such as solar and wind power, to reduce dependence on oil exports. This can be achieved by investing in research and development of new energy technologies and partnering with international companies. Additionally, they can explore opportunities in petrochemicals and other downstream industries.",
+      "entry_mode": "invest",
+      "monetization": "creating new revenue streams through diversification",
+      "capabilities": "renewable energy technologies, research and development, partnership building",
+      "barriers": "high upfront costs, lack of expertise in new energy technologies",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil demand growth is slowing down"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "diversification of the oil and gas sector to reduce dependence on oil exports and increase revenue streams",
+      "assumptions": "the Saudi government will continue to support the diversification of the oil and gas sector, international investors will be interested in partnering with Saudi companies",
+      "invalidation": "an increase in global oil demand growth or a significant rise in oil prices, making diversification less necessary",
+      "_at": "2026-06-14T00:04:06.211230"
+    },
+    {
+      "title": "Development of Downstream Industries",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi government, private investors",
+      "customer": "Saudi oil and gas companies, international investors",
+      "problem": "decrease in oil demand growth and potential decrease in Saudi Arabia's oil exports and revenue",
+      "action_path": "The Saudi government and private investors should invest in the development of downstream industries, such as petrochemicals, refining, and distribution. This can be achieved by building new infrastructure, such as pipelines, storage facilities, and manufacturing plants. Additionally, they can provide incentives for international companies to invest in these industries.",
+      "entry_mode": "build",
+      "monetization": "creating new revenue streams through the development of downstream industries",
+      "capabilities": "infrastructure development, investment, partnership building",
+      "barriers": "high upfront costs, lack of expertise in downstream industries",
+      "timing": "build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil demand growth is slowing down"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "petrochemicals",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "jeddah"
+      ],
+      "ksa_grounding": "development of downstream industries to increase revenue streams and reduce dependence on oil exports",
+      "assumptions": "the Saudi government will continue to support the development of downstream industries, international investors will be interested in partnering with Saudi companies",
+      "invalidation": "an increase in global oil demand growth or a significant rise in oil prices, making the development of downstream industries less necessary",
+      "_at": "2026-06-14T00:04:06.211243"
+    },
+    {
+      "title": "Research and Development of New Energy Technologies",
+      "play_type": "research_play",
+      "actor": "Saudi universities, research institutions",
+      "customer": "Saudi oil and gas companies, international investors",
+      "problem": "decrease in oil demand growth and potential decrease in Saudi Arabia's oil exports and revenue",
+      "action_path": "Saudi universities and research institutions should invest in the research and development of new energy technologies, such as renewable energy sources, energy storage, and smart grids. This can be achieved by partnering with international universities and research institutions, and providing funding for research projects.",
+      "entry_mode": "invest",
+      "monetization": "creating new revenue streams through the development of new energy technologies",
+      "capabilities": "research and development, partnership building, funding",
+      "barriers": "lack of expertise in new energy technologies, limited funding",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil demand growth is slowing down"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "research and development of new energy technologies to reduce dependence on oil exports and increase revenue streams",
+      "assumptions": "the Saudi government will continue to support the research and development of new energy technologies, international universities and research institutions will be interested in partnering with Saudi institutions",
+      "invalidation": "an increase in global oil demand growth or a significant rise in oil prices, making the research and development of new energy technologies less necessary",
+      "_at": "2026-06-14T00:04:06.211245"
+    },
+    {
       "title": "Diversification of Saudi Economy",
       "play_type": "business_play",
       "actor": "Saudi government and private sector",
@@ -1889,68 +1979,7 @@
       "assumptions": "Continued growth in demand for tourism and hospitality services, Importance of digital solutions",
       "invalidation": "A significant decline in tourism and hospitality demand or a failure to deliver on digital solutions",
       "_at": "2026-05-16T23:50:04.040400"
-    },
-    {
-      "title": "US-Saudi Fintech Partnership",
-      "play_type": "market_entry_play",
-      "actor": "US-based fintech companies",
-      "customer": "Saudi banks and financial institutions",
-      "problem": "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced, creating opportunities for fintech partnerships",
-      "action_path": "US-based fintech companies can partner with Saudi banks to offer innovative financial services, leveraging the reduced regulatory barriers. They can invest in building relationships with key stakeholders and developing tailored solutions for the Saudi market. This can lead to increased revenue and market share for the fintech companies.",
-      "entry_mode": "partner",
-      "monetization": "Revenue sharing and transaction fees",
-      "capabilities": "Cloud-native capabilities, compliance with Saudi regulations, and cultural understanding",
-      "barriers": "Competition from established players, regulatory complexities, and cultural differences",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to the Saudi market structure by leveraging the government's efforts to diversify the economy and promote foreign investment",
-      "assumptions": "The US-Saudi Business Council's efforts will be successful in reducing regulatory barriers, and Saudi banks will be receptive to partnerships with US-based fintech companies",
-      "invalidation": "Failure of the US-Saudi Business Council to achieve its goals or a significant deterioration in US-Saudi relations",
-      "_at": "2026-05-14T23:55:31.938203"
-    },
-    {
-      "title": "Saudi Tourism Digital Transformation",
-      "play_type": "business_play",
-      "actor": "Saudi tourism companies",
-      "customer": "International tourists",
-      "problem": "Reduced regulatory barriers can increase tourism revenue, but Saudi tourism companies need to digitize their services to attract more visitors",
-      "action_path": "Saudi tourism companies can invest in digital transformation, developing online platforms and mobile apps to showcase their services and facilitate bookings. They can also partner with US-based tech companies to leverage their expertise and capabilities. This can lead to increased tourism revenue and competitiveness for the Saudi tourism industry.",
-      "entry_mode": "build",
-      "monetization": "Increased tourism revenue and bookings",
-      "capabilities": "Digital transformation capabilities, user experience design, and online marketing",
-      "barriers": "Competition from established players, regulatory complexities, and limited digital literacy",
-      "timing": "prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory barriers to bilateral economic growth between the US and Saudi Arabia have reduced"
-      ],
-      "sector": "tourism",
-      "relevant_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "relevant_regions": [
-        "jeddah",
-        "makkah",
-        "madinah"
-      ],
-      "ksa_grounding": "This play connects to the Saudi market structure by supporting the government's efforts to develop the tourism sector and increase foreign investment",
-      "assumptions": "The Saudi government will continue to support the development of the tourism sector, and international tourists will be interested in visiting Saudi Arabia",
-      "invalidation": "Failure of the Saudi government to deliver on its tourism development plans or a significant decline in international tourism demand",
-      "_at": "2026-05-14T23:55:31.938212"
     }
   ],
-  "lastRefresh": "2026-06-13T00:18:32.838605"
+  "lastRefresh": "2026-06-14T00:04:06.216013"
 }
