@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Saudi Oil and Gas Sector Stability Enhancement",
+      "play_type": "business_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Saudi government, international oil and gas investors",
+      "problem": "Potential reduction in regional tensions and increased cooperation due to US-Iran peace deal",
+      "action_path": "Develop strategic partnerships with international oil and gas companies to enhance stability and reduce risk in the region. Invest in infrastructure development to support increased cooperation and trade. Enhance security measures to protect oil and gas assets.",
+      "entry_mode": "partner",
+      "monetization": "Increased foreign investment, improved trade relationships, and enhanced regional stability",
+      "capabilities": "International partnership development, infrastructure development, security measures",
+      "barriers": "Breakdown in US-Iran peace talks, significant increase in Gulf tensions",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Regional security dynamics are shifting due to potential diplomatic developments"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Increased stability and reduced risk in the region would benefit Saudi Arabia's oil and gas sector",
+      "assumptions": "US-Iran peace deal is successful, regional security dynamics shift positively",
+      "invalidation": "Breakdown in US-Iran peace talks or significant increase in Gulf tensions",
+      "_at": "2026-06-15T00:06:33.783025"
+    },
+    {
+      "title": "Gulf Region Security Cooperation",
+      "play_type": "policy_play",
+      "actor": "Saudi government, Gulf Cooperation Council",
+      "customer": "Gulf region countries, international community",
+      "problem": "Potential reduction in regional tensions and increased cooperation due to US-Iran peace deal",
+      "action_path": "Develop and implement regional security cooperation agreements to enhance stability and reduce risk. Establish a framework for information sharing and joint security operations. Enhance diplomatic efforts to promote regional cooperation and stability.",
+      "entry_mode": "build",
+      "monetization": "Improved regional stability, increased cooperation, and enhanced security",
+      "capabilities": "Diplomatic efforts, security cooperation agreement development, information sharing",
+      "barriers": "Breakdown in US-Iran peace talks, significant increase in Gulf tensions",
+      "timing": "build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regional security dynamics are shifting due to potential diplomatic developments"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Increased stability and reduced risk in the region would benefit Saudi Arabia's oil and gas sector",
+      "assumptions": "US-Iran peace deal is successful, regional security dynamics shift positively",
+      "invalidation": "Breakdown in US-Iran peace talks or significant increase in Gulf tensions",
+      "_at": "2026-06-15T00:06:33.783035"
+    },
+    {
+      "title": "Saudi Oil and Gas Sector Diversification",
+      "play_type": "business_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Saudi government, international oil and gas investors",
+      "problem": "Potential reduction in regional tensions and increased cooperation due to US-Iran peace deal",
+      "action_path": "Diversify oil and gas sector investments to include renewable energy and other low-carbon technologies. Develop strategic partnerships with international companies to enhance technology transfer and investment. Enhance research and development efforts to improve energy efficiency and reduce emissions.",
+      "entry_mode": "invest",
+      "monetization": "Increased foreign investment, improved trade relationships, and enhanced regional stability",
+      "capabilities": "International partnership development, technology transfer, research and development",
+      "barriers": "Breakdown in US-Iran peace talks, significant increase in Gulf tensions",
+      "timing": "invest",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Regional security dynamics are shifting due to potential diplomatic developments"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Increased stability and reduced risk in the region would benefit Saudi Arabia's oil and gas sector",
+      "assumptions": "US-Iran peace deal is successful, regional security dynamics shift positively",
+      "invalidation": "Breakdown in US-Iran peace talks or significant increase in Gulf tensions",
+      "_at": "2026-06-15T00:06:33.783037"
+    },
+    {
       "title": "Diversification of Saudi Oil and Gas Sector",
       "play_type": "business_play",
       "actor": "Saudi oil and gas companies",
@@ -1981,5 +2072,5 @@
       "_at": "2026-05-16T23:50:04.040400"
     }
   ],
-  "lastRefresh": "2026-06-14T00:04:06.216013"
+  "lastRefresh": "2026-06-15T00:06:33.787354"
 }

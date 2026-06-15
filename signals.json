@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Regional security dynamics are shifting due to potential diplomatic developments",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "A potential US-Iran peace deal could lead to a review of Gulf security arrangements, potentially reducing tensions and increasing cooperation",
+      "ksa_grounding": "This could lead to increased stability and reduced risk in the region, benefiting Saudi Arabia's oil and gas sector",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Potential US-Iran peace deal could impact Gulf security arrangements",
+        "UAE and Iran hold historic face-to-face meeting amid Gulf tensions"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Gulf countries",
+        "US",
+        "Iran"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased regional stability and cooperation",
+      "downside": "Potential for deal to fall through or have unintended consequences",
+      "first_order": "Reduced tensions and increased cooperation between Gulf countries and Iran",
+      "second_order": "Potential for increased investment and economic growth in the region",
+      "invalidation": "A breakdown in US-Iran peace talks or a significant increase in Gulf tensions",
+      "_at": "2026-06-15T00:06:26.208472"
+    },
+    {
+      "statement": "Adoption of AI in healthcare is increasing",
+      "change_type": "technology",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "The use of AI datasets for precision medicine is becoming more prevalent, increasing the feasibility of advanced healthcare treatments",
+      "ksa_grounding": "This could lead to improved healthcare outcomes and increased competitiveness for Saudi Arabia's healthcare sector",
+      "affected_sectors": [
+        "healthcare",
+        "biotech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "King Faisal Specialist Hospital to use AI datasets for precision medicine"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "King Faisal Specialist Hospital",
+        "healthcare providers"
+      ],
+      "time_horizon": "now",
+      "upside": "Improved healthcare outcomes and increased competitiveness",
+      "downside": "Potential for AI to displace human healthcare workers",
+      "first_order": "Increased use of AI in healthcare",
+      "second_order": "Potential for improved patient outcomes and increased efficiency",
+      "invalidation": "A significant decrease in AI adoption in healthcare or a major setback in AI development",
+      "_at": "2026-06-15T00:06:26.208484"
+    },
+    {
+      "statement": "Partnerships in fintech are increasing",
+      "change_type": "competition",
+      "change_vector": "competition_intensifying",
+      "mechanism": "The partnership between TCS and Anthropic is increasing the competitiveness of the fintech sector, as more companies seek to scale enterprise AI adoption",
+      "ksa_grounding": "This could lead to increased innovation and competitiveness in Saudi Arabia's fintech sector",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "TCS partners with Anthropic to scale enterprise AI"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "TCS",
+        "Anthropic",
+        "fintech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased innovation and competitiveness",
+      "downside": "Potential for increased competition to lead to market saturation",
+      "first_order": "Increased partnerships and competition in fintech",
+      "second_order": "Potential for increased innovation and adoption of AI in the sector",
+      "invalidation": "A significant decrease in fintech partnerships or a major setback in AI development",
+      "_at": "2026-06-15T00:06:26.208487"
+    },
+    {
       "statement": "AI adoption is increasing in the healthcare sector",
       "change_type": "technology",
       "change_vector": "feasibility_increasing",
@@ -2091,119 +2176,7 @@
       "second_order": "Growth in related industries, such as construction and transportation",
       "invalidation": "A significant decline in tourism and hospitality demand or a failure to deliver on infrastructure projects",
       "_at": "2026-05-16T23:49:26.492810"
-    },
-    {
-      "statement": "Global oil demand is decreasing",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "OPEC's reduction in demand forecast may lead to decreased oil production and investment",
-      "ksa_grounding": "Saudi Arabia's oil-dependent economy may experience reduced revenue and economic growth",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "OPEC cuts demand forecast for 2026"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "OPEC",
-        "Saudi Aramco"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased investment in renewable energy sources",
-      "downside": "Potential for decreased government revenue and economic growth",
-      "first_order": "Decreased oil demand",
-      "second_order": "Potential for decreased investment in oil and gas sector",
-      "invalidation": "Increase in global oil demand or significant growth in Saudi Arabia's non-oil sectors",
-      "_at": "2026-05-15T23:53:21.354682"
-    },
-    {
-      "statement": "Saudi Arabia is increasing its investment in sports and tourism",
-      "change_type": "investment",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Saudi Arabia's sovereign wealth fund investment in soccer aims to promote the country's sports industry and tourism sector",
-      "ksa_grounding": "Increased investment in sports and tourism may lead to growth in these sectors and contribute to Saudi Arabia's economic diversification",
-      "affected_sectors": [
-        "entertainment",
-        "tourism"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Arabia's sovereign wealth fund invests in soccer"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Arabia's sovereign wealth fund",
-        "tourism industry"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased tourism revenue and economic growth",
-      "downside": "Potential for decreased investment returns or failure to attract tourists",
-      "first_order": "Increased investment in sports and tourism",
-      "second_order": "Potential for growth in related industries such as hospitality and entertainment",
-      "invalidation": "Decrease in investment in sports and tourism or failure to attract tourists",
-      "_at": "2026-05-15T23:53:21.354692"
-    },
-    {
-      "statement": "The Iran war is negatively impacting Gulf economies",
-      "change_type": "geopolitics",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "The Iran war has impacted oil prices, trade, and investment in the Gulf countries, including Saudi Arabia",
-      "ksa_grounding": "The war may lead to increased uncertainty and risk for Saudi Arabia's economy, particularly in the oil and gas sector",
-      "affected_sectors": [
-        "oil_gas",
-        "economy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Iran war impacts Gulf economies"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Gulf countries",
-        "oil and gas industry"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased investment in defense and security",
-      "downside": "Potential for decreased economic growth and increased uncertainty",
-      "first_order": "Negative impact on Gulf economies",
-      "second_order": "Potential for decreased investment and trade in the region",
-      "invalidation": "Resolution of the Iran war or significant decrease in its impact on Gulf economies",
-      "_at": "2026-05-15T23:53:21.354694"
-    },
-    {
-      "statement": "Business ties between the US and Saudi Arabia are strengthening",
-      "change_type": "partnership",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "Executives from major US companies have joined the US-Saudi Business Council board, aiming to promote business ties between the two countries",
-      "ksa_grounding": "Strengthened business ties may lead to increased investment and trade between the US and Saudi Arabia, contributing to Saudi Arabia's economic growth and diversification",
-      "affected_sectors": [
-        "fintech",
-        "energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Google, Coca-Cola, ExxonMobil executives join US-Saudi Business Council board"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "US-Saudi Business Council",
-        "US and Saudi companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased investment and trade between the US and Saudi Arabia",
-      "downside": "Potential for decreased investment returns or failure to strengthen business ties",
-      "first_order": "Strengthened business ties",
-      "second_order": "Potential for growth in related industries such as finance and energy",
-      "invalidation": "Decrease in business ties or investment between the US and Saudi Arabia",
-      "_at": "2026-05-15T23:53:21.354695"
     }
   ],
-  "lastRefresh": "2026-06-14T00:04:06.214105"
+  "lastRefresh": "2026-06-15T00:06:33.785637"
 }
