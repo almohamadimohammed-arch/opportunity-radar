@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Adoption of AI technology is increasing in various sectors",
+      "change_type": "technology",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Investments and partnerships in AI development and implementation",
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased AI adoption, particularly in fintech and technology sectors",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "DoorDash introduces AI chatbot for orders and reservations",
+        "Anthropic partners with TCS to scale enterprise AI"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "businesses",
+        "consumers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved efficiency and customer experience",
+      "downside": "Job displacement and increased dependence on technology",
+      "first_order": "Direct impact on businesses and consumers",
+      "second_order": "Potential for increased economic growth and competitiveness",
+      "invalidation": "A significant decline in AI investment and adoption rates",
+      "_at": "2026-06-16T00:28:48.738447"
+    },
+    {
+      "statement": "Global oil dynamics may be impacted by geopolitical developments",
+      "change_type": "geopolitics",
+      "change_vector": "supply_looser",
+      "mechanism": "Oil sanctions waiver and production shutdowns",
+      "ksa_grounding": "Saudi Arabia's oil exports and economy may be affected by changes in global oil supply and demand",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran-US draft deal includes oil sanctions waiver",
+        "Oil and gas supplies may take months to return to normal"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil supply and reduced prices",
+      "downside": "Potential for market volatility and economic disruption",
+      "first_order": "Direct impact on oil prices and supply",
+      "second_order": "Potential for broader economic and geopolitical implications",
+      "invalidation": "A swift resolution to the US-Iran conflict and restoration of normal oil production",
+      "_at": "2026-06-16T00:28:48.738457"
+    },
+    {
+      "statement": "Investment in technology and fintech is increasing",
+      "change_type": "investment",
+      "change_vector": "cost_falling",
+      "mechanism": "Funding and investment in technology and fintech startups",
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased investment in technology and fintech, particularly in areas like AI and data solutions",
+      "affected_sectors": [
+        "technology",
+        "fintech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Innefu Labs raises $30M for sovereign AI development",
+        "Upriver raises $14M to fix enterprise data problems"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "startups",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased innovation and economic growth",
+      "downside": "Potential for increased competition and market saturation",
+      "first_order": "Direct impact on startups and investors",
+      "second_order": "Potential for broader economic and technological implications",
+      "invalidation": "A significant decline in investment in technology and fintech",
+      "_at": "2026-06-16T00:28:48.738458"
+    },
+    {
       "statement": "Regional security dynamics are shifting due to potential diplomatic developments",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2084,99 +2169,7 @@
       "second_order": "downstream effects on tourism, investments, and economic growth",
       "invalidation": "a failure to deliver on sports-related investments or a decline in the global sports industry",
       "_at": "2026-05-17T23:55:17.043065"
-    },
-    {
-      "statement": "Infrastructure development is increasing in Saudi Arabia",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Large-scale infrastructure projects under Saudi Vision 2030 are driving growth in the construction equipment market",
-      "ksa_grounding": "The expansion of infrastructure in Saudi Arabia will support the growth of various sectors, including tourism and hospitality",
-      "affected_sectors": [
-        "tourism",
-        "hospitality",
-        "construction"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "makkah"
-      ],
-      "evidence": [
-        "Saudi Arabia Construction Equipment Market to Expand at a CAGR of 4.71% from 2024 to 2030",
-        "Saudi Arabia Elevator and Escalator Market to Grow at a CAGR of 3.73% from 2025 to 2031"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "construction companies",
-        "tourism operators"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased economic growth and job creation",
-      "downside": "Potential environmental impacts and strain on resources",
-      "first_order": "Direct investment in infrastructure projects",
-      "second_order": "Growth in related industries, such as tourism and hospitality",
-      "invalidation": "A significant decline in construction equipment market growth or a slowdown in infrastructure development",
-      "_at": "2026-05-16T23:49:26.492797"
-    },
-    {
-      "statement": "Regional geopolitical tensions may be rising",
-      "change_type": "geopolitics",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Historical conflicts and alliances in the region contribute to ongoing tensions",
-      "ksa_grounding": "As a key player in the region, Saudi Arabia may be affected by increased geopolitical tensions, potentially impacting its oil and gas sector",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Trump Admits US Went to War with Iran for Israel",
-        "UAE to Double Oil Export Capacity Bypassing Hormuz by 2027"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil and gas companies",
-        "government agencies"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential disruption to oil supplies and increased regional instability",
-      "first_order": "Direct impact on regional security and stability",
-      "second_order": "Potential economic impacts on the oil and gas sector",
-      "invalidation": "A significant reduction in regional tensions or a resolution to historical conflicts",
-      "_at": "2026-05-16T23:49:26.492808"
-    },
-    {
-      "statement": "Demand for tourism and hospitality services is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Growing investment in infrastructure and events, such as the FIFA World Cup 2026, is driving demand for tourism and hospitality services",
-      "ksa_grounding": "The growth in demand for tourism and hospitality services will support the development of these sectors in Saudi Arabia",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "makkah"
-      ],
-      "evidence": [
-        "PIF Named as Official Tournament Supporter of FIFA World Cup 2026",
-        "Saudi Arabia Elevator and Escalator Market to Grow at a CAGR of 3.73% from 2025 to 2031"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "tourism operators",
-        "hospitality providers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased revenue and job creation in the tourism and hospitality sectors",
-      "downside": "Potential strain on resources and infrastructure",
-      "first_order": "Direct investment in tourism and hospitality infrastructure",
-      "second_order": "Growth in related industries, such as construction and transportation",
-      "invalidation": "A significant decline in tourism and hospitality demand or a failure to deliver on infrastructure projects",
-      "_at": "2026-05-16T23:49:26.492810"
     }
   ],
-  "lastRefresh": "2026-06-15T00:06:33.785637"
+  "lastRefresh": "2026-06-16T00:29:26.269842"
 }
