@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "statement": "Global energy market stability has increased",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The US-Iran interim deal aims to end the protracted war and reopen the Strait of Hormuz, which could lead to increased oil production and exports",
+      "ksa_grounding": "This could impact Saudi Arabia's oil exports and revenue, potentially leading to a decrease in the country's oil market share",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US-Iran interim deal reached, aiming to end protracted war and reopen Strait of Hormuz",
+        "US-Iran deal could stabilize global energy markets and influence oil prices"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased global energy market stability, potentially leading to lower oil prices",
+      "downside": "Decrease in Saudi Arabia's oil market share and revenue",
+      "first_order": "Direct impact on global energy markets",
+      "second_order": "Downstream effects on Saudi Arabia's economy and oil industry",
+      "invalidation": "If the US-Iran deal falls through or fails to lead to increased oil production and exports",
+      "_at": "2026-06-17T00:13:42.095305"
+    },
+    {
+      "statement": "Investment in Saudi fintech and capital markets has increased",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "SpaceX's $75bn IPO has boosted Saudi billionaire Prince Alwaleed bin Talal's stake, indicating increased investment in Saudi fintech and capital markets",
+      "ksa_grounding": "This investment could lead to growth in Saudi Arabia's fintech and capital markets sectors, potentially creating new opportunities for Saudi investors and companies",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "SpaceX's $75bn IPO boosts Saudi billionaire Prince Alwaleed bin Talal's stake to nearly $7bn"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Prince Alwaleed bin Talal",
+        "Saudi investors"
+      ],
+      "time_horizon": "now",
+      "upside": "Growth in Saudi Arabia's fintech and capital markets sectors",
+      "downside": "Potential risks associated with increased investment in a single company or sector",
+      "first_order": "Direct impact on Saudi Arabia's fintech and capital markets",
+      "second_order": "Downstream effects on Saudi Arabia's economy and investment landscape",
+      "invalidation": "If the investment in SpaceX and other Saudi fintech and capital markets companies does not lead to growth and returns",
+      "_at": "2026-06-17T00:13:42.095318"
+    },
+    {
+      "statement": "Saudi Arabia's sports and entertainment sectors are facing financial challenges",
+      "change_type": "investment",
+      "change_vector": "demand_down",
+      "mechanism": "LIV Golf faces financial uncertainty as PIF announces funding cutoff, and Saudi Arabia's heavy investment in football has not yet translated to national team success",
+      "ksa_grounding": "This could impact Saudi Arabia's ability to attract and retain top talent in sports and entertainment, potentially affecting the country's reputation and tourism industry",
+      "affected_sectors": [
+        "entertainment",
+        "tourism"
+      ],
+      "affected_regions": [
+        "jeddah"
+      ],
+      "evidence": [
+        "LIV Golf faces financial uncertainty as PIF announces funding cutoff",
+        "Saudi Arabia invests $2B in football, but national team still struggles"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "LIV Golf",
+        "Saudi football teams"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for Saudi Arabia to reassess and adjust its investment strategy in sports and entertainment",
+      "downside": "Financial challenges and potential losses for Saudi sports and entertainment companies",
+      "first_order": "Direct impact on Saudi Arabia's sports and entertainment sectors",
+      "second_order": "Downstream effects on Saudi Arabia's tourism industry and reputation",
+      "invalidation": "If LIV Golf and Saudi football teams are able to secure new funding and achieve success despite current challenges",
+      "_at": "2026-06-17T00:13:42.095320"
+    },
+    {
       "statement": "Adoption of AI technology is increasing in various sectors",
       "change_type": "technology",
       "change_vector": "feasibility_increasing",
@@ -2082,94 +2170,7 @@
       "second_order": "Potential downstream effects on Saudi Arabia's tourism and logistics sectors",
       "invalidation": "A significant decline in air travel and logistics activity in the region would prove this wrong",
       "_at": "2026-05-19T00:03:31.507572"
-    },
-    {
-      "statement": "Regional oil supply risks have increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Strait of Hormuz shutdown and potential conflict escalation",
-      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        ""
-      ],
-      "evidence": [
-        "Oil Prices Surge as Hormuz Shutdown Keeps Supply Fears Alive",
-        "UAE to Double Oil Export Capacity Bypassing Hormuz by 2027"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "traders"
-      ],
-      "time_horizon": "now",
-      "upside": "potential for increased oil prices, benefiting Saudi Arabia's oil exports",
-      "downside": "potential for decreased oil exports, affecting Saudi Arabia's economy",
-      "first_order": "direct impact on oil supply and prices",
-      "second_order": "downstream effects on the global economy and trade",
-      "invalidation": "a resolution to the U.S.-Iran conflict, reducing tensions and supply concerns",
-      "_at": "2026-05-17T23:55:17.043051"
-    },
-    {
-      "statement": "Infrastructure development in the region is increasing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Investments in infrastructure projects, such as Abu Dhabi's L'imad Holding",
-      "ksa_grounding": "Saudi Arabia may benefit from increased infrastructure development in the region, enhancing trade and economic growth",
-      "affected_sectors": [
-        "infrastructure"
-      ],
-      "affected_regions": [
-        ""
-      ],
-      "evidence": [
-        "Abu Dhabi\u2019s L\u2019imad Eyes $30 Billion Infra Push With Temasek, GIP"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "investors",
-        "developers"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "potential for increased economic growth and development",
-      "downside": "potential for increased costs and debt",
-      "first_order": "direct impact on infrastructure development",
-      "second_order": "downstream effects on trade, tourism, and economic growth",
-      "invalidation": "a decrease in infrastructure investments or a shift in economic priorities",
-      "_at": "2026-05-17T23:55:17.043064"
-    },
-    {
-      "statement": "Saudi Arabia's reputation in the global sports industry is increasing",
-      "change_type": "trust",
-      "change_vector": "trust_rising",
-      "mechanism": "Partnerships and investments in international sports events, such as the FIFA World Cup 2026",
-      "ksa_grounding": "Enhanced reputation may attract tourism, investments, and talent to Saudi Arabia",
-      "affected_sectors": [
-        "sports",
-        "entertainment",
-        "tourism"
-      ],
-      "affected_regions": [
-        ""
-      ],
-      "evidence": [
-        "PIF Named as Official Tournament Supporter of FIFA World Cup 2026"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "sports fans",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "potential for increased tourism and investments",
-      "downside": "potential for reputational risks if not managed properly",
-      "first_order": "direct impact on Saudi Arabia's reputation",
-      "second_order": "downstream effects on tourism, investments, and economic growth",
-      "invalidation": "a failure to deliver on sports-related investments or a decline in the global sports industry",
-      "_at": "2026-05-17T23:55:17.043065"
     }
   ],
-  "lastRefresh": "2026-06-16T00:29:26.269842"
+  "lastRefresh": "2026-06-17T00:13:49.148650"
 }

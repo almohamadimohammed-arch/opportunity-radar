@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Diversification of Saudi Oil Exports",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "International oil buyers",
+      "problem": "Potential decrease in Saudi oil market share due to increased global energy market stability",
+      "action_path": "Saudi Aramco should diversify its oil exports to new markets, such as Asia and Europe, to reduce dependence on traditional markets. This can be achieved by investing in new infrastructure, such as pipelines and storage facilities. Additionally, Saudi Aramco can explore alternative energy sources, such as renewable energy, to reduce its reliance on oil exports.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue from diversified oil exports and alternative energy sources",
+      "capabilities": "Oil production and export capabilities, infrastructure development, alternative energy sources",
+      "barriers": "High upfront costs for infrastructure development, competition from other oil-producing countries",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global energy market stability has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by reducing dependence on traditional oil markets and exploring alternative energy sources",
+      "assumptions": "The US-Iran interim deal will lead to increased oil production and exports, and Saudi Aramco will be able to diversify its oil exports to new markets",
+      "invalidation": "If the US-Iran deal falls through or fails to lead to increased oil production and exports",
+      "_at": "2026-06-17T00:13:49.143616"
+    },
+    {
+      "title": "Saudi Sports and Entertainment Sector Restructuring",
+      "play_type": "policy_play",
+      "actor": "Saudi Government",
+      "customer": "Saudi sports and entertainment industry",
+      "problem": "Financial challenges facing Saudi sports and entertainment sectors",
+      "action_path": "The Saudi government should restructure the sports and entertainment sectors by providing financial support and incentives to attract and retain top talent. This can be achieved by establishing a new regulatory framework and providing funding for sports and entertainment initiatives. Additionally, the government can explore public-private partnerships to support the development of the sectors.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue from sports and entertainment sectors, improved reputation and tourism industry",
+      "capabilities": "Regulatory framework development, funding and investment, public-private partnerships",
+      "barriers": "High upfront costs for restructuring, competition from other countries for top talent",
+      "timing": "invest",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Saudi Arabia's sports and entertainment sectors are facing financial challenges"
+      ],
+      "sector": "entertainment",
+      "relevant_sectors": [
+        "entertainment",
+        "tourism"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by supporting the development of the sports and entertainment sectors and improving the country's reputation and tourism industry",
+      "assumptions": "The Saudi government will be able to provide sufficient financial support and incentives to attract and retain top talent, and the sectors will be able to achieve success despite current challenges",
+      "invalidation": "If LIV Golf and Saudi football teams are unable to secure new funding and achieve success despite current challenges",
+      "_at": "2026-06-17T00:13:49.143631"
+    },
+    {
       "title": "Saudi Fintech AI Adoption",
       "play_type": "business_play",
       "actor": "Saudi fintech companies",
@@ -1947,126 +2007,7 @@
       "assumptions": "The threat of cyber attacks will continue to pose a significant risk to the oil and gas sector",
       "invalidation": "A significant reduction in cyber threats would reduce the need for advanced cybersecurity measures",
       "_at": "2026-05-19T00:03:39.243447"
-    },
-    {
-      "title": "Diversify Oil Export Routes",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi Aramco",
-      "customer": "Saudi Government",
-      "problem": "Regional oil supply risks have increased due to Strait of Hormuz shutdown",
-      "action_path": "Develop alternative oil export routes, such as the Red Sea port of Yanbu, to reduce dependence on the Strait of Hormuz. Invest in infrastructure to increase export capacity through the Red Sea. Collaborate with neighboring countries to secure stable export routes.",
-      "entry_mode": "build",
-      "monetization": "Reduced risk of oil export disruptions, increased export capacity",
-      "capabilities": "Oil export infrastructure development, international relations, logistics management",
-      "barriers": "High infrastructure development costs, geopolitical tensions",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regional oil supply risks have increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "red_sea"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
-      "assumptions": "The U.S.-Iran conflict will continue to escalate, and the Strait of Hormuz will remain a high-risk export route",
-      "invalidation": "A resolution to the U.S.-Iran conflict, reducing tensions and supply concerns",
-      "_at": "2026-05-17T23:55:24.734448"
-    },
-    {
-      "title": "Enhance Oil Storage Capacity",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi Aramco",
-      "customer": "Saudi Government",
-      "problem": "Regional oil supply risks have increased due to Strait of Hormuz shutdown",
-      "action_path": "Increase oil storage capacity in Saudi Arabia to mitigate the impact of export disruptions. Develop strategic oil reserves to ensure a stable supply of oil. Invest in oil storage infrastructure, such as tanks and pipelines.",
-      "entry_mode": "build",
-      "monetization": "Reduced risk of oil supply disruptions, increased oil storage capacity",
-      "capabilities": "Oil storage infrastructure development, logistics management",
-      "barriers": "High infrastructure development costs, limited available land",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regional oil supply risks have increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "jeddah",
-        "yanbu"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
-      "assumptions": "The U.S.-Iran conflict will continue to escalate, and the Strait of Hormuz will remain a high-risk export route",
-      "invalidation": "A resolution to the U.S.-Iran conflict, reducing tensions and supply concerns",
-      "_at": "2026-05-17T23:55:24.734458"
-    },
-    {
-      "title": "Develop Alternative Energy Sources",
-      "play_type": "market_entry_play",
-      "actor": "Saudi Private Sector",
-      "customer": "Saudi Consumers",
-      "problem": "Regional oil supply risks have increased due to Strait of Hormuz shutdown",
-      "action_path": "Invest in alternative energy sources, such as solar and wind power, to reduce dependence on oil exports. Develop renewable energy infrastructure, such as solar farms and wind turbines. Collaborate with international companies to transfer technology and expertise.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on oil exports, increased renewable energy capacity",
-      "capabilities": "Renewable energy development, international relations, technology transfer",
-      "barriers": "High upfront costs, limited expertise",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Regional oil supply risks have increased"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
-      "assumptions": "The U.S.-Iran conflict will continue to escalate, and the Strait of Hormuz will remain a high-risk export route",
-      "invalidation": "A resolution to the U.S.-Iran conflict, reducing tensions and supply concerns",
-      "_at": "2026-05-17T23:55:24.734459"
-    },
-    {
-      "title": "Enhance Maritime Security",
-      "play_type": "defensive_play",
-      "actor": "Saudi Navy",
-      "customer": "Saudi Government",
-      "problem": "Regional oil supply risks have increased due to Strait of Hormuz shutdown",
-      "action_path": "Increase maritime security measures to protect oil tankers and shipping lanes. Develop strategic partnerships with neighboring countries to enhance regional security. Invest in advanced surveillance and defense systems.",
-      "entry_mode": "build",
-      "monetization": "Reduced risk of oil supply disruptions, increased maritime security",
-      "capabilities": "Maritime security, international relations, defense systems",
-      "barriers": "High costs, limited resources",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regional oil supply risks have increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "red_sea",
-        "strait_of_hormuz"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
-      "assumptions": "The U.S.-Iran conflict will continue to escalate, and the Strait of Hormuz will remain a high-risk export route",
-      "invalidation": "A resolution to the U.S.-Iran conflict, reducing tensions and supply concerns",
-      "_at": "2026-05-17T23:55:24.734460"
     }
   ],
-  "lastRefresh": "2026-06-16T00:29:26.271722"
+  "lastRefresh": "2026-06-17T00:13:49.151847"
 }
