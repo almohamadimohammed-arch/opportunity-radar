@@ -1,6 +1,68 @@
 {
   "items": [
     {
+      "statement": "Investment in entertainment and tourism infrastructure is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Government announcements and investments in large-scale entertainment and tourism projects, such as the National Tennis Centre",
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased tourism revenue and job creation in the entertainment and tourism sectors",
+      "affected_sectors": [
+        "entertainment",
+        "tourism"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia announces plans to build a National Tennis Centre",
+        "Gulf private credit opportunities shine amid global volatility"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi government",
+        "investors"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased tourism revenue and job creation in the entertainment and tourism sectors",
+      "downside": "Potential oversaturation of the market and decreased demand",
+      "first_order": "Increased investment in entertainment and tourism infrastructure",
+      "second_order": "Job creation and economic growth in the entertainment and tourism sectors",
+      "invalidation": "If the National Tennis Centre project is cancelled or delayed significantly",
+      "_at": "2026-06-18T00:14:24.768136"
+    },
+    {
+      "statement": "Geopolitical tensions in the Gulf region are decreasing",
+      "change_type": "geopolitics",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "The U.S.-Iran interim deal has sparked relief across global markets, indicating a decrease in geopolitical tensions",
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased stability and decreased risk in the Gulf region, particularly in the oil and gas sectors",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "U.S.-Iran interim deal could lead to a Gulf bounce back",
+        "Gulf private credit opportunities shine amid global volatility"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "U.S. government",
+        "Iranian government",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment and economic growth in the Gulf region",
+      "downside": "Potential resurgence of geopolitical tensions",
+      "first_order": "Decreased geopolitical tensions in the Gulf region",
+      "second_order": "Increased investment and economic growth in the region",
+      "invalidation": "If the U.S.-Iran interim deal collapses or if new geopolitical tensions arise",
+      "_at": "2026-06-18T00:14:24.768148"
+    },
+    {
       "statement": "Global energy market stability has increased",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2111,66 +2173,7 @@
       "second_order": "Indirect impact on related industries, such as fintech",
       "invalidation": "If the funding does not lead to enhanced capabilities, or if the AI-driven pharmaceutical procurement platform is not successful",
       "_at": "2026-05-20T00:00:19.292795"
-    },
-    {
-      "statement": "Regional security concerns have increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Drone strikes on critical infrastructure and airspace violations have heightened security risks",
-      "ksa_grounding": "Saudi Arabia's oil and gas sector may face increased security threats, potentially disrupting production and exports",
-      "affected_sectors": [
-        "oil_gas",
-        "security"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Drone strike on UAE's Barakah nuclear power plant",
-        "Saudis intercept drones from Iraqi territory"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Defense Ministry",
-        "UAE foreign minister"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased security measures may enhance protection of critical infrastructure",
-      "downside": "Heightened security risks may lead to supply chain disruptions and economic losses",
-      "first_order": "Direct impact on regional security",
-      "second_order": "Potential downstream effects on global oil markets and trade",
-      "invalidation": "A significant reduction in drone strikes and airspace violations in the region would prove this wrong",
-      "_at": "2026-05-19T00:03:31.507559"
-    },
-    {
-      "statement": "Regional air travel and logistics have been disrupted",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Bahrain International Airport's resumption of operations may lead to increased air travel and logistics activity",
-      "ksa_grounding": "Saudi Arabia's tourism and logistics sectors may benefit from increased air travel and connectivity in the region",
-      "affected_sectors": [
-        "tourism",
-        "logistics"
-      ],
-      "affected_regions": [
-        "jeddah"
-      ],
-      "evidence": [
-        "Bahrain International Airport resumes operations"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Gulf Air",
-        "Travelers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased air travel and logistics activity may boost regional economies",
-      "downside": "Disruptions to air travel and logistics may continue to affect regional trade and tourism",
-      "first_order": "Direct impact on regional air travel and logistics",
-      "second_order": "Potential downstream effects on Saudi Arabia's tourism and logistics sectors",
-      "invalidation": "A significant decline in air travel and logistics activity in the region would prove this wrong",
-      "_at": "2026-05-19T00:03:31.507572"
     }
   ],
-  "lastRefresh": "2026-06-17T00:13:49.148650"
+  "lastRefresh": "2026-06-18T00:15:02.350516"
 }

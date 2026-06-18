@@ -1,6 +1,68 @@
 {
   "items": [
     {
+      "title": "Entertainment and Tourism Infrastructure Development",
+      "play_type": "infrastructure_play",
+      "actor": "Government and private investors",
+      "customer": "Tourists and entertainment seekers",
+      "problem": "Limited entertainment and tourism infrastructure",
+      "action_path": "Invest in large-scale entertainment and tourism projects, such as the National Tennis Centre, to increase tourism revenue and job creation in the entertainment and tourism sectors. This can be achieved by developing public-private partnerships and investing in infrastructure development. The government can also provide incentives for private investors to participate in these projects.",
+      "entry_mode": "invest",
+      "monetization": "Increased tourism revenue and job creation",
+      "capabilities": "Infrastructure development, project management, and public-private partnership development",
+      "barriers": "High upfront costs and potential delays in project completion",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Investment in entertainment and tourism infrastructure is increasing"
+      ],
+      "sector": "entertainment",
+      "relevant_sectors": [
+        "entertainment",
+        "tourism",
+        "hospitality"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased tourism revenue and job creation in the entertainment and tourism sectors",
+      "assumptions": "Tourism demand will increase, and infrastructure projects will be completed on time",
+      "invalidation": "If the National Tennis Centre project is cancelled or delayed significantly",
+      "_at": "2026-06-18T00:15:02.347564"
+    },
+    {
+      "title": "Oil and Gas Sector Stability",
+      "play_type": "defensive_play",
+      "actor": "Oil and gas companies",
+      "customer": "Investors and stakeholders",
+      "problem": "Geopolitical tensions in the Gulf region",
+      "action_path": "Oil and gas companies can take advantage of the decreased geopolitical tensions to increase stability and decrease risk in the Gulf region. This can be achieved by investing in risk management and mitigation strategies, such as diversifying their operations and developing contingency plans. Companies can also explore opportunities for cooperation and collaboration with other regional players.",
+      "entry_mode": "build",
+      "monetization": "Increased stability and decreased risk",
+      "capabilities": "Risk management, mitigation strategies, and cooperation development",
+      "barriers": "Potential resurgence of geopolitical tensions",
+      "timing": "prepare now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Geopolitical tensions in the Gulf region are decreasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "riyadh"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy may benefit from increased stability and decreased risk in the Gulf region",
+      "assumptions": "Geopolitical tensions will continue to decrease, and regional cooperation will increase",
+      "invalidation": "If the U.S.-Iran interim deal collapses or if new geopolitical tensions arise",
+      "_at": "2026-06-18T00:15:02.347576"
+    },
+    {
       "title": "Diversification of Saudi Oil Exports",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -1916,98 +1978,7 @@
       "assumptions": "The regional security situation will continue to be volatile, and the Saudi government and defense agencies will be able to develop and implement effective strategies to mitigate these risks",
       "invalidation": "If the regional security situation stabilizes, and the risk of conflict decreases",
       "_at": "2026-05-20T00:00:26.130515"
-    },
-    {
-      "title": "Enhanced Security Measures for Oil and Gas Sector",
-      "play_type": "defensive_play",
-      "actor": "Saudi Arabian Oil Company (Aramco) and other oil and gas companies",
-      "customer": "Oil and gas companies operating in Saudi Arabia",
-      "problem": "Increased regional security concerns due to drone strikes and airspace violations",
-      "action_path": "Implement advanced security systems, including drone detection and surveillance, to protect critical infrastructure. Collaborate with security firms to develop and deploy effective countermeasures. Conduct regular security audits and risk assessments to identify vulnerabilities.",
-      "entry_mode": "build",
-      "monetization": "Reduced risk of security breaches and potential disruptions to production and exports",
-      "capabilities": "Advanced security systems, drone detection and surveillance, security consulting, risk assessment",
-      "barriers": "High costs of implementing advanced security systems, potential regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "Regional security concerns have increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "security"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil and gas sector is critical to the country's economy, and enhanced security measures are necessary to protect these assets",
-      "assumptions": "The threat of drone strikes and airspace violations will continue to pose a significant risk to the oil and gas sector",
-      "invalidation": "A significant reduction in drone strikes and airspace violations in the region would reduce the need for enhanced security measures",
-      "_at": "2026-05-19T00:03:39.243433"
-    },
-    {
-      "title": "Diversification of Oil and Gas Revenue Streams",
-      "play_type": "business_play",
-      "actor": "Saudi Arabian Oil Company (Aramco) and other oil and gas companies",
-      "customer": "Oil and gas companies operating in Saudi Arabia",
-      "problem": "Global oil market volatility and potential decline in demand",
-      "action_path": "Explore alternative revenue streams, such as petrochemicals, refining, and renewable energy. Invest in research and development to improve efficiency and reduce costs. Diversify into new markets and geographies to reduce dependence on traditional oil and gas exports.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on traditional oil and gas exports, increased revenue from alternative streams",
-      "capabilities": "Petrochemicals, refining, renewable energy, research and development, market diversification",
-      "barriers": "High costs of investing in new technologies and markets, potential regulatory hurdles",
-      "timing": "prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Global oil market volatility has increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil and gas sector is facing increasing pressure to diversify and reduce its dependence on traditional exports",
-      "assumptions": "The global oil market will continue to be volatile, and alternative revenue streams will become increasingly important",
-      "invalidation": "A stabilization of global oil markets and demand would reduce the need for diversification",
-      "_at": "2026-05-19T00:03:39.243444"
-    },
-    {
-      "title": "Cybersecurity for Oil and Gas Sector",
-      "play_type": "defensive_play",
-      "actor": "Cybersecurity firms and oil and gas companies",
-      "customer": "Oil and gas companies operating in Saudi Arabia",
-      "problem": "Increased regional security concerns and potential cyber threats",
-      "action_path": "Develop and deploy advanced cybersecurity solutions, including threat detection and incident response. Collaborate with oil and gas companies to identify and mitigate potential vulnerabilities. Conduct regular security audits and risk assessments to identify weaknesses.",
-      "entry_mode": "build",
-      "monetization": "Reduced risk of cyber breaches and potential disruptions to production and exports",
-      "capabilities": "Advanced cybersecurity solutions, threat detection, incident response, security consulting",
-      "barriers": "High costs of implementing advanced cybersecurity solutions, potential regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "Regional security concerns have increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "security"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil and gas sector is critical to the country's economy, and advanced cybersecurity measures are necessary to protect these assets",
-      "assumptions": "The threat of cyber attacks will continue to pose a significant risk to the oil and gas sector",
-      "invalidation": "A significant reduction in cyber threats would reduce the need for advanced cybersecurity measures",
-      "_at": "2026-05-19T00:03:39.243447"
     }
   ],
-  "lastRefresh": "2026-06-17T00:13:49.151847"
+  "lastRefresh": "2026-06-18T00:15:02.352495"
 }
