@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "title": "Germany won't commit to Hormuz mission before seeing US-Iran deal",
+      "source": "POLITICO.eu",
+      "source_tier": 1,
+      "time": "2026-06-17",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global security",
+        "oil trade"
+      ],
+      "summary": "Germany has stated it will not commit to a mission in the Persian Gulf before seeing the details of the US-Iran deal. Berlin and Warsaw have suggested the EU's existing Aspides mandate could provide a legal basis for such a mission. The US-Iran deal is expected to have significant implications for global oil markets and security in the region.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the stability of the region and the security of oil trade. The US-Iran deal could lead to increased cooperation between Iran and other countries, potentially altering the balance of power in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-19T00:23:06.053810"
+    },
+    {
+      "title": "UAE aims to cut dependency on Strait of Hormuz to zero with second major oil pipeline",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-06-17",
+      "event_type": "infrastructure_disruption",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "oil trade",
+        "energy security"
+      ],
+      "summary": "The UAE is planning to build a second major oil pipeline to reduce its dependency on the Strait of Hormuz. This move is expected to enhance oil export security and support increased production capacity post-OPEC.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the country's oil export security and revenue. The UAE's pipeline expansion could also alter the dynamics of the regional oil market, potentially affecting Saudi Arabia's position as a major oil exporter.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-19T00:23:06.053818"
+    },
+    {
+      "title": "TotalEnergies: Saudi Refinery Won\u2019t Fully Recover Until 2027",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-06-17",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "oil production",
+        "energy security"
+      ],
+      "summary": "TotalEnergies CEO Patrick Pouyann\u00e9 has stated that a major Saudi Arabian refinery damaged during the Iran conflict will not return to full operations until early 2027. This is expected to raise concerns about the country's oil production capacity and energy security.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the country's oil production capacity and revenue. The delayed recovery of the refinery could also affect the country's ability to meet its energy demands and maintain its position as a major oil exporter.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-19T00:23:06.053821"
+    },
+    {
+      "title": "Saudi Arabia imports sand despite being covered by desert",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-06-17",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "construction"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "construction",
+        "trade"
+      ],
+      "summary": "Despite being covered by desert, Saudi Arabia imports construction-grade sand due to the unsuitability of its native sand for concrete. The country requires angular, rough sand for its construction projects.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the country's construction sector and trade balance. The importation of sand could also affect the country's ability to develop its infrastructure and support its economic growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-19T00:23:06.053823"
+    },
+    {
       "title": "SpaceX to acquire AI coding startup Cursor for $60 billion",
       "source": "The Financial Express, Times of India",
       "source_tier": 2,
@@ -2973,130 +3061,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-05-21T00:07:42.334110"
-    },
-    {
-      "title": "Aramco and Pasqal launch Saudi Arabia's first Quantum Computer and Middle East's first commercial Quantum Computing as a Service platform",
-      "source": "PRNewswire, GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-05-18",
-      "event_type": "product_launch",
-      "category": "technology",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "fintech"
-      ],
-      "region_tags": [
-        "eastern_province"
-      ],
-      "affected_domains": [
-        "energy",
-        "computing"
-      ],
-      "summary": "Aramco and Pasqal have launched Saudi Arabia's first Quantum Computer and the Middle East's first commercial Quantum Computing as a Service platform. This partnership aims to provide quantum computing services to various industries. The launch is a significant step towards advancing Saudi Arabia's technology and energy sectors.",
-      "why_it_matters": "This launch has strategic consequences for Saudi Arabia as it enhances the country's technological capabilities and provides a competitive edge in the energy and computing sectors. It also aligns with Saudi Arabia's Vision 2030, which aims to diversify the economy and develop new technologies.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-05-20T00:00:11.952254"
-    },
-    {
-      "title": "Pakistan deploys jets and troops to Saudi Arabia for Iran war",
-      "source": "Breitbart News, New York Post",
-      "source_tier": 2,
-      "time": "2026-05-18",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "defence"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "security",
-        "defence"
-      ],
-      "summary": "Pakistan has deployed jets and troops to Saudi Arabia in response to the Iran war. The move is seen as a significant escalation of the conflict and has implications for regional security. The deployment is part of a mutual defence pact between Pakistan and Saudi Arabia.",
-      "why_it_matters": "This deployment has strategic consequences for Saudi Arabia as it increases the country's military presence and enhances its defence capabilities. However, it also raises concerns about the potential for further escalation of the conflict and its impact on regional stability.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-05-20T00:00:11.952265"
-    },
-    {
-      "title": "Trump claims he cancelled planned attack on Iran at request of Gulf States",
-      "source": "Crypto Briefing, Truthout",
-      "source_tier": 2,
-      "time": "2026-05-18",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas",
-        "defence"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "security",
-        "defence"
-      ],
-      "summary": "Trump has claimed that he cancelled a planned attack on Iran at the request of Gulf States. The claim has significant implications for regional security and the ongoing conflict between the US and Iran. The decision is seen as a temporary reprieve for Iran, but the situation remains volatile.",
-      "why_it_matters": "This claim has strategic consequences for Saudi Arabia as it affects the country's relationships with the US and Iran. The decision to cancel the attack may reduce tensions in the short term, but it also raises concerns about the potential for future conflict and the impact on regional stability.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-05-20T00:00:11.952267"
-    },
-    {
-      "title": "KSA IoT Market to Reach USD 4.33 Billion by 2031",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-05-18",
-      "event_type": "market_shift",
-      "category": "technology",
-      "geography": "Saudi",
-      "sector_tags": [
-        "fintech",
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "economy"
-      ],
-      "summary": "The KSA IoT Market is expected to reach USD 4.33 Billion by 2031, driven by the growth of hardware components and industry leaders such as STC and Microsoft. The market is expected to promote connectivity and data transfer, with significant implications for various industries.",
-      "why_it_matters": "This market shift has strategic consequences for Saudi Arabia as it enhances the country's technological capabilities and provides opportunities for economic growth. The growth of the IoT market is expected to drive innovation and investment in various sectors, aligning with Saudi Arabia's Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-20T00:00:11.952269"
-    },
-    {
-      "title": "Aumet Raises $12 Million for AI-Driven Pharmaceutical Procurement",
-      "source": "pymnts.com",
-      "source_tier": 2,
-      "time": "2026-05-18",
-      "event_type": "funding",
-      "category": "healthcare",
-      "geography": "Saudi",
-      "sector_tags": [
-        "healthcare",
-        "pharma"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "healthcare",
-        "pharmaceuticals"
-      ],
-      "summary": "Aumet has raised $12 Million for its AI-driven pharmaceutical procurement platform, aiming to expand its services across the Gulf. The funding is expected to enhance the company's capabilities and provide better services to its clients.",
-      "why_it_matters": "This funding has strategic consequences for Saudi Arabia as it enhances the country's healthcare sector and provides opportunities for innovation and investment. The growth of AI-driven pharmaceutical procurement is expected to improve the efficiency and effectiveness of healthcare services, aligning with Saudi Arabia's Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-20T00:00:11.952270"
     }
   ],
-  "lastRefresh": "2026-06-18T00:15:02.347690",
+  "lastRefresh": "2026-06-19T00:23:50.069979",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
+    "articles_to_model": 33,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3104,9 +3075,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

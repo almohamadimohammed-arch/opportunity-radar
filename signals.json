@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Regulatory uncertainty around oil exports is decreasing",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Germany's potential commitment to a mission in the Persian Gulf and the UAE's plans to reduce dependency on the Strait of Hormuz may lead to increased stability and security for oil exports",
+      "ksa_grounding": "This could lead to increased oil exports and revenue for Saudi Arabia, supporting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Germany won't commit to Hormuz mission before seeing US-Iran deal",
+        "UAE aims to cut dependency on Strait of Hormuz to zero with second major oil pipeline"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "shipping companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential for continued geopolitical tensions and disruptions to oil exports",
+      "first_order": "Increased stability and security for oil exports",
+      "second_order": "Potential for increased investment in the oil and gas sector",
+      "invalidation": "A significant increase in geopolitical tensions or a major disruption to oil exports would invalidate this signal",
+      "_at": "2026-06-19T00:23:13.151433"
+    },
+    {
+      "statement": "Oil production capacity constraints are increasing",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "The delayed recovery of a major Saudi Arabian refinery damaged during the Iran conflict will reduce oil production capacity",
+      "ksa_grounding": "This will lead to reduced oil production and potential shortages, impacting Saudi Arabia's economy and energy security",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "TotalEnergies: Saudi Refinery Won\u2019t Fully Recover Until 2027"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil producers",
+        "refineries"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment in refinery maintenance and repair",
+      "downside": "Reduced oil production and potential shortages",
+      "first_order": "Reduced oil production capacity",
+      "second_order": "Potential for increased costs and reduced revenue for oil producers",
+      "invalidation": "A significant increase in oil production capacity from other sources would invalidate this signal",
+      "_at": "2026-06-19T00:23:13.151440"
+    },
+    {
+      "statement": "Private credit opportunities are increasing in the Gulf",
+      "change_type": "market",
+      "change_vector": "demand_up",
+      "mechanism": "Global volatility is creating opportunities for private credit in the Gulf, attracting investors and supporting the growth of the regional finance sector",
+      "ksa_grounding": "This will lead to increased investment and growth in the Saudi finance sector, supporting the country's economy",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Gulf private credit opportunities shine amid global volatility"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "financial institutions"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment and growth in the Saudi finance sector",
+      "downside": "Potential for increased risk and volatility in the private credit market",
+      "first_order": "Increased demand for private credit",
+      "second_order": "Potential for increased growth and development in the regional finance sector",
+      "invalidation": "A significant decrease in global volatility or a major disruption to the private credit market would invalidate this signal",
+      "_at": "2026-06-19T00:23:13.151443"
+    },
+    {
       "statement": "Investment in entertainment and tourism infrastructure is increasing",
       "change_type": "infrastructure",
       "change_vector": "infrastructure_expanding",
@@ -2085,95 +2169,7 @@
       "second_order": "Increased innovation and advancements in the energy sector",
       "invalidation": "If the quantum computing technology fails to deliver expected results",
       "_at": "2026-05-21T00:08:19.642794"
-    },
-    {
-      "statement": "Technological advancement in oil and gas sector is increasing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Quantum computing services are being provided to various industries, including oil and gas",
-      "ksa_grounding": "This will enhance the efficiency and productivity of the oil and gas sector in Saudi Arabia",
-      "affected_sectors": [
-        "oil_gas",
-        "fintech"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Aramco and Pasqal launch Saudi Arabia's first Quantum Computer and Middle East's first commercial Quantum Computing as a Service platform",
-        "KSA IoT Market to Reach USD 4.33 Billion by 2031"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Aramco",
-        "Pasqal"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased efficiency and productivity in the oil and gas sector",
-      "downside": "Dependence on new technology, potential job losses",
-      "first_order": "Direct impact on oil and gas sector",
-      "second_order": "Indirect impact on related industries, such as fintech",
-      "invalidation": "If the quantum computing services are not adopted by the oil and gas sector, or if they do not lead to increased efficiency and productivity",
-      "_at": "2026-05-20T00:00:19.292784"
-    },
-    {
-      "statement": "Regional security is becoming more volatile",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Deployment of troops and jets to Saudi Arabia, and potential attack on Iran",
-      "ksa_grounding": "This will increase the risk of conflict and instability in the region, affecting Saudi Arabia's economy and security",
-      "affected_sectors": [
-        "oil_gas",
-        "defence"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Pakistan deploys jets and troops to Saudi Arabia for Iran war",
-        "Trump claims he cancelled planned attack on Iran at request of Gulf States"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Pakistan",
-        "Saudi Arabia",
-        "US"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Increased risk of conflict and instability in the region",
-      "first_order": "Direct impact on regional security",
-      "second_order": "Indirect impact on oil and gas sector, and related industries",
-      "invalidation": "If the situation in the region stabilizes, and the risk of conflict decreases",
-      "_at": "2026-05-20T00:00:19.292794"
-    },
-    {
-      "statement": "Investment in healthcare and pharmaceutical sector is increasing",
-      "change_type": "funding",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Funding for AI-driven pharmaceutical procurement platform",
-      "ksa_grounding": "This will enhance the capabilities of the healthcare and pharmaceutical sector in Saudi Arabia, and provide better services to clients",
-      "affected_sectors": [
-        "healthcare",
-        "pharma"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Aumet Raises $12 Million for AI-Driven Pharmaceutical Procurement"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Aumet"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Enhanced capabilities of the healthcare and pharmaceutical sector",
-      "downside": "Dependence on new technology, potential job losses",
-      "first_order": "Direct impact on healthcare and pharmaceutical sector",
-      "second_order": "Indirect impact on related industries, such as fintech",
-      "invalidation": "If the funding does not lead to enhanced capabilities, or if the AI-driven pharmaceutical procurement platform is not successful",
-      "_at": "2026-05-20T00:00:19.292795"
     }
   ],
-  "lastRefresh": "2026-06-18T00:15:02.350516"
+  "lastRefresh": "2026-06-19T00:23:50.072816"
 }

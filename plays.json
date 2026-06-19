@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "title": "Saudi Oil Export Stability",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "International oil buyers",
+      "problem": "Regulatory uncertainty around oil exports",
+      "action_path": "Increase oil exports to capitalize on decreased regulatory uncertainty, invest in infrastructure to support increased production, and develop strategic partnerships with international buyers. This will require enhanced logistics and supply chain capabilities. Saudi Aramco can also explore new markets and expand its customer base.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue from oil exports",
+      "capabilities": "Oil production, logistics, supply chain management, international marketing",
+      "barriers": "Geopolitical tensions, infrastructure limitations",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory uncertainty around oil exports is decreasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "logistics"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Increased oil exports will support Saudi Arabia's economy and contribute to the country's economic diversification goals",
+      "assumptions": "Germany's commitment to a mission in the Persian Gulf and the UAE's plans to reduce dependency on the Strait of Hormuz will lead to increased stability and security for oil exports",
+      "invalidation": "A significant increase in geopolitical tensions or a major disruption to oil exports",
+      "_at": "2026-06-19T00:23:50.069867"
+    },
+    {
+      "title": "Diversified Energy Portfolio",
+      "play_type": "policy_play",
+      "actor": "Saudi Government",
+      "customer": "Saudi citizens, international investors",
+      "problem": "Dependence on oil exports",
+      "action_path": "Develop and implement policies to diversify the energy sector, including investments in renewable energy sources and energy efficiency measures. This will require collaboration with international partners and investment in research and development. The government can also provide incentives for private sector investment in the energy sector.",
+      "entry_mode": "invest",
+      "monetization": "Reduced dependence on oil exports, increased economic diversification",
+      "capabilities": "Policy development, international cooperation, research and development, investment promotion",
+      "barriers": "Resistance to change, lack of investment",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Regulatory uncertainty around oil exports is decreasing"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "neom"
+      ],
+      "ksa_grounding": "Diversification of the energy sector will contribute to Saudi Arabia's economic diversification goals and reduce dependence on oil exports",
+      "assumptions": "The government will be able to develop and implement effective policies to diversify the energy sector",
+      "invalidation": "Lack of investment or international cooperation",
+      "_at": "2026-06-19T00:23:50.069875"
+    },
+    {
       "title": "Entertainment and Tourism Infrastructure Development",
       "play_type": "infrastructure_play",
       "actor": "Government and private investors",
@@ -1918,67 +1977,7 @@
       "assumptions": "The tourism and hospitality sector will continue to attract significant investment and tourist numbers",
       "invalidation": "If the tourism and hospitality sector does not attract significant investment or tourist numbers",
       "_at": "2026-05-22T00:00:16.370609"
-    },
-    {
-      "title": "Enhancing Oil and Gas Sector Efficiency with Quantum Computing",
-      "play_type": "infrastructure_play",
-      "actor": "Cybersecurity firms with cloud-native capabilities",
-      "customer": "Saudi oil and gas companies",
-      "problem": "Inefficient operations and lack of productivity in the oil and gas sector",
-      "action_path": "Develop and implement quantum computing services to enhance efficiency and productivity in the oil and gas sector. This can be achieved by providing cloud-native capabilities and model access governance. Saudi enterprises can build internal AI capabilities using these services.",
-      "entry_mode": "Build",
-      "monetization": "Value creation through increased efficiency and productivity",
-      "capabilities": "Cloud-native capabilities, quantum computing services, model access governance",
-      "barriers": "Adoption and integration of new technologies",
-      "timing": "Prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Technological advancement in oil and gas sector is increasing"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "fintech"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "This play connects to the Saudi market structure by enhancing the efficiency and productivity of the oil and gas sector, which is a critical component of the Saudi economy",
-      "assumptions": "The oil and gas sector will adopt and integrate quantum computing services, and these services will lead to increased efficiency and productivity",
-      "invalidation": "If the oil and gas sector does not adopt quantum computing services, or if these services do not lead to increased efficiency and productivity",
-      "_at": "2026-05-20T00:00:26.130505"
-    },
-    {
-      "title": "Mitigating Regional Security Risks",
-      "play_type": "defensive_play",
-      "actor": "Saudi government and defense agencies",
-      "customer": "Saudi citizens and businesses",
-      "problem": "Increasing risk of conflict and instability in the region",
-      "action_path": "Develop and implement strategies to mitigate the risks of conflict and instability in the region. This can be achieved by enhancing defense capabilities and developing alliances with other countries. Saudi Arabia can also invest in diplomacy and conflict resolution initiatives.",
-      "entry_mode": "Invest",
-      "monetization": "Value creation through increased security and stability",
-      "capabilities": "Defense capabilities, diplomacy, conflict resolution",
-      "barriers": "Geopolitical tensions and conflicts",
-      "timing": "Invest now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "Regional security is becoming more volatile"
-      ],
-      "sector": "defence",
-      "relevant_sectors": [
-        "oil_gas",
-        "defence"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to the Saudi market structure by mitigating the risks of conflict and instability, which can have a significant impact on the Saudi economy and security",
-      "assumptions": "The regional security situation will continue to be volatile, and the Saudi government and defense agencies will be able to develop and implement effective strategies to mitigate these risks",
-      "invalidation": "If the regional security situation stabilizes, and the risk of conflict decreases",
-      "_at": "2026-05-20T00:00:26.130515"
     }
   ],
-  "lastRefresh": "2026-06-18T00:15:02.352495"
+  "lastRefresh": "2026-06-19T00:23:50.074750"
 }
