@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "title": "Diversify Oil Exports",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "Global oil refineries",
+      "problem": "Increased global oil supply may lead to decreased oil prices, affecting Saudi Arabia's economy",
+      "action_path": "Saudi Aramco can diversify its oil exports to new markets, reducing dependence on traditional markets. This can be achieved by investing in new transportation infrastructure and building relationships with new customers. Additionally, Saudi Aramco can explore opportunities to increase its market share in existing markets.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue through diversified exports",
+      "capabilities": "Oil transportation infrastructure, market research, and business development",
+      "barriers": "Competition from other oil-producing countries, regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "The global oil supply has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports will increase, benefiting the country's economy",
+      "assumptions": "The increased global oil supply will lead to decreased oil prices, and Saudi Aramco has the capabilities to diversify its exports",
+      "invalidation": "A significant disruption to oil production or transportation would prove this wrong",
+      "_at": "2026-06-20T00:06:29.041472"
+    },
+    {
+      "title": "Develop Alternative Energy Sources",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi government",
+      "customer": "Saudi citizens and industries",
+      "problem": "Decreased risk of oil supply disruptions may lead to decreased investment in alternative energy sources",
+      "action_path": "The Saudi government can invest in developing alternative energy sources, such as solar and wind power, to reduce dependence on oil exports. This can be achieved by building new infrastructure and providing incentives for private investment. Additionally, the government can promote research and development in alternative energy technologies.",
+      "entry_mode": "build",
+      "monetization": "Reduced dependence on oil exports, increased energy security",
+      "capabilities": "Renewable energy infrastructure, research and development, policy-making",
+      "barriers": "High upfront costs, regulatory hurdles",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "The risk of oil supply disruptions has decreased"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "renewable_energy",
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "neom"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports will be less affected by potential disruptions to the Strait of Hormuz",
+      "assumptions": "The decreased risk of oil supply disruptions will lead to decreased investment in alternative energy sources, and the Saudi government has the capabilities to develop alternative energy sources",
+      "invalidation": "A significant disruption to the Strait of Hormuz or the UAE's alternative pipeline would prove this wrong",
+      "_at": "2026-06-20T00:06:29.041481"
+    },
+    {
       "title": "Saudi Oil Export Stability",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -1979,5 +2038,5 @@
       "_at": "2026-05-22T00:00:16.370609"
     }
   ],
-  "lastRefresh": "2026-06-19T00:23:50.074750"
+  "lastRefresh": "2026-06-20T00:06:29.046421"
 }

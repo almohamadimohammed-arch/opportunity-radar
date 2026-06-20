@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "The global oil supply has increased",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "The reopening of the Strait of Hormuz has increased the global oil supply, leading to lower oil prices",
+      "ksa_grounding": "Saudi Arabia's oil exports will increase, benefiting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US-Iran deal leads to reopening of Strait of Hormuz",
+        "Oil prices hit lowest level since March after US-Iran deal"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential decrease in oil prices, affecting Saudi Arabia's oil revenue",
+      "first_order": "Increased global oil supply",
+      "second_order": "Lower oil prices, increased economic activity",
+      "invalidation": "A significant disruption to oil production or transportation would prove this wrong",
+      "_at": "2026-06-20T00:05:52.072177"
+    },
+    {
+      "statement": "Cybersecurity has become a higher priority in the Gulf region",
+      "change_type": "behavior",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Gulf CIOs are shifting their focus from recovery to cyber resilience due to regional threats",
+      "ksa_grounding": "Saudi Arabian companies will need to invest in cybersecurity measures to protect themselves from regional threats",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Gulf CIOs shift focus from recovery to cyber resilience"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Gulf CIOs",
+        "Saudi Arabian companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved cybersecurity measures, reduced risk of cyber attacks",
+      "downside": "Increased costs for companies to implement cybersecurity measures",
+      "first_order": "Increased focus on cybersecurity",
+      "second_order": "Reduced risk of cyber attacks, improved business continuity",
+      "invalidation": "A significant decrease in regional cyber threats would prove this wrong",
+      "_at": "2026-06-20T00:05:52.072187"
+    },
+    {
+      "statement": "The risk of oil supply disruptions has decreased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "The reopening of the Strait of Hormuz and the UAE's plan to cut dependency on the strait have reduced the risk of oil supply disruptions",
+      "ksa_grounding": "Saudi Arabia's oil exports will be less affected by potential disruptions to the Strait of Hormuz",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US-Iran deal leads to reopening of Strait of Hormuz",
+        "UAE aims to cut dependency on Strait of Hormuz to zero"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Reduced risk of oil supply disruptions, increased energy security",
+      "downside": "Potential over-reliance on the Strait of Hormuz, decreased investment in alternative routes",
+      "first_order": "Reduced risk of oil supply disruptions",
+      "second_order": "Increased energy security, reduced economic risk",
+      "invalidation": "A significant disruption to the Strait of Hormuz or the UAE's alternative pipeline would prove this wrong",
+      "_at": "2026-06-20T00:05:52.072191"
+    },
+    {
       "statement": "Regulatory uncertainty around oil exports is decreasing",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2171,5 +2256,5 @@
       "_at": "2026-05-21T00:08:19.642794"
     }
   ],
-  "lastRefresh": "2026-06-19T00:23:50.072816"
+  "lastRefresh": "2026-06-20T00:06:29.044512"
 }

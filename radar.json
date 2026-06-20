@@ -1,6 +1,117 @@
 {
   "items": [
     {
+      "title": "US-Iran deal leads to reopening of Strait of Hormuz",
+      "source": "POLITICO.eu, Aawsat.com, The New Republic",
+      "source_tier": 1,
+      "time": "2026-06-17",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global trade",
+        "energy security"
+      ],
+      "summary": "The US-Iran deal has led to the reopening of the Strait of Hormuz, a critical waterway for global oil trade. Three Saudi-flagged supertankers have already transited the strait. The deal is expected to have a significant impact on global oil prices and energy security.",
+      "why_it_matters": "The reopening of the Strait of Hormuz is crucial for Saudi Arabia's oil exports and global energy security. It also has significant implications for the country's economic and strategic interests.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-06-20T00:05:45.098122"
+    },
+    {
+      "title": "Saudi Aramco considers global oil storage facilities",
+      "source": "Aawsat.com",
+      "source_tier": 2,
+      "time": "2026-06-18",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy security",
+        "global trade"
+      ],
+      "summary": "Saudi Aramco is considering investing in global oil storage facilities to boost energy security and strengthen its position in the global oil market.",
+      "why_it_matters": "This move could enhance Saudi Arabia's energy security and increase its influence in the global oil market, which is critical for the country's economic and strategic interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-20T00:05:45.098132"
+    },
+    {
+      "title": "Oil prices hit lowest level since March after US-Iran deal",
+      "source": "Offshore Technology, Forbes, OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-06-18",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global trade",
+        "energy security"
+      ],
+      "summary": "Oil prices have hit their lowest level since March after the US-Iran deal, with Brent crude futures falling by 2% to $77.96/bbl.",
+      "why_it_matters": "The decline in oil prices could have significant implications for Saudi Arabia's economy, which is heavily reliant on oil exports. It could also impact the country's ability to implement its Vision 2030 economic diversification plan.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-06-20T00:05:45.098135"
+    },
+    {
+      "title": "UAE aims to cut dependency on Strait of Hormuz to zero",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-06-17",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy security",
+        "global trade"
+      ],
+      "summary": "The UAE is planning to cut its dependency on the Strait of Hormuz to zero by investing in a second major oil pipeline.",
+      "why_it_matters": "This move could reduce the UAE's vulnerability to geopolitical tensions in the region and enhance its energy security, which could have implications for Saudi Arabia's strategic interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-20T00:05:45.098136"
+    },
+    {
+      "title": "Gulf CIOs shift focus from recovery to cyber resilience",
+      "source": "ComputerWeekly.com",
+      "source_tier": 2,
+      "time": "2026-06-18",
+      "event_type": "company_move",
+      "category": "technology",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "cybersecurity",
+        "digital transformation"
+      ],
+      "summary": "Gulf CIOs are shifting their focus from recovery to cyber resilience as regional threats intensify, with organizations reassessing their recovery strategies and investing in AI and cloud technologies.",
+      "why_it_matters": "This shift in focus could have significant implications for Saudi Arabia's cybersecurity and digital transformation efforts, which are critical for the country's economic and strategic interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-20T00:05:45.098138"
+    },
+    {
       "title": "Germany won't commit to Hormuz mission before seeing US-Iran deal",
       "source": "POLITICO.eu",
       "source_tier": 1,
@@ -3063,19 +3174,19 @@
       "_at": "2026-05-21T00:07:42.334110"
     }
   ],
-  "lastRefresh": "2026-06-19T00:23:50.069979",
+  "lastRefresh": "2026-06-20T00:06:29.041585",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
     "articles_to_model": 33,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
