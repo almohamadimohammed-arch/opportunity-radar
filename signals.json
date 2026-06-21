@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "statement": "Energy security is increasing",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Diversification of oil storage facilities",
+      "ksa_grounding": "Saudi Aramco's consideration of global oil storage facilities will enhance energy security and strengthen global supply chains",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Aramco considers global oil storage facilities to boost energy security",
+        "Oil prices fall despite tanker movements remaining slow after US-Iran ceasefire agreement"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Oil and gas companies",
+        "Government"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased energy security and reduced dependence on single supply chains",
+      "downside": "Potential risks from geopolitical tensions",
+      "first_order": "Direct impact on oil supply chains",
+      "second_order": "Economic benefits from increased energy security",
+      "invalidation": "A significant decline in oil prices or a disruption to global supply chains",
+      "_at": "2026-06-21T00:03:28.678374"
+    },
+    {
       "statement": "The global oil supply has increased",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2101,160 +2130,7 @@
       "second_order": "Potential for increased economic activity and job creation",
       "invalidation": "A significant decline in tourist arrivals or a major setback in the development of tourism infrastructure",
       "_at": "2026-05-23T00:03:42.739480"
-    },
-    {
-      "statement": "Regulatory barrier to trade has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "The UK-GCC trade deal reduces trade barriers, increasing economic cooperation and trade volumes",
-      "ksa_grounding": "Increased trade with the UK can boost Saudi Arabia's non-oil exports, contributing to the country's economic diversification",
-      "affected_sectors": [
-        "tourism",
-        "hospitality",
-        "trade"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "UK and Gulf Cooperation Council (GCC) strike historic multi-billion-pound trade deal"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi government",
-        "UK government",
-        "exporters"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased trade volumes, economic growth, and job creation",
-      "downside": "Potential disruption to domestic industries, increased competition",
-      "first_order": "Increased trade between the UK and Saudi Arabia",
-      "second_order": "Potential investment and partnership opportunities in various sectors",
-      "invalidation": "If the trade deal is not ratified or implemented as expected",
-      "_at": "2026-05-22T00:00:08.712387"
-    },
-    {
-      "statement": "Feasibility of adopting quantum computing technology is increasing",
-      "change_type": "feasibility",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "The launch of Saudi Arabia's first quantum computer and commercial quantum-computing-as-a-service platform makes the technology more accessible to local industries",
-      "ksa_grounding": "Increased adoption of quantum computing can enhance the competitiveness of Saudi Arabia's oil and gas sector, as well as other industries",
-      "affected_sectors": [
-        "oil_gas",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Aramco and Pasqal launch Saudi Arabia's first quantum computer and commercial quantum-computing-as-a-service platform"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Aramco",
-        "Pasqal",
-        "local industries"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Improved computational capabilities, increased efficiency, and potential breakthroughs in various fields",
-      "downside": "High costs, potential job displacement, and cybersecurity risks",
-      "first_order": "Increased adoption of quantum computing in the oil and gas sector",
-      "second_order": "Potential applications in other industries, such as finance and healthcare",
-      "invalidation": "If the quantum computing technology is not widely adopted or proves to be ineffective",
-      "_at": "2026-05-22T00:00:08.712397"
-    },
-    {
-      "statement": "Investment in Saudi Arabia's tourism and hospitality sector is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "The launch of new resorts and hotels, such as the Four Seasons Resort and Residences Red Sea, attracts more tourists and investors to the sector",
-      "ksa_grounding": "Increased investment in the tourism and hospitality sector can contribute to Saudi Arabia's economic diversification and create new job opportunities",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "red_sea"
-      ],
-      "evidence": [
-        "Red Sea Global launches first JV resort, Four Seasons Resort and Residences Red Sea at Shura Island",
-        "Greenberg Traurig represents Taiba on SAR 2.4B/US$633.4M joint venture with Osool for hotel development in Saudi Arabia"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Red Sea Global",
-        "Taiba",
-        "Osool",
-        "tourists"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased tourism revenue, job creation, and economic growth",
-      "downside": "Potential environmental and cultural impacts, increased competition",
-      "first_order": "Increased investment in the tourism and hospitality sector",
-      "second_order": "Potential growth of related industries, such as transportation and entertainment",
-      "invalidation": "If the tourism and hospitality sector does not attract significant investment or tourist numbers",
-      "_at": "2026-05-22T00:00:08.712401"
-    },
-    {
-      "statement": "Risk of regional instability affecting global markets has increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Potential military conflict in the region and its impact on global markets",
-      "ksa_grounding": "Saudi Arabia's economy is vulnerable to regional instability, which could affect oil prices and global market sentiment",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Trump delays military strike on Iran amid ongoing negotiations",
-        "Japan and China lead foreign government retreat from US Treasuries"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "global investors"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for diplomatic solutions and reduced tensions",
-      "downside": "Increased risk of military conflict and global market volatility",
-      "first_order": "Increased risk of military conflict",
-      "second_order": "Impact on global markets and oil prices",
-      "invalidation": "If a peaceful resolution is reached between the US and Iran",
-      "_at": "2026-05-21T00:08:19.642783"
-    },
-    {
-      "statement": "Innovation and advancements in the energy sector are expected to increase",
-      "change_type": "feasibility",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Launch of Saudi Arabia's first Quantum Computer and commercial Quantum Computing as a Service platform",
-      "ksa_grounding": "Saudi Arabia's energy sector is expected to benefit from the adoption of quantum computing technology, driving innovation and advancements",
-      "affected_sectors": [
-        "oil_gas",
-        "technology"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Aramco and Pasqal launch Saudi Arabia's first Quantum Computer"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Aramco",
-        "energy companies"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased efficiency and productivity in the energy sector",
-      "downside": "High upfront costs and potential technical challenges",
-      "first_order": "Adoption of quantum computing technology",
-      "second_order": "Increased innovation and advancements in the energy sector",
-      "invalidation": "If the quantum computing technology fails to deliver expected results",
-      "_at": "2026-05-21T00:08:19.642794"
     }
   ],
-  "lastRefresh": "2026-06-20T00:06:29.044512"
+  "lastRefresh": "2026-06-21T00:03:35.632126"
 }

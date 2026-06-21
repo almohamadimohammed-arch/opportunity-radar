@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "title": "Energy Security Enhancement",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco",
+      "customer": "Global oil markets",
+      "problem": "Energy security is increasing due to diversification of oil storage facilities",
+      "action_path": "Saudi Aramco can further enhance energy security by investing in global oil storage facilities, strengthening global supply chains, and reducing dependence on single storage locations. This can be achieved through strategic partnerships or acquisitions. By doing so, Saudi Aramco can reinforce its position as a reliable global energy supplier.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue through enhanced energy security and supply chain resilience",
+      "capabilities": "Oil storage and logistics expertise, global market knowledge",
+      "barriers": "Geopolitical risks, competition from other energy suppliers",
+      "timing": "prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Energy security is increasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Aramco's consideration of global oil storage facilities will enhance energy security and strengthen global supply chains",
+      "assumptions": "Global demand for oil will continue to grow, and Saudi Aramco's investments in oil storage facilities will yield positive returns",
+      "invalidation": "A significant decline in oil prices or a disruption to global supply chains",
+      "_at": "2026-06-21T00:03:35.628987"
+    },
+    {
       "title": "Diversify Oil Exports",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -1941,102 +1969,7 @@
       "assumptions": "Continued government support for the tourism sector, growing demand for tourism in Saudi Arabia",
       "invalidation": "A significant decline in tourist arrivals or a major setback in the development of tourism infrastructure",
       "_at": "2026-05-23T00:04:19.480748"
-    },
-    {
-      "title": "Saudi Tourism and Hospitality Sector Investment",
-      "play_type": "business_play",
-      "actor": "Tourism and hospitality companies, investors",
-      "customer": "Tourists, travelers, and investors",
-      "problem": "Limited tourism and hospitality infrastructure in Saudi Arabia",
-      "action_path": "Develop and invest in new resorts, hotels, and tourism infrastructure to cater to the increasing demand. Partner with local businesses and investors to create new job opportunities and stimulate economic growth. Focus on providing high-quality services and unique experiences to attract more tourists and investors.",
-      "entry_mode": "Invest",
-      "monetization": "Create revenue streams through tourism and hospitality services, and attract foreign investment",
-      "capabilities": "Hospitality management, tourism marketing, infrastructure development",
-      "barriers": "Regulatory hurdles, lack of skilled workforce, infrastructure challenges",
-      "timing": "Enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Investment in Saudi Arabia's tourism and hospitality sector is increasing"
-      ],
-      "sector": "Tourism",
-      "relevant_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "relevant_regions": [
-        "red_sea",
-        "jeddah",
-        "riyadh"
-      ],
-      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification and creates new job opportunities",
-      "assumptions": "The tourism and hospitality sector will continue to attract significant investment and tourist numbers",
-      "invalidation": "If the tourism and hospitality sector does not attract significant investment or tourist numbers",
-      "_at": "2026-05-22T00:00:16.370597"
-    },
-    {
-      "title": "Tourism Infrastructure Development",
-      "play_type": "infrastructure_play",
-      "actor": "Government agencies, construction companies",
-      "customer": "Tourism and hospitality companies, tourists",
-      "problem": "Limited tourism infrastructure in Saudi Arabia",
-      "action_path": "Develop and invest in new tourism infrastructure, such as airports, roads, and public transportation. Focus on creating a seamless and convenient experience for tourists. Collaborate with private sector companies to develop and operate tourism infrastructure.",
-      "entry_mode": "Build",
-      "monetization": "Create revenue streams through infrastructure development and operation",
-      "capabilities": "Infrastructure development, project management, public-private partnerships",
-      "barriers": "Regulatory hurdles, funding challenges, infrastructure complexity",
-      "timing": "Prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in Saudi Arabia's tourism and hospitality sector is increasing"
-      ],
-      "sector": "Infrastructure",
-      "relevant_sectors": [
-        "tourism",
-        "hospitality",
-        "construction"
-      ],
-      "relevant_regions": [
-        "red_sea",
-        "jeddah",
-        "riyadh"
-      ],
-      "ksa_grounding": "Supports the development of Saudi Arabia's tourism and hospitality sector",
-      "assumptions": "The tourism and hospitality sector will continue to grow and attract investment",
-      "invalidation": "If the tourism and hospitality sector does not attract significant investment or tourist numbers",
-      "_at": "2026-05-22T00:00:16.370607"
-    },
-    {
-      "title": "Tourism Marketing and Promotion",
-      "play_type": "business_play",
-      "actor": "Tourism and hospitality companies, marketing agencies",
-      "customer": "Tourists, travelers",
-      "problem": "Limited awareness of Saudi Arabia's tourism and hospitality offerings",
-      "action_path": "Develop and implement effective marketing and promotion strategies to raise awareness of Saudi Arabia's tourism and hospitality offerings. Focus on digital marketing, social media, and influencer partnerships. Collaborate with local businesses and investors to create unique experiences and packages.",
-      "entry_mode": "Invest",
-      "monetization": "Create revenue streams through tourism and hospitality services",
-      "capabilities": "Marketing, branding, social media management",
-      "barriers": "Limited marketing budget, lack of marketing expertise",
-      "timing": "Enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Investment in Saudi Arabia's tourism and hospitality sector is increasing"
-      ],
-      "sector": "Tourism",
-      "relevant_sectors": [
-        "tourism",
-        "hospitality",
-        "marketing"
-      ],
-      "relevant_regions": [
-        "red_sea",
-        "jeddah",
-        "riyadh"
-      ],
-      "ksa_grounding": "Supports the growth of Saudi Arabia's tourism and hospitality sector",
-      "assumptions": "The tourism and hospitality sector will continue to attract significant investment and tourist numbers",
-      "invalidation": "If the tourism and hospitality sector does not attract significant investment or tourist numbers",
-      "_at": "2026-05-22T00:00:16.370609"
     }
   ],
-  "lastRefresh": "2026-06-20T00:06:29.046421"
+  "lastRefresh": "2026-06-21T00:03:35.633977"
 }
