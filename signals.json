@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "statement": "Global oil supply chain is loosening",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased oil production and shipping due to reduced geopolitical tensions",
+      "ksa_grounding": "Saudi Arabia's oil exports are expected to increase as the global supply chain loosens, benefiting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Oil prices falling despite tanker movements being slow after US-Iran ceasefire",
+        "US-Iran ceasefire agreement can lead to increased investment flows to Pakistan"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "shippers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential risks from increased oil production and shipping",
+      "first_order": "Direct increase in oil exports",
+      "second_order": "Growth of related sectors such as logistics and transportation",
+      "invalidation": "New geopolitical tensions that restrict oil production and shipping",
+      "_at": "2026-06-22T00:07:51.542015"
+    },
+    {
+      "statement": "Demand for cold chain logistics is rising",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Increased demand for temperature-controlled logistics due to growing e-commerce and pharmaceutical industries",
+      "ksa_grounding": "Saudi Arabia's cold chain logistics market is expected to grow, driven by increasing demand for temperature-controlled logistics",
+      "affected_sectors": [
+        "logistics"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Cold chain logistics market expected to grow to USD 515.79 billion by 2031"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "logistics companies",
+        "e-commerce businesses"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased investment and growth in cold chain logistics",
+      "downside": "Potential risks from increased demand and competition",
+      "first_order": "Direct investment in cold chain logistics",
+      "second_order": "Growth of related sectors such as e-commerce and pharmaceuticals",
+      "invalidation": "Decreased demand for temperature-controlled logistics",
+      "_at": "2026-06-22T00:07:51.542025"
+    },
+    {
       "statement": "Energy security is increasing",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2014,123 +2069,7 @@
       "second_order": "Potential downstream effects on the Saudi economy, including decreased economic growth and investment",
       "invalidation": "Evidence of increased funding or support for Vision 2030 would invalidate this signal",
       "_at": "2026-05-23T23:55:01.709434"
-    },
-    {
-      "statement": "Investment in Saudi entertainment sector is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Increased funding and investment in entertainment projects",
-      "ksa_grounding": "The growth of the entertainment sector in Saudi Arabia is expected to contribute to the country's economic diversification efforts",
-      "affected_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "affected_regions": [
-        ""
-      ],
-      "evidence": [
-        "LIV Golf seeks to raise up to $350 million from investors",
-        "Film AlUla Bolsters Role as Movie Industry Driver"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "LIV Golf",
-        "Film AlUla"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased economic activity and job creation in the entertainment sector",
-      "downside": "Risk of over-investment in a single sector, potentially leading to market saturation",
-      "first_order": "Direct investment in entertainment projects",
-      "second_order": "Potential for increased tourism and hospitality activity",
-      "invalidation": "A significant decline in investor interest or a major setback in the entertainment sector",
-      "_at": "2026-05-23T00:03:42.739465"
-    },
-    {
-      "statement": "Trade cooperation between the UK and Gulf Cooperation Council is strengthening",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Trade agreements and partnerships",
-      "ksa_grounding": "The trade deal is expected to enhance fintech collaboration and boost digital asset markets in Saudi Arabia",
-      "affected_sectors": [
-        "fintech",
-        "trade"
-      ],
-      "affected_regions": [
-        ""
-      ],
-      "evidence": [
-        "UK strikes \u00a33.7B trade deal with Gulf Cooperation Council"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "UK",
-        "Gulf Cooperation Council"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased trade and investment between the UK and GCC countries",
-      "downside": "Risk of trade disputes or disagreements between the parties",
-      "first_order": "Direct trade benefits",
-      "second_order": "Potential for increased economic cooperation and investment",
-      "invalidation": "A failure to implement the trade agreement or a significant deterioration in relations between the UK and GCC countries",
-      "_at": "2026-05-23T00:03:42.739477"
-    },
-    {
-      "statement": "Saudi Arabia's oil export income is increasing despite production declines",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Increased oil prices and efficient production",
-      "ksa_grounding": "The increase in oil export income is expected to contribute to Saudi Arabia's economic growth and stability",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        ""
-      ],
-      "evidence": [
-        "Saudi Oil Export Income Jumped to 3.5-Year High in March"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Aramco"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased government revenue and economic stability",
-      "downside": "Risk of over-reliance on oil exports and vulnerability to price fluctuations",
-      "first_order": "Direct increase in oil export income",
-      "second_order": "Potential for increased government spending and investment",
-      "invalidation": "A significant decline in oil prices or a major disruption to Saudi oil production",
-      "_at": "2026-05-23T00:03:42.739479"
-    },
-    {
-      "statement": "Tourism and hospitality development in Saudi Arabia is accelerating",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Investment in tourism and hospitality projects",
-      "ksa_grounding": "The development of tourism and hospitality infrastructure is expected to contribute to Saudi Arabia's economic diversification efforts",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "Red Sea"
-      ],
-      "evidence": [
-        "Red Sea Global Launches First JV Resort",
-        "Film AlUla Bolsters Role as Movie Industry Driver"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Red Sea Global",
-        "Film AlUla"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased tourism and economic activity",
-      "downside": "Risk of over-investment in tourism infrastructure, potentially leading to market saturation",
-      "first_order": "Direct investment in tourism and hospitality projects",
-      "second_order": "Potential for increased economic activity and job creation",
-      "invalidation": "A significant decline in tourist arrivals or a major setback in the development of tourism infrastructure",
-      "_at": "2026-05-23T00:03:42.739480"
     }
   ],
-  "lastRefresh": "2026-06-21T00:03:35.632126"
+  "lastRefresh": "2026-06-22T00:08:28.752557"
 }

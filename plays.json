@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "title": "Oil Supply Chain Optimization",
+      "play_type": "business_play",
+      "actor": "Saudi oil companies",
+      "customer": "Global oil refineries and distributors",
+      "problem": "The global oil supply chain is loosening, creating an opportunity for Saudi oil companies to optimize their supply chain and increase exports",
+      "action_path": "Saudi oil companies can invest in optimizing their supply chain, leveraging technology to increase efficiency and reduce costs. They can also build partnerships with global refineries and distributors to increase their market share. This will enable them to take advantage of the loosening global oil supply chain.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue from oil exports",
+      "capabilities": "Supply chain optimization, technology integration, partnership building",
+      "barriers": "Competition from other oil-producing countries, geopolitical tensions",
+      "timing": "prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply chain is loosening"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are expected to increase as the global supply chain loosens, benefiting the country's economy",
+      "assumptions": "The global oil supply chain will continue to loosen, and there will be demand for Saudi oil",
+      "invalidation": "New geopolitical tensions that restrict oil production and shipping",
+      "_at": "2026-06-22T00:08:28.749601"
+    },
+    {
       "title": "Energy Security Enhancement",
       "play_type": "infrastructure_play",
       "actor": "Saudi Aramco",
@@ -1907,69 +1935,7 @@
       "assumptions": "Demand for marketing and advertising services will continue to grow, and the Saudi government will provide supportive regulations",
       "invalidation": "Decrease in entertainment and sports demand or lack of marketing and advertising budgets",
       "_at": "2026-05-24T23:57:30.986062"
-    },
-    {
-      "title": "Saudi Entertainment Sector Investment",
-      "play_type": "business_play",
-      "actor": "Saudi enterprises, investors, and entertainment companies",
-      "customer": "Saudi consumers, tourists, and businesses",
-      "problem": "Limited entertainment options and infrastructure in Saudi Arabia",
-      "action_path": "Invest in entertainment projects, such as theme parks, cinemas, and event venues, to cater to the growing demand for entertainment in Saudi Arabia. Partner with international entertainment companies to bring in new concepts and technologies. Develop local talent and content to support the growth of the entertainment sector.",
-      "entry_mode": "build",
-      "monetization": "Revenue from ticket sales, sponsorships, and advertising",
-      "capabilities": "Entertainment project development, management, and operations",
-      "barriers": "High upfront costs, regulatory hurdles, and competition from established players",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in Saudi entertainment sector is increasing"
-      ],
-      "sector": "entertainment",
-      "relevant_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification efforts",
-      "assumptions": "Continued government support for the entertainment sector, growing demand for entertainment options in Saudi Arabia",
-      "invalidation": "A significant decline in investor interest or a major setback in the entertainment sector",
-      "_at": "2026-05-23T00:04:19.480739"
-    },
-    {
-      "title": "Tourism and Hospitality Development",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi government, investors, and hospitality companies",
-      "customer": "Tourists, business travelers, and Saudi citizens",
-      "problem": "Limited tourism and hospitality infrastructure in Saudi Arabia",
-      "action_path": "Invest in tourism and hospitality projects, such as hotels, resorts, and tourist attractions, to support the growth of the tourism sector. Develop infrastructure, such as airports, transportation systems, and public facilities, to enhance the tourist experience. Implement policies and regulations to facilitate tourism development.",
-      "entry_mode": "invest",
-      "monetization": "Revenue from tourism-related activities, such as hotel bookings, tourist attractions, and transportation services",
-      "capabilities": "Tourism and hospitality project development, management, and operations",
-      "barriers": "High upfront costs, regulatory hurdles, and competition from established destinations",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Tourism and hospitality development in Saudi Arabia is accelerating"
-      ],
-      "sector": "tourism",
-      "relevant_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "makkah",
-        "madinah"
-      ],
-      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification efforts",
-      "assumptions": "Continued government support for the tourism sector, growing demand for tourism in Saudi Arabia",
-      "invalidation": "A significant decline in tourist arrivals or a major setback in the development of tourism infrastructure",
-      "_at": "2026-05-23T00:04:19.480748"
     }
   ],
-  "lastRefresh": "2026-06-21T00:03:35.633977"
+  "lastRefresh": "2026-06-22T00:08:28.754388"
 }
