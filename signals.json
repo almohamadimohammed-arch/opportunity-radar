@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Regulatory tensions between the US and Iran are easing",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "US-Iran talks resulting in a joint statement and a coordinated roadmap may lead to reduced sanctions and increased economic cooperation",
+      "ksa_grounding": "This could lead to increased oil exports from Iran, potentially affecting Saudi Arabia's market share in the global oil market",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "US-Iran talks result in a joint statement and a coordinated roadmap",
+        "Kuwait expects to raise oil production to 2 million bpd within a week"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Iran",
+        "Kuwait"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in global oil supply, reduced prices, and increased economic cooperation",
+      "downside": "Potential loss of market share for Saudi Arabia, increased competition in the oil market",
+      "first_order": "Direct impact on oil exports and market share",
+      "second_order": "Downstream effects on the global economy, trade relationships, and regional stability",
+      "invalidation": "Failure of US-Iran talks to produce a peace deal, increased tensions, or imposition of new sanctions",
+      "_at": "2026-06-23T23:54:25.869575"
+    },
+    {
+      "statement": "Investment strategies of the Saudi Central Bank are shifting",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "The Saudi Central Bank pulling money from global asset managers may indicate a shift towards more conservative or low-cost investment strategies",
+      "ksa_grounding": "This could lead to reduced investment costs for the Saudi Central Bank, potentially increasing its returns and affecting the overall financial market in Saudi Arabia",
+      "affected_sectors": [
+        "banking",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Central Bank pulls money from at least two global asset managers"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Central Bank",
+        "global asset managers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential reduction in investment costs, increased returns for the Saudi Central Bank",
+      "downside": "Potential impact on global financial markets, reduced investment in certain assets",
+      "first_order": "Direct impact on the Saudi Central Bank's investment portfolio",
+      "second_order": "Downstream effects on the global financial market, potential changes in investment strategies",
+      "invalidation": "The Saudi Central Bank reversing its decision, or the move having no significant impact on its investment costs or returns",
+      "_at": "2026-06-23T23:54:25.869588"
+    },
+    {
+      "statement": "Infrastructure development in Riyadh is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "The awarding of a $90m contract for the initial infrastructure of Rayana's low-density residential development in Riyadh indicates increased investment in infrastructure development",
+      "ksa_grounding": "This could lead to improved living standards, increased economic activity, and growth in the real estate sector in Riyadh",
+      "affected_sectors": [
+        "construction"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "DarGlobal awards $90m Rayana infrastructure contract in Riyadh"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "DarGlobal",
+        "Rayana",
+        "residents of Riyadh"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential improvement in living standards, increased economic activity, and growth in the real estate sector",
+      "downside": "Potential increased costs, delays, or environmental impacts associated with infrastructure development",
+      "first_order": "Direct impact on the infrastructure and real estate sector in Riyadh",
+      "second_order": "Downstream effects on the local economy, population growth, and urban development",
+      "invalidation": "The project being delayed, cancelled, or having no significant impact on the infrastructure and real estate sector in Riyadh",
+      "_at": "2026-06-23T23:54:25.869590"
+    },
+    {
       "statement": "Regulatory barriers to international trade have decreased",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2101,5 +2185,5 @@
       "_at": "2026-05-24T23:57:23.871281"
     }
   ],
-  "lastRefresh": "2026-06-23T00:02:27.729220"
+  "lastRefresh": "2026-06-23T23:54:33.097780"
 }

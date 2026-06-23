@@ -1,6 +1,38 @@
 {
   "items": [
     {
+      "title": "Development of Non-Oil Exports",
+      "play_type": "policy_play",
+      "actor": "Saudi Government",
+      "customer": "Saudi businesses",
+      "problem": "Potential loss of government revenue due to decreased oil exports",
+      "action_path": "The Saudi government should develop policies to support the growth of non-oil exports, such as providing incentives for businesses to export non-oil products and investing in logistics and transportation infrastructure. This would reduce the country's dependence on oil exports and mitigate the impact of decreased government revenue. Additionally, the government could invest in developing the tourism and hospitality sectors to attract foreign visitors and increase non-oil revenue.",
+      "entry_mode": "invest",
+      "monetization": "Increased government revenue from non-oil exports and tourism",
+      "capabilities": "Policy development and implementation capabilities, investment in logistics and transportation infrastructure",
+      "barriers": "Competition from other countries, potential bureaucratic hurdles",
+      "timing": "invest now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Regulatory tensions between the US and Iran are easing"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "hospitality",
+        "logistics"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "makkah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by leveraging the government's policy-making capabilities to support the growth of non-oil exports and reduce dependence on oil revenue",
+      "assumptions": "The US-Iran talks will lead to reduced sanctions and increased economic cooperation, and the Saudi government has the necessary capabilities and resources to support the growth of non-oil exports",
+      "invalidation": "Failure of US-Iran talks to produce a peace deal, increased tensions, or imposition of new sanctions",
+      "_at": "2026-06-23T23:54:33.095414"
+    },
+    {
       "title": "Oil Supply Chain Optimization",
       "play_type": "business_play",
       "actor": "Saudi oil companies",
@@ -1937,5 +1969,5 @@
       "_at": "2026-05-24T23:57:30.986062"
     }
   ],
-  "lastRefresh": "2026-06-23T00:02:27.731062"
+  "lastRefresh": "2026-06-23T23:54:33.099232"
 }

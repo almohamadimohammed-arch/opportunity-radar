@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "title": "US-Iran talks result in a joint statement and a coordinated roadmap",
+      "source": "Sputnikglobe.com",
+      "source_tier": 2,
+      "time": "2026-06-22",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "diplomacy"
+      ],
+      "summary": "The US and Iran have completed the first round of talks in Switzerland, resulting in a joint statement and a coordinated roadmap. Pakistan served as the lead mediator, with Qatar and China also involved. The talks aim to reach a peace deal within two months and formally end the war.",
+      "why_it_matters": "This development has significant implications for the global energy market and Saudi Arabia's position in the region. A potential peace deal could lead to increased stability and cooperation in the Middle East, affecting Saudi Arabia's oil and gas sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T23:53:48.014462"
+    },
+    {
+      "title": "Kuwait expects to raise oil production to 2 million bpd within a week",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-06-22",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Kuwait's oil production is expected to reach 2 million barrels per day within a week, according to the CEO of Kuwait Petroleum Corporation. This increase in production could impact the global oil market and Saudi Arabia's oil exports.",
+      "why_it_matters": "This development could affect Saudi Arabia's oil market share and revenue, as well as the overall stability of the global energy market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T23:53:48.014475"
+    },
+    {
+      "title": "India in talks to export BrahMos missile to UAE",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-06-22",
+      "event_type": "procurement",
+      "category": "security",
+      "geography": "Gulf",
+      "sector_tags": [
+        "defence"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defence",
+        "diplomacy"
+      ],
+      "summary": "India is in advanced talks with the UAE to export the BrahMos missile, a supersonic cruise missile. This potential deal could strengthen India's defence ties with the UAE and impact the regional balance of power.",
+      "why_it_matters": "This development could have implications for Saudi Arabia's defence relationships and the overall security landscape in the Middle East.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T23:53:48.014477"
+    },
+    {
+      "title": "DarGlobal awards $90m Rayana infrastructure contract in Riyadh",
+      "source": "Worldconstructionnetwork.com",
+      "source_tier": 2,
+      "time": "2026-06-22",
+      "event_type": "procurement",
+      "category": "infrastructure",
+      "geography": "Saudi",
+      "sector_tags": [
+        "construction"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "infrastructure",
+        "urban development"
+      ],
+      "summary": "DarGlobal has awarded a $90 million contract for the initial infrastructure of Rayana's low-density residential development in Wadi Safar, Riyadh. The contract includes roads and utilities.",
+      "why_it_matters": "This development could contribute to the growth of Riyadh's infrastructure and urban development, aligning with Saudi Arabia's Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T23:53:48.014479"
+    },
+    {
+      "title": "Saudi Central Bank pulls money from at least two global asset managers",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-06-22",
+      "event_type": "company_move",
+      "category": "finance",
+      "geography": "Saudi",
+      "sector_tags": [
+        "banking",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "investments"
+      ],
+      "summary": "The Saudi Central Bank has pulled billions of dollars from at least two global asset managers in recent months. This move could indicate a shift in the bank's investment strategy and impact the global financial market.",
+      "why_it_matters": "This development could affect Saudi Arabia's financial sector and its relationships with global asset managers, potentially impacting the country's economic diversification efforts.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T23:53:48.014480"
+    },
+    {
       "title": "Lebanese products return to Saudi market",
       "source": "Aawsat.com",
       "source_tier": 2,
@@ -3084,11 +3196,11 @@
       "_at": "2026-05-24T23:56:46.848986"
     }
   ],
-  "lastRefresh": "2026-06-23T00:02:27.726316",
+  "lastRefresh": "2026-06-23T23:54:33.095505",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 20,
+    "articles_to_model": 28,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3096,9 +3208,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 0,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 0,
-    "plays_ksa_grounded": 0
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
