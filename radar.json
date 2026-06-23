@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "title": "Lebanese products return to Saudi market",
+      "source": "Aawsat.com",
+      "source_tier": 2,
+      "time": "2026-06-21",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "trade",
+        "economy"
+      ],
+      "summary": "Lebanese products are once again entering the Saudi market, carrying with them more than just goods and commodities. This move aims to exceed pre-2021 figures and rebuild confidence after years of pause.",
+      "why_it_matters": "The return of Lebanese products to the Saudi market could boost trade and economic relations between the two countries, potentially benefiting Saudi's tourism and hospitality sectors.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T00:01:45.633171"
+    },
+    {
+      "title": "OpenAI signs AI deal with Samsung Korea",
+      "source": "BOL News",
+      "source_tier": 2,
+      "time": "2026-06-22",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "artificial intelligence",
+        "innovation"
+      ],
+      "summary": "OpenAI will provide its ChatGPT Enterprise platform and AI coding assistant Codex to Samsung Electronics employees worldwide, as part of the South Korean tech giant\u2019s company-wide strategy to accelerate AI adoption.",
+      "why_it_matters": "This partnership could have strategic implications for Saudi's fintech and technology sectors, as the adoption of AI and innovative technologies continues to grow globally.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T00:01:45.633184"
+    },
+    {
+      "title": "Hormuz Crisis sparks Middle East pipeline boom",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-06-21",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "The blockading of the Strait of Hormuz has sparked a pipeline boom in the Middle East, as countries seek to reduce their reliance on the strategic waterway.",
+      "why_it_matters": "The Hormuz Crisis and subsequent pipeline boom could have significant implications for Saudi's oil and gas sector, as well as the country's energy security and trade relationships.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T00:01:45.633187"
+    },
+    {
+      "title": "Iran warns of 'heavy, regretful' response to any violation of US MoU",
+      "source": "Globalsecurity.org",
+      "source_tier": 2,
+      "time": "2026-06-21",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "security",
+        "diplomacy"
+      ],
+      "summary": "Iran's caretaker defense minister has warned that the Islamic Republic will deliver a 'heavy and regretful' response to any violation of the recently signed memorandum of understanding with the United States.",
+      "why_it_matters": "This warning could have significant implications for Saudi's security and diplomatic relationships, particularly in the context of regional tensions and the ongoing Hormuz Crisis.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T00:01:45.633189"
+    },
+    {
+      "title": "Google, FBI target Chinese scammers using Gemini AI for fake sites",
+      "source": "Bangkok Post",
+      "source_tier": 2,
+      "time": "2026-06-21",
+      "event_type": "breach_exposure",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "cybersecurity",
+        "artificial intelligence"
+      ],
+      "summary": "Google has joined forces with the FBI to dismantle a Chinese cybercrime syndicate known as 'Outsider Enterprise' after the group allegedly used Google's own Gemini artificial intelligence to create fake websites.",
+      "why_it_matters": "This incident highlights the growing threat of cybercrime and the need for Saudi's fintech and technology sectors to prioritize cybersecurity and artificial intelligence ethics.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-23T00:01:45.633190"
+    },
+    {
       "title": "Oil prices falling despite tanker movements being slow after US-Iran ceasefire",
       "source": "OilPrice.com",
       "source_tier": 2,
@@ -2969,75 +3082,9 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-05-24T23:56:46.848986"
-    },
-    {
-      "title": "OPEC+ leaders expected to raise July oil output target by 188,000 bpd",
-      "source": "Crypto Briefing, The Times of India",
-      "source_tier": 2,
-      "time": "2026-05-22",
-      "event_type": "capacity_change",
-      "category": "energy",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "oil market",
-        "energy sector"
-      ],
-      "summary": "OPEC+ leaders are expected to raise the July oil output target by 188,000 barrels per day. This modest increase comes amid significant supply disruptions and highlights the volatility of global oil markets.",
-      "why_it_matters": "This decision may impact Saudi Arabia's oil and gas sector, as well as the global energy market. It could influence oil prices and affect the country's economy.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-05-23T23:54:24.065786"
-    },
-    {
-      "title": "SpaceX's road to landmark IPO filing",
-      "source": "Yahoo Entertainment",
-      "source_tier": 2,
-      "time": "2026-05-21",
-      "event_type": "funding",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "space"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "space industry",
-        "investors"
-      ],
-      "summary": "SpaceX has filed for an initial public offering (IPO), which is expected to be the largest stock-market debut in history. The company aims to dominate industries ranging from rockets and satellites to AI and data centers.",
-      "why_it_matters": "This development may have implications for Saudi Arabia's space sector, as well as the country's investments in technology and innovation.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-23T23:54:24.065799"
-    },
-    {
-      "title": "Saudi Vision 2030 in freefall as fiscal woes from US-Israeli war on Iran deepens",
-      "source": "Globalsecurity.org",
-      "source_tier": 2,
-      "time": "2026-05-22",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Saudi",
-      "sector_tags": [
-        "economy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economy",
-        "politics"
-      ],
-      "summary": "Saudi Arabia's Vision 2030 is reportedly in freefall due to fiscal woes caused by the US-Israeli war on Iran. The kingdom has halted new contracts for Western consultancies and delayed payments.",
-      "why_it_matters": "This development may have significant implications for Saudi Arabia's economy and Vision 2030 goals, as well as the country's relationships with other nations in the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-05-23T23:54:24.065801"
     }
   ],
-  "lastRefresh": "2026-06-22T00:08:28.749714",
+  "lastRefresh": "2026-06-23T00:02:27.726316",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
@@ -3049,9 +3096,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 0,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 0,
+    "plays_ksa_grounded": 0
   }
 }

@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to international trade have decreased",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Lebanese products re-entering the Saudi market indicates a reduction in regulatory barriers to international trade",
+      "ksa_grounding": "Increased trade with Lebanon can boost Saudi Arabia's tourism and hospitality sectors",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Lebanese products return to Saudi market"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "importers",
+        "exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased trade and economic cooperation",
+      "downside": "Potential cultural or economic disruption",
+      "first_order": "Direct increase in trade",
+      "second_order": "Potential increase in tourism and hospitality revenue",
+      "invalidation": "Implementation of new trade restrictions or tariffs",
+      "_at": "2026-06-23T00:02:22.725333"
+    },
+    {
+      "statement": "Risk exposure to cybercrime has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The use of AI for fake websites by Chinese scammers indicates a rising risk of cybercrime",
+      "ksa_grounding": "Saudi Arabia's growing fintech sector may be vulnerable to similar cyber threats",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Google, FBI target Chinese scammers using Gemini AI for fake sites"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "fintech companies",
+        "consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased awareness and cooperation to combat cybercrime",
+      "downside": "Potential financial losses and reputational damage",
+      "first_order": "Direct risk to fintech companies and consumers",
+      "second_order": "Potential loss of trust in the fintech sector",
+      "invalidation": "Implementation of effective cybersecurity measures that prevent similar scams",
+      "_at": "2026-06-23T00:02:22.725345"
+    },
+    {
+      "statement": "Supply chain diversification efforts are increasing",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "The Hormuz Crisis has sparked a pipeline boom in the Middle East, indicating efforts to reduce reliance on the Strait of Hormuz",
+      "ksa_grounding": "Saudi Arabia's oil and gas sector may benefit from increased pipeline infrastructure and reduced dependence on the Strait of Hormuz",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Hormuz Crisis sparks Middle East pipeline boom"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil and gas companies",
+        "logistics providers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased energy security and reduced transportation costs",
+      "downside": "Potential environmental and social impacts of new pipeline construction",
+      "first_order": "Direct increase in pipeline infrastructure",
+      "second_order": "Potential increase in oil and gas production and exports",
+      "invalidation": "Failure to complete new pipeline projects or significant changes in global energy demand",
+      "_at": "2026-06-23T00:02:22.725347"
+    },
+    {
       "statement": "Global oil supply chain is loosening",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2014,62 +2099,7 @@
       "second_order": "Improved patient outcomes and increased demand for healthcare services",
       "invalidation": "Rejection of future FDA approvals for similar therapies",
       "_at": "2026-05-24T23:57:23.871281"
-    },
-    {
-      "statement": "Investment in entertainment and sports is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "LIV Golf's plans to raise up to $350 million from investors indicates increased investment in the entertainment and sports sectors",
-      "ksa_grounding": "This affects Saudi Arabia's economy by potentially increasing investment in the entertainment and sports sectors, which could lead to job creation and economic growth",
-      "affected_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "LIV Golf seeks to raise up to $350 million from investors"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "LIV Golf",
-        "investors"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased investment in the entertainment and sports sectors, potentially leading to job creation and economic growth",
-      "downside": "Potential risks associated with increased investment, such as market volatility",
-      "first_order": "Direct increase in investment in the entertainment and sports sectors",
-      "second_order": "Potential downstream effects on the Saudi economy, including increased economic growth and job creation",
-      "invalidation": "Evidence of decreased investment in the entertainment and sports sectors would invalidate this signal",
-      "_at": "2026-05-23T23:55:01.709424"
-    },
-    {
-      "statement": "Fiscal woes are impacting Saudi Vision 2030",
-      "change_type": "cost",
-      "change_vector": "cost_rising",
-      "mechanism": "The US-Israeli war on Iran is causing fiscal woes for Saudi Arabia, impacting Vision 2030",
-      "ksa_grounding": "This affects Saudi Arabia's economy by potentially delaying or cancelling projects and initiatives under Vision 2030",
-      "affected_sectors": [
-        "economy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi Vision 2030 in freefall as fiscal woes from US-Israeli war on Iran deepens"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Arabia",
-        "US",
-        "Israel",
-        "Iran"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential risks associated with delayed or cancelled projects and initiatives under Vision 2030",
-      "first_order": "Direct impact on Vision 2030 projects and initiatives",
-      "second_order": "Potential downstream effects on the Saudi economy, including decreased economic growth and investment",
-      "invalidation": "Evidence of increased funding or support for Vision 2030 would invalidate this signal",
-      "_at": "2026-05-23T23:55:01.709434"
     }
   ],
-  "lastRefresh": "2026-06-22T00:08:28.752557"
+  "lastRefresh": "2026-06-23T00:02:27.729220"
 }
