@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Healthcare Innovation Investment",
+      "play_type": "research_play",
+      "actor": "Healthcare companies, biotech firms",
+      "customer": "Saudi healthcare sector",
+      "problem": "Investment in healthcare innovation is increasing, creating an opportunity for healthcare companies and biotech firms to develop new treatments and services",
+      "action_path": "Healthcare companies and biotech firms can invest in research and development to create innovative treatments and services, partnering with local and international companies to access new technologies and expertise. They can also build local teams to better understand the Saudi healthcare market and tailor their services accordingly. By doing so, they can capitalize on the growing demand for innovative healthcare services in Saudi Arabia.",
+      "entry_mode": "invest",
+      "monetization": "Revenue from sales of innovative treatments and services, partnerships with local and international companies",
+      "capabilities": "Research and development capabilities, innovative treatments and services, local market knowledge",
+      "barriers": "Regulatory hurdles, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Investment in healthcare innovation is increasing"
+      ],
+      "sector": "healthcare",
+      "relevant_sectors": [
+        "healthcare",
+        "biotech"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's healthcare sector is likely to benefit from increased investment in innovation, leading to improved healthcare outcomes and services",
+      "assumptions": "The Saudi government will continue to support healthcare innovation, and the demand for innovative healthcare services will continue to grow",
+      "invalidation": "Decrease in investment in healthcare innovation due to economic downturn",
+      "_at": "2026-06-25T00:07:04.899558"
+    },
+    {
+      "title": "Global Investment Attraction",
+      "play_type": "policy_play",
+      "actor": "Saudi government",
+      "customer": "Global investors",
+      "problem": "Saudi Arabia is becoming a more attractive destination for global investment, creating an opportunity for the Saudi government to attract foreign investment",
+      "action_path": "The Saudi government can implement policies to attract foreign investment, such as tax incentives, regulatory reforms, and investment promotion programs. They can also build relationships with global investors to promote Saudi Arabia as a destination for investment. By doing so, they can capitalize on the growing interest in Saudi Arabia as a investment destination.",
+      "entry_mode": "build",
+      "monetization": "Revenue from foreign investment, job creation, and economic growth",
+      "capabilities": "Policy-making capabilities, investment promotion capabilities, relationships with global investors",
+      "barriers": "Regulatory hurdles, competition from other investment destinations",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Saudi Arabia is becoming a more attractive destination for global investment"
+      ],
+      "sector": "capital_markets",
+      "relevant_sectors": [
+        "capital_markets",
+        "fintech"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy is likely to benefit from increased foreign investment, leading to job creation and economic growth",
+      "assumptions": "The Saudi government will continue to support foreign investment, and the global economy will continue to grow",
+      "invalidation": "Introduction of policies that deter foreign investment",
+      "_at": "2026-06-25T00:07:04.899571"
+    },
+    {
       "title": "Development of Non-Oil Exports",
       "play_type": "policy_play",
       "actor": "Saudi Government",
@@ -1816,158 +1876,7 @@
       "assumptions": "Global trade risks will continue to evolve, and Saudi companies and logistics providers will need to adapt to these changes",
       "invalidation": "Successful diplomatic efforts to resolve regional tensions and trade disputes",
       "_at": "2026-05-27T00:03:04.401785"
-    },
-    {
-      "title": "EdTech Partnerships for AI Adoption",
-      "play_type": "business_play",
-      "actor": "EdTech companies and fintech firms",
-      "customer": "Saudi enterprises and educational institutions",
-      "problem": "Limited access to AI and digital transformation solutions",
-      "action_path": "EdTech companies can partner with fintech firms to develop and implement AI-powered solutions for Saudi enterprises and educational institutions. This can include creating customized AI training programs and providing access to digital transformation tools. By doing so, EdTech companies can help accelerate the adoption of AI and digital transformation in Saudi Arabia.",
-      "entry_mode": "partner",
-      "monetization": "Revenue sharing models and subscription-based services",
-      "capabilities": "AI development, digital transformation expertise, and cloud-native capabilities",
-      "barriers": "Competition from established players and regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Adoption of AI and digital transformation is increasing"
-      ],
-      "sector": "edtech",
-      "relevant_sectors": [
-        "fintech",
-        "education"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Accelerated digital transformation across various sectors in Saudi Arabia",
-      "assumptions": "Continued investment in AI and digital transformation, and a willingness from Saudi enterprises and educational institutions to adopt new technologies",
-      "invalidation": "Lack of further partnerships or investments in AI and digital transformation",
-      "_at": "2026-05-26T00:03:33.912189"
-    },
-    {
-      "title": "AI-Powered Education Platforms",
-      "play_type": "market_entry_play",
-      "actor": "International EdTech companies",
-      "customer": "Saudi students and educational institutions",
-      "problem": "Limited access to high-quality educational resources and AI-powered learning tools",
-      "action_path": "International EdTech companies can enter the Saudi market by developing and offering AI-powered education platforms tailored to the local curriculum and educational needs. This can include partnering with local educational institutions and organizations to ensure cultural and linguistic relevance. By doing so, EdTech companies can help improve educational outcomes and increase access to quality education in Saudi Arabia.",
-      "entry_mode": "invest",
-      "monetization": "Subscription-based models and revenue sharing with local partners",
-      "capabilities": "AI development, educational content creation, and cultural adaptation expertise",
-      "barriers": "Regulatory hurdles, competition from local players, and cultural adaptation challenges",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Adoption of AI and digital transformation is increasing"
-      ],
-      "sector": "edtech",
-      "relevant_sectors": [
-        "education"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "makkah"
-      ],
-      "ksa_grounding": "Growing demand for high-quality education and digital transformation in the Saudi education sector",
-      "assumptions": "Continued investment in education and a willingness from Saudi students and educational institutions to adopt new technologies",
-      "invalidation": "Lack of interest from Saudi students and educational institutions in AI-powered education platforms",
-      "_at": "2026-05-26T00:03:33.912201"
-    },
-    {
-      "title": "Entertainment and Sports Investment Opportunity",
-      "play_type": "business_play",
-      "actor": "Saudi-based entertainment and sports companies",
-      "customer": "Saudi consumers and tourists",
-      "problem": "Limited entertainment and sports options in Saudi Arabia",
-      "action_path": "Develop and invest in new entertainment and sports venues, events, and experiences to capitalize on the growing demand. Partner with international companies to bring in new concepts and technologies. Expand existing infrastructure to support the growth of these sectors.",
-      "entry_mode": "build",
-      "monetization": "Revenue from ticket sales, sponsorships, and merchandise",
-      "capabilities": "Event management, venue development, marketing, and partnership building",
-      "barriers": "High upfront costs, regulatory hurdles, and competition from established players",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in entertainment and sports is increasing"
-      ],
-      "sector": "entertainment",
-      "relevant_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "LIV Golf's investment plans will contribute to the growth of Saudi Arabia's entertainment and sports sectors",
-      "assumptions": "Demand for entertainment and sports will continue to grow, and the Saudi government will provide supportive regulations and infrastructure",
-      "invalidation": "Failure of LIV Golf's investment plans or decrease in entertainment and sports demand",
-      "_at": "2026-05-24T23:57:30.986049"
-    },
-    {
-      "title": "Sports Infrastructure Development",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi-based construction and development companies",
-      "customer": "Saudi government and sports organizations",
-      "problem": "Limited sports infrastructure in Saudi Arabia",
-      "action_path": "Develop and build new sports venues, stadiums, and training facilities to support the growth of sports in Saudi Arabia. Partner with international companies to bring in expertise and technology. Expand existing infrastructure to support the growth of sports tourism.",
-      "entry_mode": "build",
-      "monetization": "Revenue from construction contracts and facility management",
-      "capabilities": "Construction, project management, and facility operations",
-      "barriers": "High upfront costs, regulatory hurdles, and competition from established players",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in entertainment and sports is increasing"
-      ],
-      "sector": "sports",
-      "relevant_sectors": [
-        "sports",
-        "entertainment"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "The Saudi government's vision to develop sports infrastructure will drive growth in this sector",
-      "assumptions": "Demand for sports infrastructure will continue to grow, and the Saudi government will provide supportive regulations and funding",
-      "invalidation": "Decrease in sports demand or lack of government support",
-      "_at": "2026-05-24T23:57:30.986060"
-    },
-    {
-      "title": "Entertainment and Sports Marketing",
-      "play_type": "business_play",
-      "actor": "Saudi-based marketing and advertising agencies",
-      "customer": "Saudi-based entertainment and sports companies",
-      "problem": "Limited marketing and advertising options for entertainment and sports companies in Saudi Arabia",
-      "action_path": "Develop and offer specialized marketing and advertising services for entertainment and sports companies in Saudi Arabia. Partner with international companies to bring in expertise and technology. Expand existing services to support the growth of these sectors.",
-      "entry_mode": "build",
-      "monetization": "Revenue from marketing and advertising contracts",
-      "capabilities": "Marketing, advertising, and branding",
-      "barriers": "High competition from established players, and limited marketing and advertising budgets",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in entertainment and sports is increasing"
-      ],
-      "sector": "entertainment",
-      "relevant_sectors": [
-        "entertainment",
-        "sports"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "The growth of entertainment and sports in Saudi Arabia will drive demand for specialized marketing and advertising services",
-      "assumptions": "Demand for marketing and advertising services will continue to grow, and the Saudi government will provide supportive regulations",
-      "invalidation": "Decrease in entertainment and sports demand or lack of marketing and advertising budgets",
-      "_at": "2026-05-24T23:57:30.986062"
     }
   ],
-  "lastRefresh": "2026-06-23T23:54:33.099232"
+  "lastRefresh": "2026-06-25T00:07:04.904593"
 }

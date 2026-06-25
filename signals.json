@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "statement": "Investment in healthcare innovation is increasing",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Partnerships between local and international companies",
+      "ksa_grounding": "Saudi Arabia's healthcare sector is likely to benefit from increased investment in innovation, leading to improved healthcare outcomes and services",
+      "affected_sectors": [
+        "healthcare",
+        "biotech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Flagship Pioneering and Lean Business Services Company collaborate to advance healthcare innovation in Saudi Arabia",
+        "Abu Dhabi's MGX raises $50 billion AI fund"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "healthcare providers",
+        "patients"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved healthcare outcomes and services",
+      "downside": "Potential risks associated with rapid investment in unproven technologies",
+      "first_order": "Direct investment in healthcare sector",
+      "second_order": "Growth of related industries, such as biotech and pharmaceuticals",
+      "invalidation": "Decrease in investment in healthcare innovation due to economic downturn",
+      "_at": "2026-06-25T00:06:57.312745"
+    },
+    {
+      "statement": "Saudi Arabia is becoming a more attractive destination for global investment",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Government efforts to attract foreign investment",
+      "ksa_grounding": "Saudi Arabia's economy is likely to benefit from increased foreign investment, leading to job creation and economic growth",
+      "affected_sectors": [
+        "capital_markets",
+        "fintech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia's sovereign wealth fund aims to make the kingdom a global investment center",
+        "Abu Dhabi's MGX raises $50 billion AI fund"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "investors",
+        "businesses"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment and job creation",
+      "downside": "Potential risks associated with rapid investment growth, such as inflation and market volatility",
+      "first_order": "Direct investment in various sectors",
+      "second_order": "Growth of related industries, such as finance and real estate",
+      "invalidation": "Introduction of policies that deter foreign investment",
+      "_at": "2026-06-25T00:06:57.312758"
+    },
+    {
       "statement": "Regulatory tensions between the US and Iran are easing",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2100,90 +2160,7 @@
       "second_order": "Potential for long-term economic and environmental benefits",
       "invalidation": "Failure to meet Vision 2030 renewable energy targets or significant changes to global energy markets",
       "_at": "2026-05-27T00:02:26.395617"
-    },
-    {
-      "statement": "Regulatory barriers to healthcare innovation have decreased",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Saudi FDA approval of new therapies",
-      "ksa_grounding": "Increased access to specialty oncology treatments for Saudi patients",
-      "affected_sectors": [
-        "healthcare",
-        "pharma"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Venus Remedies Gets Saudi FDA Approval for Specialty Oncology Therapy"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "patients",
-        " healthcare providers"
-      ],
-      "time_horizon": "now",
-      "upside": "improved patient outcomes",
-      "downside": "potential increased healthcare costs",
-      "first_order": "increased access to new treatments",
-      "second_order": "potential for increased investment in healthcare research and development",
-      "invalidation": "rejection of future FDA approval applications for innovative therapies",
-      "_at": "2026-05-26T00:03:26.990809"
-    },
-    {
-      "statement": "Adoption of AI and digital transformation is increasing",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "partnerships between companies and edtech providers",
-      "ksa_grounding": "accelerated digital transformation across various sectors in Saudi Arabia",
-      "affected_sectors": [
-        "fintech",
-        "education",
-        "edtech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Accenture Partners with HUMAIN to Accelerate AI Adoption across Saudi Arabia",
-        "Persistent Systems Partners with Kong to Help Businesses Securely Implement AI"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "businesses",
-        "educational institutions"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "increased efficiency and competitiveness",
-      "downside": "potential job displacement",
-      "first_order": "increased adoption of AI solutions",
-      "second_order": "potential for increased innovation and entrepreneurship",
-      "invalidation": "lack of further partnerships or investments in AI and digital transformation",
-      "_at": "2026-05-26T00:03:26.990821"
-    },
-    {
-      "statement": "Regulatory barrier to healthcare innovation has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Saudi FDA approval for new therapies increases access to innovative treatments",
-      "ksa_grounding": "Increased access to specialty oncology therapies will improve healthcare outcomes in Saudi Arabia",
-      "affected_sectors": [
-        "healthcare",
-        "pharma"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Venus Remedies gets Saudi FDA approval for specialty oncology therapy"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "patients",
-        " healthcare providers"
-      ],
-      "time_horizon": "now",
-      "upside": "Improved healthcare outcomes",
-      "downside": "Potential increased costs for healthcare services",
-      "first_order": "Increased access to innovative therapies",
-      "second_order": "Improved patient outcomes and increased demand for healthcare services",
-      "invalidation": "Rejection of future FDA approvals for similar therapies",
-      "_at": "2026-05-24T23:57:23.871281"
     }
   ],
-  "lastRefresh": "2026-06-23T23:54:33.097780"
+  "lastRefresh": "2026-06-25T00:07:04.902652"
 }
