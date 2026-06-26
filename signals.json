@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "statement": "Digital transformation in Saudi Arabia's housing sector is accelerating",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Partnerships between technology companies and housing providers are driving digital infrastructure development",
+      "ksa_grounding": "Improved digital infrastructure in the housing sector can increase efficiency and reduce costs, making Saudi Arabia's housing market more attractive to investors and residents",
+      "affected_sectors": [
+        "housing",
+        "digital_infrastructure"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Lenovo and National Housing Company Innovation Sign MoU to Advance AI and Digital Infrastructure in Saudi Arabia\u2019s Housing Sector"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "National Housing Company Innovation",
+        "Lenovo"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased efficiency and reduced costs in the housing sector",
+      "downside": "Dependence on foreign technology companies",
+      "first_order": "Improved digital infrastructure",
+      "second_order": "Increased attractiveness of Saudi Arabia's housing market",
+      "invalidation": "Cancellation of the MoU between Lenovo and National Housing Company Innovation",
+      "_at": "2026-06-26T00:06:50.983564"
+    },
+    {
+      "statement": "Saudi Arabia is becoming a more attractive destination for global investments",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Saudi Arabia's sovereign wealth fund is actively seeking to attract global investments",
+      "ksa_grounding": "Increased foreign investment can help diversify Saudi Arabia's economy and reduce its reliance on oil exports",
+      "affected_sectors": [
+        "fintech",
+        "banking",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi\u2019s sovereign wealth fund wants the kingdom to become a global investment center"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi's sovereign wealth fund"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Diversified economy and reduced reliance on oil exports",
+      "downside": "Increased competition for local businesses",
+      "first_order": "Increased foreign investment",
+      "second_order": "Diversified economy",
+      "invalidation": "Failure of Saudi Arabia's sovereign wealth fund to attract significant foreign investment",
+      "_at": "2026-06-26T00:06:50.983574"
+    },
+    {
+      "statement": "AI innovation is increasing in the Middle East",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Large investments in AI infrastructure and technology are being made in the region",
+      "ksa_grounding": "Increased AI innovation in the region can lead to the development of new industries and job opportunities in Saudi Arabia",
+      "affected_sectors": [
+        "fintech",
+        "ai",
+        "healthcare"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Abu Dhabi\u2019s MGX Raises About $50 Billion to Accelerate AI Deals",
+        "Flagship Pioneering and Lean Business Services Company Announce Collaboration to Advance Healthcare Innovation and AI-Enabled Biomedical Research in Saudi Arabia"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "MGX",
+        "Flagship Pioneering",
+        "Lean Business Services Company"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Development of new industries and job opportunities",
+      "downside": "Dependence on foreign investment and technology",
+      "first_order": "Increased AI innovation",
+      "second_order": "Development of new industries",
+      "invalidation": "Failure of AI investments to lead to significant innovation in the region",
+      "_at": "2026-06-26T00:06:50.983578"
+    },
+    {
       "statement": "Investment in healthcare innovation is increasing",
       "change_type": "investment",
       "change_vector": "demand_up",
@@ -2102,65 +2194,7 @@
       "second_order": "Impact on related industries such as petrochemicals and the broader economy",
       "invalidation": "A significant increase in oil prices or a resolution to the geopolitical tensions in the region",
       "_at": "2026-05-27T23:58:53.813038"
-    },
-    {
-      "statement": "Global trade risks are increasing",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Geopolitical tensions and trade disruptions are escalating, particularly in the Middle East",
-      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on international trade, particularly in the oil and gas sector",
-      "affected_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Iran pushes 'toll' plan on the Strait of Hormuz, threatening global trade chaos",
-        "Trump mandates Arab nations to normalize ties with Israel as part of Iran deal"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil and gas companies",
-        "logistics providers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased regional cooperation and stability",
-      "downside": "Potential for trade disruptions and economic losses",
-      "first_order": "Increased costs and uncertainty for Saudi businesses and consumers",
-      "second_order": "Potential for long-term damage to Saudi Arabia's economy and trade relationships",
-      "invalidation": "Successful diplomatic efforts to resolve regional tensions and trade disputes",
-      "_at": "2026-05-27T00:02:26.395607"
-    },
-    {
-      "statement": "Diversification efforts are driving investment in renewable energy",
-      "change_type": "investment",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Partnerships and investments in renewable energy are increasing, driven by Saudi Arabia's Vision 2030 goals",
-      "ksa_grounding": "Saudi Arabia's economy is diversifying, with a growing focus on renewable energy and reducing reliance on fossil fuels",
-      "affected_sectors": [
-        "renewable_energy",
-        "hydrogen"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "ZOE Energy Storage partners with local Saudi ally to build battery storage manufacturing base",
-        "Aramco to transfer PRefChem stakes to Malaysia's Petronas"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "renewable energy companies",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for reduced reliance on fossil fuels and increased energy security",
-      "downside": "Potential for high upfront costs and technological challenges",
-      "first_order": "Increased investment in renewable energy infrastructure",
-      "second_order": "Potential for long-term economic and environmental benefits",
-      "invalidation": "Failure to meet Vision 2030 renewable energy targets or significant changes to global energy markets",
-      "_at": "2026-05-27T00:02:26.395617"
     }
   ],
-  "lastRefresh": "2026-06-25T00:07:04.902652"
+  "lastRefresh": "2026-06-26T00:07:28.880720"
 }
