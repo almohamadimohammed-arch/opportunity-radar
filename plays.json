@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "title": "Diversification of Saudi Oil Revenue Streams",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco, Saudi government",
+      "customer": "Saudi economy, global oil consumers",
+      "problem": "Decreased oil market volatility may lead to decreased oil prices and reduced oil revenue for Saudi Arabia",
+      "action_path": "Invest in non-oil sectors, such as renewable energy and petrochemicals, to reduce dependence on oil exports. Develop strategic partnerships with international companies to enhance capabilities. Enhance research and development in energy efficiency and sustainability.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue diversification, reduced dependence on oil exports",
+      "capabilities": "Energy sector expertise, investment capabilities, partnership development",
+      "barriers": "High upfront investment costs, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil market volatility has decreased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by reducing dependence on oil exports and promoting economic diversification",
+      "assumptions": "Saudi government will continue to support economic diversification efforts, global demand for non-oil energy sources will increase",
+      "invalidation": "If US-Iran tensions escalate again, leading to renewed oil market volatility and increased oil prices, reducing the need for diversification",
+      "_at": "2026-06-27T00:02:59.577951"
+    },
+    {
+      "title": "Enhanced Energy Efficiency in Saudi Oil Sector",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco, Saudi government",
+      "customer": "Saudi oil sector, global oil consumers",
+      "problem": "Decreased oil market volatility may lead to reduced investment in energy efficiency and sustainability",
+      "action_path": "Develop and implement energy-efficient technologies in oil production and refining. Invest in research and development of sustainable energy solutions. Enhance collaboration with international companies to leverage best practices.",
+      "entry_mode": "build",
+      "monetization": "Reduced energy consumption, increased operational efficiency",
+      "capabilities": "Energy sector expertise, technology development, partnership development",
+      "barriers": "High upfront investment costs, technical challenges",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil market volatility has decreased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by promoting energy efficiency and sustainability in the oil sector",
+      "assumptions": "Saudi government will continue to support energy efficiency and sustainability efforts, global demand for sustainable energy solutions will increase",
+      "invalidation": "If oil prices increase significantly, reducing the need for energy efficiency and sustainability measures",
+      "_at": "2026-06-27T00:02:59.577960"
+    },
+    {
       "title": "AI Innovation Hub Development",
       "play_type": "infrastructure_play",
       "actor": "Saudi government and private sector companies",
@@ -1818,66 +1876,7 @@
       "assumptions": "The global energy market will continue to be volatile, and Saudi energy companies will be able to successfully enhance their risk management capabilities",
       "invalidation": "If OPEC is able to maintain its production targets and stabilize the global energy market, reducing the need for enhanced risk management capabilities",
       "_at": "2026-05-29T00:09:23.794751"
-    },
-    {
-      "title": "Saudi Data Center Expansion",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi enterprises, cybersecurity firms",
-      "customer": "Fintech, renewable energy companies",
-      "problem": "Growing demand for cloud services and data localization",
-      "action_path": "Build data centers to meet growing demand, provide cloud-native capabilities, and ensure data governance. Partner with fintech and renewable energy companies to provide tailored solutions. Invest in cloud-native security measures to protect sensitive data.",
-      "entry_mode": "build",
-      "monetization": "Revenue from data center services, cloud computing, and cybersecurity solutions",
-      "capabilities": "Cloud-native capabilities, data center management, cybersecurity expertise",
-      "barriers": "High upfront costs, competition from established players",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in data centers is increasing"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification through Vision 2030",
-      "assumptions": "Growing demand for cloud services and data localization will continue, Saudi Arabia's data center market will grow",
-      "invalidation": "A significant decline in demand for cloud services or data localization in Saudi Arabia",
-      "_at": "2026-05-27T23:59:00.508916"
-    },
-    {
-      "title": "Diversification of Oil and Gas Sector",
-      "play_type": "defensive_play",
-      "actor": "Saudi oil and gas companies",
-      "customer": "Saudi government, oil and gas companies",
-      "problem": "Challenges facing the oil and gas sector",
-      "action_path": "Diversify revenue streams by investing in renewable energy, reduce dependence on oil exports. Partner with international companies to develop new technologies and expertise. Implement cost-cutting measures to maintain profitability.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on oil exports, increased revenue from renewable energy",
-      "capabilities": "Renewable energy expertise, international partnerships, cost-cutting measures",
-      "barriers": "High upfront costs, competition from established players",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Saudi Arabia's oil and gas sector is facing challenges"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "eastern_province"
-      ],
-      "ksa_grounding": "Contributes to Saudi Arabia's economic stability by reducing dependence on oil exports",
-      "assumptions": "Challenges facing the oil and gas sector will continue, diversification will be successful",
-      "invalidation": "A significant increase in oil prices or a resolution to the geopolitical tensions in the region",
-      "_at": "2026-05-27T23:59:00.508926"
     }
   ],
-  "lastRefresh": "2026-06-26T00:07:28.882781"
+  "lastRefresh": "2026-06-27T00:02:59.582898"
 }

@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to climate finance has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The OPEC Fund's launch of the Vulnerability to Viability Compact (V2V) increases access to climate finance for vulnerable countries, potentially influencing Saudi Arabia's energy transition strategies",
+      "ksa_grounding": "This development may encourage Saudi Arabia to increase its commitment to sustainability and renewable energy, aligning with its Vision 2030 goals",
+      "affected_sectors": [
+        "renewable_energy",
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "OPEC Fund launches landmark climate finance compact"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia",
+        "OPEC Fund"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment in renewable energy and reduced carbon emissions",
+      "downside": "Potential diversion of funds from other priority sectors",
+      "first_order": "Increased access to climate finance",
+      "second_order": "Potential growth of Saudi Arabia's renewable energy sector",
+      "invalidation": "If the V2V compact fails to secure significant funding or support from member countries",
+      "_at": "2026-06-27T00:02:52.622881"
+    },
+    {
+      "statement": "Global oil market volatility has decreased",
+      "change_type": "market",
+      "change_vector": "supply_looser",
+      "mechanism": "Eased US-Iran tensions and the resumption of crude loadings at Ras Tanura contribute to stabilization in global oil markets",
+      "ksa_grounding": "This development may impact Saudi Arabia's oil revenue and energy sector, potentially leading to decreased oil prices and increased global supply",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Crude oil prices crash 42% from April\u2019s $126 peak",
+        "Saudi Aramco resumes crude loadings at Ras Tanura",
+        "Goldman Sachs, Morgan Stanley cut oil forecasts as US-Iran tensions ease"
+      ],
+      "evidence_strength": "strong",
+      "affected_actors": [
+        "Saudi Arabia",
+        "global oil market participants"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased global oil supply and decreased prices",
+      "downside": "Potential negative impact on Saudi Arabia's oil revenue",
+      "first_order": "Decreased oil price volatility",
+      "second_order": "Potential increase in global economic activity",
+      "invalidation": "If US-Iran tensions escalate again, leading to renewed oil market volatility",
+      "_at": "2026-06-27T00:02:52.622891"
+    },
+    {
       "statement": "Digital transformation in Saudi Arabia's housing sector is accelerating",
       "change_type": "infrastructure",
       "change_vector": "infrastructure_expanding",
@@ -2134,67 +2189,7 @@
       "second_order": "Impact on Saudi Arabia's economic growth and development goals",
       "invalidation": "If the Iran war is resolved and global capital flows are restored",
       "_at": "2026-05-29T00:08:45.988447"
-    },
-    {
-      "statement": "Investment in data centers is increasing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Growing demand for cloud services and data localization is driving investment in data centers",
-      "ksa_grounding": "Saudi Arabia's data center market is expected to grow, driven by Vision 2030 and investments in AI and renewables, which will contribute to the country's economic diversification",
-      "affected_sectors": [
-        "fintech",
-        "renewable_energy"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "GCC Data Centre Projects Market Analysis Report 2026",
-        "Saudi Arabia Green Data Center Market Forecast and Competitive Analysis Report 2025-2030"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Amazon Web Services",
-        "regional developers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased economic growth and job creation",
-      "downside": "Potential environmental impact and high energy consumption",
-      "first_order": "Direct investment in data centers",
-      "second_order": "Growth of related industries such as fintech and renewable energy",
-      "invalidation": "A significant decline in demand for cloud services or data localization in Saudi Arabia",
-      "_at": "2026-05-27T23:58:53.813027"
-    },
-    {
-      "statement": "Saudi Arabia's oil and gas sector is facing challenges",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "The end of Saudi Arabia's spending spree and geopolitical tensions are affecting the oil and gas sector",
-      "ksa_grounding": "The challenges facing the oil and gas sector will impact Saudi Arabia's economy, as the sector is a significant contributor to the country's revenue",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia's spending spree reaches the end of the line",
-        "U.S. Launches 'Self-Defense' Strikes on Iran"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Aramco",
-        "Petronas"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased efficiency and reduced costs",
-      "downside": "Potential for reduced revenue and economic growth",
-      "first_order": "Direct impact on the oil and gas sector",
-      "second_order": "Impact on related industries such as petrochemicals and the broader economy",
-      "invalidation": "A significant increase in oil prices or a resolution to the geopolitical tensions in the region",
-      "_at": "2026-05-27T23:58:53.813038"
     }
   ],
-  "lastRefresh": "2026-06-26T00:07:28.880720"
+  "lastRefresh": "2026-06-27T00:02:59.580943"
 }
