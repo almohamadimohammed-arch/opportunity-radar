@@ -1,6 +1,116 @@
 {
   "items": [
     {
+      "title": "Iran slams the GCC and the US for \u2018interventionist\u2019 statement",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-06-26",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "diplomacy",
+        "security"
+      ],
+      "summary": "Iran has rejected a statement by the US and the GCC, calling it 'interventionist'. The statement had expressed concern over Iran's actions in the region, including its missile program and support for armed groups. Iran has warned the GCC against siding with the US.",
+      "why_it_matters": "This development could escalate tensions in the region and impact Saudi Arabia's relations with Iran and the US. It may also affect the stability of the oil market and the security of the Strait of Hormuz.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-27T23:58:23.446848"
+    },
+    {
+      "title": "Oil prices plunge 10% for the week as Hormuz traffic resumes",
+      "source": "Protothema.gr",
+      "source_tier": 2,
+      "time": "2026-06-26",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Oil prices have fallen by 10% for the week as traffic through the Strait of Hormuz has resumed. The price of Brent crude has settled at $71.99, while WTI has slipped below $70.",
+      "why_it_matters": "This development could have a significant impact on Saudi Arabia's oil exports and revenue. A decrease in oil prices could affect the country's economic plans and budget.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-27T23:58:23.446860"
+    },
+    {
+      "title": "The role of education in advancing the national narrative of Saudi Arabia",
+      "source": "Lse.ac.uk",
+      "source_tier": 2,
+      "time": "2026-06-25",
+      "event_type": "policy_shift",
+      "category": "education",
+      "geography": "Saudi",
+      "sector_tags": [
+        "education"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "education",
+        "policy"
+      ],
+      "summary": "A new report has highlighted the importance of education in advancing the national narrative of Saudi Arabia. The report emphasizes the need for education to play a key role in promoting the country's vision and goals.",
+      "why_it_matters": "This development could have a significant impact on Saudi Arabia's education sector and its ability to achieve its national goals. It may also affect the country's workforce development and economic growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-27T23:58:23.446862"
+    },
+    {
+      "title": "China\u2019s Middle East Strategy Will Prioritize the Gulf",
+      "source": "The Diplomat",
+      "source_tier": 2,
+      "time": "2026-06-26",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "diplomacy",
+        "security"
+      ],
+      "summary": "China's top priority in the Middle East will be to keep the Gulf states, particularly Saudi Arabia and the UAE, from drawing closer to Washington. China's strategy will focus on maintaining good relations with these countries and promoting its own interests in the region.",
+      "why_it_matters": "This development could have significant implications for Saudi Arabia's relations with China and the US. It may also affect the balance of power in the region and the stability of the oil market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-27T23:58:23.446864"
+    },
+    {
+      "title": "UN pauses plans to evacuate sailors from the Strait of Hormuz",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-06-26",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "shipping",
+        "security"
+      ],
+      "summary": "The UN has paused its plans to evacuate sailors from the Strait of Hormuz after a cargo vessel was struck by a projectile near Oman. Iran has warned that all ships must pass through the strait with its permission.",
+      "why_it_matters": "This development could have significant implications for the stability of the oil market and the security of the Strait of Hormuz. It may also affect Saudi Arabia's oil exports and revenue.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-06-27T23:58:23.446866"
+    },
+    {
       "title": "Iran's neighbor, U.S. ally: What Pakistan gains from being a peacemaker",
       "source": "CNBC",
       "source_tier": 1,
@@ -3139,21 +3249,21 @@
       "_at": "2026-05-29T00:08:08.700345"
     }
   ],
-  "lastRefresh": "2026-06-27T00:02:59.578070",
+  "lastRefresh": "2026-06-27T23:59:07.401843",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
+    "articles_to_model": 37,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 2,
-    "signals_strong": 1,
-    "signals_moderate": 0,
+    "signals_strong": 0,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 2,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

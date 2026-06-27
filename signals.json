@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "statement": "Risk exposure in the oil and gas sector is rising due to geopolitical tensions",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Increased tensions between Iran and the GCC/US are threatening the stability of the Strait of Hormuz, a critical oil transportation route",
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and any disruption to the Strait of Hormuz could have significant economic implications",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran slams the GCC and the US for \u2018interventionist\u2019 statement",
+        "UN pauses plans to evacuate sailors from the Strait of Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to oil exports and increased insurance costs",
+      "first_order": "Direct impact on oil exports and shipping",
+      "second_order": "Potential impact on global oil prices and Saudi Arabia's economy",
+      "invalidation": "A significant reduction in tensions between Iran and the GCC/US, or the establishment of a stable and secure alternative oil transportation route",
+      "_at": "2026-06-27T23:59:00.114847"
+    },
+    {
+      "statement": "Global demand for oil is decreasing due to market shifts",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "Resumption of traffic through the Strait of Hormuz and decreased concerns about global oil supply",
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and a decrease in global demand could lead to reduced oil revenues",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Oil prices plunge 10% for the week as Hormuz traffic resumes"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil exporters",
+        "Saudi Aramco"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential reduction in oil revenues for Saudi Arabia",
+      "first_order": "Direct impact on oil prices and revenues",
+      "second_order": "Potential impact on Saudi Arabia's economy and budget",
+      "invalidation": "A significant increase in global demand for oil, or a major disruption to oil supplies",
+      "_at": "2026-06-27T23:59:00.114864"
+    },
+    {
       "statement": "Regulatory barrier to climate finance has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2191,5 +2246,5 @@
       "_at": "2026-05-29T00:08:45.988447"
     }
   ],
-  "lastRefresh": "2026-06-27T00:02:59.580943"
+  "lastRefresh": "2026-06-27T23:59:07.404808"
 }

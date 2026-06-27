@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Diversify Oil Transportation Routes",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Government and Oil Companies",
+      "customer": "Saudi Oil Exporters",
+      "problem": "Risk exposure in the oil and gas sector due to geopolitical tensions",
+      "action_path": "Develop alternative oil transportation routes, such as pipelines or shipping lanes, to reduce dependence on the Strait of Hormuz. Invest in infrastructure development and strategic partnerships to secure new routes. Enhance maritime security and insurance capabilities to mitigate risks.",
+      "entry_mode": "Invest",
+      "monetization": "Reduced risk exposure and increased oil export stability",
+      "capabilities": "Infrastructure development, strategic partnerships, maritime security, and insurance",
+      "barriers": "High infrastructure development costs, geopolitical complexities, and regulatory hurdles",
+      "timing": "Prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising due to geopolitical tensions"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and any disruption to the Strait of Hormuz could have significant economic implications",
+      "assumptions": "Geopolitical tensions will continue to rise, and alternative oil transportation routes will be economically viable",
+      "invalidation": "A significant reduction in tensions between Iran and the GCC/US, or the establishment of a stable and secure alternative oil transportation route",
+      "_at": "2026-06-27T23:59:07.401707"
+    },
+    {
+      "title": "Enhance Maritime Security",
+      "play_type": "defensive_play",
+      "actor": "Saudi Navy and Coast Guard",
+      "customer": "Saudi Oil Exporters",
+      "problem": "Risk exposure in the oil and gas sector due to geopolitical tensions",
+      "action_path": "Increase maritime security presence in the Strait of Hormuz and surrounding waters. Develop strategic partnerships with international navies to enhance security cooperation. Invest in advanced surveillance and monitoring technologies to detect and respond to potential threats.",
+      "entry_mode": "Build",
+      "monetization": "Reduced risk exposure and increased oil export stability",
+      "capabilities": "Maritime security, strategic partnerships, surveillance and monitoring technologies",
+      "barriers": "High costs, limited resources, and geopolitical complexities",
+      "timing": "Build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising due to geopolitical tensions"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and any disruption to the Strait of Hormuz could have significant economic implications",
+      "assumptions": "Geopolitical tensions will continue to rise, and maritime security will be effective in mitigating risks",
+      "invalidation": "A significant reduction in tensions between Iran and the GCC/US, or the establishment of a stable and secure alternative oil transportation route",
+      "_at": "2026-06-27T23:59:07.401716"
+    },
+    {
+      "title": "Develop Strategic Partnerships",
+      "play_type": "business_play",
+      "actor": "Saudi Oil Companies",
+      "customer": "International Oil Companies",
+      "problem": "Risk exposure in the oil and gas sector due to geopolitical tensions",
+      "action_path": "Develop strategic partnerships with international oil companies to share risks and expertise. Collaborate on joint ventures and investments in alternative oil transportation routes and maritime security. Enhance diplomatic relationships to secure stable and secure oil exports.",
+      "entry_mode": "Partner",
+      "monetization": "Reduced risk exposure and increased oil export stability",
+      "capabilities": "Strategic partnerships, joint ventures, diplomatic relationships",
+      "barriers": "Limited resources, geopolitical complexities, and regulatory hurdles",
+      "timing": "Prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising due to geopolitical tensions"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and any disruption to the Strait of Hormuz could have significant economic implications",
+      "assumptions": "Geopolitical tensions will continue to rise, and strategic partnerships will be effective in mitigating risks",
+      "invalidation": "A significant reduction in tensions between Iran and the GCC/US, or the establishment of a stable and secure alternative oil transportation route",
+      "_at": "2026-06-27T23:59:07.401718"
+    },
+    {
       "title": "Diversification of Saudi Oil Revenue Streams",
       "play_type": "business_play",
       "actor": "Saudi Aramco, Saudi government",
@@ -1878,5 +1968,5 @@
       "_at": "2026-05-29T00:09:23.794751"
     }
   ],
-  "lastRefresh": "2026-06-27T00:02:59.582898"
+  "lastRefresh": "2026-06-27T23:59:07.406813"
 }
