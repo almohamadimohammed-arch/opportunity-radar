@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "statement": "Risk exposure in the oil and gas sector is rising due to increased geopolitical tensions",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Escalating tensions between Iran and the US-GCC alliance are increasing the likelihood of disruptions to oil supplies",
+      "ksa_grounding": "Saudi Arabia's economy, heavily reliant on oil exports, is vulnerable to disruptions in the Strait of Hormuz and increased tensions in the region",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran slams the GCC and the US for \u2018interventionist\u2019 statement",
+        "Iran says it struck U.S.-linked targets as Bahrain reports drone attack"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices due to supply disruptions",
+      "downside": "Potential for decreased oil exports and revenue for Saudi Arabia",
+      "first_order": "Direct impact on oil supplies and prices",
+      "second_order": "Downstream effects on the Saudi economy and trade relationships",
+      "invalidation": "A significant and lasting reduction in tensions between Iran and the US-GCC alliance, leading to increased stability in the region",
+      "_at": "2026-06-29T00:04:49.469963"
+    },
+    {
+      "statement": "Supply of oil through the Strait of Hormuz is loosening due to increased tanker traffic",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased tanker traffic through the Strait of Hormuz is easing supply worries and reducing the risk of disruptions",
+      "ksa_grounding": "Saudi Arabia's oil exports, which rely heavily on the Strait of Hormuz, may benefit from increased tanker traffic and reduced supply worries",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Oil prices dive as more tankers move through Strait of Hormuz"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil exporters",
+        "tanker operators"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential for decreased oil prices due to increased supply",
+      "first_order": "Direct impact on oil supplies and prices",
+      "second_order": "Downstream effects on the Saudi economy and trade relationships",
+      "invalidation": "A significant reduction in tanker traffic through the Strait of Hormuz, leading to increased supply worries and tensions in the region",
+      "_at": "2026-06-29T00:04:49.469974"
+    },
+    {
       "statement": "Risk exposure in the oil and gas sector is rising due to geopolitical tensions",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2162,89 +2217,7 @@
       "second_order": "Increased trade and investment in the region",
       "invalidation": "Failure of non-aggression pact negotiations",
       "_at": "2026-05-30T00:07:02.650038"
-    },
-    {
-      "statement": "Regulatory barrier to fintech integration has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Joint ventures and investments in the fintech sector are increasing, indicating a more open regulatory environment",
-      "ksa_grounding": "This change will likely increase foreign investment in Saudi Arabia's fintech sector, contributing to the country's economic diversification goals",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "RedCloud Launches Saudi Operations Under $30M Joint Venture with Kayanat"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "RedCloud",
-        "Kayanat"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased foreign investment and job creation in the fintech sector",
-      "downside": "Potential disruption to traditional banking sector",
-      "first_order": "Increased investment in fintech",
-      "second_order": "Job creation and economic growth",
-      "invalidation": "If the Saudi government imposes new restrictions on fintech investments",
-      "_at": "2026-05-29T00:08:45.988436"
-    },
-    {
-      "statement": "Global energy market volatility has increased",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "The UAE's exit from OPEC and the US release of strategic petroleum reserves have increased global energy market volatility",
-      "ksa_grounding": "This change will likely impact Saudi Arabia's oil exports and revenue, potentially affecting the country's economic stability",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "UAE Quits OPEC After Nearly Six Decades",
-        "US Releases 53 Million Barrels From Strategic Petroleum Reserve"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "UAE",
-        "US",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential increase in oil prices and revenue for Saudi Arabia",
-      "downside": "Potential decrease in oil prices and revenue for Saudi Arabia",
-      "first_order": "Increased global energy market volatility",
-      "second_order": "Impact on Saudi Arabia's oil exports and revenue",
-      "invalidation": "If OPEC is able to maintain its production targets and stabilize the global energy market",
-      "_at": "2026-05-29T00:08:45.988445"
-    },
-    {
-      "statement": "Investment capacity in Gulf states has decreased",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "The Iran war has disrupted markets and global capital flows, leading to a reduced investment capacity in Gulf states",
-      "ksa_grounding": "This change will likely impact Saudi Arabia's ability to attract foreign investment, potentially affecting the country's economic growth and development goals",
-      "affected_sectors": [
-        "oil_gas",
-        "fintech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Gulf States Face Investment Downturn Amid Iran War"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Gulf states",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in investment in alternative sectors or regions",
-      "downside": "Potential decrease in economic growth and development in Gulf states",
-      "first_order": "Reduced investment capacity in Gulf states",
-      "second_order": "Impact on Saudi Arabia's economic growth and development goals",
-      "invalidation": "If the Iran war is resolved and global capital flows are restored",
-      "_at": "2026-05-29T00:08:45.988447"
     }
   ],
-  "lastRefresh": "2026-06-27T23:59:07.404808"
+  "lastRefresh": "2026-06-29T00:04:57.253610"
 }
