@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "statement": "Risk exposure in the oil and gas sector is decreasing",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "Geopolitical tensions easing between the US and Iran, reducing the likelihood of attacks on oil tankers and infrastructure",
+      "ksa_grounding": "Saudi Arabia's oil and gas sector is less likely to be disrupted by regional conflicts, ensuring a stable supply of energy exports",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US and Iran agree to halt attacks",
+        "Iran mandates designated routes for foreign vessels in Strait of Hormuz"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Aramco",
+        "foreign vessels"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased stability in the region, potentially leading to higher oil exports and revenue for Saudi Arabia",
+      "downside": "Temporary agreement may not hold, leading to renewed tensions and risk exposure",
+      "first_order": "Direct reduction in risk of attacks on oil infrastructure",
+      "second_order": "Increased investor confidence in the region, potentially leading to more investment in the oil and gas sector",
+      "invalidation": "A significant increase in attacks on oil tankers or infrastructure in the region",
+      "_at": "2026-06-30T00:00:22.415179"
+    },
+    {
+      "statement": "Investment in energy assets is becoming more attractive",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Sovereign investors shifting focus to energy assets, driven by a desire for sustainable investments and reduced reliance on volatile currencies",
+      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, may attract more investment from sovereign investors, supporting the country's economic diversification efforts",
+      "affected_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Sovereign investors shift focus to energy assets",
+        "US and Iran agree to halt attacks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Sovereign investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment in the energy sector, supporting Saudi Arabia's economic growth and diversification",
+      "downside": "Investment may focus on renewable energy, potentially cannibalizing investment in traditional oil and gas",
+      "first_order": "Increased investment in energy assets",
+      "second_order": "Support for Saudi Arabia's economic diversification efforts and potential growth in the renewable energy sector",
+      "invalidation": "A significant decrease in investment in energy assets by sovereign investors",
+      "_at": "2026-06-30T00:00:22.415192"
+    },
+    {
       "statement": "Risk exposure in the oil and gas sector is rising due to increased geopolitical tensions",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2105,119 +2161,7 @@
       "second_order": "Potential increase in insurance premiums, costs",
       "invalidation": "If regional tensions decrease, and Strait of Hormuz transit fees are not implemented",
       "_at": "2026-06-01T00:04:27.481094"
-    },
-    {
-      "statement": "Investment capacity in Gulf states is decreasing",
-      "change_type": "investment",
-      "change_vector": "supply_looser",
-      "mechanism": "Global market disruptions and reduced investment capacity are affecting Gulf states",
-      "ksa_grounding": "This change will impact Saudi Arabia's ability to attract foreign investment, potentially hindering economic growth",
-      "affected_sectors": [
-        "oil_gas",
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Gulf States Face Investment Downturn Amid Iran War Disruptions"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Gulf states",
-        "investors"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased investment in alternative sectors",
-      "downside": "Reduced economic growth and investment in key sectors",
-      "first_order": "Reduced investment in key sectors",
-      "second_order": "Economic slowdown and reduced job creation",
-      "invalidation": "If the Iran war is resolved quickly and global markets stabilize",
-      "_at": "2026-05-30T23:58:54.841578"
-    },
-    {
-      "statement": "Global demand for digital healthcare solutions is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "The digital transformation in the healthcare market is driving growth and investment",
-      "ksa_grounding": "This change will increase demand for digital healthcare solutions in Saudi Arabia, aligning with the country's healthcare goals",
-      "affected_sectors": [
-        "healthcare",
-        "biotech",
-        "pharma"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Digital Transformation in Healthcare Market to Hit USD 340 Billion by 2035"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "healthcare providers",
-        "patients"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Improved healthcare outcomes and increased investment in digital healthcare solutions",
-      "downside": "Potential disruption to traditional healthcare sector",
-      "first_order": "Increased investment in digital healthcare solutions",
-      "second_order": "Improved healthcare outcomes and reduced costs",
-      "invalidation": "If the digital transformation in the healthcare market slows down or is hindered by regulatory barriers",
-      "_at": "2026-05-30T23:58:54.841590"
-    },
-    {
-      "statement": "Global AI dominance is shifting away from the US",
-      "change_type": "technology",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "Chinese AI models are rapidly becoming a global artificial intelligence force",
-      "ksa_grounding": "This change will impact Saudi Arabia's technology partnerships and investments, potentially leading to increased collaboration with Chinese companies",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "China's AI Models Surge in 2026, Signaling a Global Shift Away from US AI Dominance"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "tech companies",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased investment and collaboration in AI research and development",
-      "downside": "Potential disruption to existing technology partnerships and investments",
-      "first_order": "Shift in global AI dominance",
-      "second_order": "Increased investment and collaboration in AI research and development",
-      "invalidation": "If the US regains its dominance in the global AI market",
-      "_at": "2026-05-30T23:58:54.841592"
-    },
-    {
-      "statement": "Regional stability has increased",
-      "change_type": "geopolitics",
-      "change_vector": "trust_rising",
-      "mechanism": "Saudi Arabia's proposal for non-aggression pact with Iran",
-      "ksa_grounding": "Improved relations between Saudi Arabia and Iran, potentially leading to increased trade and investment",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Arabia Seeks Non-Aggression Pact with Iran"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Arabia",
-        "Iran"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased regional trade and investment",
-      "downside": "Potential for failed negotiations",
-      "first_order": "Improved relations between Saudi Arabia and Iran",
-      "second_order": "Increased trade and investment in the region",
-      "invalidation": "Failure of non-aggression pact negotiations",
-      "_at": "2026-05-30T00:07:02.650038"
     }
   ],
-  "lastRefresh": "2026-06-29T00:04:57.253610"
+  "lastRefresh": "2026-06-30T00:00:30.321412"
 }
