@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Diversify Energy Portfolio",
+      "play_type": "business_play",
+      "actor": "Sovereign investors",
+      "customer": "Energy companies",
+      "problem": "Rising risk exposure in oil and gas sector",
+      "action_path": "Invest in renewable energy assets to reduce dependence on oil and gas. This can include solar, wind, or hydrogen power. By diversifying their energy portfolio, investors can mitigate risks associated with supply disruptions and price volatility.",
+      "entry_mode": "invest",
+      "monetization": "Reduced risk exposure and potential long-term returns on investment",
+      "capabilities": "Ability to invest in and manage renewable energy assets",
+      "barriers": "High upfront costs and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising due to persistent supply risks"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, making it vulnerable to supply disruptions and price volatility",
+      "assumptions": "Renewable energy assets will become increasingly cost-competitive with fossil fuels, and regulatory frameworks will support investment in the sector",
+      "invalidation": "A significant decrease in supply risks or a shift away from oil and gas would invalidate this play",
+      "_at": "2026-07-01T00:04:04.166378"
+    },
+    {
+      "title": "Develop Risk Management Solutions",
+      "play_type": "business_play",
+      "actor": "Cybersecurity firms",
+      "customer": "Energy companies",
+      "problem": "Rising risk exposure in oil and gas sector",
+      "action_path": "Develop and offer risk management solutions to energy companies, including cybersecurity services and supply chain risk assessments. This can help energy companies mitigate risks associated with supply disruptions and cyber threats. By providing these services, cybersecurity firms can capitalize on the growing demand for risk management solutions.",
+      "entry_mode": "build",
+      "monetization": "Revenue from risk management services and solutions",
+      "capabilities": "Ability to develop and deliver risk management solutions, including cybersecurity services and supply chain risk assessments",
+      "barriers": "High competition in the cybersecurity market and difficulty in demonstrating the value of risk management solutions",
+      "timing": "prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising due to persistent supply risks"
+      ],
+      "sector": "cybersecurity",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's energy sector is likely to attract increased investment from sovereign investors, creating opportunities for cybersecurity firms to offer risk management solutions",
+      "assumptions": "Energy companies will prioritize risk management and be willing to invest in solutions, and regulatory frameworks will support the development of risk management services",
+      "invalidation": "A significant decrease in risk exposure or a shift away from oil and gas would invalidate this play",
+      "_at": "2026-07-01T00:04:04.166390"
+    },
+    {
+      "title": "Invest in Energy Infrastructure",
+      "play_type": "infrastructure_play",
+      "actor": "Sovereign investors",
+      "customer": "Energy companies",
+      "problem": "Increasing demand for energy assets",
+      "action_path": "Invest in energy infrastructure, including pipelines, storage facilities, and renewable energy projects. This can help meet growing demand for energy and provide a stable source of returns on investment. By investing in energy infrastructure, sovereign investors can support the development of the energy sector and capitalize on growing demand.",
+      "entry_mode": "invest",
+      "monetization": "Returns on investment from energy infrastructure projects",
+      "capabilities": "Ability to invest in and manage energy infrastructure projects",
+      "barriers": "High upfront costs and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Investment in energy assets is increasing, driven by sovereign investors"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's energy sector is likely to attract increased investment from sovereign investors, creating opportunities for investment in energy infrastructure",
+      "assumptions": "Energy demand will continue to grow, and regulatory frameworks will support investment in energy infrastructure",
+      "invalidation": "A significant decrease in energy demand or a shift away from oil and gas would invalidate this play",
+      "_at": "2026-07-01T00:04:04.166391"
+    },
+    {
       "title": "Saudi Energy Sector Investment",
       "play_type": "business_play",
       "actor": "Sovereign investors, energy companies",
@@ -2000,5 +2090,5 @@
       "_at": "2026-06-01T00:04:35.518115"
     }
   ],
-  "lastRefresh": "2026-06-30T00:00:30.323347"
+  "lastRefresh": "2026-07-01T00:04:04.170343"
 }

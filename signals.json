@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Risk exposure in the oil and gas sector is rising due to persistent supply risks",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Increased supply risks, particularly in the Strait of Hormuz, are driving up risk exposure in the oil and gas sector",
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, making it vulnerable to supply disruptions and price volatility",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Oil prices near pre-war levels due to persistent supply risks",
+        "Sovereign investors shift focus to energy assets"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil and gas companies",
+        "Saudi government"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment in renewable energy sources to mitigate risk",
+      "downside": "Potential for decreased oil exports and revenue for Saudi Arabia",
+      "first_order": "Direct impact on oil prices and supply",
+      "second_order": "Downstream effects on Saudi Arabia's economy and trade relationships",
+      "invalidation": "A significant decrease in supply risks or a shift away from oil and gas would invalidate this signal",
+      "_at": "2026-07-01T00:03:56.563906"
+    },
+    {
+      "statement": "Investment in energy assets is increasing, driven by sovereign investors",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Sovereign investors are shifting their focus to energy assets, driving up demand for investments in the sector",
+      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, is likely to attract increased investment from sovereign investors",
+      "affected_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Sovereign investors shift focus to energy assets",
+        "Oil prices near pre-war levels due to persistent supply risks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "sovereign investors",
+        "energy companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment in Saudi Arabia's energy sector",
+      "downside": "Potential for over-reliance on volatile energy markets",
+      "first_order": "Direct impact on energy investment",
+      "second_order": "Downstream effects on Saudi Arabia's economy and energy landscape",
+      "invalidation": "A significant decrease in sovereign investor interest in energy assets would invalidate this signal",
+      "_at": "2026-07-01T00:03:56.563917"
+    },
+    {
+      "statement": "Tourism and hospitality sectors are experiencing increased investment and growth",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "International companies, such as Marriott International, are investing in Saudi Arabia's tourism and hospitality sectors",
+      "ksa_grounding": "Saudi Arabia's tourism and hospitality sectors are expected to experience significant growth, driven by government initiatives and international investment",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Marriott International appoints Cluster Director of Sales & Marketing for The Red Sea and AMAALA Portfolio"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "tourism and hospitality companies",
+        "Saudi government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased tourism revenue and job creation",
+      "downside": "Potential for over-reliance on tourism sector",
+      "first_order": "Direct impact on tourism and hospitality investment",
+      "second_order": "Downstream effects on Saudi Arabia's economy and labor market",
+      "invalidation": "A significant decrease in tourism and hospitality investment would invalidate this signal",
+      "_at": "2026-07-01T00:03:56.563918"
+    },
+    {
       "statement": "Risk exposure in the oil and gas sector is decreasing",
       "change_type": "risk",
       "change_vector": "risk_exposure_falling",
@@ -2163,5 +2249,5 @@
       "_at": "2026-06-01T00:04:27.481094"
     }
   ],
-  "lastRefresh": "2026-06-30T00:00:30.321412"
+  "lastRefresh": "2026-07-01T00:04:04.168792"
 }
