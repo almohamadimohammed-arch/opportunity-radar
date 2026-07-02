@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Risk exposure to oil price volatility is rising",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Increased supply risks and geopolitical tensions are contributing to oil price volatility",
+      "ksa_grounding": "Saudi Arabia's oil revenue and economy are exposed to the risks of oil price fluctuations",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Oil prices near pre-war levels due to persistent supply risks",
+        "Morgan Stanley cuts oil price forecasts amid supply and demand shifts"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices and revenue",
+      "downside": "Potential for decreased oil prices and revenue",
+      "first_order": "Direct impact on oil exports and revenue",
+      "second_order": "Indirect impact on Saudi Arabia's economy and Vision 2030 projects",
+      "invalidation": "A significant decrease in oil price volatility or a shift away from oil as a primary source of revenue",
+      "_at": "2026-07-02T00:05:00.779322"
+    },
+    {
+      "statement": "Supply risks in the oil market are increasing",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Persistent supply risks, particularly in the Strait of Hormuz, are affecting oil markets",
+      "ksa_grounding": "Saudi Arabia's oil exports are at risk due to supply disruptions in the region",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Oil prices near pre-war levels due to persistent supply risks",
+        "Middle East producers continue oil and LNG loadings despite ship attacks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "shipping companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices and revenue",
+      "downside": "Potential for decreased oil exports and revenue",
+      "first_order": "Direct impact on oil exports and supply chains",
+      "second_order": "Indirect impact on Saudi Arabia's economy and trade relationships",
+      "invalidation": "A significant reduction in supply risks or a diversification of oil export routes",
+      "_at": "2026-07-02T00:05:00.779334"
+    },
+    {
+      "statement": "Demand for Middle East oil is decreasing",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "India's plans to reduce reliance on Middle East oil are contributing to decreased demand",
+      "ksa_grounding": "Saudi Arabia's oil exports to India may be impacted, affecting overall market share in the region",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "India plans to cut reliance on Middle East oil",
+        "Morgan Stanley cuts oil price forecasts amid supply and demand shifts"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "importers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased demand from other regions or diversification of oil exports",
+      "downside": "Potential for decreased oil exports and revenue",
+      "first_order": "Direct impact on oil exports and revenue",
+      "second_order": "Indirect impact on Saudi Arabia's economy and trade relationships",
+      "invalidation": "A significant increase in demand for Middle East oil or a failure of India's plans to reduce reliance on Middle East oil",
+      "_at": "2026-07-02T00:05:00.779337"
+    },
+    {
       "statement": "Risk exposure in the oil and gas sector is rising due to persistent supply risks",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2162,92 +2247,7 @@
       "second_order": "Job creation and economic growth in the renewable energy sector",
       "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
       "_at": "2026-06-02T00:10:23.580502"
-    },
-    {
-      "statement": "Regulatory barrier to electric vehicle adoption has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Government initiatives and investments in the sector have driven growth",
-      "ksa_grounding": "Saudi Arabia's economy is diversifying, reducing dependence on oil",
-      "affected_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Arabia emerges as the Middle East's leading force in electric vehicle adoption and manufacturing"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Government",
-        "Electric vehicle manufacturers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased adoption of electric vehicles, reduced carbon emissions",
-      "downside": "Potential disruption to traditional oil-based economy",
-      "first_order": "Increased electric vehicle sales",
-      "second_order": "Job creation in electric vehicle manufacturing sector",
-      "invalidation": "If electric vehicle sales in Saudi Arabia decline",
-      "_at": "2026-06-01T00:04:27.481080"
-    },
-    {
-      "statement": "Competition in the renewable energy sector is intensifying",
-      "change_type": "competition",
-      "change_vector": "competition_intensifying",
-      "mechanism": "Morocco's emergence as a renewable energy superpower increases competition",
-      "ksa_grounding": "Saudi Arabia's renewable energy sector may face increased competition from Morocco",
-      "affected_sectors": [
-        "renewable_energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Morocco emerges as a renewable energy superpower",
-        "Saudi Arabia emerges as the Middle East's leading force in electric vehicle adoption and manufacturing"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Renewable energy companies",
-        "Governments"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased innovation, reduced costs",
-      "downside": "Potential loss of market share for Saudi Arabian renewable energy companies",
-      "first_order": "Increased competition",
-      "second_order": "Potential decrease in market share for Saudi Arabian companies",
-      "invalidation": "If Morocco's renewable energy sector experiences significant decline",
-      "_at": "2026-06-01T00:04:27.481090"
-    },
-    {
-      "statement": "Risk exposure in the oil and gas sector is rising",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Ongoing tensions in the region, opposition to permanent Strait of Hormuz transit fees",
-      "ksa_grounding": "Saudi Arabia's oil and gas sector may face increased risk due to regional tensions",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Qatar opposes permanent Strait of Hormuz transit fees",
-        "Saudi Arabia emerges as the Middle East's leading force in electric vehicle adoption and manufacturing"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Oil and gas companies",
-        "Governments"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential disruption to oil and gas supply chains",
-      "first_order": "Increased risk",
-      "second_order": "Potential increase in insurance premiums, costs",
-      "invalidation": "If regional tensions decrease, and Strait of Hormuz transit fees are not implemented",
-      "_at": "2026-06-01T00:04:27.481094"
     }
   ],
-  "lastRefresh": "2026-07-01T00:04:04.168792"
+  "lastRefresh": "2026-07-02T00:05:38.811253"
 }

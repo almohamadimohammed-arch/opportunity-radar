@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "title": "Middle East producers continue oil and LNG loadings despite ship attacks",
+      "source": "gcaptain.com, BusinessLine",
+      "source_tier": 2,
+      "time": "2026-06-29",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Middle East producers are pushing ahead with oil and liquefied natural gas loading despite fresh ship attacks in the Strait of Hormuz. This indicates that the region's oil producers are committed to maintaining their production levels despite the risks.",
+      "why_it_matters": "This development may impact Saudi Arabia's oil production and exports, as well as the overall stability of the global energy market.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-02T00:04:23.290752"
+    },
+    {
+      "title": "Gulf bond markets extend rally despite uncertain outlook",
+      "source": "Fortune",
+      "source_tier": 2,
+      "time": "2026-06-30",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "banking",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "economy"
+      ],
+      "summary": "Gulf bond markets have rallied since the ceasefire, but tight liquidity remains a key hurdle. This may impact Saudi Arabia's ability to access international capital markets and finance its Vision 2030 projects.",
+      "why_it_matters": "This development may affect Saudi Arabia's ability to secure funding for its mega-projects and achieve its economic diversification goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-02T00:04:23.290767"
+    },
+    {
+      "title": "India plans to cut reliance on Middle East oil",
+      "source": "Rigzone",
+      "source_tier": 2,
+      "time": "2026-06-30",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Asia",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "India's state oil refiners are planning to reduce their reliance on the Middle East following the supply shock of the Iran war. This may impact Saudi Arabia's oil exports to India and overall market share in the region.",
+      "why_it_matters": "This development may affect Saudi Arabia's oil revenue and market share in Asia, potentially impacting its ability to achieve its Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-02T00:04:23.290770"
+    },
+    {
+      "title": "Morgan Stanley cuts oil price forecasts amid supply and demand shifts",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-06-30",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Morgan Stanley's revised oil forecasts highlight potential volatility in energy markets, impacting investment strategies and economic stability. This may affect Saudi Arabia's oil revenue and overall economy.",
+      "why_it_matters": "This development may impact Saudi Arabia's ability to achieve its Vision 2030 goals, particularly in terms of economic diversification and revenue growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-02T00:04:23.290772"
+    },
+    {
       "title": "Oil prices near pre-war levels due to persistent supply risks",
       "source": "CNBC",
       "source_tier": 1,
@@ -3103,133 +3192,21 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-02T00:10:16.691810"
-    },
-    {
-      "title": "Saudi Arabia emerges as the Middle East's leading force in electric vehicle adoption and manufacturing",
-      "source": "Arabnews.jp",
-      "source_tier": 2,
-      "time": "2026-05-30",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "transportation",
-        "energy"
-      ],
-      "summary": "Saudi Arabia is leading the Middle East in electric vehicle adoption and manufacturing, with EV sales surging 40% in the region. This growth is driven by government initiatives and investments in the sector. The country aims to reduce its dependence on oil and diversify its economy.",
-      "why_it_matters": "This shift towards electric vehicles aligns with Saudi Arabia's Vision 2030 goals, which aim to reduce the country's reliance on oil exports and promote sustainable economic growth. The growth of the EV market in Saudi Arabia can also create new job opportunities and attract foreign investment.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-01T00:03:50.464924"
-    },
-    {
-      "title": "Morocco emerges as a renewable energy superpower",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-05-30",
-      "event_type": "market_shift",
-      "category": "energy",
-      "geography": "Global",
-      "sector_tags": [
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "Morocco is rapidly becoming a renewable energy powerhouse due to its favorable weather conditions and proximity to Europe. The country has developed its solar energy sector and aims to become a major player in the global renewable energy market.",
-      "why_it_matters": "The growth of Morocco's renewable energy sector can have a positive impact on Saudi Arabia's own renewable energy goals, as the two countries can share knowledge and expertise. Additionally, Morocco's proximity to Europe can create new export opportunities for Saudi Arabian companies.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-01T00:03:50.464934"
-    },
-    {
-      "title": "Qatar opposes permanent Strait of Hormuz transit fees",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-05-30",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "trade"
-      ],
-      "summary": "Qatar has stated its opposition to permanent transit fees for the Strait of Hormuz, but is open to temporary tolls for purposes such as mine clearing. This stance comes amid ongoing tensions in the region.",
-      "why_it_matters": "The Strait of Hormuz is a critical waterway for Saudi Arabia's oil exports, and any changes to transit fees can have a significant impact on the country's economy. Qatar's opposition to permanent fees can help maintain stability in the region and ensure the free flow of oil exports.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-01T00:03:50.464936"
-    },
-    {
-      "title": "India's data centre capacity to surpass 3 GW by 2028",
-      "source": "The Economic Times",
-      "source_tier": 2,
-      "time": "2026-05-29",
-      "event_type": "capacity_change",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "logistics"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "data_storage",
-        "cloud_computing"
-      ],
-      "summary": "India's data centre capacity is expected to surpass 3 GW by 2028, driven by strong demand from hyperscalers and the increasing use of artificial intelligence. The country offers a favorable environment for data centre development.",
-      "why_it_matters": "The growth of India's data centre capacity can create new opportunities for Saudi Arabian companies to invest in the sector and expand their presence in the Indian market. Additionally, the increasing use of artificial intelligence in India can drive demand for Saudi Arabian oil and gas exports.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-01T00:03:50.464938"
-    },
-    {
-      "title": "Wipro expands partnership with ServiceNow to implement AI workflows",
-      "source": "Business Standard",
-      "source_tier": 2,
-      "time": "2026-05-29",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "logistics"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "enterprise_software",
-        "artificial_intelligence"
-      ],
-      "summary": "Wipro has expanded its partnership with ServiceNow to implement and scale agentic artificial intelligence workflows across core enterprise functions. The partnership aims to drive digital transformation and improve customer experience.",
-      "why_it_matters": "The partnership between Wipro and ServiceNow can create new opportunities for Saudi Arabian companies to adopt artificial intelligence and drive digital transformation in their operations. Additionally, the partnership can help Saudi Arabian companies improve their customer experience and competitiveness in the global market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-01T00:03:50.464939"
     }
   ],
-  "lastRefresh": "2026-07-01T00:04:04.166473",
+  "lastRefresh": "2026-07-02T00:05:38.808681",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 30,
+    "articles_to_model": 40,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

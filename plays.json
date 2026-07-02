@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Diversify Oil Export Routes",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco",
+      "customer": "Saudi Government",
+      "problem": "Supply risks in the oil market are increasing, affecting Saudi Arabia's oil exports",
+      "action_path": "Develop alternative oil export routes, such as pipelines or shipping lanes, to reduce dependence on traditional routes. Invest in infrastructure to support these new routes. Collaborate with neighboring countries to secure agreements for transit fees and security.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of supply disruptions, increased revenue from diversified export routes",
+      "capabilities": "Project management, engineering, logistics, diplomatic relations",
+      "barriers": "High upfront costs, geopolitical tensions, regulatory hurdles",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure to oil price volatility is rising",
+        "Supply risks in the oil market are increasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "logistics"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are at risk due to supply disruptions in the region, affecting the country's economy",
+      "assumptions": "Geopolitical tensions will continue, oil demand will remain steady, alternative routes will be viable",
+      "invalidation": "A significant reduction in supply risks or a diversification of oil export routes by other means",
+      "_at": "2026-07-02T00:05:38.808565"
+    },
+    {
+      "title": "Develop Oil Price Hedging Strategies",
+      "play_type": "business_play",
+      "actor": "Saudi Financial Institutions",
+      "customer": "Saudi Oil Companies",
+      "problem": "Risk exposure to oil price volatility is rising, affecting Saudi Arabia's oil revenue",
+      "action_path": "Develop and offer oil price hedging products, such as futures contracts or options, to Saudi oil companies. Provide risk management advisory services to help companies navigate price volatility. Invest in research and development to improve hedging strategies.",
+      "entry_mode": "build",
+      "monetization": "Revenue from hedging products, advisory services, and research",
+      "capabilities": "Financial modeling, risk management, derivatives trading",
+      "barriers": "High complexity, regulatory hurdles, competition from international financial institutions",
+      "timing": "build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to oil price volatility is rising"
+      ],
+      "sector": "banking",
+      "relevant_sectors": [
+        "oil_gas",
+        "banking",
+        "capital_markets"
+      ],
+      "relevant_regions": [
+        "riyadh"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil revenue and economy are exposed to the risks of oil price fluctuations",
+      "assumptions": "Oil price volatility will continue, Saudi oil companies will seek hedging solutions, regulatory environment will be favorable",
+      "invalidation": "A significant decrease in oil price volatility or a shift away from oil as a primary source of revenue",
+      "_at": "2026-07-02T00:05:38.808579"
+    },
+    {
+      "title": "Explore Alternative Energy Sources",
+      "play_type": "research_play",
+      "actor": "Saudi Research Institutions",
+      "customer": "Saudi Government",
+      "problem": "Demand for Middle East oil is decreasing, affecting Saudi Arabia's oil exports",
+      "action_path": "Conduct research on alternative energy sources, such as solar or wind power, to reduce dependence on oil exports. Collaborate with international institutions to develop new technologies. Invest in pilot projects to test viability.",
+      "entry_mode": "invest",
+      "monetization": "Reduced dependence on oil exports, increased revenue from alternative energy sources",
+      "capabilities": "Research and development, project management, international collaboration",
+      "barriers": "High upfront costs, technological uncertainty, competition from established energy sources",
+      "timing": "invest",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Demand for Middle East oil is decreasing"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "neom",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports may be impacted by decreased demand, affecting the country's economy",
+      "assumptions": "Alternative energy sources will become viable, demand for oil will continue to decrease, regulatory environment will be favorable",
+      "invalidation": "A significant increase in demand for Middle East oil or a failure of alternative energy sources to become viable",
+      "_at": "2026-07-02T00:05:38.808581"
+    },
+    {
       "title": "Diversify Energy Portfolio",
       "play_type": "business_play",
       "actor": "Sovereign investors",
@@ -2027,68 +2118,7 @@
       "assumptions": "Demand for electric vehicles will continue to grow, and Saudi Arabia will maintain its leadership in electric vehicle adoption and manufacturing",
       "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
       "_at": "2026-06-02T00:10:30.930653"
-    },
-    {
-      "title": "Diversification of Energy Sources",
-      "play_type": "business_play",
-      "actor": "Saudi Arabian energy companies",
-      "customer": "Saudi Arabian government and citizens",
-      "problem": "Increased competition in the renewable energy sector and rising risk exposure in the oil and gas sector",
-      "action_path": "Invest in renewable energy sources, such as solar and wind power, to reduce dependence on oil and gas. Develop strategic partnerships with international companies to acquire new technologies and expertise. Enhance energy efficiency and conservation measures to minimize waste and reduce costs.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on oil and gas, increased energy security, and potential revenue streams from renewable energy exports",
-      "capabilities": "Renewable energy technologies, energy efficiency and conservation expertise, strategic partnership development",
-      "barriers": "High upfront costs, lack of infrastructure, regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Competition in the renewable energy sector is intensifying",
-        "Risk exposure in the oil and gas sector is rising"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's renewable energy sector can help reduce the country's dependence on oil and gas, while also promoting energy security and economic diversification",
-      "assumptions": "The Saudi Arabian government will continue to support the development of renewable energy sources, and international companies will be willing to partner with Saudi Arabian energy companies",
-      "invalidation": "If the Saudi Arabian government reverses its support for renewable energy, or if international companies are unwilling to partner with Saudi Arabian energy companies",
-      "_at": "2026-06-01T00:04:35.518105"
-    },
-    {
-      "title": "Renewable Energy Research and Development",
-      "play_type": "research_play",
-      "actor": "Saudi Arabian research institutions and universities",
-      "customer": "Saudi Arabian government and energy companies",
-      "problem": "Limited expertise and technologies in renewable energy",
-      "action_path": "Conduct research and development in renewable energy technologies, such as solar and wind power, to enhance the country's expertise and capabilities. Collaborate with international institutions and companies to acquire new knowledge and technologies. Develop innovative solutions to address the unique challenges and opportunities in the Saudi Arabian energy sector.",
-      "entry_mode": "build",
-      "monetization": "Enhanced expertise and capabilities in renewable energy, potential revenue streams from innovative solutions and technologies",
-      "capabilities": "Research and development expertise, collaboration and partnership development, innovative solution development",
-      "barriers": "Limited funding, lack of expertise, regulatory hurdles",
-      "timing": "prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Competition in the renewable energy sector is intensifying"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "renewable_energy",
-        "education"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's research institutions and universities can play a critical role in developing the country's expertise and capabilities in renewable energy, and enhancing its competitiveness in the global energy sector",
-      "assumptions": "The Saudi Arabian government will continue to support research and development in renewable energy, and international institutions and companies will be willing to collaborate with Saudi Arabian research institutions and universities",
-      "invalidation": "If the Saudi Arabian government reverses its support for research and development in renewable energy, or if international institutions and companies are unwilling to collaborate with Saudi Arabian research institutions and universities",
-      "_at": "2026-06-01T00:04:35.518115"
     }
   ],
-  "lastRefresh": "2026-07-01T00:04:04.170343"
+  "lastRefresh": "2026-07-02T00:05:38.812815"
 }
