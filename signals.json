@@ -1,6 +1,60 @@
 {
   "items": [
     {
+      "statement": "Investment in AI technologies is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Large investments in AI funds, such as the $49 billion AI fund raised by MGX, are expected to boost the development of AI technologies in the region",
+      "ksa_grounding": "This increase in AI investment can lead to the development of new technologies and industries in Saudi Arabia, contributing to the country's economic diversification and growth",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE's MGX raises $49 billion AI fund"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "tech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for new technologies and industries to emerge",
+      "downside": "Risk of over-investment in AI technologies",
+      "first_order": "Direct investment in AI technologies",
+      "second_order": "Growth of new industries and job creation",
+      "invalidation": "If the investment in AI technologies does not lead to significant innovation or growth",
+      "_at": "2026-07-03T00:02:56.570384"
+    },
+    {
+      "statement": "Investment in Saudi Arabia is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "The Public Investment Fund (PIF) of Saudi Arabia has seen its assets increase by 5% to $1.21 trillion, indicating a growth in investment in the country",
+      "ksa_grounding": "The growth in investment can lead to the development of new industries and sectors in Saudi Arabia, contributing to the country's economic diversification and growth",
+      "affected_sectors": [
+        "capital_markets",
+        "fintech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "PIF assets rise 5% to $1.21 trillion"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for new industries and sectors to emerge",
+      "downside": "Risk of over-investment in certain sectors",
+      "first_order": "Direct investment in Saudi Arabia",
+      "second_order": "Growth of new industries and job creation",
+      "invalidation": "If the investment in Saudi Arabia does not lead to significant economic growth",
+      "_at": "2026-07-03T00:02:56.570394"
+    },
+    {
       "statement": "Risk exposure to oil price volatility is rising",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2187,67 +2241,7 @@
       "second_order": "Potential for increased investment and growth in Saudi Arabia's healthcare sector",
       "invalidation": "If the Global Health Exhibition 2026 fails to produce significant results or is cancelled",
       "_at": "2026-06-03T00:26:23.690688"
-    },
-    {
-      "statement": "Regulatory barriers to regional trade are reducing",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Comprehensive Economic Partnership Agreements and discussions on reopening the Strait of Hormuz are easing trade restrictions",
-      "ksa_grounding": "Saudi Arabia's economy will benefit from increased trade with Oman and potentially improved oil supply chains",
-      "affected_sectors": [
-        "trade",
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "India and Oman's Comprehensive Economic Partnership Agreement to come into force from June 1",
-        "Saudi Crown Prince and Macron discuss reopening Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi government",
-        "Oman government"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased trade and investment between Saudi Arabia and Oman",
-      "downside": "Potential disruption to existing trade relationships",
-      "first_order": "Increased trade volumes",
-      "second_order": "Job creation and economic growth",
-      "invalidation": "Failure of the Comprehensive Economic Partnership Agreement to boost trade or the Strait of Hormuz remaining closed",
-      "_at": "2026-06-02T00:10:23.580493"
-    },
-    {
-      "statement": "Demand for renewable energy is increasing in the Middle East",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Countries in the region are investing in renewable energy infrastructure and manufacturing capabilities",
-      "ksa_grounding": "Saudi Arabia's economy will benefit from its emerging role as a leader in electric vehicle adoption and manufacturing",
-      "affected_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Arabia emerges as a leading force in electric vehicle adoption and manufacturing in the Middle East",
-        "Morocco is emerging as a renewable energy superpower"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi government",
-        "private investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Reduced dependence on oil and increased economic diversification",
-      "downside": "Potential job losses in the oil industry",
-      "first_order": "Increased investment in renewable energy",
-      "second_order": "Job creation and economic growth in the renewable energy sector",
-      "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
-      "_at": "2026-06-02T00:10:23.580502"
     }
   ],
-  "lastRefresh": "2026-07-02T00:05:38.811253"
+  "lastRefresh": "2026-07-03T00:03:04.297712"
 }

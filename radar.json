@@ -1,6 +1,125 @@
 {
   "items": [
     {
+      "title": "UAE's MGX raises $49 billion AI fund",
+      "source": "Financial Post, CNBC",
+      "source_tier": 1,
+      "time": "2026-07-01",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "AI",
+        "investment"
+      ],
+      "summary": "MGX, a UAE-based company, has raised one of the biggest AI funds ever, totaling $49 billion. The company is a backer of major AI companies, including OpenAI and Anthropic. This investment is expected to boost the development of AI technologies in the region.",
+      "why_it_matters": "This significant investment in AI could have strategic consequences for Saudi Arabia's own AI development and innovation goals, as outlined in Vision 2030. It may also impact the regional AI landscape and competition for talent and investment.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-03T00:02:19.282067"
+    },
+    {
+      "title": "Saudi Arabia makes rare spot oil sales",
+      "source": "Financial Post, Rigzone",
+      "source_tier": 2,
+      "time": "2026-07-01",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "eastern_province"
+      ],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "Saudi Arabia is selling millions of barrels of oil on an ad-hoc basis to customers in Asia, a rare move for the country. This sale is seen as an attempt to increase revenue and stabilize the global oil market.",
+      "why_it_matters": "This unusual move by Saudi Arabia could have implications for the global oil market and the country's own oil production and revenue goals. It may also impact the regional energy landscape and trade dynamics.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-03T00:02:19.282079"
+    },
+    {
+      "title": "PIF assets rise 5% to $1.21 trillion",
+      "source": "Arabnews.jp",
+      "source_tier": 2,
+      "time": "2026-07-01",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "capital_markets",
+        "fintech"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "investment",
+        "finance"
+      ],
+      "summary": "The Public Investment Fund (PIF) of Saudi Arabia has seen its assets increase by 5% to $1.21 trillion. This growth is a significant boost to the country's investment and financial sector.",
+      "why_it_matters": "The growth of PIF's assets is a strategic consequence of Saudi Arabia's efforts to diversify its economy and increase its investment in various sectors. This could have implications for the country's financial stability and economic development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-03T00:02:19.282081"
+    },
+    {
+      "title": "Al Tahaluf rebrands to HOV Global",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-01",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [
+        "jeddah"
+      ],
+      "affected_domains": [
+        "real estate",
+        "development"
+      ],
+      "summary": "Al Tahaluf, a Saudi developer, has rebranded to HOV Global as part of its expansion plans in the Kingdom. This move is seen as a strategic step to increase the company's presence in the Saudi market.",
+      "why_it_matters": "The rebranding of Al Tahaluf to HOV Global could have implications for the Saudi real estate and development sector, as the company aims to increase its investment and presence in the Kingdom. This could also impact the country's tourism and hospitality industry.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-03T00:02:19.282084"
+    },
+    {
+      "title": "OPEC+ to raise August oil output quotas",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-01",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "trade"
+      ],
+      "summary": "OPEC+ has announced plans to raise its oil output quotas by 188,000 barrels per day in August. This move is expected to stabilize oil prices and increase global oil supply.",
+      "why_it_matters": "The increase in oil output quotas by OPEC+ could have strategic consequences for Saudi Arabia's own oil production and revenue goals. It may also impact the global oil market and trade dynamics.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-03T00:02:19.282086"
+    },
+    {
       "title": "Middle East producers continue oil and LNG loadings despite ship attacks",
       "source": "gcaptain.com, BusinessLine",
       "source_tier": 2,
@@ -3081,132 +3200,21 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-03T00:25:46.464837"
-    },
-    {
-      "title": "Saudi Arabia emerges as a leading force in electric vehicle adoption and manufacturing in the Middle East",
-      "source": "Arabnews.jp",
-      "source_tier": 2,
-      "time": "2026-05-30",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "transportation",
-        "energy"
-      ],
-      "summary": "Saudi Arabia is emerging as the Middle East's leading force in electric vehicle adoption and manufacturing, with EV sales in the region surging 40%. The country is investing heavily in EV infrastructure and manufacturing capabilities. This shift is expected to have a significant impact on the country's oil-based economy.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia's economic diversification and its ability to reduce dependence on oil exports. It also highlights the country's commitment to reducing its carbon footprint and transitioning to a more sustainable energy mix.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-02T00:10:16.691794"
-    },
-    {
-      "title": "India and Oman's Comprehensive Economic Partnership Agreement to come into force from June 1",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-05-31",
-      "event_type": "policy_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "trade",
-        "economy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "trade",
-        "investment"
-      ],
-      "summary": "The Comprehensive Economic Partnership Agreement between India and Oman is set to come into force from June 1, offering Indian exports 100% duty-free access to Oman. The agreement is expected to boost trade and investment between the two countries.",
-      "why_it_matters": "This agreement has strategic consequences for Saudi Arabia's trade relationships and economic partnerships in the region. It highlights the growing economic ties between India and Oman, which could have implications for Saudi Arabia's own trade agreements and economic diversification efforts.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-02T00:10:16.691804"
-    },
-    {
-      "title": "Morocco is emerging as a renewable energy superpower",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-05-30",
-      "event_type": "market_shift",
-      "category": "energy",
-      "geography": "Global",
-      "sector_tags": [
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "Morocco is rapidly becoming a renewable energy powerhouse, thanks to its favorable weather conditions and proximity to Europe. The country has developed its solar energy sector and is expected to become a major player in the global renewable energy market.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia's own renewable energy ambitions and its efforts to diversify its energy mix. Morocco's emergence as a renewable energy leader could provide a model for Saudi Arabia's own transition to a more sustainable energy mix.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-02T00:10:16.691807"
-    },
-    {
-      "title": "Saudi Crown Prince and Macron discuss reopening Strait of Hormuz",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-05-31",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "trade"
-      ],
-      "summary": "The Saudi Crown Prince and French President Macron have discussed the possibility of reopening the Strait of Hormuz, which has been a major chokepoint for global oil supplies. The talks highlight the ongoing efforts to resolve the regional tensions and ensure the free flow of oil.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia's energy exports and its ability to maintain stability in the region. The reopening of the Strait of Hormuz would have a significant impact on global oil supplies and prices, and would be a major boost to Saudi Arabia's economy.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-02T00:10:16.691809"
-    },
-    {
-      "title": "Qatar says temporary Hormuz fee to clear mines is negotiable",
-      "source": "Financial Post",
-      "source_tier": 2,
-      "time": "2026-05-30",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "trade"
-      ],
-      "summary": "Qatar has stated that a temporary fee to clear mines from the Strait of Hormuz is negotiable, but opposes a permanent fee. The statement highlights the ongoing efforts to resolve the regional tensions and ensure the free flow of oil.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia's energy exports and its ability to maintain stability in the region. The temporary fee would be a compromise solution to ensure the safe passage of oil tankers through the Strait of Hormuz.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-02T00:10:16.691810"
     }
   ],
-  "lastRefresh": "2026-07-02T00:05:38.808681",
+  "lastRefresh": "2026-07-03T00:03:04.294733",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 38,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

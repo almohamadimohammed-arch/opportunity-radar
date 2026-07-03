@@ -1,6 +1,67 @@
 {
   "items": [
     {
+      "title": "Development of Renewable Energy Sector",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Renewable Energy Companies",
+      "customer": "Saudi Citizens and Industries",
+      "problem": "Decrease in oil revenue due to increase in global oil supply",
+      "action_path": "Saudi renewable energy companies should develop and invest in renewable energy projects such as solar and wind power. This can help reduce dependence on oil revenue and create new job opportunities. The companies can also partner with foreign investors to bring in new technologies and expertise.",
+      "entry_mode": "Build",
+      "monetization": "Sale of renewable energy to citizens and industries",
+      "capabilities": "Development and investment capabilities, partnership and collaboration capabilities",
+      "barriers": "High upfront costs, lack of infrastructure, and limited expertise",
+      "timing": "Prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply is increasing"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "neom"
+      ],
+      "ksa_grounding": "The increase in global oil supply can lead to a decrease in oil prices, which can negatively impact Saudi Arabia's oil revenue and economy. Development of the renewable energy sector can help reduce dependence on oil revenue.",
+      "assumptions": "The decrease in oil prices will have a significant impact on Saudi Arabia's economy, and the renewable energy sector has the potential to create new job opportunities and reduce dependence on oil revenue.",
+      "invalidation": "If the decrease in oil prices does not have a significant impact on Saudi Arabia's economy, or if the renewable energy sector is not viable in Saudi Arabia.",
+      "_at": "2026-07-03T00:03:04.294614"
+    },
+    {
+      "title": "Investment in Fintech Sector",
+      "play_type": "market_entry_play",
+      "actor": "Saudi Fintech Companies",
+      "customer": "Saudi Citizens and Businesses",
+      "problem": "Decrease in oil revenue due to increase in global oil supply",
+      "action_path": "Saudi fintech companies should invest in new technologies and innovations such as mobile payments, digital wallets, and blockchain. This can help create new job opportunities and increase financial inclusion. The companies can also partner with foreign investors to bring in new technologies and expertise.",
+      "entry_mode": "Invest",
+      "monetization": "Transaction fees, interest on loans, and sale of financial services",
+      "capabilities": "Investment and innovation capabilities, partnership and collaboration capabilities",
+      "barriers": "High upfront costs, lack of infrastructure, and limited expertise",
+      "timing": "Enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil supply is increasing"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "banking",
+        "capital_markets"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "The increase in global oil supply can lead to a decrease in oil prices, which can negatively impact Saudi Arabia's oil revenue and economy. Investment in the fintech sector can help create new job opportunities and increase financial inclusion.",
+      "assumptions": "The decrease in oil prices will have a significant impact on Saudi Arabia's economy, and the fintech sector has the potential to create new job opportunities and increase financial inclusion.",
+      "invalidation": "If the decrease in oil prices does not have a significant impact on Saudi Arabia's economy, or if the fintech sector is not viable in Saudi Arabia.",
+      "_at": "2026-07-03T00:03:04.294623"
+    },
+    {
       "title": "Diversify Oil Export Routes",
       "play_type": "infrastructure_play",
       "actor": "Saudi Aramco",
@@ -2027,98 +2088,7 @@
       "assumptions": "The India-Oman Comprehensive Economic Partnership Agreement will remain in effect, and oil and gas trade volumes will increase significantly",
       "invalidation": "If the India-Oman Comprehensive Economic Partnership Agreement is revoked or fails to produce significant oil and gas trade increases",
       "_at": "2026-06-03T00:27:00.732770"
-    },
-    {
-      "title": "Saudi Trade Facilitation",
-      "play_type": "business_play",
-      "actor": "Saudi logistics and trade companies",
-      "customer": "Regional traders and businesses",
-      "problem": "Regulatory barriers to regional trade are reducing, creating opportunities for increased trade",
-      "action_path": "Develop trade facilitation services, such as customs clearance and freight forwarding, to capitalize on the easing of trade restrictions. Invest in digital platforms to streamline trade processes and improve efficiency. Partner with regional businesses to expand trade networks.",
-      "entry_mode": "build",
-      "monetization": "Revenue from trade facilitation services and increased trade volumes",
-      "capabilities": "Logistics and trade expertise, digital platform development, regional business networks",
-      "barriers": "Competition from established trade facilitation companies, regulatory complexities",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory barriers to regional trade are reducing"
-      ],
-      "sector": "trade",
-      "relevant_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy will benefit from increased trade with Oman and potentially improved oil supply chains",
-      "assumptions": "The Comprehensive Economic Partnership Agreement will be successful in boosting trade, and the Strait of Hormuz will remain open",
-      "invalidation": "Failure of the Comprehensive Economic Partnership Agreement to boost trade or the Strait of Hormuz remaining closed",
-      "_at": "2026-06-02T00:10:30.930642"
-    },
-    {
-      "title": "Renewable Energy Infrastructure Development",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi renewable energy companies",
-      "customer": "Saudi government and regional businesses",
-      "problem": "Demand for renewable energy is increasing in the Middle East",
-      "action_path": "Develop and invest in renewable energy infrastructure, such as solar and wind farms, to meet growing demand. Partner with regional governments and businesses to develop renewable energy projects. Build capabilities in renewable energy technology and project development.",
-      "entry_mode": "invest",
-      "monetization": "Revenue from renewable energy sales and project development",
-      "capabilities": "Renewable energy technology expertise, project development and management",
-      "barriers": "High upfront costs, regulatory complexities",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Demand for renewable energy is increasing in the Middle East"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "electricity"
-      ],
-      "relevant_regions": [
-        "neom",
-        "red_sea"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy will benefit from its emerging role as a leader in electric vehicle adoption and manufacturing",
-      "assumptions": "Saudi Arabia will maintain its leadership in electric vehicle adoption and manufacturing, and demand for renewable energy will continue to grow",
-      "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
-      "_at": "2026-06-02T00:10:30.930651"
-    },
-    {
-      "title": "Electric Vehicle Manufacturing",
-      "play_type": "market_entry_play",
-      "actor": "Saudi manufacturing companies",
-      "customer": "Regional automotive markets",
-      "problem": "Demand for electric vehicles is increasing in the Middle East",
-      "action_path": "Develop and manufacture electric vehicles, partnering with regional automotive companies and investing in electric vehicle technology. Build capabilities in electric vehicle manufacturing and supply chain management.",
-      "entry_mode": "build",
-      "monetization": "Revenue from electric vehicle sales",
-      "capabilities": "Electric vehicle manufacturing expertise, supply chain management",
-      "barriers": "High upfront costs, competition from established automotive manufacturers",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Demand for renewable energy is increasing in the Middle East"
-      ],
-      "sector": "electricity",
-      "relevant_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "jeddah",
-        "riyadh"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy will benefit from its emerging role as a leader in electric vehicle adoption and manufacturing",
-      "assumptions": "Demand for electric vehicles will continue to grow, and Saudi Arabia will maintain its leadership in electric vehicle adoption and manufacturing",
-      "invalidation": "Failure of Saudi Arabia to maintain its leadership in electric vehicle adoption and manufacturing",
-      "_at": "2026-06-02T00:10:30.930653"
     }
   ],
-  "lastRefresh": "2026-07-02T00:05:38.812815"
+  "lastRefresh": "2026-07-03T00:03:04.299608"
 }
