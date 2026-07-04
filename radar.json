@@ -1,6 +1,122 @@
 {
   "items": [
     {
+      "title": "India to Share Rocket Tech to Hasten Development of Space Firms",
+      "source": "Bloomberg, The Financial Express",
+      "source_tier": 1,
+      "time": "2026-06-23",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "renewable_energy",
+        "education"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "space technology",
+        "international cooperation"
+      ],
+      "summary": "India plans to share its technology involving the Polar Satellite Launch Vehicle to help speed up development of the local space industry. This move is expected to boost India's space sector and promote international cooperation. The shared technology will facilitate the growth of private space companies in India.",
+      "why_it_matters": "This development may have implications for Saudi Arabia's own space program and potential collaborations with India. It highlights the growing importance of international partnerships in the space sector.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-04T00:01:31.952341"
+    },
+    {
+      "title": "India Semiconductor Mission 2.0 Gets EFC Nod with \u20b91.2 Lakh Crore Outlay",
+      "source": "The Economic Times, Outlook Business, The Hindu",
+      "source_tier": 2,
+      "time": "2026-06-30",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "education"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "semiconductor industry",
+        "economic development"
+      ],
+      "summary": "India's semiconductor ambitions are set for a major boost with the Expenditure Finance Committee approving nearly \u20b91.20 lakh crore for the second phase of the government's chip programme. This significant investment is expected to drive growth in India's semiconductor sector. The outlay will support the development of domestic semiconductor manufacturing capabilities.",
+      "why_it_matters": "This development may impact Saudi Arabia's own semiconductor industry and potential trade relationships with India. It underscores the importance of investing in emerging technologies to drive economic growth.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-07-04T00:01:31.952359"
+    },
+    {
+      "title": "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-07-02",
+      "event_type": "capacity_change",
+      "category": "oil_gas",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "eastern_province"
+      ],
+      "affected_domains": [
+        "oil exports",
+        "global energy markets"
+      ],
+      "summary": "About 10 million barrels of Saudi crude have cleared the Strait of Hormuz in recent days, as supertankers continue to load oil from the Saudi port of Ras Tanura in the Persian Gulf. This increased export activity may help stabilize global oil markets.",
+      "why_it_matters": "This development is crucial for Saudi Arabia's oil exports and the stability of global energy markets. It highlights the importance of the Strait of Hormuz for international oil trade.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-04T00:01:31.952361"
+    },
+    {
+      "title": "Patria Investments Successfully Raises Over USD 670m for Its Secondary Opportunities Fund V",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-02",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "investment",
+        "private equity"
+      ],
+      "summary": "Patria SOF V exceeds its initial USD 500m target, building on the success of its predecessor secondary funds. This fundraising effort will support Patria's investment activities in the secondary market.",
+      "why_it_matters": "This development may have implications for Saudi Arabia's own investment landscape and potential partnerships with global investment firms. It highlights the growing importance of private equity and secondary markets.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-04T00:01:31.952363"
+    },
+    {
+      "title": "Microsoft Launches $2.5 Billion 'Frontier Company' to Accelerate Enterprise AI Adoption",
+      "source": "The News International",
+      "source_tier": 2,
+      "time": "2026-07-02",
+      "event_type": "product_launch",
+      "category": "technology",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "education"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "artificial intelligence",
+        "enterprise software"
+      ],
+      "summary": "Microsoft is launching a new firm, Microsoft Frontier Company, to help customers boost their businesses through Artificial Intelligence. This initiative aims to accelerate the adoption of AI in the enterprise sector.",
+      "why_it_matters": "This development may impact Saudi Arabia's own AI adoption and potential partnerships with Microsoft. It highlights the growing importance of AI in driving business growth and competitiveness.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-04T00:01:31.952365"
+    },
+    {
       "title": "UAE's MGX raises $49 billion AI fund",
       "source": "Financial Post, CNBC",
       "source_tier": 1,
@@ -3093,120 +3209,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-04T00:28:37.534159"
-    },
-    {
-      "title": "Global Health Exhibition 2026 expands into growth sectors",
-      "source": "Weeklyvoice.com",
-      "source_tier": 2,
-      "time": "2026-06-01",
-      "event_type": "product_launch",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "healthcare"
-      ],
-      "region_tags": [
-        "riyadh"
-      ],
-      "affected_domains": [
-        "healthcare industry"
-      ],
-      "summary": "The Global Health Exhibition 2026 is expanding into growth sectors such as Dermatology & Aesthetics, Orthopaedics & Rehab, and Dental. The exhibition is under the patronage of the Ministry of Health and supported by Vision 2030. Registration for the exhibition is now open.",
-      "why_it_matters": "This expansion is significant for Saudi Arabia's healthcare sector, as it highlights the growing importance of specialized healthcare services in the country. It also demonstrates the government's commitment to supporting the development of the healthcare industry.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-03T00:25:46.464824"
-    },
-    {
-      "title": "Saudi National Housing Company emerges as a central force in reshaping the Kingdom's housing market",
-      "source": "Aawsat.com",
-      "source_tier": 2,
-      "time": "2026-05-31",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "real estate"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "housing market"
-      ],
-      "summary": "The Saudi National Housing Company has emerged as a central force in reshaping the Kingdom's housing market, evolving from a state-backed developer into a key engine of Crown Prince Mohammed bin Salman's vision for the country's housing sector.",
-      "why_it_matters": "This development is significant for Saudi Arabia's real estate sector, as it highlights the government's efforts to address the country's housing needs and promote economic growth. It also demonstrates the company's growing importance in the Kingdom's housing market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-03T00:25:46.464832"
-    },
-    {
-      "title": "Oil prices surge due to Israel-Iran conflict",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-06-01",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "global oil market"
-      ],
-      "summary": "Oil prices have surged due to the conflict between Israel and Iran, with crude oil gaining over 2%. The escalation of the conflict has weakened hopes for a U.S.-Iran ceasefire extension.",
-      "why_it_matters": "This development is significant for Saudi Arabia's oil and gas sector, as it highlights the potential impact of geopolitical tensions on global oil prices. It also demonstrates the importance of the region's oil production in the global energy market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-03T00:25:46.464834"
-    },
-    {
-      "title": "India-Oman Comprehensive Economic Partnership Agreement comes into effect",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-06-01",
-      "event_type": "regulation",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "trade"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "international trade"
-      ],
-      "summary": "The India-Oman Comprehensive Economic Partnership Agreement has come into effect, providing Indian exporters with preferential market access in Oman. The agreement also enables Indian firms to hire workers without local quotas.",
-      "why_it_matters": "This development is significant for Saudi Arabia's trade sector, as it highlights the growing importance of regional trade agreements in promoting economic cooperation and growth. It also demonstrates the potential for increased trade between India and Oman.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-03T00:25:46.464836"
-    },
-    {
-      "title": "Japan to disburse $20 million to World Bank to spur critical minerals supply chains",
-      "source": "Japan Today",
-      "source_tier": 2,
-      "time": "2026-06-01",
-      "event_type": "funding",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "mining"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "mining industry"
-      ],
-      "summary": "Japan will disburse $20 million to the World Bank to spur investments in developing countries to strengthen supply chains of critical minerals. The move aims to promote the development of critical minerals and reduce dependence on limited suppliers.",
-      "why_it_matters": "This development is significant for Saudi Arabia's mining sector, as it highlights the growing importance of critical minerals in the global economy. It also demonstrates Japan's efforts to promote the development of critical minerals and reduce dependence on limited suppliers.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-03T00:25:46.464837"
     }
   ],
-  "lastRefresh": "2026-07-03T00:03:04.294733",
+  "lastRefresh": "2026-07-04T00:02:16.694198",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 38,
+    "articles_to_model": 40,
     "radar_generated": 5,
     "radar_confirmed": 2,
     "radar_reported": 3,
@@ -3214,7 +3223,7 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

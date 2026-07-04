@@ -1,6 +1,98 @@
 {
   "items": [
     {
+      "title": "Saudi EdTech Investment",
+      "play_type": "business_play",
+      "actor": "EdTech companies",
+      "customer": "Saudi educational institutions",
+      "problem": "Limited access to quality educational resources",
+      "action_path": "Develop and implement AI-powered educational platforms, leveraging increased investment in technology and education. Partner with local institutions to tailor solutions to the Saudi market. Expand to other Gulf countries in the next 3-5 years.",
+      "entry_mode": "build",
+      "monetization": "Subscription-based models and government contracts",
+      "capabilities": "AI development, educational content creation, Arabic language support",
+      "barriers": "Competition from established players, regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Investment in technology and education is increasing"
+      ],
+      "sector": "education",
+      "relevant_sectors": [
+        "education",
+        "fintech",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification and Vision 2030 goals",
+      "assumptions": "Continued government support for education and technology investment, growing demand for online learning",
+      "invalidation": "Significant decline in investment in technology and education in the next 2 years",
+      "_at": "2026-07-04T00:02:16.694078"
+    },
+    {
+      "title": "Fintech Investment Opportunities",
+      "play_type": "market_entry_play",
+      "actor": "Fintech companies",
+      "customer": "Saudi banks and financial institutions",
+      "problem": "Limited digital payment options and financial inclusion",
+      "action_path": "Develop and launch digital payment platforms, leveraging increased investment in fintech. Partner with local banks to expand reach and offer tailored solutions. Explore opportunities in neighboring Gulf countries.",
+      "entry_mode": "partner",
+      "monetization": "Transaction fees and partnerships with financial institutions",
+      "capabilities": "Digital payment processing, financial regulatory compliance, Arabic language support",
+      "barriers": "Regulatory hurdles, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Fintech investment is increasing"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification and financial sector development",
+      "assumptions": "Continued government support for fintech investment, growing demand for digital payments",
+      "invalidation": "Significant decline in investment in fintech in the next 2 years",
+      "_at": "2026-07-04T00:02:16.694087"
+    },
+    {
+      "title": "Renewable Energy Education and Training",
+      "play_type": "infrastructure_play",
+      "actor": "Renewable energy companies",
+      "customer": "Saudi renewable energy sector",
+      "problem": "Limited skilled workforce in renewable energy",
+      "action_path": "Develop and implement training programs for renewable energy professionals, leveraging increased investment in education and technology. Partner with local educational institutions to offer specialized courses and certifications.",
+      "entry_mode": "build",
+      "monetization": "Training and certification fees, government contracts",
+      "capabilities": "Renewable energy expertise, educational content creation, Arabic language support",
+      "barriers": "Competition from established players, regulatory hurdles",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Investment in technology and education is increasing"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "education",
+        "fintech",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification and renewable energy goals",
+      "assumptions": "Continued government support for education and renewable energy investment, growing demand for skilled workforce",
+      "invalidation": "Significant decline in investment in renewable energy in the next 2 years",
+      "_at": "2026-07-04T00:02:16.694089"
+    },
+    {
       "title": "Development of Renewable Energy Sector",
       "play_type": "infrastructure_play",
       "actor": "Saudi Renewable Energy Companies",
@@ -2027,68 +2119,7 @@
       "assumptions": "Cybersecurity threats will increase, and demand for cybersecurity solutions will grow",
       "invalidation": "A significant decline in cybersecurity threats or a failure to protect digital infrastructure",
       "_at": "2026-06-04T00:29:52.471342"
-    },
-    {
-      "title": "Saudi Trade Expansion",
-      "play_type": "business_play",
-      "actor": "Saudi enterprises, trade companies",
-      "customer": "Importers, exporters, logistics companies",
-      "problem": "Regulatory barriers to trade have hindered economic growth",
-      "action_path": "Establish trade partnerships with Omani companies, leverage reduced regulatory barriers to increase exports and imports. Develop logistics and supply chain infrastructure to support increased trade. Explore opportunities for joint ventures and investments in trade-related sectors.",
-      "entry_mode": "partner",
-      "monetization": "Increased trade volumes, revenue growth, and job creation",
-      "capabilities": "International trade expertise, logistics and supply chain management, partnership development",
-      "barriers": "Complexity of international trade agreements, competition from established trade partners",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory barrier to trade has reduced"
-      ],
-      "sector": "trade",
-      "relevant_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased trade with Oman and other countries, potentially leading to increased exports and economic growth",
-      "assumptions": "The India-Oman Comprehensive Economic Partnership Agreement will remain in effect, and trade volumes will increase significantly",
-      "invalidation": "If the India-Oman Comprehensive Economic Partnership Agreement is revoked or fails to produce significant trade increases",
-      "_at": "2026-06-03T00:27:00.732764"
-    },
-    {
-      "title": "Oil and Gas Trade Opportunities",
-      "play_type": "market_entry_play",
-      "actor": "Saudi oil and gas companies",
-      "customer": "Omani oil and gas companies, international traders",
-      "problem": "Limited access to Omani oil and gas markets",
-      "action_path": "Establish trade relationships with Omani oil and gas companies, explore opportunities for joint ventures and investments in oil and gas production, refining, and distribution. Develop expertise in international oil and gas trade, and build logistics and supply chain infrastructure to support increased trade.",
-      "entry_mode": "partner",
-      "monetization": "Increased revenue from oil and gas exports, new business opportunities",
-      "capabilities": "Oil and gas production, refining, and distribution expertise, international trade expertise, logistics and supply chain management",
-      "barriers": "Competition from established oil and gas companies, complexity of international trade agreements",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory barrier to trade has reduced"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "trade",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "eastern_province",
-        "riyadh"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil and gas sector may benefit from increased trade with Oman, potentially leading to increased exports and revenue growth",
-      "assumptions": "The India-Oman Comprehensive Economic Partnership Agreement will remain in effect, and oil and gas trade volumes will increase significantly",
-      "invalidation": "If the India-Oman Comprehensive Economic Partnership Agreement is revoked or fails to produce significant oil and gas trade increases",
-      "_at": "2026-06-03T00:27:00.732770"
     }
   ],
-  "lastRefresh": "2026-07-03T00:03:04.299608"
+  "lastRefresh": "2026-07-04T00:02:16.699246"
 }

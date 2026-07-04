@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Investment in technology and education is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Government and private investments in technology and education are expected to drive growth and development in these sectors",
+      "ksa_grounding": "This increase in investment could lead to Saudi Arabia attracting more foreign investment and talent in the technology and education sectors, contributing to the country's economic diversification",
+      "affected_sectors": [
+        "education",
+        "fintech",
+        "renewable_energy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "India to Share Rocket Tech to Hasten Development of Space Firms",
+        "India Semiconductor Mission 2.0 Gets EFC Nod with \u20b91.2 Lakh Crore Outlay"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "private companies",
+        "government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased economic growth and diversification",
+      "downside": "Dependence on foreign investment and technology",
+      "first_order": "Direct investment in technology and education",
+      "second_order": "Growth and development of these sectors, leading to increased economic activity",
+      "invalidation": "A significant decline in investment in technology and education in the next 2 years",
+      "_at": "2026-07-04T00:02:09.282485"
+    },
+    {
+      "statement": "Global oil market stability is improving",
+      "change_type": "market",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased oil exports from Saudi Arabia are expected to stabilize global oil markets",
+      "ksa_grounding": "This increased export activity could lead to increased revenue for Saudi Arabia, supporting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil exporters",
+        "global oil market"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased revenue for Saudi Arabia, stable global oil prices",
+      "downside": "Dependence on oil exports, potential for market fluctuations",
+      "first_order": "Increased oil exports from Saudi Arabia",
+      "second_order": "Stabilization of global oil markets, increased revenue for Saudi Arabia",
+      "invalidation": "A significant decline in oil exports from Saudi Arabia or a major disruption to global oil markets",
+      "_at": "2026-07-04T00:02:09.282496"
+    },
+    {
+      "statement": "Fintech investment is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Private investments in fintech are expected to drive growth and development in this sector",
+      "ksa_grounding": "This increase in investment could lead to Saudi Arabia's fintech sector attracting more foreign investment and talent, contributing to the country's economic diversification",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Patria Investments Successfully Raises Over USD 670m for Its Secondary Opportunities Fund V",
+        "Microsoft Launches $2.5 Billion 'Frontier Company' to Accelerate Enterprise AI Adoption"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "private companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased economic growth and diversification",
+      "downside": "Dependence on foreign investment and technology",
+      "first_order": "Direct investment in fintech",
+      "second_order": "Growth and development of the fintech sector, leading to increased economic activity",
+      "invalidation": "A significant decline in investment in fintech in the next 2 years",
+      "_at": "2026-07-04T00:02:09.282499"
+    },
+    {
       "statement": "Investment in AI technologies is increasing",
       "change_type": "investment",
       "change_vector": "feasibility_increasing",
@@ -2189,59 +2274,7 @@
       "second_order": "Potential for increased economic growth and job creation in the technology sector",
       "invalidation": "A significant decline in digital transformation investments or a failure to automate enterprise data tasks would invalidate this signal",
       "_at": "2026-06-04T00:29:15.066732"
-    },
-    {
-      "statement": "Investment in critical minerals supply chains is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Countries are investing in critical minerals supply chains to reduce dependence on limited suppliers",
-      "ksa_grounding": "Saudi Arabia's mining sector may benefit from increased investment in critical minerals supply chains, potentially leading to increased production and exports",
-      "affected_sectors": [
-        "mining"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Japan to disburse $20 million to World Bank to spur critical minerals supply chains"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "mining companies",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased investment in critical minerals supply chains",
-      "downside": "Potential for decreased investment or failure to produce significant results",
-      "first_order": "Increased investment in critical minerals supply chains",
-      "second_order": "Potential for increased production and exports of critical minerals in Saudi Arabia",
-      "invalidation": "If Japan's investment in critical minerals supply chains fails to produce significant results or is revoked",
-      "_at": "2026-06-03T00:26:23.690680"
-    },
-    {
-      "statement": "Demand for healthcare services is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "The Global Health Exhibition 2026 is expanding into growth sectors, indicating increased demand for healthcare services",
-      "ksa_grounding": "Saudi Arabia's healthcare sector may benefit from increased demand for healthcare services, potentially leading to increased investment and growth",
-      "affected_sectors": [
-        "healthcare"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Global Health Exhibition 2026 expands into growth sectors"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "healthcare providers",
-        "patients"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased demand for healthcare services",
-      "downside": "Potential for decreased demand or failure to produce significant results",
-      "first_order": "Increased demand for healthcare services",
-      "second_order": "Potential for increased investment and growth in Saudi Arabia's healthcare sector",
-      "invalidation": "If the Global Health Exhibition 2026 fails to produce significant results or is cancelled",
-      "_at": "2026-06-03T00:26:23.690688"
     }
   ],
-  "lastRefresh": "2026-07-03T00:03:04.297712"
+  "lastRefresh": "2026-07-04T00:02:16.697251"
 }
