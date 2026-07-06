@@ -1,6 +1,89 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to fintech integration has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Investments and funding in AI and fintech are driving innovation and adoption, leading to a more open regulatory environment",
+      "ksa_grounding": "Saudi Arabia's economy is likely to benefit from increased fintech integration, driving growth in the financial sector",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Abu Dhabi's $49 Billion AI Fund",
+        "Microsoft Launches $2.5 Billion 'Frontier Company' to Accelerate Enterprise AI Adoption"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "fintech companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased innovation and growth in the fintech sector",
+      "downside": "Potential risks associated with rapid technological change",
+      "first_order": "Direct investment in AI and fintech",
+      "second_order": "Increased competitiveness and growth in the financial sector",
+      "invalidation": "Evidence of decreased investment in AI and fintech, or a tightening of regulatory barriers",
+      "_at": "2026-07-06T00:03:07.326586"
+    },
+    {
+      "statement": "Global oil demand is shifting",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "Asia's increasing interest in biofuels is reducing dependence on Middle East oil, leading to a shift in global oil demand",
+      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and a decline in global demand could impact revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Asia Bets on Biofuels to Dodge Middle East Oil Shortages",
+        "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "biofuel companies"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased investment in alternative energy sources",
+      "downside": "Potential risks to oil-dependent economies",
+      "first_order": "Reduced demand for Middle East oil",
+      "second_order": "Increased investment in alternative energy sources",
+      "invalidation": "Evidence of increased global demand for oil, or a decline in biofuel production",
+      "_at": "2026-07-06T00:03:07.326597"
+    },
+    {
+      "statement": "Risk exposure is rising in the region",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Escalating tensions in the region, particularly between the Saudi-led coalition and Houthi forces, are increasing the risk of conflict",
+      "ksa_grounding": "Saudi Arabia is directly involved in the conflict, and an escalation could have significant economic and humanitarian impacts",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi-led Coalition Pledges \u2018Unprecedented\u2019 Force Against Houthi Threats"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi-led coalition",
+        "Houthi forces"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential for increased conflict and instability",
+      "first_order": "Escalating tensions and conflict",
+      "second_order": "Humanitarian and economic impacts",
+      "invalidation": "Evidence of a peaceful resolution to the conflict, or a decline in tensions",
+      "_at": "2026-07-06T00:03:07.326599"
+    },
+    {
       "statement": "Investment in AI and technology is increasing",
       "change_type": "investment",
       "change_vector": "feasibility_increasing",
@@ -2233,87 +2316,7 @@
       "second_order": "Increased fintech innovation and economic growth",
       "invalidation": "A significant decline in fintech investment or innovation in the region",
       "_at": "2026-06-06T00:04:25.215477"
-    },
-    {
-      "statement": "Regulatory barriers to fintech integration are not changing, but the fintech sector is experiencing innovation",
-      "change_type": "innovation",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "New AI-powered tools are being launched to automate daily operations and empower GCC founders, developers, and SMEs",
-      "ksa_grounding": "The launch of new fintech products, such as Myndlab and Meta's 'business agent', could increase the feasibility of fintech integration in Saudi Arabia's economy",
-      "affected_sectors": [
-        "fintech",
-        "edtech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "UAE's Permus Software House launches Myndlab, the region's first native Arabic AI application builder",
-        "Meta launches enterprise-focused AI 'business agent' to automate daily operations"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "GCC founders, developers, and SMEs"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased efficiency and innovation in the fintech sector",
-      "downside": "Potential disruption to traditional banking and financial services",
-      "first_order": "Direct impact on fintech companies and their customers",
-      "second_order": "Potential downstream effects on the broader economy, such as increased competitiveness and job creation",
-      "invalidation": "If the adoption of these new fintech products is slow or unsuccessful, it would prove this signal wrong",
-      "_at": "2026-06-05T00:03:30.210688"
-    },
-    {
-      "statement": "Saudi Arabia's construction sector is experiencing supply chain disruptions",
-      "change_type": "supply chain disruption",
-      "change_vector": "supply_tighter",
-      "mechanism": "The unsuitability of domestic sand for construction is forcing Saudi Arabia to import sand from other countries, leading to increased costs and potential supply chain disruptions",
-      "ksa_grounding": "The importation of construction-grade sand from countries like Australia could lead to increased costs and supply chain disruptions in Saudi Arabia's construction sector",
-      "affected_sectors": [
-        "construction"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi Arabia imports sand from countries like Australia due to the unsuitability of domestic sand for construction"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Construction companies and their suppliers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased investment in domestic sand production or alternative construction materials",
-      "downside": "Increased costs and potential delays in construction projects",
-      "first_order": "Direct impact on construction companies and their suppliers",
-      "second_order": "Potential downstream effects on the broader economy, such as increased costs and decreased competitiveness",
-      "invalidation": "If Saudi Arabia finds a domestic source of suitable construction-grade sand, it would prove this signal wrong",
-      "_at": "2026-06-05T00:03:30.210698"
-    },
-    {
-      "statement": "Geopolitical tensions are increasing, which could impact Saudi Arabia's economy",
-      "change_type": "geopolitical risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "A prolonged war in Iran could have negative consequences for Saudi Arabia's economy, and Saudi Arabia's cooperation with Russia could shift the balance of power in global energy markets",
-      "ksa_grounding": "The potential for increased geopolitical tensions, particularly with regards to Iran and Russia, could increase the risk exposure of Saudi Arabia's economy",
-      "affected_sectors": [
-        "economy",
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "IMF warns that a prolonged Iran war could weigh on Saudi Arabia's medium-term outlook",
-        "Saudi Arabia and Russia draw closer amid OPEC upheaval"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabia's government and economy"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased cooperation and stability in the region",
-      "downside": "Increased risk of conflict and economic disruption",
-      "first_order": "Direct impact on Saudi Arabia's economy and government",
-      "second_order": "Potential downstream effects on the broader region and global economy",
-      "invalidation": "If the geopolitical tensions in the region decrease, it would prove this signal wrong",
-      "_at": "2026-06-05T00:03:30.210700"
     }
   ],
-  "lastRefresh": "2026-07-04T23:59:17.248357"
+  "lastRefresh": "2026-07-06T00:03:15.384005"
 }
