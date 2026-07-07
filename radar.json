@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia slashes crude oil prices for Asian buyers",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-06",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Saudi Arabia has cut its crude oil prices for Asian buyers, signaling a shift in global energy dynamics. The price cut may ease inflation and benefit risk assets like cryptocurrencies. This move comes as the US-Iran deal reshapes energy markets.",
+      "why_it_matters": "The price cut may impact Saudi Arabia's oil revenue and influence the global energy market, potentially affecting the country's economic diversification efforts under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T23:55:05.496788"
+    },
+    {
+      "title": "OPEC+ decides to boost production further in August",
+      "source": "Rigzone",
+      "source_tier": 2,
+      "time": "2026-07-06",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "OPEC+ has decided to increase oil production further in August, despite tumbling crude prices. The move aims to prioritize oil supply over price floor until the Hormuz situation normalizes.",
+      "why_it_matters": "The decision may impact Saudi Arabia's oil production and revenue, influencing the country's economic stability and affecting its ability to achieve the goals outlined in Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T23:55:05.496800"
+    },
+    {
+      "title": "Abu Dhabi builds the world's first integrated energy-AI economy",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-07-06",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "technology"
+      ],
+      "summary": "Abu Dhabi is developing the world's first integrated energy-AI economy, marking a significant shift in the global economy. The project aims to combine energy and artificial intelligence to create a new economic model.",
+      "why_it_matters": "The initiative may inspire Saudi Arabia to explore similar integrated energy-AI economy models, potentially driving innovation and economic growth in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T23:55:05.496802"
+    },
+    {
+      "title": "Private capital moves into Saudi tourism",
+      "source": "Skift",
+      "source_tier": 2,
+      "time": "2026-07-06",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism"
+      ],
+      "region_tags": [
+        "riyadh",
+        "jeddah"
+      ],
+      "affected_domains": [
+        "hospitality",
+        "entertainment"
+      ],
+      "summary": "Private capital is entering the Saudi tourism market, as the Public Investment Fund (PIF) steps back from direct tourism investment. The move may lead to increased investment in the sector.",
+      "why_it_matters": "The influx of private capital may help Saudi Arabia achieve its tourism goals under Vision 2030, driving economic diversification and growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T23:55:05.496803"
+    },
+    {
+      "title": "Sovereign wealth funds favor regulated access to Bitcoin and digital assets",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-06",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "technology"
+      ],
+      "summary": "Sovereign wealth funds are showing preference for regulated access to Bitcoin and digital assets, indicating growing institutional acceptance. This may lead to increased investment in the digital asset market.",
+      "why_it_matters": "The development may attract more foreign investment to Saudi Arabia's fintech sector, contributing to the country's economic diversification efforts under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T23:55:05.496807"
+    },
+    {
       "title": "OPEC+ agrees to expand monthly oil production",
       "source": "KSAT San Antonio, New York Post, Crypto Briefing",
       "source_tier": 2,
@@ -2968,21 +3082,21 @@
       "_at": "2026-06-08T00:03:23.536513"
     }
   ],
-  "lastRefresh": "2026-07-07T00:04:22.843663",
+  "lastRefresh": "2026-07-07T23:56:19.685187",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 18,
+    "articles_to_model": 29,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 2,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 0,
-    "signals_ksa_grounded": 2,
-    "plays_generated": 0,
-    "plays_ksa_grounded": 0
+    "signals_moderate": 1,
+    "signals_ksa_grounded": 3,
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

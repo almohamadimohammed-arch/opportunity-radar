@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "title": "Investment in Energy Efficiency",
+      "play_type": "business_play",
+      "actor": "Saudi Energy Companies",
+      "customer": "Saudi Industries",
+      "problem": "Increased global energy supply may lead to decreased oil prices, affecting the profitability of Saudi energy companies",
+      "action_path": "Saudi energy companies should invest in energy efficiency technologies to reduce costs and increase competitiveness. This can be achieved by implementing energy-efficient practices in their operations and investing in research and development of new energy-efficient technologies. Additionally, they can partner with international companies to gain access to new technologies and expertise.",
+      "entry_mode": "invest",
+      "monetization": "Increased profitability and competitiveness",
+      "capabilities": "Energy efficiency technologies, research and development, partnership development",
+      "barriers": "High upfront costs, lack of expertise",
+      "timing": "invest",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global energy supply has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Investment in energy efficiency is crucial for Saudi energy companies to remain competitive in a market with increased global energy supply",
+      "assumptions": "The Saudi energy companies have the capability and willingness to invest in energy efficiency, and the global energy supply will continue to increase",
+      "invalidation": "If the global energy supply decreases or the Saudi energy companies are unable to invest in energy efficiency",
+      "_at": "2026-07-07T23:56:19.685064"
+    },
+    {
       "title": "Fintech Integration Opportunity",
       "play_type": "market_entry_play",
       "actor": "Fintech companies",
@@ -2027,5 +2055,5 @@
       "_at": "2026-06-08T00:04:07.980337"
     }
   ],
-  "lastRefresh": "2026-07-07T00:04:22.848373"
+  "lastRefresh": "2026-07-07T23:56:19.690064"
 }

@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to digital assets has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Sovereign wealth funds' preference for regulated access to digital assets indicates a shift towards more open regulation",
+      "ksa_grounding": "This change can increase investment in Saudi Arabia's digital asset market, contributing to the country's economic diversification",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Sovereign wealth funds favor regulated access to Bitcoin and digital assets"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Sovereign wealth funds",
+        "Digital asset investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment in digital assets, economic diversification",
+      "downside": "Potential risks associated with digital assets, such as market volatility",
+      "first_order": "Increased investment in digital assets",
+      "second_order": "Growth of Saudi Arabia's digital asset market, job creation",
+      "invalidation": "If sovereign wealth funds reverse their preference for regulated access to digital assets",
+      "_at": "2026-07-07T23:55:42.846858"
+    },
+    {
+      "statement": "Global energy supply has increased",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "OPEC+ decision to boost production further in August increases global energy supply",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be impacted by changes in global energy supply, potentially affecting oil revenues",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "Eastern Province"
+      ],
+      "evidence": [
+        "OPEC+ decides to boost production further in August",
+        "Saudi Arabia slashes crude oil prices for Asian buyers"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Oil producers",
+        "Oil consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased global energy supply, reduced prices",
+      "downside": "Potential negative impact on Saudi Arabia's oil revenues",
+      "first_order": "Increased global energy supply",
+      "second_order": "Reduced oil prices, increased economic activity",
+      "invalidation": "If OPEC+ reverses its decision to boost production or if global demand increases significantly",
+      "_at": "2026-07-07T23:55:42.846868"
+    },
+    {
+      "statement": "Investment in Saudi tourism is increasing",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Private capital entering the Saudi tourism market indicates growing interest in the sector",
+      "ksa_grounding": "Increased investment in Saudi tourism can contribute to the country's economic diversification and growth",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "Riyadh",
+        "Jeddah",
+        "Makkah"
+      ],
+      "evidence": [
+        "Private capital moves into Saudi tourism"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Private investors",
+        "Tourism companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment in Saudi tourism, job creation",
+      "downside": "Potential risks associated with tourism investment, such as market volatility",
+      "first_order": "Increased investment in Saudi tourism",
+      "second_order": "Growth of Saudi Arabia's tourism sector, economic diversification",
+      "invalidation": "If private capital exits the Saudi tourism market or if tourism demand decreases",
+      "_at": "2026-07-07T23:55:42.846869"
+    },
+    {
       "statement": "Regulatory environment for crypto firms in the Middle East is becoming more favorable",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2203,5 +2290,5 @@
       "_at": "2026-06-08T00:04:00.370172"
     }
   ],
-  "lastRefresh": "2026-07-07T00:04:22.846454"
+  "lastRefresh": "2026-07-07T23:56:19.688104"
 }
