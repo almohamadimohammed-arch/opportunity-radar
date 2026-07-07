@@ -1,6 +1,114 @@
 {
   "items": [
     {
+      "title": "OPEC+ agrees to expand monthly oil production",
+      "source": "KSAT San Antonio, New York Post, Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-05",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "OPEC+ countries have agreed to increase their oil production by 188,000 barrels per day from August. This decision comes despite falling oil prices. The move is expected to ease inflation and potentially lead to lower interest rates.",
+      "why_it_matters": "This decision may impact Saudi Arabia's oil revenue and influence the global energy market, which is a crucial aspect of the country's economy.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-07-07T00:03:41.091437"
+    },
+    {
+      "title": "Saudi-U.S. ties face strain over Iran and regional security",
+      "source": "Globalresearch.ca",
+      "source_tier": 2,
+      "time": "2026-07-05",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "diplomacy",
+        "security"
+      ],
+      "summary": "The strategic partnership between Saudi Arabia and the United States is facing its most serious strain in years due to disagreements over Iran and regional security.",
+      "why_it_matters": "This strain in relations could have significant implications for Saudi Arabia's security and diplomatic priorities, potentially affecting its ability to achieve its Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T00:03:41.091448"
+    },
+    {
+      "title": "Yemen vows to break Saudi siege",
+      "source": "Globalsecurity.org",
+      "source_tier": 2,
+      "time": "2026-07-05",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "security",
+        "diplomacy"
+      ],
+      "summary": "Yemen's Foreign Ministry has warned Saudi Arabia that the Yemeni people will not retreat from their decision to end the aggression and break the crippling siege.",
+      "why_it_matters": "This development could lead to further instability in the region, potentially affecting Saudi Arabia's security and diplomatic priorities.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T00:03:41.091450"
+    },
+    {
+      "title": "Israel deploys Iron Dome to UAE amid war on Iran",
+      "source": "Globalsecurity.org",
+      "source_tier": 2,
+      "time": "2026-07-05",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "security",
+        "diplomacy"
+      ],
+      "summary": "Israel has confirmed the deployment of an Iron Dome battery to the United Arab Emirates during the US-Israeli war of aggression against Iran.",
+      "why_it_matters": "This move could have significant implications for regional security and diplomacy, potentially affecting Saudi Arabia's relationships with its neighbors and allies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T00:03:41.091451"
+    },
+    {
+      "title": "Dubai tops Asian crypto hubs",
+      "source": "Cointelegraph",
+      "source_tier": 2,
+      "time": "2026-07-05",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Middle East",
+      "sector_tags": [
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance"
+      ],
+      "summary": "Dubai has overtaken Singapore and Hong Kong as the top destination for licensed crypto firms in Asia.",
+      "why_it_matters": "This development could attract more fintech investment to the region, potentially benefiting Saudi Arabia's own fintech sector and contributing to its Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-07T00:03:41.091453"
+    },
+    {
       "title": "Asia Bets on Biofuels to Dodge Middle East Oil Shortages",
       "source": "OilPrice.com",
       "source_tier": 2,
@@ -2858,208 +2966,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-08T00:03:23.536513"
-    },
-    {
-      "title": "Boeing Delivers Riyadh Air's First Two 787 Dreamliner Jets",
-      "source": "Associated Press",
-      "source_tier": 1,
-      "time": "2026-06-05",
-      "event_type": "procurement",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism",
-        "hospitality"
-      ],
-      "region_tags": [
-        "riyadh"
-      ],
-      "affected_domains": [
-        "aviation",
-        "transportation"
-      ],
-      "summary": "Riyadh Air has received its first two 787 Dreamliner jets from Boeing, which will be used for regional and long-haul routes. This delivery is part of Riyadh Air's order for up to 72 787 Dreamliners. The new aircraft will support the Kingdom's vision for its aviation sector.",
-      "why_it_matters": "This procurement is significant for Saudi Arabia's tourism and hospitality sectors, as it will enhance the country's air travel capabilities and support its economic diversification goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-07T00:01:34.588527"
-    },
-    {
-      "title": "OPEC Output Plunges Further Due to US-Israeli Alliance and Iran War",
-      "source": "Financial Post, Rigzone",
-      "source_tier": 2,
-      "time": "2026-06-05",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "The war between the US-Israeli alliance and Iran has led to a significant decline in OPEC's oil output. This decline is expected to have far-reaching consequences for the global energy market.",
-      "why_it_matters": "The decline in OPEC's oil output may impact Saudi Arabia's oil exports and revenue, which could have strategic consequences for the country's economy and energy sector.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-06-07T00:01:34.588542"
-    },
-    {
-      "title": "TSMC Says Burgeoning AI Chip Demand Straining Supply Chain",
-      "source": "MarketScreener",
-      "source_tier": 2,
-      "time": "2026-06-05",
-      "event_type": "capacity_change",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "semiconductors",
-        "artificial intelligence"
-      ],
-      "summary": "TSMC has reported that the increasing demand for AI chips is straining the global supply chain. This strain may lead to shortages and delays in the production of AI-related technologies.",
-      "why_it_matters": "The strain on the supply chain for AI chips may impact Saudi Arabia's plans to develop its technology and fintech sectors, which could have strategic consequences for the country's economic diversification goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-07T00:01:34.588545"
-    },
-    {
-      "title": "Meta Enters Enterprise AI Race with New Business Agent",
-      "source": "The News International, MarketScreener",
-      "source_tier": 2,
-      "time": "2026-06-03",
-      "event_type": "product_launch",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "artificial intelligence",
-        "enterprise software"
-      ],
-      "summary": "Meta has launched a new business agent aimed at helping businesses carry out day-to-day operations, positioning itself as a player in the enterprise AI market.",
-      "why_it_matters": "Meta's entry into the enterprise AI market may have strategic consequences for Saudi Arabia's technology and fintech sectors, as it could lead to increased adoption of AI technologies in the country.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-06-07T00:01:34.588546"
-    },
-    {
-      "title": "IMF warns of potential impact on Saudi Arabia's medium-term outlook due to prolonged Iran war",
-      "source": "The National",
-      "source_tier": 2,
-      "time": "2026-06-03",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "economy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economy",
-        "politics"
-      ],
-      "summary": "The IMF has warned that a prolonged war in Iran could have a negative impact on Saudi Arabia's medium-term outlook. This is due to the potential disruption to oil supplies and the subsequent impact on the global economy. The IMF has urged Saudi Arabia to diversify its economy to reduce its dependence on oil exports.",
-      "why_it_matters": "This warning has significant strategic consequences for Saudi Arabia, as it highlights the need for the country to diversify its economy and reduce its dependence on oil exports. A prolonged war in Iran could have far-reaching consequences for the global economy, and Saudi Arabia must be prepared to mitigate these effects.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-06T00:03:48.100527"
-    },
-    {
-      "title": "UAE's Permus Software House launches Myndlab, a native Arabic AI application builder",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-06-03",
-      "event_type": "product_launch",
-      "category": "technology",
-      "geography": "Gulf",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "business"
-      ],
-      "summary": "Permus Software House has launched Myndlab, a native Arabic AI application builder. This platform aims to empower GCC founders, developers, and SMEs to build AI-powered applications. Myndlab provides a range of tools and services to support the development of AI applications, including data analytics and machine learning.",
-      "why_it_matters": "The launch of Myndlab has significant strategic consequences for Saudi Arabia, as it highlights the growing importance of AI and technology in the region. The development of native Arabic AI applications could have a significant impact on the local economy and provide new opportunities for businesses and entrepreneurs.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-06T00:03:48.100542"
-    },
-    {
-      "title": "South Korea's KEPCO wins Saudi Jafurah power project contract",
-      "source": "CNA",
-      "source_tier": 2,
-      "time": "2026-06-04",
-      "event_type": "procurement",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "renewable_energy",
-        "energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "South Korea's KEPCO has won a contract to build and operate the second phase of a cogeneration power plant at Saudi Arabia's Jafurah project. The project aims to increase the country's power generation capacity and reduce its dependence on fossil fuels. KEPCO will work with Saudi Arabia's state-owned energy company to develop the project.",
-      "why_it_matters": "The awarding of this contract has significant strategic consequences for Saudi Arabia, as it highlights the country's efforts to diversify its energy mix and reduce its dependence on fossil fuels. The development of renewable energy projects is a key component of Saudi Arabia's Vision 2030 plan, and this project is an important step towards achieving this goal.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-06T00:03:48.100547"
-    },
-    {
-      "title": "Saudi Arabia emerging as luxury fashion's next cultural growth market",
-      "source": "WWD",
-      "source_tier": 2,
-      "time": "2026-06-04",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism",
-        "entertainment"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "tourism",
-        "entertainment"
-      ],
-      "summary": "Saudi Arabia is emerging as a key growth market for luxury fashion, driven by the country's growing tourism industry and increasing demand for high-end products. The country's strategic location and rich cultural heritage make it an attractive destination for luxury brands. Saudi Arabia's government is also investing heavily in the development of its tourism industry, with a focus on high-end hospitality and entertainment.",
-      "why_it_matters": "The growth of Saudi Arabia's luxury fashion market has significant strategic consequences for the country, as it highlights the potential for the tourism and entertainment sectors to drive economic growth. The development of high-end hospitality and entertainment options could also help to attract new visitors to the country and promote cultural exchange.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-06T00:03:48.100549"
     }
   ],
-  "lastRefresh": "2026-07-06T00:03:15.381157",
+  "lastRefresh": "2026-07-07T00:04:22.843663",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 22,
+    "articles_to_model": 18,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
+    "signals_generated": 2,
     "signals_strong": 0,
-    "signals_moderate": 2,
-    "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "signals_moderate": 0,
+    "signals_ksa_grounded": 2,
+    "plays_generated": 0,
+    "plays_ksa_grounded": 0
   }
 }

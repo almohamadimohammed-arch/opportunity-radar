@@ -1,6 +1,63 @@
 {
   "items": [
     {
+      "statement": "Regulatory environment for crypto firms in the Middle East is becoming more favorable",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Dubai's overtaking of Singapore and Hong Kong as the top destination for licensed crypto firms in Asia indicates a shift towards a more welcoming regulatory environment for crypto firms in the region",
+      "ksa_grounding": "This could lead to increased investment and innovation in Saudi Arabia's fintech sector, particularly in the areas of cryptocurrency and blockchain technology",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [
+        "jeddah"
+      ],
+      "evidence": [
+        "Dubai tops Asian crypto hubs"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "crypto firms",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment and innovation in the fintech sector",
+      "downside": "Potential risks associated with unregulated crypto markets",
+      "first_order": "Direct investment and job creation in the fintech sector",
+      "second_order": "Potential for increased economic growth and diversification in Saudi Arabia",
+      "invalidation": "If Dubai's crypto regulations become more restrictive or if Saudi Arabia implements stricter regulations on crypto firms",
+      "_at": "2026-07-07T00:04:17.842496"
+    },
+    {
+      "statement": "Global oil supply is increasing, potentially leading to lower prices",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "OPEC+ agreement to expand monthly oil production will increase global oil supply, potentially leading to lower prices",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be affected by lower oil prices, potentially leading to decreased revenue and economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "OPEC+ agrees to expand monthly oil production"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil producers",
+        "consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Lower oil prices could lead to increased economic growth and decreased inflation",
+      "downside": "Lower oil prices could lead to decreased revenue and economic growth for Saudi Arabia",
+      "first_order": "Direct impact on oil prices and revenue",
+      "second_order": "Potential for decreased economic growth and increased budget deficits in Saudi Arabia",
+      "invalidation": "If OPEC+ reverses its decision to increase production or if global demand for oil increases significantly",
+      "_at": "2026-07-07T00:04:17.842506"
+    },
+    {
       "statement": "Regulatory barrier to fintech integration has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2144,179 +2201,7 @@
       "second_order": "Indirect impact on related industries such as hospitality and tourism",
       "invalidation": "A significant decrease in air travel demand or a shift to alternative modes of transportation would invalidate this signal",
       "_at": "2026-06-08T00:04:00.370172"
-    },
-    {
-      "statement": "The demand for air travel in Saudi Arabia is increasing",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Increased investment in aviation infrastructure and expansion of airline fleets",
-      "ksa_grounding": "Riyadh Air's receipt of new aircraft will support the Kingdom's vision for its aviation sector, indicating a growing demand for air travel",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Boeing Delivers Riyadh Air's First Two 787 Dreamliner Jets"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Riyadh Air",
-        "tourism industry"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased tourism revenue and economic growth",
-      "downside": "Potential strain on existing infrastructure and resources",
-      "first_order": "Direct increase in air travel demand",
-      "second_order": "Indirect benefits to tourism and hospitality sectors",
-      "invalidation": "A significant decline in tourism demand or cancellation of airline expansions",
-      "_at": "2026-06-07T00:02:12.166542"
-    },
-    {
-      "statement": "The global oil supply is tightening due to geopolitical tensions",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "Decline in OPEC's oil output due to conflict and alliances",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be affected by the decline in global oil supply, potentially leading to increased revenue but also increased global tensions",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "OPEC Output Plunges Further Due to US-Israeli Alliance and Iran War"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "OPEC",
-        "oil-producing countries"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential increase in oil revenue for Saudi Arabia",
-      "downside": "Increased global tensions and potential economic instability",
-      "first_order": "Direct impact on global oil supply",
-      "second_order": "Indirect effects on global economy and trade",
-      "invalidation": "A rapid resolution to the conflict or a significant increase in oil production from non-OPEC countries",
-      "_at": "2026-06-07T00:02:12.166556"
-    },
-    {
-      "statement": "The demand for AI technology is increasing, straining global supply chains",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Growing demand for AI chips and related technologies",
-      "ksa_grounding": "As a country investing in technology and innovation, Saudi Arabia may be affected by the global demand for AI technology, potentially leading to increased investment in AI-related sectors",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "TSMC Says Burgeoning AI Chip Demand Straining Supply Chain",
-        "Meta Enters Enterprise AI Race with New Business Agent"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "tech companies",
-        "AI developers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in investment and innovation in AI-related sectors",
-      "downside": "Potential shortages and delays in AI-related technologies",
-      "first_order": "Direct impact on AI technology demand",
-      "second_order": "Indirect effects on related sectors and industries",
-      "invalidation": "A significant decline in demand for AI technology or a rapid increase in global supply chain capacity",
-      "_at": "2026-06-07T00:02:12.166557"
-    },
-    {
-      "statement": "Saudi Arabia's economy is becoming more diversified",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Government investments and initiatives are driving growth in non-oil sectors",
-      "ksa_grounding": "Reducing dependence on oil exports and increasing economic resilience",
-      "affected_sectors": [
-        "tourism",
-        "entertainment",
-        "renewable_energy"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "IMF warns of potential impact on Saudi Arabia's medium-term outlook due to prolonged Iran war",
-        "Saudi Arabia emerging as luxury fashion's next cultural growth market"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "government",
-        "private sector"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased economic stability and growth",
-      "downside": "Potential disruption to traditional industries",
-      "first_order": "Direct investment in non-oil sectors",
-      "second_order": "Increased economic activity and job creation",
-      "invalidation": "A significant decline in oil prices or a major setback in non-oil sector development",
-      "_at": "2026-06-06T00:04:25.215462"
-    },
-    {
-      "statement": "The Saudi renewable energy sector is experiencing increased investment",
-      "change_type": "investment",
-      "change_vector": "supply_looser",
-      "mechanism": "International companies are partnering with Saudi entities to develop renewable energy projects",
-      "ksa_grounding": "Increasing power generation capacity and reducing dependence on fossil fuels",
-      "affected_sectors": [
-        "renewable_energy",
-        "energy"
-      ],
-      "affected_regions": [
-        "jafurah"
-      ],
-      "evidence": [
-        "South Korea's KEPCO wins Saudi Jafurah power project contract",
-        "IMF warns of potential impact on Saudi Arabia's medium-term outlook due to prolonged Iran war"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "KEPCO",
-        "Saudi state-owned energy company"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased power generation capacity and reduced carbon emissions",
-      "downside": "Potential technical or logistical challenges",
-      "first_order": "Direct investment in renewable energy projects",
-      "second_order": "Increased energy security and reduced dependence on fossil fuels",
-      "invalidation": "A significant delay or cancellation of the Jafurah power project",
-      "_at": "2026-06-06T00:04:25.215475"
-    },
-    {
-      "statement": "Saudi Arabia's fintech sector is becoming more accessible to local developers",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "New platforms and tools are being developed to support local fintech innovation",
-      "ksa_grounding": "Increasing access to financial services and promoting economic growth",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "UAE's Permus Software House launches Myndlab, a native Arabic AI application builder"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "local developers",
-        "fintech companies"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased innovation and access to financial services",
-      "downside": "Potential regulatory or technical challenges",
-      "first_order": "Direct access to new platforms and tools",
-      "second_order": "Increased fintech innovation and economic growth",
-      "invalidation": "A significant decline in fintech investment or innovation in the region",
-      "_at": "2026-06-06T00:04:25.215477"
     }
   ],
-  "lastRefresh": "2026-07-06T00:03:15.384005"
+  "lastRefresh": "2026-07-07T00:04:22.846454"
 }
