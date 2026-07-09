@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "UAE Defense Budget Grows to $27.2 Billion in 2026",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-07",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "economy"
+      ],
+      "summary": "The UAE defense market offers significant growth opportunities driven by geopolitical tensions and strategic regional positioning. The UAE defense budget is expected to grow to $39.4 billion by 2031. The budget focuses on military aircraft, missiles, and land vehicles.",
+      "why_it_matters": "This growth in defense budget may impact Saudi Arabia's own defense spending and regional security dynamics. It could also lead to increased competition for defense contracts and partnerships in the Gulf region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-09T00:05:59.253031"
+    },
+    {
+      "title": "OPEC+ to Pump More Oil as Market Fears Shift from Shortage to Glut",
+      "source": "Fortune",
+      "source_tier": 2,
+      "time": "2026-07-07",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "OPEC+ is extending its production increases as Gulf oil flows recover and prices cool. However, fears of a global glut are mounting as supply rises faster than demand.",
+      "why_it_matters": "This shift in oil production could impact Saudi Arabia's oil exports and revenue, as well as the global energy market. It may also lead to changes in Saudi Arabia's energy policy and investments in alternative energy sources.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-09T00:05:59.253042"
+    },
+    {
+      "title": "Gulf Sovereign Wealth Funds Invest $1.7 Billion in India in 2026",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-07-07",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "finance"
+      ],
+      "summary": "Gulf sovereign funds invested $1.7 billion in India during the first half of 2026, despite geopolitical tensions and fears of reduced overseas deal appetite.",
+      "why_it_matters": "This investment could lead to increased economic cooperation between Saudi Arabia and India, as well as opportunities for Saudi businesses to expand into the Indian market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-09T00:05:59.253045"
+    },
+    {
+      "title": "Middle East BNPL Market to Skyrocket from USD 20.59 Billion in 2025 to USD 330.67 Billion by 2035",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-07",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Middle East",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "economy"
+      ],
+      "summary": "The Middle East BNPL market is rapidly expanding, driven by youthful, digital-savvy consumers and supported by strong e-commerce growth. Major players like Tabby and Tamara are leveraging fintech innovation.",
+      "why_it_matters": "This growth in the BNPL market could lead to increased financial inclusion and access to credit for consumers in Saudi Arabia, as well as opportunities for Saudi fintech companies to expand their services.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-09T00:05:59.253047"
+    },
+    {
       "title": "Saudi Arabia slashes crude oil prices for Asian buyers",
       "source": "Crypto Briefing",
       "source_tier": 2,
@@ -2922,171 +3013,13 @@
       "verification_status": "reported",
       "source_count": 2,
       "_at": "2026-06-10T00:09:19.499389"
-    },
-    {
-      "title": "OPEC+ approves fourth oil output quota hike since Hormuz closure",
-      "source": "CNA, gcaptain.com, BusinessLine",
-      "source_tier": 2,
-      "time": "2026-06-07",
-      "event_type": "geopolitical_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "OPEC+ has approved a fourth oil output quota hike since the Hormuz closure, increasing targets by 188,000 bpd from July. This move is expected to impact global oil supply and prices. The decision was made by the seven members of OPEC+ on Sunday.",
-      "why_it_matters": "This move may have strategic consequences for Saudi Arabia's oil exports and revenue, as well as the global energy market. It may also impact the country's ability to achieve its Vision 2030 goals, which include diversifying its economy and reducing its dependence on oil exports.",
-      "verification_status": "confirmed",
-      "source_count": 3,
-      "_at": "2026-06-09T00:02:10.095569"
-    },
-    {
-      "title": "Iran war spurs Mideast security recalibration, strategic diversification",
-      "source": "Globalsecurity.org",
-      "source_tier": 2,
-      "time": "2026-06-07",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "security",
-        "energy"
-      ],
-      "summary": "The Iran war has led to a recalibration of security strategies in the Middle East, with countries seeking to diversify their alliances and investments. This shift may impact the regional balance of power and have consequences for Saudi Arabia's security and energy interests.",
-      "why_it_matters": "The changing security landscape in the Middle East may require Saudi Arabia to adapt its own security strategies and investments, potentially impacting its ability to achieve its Vision 2030 goals. The country may need to diversify its energy investments and seek new alliances to mitigate potential risks.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-09T00:02:10.095581"
-    },
-    {
-      "title": "Nvidia and SK hynix expand partnership on AI memory, chip manufacturing",
-      "source": "MarketScreener",
-      "source_tier": 2,
-      "time": "2026-06-08",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "logistics"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "manufacturing"
-      ],
-      "summary": "Nvidia and SK hynix have expanded their partnership to develop next-generation memory for AI systems and accelerate semiconductor design and manufacturing. This partnership may impact the global AI and chip manufacturing industries.",
-      "why_it_matters": "The partnership between Nvidia and SK hynix may have strategic consequences for Saudi Arabia's fintech and logistics sectors, which are increasingly reliant on AI and advanced technologies. The country may need to invest in similar partnerships and technologies to remain competitive in these sectors.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-09T00:02:10.095584"
-    },
-    {
-      "title": "OPEC Output Plunges Further Due to War Between US-Israeli Alliance and Iran",
-      "source": "Rigzone, Financial Post",
-      "source_tier": 2,
-      "time": "2026-06-05",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "The ongoing war between the US-Israeli alliance and Iran has led to a significant decline in OPEC's oil output. This reduction in oil supplies from the Middle East is expected to have a substantial impact on the global energy market.",
-      "why_it_matters": "The decline in OPEC's oil output due to the war between the US-Israeli alliance and Iran is crucial for Saudi Arabia, as the country is a significant player in the global oil market. This development may lead to increased volatility in the energy market, affecting Saudi Arabia's economy and its ability to achieve the goals outlined in its Vision 2030.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-06-08T00:03:23.536495"
-    },
-    {
-      "title": "AI Adoption in Saudi Real Estate Sector",
-      "source": "Arabnews.jp",
-      "source_tier": 2,
-      "time": "2026-06-06",
-      "event_type": "market_shift",
-      "category": "technology",
-      "geography": "Saudi",
-      "sector_tags": [
-        "real estate"
-      ],
-      "region_tags": [
-        "eastern_province"
-      ],
-      "affected_domains": [
-        "construction",
-        "property"
-      ],
-      "summary": "The Saudi real estate sector is witnessing a significant shift towards the adoption of artificial intelligence (AI) technologies. This trend is expected to enhance the efficiency and productivity of the sector, leading to faster project delivery and reduced delays.",
-      "why_it_matters": "The adoption of AI in the Saudi real estate sector is important for the country's economic growth and development. It will enable the sector to become more competitive, efficient, and responsive to the needs of the market, ultimately supporting the goals of Saudi Arabia's Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-08T00:03:23.536508"
-    },
-    {
-      "title": "US Embassy Issues Travel Alert for Middle East Due to High Tensions",
-      "source": "Breitbart News",
-      "source_tier": 2,
-      "time": "2026-06-05",
-      "event_type": "geopolitical_move",
-      "category": "security",
-      "geography": "Middle East",
-      "sector_tags": [
-        "tourism",
-        "hospitality"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "travel",
-        "diplomacy"
-      ],
-      "summary": "The US Embassy has issued a travel alert for the Middle East due to high tensions in the region. The alert cautions against traveling to certain destinations, including Iran, Iraq, Lebanon, Syria, Gaza, and Yemen.",
-      "why_it_matters": "The travel alert issued by the US Embassy is significant for Saudi Arabia, as it may impact the country's tourism and hospitality industries. The alert may also affect the overall stability and security of the region, which is crucial for Saudi Arabia's economic growth and development.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-08T00:03:23.536511"
-    },
-    {
-      "title": "SpaceX's $1.77 Trillion IPO",
-      "source": "New Zealand Herald",
-      "source_tier": 2,
-      "time": "2026-06-05",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "space"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "investment"
-      ],
-      "summary": "SpaceX has announced its initial public offering (IPO) with a valuation of $1.77 trillion. The IPO is expected to be one of the largest in history, with some analysts questioning the company's valuation.",
-      "why_it_matters": "SpaceX's IPO is significant for Saudi Arabia, as the company is a major player in the global space industry. The IPO may attract significant investment from Saudi investors, which could support the country's efforts to diversify its economy and develop its own space industry.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-08T00:03:23.536513"
     }
   ],
-  "lastRefresh": "2026-07-07T23:56:19.685187",
+  "lastRefresh": "2026-07-09T00:06:13.521467",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 29,
+    "articles_to_model": 34,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3094,7 +3027,7 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
