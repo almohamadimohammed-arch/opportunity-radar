@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "statement": "Global oil supply is increasing",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased oil production from OPEC+ countries",
+      "ksa_grounding": "Potential decrease in oil prices, affecting Saudi Arabia's oil revenue and economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "Eastern Province"
+      ],
+      "evidence": [
+        "OPEC+ to pump more oil as market fears shift from shortage to glut",
+        "Saudi Arabia's attempts to revive oil flows from its reopened Ras Tanura terminal on the Persian Gulf are running into caution from customers"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Oil producers",
+        "Consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Lower oil prices for consumers",
+      "downside": "Decreased revenue for oil-producing countries like Saudi Arabia",
+      "first_order": "Increased oil supply",
+      "second_order": "Potential decrease in oil prices",
+      "invalidation": "OPEC+ announces a production cut",
+      "_at": "2026-07-10T00:01:58.499406"
+    },
+    {
+      "statement": "Tourism and hospitality sectors are growing",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Increased investment in tourism infrastructure and services",
+      "ksa_grounding": "Contribution to Saudi Arabia's economic diversification and growth",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "Red Sea"
+      ],
+      "evidence": [
+        "Red Sea Global strengthens AMAALA's wellness offering with the opening of Six Senses AMAALA"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Tourists",
+        "Investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased revenue and job creation in the tourism and hospitality sectors",
+      "downside": "Potential environmental and cultural impacts of increased tourism",
+      "first_order": "Increased investment in tourism infrastructure",
+      "second_order": "Job creation and economic growth in the tourism and hospitality sectors",
+      "invalidation": "Decrease in tourist arrivals due to global economic downturn",
+      "_at": "2026-07-10T00:01:58.499415"
+    },
+    {
       "statement": "Investment in fintech and banking is increasing",
       "change_type": "funding",
       "change_vector": "demand_up",
@@ -2230,5 +2288,5 @@
       "_at": "2026-06-10T00:09:56.724271"
     }
   ],
-  "lastRefresh": "2026-07-09T00:06:13.524933"
+  "lastRefresh": "2026-07-10T00:02:05.887642"
 }

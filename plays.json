@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "title": "Investment in Renewable Energy",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Energy Companies",
+      "customer": "Saudi Citizens",
+      "problem": "Decrease in oil revenue due to increasing global oil supply",
+      "action_path": "Saudi energy companies should invest in renewable energy sources, such as solar and wind power, to reduce dependence on oil and promote sustainable energy. This can be achieved by building new renewable energy plants and investing in energy storage technologies. Additionally, companies can partner with international firms to gain access to new technologies and expertise.",
+      "entry_mode": "build",
+      "monetization": "Increased revenue from renewable energy sources and reduced dependence on oil",
+      "capabilities": "Renewable energy development, energy storage, and project management capabilities",
+      "barriers": "High upfront costs, lack of skilled workforce, and regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Global oil supply is increasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "neom",
+        "red_sea"
+      ],
+      "ksa_grounding": "Investment in renewable energy is crucial to reduce Saudi Arabia's dependence on oil and promote sustainable energy",
+      "assumptions": "Saudi energy companies have the capability to invest in renewable energy and access to new technologies",
+      "invalidation": "Oil prices increase significantly, making renewable energy less competitive",
+      "_at": "2026-07-10T00:02:05.884710"
+    },
+    {
       "title": "Saudi Fintech Investment Opportunity",
       "play_type": "market_entry_play",
       "actor": "Fintech companies",
@@ -1930,5 +1959,5 @@
       "_at": "2026-06-10T00:10:03.743144"
     }
   ],
-  "lastRefresh": "2026-07-09T00:06:13.526815"
+  "lastRefresh": "2026-07-10T00:02:05.889596"
 }

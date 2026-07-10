@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia's attempts to revive oil flows from its reopened Ras Tanura terminal on the Persian Gulf are running into caution from customers",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "eastern_province"
+      ],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Saudi Arabia's attempts to revive oil flows from its reopened Ras Tanura terminal on the Persian Gulf are running into caution from customers, who are reluctant to load there because of renewed threats in the region. This is due to the recent US strikes on Iran, which has led to increased tensions in the Middle East.",
+      "why_it_matters": "This caution from customers may impact Saudi Arabia's oil exports and revenue, which is a crucial part of the country's economy. It may also affect the country's ability to achieve its Vision 2030 goals, which include diversifying its economy and reducing its dependence on oil exports.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T00:01:21.216700"
+    },
+    {
+      "title": "Red Sea Global strengthens AMAALA's wellness offering with the opening of Six Senses AMAALA",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "product_launch",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "leisure"
+      ],
+      "summary": "Red Sea Global has strengthened AMAALA's wellness offering with the opening of Six Senses AMAALA, a new resort that reinforces AMAALA's emergence as the world's most comprehensive wellness destination. This is in line with Saudi Arabia's Vision 2030 goals, which include developing the country's tourism sector.",
+      "why_it_matters": "The opening of Six Senses AMAALA is a significant development for Saudi Arabia's tourism sector, which is a key part of the country's Vision 2030 goals. It may attract more tourists to the country and help to diversify its economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T00:01:21.216711"
+    },
+    {
+      "title": "LIV Golf reportedly signals mass layoffs amid search for investors after Saudi Arabia pulls funding",
+      "source": "Yahoo Entertainment",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "leisure"
+      ],
+      "summary": "LIV Golf is reportedly signaling mass layoffs amid a search for investors after Saudi Arabia's Public Investment Fund announced it would no longer back the league after 2026. This is a significant development for the golfing world and may impact the sport's popularity in Saudi Arabia.",
+      "why_it_matters": "The potential mass layoffs at LIV Golf may impact the sport's popularity in Saudi Arabia and affect the country's reputation as a hub for international sports events. It may also affect the country's ability to attract foreign investment and talent.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T00:01:21.216715"
+    },
+    {
+      "title": "Gulf states raise nearly $10 billion in private debt as Iran war reshapes capital markets",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance"
+      ],
+      "summary": "Gulf states have raised nearly $10 billion in private debt as the Iran war reshapes capital markets. This is a significant development for the region's financial sector and may impact the flow of capital into the Gulf states.",
+      "why_it_matters": "The raising of private debt by Gulf states may help to mitigate the impact of the Iran war on the region's financial sector. It may also attract more foreign investment to the region and help to diversify the Gulf states' economies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T00:01:21.216717"
+    },
+    {
       "title": "UAE Defense Budget Grows to $27.2 Billion in 2026",
       "source": "GlobeNewswire",
       "source_tier": 2,
@@ -3015,11 +3106,11 @@
       "_at": "2026-06-10T00:09:19.499389"
     }
   ],
-  "lastRefresh": "2026-07-09T00:06:13.521467",
+  "lastRefresh": "2026-07-10T00:02:05.884823",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 40,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3027,7 +3118,7 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
