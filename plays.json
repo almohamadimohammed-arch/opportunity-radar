@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Energy Market Competition Strategy",
+      "play_type": "defensive_play",
+      "actor": "Saudi Arabian oil and gas companies",
+      "customer": "Asian energy consumers",
+      "problem": "Competition in the energy market is intensifying, putting pressure on profit margins",
+      "action_path": "Saudi Arabian oil and gas companies can develop a competitive strategy to maintain their market share in the Asian region, focusing on cost optimization and efficiency improvements. They can also invest in renewable energy sources to diversify their portfolio and reduce their dependence on crude oil. By doing so, they can mitigate the effects of price cuts and maintain their profitability.",
+      "entry_mode": "build",
+      "monetization": "Increased market share and revenue in the Asian region",
+      "capabilities": "Cost optimization, efficiency improvements, and renewable energy development",
+      "barriers": "High upfront costs for renewable energy investments, regulatory complexities",
+      "timing": "prepare now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Competition in the energy market is intensifying"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by aligning with the country's efforts to increase its market share in the Asian region and reduce its dependence on crude oil",
+      "assumptions": "The demand for energy in the Asian region will continue to grow, and Saudi Arabian oil and gas companies can maintain their competitiveness",
+      "invalidation": "A significant increase in global energy demand that outweighs the effects of price cuts",
+      "_at": "2026-07-10T23:55:57.603155"
+    },
+    {
+      "title": "Tourism Infrastructure Development",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Arabian government and private investors",
+      "customer": "Tourists and hospitality businesses",
+      "problem": "Tourism growth is accelerating, creating a need for infrastructure development",
+      "action_path": "The Saudi Arabian government and private investors can develop tourism infrastructure, such as hotels, resorts, and entertainment facilities, to cater to the growing demand for tourism. They can invest in sustainable and innovative solutions to enhance the tourist experience and create jobs. By doing so, they can increase tourism revenue and contribute to the country's economic diversification.",
+      "entry_mode": "build",
+      "monetization": "Increased tourism revenue and job creation",
+      "capabilities": "Infrastructure development, sustainable and innovative solutions, and project management",
+      "barriers": "High upfront costs, regulatory complexities, and environmental concerns",
+      "timing": "build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Tourism growth is accelerating"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "relevant_regions": [
+        "makkah",
+        "madinah",
+        "neom"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by aligning with Vision 2030, which aims to increase tourism revenue and create jobs",
+      "assumptions": "The demand for tourism in Saudi Arabia will continue to grow, and the government and private investors can develop infrastructure to meet this demand",
+      "invalidation": "A significant decline in global tourism demand or a major setback in Saudi Arabia's tourism infrastructure development",
+      "_at": "2026-07-10T23:55:57.603164"
+    },
+    {
       "title": "Investment in Renewable Energy",
       "play_type": "infrastructure_play",
       "actor": "Saudi Energy Companies",
@@ -1897,67 +1957,7 @@
       "assumptions": "The Saudi government will continue to support the growth of the fintech sector, and local companies will be open to partnering with education and training institutions",
       "invalidation": "If investment in AI and fintech were to decrease, or if local companies were to resist partnering with education and training institutions",
       "_at": "2026-06-11T00:13:33.626592"
-    },
-    {
-      "title": "Saudi Oil Refining Sector Risk Mitigation",
-      "play_type": "defensive_play",
-      "actor": "Saudi Aramco, Saudi oil refining companies",
-      "customer": "Saudi oil refining sector stakeholders",
-      "problem": "Rising risk exposure in the oil refining sector due to disruptions in Middle East crude supplies",
-      "action_path": "Develop contingency plans to mitigate the impact of disruptions in Middle East crude supplies on Saudi oil refining sector, diversify crude oil sources, and invest in supply chain resilience. This can include partnering with international oil companies to share risk and expertise. Implementing robust risk management systems can also help identify and mitigate potential risks.",
-      "entry_mode": "build",
-      "monetization": "Reduced risk exposure, increased supply chain resilience, and potential cost savings",
-      "capabilities": "Risk management, supply chain management, international partnerships",
-      "barriers": "Complexity of international partnerships, high costs of implementing risk management systems",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Risk exposure in the oil refining sector is rising"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil refining sector is a critical component of the country's economy, and mitigating risk exposure is essential to ensure the sector's stability and growth",
-      "assumptions": "The disruptions in Middle East crude supplies will continue, and the Saudi oil refining sector will be impacted",
-      "invalidation": "If the disruptions in Middle East crude supplies are resolved quickly, or if the Saudi oil refining sector is not significantly impacted",
-      "_at": "2026-06-10T00:10:03.743134"
-    },
-    {
-      "title": "Saudi Oil Export Increase Opportunity",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco, Saudi oil exporting companies",
-      "customer": "International oil buyers",
-      "problem": "Global crude oil supply has loosened slightly, creating an opportunity for Saudi oil exports to increase",
-      "action_path": "Increase oil production to meet the rising global demand, expand marketing efforts to attract new customers, and invest in logistics and transportation infrastructure to facilitate exports. This can include partnering with international oil companies to increase market share. Implementing efficient production and logistics systems can also help reduce costs and increase competitiveness.",
-      "entry_mode": "invest",
-      "monetization": "Increased oil exports, revenue growth, and market share expansion",
-      "capabilities": "Oil production, marketing, logistics, international partnerships",
-      "barriers": "High costs of increasing oil production, intense competition in the global oil market",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Global crude oil supply has loosened slightly"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports are a significant contributor to the country's economy, and increasing exports can support economic growth",
-      "assumptions": "The global crude oil supply will continue to loosen, and the demand for Saudi oil will increase",
-      "invalidation": "If OPEC+ fails to implement the planned output quota hike, or if geopolitical tensions worsen",
-      "_at": "2026-06-10T00:10:03.743144"
     }
   ],
-  "lastRefresh": "2026-07-10T00:02:05.889596"
+  "lastRefresh": "2026-07-10T23:55:57.608149"
 }

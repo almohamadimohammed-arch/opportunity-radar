@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "statement": "Competition in the energy market is intensifying",
+      "change_type": "competition",
+      "change_vector": "competition_intensifying",
+      "mechanism": "Saudi Arabia's move to slash crude oil prices for Asia is increasing competition in the energy market",
+      "ksa_grounding": "This change will specifically impact Saudi Arabia's economy by potentially increasing market share in the Asian region, but also putting pressure on profit margins",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia slashes crude oil price for Asia",
+        "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "International energy companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in market share in Asia",
+      "downside": "Potential decrease in profit margins due to price cuts",
+      "first_order": "Direct impact on energy prices and market share",
+      "second_order": "Downstream effects on related sectors such as petrochemicals and mining",
+      "invalidation": "A significant increase in global energy demand that outweighs the effects of price cuts",
+      "_at": "2026-07-10T23:55:49.764127"
+    },
+    {
+      "statement": "Tourism growth is accelerating",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Investments in tourism infrastructure, such as the opening of Six Senses AMAALA, are driving growth in the tourism sector",
+      "ksa_grounding": "This change will specifically impact Saudi Arabia's economy by increasing tourism revenue and creating jobs, aligning with Vision 2030",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Red Sea Global strengthens AMAALA's wellness offering with Six Senses AMAALA",
+        "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Tourism companies",
+        "Local communities"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased tourism revenue and job creation",
+      "downside": "Potential environmental and cultural impacts of increased tourism",
+      "first_order": "Direct increase in tourism revenue",
+      "second_order": "Downstream effects on related sectors such as hospitality and entertainment",
+      "invalidation": "A significant decline in global tourism demand or a major setback in Saudi Arabia's tourism infrastructure development",
+      "_at": "2026-07-10T23:55:49.764137"
+    },
+    {
       "statement": "Global oil supply is increasing",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2201,92 +2260,7 @@
       "second_order": "Potential for increased economic growth and innovation",
       "invalidation": "If regulatory barriers to fintech integration were to increase, leading to a decrease in adoption of fintech solutions",
       "_at": "2026-06-11T00:12:55.672315"
-    },
-    {
-      "statement": "Global crude oil supply has loosened slightly",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "OPEC+ plans to raise oil output quota, increasing global supply",
-      "ksa_grounding": "Saudi Arabia's oil exports may increase, supporting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "OPEC+ plans small oil output quota hike for July",
-        "China reduces oil imports, capping global crude prices"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "OPEC+",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential increase in oil exports and revenue for Saudi Arabia",
-      "downside": "Limited actual impact due to geopolitical tensions",
-      "first_order": "Increased oil supply",
-      "second_order": "Potential decrease in global crude prices",
-      "invalidation": "If OPEC+ fails to implement the planned output quota hike or if geopolitical tensions worsen",
-      "_at": "2026-06-10T00:09:56.724258"
-    },
-    {
-      "statement": "Cloud and AI growth in the region is accelerating",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Rackspace Technology establishes regional headquarters in Riyadh, supporting cloud and AI growth",
-      "ksa_grounding": "Saudi Arabia's technology sector may benefit from increased investment and expertise",
-      "affected_sectors": [
-        "fintech",
-        "logistics"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Rackspace Technology establishes regional headquarters in Riyadh"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Rackspace Technology",
-        "Saudi technology companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in technology investment and job creation",
-      "downside": "Limited impact if Rackspace Technology's investment is not followed by others",
-      "first_order": "Increased cloud and AI capabilities in the region",
-      "second_order": "Potential increase in technology-related jobs and investment",
-      "invalidation": "If Rackspace Technology's investment does not lead to significant growth in the region's technology sector",
-      "_at": "2026-06-10T00:09:56.724267"
-    },
-    {
-      "statement": "Risk exposure in the oil refining sector is rising",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Disruptions in Middle East crude supplies are affecting refinery projects",
-      "ksa_grounding": "Saudi Arabia's oil refining sector may be impacted by delays in Chinese refinery projects",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "China delays major refinery projects due to Middle East crude supply disruptions",
-        "China reduces oil imports, capping global crude prices"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Chinese refiners",
-        "oil suppliers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential increase in oil prices due to reduced refining capacity",
-      "downside": "Potential decrease in oil demand due to reduced refining capacity",
-      "first_order": "Delays in refinery projects",
-      "second_order": "Potential impact on global oil prices and demand",
-      "invalidation": "If the disruptions in Middle East crude supplies are resolved quickly",
-      "_at": "2026-06-10T00:09:56.724271"
     }
   ],
-  "lastRefresh": "2026-07-10T00:02:05.887642"
+  "lastRefresh": "2026-07-10T23:55:57.606171"
 }

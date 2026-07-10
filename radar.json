@@ -1,6 +1,123 @@
 {
   "items": [
     {
+      "title": "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-07-09",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "mining"
+      ],
+      "summary": "Canadian Prime Minister Mark Carney visited Saudi Arabia to strengthen energy and mining partnerships. The visit aims to improve relations between the two countries after years of strained relations. Saudi Crown Prince Bin Salman and Carney discussed potential collaborations in the energy and mining sectors.",
+      "why_it_matters": "The strengthened partnership between Canada and Saudi Arabia could lead to increased investments in Saudi Arabia's energy and mining sectors, aligning with the country's Vision 2030 goals. This move may also enhance Saudi Arabia's position in the global energy market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T23:55:12.441741"
+    },
+    {
+      "title": "Saudi Arabia's Humain partners with Cohere for sovereign AI models",
+      "source": "Crypto Briefing, CNA",
+      "source_tier": 2,
+      "time": "2026-07-09",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "AI",
+        "technology"
+      ],
+      "summary": "Saudi Arabia's Humain has partnered with Cohere to develop sovereign AI models with a 50 MW compute commitment. This partnership aims to accelerate AI innovation in the Middle East and enhance regional tech capabilities.",
+      "why_it_matters": "The partnership between Humain and Cohere could accelerate the development of AI technologies in Saudi Arabia, supporting the country's Vision 2030 goals. This move may also increase Saudi Arabia's competitiveness in the global AI market.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-10T23:55:12.441753"
+    },
+    {
+      "title": "Gulf companies to reveal financial impact of Iran war",
+      "source": "The Times of India, BusinessLine",
+      "source_tier": 2,
+      "time": "2026-07-09",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "banking",
+        "insurance",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "economy"
+      ],
+      "summary": "Gulf companies will reveal the financial impact of the Iran war, which is expected to affect the banking and real estate sectors due to inflation and interest rate changes. Energy firms may also see price gains.",
+      "why_it_matters": "The financial impact of the Iran war on Gulf companies may have significant consequences for the regional economy, potentially affecting Saudi Arabia's economic stability and growth. This move may also influence the country's investment decisions and economic policies.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-10T23:55:12.441755"
+    },
+    {
+      "title": "Red Sea Global strengthens AMAALA's wellness offering with Six Senses AMAALA",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "tourism",
+        "hospitality"
+      ],
+      "summary": "Red Sea Global has strengthened AMAALA's wellness offering with the opening of Six Senses AMAALA, reinforcing AMAALA's position as a comprehensive wellness destination. This move is expected to drive Saudi Arabia's tourism growth in line with Vision 2030.",
+      "why_it_matters": "The expansion of AMAALA's wellness offerings may attract more tourists to the region, supporting Saudi Arabia's goals to diversify its economy and develop its tourism sector. This move may also enhance the country's reputation as a luxury tourism destination.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T23:55:12.441757"
+    },
+    {
+      "title": "Saudi Arabia slashes crude oil price for Asia",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "market_shift",
+      "category": "energy",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "oil"
+      ],
+      "summary": "Saudi Arabia has slashed the price of its crude oil for Asia, the most significant price cut in two decades. This move is expected to increase the country's market share in the region.",
+      "why_it_matters": "The price cut may help Saudi Arabia maintain its market share in Asia, supporting the country's oil export goals. This move may also influence the global oil market and impact the country's revenue.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-10T23:55:12.441758"
+    },
+    {
       "title": "Saudi Arabia's attempts to revive oil flows from its reopened Ras Tanura terminal on the Persian Gulf are running into caution from customers",
       "source": "Financial Post",
       "source_tier": 2,
@@ -2993,134 +3110,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-11T00:12:48.272215"
-    },
-    {
-      "title": "China reduces oil imports, capping global crude prices",
-      "source": "CNBC",
-      "source_tier": 1,
-      "time": "2026-06-08",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "China has reduced oil imports since the start of the Iran war, capping global crude prices. This move has helped to cushion global oil prices below $100.",
-      "why_it_matters": "This development has significant implications for Saudi Arabia's oil exports and revenue, as China is a major consumer of oil.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-10T00:09:19.499373"
-    },
-    {
-      "title": "OPEC+ plans small oil output quota hike for July",
-      "source": "Crypto Briefing, CNA",
-      "source_tier": 2,
-      "time": "2026-06-08",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "OPEC+ plans to raise its oil output quota by 188,000 barrels per day in July, but the move is largely symbolic due to geopolitical tensions limiting actual oil exports.",
-      "why_it_matters": "This decision may have limited impact on global oil prices, but it highlights the ongoing challenges faced by Saudi Arabia and other oil-producing countries in navigating geopolitical tensions.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-06-10T00:09:19.499383"
-    },
-    {
-      "title": "Rackspace Technology establishes regional headquarters in Riyadh",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-06-08",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "fintech",
-        "logistics"
-      ],
-      "region_tags": [
-        "riyadh"
-      ],
-      "affected_domains": [
-        "technology",
-        "cloud computing"
-      ],
-      "summary": "Rackspace Technology has established a regional headquarters in Riyadh to accelerate cloud and AI growth in the region.",
-      "why_it_matters": "This move demonstrates the growing importance of Saudi Arabia as a hub for technology and innovation, and may attract further investment and talent to the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-10T00:09:19.499386"
-    },
-    {
-      "title": "LIV Golf faces funding concerns after Saudi PIF pulls backing",
-      "source": "Fox News, HITC - Football, Gaming, Movies, TV, Music, Mediaite, BroBible",
-      "source_tier": 2,
-      "time": "2026-06-08",
-      "event_type": "funding",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "entertainment",
-        "sports"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "golf",
-        "sports marketing"
-      ],
-      "summary": "LIV Golf is facing funding concerns after the Saudi Public Investment Fund (PIF) announced it would stop backing the breakaway league.",
-      "why_it_matters": "This development may have significant implications for the future of LIV Golf and the broader sports industry in Saudi Arabia, which has invested heavily in sports development and marketing.",
-      "verification_status": "reported",
-      "source_count": 5,
-      "_at": "2026-06-10T00:09:19.499387"
-    },
-    {
-      "title": "China delays major refinery projects due to Middle East crude supply disruptions",
-      "source": "Breitbart News, OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-06-08",
-      "event_type": "infrastructure_disruption",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "China has delayed two major refinery projects due to disruptions in Middle East crude supplies, which has forced Chinese refiners to delay or postpone 500,000 barrels per day of refining capacity.",
-      "why_it_matters": "This development highlights the significant impact of geopolitical tensions on global energy markets and may have implications for Saudi Arabia's oil exports and revenue.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-06-10T00:09:19.499389"
     }
   ],
-  "lastRefresh": "2026-07-10T00:02:05.884823",
+  "lastRefresh": "2026-07-10T23:55:57.603290",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 37,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }
