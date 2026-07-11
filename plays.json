@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "title": "Diversify Energy Revenue Streams",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "Saudi Government",
+      "problem": "Decreased oil prices affecting Saudi Arabia's oil revenue",
+      "action_path": "Invest in renewable energy sources and petrochemicals to reduce dependence on oil exports. Develop strategic partnerships with international companies to enhance capabilities. Enhance research and development in energy efficiency and sustainability.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue from diversified energy sources",
+      "capabilities": "Renewable energy production, petrochemical manufacturing, research and development",
+      "barriers": "High initial investment costs, technological challenges",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Global oil supply has loosened"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "petrochemicals"
+      ],
+      "relevant_regions": [
+        "riyadh"
+      ],
+      "ksa_grounding": "Diversification of energy revenue streams aligns with Saudi Arabia's Vision 2030 goals",
+      "assumptions": "Saudi Arabia will continue to prioritize economic diversification, global demand for renewable energy will increase",
+      "invalidation": "If oil prices rebound significantly, reducing the need for diversification",
+      "_at": "2026-07-11T23:52:22.193504"
+    },
+    {
+      "title": "Develop Tourism Infrastructure",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Tourism Authority",
+      "customer": "Tourists and hospitality businesses",
+      "problem": "Limited tourism infrastructure hindering sector growth",
+      "action_path": "Develop and invest in tourism infrastructure such as hotels, resorts, and transportation systems. Enhance tourist attractions and experiences. Foster partnerships with international tourism companies to bring in expertise and investment.",
+      "entry_mode": "build",
+      "monetization": "Increased tourism revenue and job creation",
+      "capabilities": "Infrastructure development, project management, marketing and promotion",
+      "barriers": "High development costs, regulatory challenges",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Saudi Arabia's tourism sector is experiencing growth"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "hospitality",
+        "entertainment"
+      ],
+      "relevant_regions": [
+        "jeddah",
+        "makkah",
+        "madinah"
+      ],
+      "ksa_grounding": "Tourism development aligns with Saudi Arabia's Vision 2030 tourism goals",
+      "assumptions": "Tourism growth will continue, government support for tourism development will remain strong",
+      "invalidation": "If global economic downturn or regional instability affects tourism demand",
+      "_at": "2026-07-11T23:52:22.193514"
+    },
+    {
+      "title": "Enhance Energy Efficiency",
+      "play_type": "research_play",
+      "actor": "Saudi Research Institutions",
+      "customer": "Energy companies and government agencies",
+      "problem": "Inefficient energy use affecting Saudi Arabia's energy sector",
+      "action_path": "Conduct research and development in energy efficiency and sustainability. Collaborate with international research institutions to leverage expertise and technologies. Develop and implement energy-efficient solutions for buildings and industries.",
+      "entry_mode": "invest",
+      "monetization": "Reduced energy consumption and costs, increased competitiveness",
+      "capabilities": "Research and development, energy auditing and consulting",
+      "barriers": "Limited funding, technological challenges",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global oil supply has loosened"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "renewable_energy",
+        "energy_efficiency"
+      ],
+      "relevant_regions": [
+        "riyadh"
+      ],
+      "ksa_grounding": "Energy efficiency enhancements align with Saudi Arabia's Vision 2030 sustainability goals",
+      "assumptions": "Energy efficiency will become increasingly important for Saudi Arabia's energy sector, international cooperation will be available",
+      "invalidation": "If energy prices remain low, reducing the incentive for energy efficiency",
+      "_at": "2026-07-11T23:52:22.193516"
+    },
+    {
       "title": "Energy Market Competition Strategy",
       "play_type": "defensive_play",
       "actor": "Saudi Arabian oil and gas companies",
@@ -1867,97 +1956,7 @@
       "assumptions": "The gaming industry will continue to grow, and fintech solutions will be in high demand",
       "invalidation": "Regulatory changes that restrict fintech solutions for the gaming industry",
       "_at": "2026-06-12T00:18:21.396357"
-    },
-    {
-      "title": "Saudi Fintech Integration",
-      "play_type": "business_play",
-      "actor": "Fintech companies",
-      "customer": "Saudi banks and financial institutions",
-      "problem": "Regulatory barriers to fintech integration have reduced, creating an opportunity for fintech companies to expand in Saudi Arabia",
-      "action_path": "Fintech companies can develop and offer innovative financial solutions to Saudi banks and financial institutions, leveraging the reduced regulatory barriers. They can partner with local banks to offer digital payment solutions, mobile wallets, and other financial services. This can help drive economic growth and innovation in Saudi Arabia.",
-      "entry_mode": "partner",
-      "monetization": "Revenue sharing with local banks, transaction fees",
-      "capabilities": "Cloud-native capabilities, AI-powered financial solutions",
-      "barriers": "Regulatory hurdles, competition from established players",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory barriers to fintech integration have reduced"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by leveraging the government's investment in AI and fintech, and the reduced regulatory barriers to fintech integration",
-      "assumptions": "The Saudi government will continue to support the growth of the fintech sector, and local banks will be open to partnering with fintech companies",
-      "invalidation": "If regulatory barriers to fintech integration were to increase, or if local banks were to resist partnering with fintech companies",
-      "_at": "2026-06-11T00:13:33.626577"
-    },
-    {
-      "title": "Saudi AI-Powered Oil and Gas Optimization",
-      "play_type": "business_play",
-      "actor": "AI and data analytics companies",
-      "customer": "Saudi oil and gas companies",
-      "problem": "Global crude oil supply has loosened, creating a need for Saudi oil and gas companies to optimize their operations",
-      "action_path": "AI and data analytics companies can develop and offer AI-powered optimization solutions to Saudi oil and gas companies, helping them to reduce costs and increase efficiency. They can analyze data on oil production, transportation, and storage to identify areas for improvement. This can help Saudi oil and gas companies to remain competitive in a loosened global crude oil supply market.",
-      "entry_mode": "build",
-      "monetization": "Licensing fees, consulting services",
-      "capabilities": "AI and data analytics capabilities, oil and gas industry expertise",
-      "barriers": "Competition from established players, data quality issues",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Global crude oil supply has loosened due to reduced imports by China"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "technology"
-      ],
-      "relevant_regions": [
-        "eastern_province",
-        "riyadh"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by helping Saudi oil and gas companies to optimize their operations and remain competitive in a changing global market",
-      "assumptions": "The Saudi government will continue to support the growth of the oil and gas sector, and local companies will be open to adopting AI-powered optimization solutions",
-      "invalidation": "If the global crude oil supply were to tighten, or if Saudi oil and gas companies were to resist adopting AI-powered optimization solutions",
-      "_at": "2026-06-11T00:13:33.626590"
-    },
-    {
-      "title": "Saudi Fintech Talent Development",
-      "play_type": "workforce_dev",
-      "actor": "Education and training institutions",
-      "customer": "Fintech companies, Saudi banks and financial institutions",
-      "problem": "The growth of the fintech sector in Saudi Arabia has created a need for skilled talent",
-      "action_path": "Education and training institutions can develop and offer training programs in fintech, AI, and data analytics to help meet the growing demand for skilled talent in the sector. They can partner with fintech companies and local banks to offer customized training programs. This can help to drive the growth of the fintech sector in Saudi Arabia.",
-      "entry_mode": "build",
-      "monetization": "Tuition fees, consulting services",
-      "capabilities": "Fintech, AI, and data analytics expertise, training and education capabilities",
-      "barriers": "Competition from established players, talent acquisition challenges",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Investment in AI and fintech is increasing in Saudi Arabia"
-      ],
-      "sector": "education",
-      "relevant_sectors": [
-        "fintech",
-        "education"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by helping to develop the talent needed to support the growth of the fintech sector",
-      "assumptions": "The Saudi government will continue to support the growth of the fintech sector, and local companies will be open to partnering with education and training institutions",
-      "invalidation": "If investment in AI and fintech were to decrease, or if local companies were to resist partnering with education and training institutions",
-      "_at": "2026-06-11T00:13:33.626592"
     }
   ],
-  "lastRefresh": "2026-07-10T23:55:57.608149"
+  "lastRefresh": "2026-07-11T23:52:22.198564"
 }

@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "title": "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-07-09",
+      "event_type": "partnership",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "mining"
+      ],
+      "summary": "Canadian Prime Minister Mark Carney visited Saudi Arabia to strengthen energy and mining partnerships. The visit aims to deepen bilateral trade and investment between the two nations. Saudi Arabian investors are interested in Canadian energy, mining, and infrastructure.",
+      "why_it_matters": "This partnership can enhance Saudi Arabia's energy and mining sectors, aligning with Vision 2030 goals. It also signals a strengthening of diplomatic relations between Canada and Saudi Arabia.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-11T23:51:07.116106"
+    },
+    {
+      "title": "UAE Oil Production Hits Record 4.1 Million Barrels Per Day",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-10",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "The UAE's oil production has reached a record 4.1 million barrels per day after its exit from OPEC. This surge in production could destabilize global oil prices and prompt strategic shifts among remaining OPEC members.",
+      "why_it_matters": "This development can impact Saudi Arabia's oil production and pricing strategies, as well as its relations with other OPEC members. It may also influence global energy market dynamics.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-11T23:51:07.116117"
+    },
+    {
+      "title": "Gulf Companies Reveal Unequal Toll of Iran War",
+      "source": "BusinessLine",
+      "source_tier": 2,
+      "time": "2026-07-09",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "banking",
+        "real estate"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "finance"
+      ],
+      "summary": "Gulf companies will reveal the regional financial impact of the Iran war, with banks and real estate sectors facing challenges due to inflation and interest rate changes. Energy firms have seen price gains.",
+      "why_it_matters": "The economic implications of the Iran war can affect Saudi Arabia's financial stability and growth, particularly in the banking and real estate sectors. This may require strategic adjustments to mitigate potential risks.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-07-11T23:51:07.116119"
+    },
+    {
+      "title": "Red Sea Global Strengthens AMAALA's Wellness Offering",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-07-08",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "tourism",
+        "healthcare"
+      ],
+      "summary": "Red Sea Global has opened the Six Senses AMAALA resort, reinforcing AMAALA's position as a comprehensive wellness destination. This development aligns with Saudi Arabia's Vision 2030 tourism growth goals.",
+      "why_it_matters": "This investment can enhance Saudi Arabia's tourism sector, particularly in the Red Sea region, and contribute to the country's economic diversification efforts.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-11T23:51:07.116121"
+    },
+    {
+      "title": "IEA Cuts Russia's Oil Production Forecast",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-07-10",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "The International Energy Agency (IEA) has lowered Russia's oil production forecast for 2026 and 2027 due to intensified Ukrainian drone attacks on Russia's energy infrastructure.",
+      "why_it_matters": "This forecast reduction can impact global oil market dynamics and influence Saudi Arabia's oil production and pricing strategies, as well as its relations with other oil-producing nations.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-07-11T23:51:07.116122"
+    },
+    {
       "title": "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -3043,88 +3156,21 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-12T00:17:07.085741"
-    },
-    {
-      "title": "Kuwait seeks pipeline alternatives to export crude oil",
-      "source": "Financial Post",
-      "source_tier": 2,
-      "time": "2026-06-09",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "Kuwait is seeking pipeline alternatives to export its crude oil as the near-closure of the Strait of Hormuz starves the market of vital barrels and Persian Gulf producers of the cash to run their economies.",
-      "why_it_matters": "This development may have implications for Saudi Arabia's oil exports and the regional energy landscape, as Kuwait's search for alternative export routes could impact the balance of power in the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-11T00:12:48.272199"
-    },
-    {
-      "title": "NEOM halts construction of The Line until after 2030",
-      "source": "Archinect",
-      "source_tier": 2,
-      "time": "2026-06-09",
-      "event_type": "infrastructure_disruption",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "construction",
-        "real_estate"
-      ],
-      "region_tags": [
-        "neom"
-      ],
-      "affected_domains": [
-        "infrastructure"
-      ],
-      "summary": "Construction of The Line in Saudi Arabia has been halted until at least 2030, according to new reporting from Semafor.",
-      "why_it_matters": "This development may have significant implications for Saudi Arabia's mega-projects and economic development plans, as NEOM is a key component of the country's Vision 2030 strategy.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-11T00:12:48.272213"
-    },
-    {
-      "title": "Gulf states invest in AI, with Saudi Arabia a key player",
-      "source": "Forbes",
-      "source_tier": 2,
-      "time": "2026-06-09",
-      "event_type": "market_shift",
-      "category": "technology",
-      "geography": "Gulf",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology"
-      ],
-      "summary": "Gulf states, including Saudi Arabia, are investing heavily in AI, with a focus on developing the technology and attracting international investment.",
-      "why_it_matters": "This development highlights the growing importance of AI in the region and may have implications for Saudi Arabia's economic diversification and digital transformation efforts.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-11T00:12:48.272215"
     }
   ],
-  "lastRefresh": "2026-07-10T23:55:57.603290",
+  "lastRefresh": "2026-07-11T23:52:22.193623",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
     "articles_to_model": 37,
     "radar_generated": 5,
-    "radar_confirmed": 2,
-    "radar_reported": 3,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Global oil supply has loosened",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased oil production from the UAE and reduced production forecast for Russia",
+      "ksa_grounding": "This could lead to decreased oil prices, affecting Saudi Arabia's oil revenue and potentially prompting strategic shifts in the country's energy sector",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE Oil Production Hits Record 4.1 Million Barrels Per Day",
+        "IEA Cuts Russia's Oil Production Forecast"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC members",
+        "oil-producing countries"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential decrease in oil prices, benefiting oil-importing countries",
+      "downside": "Potential destabilization of global oil prices, affecting oil-exporting countries' revenue",
+      "first_order": "Direct impact on global oil supply",
+      "second_order": "Potential strategic shifts among OPEC members and oil-producing countries",
+      "invalidation": "If OPEC members successfully counterbalance the increased UAE production and Russia's production forecast is revised upwards",
+      "_at": "2026-07-11T23:51:44.515380"
+    },
+    {
+      "statement": "Saudi Arabia's tourism sector is experiencing growth",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Investments in tourism infrastructure and development of wellness destinations",
+      "ksa_grounding": "This growth aligns with Saudi Arabia's Vision 2030 tourism goals, contributing to the country's economic diversification",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Red Sea Global Strengthens AMAALA's Wellness Offering",
+        "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "tourism companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in tourism revenue, contributing to Saudi Arabia's economic growth",
+      "downside": "Potential over-reliance on tourism sector, making the economy vulnerable to external shocks",
+      "first_order": "Direct impact on Saudi Arabia's tourism sector",
+      "second_order": "Potential spillover effects on other sectors, such as hospitality and entertainment",
+      "invalidation": "If tourism growth slows down due to external factors, such as global economic downturn or regional instability",
+      "_at": "2026-07-11T23:51:44.515390"
+    },
+    {
+      "statement": "Regulatory barriers to energy and mining partnerships between Canada and Saudi Arabia have reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Strengthened bilateral partnerships and investments",
+      "ksa_grounding": "This reduction in regulatory barriers can lead to increased trade and investment between Canada and Saudi Arabia, benefiting Saudi Arabia's energy and mining sectors",
+      "affected_sectors": [
+        "oil_gas",
+        "mining"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Canadian and Saudi Arabian companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in trade and investment between Canada and Saudi Arabia",
+      "downside": "Potential risks associated with increased reliance on foreign investments",
+      "first_order": "Direct impact on energy and mining partnerships",
+      "second_order": "Potential spillover effects on other sectors, such as infrastructure and logistics",
+      "invalidation": "If regulatory barriers are re-imposed or partnerships do not materialize as expected",
+      "_at": "2026-07-11T23:51:44.515392"
+    },
+    {
       "statement": "Competition in the energy market is intensifying",
       "change_type": "competition",
       "change_vector": "competition_intensifying",
@@ -2171,96 +2255,7 @@
       "second_order": "Potential for increased prices and volatility in the oil market",
       "invalidation": "Significant increase in OPEC oil output or discovery of new oil reserves",
       "_at": "2026-06-12T00:17:44.347098"
-    },
-    {
-      "statement": "Global crude oil supply has loosened due to reduced imports by China",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "China's reduction in oil imports has increased global crude oil supply, putting downward pressure on prices",
-      "ksa_grounding": "This could lead to decreased revenue for Saudi Arabia's oil and gas sector, affecting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "China reduces oil imports, capping global crude prices",
-        "Kuwait seeks pipeline alternatives to export crude oil"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil and gas companies"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased global economic growth due to lower oil prices",
-      "downside": "Decreased revenue for Saudi Arabia's oil and gas sector",
-      "first_order": "Decreased oil prices",
-      "second_order": "Potential for decreased investment in the oil and gas sector",
-      "invalidation": "If China were to increase its oil imports, leading to a tightening of global crude oil supply",
-      "_at": "2026-06-11T00:12:55.672300"
-    },
-    {
-      "statement": "Investment in AI and fintech is increasing in Saudi Arabia",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Gulf states, including Saudi Arabia, are investing heavily in AI and fintech, making it easier for companies to operate in these sectors",
-      "ksa_grounding": "This could lead to increased economic growth and diversification in Saudi Arabia, with a focus on developing the technology and attracting international investment",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Gulf states invest in AI, with Saudi Arabia a key player",
-        "Rackspace Technology establishes regional headquarters in Riyadh"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "startups",
-        "tech companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased economic growth and diversification",
-      "downside": "Potential for increased competition in the AI and fintech sectors",
-      "first_order": "Increased investment in AI and fintech",
-      "second_order": "Potential for increased job creation and economic growth",
-      "invalidation": "If investment in AI and fintech were to decrease, leading to a decrease in feasibility for companies operating in these sectors",
-      "_at": "2026-06-11T00:12:55.672313"
-    },
-    {
-      "statement": "Regulatory barriers to fintech integration have reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "There is no direct evidence of regulatory change, but increased investment in AI and fintech suggests a more open regulatory environment",
-      "ksa_grounding": "This could lead to increased adoption of fintech solutions in Saudi Arabia, driving economic growth and innovation",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Gulf states invest in AI, with Saudi Arabia a key player",
-        "Rackspace Technology establishes regional headquarters in Riyadh"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "fintech companies",
-        "banks"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased adoption of fintech solutions",
-      "downside": "Potential for increased risk of fintech-related fraud or cybersecurity threats",
-      "first_order": "Increased investment in AI and fintech",
-      "second_order": "Potential for increased economic growth and innovation",
-      "invalidation": "If regulatory barriers to fintech integration were to increase, leading to a decrease in adoption of fintech solutions",
-      "_at": "2026-06-11T00:12:55.672315"
     }
   ],
-  "lastRefresh": "2026-07-10T23:55:57.606171"
+  "lastRefresh": "2026-07-11T23:52:22.196583"
 }
