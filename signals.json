@@ -1,6 +1,123 @@
 {
   "items": [
     {
+      "statement": "Investment in Canadian energy and mining sectors is increasing",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Saudi Arabian investors are interested in Canadian energy, mining, and infrastructure assets",
+      "ksa_grounding": "This increase in investment can lead to a growth in Saudi Arabia's energy and mining sectors, potentially creating new opportunities for economic development",
+      "affected_sectors": [
+        "oil_gas",
+        "mining"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships",
+        "Saudis Eye Canadian Assets as Investment Fund Accepts Carney's Invite to Toronto"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabian investors",
+        "Canadian energy and mining companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential growth in Saudi Arabia's energy and mining sectors",
+      "downside": "Potential risks associated with investing in foreign markets",
+      "first_order": "Direct investment in Canadian energy and mining sectors",
+      "second_order": "Potential growth in Saudi Arabia's economy through increased investment",
+      "invalidation": "A decline in Saudi Arabian investment in Canadian energy and mining sectors",
+      "_at": "2026-07-12T23:49:53.320003"
+    },
+    {
+      "statement": "Global oil production is becoming more volatile",
+      "change_type": "production",
+      "change_vector": "supply_looser",
+      "mechanism": "UAE's oil production has surged to a record 4.1 million barrels per day after exiting OPEC, and Russia's oil production forecast has been cut due to Ukrainian drone attacks",
+      "ksa_grounding": "This increase in volatility can lead to fluctuations in global oil prices, potentially affecting Saudi Arabia's oil exports and economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE Oil Production Hits Record 4.1 Million Barrels Per Day After OPEC Exit",
+        "IEA Cuts Russia's Oil Production Forecast Due to Ukrainian Attacks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC members",
+        "global oil markets"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in oil prices due to reduced supply",
+      "downside": "Potential decrease in oil prices due to increased supply",
+      "first_order": "Direct impact on global oil production",
+      "second_order": "Potential impact on Saudi Arabia's oil exports and economy",
+      "invalidation": "A stabilization of global oil production and prices",
+      "_at": "2026-07-12T23:49:53.320015"
+    },
+    {
+      "statement": "The Middle East data center market is growing rapidly",
+      "change_type": "market",
+      "change_vector": "demand_up",
+      "mechanism": "Increasing demand for data sovereignty and localized data centers is driving the growth of the Middle East data center market",
+      "ksa_grounding": "This growth can lead to new opportunities for investment and development in Saudi Arabia's technology sector",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Booming Middle East Data Center Market to Reach $7+ Billion by 2031"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "data center operators",
+        "technology companies"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential growth in Saudi Arabia's technology sector",
+      "downside": "Potential risks associated with investing in a rapidly growing market",
+      "first_order": "Direct growth in the Middle East data center market",
+      "second_order": "Potential growth in Saudi Arabia's economy through increased investment in technology",
+      "invalidation": "A decline in the growth of the Middle East data center market",
+      "_at": "2026-07-12T23:49:53.320017"
+    },
+    {
+      "statement": "Sovereign wealth funds are shifting their investment strategies",
+      "change_type": "investment",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Sovereign wealth funds are prioritizing national strategic goals over pure financial returns, with artificial intelligence and semiconductors emerging as key investment areas",
+      "ksa_grounding": "This shift can lead to new opportunities for investment and development in Saudi Arabia's technology and innovation sectors",
+      "affected_sectors": [
+        "banking",
+        "capital_markets"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Sovereign Wealth Funds Pivot to Strategic Investments as AI Takes Center Stage",
+        "Deem Global Raises $1B as Abu Dhabi Sovereign Wealth Capital Floods into Macro Hedge Funds"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "sovereign wealth funds",
+        "technology companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential growth in Saudi Arabia's technology and innovation sectors",
+      "downside": "Potential risks associated with investing in new and emerging areas",
+      "first_order": "Direct shift in sovereign wealth fund investment strategies",
+      "second_order": "Potential growth in Saudi Arabia's economy through increased investment in technology and innovation",
+      "invalidation": "A return to traditional investment strategies by sovereign wealth funds",
+      "_at": "2026-07-12T23:49:53.320019"
+    },
+    {
       "statement": "Global oil supply has loosened",
       "change_type": "supply",
       "change_vector": "supply_looser",
@@ -2169,93 +2286,7 @@
       "second_order": "Potential impact on Saudi Arabia's oil exports and revenue",
       "invalidation": "A statement from Kuwait Petroleum Corp. indicating a cancellation of the offer",
       "_at": "2026-06-13T00:18:25.915823"
-    },
-    {
-      "statement": "Regulatory barrier to trade with Lebanon has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Lifting of import ban allows for increased trade between Saudi Arabia and Lebanon",
-      "ksa_grounding": "Improved economic ties with Lebanon can increase Saudi Arabia's trade volumes and revenue",
-      "affected_sectors": [
-        "trade",
-        "economy"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Arabia lifts ban on Lebanese imports after five years"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Arabian businesses",
-        "Lebanese businesses"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased trade and revenue for Saudi Arabian businesses",
-      "downside": "Potential for increased competition from Lebanese imports",
-      "first_order": "Direct increase in trade between Saudi Arabia and Lebanon",
-      "second_order": "Potential for increased economic cooperation and investment between the two countries",
-      "invalidation": "Reimposition of the import ban or significant decline in trade between the two countries",
-      "_at": "2026-06-12T00:17:44.347084"
-    },
-    {
-      "statement": "Investment in global tech and gaming industries is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Gulf wealth funds' investments in SpaceX and Electronic Arts increase feasibility of tech and gaming projects",
-      "ksa_grounding": "Saudi Arabia's Public Investment Fund's investment in Electronic Arts can increase the country's presence in the global gaming industry",
-      "affected_sectors": [
-        "fintech",
-        "entertainment",
-        "gaming"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Gulf wealth funds order billions in SpaceX IPO shares",
-        "Saudi Arabia's Public Investment Fund invests in Electronic Arts"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Gulf wealth funds",
-        "tech and gaming companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment and growth in the tech and gaming industries",
-      "downside": "Potential for over-investment and decreased returns",
-      "first_order": "Direct investment in tech and gaming companies",
-      "second_order": "Potential for increased innovation and job creation in the industries",
-      "invalidation": "Significant decline in investment in the tech and gaming industries or poor performance of the invested companies",
-      "_at": "2026-06-12T00:17:44.347096"
-    },
-    {
-      "statement": "Global oil supply has tightened",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "OPEC oil output decline reduces global oil supply",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia may benefit from increased oil prices due to the supply decline",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "OPEC oil output lowest since 2000"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil producers",
-        "oil consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased revenue for oil producers",
-      "downside": "Potential for increased costs for oil consumers",
-      "first_order": "Direct decline in global oil supply",
-      "second_order": "Potential for increased prices and volatility in the oil market",
-      "invalidation": "Significant increase in OPEC oil output or discovery of new oil reserves",
-      "_at": "2026-06-12T00:17:44.347098"
     }
   ],
-  "lastRefresh": "2026-07-11T23:52:22.196583"
+  "lastRefresh": "2026-07-12T23:50:30.859032"
 }
