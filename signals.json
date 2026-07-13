@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "statement": "Global energy supply has become tighter",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Reduced oil production and transportation disruptions",
+      "ksa_grounding": "This change can lead to increased oil prices, benefiting Saudi Arabia's oil export revenues",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran attacks five Gulf nations, shuts Hormuz after US bombing",
+        "UAE oil production hits record 4.1 million barrels per day after OPEC exit"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil export revenues for Saudi Arabia",
+      "downside": "Potential risks associated with increased global energy prices",
+      "first_order": "Reduced oil production and transportation disruptions",
+      "second_order": "Increased energy prices, leading to reduced consumer spending and economic growth",
+      "invalidation": "If the Strait of Hormuz is reopened and oil production returns to normal levels",
+      "_at": "2026-07-13T23:51:16.455005"
+    },
+    {
+      "statement": "Competition in the AI sector has intensified",
+      "change_type": "competition",
+      "change_vector": "competition_intensifying",
+      "mechanism": "Increased investment in AI capabilities by companies",
+      "ksa_grounding": "This change can lead to improved AI services and lower costs for Saudi businesses and consumers",
+      "affected_sectors": [
+        "fintech",
+        "edtech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "TCS expands AI push by taking on more model & inference costs",
+        "HDFC Bank bets big on AI with in-house GenAI platform 'Neev'"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "AI companies",
+        "consumers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved AI services and lower costs for Saudi businesses and consumers",
+      "downside": "Potential risks associated with increased competition, such as job displacement",
+      "first_order": "Increased investment in AI capabilities by companies",
+      "second_order": "Improved AI services, leading to increased productivity and efficiency for Saudi businesses",
+      "invalidation": "If companies reduce their investment in AI capabilities",
+      "_at": "2026-07-13T23:51:16.455016"
+    },
+    {
       "statement": "Investment in Canadian energy and mining sectors is increasing",
       "change_type": "investment",
       "change_vector": "demand_up",
@@ -2200,93 +2259,7 @@
       "second_order": "Potential impact on the overall quality of life in Saudi Arabia",
       "invalidation": "A significant decrease in AI adoption or a major setback in AI research",
       "_at": "2026-06-14T00:03:58.809763"
-    },
-    {
-      "statement": "Global oil demand growth is slowing down",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "Reduced forecast by OPEC due to lower-than-expected impact from the Iran war",
-      "ksa_grounding": "Saudi Arabia's oil exports may decrease, affecting the country's revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "OPEC lowers 2026 global oil demand growth forecast",
-        "Crude oil prices climb as US-Iran tensions escalate"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "OPEC",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased focus on renewable energy sources",
-      "downside": "Decreased revenue for Saudi Arabia",
-      "first_order": "Direct impact on oil demand",
-      "second_order": "Potential impact on Saudi Arabia's economy and investment in other sectors",
-      "invalidation": "An increase in global oil demand growth forecast by OPEC or other reputable sources",
-      "_at": "2026-06-13T00:18:25.915806"
-    },
-    {
-      "statement": "Saudi Arabia is shifting its economic priorities to domestic focus",
-      "change_type": "institutional priority",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "Redrawing of economic ambitions after a decade of investments",
-      "ksa_grounding": "Increased focus on domestic priorities may lead to more investment in local sectors",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals",
-        "mining",
-        "renewable_energy",
-        "hydrogen",
-        "fintech",
-        "banking",
-        "insurance",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi economy redraws ambitions, focusing on domestic priorities"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Arabia"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased economic growth and diversification",
-      "downside": "Potential for decreased investment in international markets",
-      "first_order": "Direct impact on Saudi Arabia's economic priorities",
-      "second_order": "Potential impact on various sectors and regions within Saudi Arabia",
-      "invalidation": "A statement from the Saudi government indicating a return to previous economic priorities",
-      "_at": "2026-06-13T00:18:25.915819"
-    },
-    {
-      "statement": "Kuwait is expanding its crude oil sales to new markets",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Kuwait Petroleum Corp.'s offer of crude oil to Asian buyers for the first time since 1990-91",
-      "ksa_grounding": "Potential increased competition for Saudi Arabia's oil exports in Asian markets",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Kuwait offers crude to Asian buyers for the first time since 1990-91 Gulf War"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Kuwait",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil sales for Kuwait",
-      "downside": "Potential for decreased oil sales for Saudi Arabia",
-      "first_order": "Direct impact on Kuwait's oil sales",
-      "second_order": "Potential impact on Saudi Arabia's oil exports and revenue",
-      "invalidation": "A statement from Kuwait Petroleum Corp. indicating a cancellation of the offer",
-      "_at": "2026-06-13T00:18:25.915823"
     }
   ],
-  "lastRefresh": "2026-07-12T23:50:30.859032"
+  "lastRefresh": "2026-07-13T23:51:54.237315"
 }
