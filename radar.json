@@ -1,6 +1,128 @@
 {
   "items": [
     {
+      "title": "Iran-backed Houthis fire missile at Saudi Arabia",
+      "source": "Crypto Briefing, New York Post",
+      "source_tier": 2,
+      "time": "2026-07-13",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "defense",
+        "energy"
+      ],
+      "summary": "The Iran-backed Houthi rebel group fired a ballistic missile at Saudi Arabia after accusing the kingdom of orchestrating airstrikes at its airport. The attack has raised concerns about regional stability and global oil supply. The Houthis have threatened to strike King Khalid Airport in Riyadh in response to the alleged aggression.",
+      "why_it_matters": "The escalation of tensions between Saudi Arabia and the Houthis could disrupt global oil markets and have significant strategic consequences for Saudi Arabia's energy sector and national security.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-07-14T23:50:04.236633"
+    },
+    {
+      "title": "OPEC cuts 2026 global oil demand growth forecast",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-13",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "OPEC has cut its 2026 global oil demand growth forecast by 190,000 barrels per day. The reduced forecast may lower energy costs and boost Bitcoin miners' margins, potentially attracting renewed institutional interest.",
+      "why_it_matters": "The cut in OPEC's oil demand growth forecast could have significant implications for Saudi Arabia's oil exports and revenue, as well as the global energy market.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-14T23:50:04.236644"
+    },
+    {
+      "title": "Trump backs Saudi Crown Prince on Houthi strikes",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-13",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "defense"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "foreign_policy",
+        "national_security"
+      ],
+      "summary": "Trump has announced his support for the Saudi Crown Prince's actions against the Houthis. The move may heighten Middle East tensions and impact global oil markets.",
+      "why_it_matters": "The US-Saudi alliance and Trump's support for the Crown Prince's actions could have significant strategic consequences for Saudi Arabia's foreign policy and national security.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-14T23:50:04.236646"
+    },
+    {
+      "title": "GCC Data Center Market to reach $15.4 billion by 2031",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-13",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [
+        "riyadh",
+        "jeddah"
+      ],
+      "affected_domains": [
+        "finance",
+        "technology"
+      ],
+      "summary": "The GCC Data Center Market is expected to reach $15.4 billion by 2031, with Saudi Arabia projected to lead with a 41.37% power capacity share. The market is witnessing heightened security measures due to geopolitical threats and innovations in UPS solutions and cooling technologies.",
+      "why_it_matters": "The growth of the GCC Data Center Market could have significant implications for Saudi Arabia's fintech and capital markets sectors, as well as the country's overall digital transformation.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-14T23:50:04.236647"
+    },
+    {
+      "title": "Saudi Energy Minister's influence grows with industry portfolio",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-07-13",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "energy",
+        "industry"
+      ],
+      "summary": "Saudi Arabian Energy Minister Prince Abdulaziz bin Salman has been appointed minister of industry and mineral resources, signaling an expanded role for the royal and closer ties between the energy and industry sectors.",
+      "why_it_matters": "The expansion of the Energy Minister's portfolio could have significant implications for Saudi Arabia's energy and industry sectors, as well as the country's overall economic diversification efforts.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-14T23:50:04.236649"
+    },
+    {
       "title": "Iran attacks five Gulf nations, shuts Hormuz after US bombing",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -3102,105 +3224,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-15T00:05:48.887760"
-    },
-    {
-      "title": "Kuwait Offers Crude to Asian Buyers for First Time Since 1990-91 Gulf War",
-      "source": "Naturalnews.com",
-      "source_tier": 2,
-      "time": "2026-06-11",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "trade"
-      ],
-      "summary": "Kuwait Petroleum Corp. has offered crude oil to Asian buyers for the first time since the 1990-91 Gulf War, marking a significant shift in the state-owned company\u2019s sales strategy. This move could impact the global oil market and potentially affect Saudi Arabia's oil exports.",
-      "why_it_matters": "This development could influence Saudi Arabia's oil export strategies and impact the country's energy sector, particularly if other Gulf countries follow suit.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-14T00:03:22.344668"
-    },
-    {
-      "title": "King Faisal Specialist Hospital & Research Centre Highlights Strategic Value of Tertiary Care AI Datasets",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-06-12",
-      "event_type": "scientific_result",
-      "category": "science",
-      "geography": "Saudi",
-      "sector_tags": [
-        "healthcare",
-        "biotech"
-      ],
-      "region_tags": [
-        "riyadh"
-      ],
-      "affected_domains": [
-        "medicine",
-        "research"
-      ],
-      "summary": "King Faisal Specialist Hospital & Research Centre will use its participation at HLTH Europe 2026 to highlight the strategic value of tertiary care AI datasets in advancing precision medicine and clinical innovation.",
-      "why_it_matters": "This development could enhance Saudi Arabia's healthcare sector and contribute to the country's vision for a more advanced and innovative healthcare system.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-14T00:03:22.344679"
-    },
-    {
-      "title": "Tata Consultancy Services Partners with Anthropic to Scale Enterprise AI",
-      "source": "The Tribune",
-      "source_tier": 2,
-      "time": "2026-06-11",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "education"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "business",
-        "technology"
-      ],
-      "summary": "Tata Consultancy Services has announced a global partnership with AI major Anthropic to help customers scale enterprise artificial intelligence adoption.",
-      "why_it_matters": "This partnership could impact Saudi Arabia's fintech and education sectors, as well as the country's overall digital transformation efforts.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-14T00:03:22.344682"
-    },
-    {
-      "title": "Innefu Labs Raises $30M to Advance Sovereign AI for National Security",
-      "source": "The Tribune",
-      "source_tier": 2,
-      "time": "2026-06-11",
-      "event_type": "funding",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "security"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "defense",
-        "security"
-      ],
-      "summary": "Innefu Labs, an Indian AI company, has raised $30M to advance sovereign AI for national security, which could have implications for Saudi Arabia's national security and defense strategies.",
-      "why_it_matters": "This development could influence Saudi Arabia's approach to AI adoption in the defense and security sectors, particularly if the country considers similar investments in sovereign AI capabilities.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-14T00:03:22.344686"
     }
   ],
-  "lastRefresh": "2026-07-13T23:51:54.234296",
+  "lastRefresh": "2026-07-14T23:51:19.062309",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 28,
+    "articles_to_model": 38,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,

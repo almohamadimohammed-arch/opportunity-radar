@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Regional instability is increasing due to geopolitical tensions",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Heightened tensions between Saudi Arabia and Iran-backed Houthis lead to increased risk of attacks and disruptions to global oil supply",
+      "ksa_grounding": "Saudi Arabia's oil and gas sector is directly affected by the increased risk of attacks, potentially impacting the country's economy and energy exports",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Iran-backed Houthis fire missile at Saudi Arabia",
+        "Trump backs Saudi Crown Prince on Houthi strikes"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Iran-backed Houthis"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruptions to global oil supply and increased risk of attacks on Saudi Arabia's oil and gas infrastructure",
+      "first_order": "Direct impact on Saudi Arabia's oil and gas sector",
+      "second_order": "Potential downstream effects on the global economy and energy markets",
+      "invalidation": "A significant reduction in tensions between Saudi Arabia and Iran-backed Houthis, or a successful diplomatic effort to resolve the conflict",
+      "_at": "2026-07-14T23:50:41.417437"
+    },
+    {
+      "statement": "Global oil demand growth is slowing down",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "Reduced global oil demand growth forecast by OPEC leads to decreased demand for oil",
+      "ksa_grounding": "Saudi Arabia's oil and gas sector is affected by the reduced demand, potentially impacting the country's oil exports and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "OPEC cuts 2026 global oil demand growth forecast",
+        "Iran-backed Houthis fire missile at Saudi Arabia"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment in renewable energy sources",
+      "downside": "Potential negative impact on Saudi Arabia's oil exports and revenue",
+      "first_order": "Direct impact on Saudi Arabia's oil and gas sector",
+      "second_order": "Potential downstream effects on the global energy market and economy",
+      "invalidation": "A significant increase in global oil demand growth, or a major disruption to global oil supply",
+      "_at": "2026-07-14T23:50:41.417446"
+    },
+    {
+      "statement": "Saudi Arabia's data center market is growing rapidly",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Increased investment in data centers and innovations in UPS solutions and cooling technologies lead to growth in the market",
+      "ksa_grounding": "Saudi Arabia's data center market growth is driven by the country's efforts to diversify its economy and invest in technology and innovation",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "GCC Data Center Market to reach $15.4 billion by 2031",
+        "Saudi Energy Minister's influence grows with industry portfolio"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "GCC countries"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased economic growth and diversification",
+      "downside": "Potential risks associated with increased dependence on technology and data centers",
+      "first_order": "Direct impact on Saudi Arabia's fintech and capital markets sectors",
+      "second_order": "Potential downstream effects on the country's economy and innovation ecosystem",
+      "invalidation": "A significant decline in investment in Saudi Arabia's data center market, or a major disruption to the country's technology and innovation ecosystem",
+      "_at": "2026-07-14T23:50:41.417448"
+    },
+    {
       "statement": "Global energy supply has become tighter",
       "change_type": "supply",
       "change_vector": "supply_tighter",
@@ -2233,33 +2319,7 @@
       "second_order": "Potential for increased innovation and adoption of AI in the sector",
       "invalidation": "A significant decrease in fintech partnerships or a major setback in AI development",
       "_at": "2026-06-15T00:06:26.208487"
-    },
-    {
-      "statement": "AI adoption is increasing in the healthcare sector",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Advances in AI datasets and precision medicine",
-      "ksa_grounding": "Potential improvement in healthcare services and medical research in Saudi Arabia",
-      "affected_sectors": [
-        "healthcare",
-        "biotech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "King Faisal Specialist Hospital & Research Centre Highlights Strategic Value of Tertiary Care AI Datasets"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "King Faisal Specialist Hospital & Research Centre"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for improved healthcare outcomes and medical research",
-      "downside": "Potential risks associated with AI adoption in healthcare, such as data privacy concerns",
-      "first_order": "Direct impact on healthcare services and medical research",
-      "second_order": "Potential impact on the overall quality of life in Saudi Arabia",
-      "invalidation": "A significant decrease in AI adoption or a major setback in AI research",
-      "_at": "2026-06-14T00:03:58.809763"
     }
   ],
-  "lastRefresh": "2026-07-13T23:51:54.237315"
+  "lastRefresh": "2026-07-14T23:51:19.065937"
 }
