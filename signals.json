@@ -1,6 +1,123 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to tourism integration has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Saudi Arabia's decision to allow LGBTQ visitors ahead of the 2034 World Cup reduces regulatory barriers to tourism",
+      "ksa_grounding": "Increased tourism revenue and potential for growth in the hospitality and entertainment sectors",
+      "affected_sectors": [
+        "tourism",
+        "hospitality",
+        "entertainment"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia opens door to LGBTQ visitors ahead of 2034 World Cup"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "LGBTQ visitors",
+        "tourism industry"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased tourism revenue and economic growth",
+      "downside": "Potential backlash from conservative groups",
+      "first_order": "Increased tourism revenue",
+      "second_order": "Growth in the hospitality and entertainment sectors",
+      "invalidation": "Saudi Arabia reverses its decision to allow LGBTQ visitors",
+      "_at": "2026-07-15T23:56:41.847515"
+    },
+    {
+      "statement": "Global oil market volatility has increased",
+      "change_type": "market",
+      "change_vector": "supply_tighter",
+      "mechanism": "US strikes on Iran and Iran's retaliation on Gulf states and Hormuz shipping increase uncertainty in the global oil market",
+      "ksa_grounding": "Potential impact on Saudi Arabia's oil exports and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping",
+        "OPEC cuts 2026 oil demand forecast, raises 2027 outlook amid tensions"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "global markets"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in oil prices and revenue for Saudi Arabia",
+      "downside": "Potential decrease in oil demand and revenue for Saudi Arabia",
+      "first_order": "Increased uncertainty in the global oil market",
+      "second_order": "Potential impact on Saudi Arabia's economy and oil exports",
+      "invalidation": "A peaceful resolution to the US-Iran conflict is reached",
+      "_at": "2026-07-15T23:56:41.847525"
+    },
+    {
+      "statement": "Investment in renewable energy and hydrogen has increased",
+      "change_type": "market",
+      "change_vector": "demand_up",
+      "mechanism": "Saudi Arabia's focus on renewable energy and hydrogen as part of its Vision 2030 plan increases demand for these sectors",
+      "ksa_grounding": "Potential for growth in the renewable energy and hydrogen sectors, contributing to Saudi Arabia's economic diversification",
+      "affected_sectors": [
+        "renewable_energy",
+        "hydrogen"
+      ],
+      "affected_regions": [
+        "neom",
+        "red_sea"
+      ],
+      "evidence": [
+        "Saudi Arabia Commercial Vehicle Electrification Market Study Published"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "renewable energy companies",
+        "hydrogen producers"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for growth in the renewable energy and hydrogen sectors, contributing to Saudi Arabia's economic diversification",
+      "downside": "Potential high upfront costs for investment in renewable energy and hydrogen",
+      "first_order": "Increased investment in renewable energy and hydrogen",
+      "second_order": "Growth in the renewable energy and hydrogen sectors, contributing to Saudi Arabia's economic diversification",
+      "invalidation": "Saudi Arabia's focus on renewable energy and hydrogen decreases",
+      "_at": "2026-07-15T23:56:41.847527"
+    },
+    {
+      "statement": "Access to elevation intelligence has increased",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Intermap's partnership with NSG UP42 to provide elevation intelligence in Saudi Arabia increases access to this data",
+      "ksa_grounding": "Potential for improved infrastructure development, flood risk management, and national development planning in Saudi Arabia",
+      "affected_sectors": [
+        "fintech",
+        "logistics"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Intermap Partners with NSG UP42 to Expand Access to Elevation Intelligence in Saudi Arabia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "infrastructure developers",
+        "flood risk managers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for improved infrastructure development, flood risk management, and national development planning",
+      "downside": "Potential high costs for accessing and utilizing elevation intelligence",
+      "first_order": "Increased access to elevation intelligence",
+      "second_order": "Improved infrastructure development, flood risk management, and national development planning",
+      "invalidation": "Intermap's partnership with NSG UP42 is terminated",
+      "_at": "2026-07-15T23:56:41.847530"
+    },
+    {
       "statement": "Regional instability is increasing due to geopolitical tensions",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2234,92 +2351,7 @@
       "second_order": "Potential for broader economic and technological implications",
       "invalidation": "A significant decline in investment in technology and fintech",
       "_at": "2026-06-16T00:28:48.738458"
-    },
-    {
-      "statement": "Regional security dynamics are shifting due to potential diplomatic developments",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "A potential US-Iran peace deal could lead to a review of Gulf security arrangements, potentially reducing tensions and increasing cooperation",
-      "ksa_grounding": "This could lead to increased stability and reduced risk in the region, benefiting Saudi Arabia's oil and gas sector",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Potential US-Iran peace deal could impact Gulf security arrangements",
-        "UAE and Iran hold historic face-to-face meeting amid Gulf tensions"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Gulf countries",
-        "US",
-        "Iran"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased regional stability and cooperation",
-      "downside": "Potential for deal to fall through or have unintended consequences",
-      "first_order": "Reduced tensions and increased cooperation between Gulf countries and Iran",
-      "second_order": "Potential for increased investment and economic growth in the region",
-      "invalidation": "A breakdown in US-Iran peace talks or a significant increase in Gulf tensions",
-      "_at": "2026-06-15T00:06:26.208472"
-    },
-    {
-      "statement": "Adoption of AI in healthcare is increasing",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "The use of AI datasets for precision medicine is becoming more prevalent, increasing the feasibility of advanced healthcare treatments",
-      "ksa_grounding": "This could lead to improved healthcare outcomes and increased competitiveness for Saudi Arabia's healthcare sector",
-      "affected_sectors": [
-        "healthcare",
-        "biotech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "King Faisal Specialist Hospital to use AI datasets for precision medicine"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "King Faisal Specialist Hospital",
-        "healthcare providers"
-      ],
-      "time_horizon": "now",
-      "upside": "Improved healthcare outcomes and increased competitiveness",
-      "downside": "Potential for AI to displace human healthcare workers",
-      "first_order": "Increased use of AI in healthcare",
-      "second_order": "Potential for improved patient outcomes and increased efficiency",
-      "invalidation": "A significant decrease in AI adoption in healthcare or a major setback in AI development",
-      "_at": "2026-06-15T00:06:26.208484"
-    },
-    {
-      "statement": "Partnerships in fintech are increasing",
-      "change_type": "competition",
-      "change_vector": "competition_intensifying",
-      "mechanism": "The partnership between TCS and Anthropic is increasing the competitiveness of the fintech sector, as more companies seek to scale enterprise AI adoption",
-      "ksa_grounding": "This could lead to increased innovation and competitiveness in Saudi Arabia's fintech sector",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "TCS partners with Anthropic to scale enterprise AI"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "TCS",
-        "Anthropic",
-        "fintech companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased innovation and competitiveness",
-      "downside": "Potential for increased competition to lead to market saturation",
-      "first_order": "Increased partnerships and competition in fintech",
-      "second_order": "Potential for increased innovation and adoption of AI in the sector",
-      "invalidation": "A significant decrease in fintech partnerships or a major setback in AI development",
-      "_at": "2026-06-15T00:06:26.208487"
     }
   ],
-  "lastRefresh": "2026-07-14T23:51:19.065937"
+  "lastRefresh": "2026-07-15T23:56:48.907607"
 }
