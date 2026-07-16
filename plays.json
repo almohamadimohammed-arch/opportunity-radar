@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "title": "Capital Markets Digitalization",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi financial institutions, Fintech companies",
+      "customer": "Investors, Financial institutions",
+      "problem": "Inefficient and outdated capital markets infrastructure",
+      "action_path": "Saudi financial institutions and fintech companies can collaborate to develop and implement digital platforms for capital markets, increasing efficiency and reducing costs. This can be achieved by leveraging cloud-native capabilities and investing in cybersecurity measures. By doing so, they can improve the overall investor experience and attract more investment to the region.",
+      "entry_mode": "build",
+      "monetization": "Transaction fees, subscription-based models",
+      "capabilities": "Digital transformation expertise, cloud-native capabilities, cybersecurity measures",
+      "barriers": "Regulatory hurdles, resistance to change from traditional players",
+      "timing": "prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Investor interest in tech companies is increasing"
+      ],
+      "sector": "capital_markets",
+      "relevant_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "The Saudi government's vision to diversify the economy and develop the financial sector creates an opportunity for financial institutions and fintech companies to collaborate on digitalization initiatives",
+      "assumptions": "The demand for digital capital markets infrastructure will continue to grow, and the Saudi government will continue to support the development of the financial sector",
+      "invalidation": "If the Saudi government changes its policies to favor traditional energy sectors, or if the demand for digital capital markets infrastructure decreases",
+      "_at": "2026-07-16T23:55:56.156203"
+    },
+    {
       "title": "Diversify Saudi Oil Export Routes",
       "play_type": "infrastructure_play",
       "actor": "Saudi Aramco",
@@ -1828,97 +1858,7 @@
       "assumptions": "The Saudi government will be able to provide sufficient financial support and incentives to attract and retain top talent, and the sectors will be able to achieve success despite current challenges",
       "invalidation": "If LIV Golf and Saudi football teams are unable to secure new funding and achieve success despite current challenges",
       "_at": "2026-06-17T00:13:49.143631"
-    },
-    {
-      "title": "Saudi Fintech AI Adoption",
-      "play_type": "business_play",
-      "actor": "Saudi fintech companies",
-      "customer": "Saudi banks and financial institutions",
-      "problem": "Limited access to AI technology and expertise",
-      "action_path": "Develop and implement AI-powered solutions to enhance customer experience and improve operational efficiency. Partner with AI technology providers to access expertise and capabilities. Invest in employee training and development to ensure successful adoption.",
-      "entry_mode": "partner",
-      "monetization": "Increased revenue through improved customer experience and reduced operational costs",
-      "capabilities": "AI technology, data analytics, cloud-native capabilities",
-      "barriers": "Limited access to AI expertise, high implementation costs",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Adoption of AI technology is increasing in various sectors"
-      ],
-      "sector": "fintech",
-      "relevant_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased AI adoption, particularly in fintech and technology sectors",
-      "assumptions": "Saudi fintech companies will continue to invest in AI technology, and AI adoption will remain a key priority for the Saudi government",
-      "invalidation": "A significant decline in AI investment and adoption rates",
-      "_at": "2026-06-16T00:29:26.266831"
-    },
-    {
-      "title": "Saudi Oil Export Diversification",
-      "play_type": "defensive_play",
-      "actor": "Saudi Aramco",
-      "customer": "Saudi government",
-      "problem": "Dependence on oil exports and vulnerability to geopolitical developments",
-      "action_path": "Diversify oil export markets and develop strategic partnerships with key oil-importing countries. Invest in oil refining and petrochemicals to increase the value of oil exports. Develop a contingency plan to mitigate the impact of oil sanctions and production shutdowns.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on oil exports and increased revenue through diversified markets and value-added products",
-      "capabilities": "Oil refining, petrochemicals, strategic partnerships",
-      "barriers": "High investment costs, geopolitical risks",
-      "timing": "prepare now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "Global oil dynamics may be impacted by geopolitical developments"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "eastern_province",
-        "red_sea"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports and economy may be affected by changes in global oil supply and demand",
-      "assumptions": "Geopolitical tensions will continue to impact global oil dynamics, and Saudi Aramco will maintain its position as a key oil exporter",
-      "invalidation": "A swift resolution to the US-Iran conflict and restoration of normal oil production",
-      "_at": "2026-06-16T00:29:26.266841"
-    },
-    {
-      "title": "Saudi Technology Investment",
-      "play_type": "investment_play",
-      "actor": "Saudi investment funds",
-      "customer": "Saudi technology startups",
-      "problem": "Limited access to funding for technology startups",
-      "action_path": "Invest in Saudi technology startups, particularly in areas like AI and data solutions. Develop a network of mentors and advisors to support startup growth. Partner with international technology companies to access expertise and markets.",
-      "entry_mode": "invest",
-      "monetization": "Returns on investment through successful startup exits",
-      "capabilities": "Investment expertise, network of mentors and advisors, access to international markets",
-      "barriers": "High risk of startup failure, limited access to international markets",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Investment in technology and fintech is increasing"
-      ],
-      "sector": "technology",
-      "relevant_sectors": [
-        "technology",
-        "fintech"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased investment in technology and fintech, particularly in areas like AI and data solutions",
-      "assumptions": "Saudi technology startups will continue to attract investment, and the Saudi government will maintain its support for the technology sector",
-      "invalidation": "A significant decline in investment in technology and fintech",
-      "_at": "2026-06-16T00:29:26.266843"
     }
   ],
-  "lastRefresh": "2026-07-15T23:56:48.909674"
+  "lastRefresh": "2026-07-16T23:55:56.161289"
 }

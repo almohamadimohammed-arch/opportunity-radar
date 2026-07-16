@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to tourism and hospitality has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Shift in policy allows LGBTQ visitors ahead of 2034 World Cup",
+      "ksa_grounding": "Increased tourism revenue and diversification of economy",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi Arabia opens door to LGBTQ visitors ahead of 2034 World Cup"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "tourists",
+        "hotel owners"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased tourism revenue",
+      "downside": "Potential backlash from conservative groups",
+      "first_order": "Direct increase in tourism",
+      "second_order": "Growth in related industries such as hospitality and entertainment",
+      "invalidation": "If Saudi Arabia reverses its policy on LGBTQ visitors",
+      "_at": "2026-07-16T23:55:49.061563"
+    },
+    {
+      "statement": "Investor interest in tech companies is increasing",
+      "change_type": "market",
+      "change_vector": "demand_up",
+      "mechanism": "Growing dominance of tech companies over traditional energy sectors",
+      "ksa_grounding": "Potential for increased investment in Saudi tech companies",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Meta Platforms surpasses Saudi Aramco in market cap",
+        "USD 15.4 Billion GCC Data Center Market Outlook, 2031"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "investors",
+        "tech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment in Saudi tech companies",
+      "downside": "Potential for decreased investment in traditional energy sectors",
+      "first_order": "Direct increase in investment in tech companies",
+      "second_order": "Growth in related industries such as data centers and digital infrastructure",
+      "invalidation": "If investor interest in tech companies decreases",
+      "_at": "2026-07-16T23:55:49.061574"
+    },
+    {
+      "statement": "Risk of global energy market disruption is increasing",
+      "change_type": "geopolitical",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Iran's threat to cut off Middle Eastern oil supplies",
+      "ksa_grounding": "Potential for decreased oil exports and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran Threatens Wider Energy Chokepoints After Fresh U.S. Strikes"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "oil exporters",
+        "global energy markets"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential for decreased oil exports and revenue",
+      "first_order": "Direct disruption to global energy markets",
+      "second_order": "Potential for increased prices and decreased economic growth",
+      "invalidation": "If Iran does not follow through on its threat",
+      "_at": "2026-07-16T23:55:49.061576"
+    },
+    {
+      "statement": "Access to digital infrastructure is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Partnership between Intermap and NSG UP42 to expand access to elevation intelligence",
+      "ksa_grounding": "Potential for increased investment in digital infrastructure",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Intermap Partners with NSG UP42 to Expand Access to Elevation Intelligence in Saudi Arabia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "tech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased investment in digital infrastructure",
+      "downside": "None",
+      "first_order": "Direct increase in access to digital infrastructure",
+      "second_order": "Growth in related industries such as data centers and cloud services",
+      "invalidation": "If the partnership does not lead to increased investment in digital infrastructure",
+      "_at": "2026-07-16T23:55:49.061581"
+    },
+    {
       "statement": "Regulatory barrier to tourism integration has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2266,92 +2379,7 @@
       "second_order": "Downstream effects on Saudi Arabia's tourism industry and reputation",
       "invalidation": "If LIV Golf and Saudi football teams are able to secure new funding and achieve success despite current challenges",
       "_at": "2026-06-17T00:13:42.095320"
-    },
-    {
-      "statement": "Adoption of AI technology is increasing in various sectors",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Investments and partnerships in AI development and implementation",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased AI adoption, particularly in fintech and technology sectors",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "DoorDash introduces AI chatbot for orders and reservations",
-        "Anthropic partners with TCS to scale enterprise AI"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "businesses",
-        "consumers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Improved efficiency and customer experience",
-      "downside": "Job displacement and increased dependence on technology",
-      "first_order": "Direct impact on businesses and consumers",
-      "second_order": "Potential for increased economic growth and competitiveness",
-      "invalidation": "A significant decline in AI investment and adoption rates",
-      "_at": "2026-06-16T00:28:48.738447"
-    },
-    {
-      "statement": "Global oil dynamics may be impacted by geopolitical developments",
-      "change_type": "geopolitics",
-      "change_vector": "supply_looser",
-      "mechanism": "Oil sanctions waiver and production shutdowns",
-      "ksa_grounding": "Saudi Arabia's oil exports and economy may be affected by changes in global oil supply and demand",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Iran-US draft deal includes oil sanctions waiver",
-        "Oil and gas supplies may take months to return to normal"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil producers",
-        "consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil supply and reduced prices",
-      "downside": "Potential for market volatility and economic disruption",
-      "first_order": "Direct impact on oil prices and supply",
-      "second_order": "Potential for broader economic and geopolitical implications",
-      "invalidation": "A swift resolution to the US-Iran conflict and restoration of normal oil production",
-      "_at": "2026-06-16T00:28:48.738457"
-    },
-    {
-      "statement": "Investment in technology and fintech is increasing",
-      "change_type": "investment",
-      "change_vector": "cost_falling",
-      "mechanism": "Funding and investment in technology and fintech startups",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased investment in technology and fintech, particularly in areas like AI and data solutions",
-      "affected_sectors": [
-        "technology",
-        "fintech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Innefu Labs raises $30M for sovereign AI development",
-        "Upriver raises $14M to fix enterprise data problems"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "startups",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased innovation and economic growth",
-      "downside": "Potential for increased competition and market saturation",
-      "first_order": "Direct impact on startups and investors",
-      "second_order": "Potential for broader economic and technological implications",
-      "invalidation": "A significant decline in investment in technology and fintech",
-      "_at": "2026-06-16T00:28:48.738458"
     }
   ],
-  "lastRefresh": "2026-07-15T23:56:48.907607"
+  "lastRefresh": "2026-07-16T23:55:56.159251"
 }

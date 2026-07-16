@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "title": "Meta Platforms surpasses Saudi Aramco in market cap",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-15",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economic",
+        "financial"
+      ],
+      "summary": "Meta Platforms has surpassed Saudi Aramco in market capitalization, highlighting the growing dominance of tech companies over traditional energy sectors. This shift reflects changing market dynamics and investor preferences.",
+      "why_it_matters": "This market shift could have significant strategic consequences for Saudi Arabia's economy, as the country seeks to diversify its revenue streams and reduce its dependence on oil exports. It also underscores the importance of investing in tech and fintech sectors.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-16T23:55:11.706046"
+    },
+    {
+      "title": "USD 15.4 Billion GCC Data Center Market Outlook, 2031",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-13",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economic",
+        "financial"
+      ],
+      "summary": "The GCC data center market is expected to reach USD 15.4 billion by 2031, driven by government support, rising demand for cloud services, and increasing investments in digital infrastructure. Saudi Arabia is projected to lead the market with a 41.37% power capacity share by 2031.",
+      "why_it_matters": "This market shift could have significant strategic consequences for Saudi Arabia's economy, as the country seeks to develop its digital infrastructure and attract investments in the tech sector. It also underscores the importance of investing in data centers and cloud services.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-16T23:55:11.706060"
+    },
+    {
+      "title": "Iran Threatens Wider Energy Chokepoints After Fresh U.S. Strikes",
+      "source": "gcaptain.com",
+      "source_tier": 2,
+      "time": "2026-07-15",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economic",
+        "energy"
+      ],
+      "summary": "Iran has threatened to cut off all supplies of Middle Eastern oil to the rest of the world in retaliation for the restored U.S. blockade of Iranian oil exports. This move could have significant implications for global energy markets and the Saudi economy.",
+      "why_it_matters": "This geopolitical move could have significant strategic consequences for Saudi Arabia's oil exports and the global energy market, potentially leading to supply chain disruptions and price volatility. It also underscores the importance of diversifying Saudi Arabia's economy and reducing its dependence on oil exports.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-16T23:55:11.706065"
+    },
+    {
       "title": "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -3087,166 +3155,9 @@
       "verification_status": "reported",
       "source_count": 3,
       "_at": "2026-06-17T00:13:34.633820"
-    },
-    {
-      "title": "DoorDash introduces AI chatbot for orders and reservations",
-      "source": "Bloomberg",
-      "source_tier": 1,
-      "time": "2026-06-11",
-      "event_type": "product_launch",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "e-commerce",
-        "food delivery"
-      ],
-      "summary": "DoorDash has launched an AI chatbot to assist customers with orders and reservations. The technology may also be used to unlock new enterprise revenue streams.",
-      "why_it_matters": "This development could impact Saudi Arabia's fintech sector, particularly in the areas of e-commerce and food delivery, as companies like DoorDash expand their services globally.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577206"
-    },
-    {
-      "title": "SpaceX surge boosts Saudi billionaire prince's fortune",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-06-14",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "investments",
-        "space technology"
-      ],
-      "summary": "Prince Alwaleed bin Talal's investment firm Kingdom Holding Co. has seen a surge in value due to SpaceX's share gains on its first day of trading.",
-      "why_it_matters": "This development highlights the growing influence of Saudi investors in the global technology sector and the potential for strategic investments in space technology.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577218"
-    },
-    {
-      "title": "Anthropic partners with TCS to scale enterprise AI",
-      "source": "Daily Excelsior",
-      "source_tier": 2,
-      "time": "2026-06-11",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "artificial intelligence",
-        "enterprise software"
-      ],
-      "summary": "Anthropic has partnered with TCS to help customers scale enterprise artificial intelligence adoption, with plans to equip 50,000 employees with Claude AI.",
-      "why_it_matters": "This partnership could have significant implications for Saudi Arabia's technology sector, particularly in the areas of fintech and enterprise software, as companies like TCS and Anthropic expand their AI offerings globally.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577220"
-    },
-    {
-      "title": "Innefu Labs raises $30M for sovereign AI development",
-      "source": "The Tribune",
-      "source_tier": 2,
-      "time": "2026-06-11",
-      "event_type": "funding",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "technology",
-        "security"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "artificial intelligence",
-        "national security"
-      ],
-      "summary": "Innefu Labs has raised $30M in funding to advance its sovereign AI capabilities for national security applications.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's national security sector, particularly in the areas of AI and cybersecurity, as companies like Innefu Labs develop advanced sovereign AI capabilities.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577222"
-    },
-    {
-      "title": "Upriver raises $14M to fix enterprise data problems",
-      "source": "TechStartups.com",
-      "source_tier": 2,
-      "time": "2026-06-11",
-      "event_type": "funding",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "technology",
-        "fintech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "enterprise software",
-        "data management"
-      ],
-      "summary": "Upriver has raised $14M in funding to develop solutions for enterprise data problems, which often hinder AI adoption.",
-      "why_it_matters": "This development could impact Saudi Arabia's technology sector, particularly in the areas of fintech and enterprise software, as companies like Upriver develop solutions to address data management challenges.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577225"
-    },
-    {
-      "title": "Iran-US draft deal includes oil sanctions waiver",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-06-14",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "geopolitics"
-      ],
-      "summary": "A draft US-Iran deal includes an oil sanctions waiver, which could significantly impact global oil dynamics and geopolitical strategies.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's oil and gas sector, as well as the broader Middle East region, as the US-Iran deal could reshape global energy markets and geopolitical alliances.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577226"
-    },
-    {
-      "title": "Oil and gas supplies may take months to return to normal",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "infrastructure_disruption",
-      "category": "energy",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "Oil and gas supplies may take months to return to normal due to the US-Iran conflict and resulting production shutdowns.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's oil and gas sector, as well as the broader Middle East region, as the disruption to energy supplies could impact global energy markets and economic stability.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-16T00:28:11.577228"
     }
   ],
-  "lastRefresh": "2026-07-15T23:56:48.904538",
+  "lastRefresh": "2026-07-16T23:55:56.156316",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
