@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "statement": "Risk exposure to oil and gas sector has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The Houthi leader's warning that Saudi oil facilities could be targeted increases the risk of disruptions to oil production and exports, which can lead to price volatility and economic losses",
+      "ksa_grounding": "This change can impact Saudi Arabia's oil exports, revenue, and economic stability, as well as the global energy market",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Houthi leader warns Saudi oil facilities could be targeted",
+        "Meta Platforms surpasses Saudi Aramco in market cap"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "exporters",
+        "refiners"
+      ],
+      "time_horizon": "now",
+      "upside": "none",
+      "downside": "disruptions to oil production and exports, price volatility, and economic losses",
+      "first_order": "increased risk of attacks on oil facilities",
+      "second_order": "potential decline in investor confidence and economic growth",
+      "invalidation": "if the Houthi leader's warning is withdrawn or if Saudi Arabia increases security measures to prevent attacks",
+      "_at": "2026-07-17T23:49:30.335153"
+    },
+    {
+      "statement": "Feasibility of infrastructure development has increased",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "The partnership between Intermap and NSG UP42 to expand access to elevation intelligence in Saudi Arabia can improve infrastructure planning, development, and management, making it more feasible and efficient",
+      "ksa_grounding": "This change can contribute to Saudi Arabia's infrastructure development goals, such as the development of new cities and transportation systems",
+      "affected_sectors": [
+        "logistics",
+        "fintech"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Intermap partners with NSG UP42 to expand access to elevation intelligence in Saudi Arabia",
+        "Saudi Arabia-backed developer seeks investors for Aramco Stadium"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "infrastructure developers",
+        "planners",
+        "managers"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "improved infrastructure planning and development",
+      "downside": "potential dependence on foreign technology and expertise",
+      "first_order": "increased access to elevation intelligence",
+      "second_order": "improved infrastructure development and management",
+      "invalidation": "if the partnership between Intermap and NSG UP42 is cancelled or if the elevation intelligence technology is not effective",
+      "_at": "2026-07-17T23:49:30.335181"
+    },
+    {
       "statement": "Regulatory barrier to tourism and hospitality has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2291,95 +2350,7 @@
       "second_order": "Increased investment and economic growth in the region",
       "invalidation": "If the U.S.-Iran interim deal collapses or if new geopolitical tensions arise",
       "_at": "2026-06-18T00:14:24.768148"
-    },
-    {
-      "statement": "Global energy market stability has increased",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "The US-Iran interim deal aims to end the protracted war and reopen the Strait of Hormuz, which could lead to increased oil production and exports",
-      "ksa_grounding": "This could impact Saudi Arabia's oil exports and revenue, potentially leading to a decrease in the country's oil market share",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "US-Iran interim deal reached, aiming to end protracted war and reopen Strait of Hormuz",
-        "US-Iran deal could stabilize global energy markets and influence oil prices"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased global energy market stability, potentially leading to lower oil prices",
-      "downside": "Decrease in Saudi Arabia's oil market share and revenue",
-      "first_order": "Direct impact on global energy markets",
-      "second_order": "Downstream effects on Saudi Arabia's economy and oil industry",
-      "invalidation": "If the US-Iran deal falls through or fails to lead to increased oil production and exports",
-      "_at": "2026-06-17T00:13:42.095305"
-    },
-    {
-      "statement": "Investment in Saudi fintech and capital markets has increased",
-      "change_type": "investment",
-      "change_vector": "demand_up",
-      "mechanism": "SpaceX's $75bn IPO has boosted Saudi billionaire Prince Alwaleed bin Talal's stake, indicating increased investment in Saudi fintech and capital markets",
-      "ksa_grounding": "This investment could lead to growth in Saudi Arabia's fintech and capital markets sectors, potentially creating new opportunities for Saudi investors and companies",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "SpaceX's $75bn IPO boosts Saudi billionaire Prince Alwaleed bin Talal's stake to nearly $7bn"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Prince Alwaleed bin Talal",
-        "Saudi investors"
-      ],
-      "time_horizon": "now",
-      "upside": "Growth in Saudi Arabia's fintech and capital markets sectors",
-      "downside": "Potential risks associated with increased investment in a single company or sector",
-      "first_order": "Direct impact on Saudi Arabia's fintech and capital markets",
-      "second_order": "Downstream effects on Saudi Arabia's economy and investment landscape",
-      "invalidation": "If the investment in SpaceX and other Saudi fintech and capital markets companies does not lead to growth and returns",
-      "_at": "2026-06-17T00:13:42.095318"
-    },
-    {
-      "statement": "Saudi Arabia's sports and entertainment sectors are facing financial challenges",
-      "change_type": "investment",
-      "change_vector": "demand_down",
-      "mechanism": "LIV Golf faces financial uncertainty as PIF announces funding cutoff, and Saudi Arabia's heavy investment in football has not yet translated to national team success",
-      "ksa_grounding": "This could impact Saudi Arabia's ability to attract and retain top talent in sports and entertainment, potentially affecting the country's reputation and tourism industry",
-      "affected_sectors": [
-        "entertainment",
-        "tourism"
-      ],
-      "affected_regions": [
-        "jeddah"
-      ],
-      "evidence": [
-        "LIV Golf faces financial uncertainty as PIF announces funding cutoff",
-        "Saudi Arabia invests $2B in football, but national team still struggles"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "LIV Golf",
-        "Saudi football teams"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for Saudi Arabia to reassess and adjust its investment strategy in sports and entertainment",
-      "downside": "Financial challenges and potential losses for Saudi sports and entertainment companies",
-      "first_order": "Direct impact on Saudi Arabia's sports and entertainment sectors",
-      "second_order": "Downstream effects on Saudi Arabia's tourism industry and reputation",
-      "invalidation": "If LIV Golf and Saudi football teams are able to secure new funding and achieve success despite current challenges",
-      "_at": "2026-06-17T00:13:42.095320"
     }
   ],
-  "lastRefresh": "2026-07-16T23:55:56.159251"
+  "lastRefresh": "2026-07-17T23:49:37.810049"
 }

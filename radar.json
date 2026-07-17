@@ -1,6 +1,53 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia-backed developer seeks investors for Aramco Stadium",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-07-16",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "entertainment"
+      ],
+      "region_tags": [
+        "riyadh"
+      ],
+      "affected_domains": [
+        "sports",
+        "infrastructure"
+      ],
+      "summary": "ROSHN Group, a Saudi Arabia-backed developer, is seeking investors for its Aramco Stadium venue. JPMorgan is managing the fundraising process for this significant project. The state-backed developer aims to free up capital for other investments.",
+      "why_it_matters": "This move indicates Saudi Arabia's continued efforts to diversify its economy and invest in tourism and entertainment infrastructure, aligning with Vision 2030 goals.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-17T23:48:52.579227"
+    },
+    {
+      "title": "Houthi leader warns Saudi oil facilities could be targeted",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-16",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "The Houthi leader has warned that Saudi oil facilities could be targeted amid rising tensions in Yemen. This could disrupt global energy markets and lead to increased oil price volatility.",
+      "why_it_matters": "This warning has significant implications for Saudi Arabia's oil industry and global energy security, potentially threatening the stability of the global economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-17T23:48:52.579242"
+    },
+    {
       "title": "Meta Platforms surpasses Saudi Aramco in market cap",
       "source": "Crypto Briefing",
       "source_tier": 2,
@@ -3042,136 +3089,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-18T00:13:47.360234"
-    },
-    {
-      "title": "US-Iran interim deal reached, aiming to end protracted war and reopen Strait of Hormuz",
-      "source": "The Times of India, Abcnews.com",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "global energy markets",
-        "regional security"
-      ],
-      "summary": "A landmark interim deal between the US and Iran aims to end the protracted war and reopen the Strait of Hormuz. The agreement follows years of escalating tensions and is planned for signing in Switzerland. The deal could stabilize the Gulf region and influence global energy markets.",
-      "why_it_matters": "The deal has significant implications for Saudi Arabia's oil exports and regional security. A stable Gulf region could lead to increased oil production and exports, benefiting Saudi Arabia's economy.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-06-17T00:13:34.633799"
-    },
-    {
-      "title": "SpaceX's $75bn IPO boosts Saudi billionaire Prince Alwaleed bin Talal's stake to nearly $7bn",
-      "source": "Livemint, Fortune, Aawsat.com",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "Saudi investments",
-        "global stock markets"
-      ],
-      "summary": "SpaceX's $75bn IPO has pushed Prince Alwaleed bin Talal's net worth to a decade-high $27bn, with Kingdom Holding shares climbing 5% at Sunday's open. The fair value of Kingdom Holding's stake in SpaceX has reached $6.83 billion.",
-      "why_it_matters": "The increased stake in SpaceX could lead to further investments in the Saudi technology and finance sectors, potentially driving economic growth and diversification.",
-      "verification_status": "reported",
-      "source_count": 3,
-      "_at": "2026-06-17T00:13:34.633812"
-    },
-    {
-      "title": "Saudi Arabia invests $2B in football, but national team still struggles",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "company_move",
-      "category": "sports",
-      "geography": "Saudi",
-      "sector_tags": [
-        "entertainment",
-        "tourism"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "Saudi sports",
-        "tourism"
-      ],
-      "summary": "Saudi Arabia's heavy investment in football highlights the challenges of translating financial power into national team success and infrastructure growth.",
-      "why_it_matters": "The investment in football could have long-term benefits for Saudi tourism and entertainment sectors, but the national team's struggles may impact the country's international sports reputation.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-17T00:13:34.633817"
-    },
-    {
-      "title": "LIV Golf faces financial uncertainty as PIF announces funding cutoff",
-      "source": "HITC - Football, Gaming, Movies, TV, Music",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "company_move",
-      "category": "sports",
-      "geography": "Saudi",
-      "sector_tags": [
-        "entertainment",
-        "tourism"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "Saudi sports",
-        "tourism"
-      ],
-      "summary": "LIV Golf is facing financial uncertainty as the Saudi Public Investment Fund announced it will cut off funding at the end of the 2026 season. LIV Golf CEO Scott O\u2019Neil is seeking new funds to support the league.",
-      "why_it_matters": "The funding cutoff could impact Saudi Arabia's sports and tourism sectors, as well as the country's reputation as a major player in international golf.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-17T00:13:34.633819"
-    },
-    {
-      "title": "US-Iran deal could stabilize global energy markets and influence oil prices",
-      "source": "OilPrice.com, The Times of India, DW (English)",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "geopolitical_move",
-      "category": "energy",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "global energy markets",
-        "oil prices"
-      ],
-      "summary": "The US-Iran deal could stabilize global energy markets and influence oil prices. The agreement may lead to increased oil production and exports, which could impact Saudi Arabia's oil exports and revenue.",
-      "why_it_matters": "The deal has significant implications for Saudi Arabia's oil exports and economy. A stable global energy market could lead to increased oil production and exports, benefiting Saudi Arabia's economy.",
-      "verification_status": "reported",
-      "source_count": 3,
-      "_at": "2026-06-17T00:13:34.633820"
     }
   ],
-  "lastRefresh": "2026-07-16T23:55:56.156316",
+  "lastRefresh": "2026-07-17T23:49:37.808259",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 34,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 4,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
-    "signals_ksa_grounded": 4,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "signals_moderate": 3,
+    "signals_ksa_grounded": 3,
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

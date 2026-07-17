@@ -1,6 +1,94 @@
 {
   "items": [
     {
+      "title": "Saudi Tourism and Hospitality Development",
+      "play_type": "market_entry_play",
+      "actor": "Tourism and hospitality companies",
+      "customer": "LGBTQ tourists and investors",
+      "problem": "Regulatory barriers to tourism and hospitality have reduced, creating new opportunities",
+      "action_path": "Develop inclusive tourism and hospitality services, invest in marketing and infrastructure, and partner with local businesses to create a welcoming environment. This can include training staff to cater to diverse customer needs and developing targeted marketing campaigns. Companies can also invest in sustainable tourism practices to appeal to environmentally conscious travelers.",
+      "entry_mode": "invest",
+      "monetization": "Increased tourism revenue and job creation",
+      "capabilities": "Inclusive service design, marketing, and infrastructure development",
+      "barriers": "Cultural and social resistance to change",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Regulatory barrier to tourism and hospitality has reduced"
+      ],
+      "sector": "tourism",
+      "relevant_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's economic diversification goals and increases tourism revenue",
+      "assumptions": "Saudi Arabia will continue to open up to international tourism and hospitality investment",
+      "invalidation": "If Saudi Arabia reverses its decision to allow LGBTQ visitors or if the 2034 World Cup is cancelled",
+      "_at": "2026-07-17T23:49:37.808142"
+    },
+    {
+      "title": "Saudi Oil and Gas Risk Mitigation",
+      "play_type": "defensive_play",
+      "actor": "Oil and gas companies",
+      "customer": "Saudi government and oil and gas investors",
+      "problem": "Risk exposure to oil and gas sector has increased due to potential attacks",
+      "action_path": "Implement enhanced security measures, such as increased surveillance and intelligence gathering, to protect oil facilities and exports. Companies can also invest in risk management and insurance to mitigate potential losses. Additionally, they can develop contingency plans for emergency response and business continuity.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of disruptions to oil production and exports",
+      "capabilities": "Security and risk management expertise",
+      "barriers": "High costs of security measures and potential resistance from local communities",
+      "timing": "prepare now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure to oil and gas sector has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "eastern_province"
+      ],
+      "ksa_grounding": "Protects Saudi Arabia's oil exports, revenue, and economic stability",
+      "assumptions": "The Houthi leader's warning is credible and Saudi Arabia will take measures to prevent attacks",
+      "invalidation": "If the Houthi leader's warning is withdrawn or if Saudi Arabia increases security measures to prevent attacks",
+      "_at": "2026-07-17T23:49:37.808156"
+    },
+    {
+      "title": "Saudi Logistics and Fintech Infrastructure Development",
+      "play_type": "infrastructure_play",
+      "actor": "Logistics and fintech companies",
+      "customer": "Saudi government and businesses",
+      "problem": "Feasibility of infrastructure development has increased due to improved elevation intelligence",
+      "action_path": "Develop and invest in logistics and fintech infrastructure, such as transportation systems and payment platforms, using elevation intelligence to improve planning and management. Companies can also partner with local businesses to develop tailored solutions for the Saudi market. Additionally, they can invest in research and development to improve the efficiency and sustainability of logistics and fintech services.",
+      "entry_mode": "partner",
+      "monetization": "Improved infrastructure planning, development, and management",
+      "capabilities": "Elevation intelligence, logistics, and fintech expertise",
+      "barriers": "High costs of infrastructure development and potential regulatory hurdles",
+      "timing": "build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Feasibility of infrastructure development has increased"
+      ],
+      "sector": "logistics",
+      "relevant_sectors": [
+        "logistics",
+        "fintech"
+      ],
+      "relevant_regions": [
+        "neom",
+        "red_sea"
+      ],
+      "ksa_grounding": "Contributes to Saudi Arabia's infrastructure development goals and economic diversification",
+      "assumptions": "The partnership between Intermap and NSG UP42 will be successful and elevation intelligence will be effective",
+      "invalidation": "If the partnership between Intermap and NSG UP42 is cancelled or if the elevation intelligence technology is not effective",
+      "_at": "2026-07-17T23:49:37.808157"
+    },
+    {
       "title": "Capital Markets Digitalization",
       "play_type": "infrastructure_play",
       "actor": "Saudi financial institutions, Fintech companies",
@@ -1798,67 +1886,7 @@
       "assumptions": "Geopolitical tensions will continue to decrease, and regional cooperation will increase",
       "invalidation": "If the U.S.-Iran interim deal collapses or if new geopolitical tensions arise",
       "_at": "2026-06-18T00:15:02.347576"
-    },
-    {
-      "title": "Diversification of Saudi Oil Exports",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco",
-      "customer": "International oil buyers",
-      "problem": "Potential decrease in Saudi oil market share due to increased global energy market stability",
-      "action_path": "Saudi Aramco should diversify its oil exports to new markets, such as Asia and Europe, to reduce dependence on traditional markets. This can be achieved by investing in new infrastructure, such as pipelines and storage facilities. Additionally, Saudi Aramco can explore alternative energy sources, such as renewable energy, to reduce its reliance on oil exports.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue from diversified oil exports and alternative energy sources",
-      "capabilities": "Oil production and export capabilities, infrastructure development, alternative energy sources",
-      "barriers": "High upfront costs for infrastructure development, competition from other oil-producing countries",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Global energy market stability has increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by reducing dependence on traditional oil markets and exploring alternative energy sources",
-      "assumptions": "The US-Iran interim deal will lead to increased oil production and exports, and Saudi Aramco will be able to diversify its oil exports to new markets",
-      "invalidation": "If the US-Iran deal falls through or fails to lead to increased oil production and exports",
-      "_at": "2026-06-17T00:13:49.143616"
-    },
-    {
-      "title": "Saudi Sports and Entertainment Sector Restructuring",
-      "play_type": "policy_play",
-      "actor": "Saudi Government",
-      "customer": "Saudi sports and entertainment industry",
-      "problem": "Financial challenges facing Saudi sports and entertainment sectors",
-      "action_path": "The Saudi government should restructure the sports and entertainment sectors by providing financial support and incentives to attract and retain top talent. This can be achieved by establishing a new regulatory framework and providing funding for sports and entertainment initiatives. Additionally, the government can explore public-private partnerships to support the development of the sectors.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue from sports and entertainment sectors, improved reputation and tourism industry",
-      "capabilities": "Regulatory framework development, funding and investment, public-private partnerships",
-      "barriers": "High upfront costs for restructuring, competition from other countries for top talent",
-      "timing": "invest",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Saudi Arabia's sports and entertainment sectors are facing financial challenges"
-      ],
-      "sector": "entertainment",
-      "relevant_sectors": [
-        "entertainment",
-        "tourism"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by supporting the development of the sports and entertainment sectors and improving the country's reputation and tourism industry",
-      "assumptions": "The Saudi government will be able to provide sufficient financial support and incentives to attract and retain top talent, and the sectors will be able to achieve success despite current challenges",
-      "invalidation": "If LIV Golf and Saudi football teams are unable to secure new funding and achieve success despite current challenges",
-      "_at": "2026-06-17T00:13:49.143631"
     }
   ],
-  "lastRefresh": "2026-07-16T23:55:56.161289"
+  "lastRefresh": "2026-07-17T23:49:37.811297"
 }
