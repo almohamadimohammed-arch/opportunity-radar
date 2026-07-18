@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Enhanced Maritime Security",
+      "play_type": "defensive_play",
+      "actor": "Saudi Arabian Government and Oil Companies",
+      "customer": "Saudi Oil Exporters and Global Energy Market Participants",
+      "problem": "Rising risk exposure to global oil supply due to increased attacks on ships in the Strait of Hormuz",
+      "action_path": "Implement advanced surveillance systems and increase naval presence in the Strait of Hormuz to deter potential attacks. Collaborate with international partners to share intelligence and coordinate responses. Develop contingency plans for potential disruptions to oil exports.",
+      "entry_mode": "build",
+      "monetization": "Protects oil exports and maintains global energy market stability, preserving revenue streams for Saudi Arabia",
+      "capabilities": "Advanced surveillance technology, naval capabilities, international cooperation, and crisis management expertise",
+      "barriers": "High costs of implementing and maintaining advanced surveillance systems, potential diplomatic challenges in coordinating international responses",
+      "timing": "enter now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure to global oil supply is rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports and global energy market stability are at risk due to the strategic importance of the Strait of Hormuz",
+      "assumptions": "The attacks on ships in the Strait of Hormuz will continue or escalate, and the international community will cooperate in responding to the threat",
+      "invalidation": "A significant decrease in attacks on ships in the Strait of Hormuz and no targeting of Saudi oil facilities, rendering enhanced maritime security measures unnecessary",
+      "_at": "2026-07-18T23:50:33.277209"
+    },
+    {
+      "title": "Diversification of Oil Export Routes",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Arabian Government and Oil Companies",
+      "customer": "Saudi Oil Exporters and Global Energy Market Participants",
+      "problem": "Rising risk exposure to global oil supply due to increased attacks on ships in the Strait of Hormuz",
+      "action_path": "Invest in alternative oil export routes, such as pipelines or shipping lanes, to reduce dependence on the Strait of Hormuz. Develop strategic partnerships with countries that can provide secure export routes.",
+      "entry_mode": "invest",
+      "monetization": "Reduces reliance on a single export route, maintaining oil export revenue streams and global energy market stability",
+      "capabilities": "Pipeline construction and management expertise, strategic partnership development, and international cooperation",
+      "barriers": "High costs of building and maintaining alternative export routes, potential geopolitical challenges in developing strategic partnerships",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure to global oil supply is rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports and global energy market stability are at risk due to the strategic importance of the Strait of Hormuz",
+      "assumptions": "The attacks on ships in the Strait of Hormuz will continue or escalate, and alternative export routes can be developed and secured",
+      "invalidation": "A significant decrease in attacks on ships in the Strait of Hormuz and no targeting of Saudi oil facilities, rendering diversification of oil export routes unnecessary",
+      "_at": "2026-07-18T23:50:33.277218"
+    },
+    {
+      "title": "Cybersecurity for Oil and Gas Infrastructure",
+      "play_type": "defensive_play",
+      "actor": "Saudi Arabian Government and Oil Companies",
+      "customer": "Saudi Oil Exporters and Global Energy Market Participants",
+      "problem": "Rising risk exposure to global oil supply due to increased attacks on ships in the Strait of Hormuz and potential cyber threats to oil and gas infrastructure",
+      "action_path": "Implement advanced cybersecurity measures to protect oil and gas infrastructure from potential cyber threats. Develop incident response plans and conduct regular security audits.",
+      "entry_mode": "build",
+      "monetization": "Protects oil and gas infrastructure from cyber threats, preserving revenue streams for Saudi Arabia and maintaining global energy market stability",
+      "capabilities": "Advanced cybersecurity technology, incident response planning, and security audit expertise",
+      "barriers": "High costs of implementing and maintaining advanced cybersecurity measures, potential challenges in developing effective incident response plans",
+      "timing": "enter now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure to global oil supply is rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports and global energy market stability are at risk due to the strategic importance of the Strait of Hormuz and potential cyber threats to oil and gas infrastructure",
+      "assumptions": "The attacks on ships in the Strait of Hormuz will continue or escalate, and cyber threats to oil and gas infrastructure will increase",
+      "invalidation": "A significant decrease in attacks on ships in the Strait of Hormuz and no targeting of Saudi oil facilities, rendering cybersecurity measures for oil and gas infrastructure unnecessary",
+      "_at": "2026-07-18T23:50:33.277220"
+    },
+    {
       "title": "Saudi Tourism and Hospitality Development",
       "play_type": "market_entry_play",
       "actor": "Tourism and hospitality companies",
@@ -1824,69 +1914,7 @@
       "assumptions": "The government will be able to develop and implement effective policies to diversify the energy sector",
       "invalidation": "Lack of investment or international cooperation",
       "_at": "2026-06-19T00:23:50.069875"
-    },
-    {
-      "title": "Entertainment and Tourism Infrastructure Development",
-      "play_type": "infrastructure_play",
-      "actor": "Government and private investors",
-      "customer": "Tourists and entertainment seekers",
-      "problem": "Limited entertainment and tourism infrastructure",
-      "action_path": "Invest in large-scale entertainment and tourism projects, such as the National Tennis Centre, to increase tourism revenue and job creation in the entertainment and tourism sectors. This can be achieved by developing public-private partnerships and investing in infrastructure development. The government can also provide incentives for private investors to participate in these projects.",
-      "entry_mode": "invest",
-      "monetization": "Increased tourism revenue and job creation",
-      "capabilities": "Infrastructure development, project management, and public-private partnership development",
-      "barriers": "High upfront costs and potential delays in project completion",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investment in entertainment and tourism infrastructure is increasing"
-      ],
-      "sector": "entertainment",
-      "relevant_sectors": [
-        "entertainment",
-        "tourism",
-        "hospitality"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "red_sea"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased tourism revenue and job creation in the entertainment and tourism sectors",
-      "assumptions": "Tourism demand will increase, and infrastructure projects will be completed on time",
-      "invalidation": "If the National Tennis Centre project is cancelled or delayed significantly",
-      "_at": "2026-06-18T00:15:02.347564"
-    },
-    {
-      "title": "Oil and Gas Sector Stability",
-      "play_type": "defensive_play",
-      "actor": "Oil and gas companies",
-      "customer": "Investors and stakeholders",
-      "problem": "Geopolitical tensions in the Gulf region",
-      "action_path": "Oil and gas companies can take advantage of the decreased geopolitical tensions to increase stability and decrease risk in the Gulf region. This can be achieved by investing in risk management and mitigation strategies, such as diversifying their operations and developing contingency plans. Companies can also explore opportunities for cooperation and collaboration with other regional players.",
-      "entry_mode": "build",
-      "monetization": "Increased stability and decreased risk",
-      "capabilities": "Risk management, mitigation strategies, and cooperation development",
-      "barriers": "Potential resurgence of geopolitical tensions",
-      "timing": "prepare now",
-      "action_posture": "Defend",
-      "linked_signals": [
-        "Geopolitical tensions in the Gulf region are decreasing"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "eastern_province",
-        "riyadh"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased stability and decreased risk in the Gulf region",
-      "assumptions": "Geopolitical tensions will continue to decrease, and regional cooperation will increase",
-      "invalidation": "If the U.S.-Iran interim deal collapses or if new geopolitical tensions arise",
-      "_at": "2026-06-18T00:15:02.347576"
     }
   ],
-  "lastRefresh": "2026-07-17T23:49:37.811297"
+  "lastRefresh": "2026-07-18T23:50:33.282332"
 }

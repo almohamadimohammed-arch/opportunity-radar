@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia's NEOM city is being built on land with a long human past, displacing Huwaitat communities",
+      "source": "Space Daily",
+      "source_tier": 1,
+      "time": "2026-07-17",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [
+        "neom"
+      ],
+      "affected_domains": [
+        "urban development",
+        "indigenous rights"
+      ],
+      "summary": "The construction of NEOM city in Saudi Arabia is displacing Huwaitat communities, who have lived on the land for a long time. The project's promotional language emphasizes a 'clean start' and a 'blank stretch of desert', ignoring the existing human presence. This has become one of the project's darkest controversies.",
+      "why_it_matters": "The displacement of Huwaitat communities raises concerns about the social and cultural impact of NEOM city's construction, and may have strategic consequences for Saudi Arabia's reputation and relationships with indigenous populations.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-18T23:49:48.172245"
+    },
+    {
+      "title": "Iran steps up attacks on ships in Hormuz, posing a threat to global oil supply",
+      "source": "CNBC",
+      "source_tier": 1,
+      "time": "2026-07-17",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global economy",
+        "energy security"
+      ],
+      "summary": "Iran has increased its attacks on ships in the Strait of Hormuz, posing a significant threat to global oil supply. One seafarer was killed and three were injured in a recent attack on a crude oil tanker.",
+      "why_it_matters": "The escalation of attacks in Hormuz may have strategic consequences for Saudi Arabia's oil exports and the global economy, highlighting the need for increased security measures and diplomatic efforts to resolve the conflict.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-18T23:49:48.172256"
+    },
+    {
+      "title": "Houthi leader warns Saudi oil facilities could be targeted amid Yemen tensions",
+      "source": "Crypto Briefing, Yahoo Entertainment",
+      "source_tier": 2,
+      "time": "2026-07-16",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy security",
+        "regional stability"
+      ],
+      "summary": "The Houthi leader has warned that Saudi oil facilities could be targeted amid rising tensions in Yemen, potentially disrupting global energy markets and leading to increased oil price volatility.",
+      "why_it_matters": "The threat to Saudi oil facilities may have strategic consequences for the kingdom's energy exports and the global economy, highlighting the need for diplomatic efforts to resolve the conflict in Yemen.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-07-18T23:49:48.172260"
+    },
+    {
+      "title": "European Union set to approve Saudi acquisition of EA",
+      "source": "MobileSyrup, Biztoc.com",
+      "source_tier": 2,
+      "time": "2026-07-17",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "gaming industry",
+        "mergers and acquisitions"
+      ],
+      "summary": "The European Union is expected to approve the Saudi acquisition of Electronic Arts, a major gaming company, in a deal worth $55 billion.",
+      "why_it_matters": "The acquisition may have strategic consequences for the gaming industry and Saudi Arabia's investments in the entertainment sector, potentially leading to increased influence and diversification of the kingdom's economy.",
+      "verification_status": "reported",
+      "source_count": 2,
+      "_at": "2026-07-18T23:49:48.172262"
+    },
+    {
+      "title": "US conducts airstrikes near Iran's Qeshm amid war escalation",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-17",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "regional stability",
+        "global security"
+      ],
+      "summary": "The US has conducted airstrikes near Iran's Qeshm island, amid escalating tensions and military action in the region.",
+      "why_it_matters": "The escalation of military action may have strategic consequences for regional stability and global security, potentially leading to increased tensions and conflict in the Middle East.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-18T23:49:48.172264"
+    },
+    {
       "title": "Saudi Arabia-backed developer seeks investors for Aramco Stadium",
       "source": "The Times of India",
       "source_tier": 2,
@@ -2972,130 +3085,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-19T00:23:06.053823"
-    },
-    {
-      "title": "SpaceX to acquire AI coding startup Cursor for $60 billion",
-      "source": "The Financial Express, Times of India",
-      "source_tier": 2,
-      "time": "2026-06-16",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "artificial intelligence",
-        "space technology"
-      ],
-      "summary": "SpaceX has announced its plan to acquire AI coding startup Cursor for $60 billion, expanding its footprint in the enterprise artificial intelligence market. This move is expected to enhance SpaceX's capabilities in AI-powered technologies. The acquisition is subject to regulatory approvals.",
-      "why_it_matters": "This acquisition could have significant implications for Saudi Arabia's technology sector, particularly in the areas of artificial intelligence and space exploration, as SpaceX is a major player in these fields.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-06-18T00:13:47.360214"
-    },
-    {
-      "title": "Saudi Arabia announces plans to build a National Tennis Centre",
-      "source": "Dailymail.com, Worldconstructionnetwork.com",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "infrastructure_disruption",
-      "category": "sports",
-      "geography": "Saudi",
-      "sector_tags": [
-        "entertainment",
-        "tourism"
-      ],
-      "region_tags": [
-        "qiddiya"
-      ],
-      "affected_domains": [
-        "sports infrastructure",
-        "tourism"
-      ],
-      "summary": "Saudi Arabia has announced plans to build a National Tennis Centre, which will be the largest tennis complex in the region. The centre will be built to ATP, WTA, and ITF standards.",
-      "why_it_matters": "This development could enhance Saudi Arabia's sports infrastructure and boost its tourism sector, aligning with the country's Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-06-18T00:13:47.360228"
-    },
-    {
-      "title": "U.S.-Iran interim deal could lead to a Gulf bounce back",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-06-16",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy markets",
-        "global politics"
-      ],
-      "summary": "The U.S.-Iran interim deal has sparked relief across global markets, and investors are waiting to see if the breakthrough can translate into lasting stability. The deal could lead to a bounce back in the Gulf region.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's energy sector and the broader Gulf region, potentially leading to increased stability and investment opportunities.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-18T00:13:47.360230"
-    },
-    {
-      "title": "SpaceX surges 19% on stock market debut, lifting Saudi billionaire Prince Alwaleed bin Talal's stake",
-      "source": "Livemint",
-      "source_tier": 2,
-      "time": "2026-06-15",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "space technology",
-        "investments"
-      ],
-      "summary": "SpaceX's $75 billion IPO has pushed Prince Alwaleed bin Talal's net worth to a decade-high $27 billion, with Kingdom Holding shares climbing 5% at Sunday's open.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's investment landscape, particularly for Prince Alwaleed bin Talal's Kingdom Holding Company.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-18T00:13:47.360232"
-    },
-    {
-      "title": "Gulf private credit opportunities shine amid global volatility",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-06-16",
-      "event_type": "market_shift",
-      "category": "finance",
-      "geography": "Gulf",
-      "sector_tags": [
-        "banking",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "private credit",
-        "investments"
-      ],
-      "summary": "The Gulf is no longer just a source of capital for private credit, but is becoming one of the industry's most important markets. Gulf private credit opportunities are shining amid global volatility.",
-      "why_it_matters": "This development could have significant implications for Saudi Arabia's financial sector, particularly in the areas of private credit and investments.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-18T00:13:47.360234"
     }
   ],
-  "lastRefresh": "2026-07-17T23:49:37.808259",
+  "lastRefresh": "2026-07-18T23:50:33.277344",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 37,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3103,7 +3099,7 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

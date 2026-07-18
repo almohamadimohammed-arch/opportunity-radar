@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Risk exposure to global oil supply is rising",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Increased attacks on ships in the Strait of Hormuz and potential targeting of Saudi oil facilities",
+      "ksa_grounding": "Saudi Arabia's oil exports and global energy market stability are at risk",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran steps up attacks on ships in Hormuz, posing a threat to global oil supply",
+        "Houthi leader warns Saudi oil facilities could be targeted amid Yemen tensions"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "global energy markets"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil prices could benefit Saudi Arabia's oil revenue",
+      "downside": "Disrupted global oil supply could lead to economic instability",
+      "first_order": "Direct impact on oil supply and prices",
+      "second_order": "Potential downstream effects on global economy and trade",
+      "invalidation": "A significant decrease in attacks on ships in the Strait of Hormuz and no targeting of Saudi oil facilities",
+      "_at": "2026-07-18T23:50:25.369835"
+    },
+    {
+      "statement": "Regulatory barriers to foreign investment in Saudi entertainment sector are decreasing",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "European Union's expected approval of Saudi acquisition of Electronic Arts",
+      "ksa_grounding": "Increased foreign investment in Saudi entertainment sector could boost economic growth",
+      "affected_sectors": [
+        "entertainment"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "European Union set to approve Saudi acquisition of EA"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "foreign investors",
+        "Saudi entertainment industry"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment could lead to job creation and economic growth",
+      "downside": "Over-reliance on foreign investment could lead to loss of domestic control",
+      "first_order": "Direct impact on foreign investment in entertainment sector",
+      "second_order": "Potential downstream effects on Saudi economy and culture",
+      "invalidation": "European Union's rejection of Saudi acquisition of Electronic Arts",
+      "_at": "2026-07-18T23:50:25.369844"
+    },
+    {
+      "statement": "Infrastructure development in Saudi Arabia is expanding, but with social costs",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Construction of NEOM city and other mega-projects",
+      "ksa_grounding": "Large-scale infrastructure development could boost Saudi economy, but at the cost of displacing local communities",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "neom"
+      ],
+      "evidence": [
+        "Saudi Arabia's NEOM city is being built on land with a long human past, displacing Huwaitat communities"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "local communities",
+        "tourism and hospitality industries"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased tourism and economic growth",
+      "downside": "Displacement of local communities and potential social unrest",
+      "first_order": "Direct impact on local communities and infrastructure development",
+      "second_order": "Potential downstream effects on Saudi society and economy",
+      "invalidation": "Cancellation or significant delay of NEOM city construction",
+      "_at": "2026-07-18T23:50:25.369848"
+    },
+    {
       "statement": "Risk exposure to oil and gas sector has increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2288,69 +2372,7 @@
       "second_order": "Potential for increased growth and development in the regional finance sector",
       "invalidation": "A significant decrease in global volatility or a major disruption to the private credit market would invalidate this signal",
       "_at": "2026-06-19T00:23:13.151443"
-    },
-    {
-      "statement": "Investment in entertainment and tourism infrastructure is increasing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Government announcements and investments in large-scale entertainment and tourism projects, such as the National Tennis Centre",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased tourism revenue and job creation in the entertainment and tourism sectors",
-      "affected_sectors": [
-        "entertainment",
-        "tourism"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Arabia announces plans to build a National Tennis Centre",
-        "Gulf private credit opportunities shine amid global volatility"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi government",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased tourism revenue and job creation in the entertainment and tourism sectors",
-      "downside": "Potential oversaturation of the market and decreased demand",
-      "first_order": "Increased investment in entertainment and tourism infrastructure",
-      "second_order": "Job creation and economic growth in the entertainment and tourism sectors",
-      "invalidation": "If the National Tennis Centre project is cancelled or delayed significantly",
-      "_at": "2026-06-18T00:14:24.768136"
-    },
-    {
-      "statement": "Geopolitical tensions in the Gulf region are decreasing",
-      "change_type": "geopolitics",
-      "change_vector": "risk_exposure_falling",
-      "mechanism": "The U.S.-Iran interim deal has sparked relief across global markets, indicating a decrease in geopolitical tensions",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from increased stability and decreased risk in the Gulf region, particularly in the oil and gas sectors",
-      "affected_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "U.S.-Iran interim deal could lead to a Gulf bounce back",
-        "Gulf private credit opportunities shine amid global volatility"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "U.S. government",
-        "Iranian government",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment and economic growth in the Gulf region",
-      "downside": "Potential resurgence of geopolitical tensions",
-      "first_order": "Decreased geopolitical tensions in the Gulf region",
-      "second_order": "Increased investment and economic growth in the region",
-      "invalidation": "If the U.S.-Iran interim deal collapses or if new geopolitical tensions arise",
-      "_at": "2026-06-18T00:14:24.768148"
     }
   ],
-  "lastRefresh": "2026-07-17T23:49:37.810049"
+  "lastRefresh": "2026-07-18T23:50:33.280288"
 }
