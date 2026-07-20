@@ -1,6 +1,99 @@
 {
   "items": [
     {
+      "title": "Diversify Energy Exports to Mitigate Risk",
+      "play_type": "business_play",
+      "actor": "Saudi Aramco",
+      "customer": "Global energy buyers",
+      "problem": "Risk exposure to global oil supply disruptions",
+      "action_path": "Saudi Aramco should diversify its energy exports to include more secure and reliable sources, such as pipelines and strategic storage facilities, to mitigate the risk of disruptions through the Strait of Hormuz. This can be achieved by investing in new infrastructure and partnerships with key energy buyers. Additionally, Saudi Aramco can promote its oil and gas exports as secure energy sources to capitalize on the growing demand for reliable energy.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue and market share through diversified and secure energy exports",
+      "capabilities": "Pipeline and storage infrastructure development, strategic partnerships, and marketing capabilities",
+      "barriers": "High upfront investment costs, geopolitical tensions, and competition from other energy suppliers",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to global oil supply has increased",
+        "Geopolitical tensions in the Middle East have increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports and economy may be impacted by disruptions to the Strait of Hormuz, and diversifying energy exports can help mitigate this risk",
+      "assumptions": "The conflict in the Middle East will continue to escalate, and the demand for secure energy sources will remain high",
+      "invalidation": "A swift resolution to the conflict, restoring stability to the region, or a significant shift towards renewable energy sources, reducing demand for fossil fuels",
+      "_at": "2026-07-20T23:54:48.156733"
+    },
+    {
+      "title": "Develop Strategic Energy Storage Facilities",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco, Private investors",
+      "customer": "Global energy buyers, Saudi Aramco",
+      "problem": "Risk exposure to global oil supply disruptions",
+      "action_path": "Develop strategic energy storage facilities in key locations, such as the Red Sea and the Eastern Province, to enhance the security and reliability of Saudi Arabia's energy exports. This can be achieved through partnerships between Saudi Aramco, private investors, and international energy companies. The facilities can store crude oil, petroleum products, and other energy sources, providing a buffer against disruptions and ensuring a stable supply to global markets.",
+      "entry_mode": "build",
+      "monetization": "Revenue from storage and handling fees, increased market share and competitiveness for Saudi Aramco",
+      "capabilities": "Energy storage infrastructure development, project management, and logistics capabilities",
+      "barriers": "High upfront investment costs, regulatory approvals, and competition from other energy storage facilities",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure to global oil supply has increased",
+        "Geopolitical tensions in the Middle East have increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "red_sea",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Saudi Arabia's energy exports and economy may be impacted by disruptions to the Strait of Hormuz, and developing strategic energy storage facilities can help mitigate this risk",
+      "assumptions": "The conflict in the Middle East will continue to escalate, and the demand for secure energy sources will remain high",
+      "invalidation": "A swift resolution to the conflict, restoring stability to the region, or a significant shift towards renewable energy sources, reducing demand for fossil fuels",
+      "_at": "2026-07-20T23:54:48.156745"
+    },
+    {
+      "title": "Promote Saudi Arabia as a Secure Energy Supplier",
+      "play_type": "market_entry_play",
+      "actor": "Saudi Aramco, Saudi government",
+      "customer": "Global energy buyers",
+      "problem": "Risk exposure to global oil supply disruptions",
+      "action_path": "Promote Saudi Arabia as a secure and reliable energy supplier to global markets, highlighting its strategic location, large oil reserves, and investments in energy infrastructure. This can be achieved through targeted marketing campaigns, diplomatic efforts, and partnerships with key energy buyers. Saudi Aramco and the Saudi government can also offer incentives, such as long-term contracts and strategic partnerships, to attract new customers and increase market share.",
+      "entry_mode": "invest",
+      "monetization": "Increased revenue and market share through increased energy exports",
+      "capabilities": "Marketing, diplomacy, and partnership development capabilities",
+      "barriers": "Competition from other energy suppliers, geopolitical tensions, and high marketing costs",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to global oil supply has increased",
+        "Geopolitical tensions in the Middle East have increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports and economy may be impacted by disruptions to the Strait of Hormuz, and promoting the country as a secure energy supplier can help mitigate this risk",
+      "assumptions": "The conflict in the Middle East will continue to escalate, and the demand for secure energy sources will remain high",
+      "invalidation": "A swift resolution to the conflict, restoring stability to the region, or a significant shift towards renewable energy sources, reducing demand for fossil fuels",
+      "_at": "2026-07-20T23:54:48.156747"
+    },
+    {
       "title": "Diversification of Saudi Economy",
       "play_type": "policy_play",
       "actor": "Saudi government",
@@ -1860,5 +1953,5 @@
       "_at": "2026-06-21T00:03:35.628987"
     }
   ],
-  "lastRefresh": "2026-07-20T02:58:15.508182"
+  "lastRefresh": "2026-07-20T23:54:48.160902"
 }

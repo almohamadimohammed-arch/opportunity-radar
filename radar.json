@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "title": "Iran strikes US bases in Jordan and Kuwait amid escalating conflict",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-19",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "Iran has struck US bases in Jordan and Kuwait, escalating the conflict in the region. The attack has resulted in the death of two US service members and one missing. The situation is being closely monitored by the international community.",
+      "why_it_matters": "This escalation in conflict could have significant implications for global energy security and the stability of the region, which is crucial for Saudi Arabia's oil exports and regional security.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T23:54:02.898134"
+    },
+    {
+      "title": "Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows",
+      "source": "Financial Post",
+      "source_tier": 2,
+      "time": "2026-07-19",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Brent crude has jumped to over $90 due to the escalating conflict in the Middle East, which threatens to disrupt oil flows through the Strait of Hormuz.",
+      "why_it_matters": "This increase in oil prices could have significant implications for Saudi Arabia's oil exports and revenue, as well as the global economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T23:54:02.898152"
+    },
+    {
+      "title": "Japan Prioritizes Energy Security Over Climate Targets",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-07-19",
+      "event_type": "policy_shift",
+      "category": "energy",
+      "geography": "Global",
+      "sector_tags": [
+        "renewable_energy",
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "environment"
+      ],
+      "summary": "Japan has announced a policy shift that prioritizes energy security over climate targets, emphasizing reliable baseload power from nuclear and coal-fired generation.",
+      "why_it_matters": "This policy shift could have significant implications for the global energy landscape and Saudi Arabia's efforts to diversify its energy sector under Vision 2030.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T23:54:02.898154"
+    },
+    {
+      "title": "Kuwait explores defence pact with Pakistan",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-07-19",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "security",
+        "defence"
+      ],
+      "summary": "Kuwait is in talks with Pakistan to sign a comprehensive defence pact amid escalating regional tensions following Iran's renewed attacks on Gulf infrastructure.",
+      "why_it_matters": "This potential defence pact could have significant implications for regional security and Saudi Arabia's relationships with its Gulf neighbours.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T23:54:02.898156"
+    },
+    {
       "title": "US renews strikes on Iran after military personnel killed",
       "source": "RTE",
       "source_tier": 2,
@@ -2974,11 +3063,11 @@
       "_at": "2026-06-21T00:02:52.062002"
     }
   ],
-  "lastRefresh": "2026-07-20T02:58:15.503548",
+  "lastRefresh": "2026-07-20T23:54:48.156839",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 23,
+    "articles_to_model": 28,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -2986,7 +3075,7 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Risk exposure to global oil supply has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Escalating conflict in the Middle East threatens to disrupt oil flows through the Strait of Hormuz",
+      "ksa_grounding": "Saudi Arabia's oil exports may be impacted, affecting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran strikes US bases in Jordan and Kuwait amid escalating conflict",
+        "Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "importers"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for increased oil prices, benefiting Saudi Arabia's oil revenue",
+      "downside": "potential for decreased oil exports, negatively impacting Saudi Arabia's economy",
+      "first_order": "direct impact on oil supply and prices",
+      "second_order": "downstream effects on global economy and trade",
+      "invalidation": "a swift resolution to the conflict, restoring stability to the region",
+      "_at": "2026-07-20T23:54:40.259488"
+    },
+    {
+      "statement": "Global demand for secure energy sources has increased",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "Japan's policy shift prioritizing energy security over climate targets indicates a growing demand for reliable energy sources",
+      "ksa_grounding": "Saudi Arabia can capitalize on this trend by promoting its oil and gas exports as secure energy sources",
+      "affected_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Japan Prioritizes Energy Security Over Climate Targets",
+        "Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "energy importers",
+        "exporters"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential for increased demand for Saudi Arabia's oil and gas exports",
+      "downside": "potential for decreased demand for fossil fuels in the long term",
+      "first_order": "direct impact on energy demand and supply",
+      "second_order": "downstream effects on global energy markets and trade",
+      "invalidation": "a significant shift towards renewable energy sources, reducing demand for fossil fuels",
+      "_at": "2026-07-20T23:54:40.259500"
+    },
+    {
+      "statement": "Geopolitical tensions in the Middle East have increased",
+      "change_type": "geopolitics",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Escalating conflict between Iran and the US, as well as Kuwait's exploration of a defence pact with Pakistan, indicates increased geopolitical tensions",
+      "ksa_grounding": "Saudi Arabia's regional security and stability may be impacted, affecting its economy and trade",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran strikes US bases in Jordan and Kuwait amid escalating conflict",
+        "Kuwait explores defence pact with Pakistan"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "regional governments",
+        "international community"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for increased regional cooperation and diplomacy",
+      "downside": "potential for further escalation and conflict, negatively impacting regional stability",
+      "first_order": "direct impact on regional security and stability",
+      "second_order": "downstream effects on global trade and economy",
+      "invalidation": "a swift resolution to the conflict, restoring stability to the region",
+      "_at": "2026-07-20T23:54:40.259502"
+    },
+    {
       "statement": "Regulatory barrier to foreign investment in Gulf markets has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2289,5 +2375,5 @@
       "_at": "2026-06-21T00:03:28.678374"
     }
   ],
-  "lastRefresh": "2026-07-20T02:58:15.506239"
+  "lastRefresh": "2026-07-20T23:54:48.159230"
 }
