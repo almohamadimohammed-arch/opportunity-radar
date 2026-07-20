@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "title": "US renews strikes on Iran after military personnel killed",
+      "source": "RTE",
+      "source_tier": 2,
+      "time": "2026-07-19",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "The United States launched new strikes against Iran after two US military personnel were killed in Jordan and another was missing. The strikes aimed to degrade Iran's ability to control oil tanker traffic.",
+      "why_it_matters": "This escalation in the conflict between the US and Iran has strategic consequences for Saudi Arabia's oil and gas sector, as well as regional security. It may lead to increased tensions and potential disruptions to energy supplies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T02:57:30.150435"
+    },
+    {
+      "title": "Iraq signs $60B in energy deals with US and British oil majors",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-18",
+      "event_type": "partnership",
+      "category": "business",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy"
+      ],
+      "summary": "Iraq has signed $60 billion in energy deals with US and British oil majors. The deals aim to increase Iraq's oil production and strengthen its position in the global energy market.",
+      "why_it_matters": "This partnership has strategic consequences for Saudi Arabia's oil and gas sector, as it may lead to increased competition in the regional energy market. It also highlights the growing importance of the Middle East in global energy politics.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T02:57:30.150445"
+    },
+    {
+      "title": "Healthcare Predictive Analytics Market Size Worth USD 140.02 Billion by 2035",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-17",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "healthcare"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "healthcare"
+      ],
+      "summary": "The global healthcare predictive analytics market is projected to grow from USD 8.43 billion in 2025 to USD 57.64 billion by 2035. The market is driven by the increasing demand for data-driven healthcare solutions.",
+      "why_it_matters": "This market shift has strategic consequences for Saudi Arabia's healthcare sector, as it highlights the growing importance of data analytics and digital health solutions. It also presents opportunities for investment and innovation in the sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T02:57:30.150447"
+    },
+    {
+      "title": "B&S Investments Launches Global Investment Summit 2026 to Move European Capital Into Gulf Markets",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-17",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Middle East",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance"
+      ],
+      "summary": "B&S Investments has launched the Global Investment Summit 2026 to attract European capital to Gulf markets. The summit aims to facilitate investment and partnerships between European and Gulf-based companies.",
+      "why_it_matters": "This initiative has strategic consequences for Saudi Arabia's financial sector, as it aims to increase foreign investment and promote economic diversification. It also highlights the growing importance of the Gulf region in global finance.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-20T02:57:30.150449"
+    },
+    {
       "title": "Saudi Arabia's NEOM city is being built on land with a long human past, displacing Huwaitat communities",
       "source": "Space Daily",
       "source_tier": 1,
@@ -2886,212 +2972,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-21T00:02:52.062002"
-    },
-    {
-      "title": "US-Iran deal leads to reopening of Strait of Hormuz",
-      "source": "POLITICO.eu, Aawsat.com, The New Republic",
-      "source_tier": 1,
-      "time": "2026-06-17",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "global trade",
-        "energy security"
-      ],
-      "summary": "The US-Iran deal has led to the reopening of the Strait of Hormuz, a critical waterway for global oil trade. Three Saudi-flagged supertankers have already transited the strait. The deal is expected to have a significant impact on global oil prices and energy security.",
-      "why_it_matters": "The reopening of the Strait of Hormuz is crucial for Saudi Arabia's oil exports and global energy security. It also has significant implications for the country's economic and strategic interests.",
-      "verification_status": "confirmed",
-      "source_count": 3,
-      "_at": "2026-06-20T00:05:45.098122"
-    },
-    {
-      "title": "Saudi Aramco considers global oil storage facilities",
-      "source": "Aawsat.com",
-      "source_tier": 2,
-      "time": "2026-06-18",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy security",
-        "global trade"
-      ],
-      "summary": "Saudi Aramco is considering investing in global oil storage facilities to boost energy security and strengthen its position in the global oil market.",
-      "why_it_matters": "This move could enhance Saudi Arabia's energy security and increase its influence in the global oil market, which is critical for the country's economic and strategic interests.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-20T00:05:45.098132"
-    },
-    {
-      "title": "Oil prices hit lowest level since March after US-Iran deal",
-      "source": "Offshore Technology, Forbes, OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-06-18",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "global trade",
-        "energy security"
-      ],
-      "summary": "Oil prices have hit their lowest level since March after the US-Iran deal, with Brent crude futures falling by 2% to $77.96/bbl.",
-      "why_it_matters": "The decline in oil prices could have significant implications for Saudi Arabia's economy, which is heavily reliant on oil exports. It could also impact the country's ability to implement its Vision 2030 economic diversification plan.",
-      "verification_status": "confirmed",
-      "source_count": 3,
-      "_at": "2026-06-20T00:05:45.098135"
-    },
-    {
-      "title": "UAE aims to cut dependency on Strait of Hormuz to zero",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-06-17",
-      "event_type": "infrastructure_disruption",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy security",
-        "global trade"
-      ],
-      "summary": "The UAE is planning to cut its dependency on the Strait of Hormuz to zero by investing in a second major oil pipeline.",
-      "why_it_matters": "This move could reduce the UAE's vulnerability to geopolitical tensions in the region and enhance its energy security, which could have implications for Saudi Arabia's strategic interests.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-20T00:05:45.098136"
-    },
-    {
-      "title": "Gulf CIOs shift focus from recovery to cyber resilience",
-      "source": "ComputerWeekly.com",
-      "source_tier": 2,
-      "time": "2026-06-18",
-      "event_type": "company_move",
-      "category": "technology",
-      "geography": "Gulf",
-      "sector_tags": [
-        "fintech",
-        "banking"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "cybersecurity",
-        "digital transformation"
-      ],
-      "summary": "Gulf CIOs are shifting their focus from recovery to cyber resilience as regional threats intensify, with organizations reassessing their recovery strategies and investing in AI and cloud technologies.",
-      "why_it_matters": "This shift in focus could have significant implications for Saudi Arabia's cybersecurity and digital transformation efforts, which are critical for the country's economic and strategic interests.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-20T00:05:45.098138"
-    },
-    {
-      "title": "Germany won't commit to Hormuz mission before seeing US-Iran deal",
-      "source": "POLITICO.eu",
-      "source_tier": 1,
-      "time": "2026-06-17",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "global security",
-        "oil trade"
-      ],
-      "summary": "Germany has stated it will not commit to a mission in the Persian Gulf before seeing the details of the US-Iran deal. Berlin and Warsaw have suggested the EU's existing Aspides mandate could provide a legal basis for such a mission. The US-Iran deal is expected to have significant implications for global oil markets and security in the region.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the stability of the region and the security of oil trade. The US-Iran deal could lead to increased cooperation between Iran and other countries, potentially altering the balance of power in the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-19T00:23:06.053810"
-    },
-    {
-      "title": "UAE aims to cut dependency on Strait of Hormuz to zero with second major oil pipeline",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-06-17",
-      "event_type": "infrastructure_disruption",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "oil trade",
-        "energy security"
-      ],
-      "summary": "The UAE is planning to build a second major oil pipeline to reduce its dependency on the Strait of Hormuz. This move is expected to enhance oil export security and support increased production capacity post-OPEC.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the country's oil export security and revenue. The UAE's pipeline expansion could also alter the dynamics of the regional oil market, potentially affecting Saudi Arabia's position as a major oil exporter.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-19T00:23:06.053818"
-    },
-    {
-      "title": "TotalEnergies: Saudi Refinery Won\u2019t Fully Recover Until 2027",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-06-17",
-      "event_type": "capacity_change",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "oil production",
-        "energy security"
-      ],
-      "summary": "TotalEnergies CEO Patrick Pouyann\u00e9 has stated that a major Saudi Arabian refinery damaged during the Iran conflict will not return to full operations until early 2027. This is expected to raise concerns about the country's oil production capacity and energy security.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the country's oil production capacity and revenue. The delayed recovery of the refinery could also affect the country's ability to meet its energy demands and maintain its position as a major oil exporter.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-19T00:23:06.053821"
-    },
-    {
-      "title": "Saudi Arabia imports sand despite being covered by desert",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-06-17",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "construction"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "construction",
-        "trade"
-      ],
-      "summary": "Despite being covered by desert, Saudi Arabia imports construction-grade sand due to the unsuitability of its native sand for concrete. The country requires angular, rough sand for its construction projects.",
-      "why_it_matters": "This development has strategic consequences for Saudi Arabia, as it may impact the country's construction sector and trade balance. The importation of sand could also affect the country's ability to develop its infrastructure and support its economic growth.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-19T00:23:06.053823"
     }
   ],
-  "lastRefresh": "2026-07-18T23:50:33.277344",
+  "lastRefresh": "2026-07-20T02:58:15.503548",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 37,
+    "articles_to_model": 23,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3099,7 +2986,7 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3

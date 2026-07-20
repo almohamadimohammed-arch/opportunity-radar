@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to foreign investment in Gulf markets has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The launch of the Global Investment Summit 2026 and the expected approval of Saudi Arabia's acquisition of Electronic Arts signal a more open regulatory environment for foreign investment in Gulf markets",
+      "ksa_grounding": "This change is expected to attract more European capital to Saudi Arabia, boosting the country's economy and increasing foreign investment in key sectors such as fintech and entertainment",
+      "affected_sectors": [
+        "fintech",
+        "entertainment",
+        "banking"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "European Union set to approve Saudi acquisition of EA",
+        "B&S Investments Launches Global Investment Summit 2026 to Move European Capital Into Gulf Markets"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "European investors",
+        "Saudi Arabian businesses"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment and economic growth",
+      "downside": "Potential risks associated with increased foreign ownership and control",
+      "first_order": "Direct investment inflows",
+      "second_order": "Job creation and economic growth",
+      "invalidation": "If the European Union fails to approve the acquisition or if the Global Investment Summit 2026 does not attract significant European investment",
+      "_at": "2026-07-20T02:58:07.770813"
+    },
+    {
+      "statement": "Global demand for oil is expected to decrease due to increased tensions between the US and Iran",
+      "change_type": "demand",
+      "change_vector": "demand_down",
+      "mechanism": "The US strikes on Iran are expected to disrupt oil tanker traffic, leading to increased uncertainty and decreased demand for oil",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia may face decreased demand for its oil exports, potentially impacting the country's oil revenues and economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "US renews strikes on Iran after military personnel killed",
+        "Iraq signs $60B in energy deals with US and British oil majors"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Oil producers",
+        "Oil consumers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential decrease in oil prices, benefiting oil-importing countries",
+      "downside": "Potential decrease in oil revenues for oil-exporting countries, including Saudi Arabia",
+      "first_order": "Decreased oil demand",
+      "second_order": "Decreased oil revenues and economic impact on oil-exporting countries",
+      "invalidation": "If the US and Iran reach a peaceful resolution, leading to increased stability and demand for oil",
+      "_at": "2026-07-20T02:58:07.770823"
+    },
+    {
+      "statement": "The global healthcare predictive analytics market is expected to grow significantly, driven by increasing demand for data-driven healthcare solutions",
+      "change_type": "demand",
+      "change_vector": "demand_up",
+      "mechanism": "The increasing demand for data-driven healthcare solutions is driving growth in the global healthcare predictive analytics market",
+      "ksa_grounding": "Saudi Arabia's healthcare sector may benefit from this trend, with increased adoption of predictive analytics and data-driven healthcare solutions",
+      "affected_sectors": [
+        "healthcare"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Healthcare Predictive Analytics Market Size Worth USD 140.02 Billion by 2035"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Healthcare providers",
+        "Healthcare technology companies"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Improved healthcare outcomes and increased efficiency",
+      "downside": "Potential risks associated with data privacy and security",
+      "first_order": "Increased adoption of predictive analytics in healthcare",
+      "second_order": "Improved healthcare outcomes and increased efficiency",
+      "invalidation": "If the growth of the healthcare predictive analytics market slows down due to regulatory or technological challenges",
+      "_at": "2026-07-20T02:58:07.770825"
+    },
+    {
       "statement": "Risk exposure to global oil supply is rising",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2203,176 +2287,7 @@
       "second_order": "Economic benefits from increased energy security",
       "invalidation": "A significant decline in oil prices or a disruption to global supply chains",
       "_at": "2026-06-21T00:03:28.678374"
-    },
-    {
-      "statement": "The global oil supply has increased",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "The reopening of the Strait of Hormuz has increased the global oil supply, leading to lower oil prices",
-      "ksa_grounding": "Saudi Arabia's oil exports will increase, benefiting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "US-Iran deal leads to reopening of Strait of Hormuz",
-        "Oil prices hit lowest level since March after US-Iran deal"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased oil exports and revenue for Saudi Arabia",
-      "downside": "Potential decrease in oil prices, affecting Saudi Arabia's oil revenue",
-      "first_order": "Increased global oil supply",
-      "second_order": "Lower oil prices, increased economic activity",
-      "invalidation": "A significant disruption to oil production or transportation would prove this wrong",
-      "_at": "2026-06-20T00:05:52.072177"
-    },
-    {
-      "statement": "Cybersecurity has become a higher priority in the Gulf region",
-      "change_type": "behavior",
-      "change_vector": "institutional_priority_shifting",
-      "mechanism": "Gulf CIOs are shifting their focus from recovery to cyber resilience due to regional threats",
-      "ksa_grounding": "Saudi Arabian companies will need to invest in cybersecurity measures to protect themselves from regional threats",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Gulf CIOs shift focus from recovery to cyber resilience"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Gulf CIOs",
-        "Saudi Arabian companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Improved cybersecurity measures, reduced risk of cyber attacks",
-      "downside": "Increased costs for companies to implement cybersecurity measures",
-      "first_order": "Increased focus on cybersecurity",
-      "second_order": "Reduced risk of cyber attacks, improved business continuity",
-      "invalidation": "A significant decrease in regional cyber threats would prove this wrong",
-      "_at": "2026-06-20T00:05:52.072187"
-    },
-    {
-      "statement": "The risk of oil supply disruptions has decreased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_falling",
-      "mechanism": "The reopening of the Strait of Hormuz and the UAE's plan to cut dependency on the strait have reduced the risk of oil supply disruptions",
-      "ksa_grounding": "Saudi Arabia's oil exports will be less affected by potential disruptions to the Strait of Hormuz",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "US-Iran deal leads to reopening of Strait of Hormuz",
-        "UAE aims to cut dependency on Strait of Hormuz to zero"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Reduced risk of oil supply disruptions, increased energy security",
-      "downside": "Potential over-reliance on the Strait of Hormuz, decreased investment in alternative routes",
-      "first_order": "Reduced risk of oil supply disruptions",
-      "second_order": "Increased energy security, reduced economic risk",
-      "invalidation": "A significant disruption to the Strait of Hormuz or the UAE's alternative pipeline would prove this wrong",
-      "_at": "2026-06-20T00:05:52.072191"
-    },
-    {
-      "statement": "Regulatory uncertainty around oil exports is decreasing",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Germany's potential commitment to a mission in the Persian Gulf and the UAE's plans to reduce dependency on the Strait of Hormuz may lead to increased stability and security for oil exports",
-      "ksa_grounding": "This could lead to increased oil exports and revenue for Saudi Arabia, supporting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Germany won't commit to Hormuz mission before seeing US-Iran deal",
-        "UAE aims to cut dependency on Strait of Hormuz to zero with second major oil pipeline"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "shipping companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased oil exports and revenue for Saudi Arabia",
-      "downside": "Potential for continued geopolitical tensions and disruptions to oil exports",
-      "first_order": "Increased stability and security for oil exports",
-      "second_order": "Potential for increased investment in the oil and gas sector",
-      "invalidation": "A significant increase in geopolitical tensions or a major disruption to oil exports would invalidate this signal",
-      "_at": "2026-06-19T00:23:13.151433"
-    },
-    {
-      "statement": "Oil production capacity constraints are increasing",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "The delayed recovery of a major Saudi Arabian refinery damaged during the Iran conflict will reduce oil production capacity",
-      "ksa_grounding": "This will lead to reduced oil production and potential shortages, impacting Saudi Arabia's economy and energy security",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "TotalEnergies: Saudi Refinery Won\u2019t Fully Recover Until 2027"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil producers",
-        "refineries"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased investment in refinery maintenance and repair",
-      "downside": "Reduced oil production and potential shortages",
-      "first_order": "Reduced oil production capacity",
-      "second_order": "Potential for increased costs and reduced revenue for oil producers",
-      "invalidation": "A significant increase in oil production capacity from other sources would invalidate this signal",
-      "_at": "2026-06-19T00:23:13.151440"
-    },
-    {
-      "statement": "Private credit opportunities are increasing in the Gulf",
-      "change_type": "market",
-      "change_vector": "demand_up",
-      "mechanism": "Global volatility is creating opportunities for private credit in the Gulf, attracting investors and supporting the growth of the regional finance sector",
-      "ksa_grounding": "This will lead to increased investment and growth in the Saudi finance sector, supporting the country's economy",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Gulf private credit opportunities shine amid global volatility"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "investors",
-        "financial institutions"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment and growth in the Saudi finance sector",
-      "downside": "Potential for increased risk and volatility in the private credit market",
-      "first_order": "Increased demand for private credit",
-      "second_order": "Potential for increased growth and development in the regional finance sector",
-      "invalidation": "A significant decrease in global volatility or a major disruption to the private credit market would invalidate this signal",
-      "_at": "2026-06-19T00:23:13.151443"
     }
   ],
-  "lastRefresh": "2026-07-18T23:50:33.280288"
+  "lastRefresh": "2026-07-20T02:58:15.506239"
 }

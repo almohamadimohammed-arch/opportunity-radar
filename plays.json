@@ -1,6 +1,68 @@
 {
   "items": [
     {
+      "title": "Diversification of Saudi Economy",
+      "play_type": "policy_play",
+      "actor": "Saudi government",
+      "customer": "Saudi citizens and businesses",
+      "problem": "Decreased demand for oil exports due to global tensions",
+      "action_path": "The Saudi government can diversify the country's economy by investing in non-oil sectors such as fintech, entertainment, and tourism. This can be achieved through incentives for foreign investment, development of infrastructure, and support for local startups. By doing so, the government can reduce the country's dependence on oil exports and mitigate the impact of global tensions.",
+      "entry_mode": "build",
+      "monetization": "Diversified revenue streams, job creation, and economic growth",
+      "capabilities": "Strategic planning, investment attraction, and infrastructure development",
+      "barriers": "Bureaucratic hurdles, competition from other countries",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Global demand for oil is expected to decrease due to increased tensions between the US and Iran"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "fintech",
+        "entertainment",
+        "tourism"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah",
+        "neom"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by addressing the country's dependence on oil exports and the need for economic diversification",
+      "assumptions": "The global tensions will continue, and the demand for oil exports will remain low",
+      "invalidation": "If the US and Iran reach a peaceful resolution, leading to increased stability and demand for oil",
+      "_at": "2026-07-20T02:58:15.503439"
+    },
+    {
+      "title": "Cybersecurity for Saudi Fintech",
+      "play_type": "business_play",
+      "actor": "Cybersecurity firms",
+      "customer": "Saudi fintech companies",
+      "problem": "Increased risk of cyberattacks due to growth of digital financial services",
+      "action_path": "Cybersecurity firms can provide cloud-native security solutions to Saudi fintech companies, protecting them from cyber threats and ensuring the security of customer data. This can be achieved through partnerships or provision of security services. By doing so, they can help build trust in the country's growing fintech sector.",
+      "entry_mode": "partner",
+      "monetization": "Revenue growth through provision of security services",
+      "capabilities": "Cloud-native security solutions, compliance with local regulations, and expertise in fintech security",
+      "barriers": "Competition from local players, cultural and language differences",
+      "timing": "build",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory barrier to foreign investment in Gulf markets has reduced"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "cybersecurity",
+        "banking"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by addressing the need for cybersecurity solutions in the country's growing fintech sector",
+      "assumptions": "The demand for digital financial services will continue to grow, and the risk of cyberattacks will increase",
+      "invalidation": "If the growth of digital financial services slows down, or the risk of cyberattacks decreases",
+      "_at": "2026-07-20T02:58:15.503448"
+    },
+    {
       "title": "Enhanced Maritime Security",
       "play_type": "defensive_play",
       "actor": "Saudi Arabian Government and Oil Companies",
@@ -1796,125 +1858,7 @@
       "assumptions": "Global demand for oil will continue to grow, and Saudi Aramco's investments in oil storage facilities will yield positive returns",
       "invalidation": "A significant decline in oil prices or a disruption to global supply chains",
       "_at": "2026-06-21T00:03:35.628987"
-    },
-    {
-      "title": "Diversify Oil Exports",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco",
-      "customer": "Global oil refineries",
-      "problem": "Increased global oil supply may lead to decreased oil prices, affecting Saudi Arabia's economy",
-      "action_path": "Saudi Aramco can diversify its oil exports to new markets, reducing dependence on traditional markets. This can be achieved by investing in new transportation infrastructure and building relationships with new customers. Additionally, Saudi Aramco can explore opportunities to increase its market share in existing markets.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue through diversified exports",
-      "capabilities": "Oil transportation infrastructure, market research, and business development",
-      "barriers": "Competition from other oil-producing countries, regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "The global oil supply has increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports will increase, benefiting the country's economy",
-      "assumptions": "The increased global oil supply will lead to decreased oil prices, and Saudi Aramco has the capabilities to diversify its exports",
-      "invalidation": "A significant disruption to oil production or transportation would prove this wrong",
-      "_at": "2026-06-20T00:06:29.041472"
-    },
-    {
-      "title": "Develop Alternative Energy Sources",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi government",
-      "customer": "Saudi citizens and industries",
-      "problem": "Decreased risk of oil supply disruptions may lead to decreased investment in alternative energy sources",
-      "action_path": "The Saudi government can invest in developing alternative energy sources, such as solar and wind power, to reduce dependence on oil exports. This can be achieved by building new infrastructure and providing incentives for private investment. Additionally, the government can promote research and development in alternative energy technologies.",
-      "entry_mode": "build",
-      "monetization": "Reduced dependence on oil exports, increased energy security",
-      "capabilities": "Renewable energy infrastructure, research and development, policy-making",
-      "barriers": "High upfront costs, regulatory hurdles",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "The risk of oil supply disruptions has decreased"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "neom"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports will be less affected by potential disruptions to the Strait of Hormuz",
-      "assumptions": "The decreased risk of oil supply disruptions will lead to decreased investment in alternative energy sources, and the Saudi government has the capabilities to develop alternative energy sources",
-      "invalidation": "A significant disruption to the Strait of Hormuz or the UAE's alternative pipeline would prove this wrong",
-      "_at": "2026-06-20T00:06:29.041481"
-    },
-    {
-      "title": "Saudi Oil Export Stability",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco",
-      "customer": "International oil buyers",
-      "problem": "Regulatory uncertainty around oil exports",
-      "action_path": "Increase oil exports to capitalize on decreased regulatory uncertainty, invest in infrastructure to support increased production, and develop strategic partnerships with international buyers. This will require enhanced logistics and supply chain capabilities. Saudi Aramco can also explore new markets and expand its customer base.",
-      "entry_mode": "build",
-      "monetization": "Increased revenue from oil exports",
-      "capabilities": "Oil production, logistics, supply chain management, international marketing",
-      "barriers": "Geopolitical tensions, infrastructure limitations",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Regulatory uncertainty around oil exports is decreasing"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "eastern_province"
-      ],
-      "ksa_grounding": "Increased oil exports will support Saudi Arabia's economy and contribute to the country's economic diversification goals",
-      "assumptions": "Germany's commitment to a mission in the Persian Gulf and the UAE's plans to reduce dependency on the Strait of Hormuz will lead to increased stability and security for oil exports",
-      "invalidation": "A significant increase in geopolitical tensions or a major disruption to oil exports",
-      "_at": "2026-06-19T00:23:50.069867"
-    },
-    {
-      "title": "Diversified Energy Portfolio",
-      "play_type": "policy_play",
-      "actor": "Saudi Government",
-      "customer": "Saudi citizens, international investors",
-      "problem": "Dependence on oil exports",
-      "action_path": "Develop and implement policies to diversify the energy sector, including investments in renewable energy sources and energy efficiency measures. This will require collaboration with international partners and investment in research and development. The government can also provide incentives for private sector investment in the energy sector.",
-      "entry_mode": "invest",
-      "monetization": "Reduced dependence on oil exports, increased economic diversification",
-      "capabilities": "Policy development, international cooperation, research and development, investment promotion",
-      "barriers": "Resistance to change, lack of investment",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Regulatory uncertainty around oil exports is decreasing"
-      ],
-      "sector": "renewable_energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "neom"
-      ],
-      "ksa_grounding": "Diversification of the energy sector will contribute to Saudi Arabia's economic diversification goals and reduce dependence on oil exports",
-      "assumptions": "The government will be able to develop and implement effective policies to diversify the energy sector",
-      "invalidation": "Lack of investment or international cooperation",
-      "_at": "2026-06-19T00:23:50.069875"
     }
   ],
-  "lastRefresh": "2026-07-18T23:50:33.282332"
+  "lastRefresh": "2026-07-20T02:58:15.508182"
 }
