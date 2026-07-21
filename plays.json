@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Diversifying Oil Export Routes",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco",
+      "customer": "Saudi Government",
+      "problem": "Disruption of global oil supplies due to Houthi maritime embargo",
+      "action_path": "Develop alternative export routes, such as pipelines or overland transportation, to reduce dependence on maritime exports. Invest in infrastructure development to support these new routes. Collaborate with neighboring countries to secure transit agreements.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of oil export disruptions, increased revenue stability",
+      "capabilities": "Infrastructure development, pipeline construction, logistics management",
+      "barriers": "Geopolitical tensions, high upfront investment costs",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to global oil supplies has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are at risk, potentially impacting the country's economy",
+      "assumptions": "Houthi maritime embargo will continue, alternative export routes are feasible",
+      "invalidation": "Houthis lifting the maritime embargo or Saudi Arabia finding alternative export routes that are more cost-effective",
+      "_at": "2026-07-21T23:53:56.784356"
+    },
+    {
+      "title": "Enhancing Maritime Security",
+      "play_type": "defensive_play",
+      "actor": "Saudi Navy",
+      "customer": "Saudi Government",
+      "problem": "Increased risk of maritime attacks on oil tankers",
+      "action_path": "Increase naval presence in high-risk areas, improve intelligence gathering and sharing, and enhance cooperation with international partners to secure maritime trade routes. Develop and deploy advanced security technologies, such as unmanned underwater vehicles, to detect and deter threats.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of maritime attacks, increased security for oil exports",
+      "capabilities": "Naval operations, intelligence gathering, security technology development",
+      "barriers": "High costs, limited international cooperation",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to global oil supplies has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "defense"
+      ],
+      "relevant_regions": [
+        "red_sea",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are at risk, potentially impacting the country's economy",
+      "assumptions": "Houthi maritime embargo will continue, increased naval presence will deter attacks",
+      "invalidation": "Houthis lifting the maritime embargo or Saudi Arabia finding alternative export routes that are more secure",
+      "_at": "2026-07-21T23:53:56.784366"
+    },
+    {
+      "title": "Developing Strategic Oil Reserves",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco",
+      "customer": "Saudi Government",
+      "problem": "Disruption of global oil supplies due to Houthi maritime embargo",
+      "action_path": "Develop strategic oil reserves in secure locations, such as underground storage facilities, to ensure a stable supply of oil in case of disruptions. Invest in infrastructure development to support these reserves, including transportation and logistics systems.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of oil supply disruptions, increased energy security",
+      "capabilities": "Infrastructure development, oil storage management, logistics management",
+      "barriers": "High upfront investment costs, limited storage capacity",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Risk exposure to global oil supplies has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are at risk, potentially impacting the country's economy",
+      "assumptions": "Houthi maritime embargo will continue, strategic oil reserves will provide a stable supply of oil",
+      "invalidation": "Houthis lifting the maritime embargo or Saudi Arabia finding alternative export routes that are more secure",
+      "_at": "2026-07-21T23:53:56.784368"
+    },
+    {
       "title": "Diversify Energy Exports to Mitigate Risk",
       "play_type": "business_play",
       "actor": "Saudi Aramco",
@@ -1923,35 +2013,7 @@
       "assumptions": "The global oil supply chain will continue to loosen, and there will be demand for Saudi oil",
       "invalidation": "New geopolitical tensions that restrict oil production and shipping",
       "_at": "2026-06-22T00:08:28.749601"
-    },
-    {
-      "title": "Energy Security Enhancement",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi Aramco",
-      "customer": "Global oil markets",
-      "problem": "Energy security is increasing due to diversification of oil storage facilities",
-      "action_path": "Saudi Aramco can further enhance energy security by investing in global oil storage facilities, strengthening global supply chains, and reducing dependence on single storage locations. This can be achieved through strategic partnerships or acquisitions. By doing so, Saudi Aramco can reinforce its position as a reliable global energy supplier.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue through enhanced energy security and supply chain resilience",
-      "capabilities": "Oil storage and logistics expertise, global market knowledge",
-      "barriers": "Geopolitical risks, competition from other energy suppliers",
-      "timing": "prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Energy security is increasing"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Aramco's consideration of global oil storage facilities will enhance energy security and strengthen global supply chains",
-      "assumptions": "Global demand for oil will continue to grow, and Saudi Aramco's investments in oil storage facilities will yield positive returns",
-      "invalidation": "A significant decline in oil prices or a disruption to global supply chains",
-      "_at": "2026-06-21T00:03:35.628987"
     }
   ],
-  "lastRefresh": "2026-07-20T23:54:48.160902"
+  "lastRefresh": "2026-07-21T23:53:56.789553"
 }

@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Risk exposure to global oil supplies has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Houthi maritime embargo on Saudi Arabia disrupts global oil supplies",
+      "ksa_grounding": "Saudi Arabia's oil exports are at risk, potentially impacting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Houthis declare maritime embargo on Saudi Arabia",
+        "Riyadh Air commits to purchasing 28 Boeing 787 Dreamliners"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "global oil market participants"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to global oil supplies and increased prices",
+      "first_order": "Disruption to Saudi oil loadings",
+      "second_order": "Increased pressure on global energy markets",
+      "invalidation": "Houthis lifting the maritime embargo or Saudi Arabia finding alternative export routes",
+      "_at": "2026-07-21T23:53:49.283388"
+    },
+    {
+      "statement": "Investment in Saudi Arabia's aviation sector is increasing",
+      "change_type": "investment",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Riyadh Air's purchase of Boeing 787 Dreamliners supports the growth of Saudi Arabia's aviation sector",
+      "ksa_grounding": "The investment in new aircraft will support the growth of Saudi Arabia's aviation sector, potentially increasing tourism and business travel",
+      "affected_sectors": [
+        "logistics"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Riyadh Air commits to purchasing 28 Boeing 787 Dreamliners"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Riyadh Air",
+        "Saudi tourism industry"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased tourism and business travel to Saudi Arabia",
+      "downside": "Potential financial risks to Riyadh Air",
+      "first_order": "Riyadh Air's expansion of its fleet",
+      "second_order": "Growth of Saudi Arabia's aviation sector",
+      "invalidation": "Riyadh Air cancelling or delaying its purchase of the Boeing 787 Dreamliners",
+      "_at": "2026-07-21T23:53:49.283399"
+    },
+    {
+      "statement": "Partnerships in the healthcare sector are increasing",
+      "change_type": "partnership",
+      "change_vector": "institutional_priority_shifting",
+      "mechanism": "Jeddah Health Cluster 2's partnership with Jamjoom Pharma boosts health awareness in Saudi Arabia",
+      "ksa_grounding": "The partnership will improve access to healthcare services and promote health education in Saudi Arabia",
+      "affected_sectors": [
+        "healthcare"
+      ],
+      "affected_regions": [
+        "jeddah"
+      ],
+      "evidence": [
+        "Jeddah Health Cluster 2 partners with Jamjoom Pharma to boost health awareness"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Jeddah Health Cluster 2",
+        "Jamjoom Pharma"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved healthcare outcomes and increased health awareness",
+      "downside": "Potential challenges in implementing the partnership",
+      "first_order": "Improved health awareness and education",
+      "second_order": "Better healthcare outcomes in Saudi Arabia",
+      "invalidation": "The partnership between Jeddah Health Cluster 2 and Jamjoom Pharma being unsuccessful",
+      "_at": "2026-07-21T23:53:49.283400"
+    },
+    {
       "statement": "Risk exposure to global oil supply has increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2344,36 +2429,7 @@
       "second_order": "Growth of related sectors such as e-commerce and pharmaceuticals",
       "invalidation": "Decreased demand for temperature-controlled logistics",
       "_at": "2026-06-22T00:07:51.542025"
-    },
-    {
-      "statement": "Energy security is increasing",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Diversification of oil storage facilities",
-      "ksa_grounding": "Saudi Aramco's consideration of global oil storage facilities will enhance energy security and strengthen global supply chains",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Aramco considers global oil storage facilities to boost energy security",
-        "Oil prices fall despite tanker movements remaining slow after US-Iran ceasefire agreement"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Oil and gas companies",
-        "Government"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased energy security and reduced dependence on single supply chains",
-      "downside": "Potential risks from geopolitical tensions",
-      "first_order": "Direct impact on oil supply chains",
-      "second_order": "Economic benefits from increased energy security",
-      "invalidation": "A significant decline in oil prices or a disruption to global supply chains",
-      "_at": "2026-06-21T00:03:28.678374"
     }
   ],
-  "lastRefresh": "2026-07-20T23:54:48.159230"
+  "lastRefresh": "2026-07-21T23:53:56.787389"
 }
