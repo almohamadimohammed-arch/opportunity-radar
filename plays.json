@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Diversify Energy Sources",
+      "play_type": "business_play",
+      "actor": "Saudi Arabian energy companies",
+      "customer": "Saudi Arabian government and citizens",
+      "problem": "Risk exposure to global oil supplies has increased, threatening Saudi Arabia's economy and energy security",
+      "action_path": "Invest in renewable energy sources, such as solar and wind power, to reduce dependence on oil exports. Develop strategic partnerships with international companies to acquire new technologies and expertise. Enhance energy storage capabilities to ensure a stable supply of electricity.",
+      "entry_mode": "invest",
+      "monetization": "Reduced reliance on oil exports, increased energy security, and potential revenue from renewable energy sources",
+      "capabilities": "Renewable energy technologies, energy storage solutions, strategic partnership development",
+      "barriers": "High upfront costs, lack of expertise, regulatory hurdles",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Risk exposure to global oil supplies has increased"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are under threat, which could impact the country's economy and energy security",
+      "assumptions": "The Saudi Arabian government will continue to support the development of renewable energy sources, and international companies will be willing to partner with Saudi Arabian energy companies",
+      "invalidation": "A significant increase in oil production from other countries, or a successful negotiation between Houthi rebels and the Saudi government, would reduce the need to diversify energy sources",
+      "_at": "2026-07-22T23:59:38.801807"
+    },
+    {
+      "title": "Enhance Energy Security",
+      "play_type": "policy_play",
+      "actor": "Saudi Arabian government",
+      "customer": "Saudi Arabian citizens and businesses",
+      "problem": "Supply of oil from Saudi Arabia is under threat of disruption, threatening energy security",
+      "action_path": "Develop and implement policies to enhance energy security, such as increasing energy efficiency, promoting energy conservation, and developing emergency response plans. Invest in energy infrastructure, such as pipelines and storage facilities, to reduce reliance on oil exports. Enhance international cooperation to address regional energy security concerns.",
+      "entry_mode": "build",
+      "monetization": "Improved energy security, reduced risk of disruption, and enhanced economic stability",
+      "capabilities": "Energy policy development, energy infrastructure development, international cooperation",
+      "barriers": "Lack of expertise, regulatory hurdles, international cooperation challenges",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Supply of oil from Saudi Arabia is under threat of disruption"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are under threat, which could impact the country's economy and energy security",
+      "assumptions": "The Saudi Arabian government will prioritize energy security, and international cooperation will be effective in addressing regional energy security concerns",
+      "invalidation": "A significant increase in oil production from other countries, or a successful negotiation between Houthi rebels and the Saudi government, would reduce the need to enhance energy security",
+      "_at": "2026-07-22T23:59:38.801818"
+    },
+    {
+      "title": "Develop Emergency Response Plans",
+      "play_type": "defensive_play",
+      "actor": "Saudi Arabian energy companies",
+      "customer": "Saudi Arabian government and citizens",
+      "problem": "Cost of oil is likely to rise due to increased risk and potential disruption",
+      "action_path": "Develop and implement emergency response plans to address potential disruptions to oil supplies, including contingency plans for alternative energy sources and supply chain management. Enhance communication and coordination with international partners to address regional energy security concerns. Invest in energy storage solutions to ensure a stable supply of electricity.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of disruption, improved energy security, and enhanced economic stability",
+      "capabilities": "Emergency response planning, supply chain management, energy storage solutions",
+      "barriers": "Lack of expertise, regulatory hurdles, high upfront costs",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Cost of oil is likely to rise due to increased risk and potential disruption"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are under threat, which could impact the country's economy and energy security",
+      "assumptions": "The Saudi Arabian government will prioritize energy security, and international cooperation will be effective in addressing regional energy security concerns",
+      "invalidation": "A significant increase in oil production from other countries, or a successful negotiation between Houthi rebels and the Saudi government, would reduce the need to develop emergency response plans",
+      "_at": "2026-07-22T23:59:38.801820"
+    },
+    {
       "title": "Diversifying Oil Export Routes",
       "play_type": "infrastructure_play",
       "actor": "Saudi Aramco",
@@ -1985,35 +2075,7 @@
       "assumptions": "The US-Iran talks will lead to reduced sanctions and increased economic cooperation, and the Saudi government has the necessary capabilities and resources to support the growth of non-oil exports",
       "invalidation": "Failure of US-Iran talks to produce a peace deal, increased tensions, or imposition of new sanctions",
       "_at": "2026-06-23T23:54:33.095414"
-    },
-    {
-      "title": "Oil Supply Chain Optimization",
-      "play_type": "business_play",
-      "actor": "Saudi oil companies",
-      "customer": "Global oil refineries and distributors",
-      "problem": "The global oil supply chain is loosening, creating an opportunity for Saudi oil companies to optimize their supply chain and increase exports",
-      "action_path": "Saudi oil companies can invest in optimizing their supply chain, leveraging technology to increase efficiency and reduce costs. They can also build partnerships with global refineries and distributors to increase their market share. This will enable them to take advantage of the loosening global oil supply chain.",
-      "entry_mode": "build",
-      "monetization": "Increased revenue from oil exports",
-      "capabilities": "Supply chain optimization, technology integration, partnership building",
-      "barriers": "Competition from other oil-producing countries, geopolitical tensions",
-      "timing": "prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Global oil supply chain is loosening"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas"
-      ],
-      "relevant_regions": [
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports are expected to increase as the global supply chain loosens, benefiting the country's economy",
-      "assumptions": "The global oil supply chain will continue to loosen, and there will be demand for Saudi oil",
-      "invalidation": "New geopolitical tensions that restrict oil production and shipping",
-      "_at": "2026-06-22T00:08:28.749601"
     }
   ],
-  "lastRefresh": "2026-07-21T23:53:56.789553"
+  "lastRefresh": "2026-07-22T23:59:38.807044"
 }

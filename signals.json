@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "statement": "Supply of oil from Saudi Arabia is under threat of disruption",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Houthi naval blockade and Iranian strikes on Kuwait's power and water facilities have raised concerns about energy security in the Gulf region",
+      "ksa_grounding": "Saudi Arabia's oil exports are under threat, which could impact the country's economy and energy security",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Houthi naval blockade threatens Saudi oil exports",
+        "Asian refiners reroute Saudi oil via Suez Canal amid Houthi threats"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "Asian refiners"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices, benefiting Saudi Arabia's oil exports",
+      "downside": "Potential disruption to global oil supplies, impacting Saudi Arabia's economy and energy security",
+      "first_order": "Direct impact on Saudi oil exports",
+      "second_order": "Downstream effects on the global economy and energy markets",
+      "invalidation": "A significant increase in oil production from other countries, or a successful negotiation between Houthi rebels and the Saudi government, would prove this wrong",
+      "_at": "2026-07-22T23:59:31.209048"
+    },
+    {
+      "statement": "Cost of oil is likely to rise due to increased risk and potential disruption",
+      "change_type": "cost",
+      "change_vector": "cost_rising",
+      "mechanism": "Houthi naval blockade and Iranian strikes on Kuwait's power and water facilities have raised concerns about energy security in the Gulf region, leading to increased risk and potential disruption",
+      "ksa_grounding": "Saudi Arabia's oil exports are under threat, which could impact the country's economy and energy security, and potentially lead to higher oil prices",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Houthi naval blockade threatens Saudi oil exports",
+        "Goldman Sachs warns of potential $120 oil price due to Iran conflict"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil importers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased revenue for Saudi Arabia's oil exports",
+      "downside": "Potential for increased costs for oil importers and potential disruption to global oil supplies",
+      "first_order": "Direct impact on oil prices",
+      "second_order": "Downstream effects on the global economy and energy markets",
+      "invalidation": "A significant increase in oil production from other countries, or a successful negotiation between Houthi rebels and the Saudi government, would prove this wrong",
+      "_at": "2026-07-22T23:59:31.209058"
+    },
+    {
       "statement": "Risk exposure to global oil supplies has increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2374,62 +2430,7 @@
       "second_order": "Potential increase in oil and gas production and exports",
       "invalidation": "Failure to complete new pipeline projects or significant changes in global energy demand",
       "_at": "2026-06-23T00:02:22.725347"
-    },
-    {
-      "statement": "Global oil supply chain is loosening",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Increased oil production and shipping due to reduced geopolitical tensions",
-      "ksa_grounding": "Saudi Arabia's oil exports are expected to increase as the global supply chain loosens, benefiting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Oil prices falling despite tanker movements being slow after US-Iran ceasefire",
-        "US-Iran ceasefire agreement can lead to increased investment flows to Pakistan"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil producers",
-        "shippers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased oil exports and revenue for Saudi Arabia",
-      "downside": "Potential risks from increased oil production and shipping",
-      "first_order": "Direct increase in oil exports",
-      "second_order": "Growth of related sectors such as logistics and transportation",
-      "invalidation": "New geopolitical tensions that restrict oil production and shipping",
-      "_at": "2026-06-22T00:07:51.542015"
-    },
-    {
-      "statement": "Demand for cold chain logistics is rising",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Increased demand for temperature-controlled logistics due to growing e-commerce and pharmaceutical industries",
-      "ksa_grounding": "Saudi Arabia's cold chain logistics market is expected to grow, driven by increasing demand for temperature-controlled logistics",
-      "affected_sectors": [
-        "logistics"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Cold chain logistics market expected to grow to USD 515.79 billion by 2031"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "logistics companies",
-        "e-commerce businesses"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Increased investment and growth in cold chain logistics",
-      "downside": "Potential risks from increased demand and competition",
-      "first_order": "Direct investment in cold chain logistics",
-      "second_order": "Growth of related sectors such as e-commerce and pharmaceuticals",
-      "invalidation": "Decreased demand for temperature-controlled logistics",
-      "_at": "2026-06-22T00:07:51.542025"
     }
   ],
-  "lastRefresh": "2026-07-21T23:53:56.787389"
+  "lastRefresh": "2026-07-22T23:59:38.804838"
 }
