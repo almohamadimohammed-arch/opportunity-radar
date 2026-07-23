@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "title": "Develop Strategic Oil Reserves",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco",
+      "customer": "Saudi Government",
+      "problem": "Risk exposure to global oil supplies due to Houthi attacks on Saudi oil tankers and naval blockade",
+      "action_path": "Develop strategic oil reserves to provide a buffer against supply disruptions. Invest in storage facilities and infrastructure to support the reserves. Collaborate with international partners to share risk and expertise.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of supply disruptions, increased revenue stability",
+      "capabilities": "Project management, engineering, storage and logistics expertise",
+      "barriers": "High upfront costs, complexity of international cooperation",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to global oil supplies has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "ksa_grounding": "Saudi Arabia's oil exports are critical to the country's economy, and developing strategic oil reserves can help mitigate the impact of supply disruptions",
+      "assumptions": "The Houthi attacks and naval blockade will continue to pose a threat to Saudi oil exports, and strategic oil reserves can provide an effective buffer against these disruptions",
+      "invalidation": "A successful negotiation between Saudi Arabia and the Houthis, resulting in a ceasefire and removal of the naval blockade, would invalidate this play",
+      "_at": "2026-07-23T23:57:54.807577"
+    },
+    {
       "title": "Diversify Energy Sources",
       "play_type": "business_play",
       "actor": "Saudi Arabian energy companies",
@@ -2043,39 +2073,7 @@
       "assumptions": "The Saudi government will continue to support foreign investment, and the global economy will continue to grow",
       "invalidation": "Introduction of policies that deter foreign investment",
       "_at": "2026-06-25T00:07:04.899571"
-    },
-    {
-      "title": "Development of Non-Oil Exports",
-      "play_type": "policy_play",
-      "actor": "Saudi Government",
-      "customer": "Saudi businesses",
-      "problem": "Potential loss of government revenue due to decreased oil exports",
-      "action_path": "The Saudi government should develop policies to support the growth of non-oil exports, such as providing incentives for businesses to export non-oil products and investing in logistics and transportation infrastructure. This would reduce the country's dependence on oil exports and mitigate the impact of decreased government revenue. Additionally, the government could invest in developing the tourism and hospitality sectors to attract foreign visitors and increase non-oil revenue.",
-      "entry_mode": "invest",
-      "monetization": "Increased government revenue from non-oil exports and tourism",
-      "capabilities": "Policy development and implementation capabilities, investment in logistics and transportation infrastructure",
-      "barriers": "Competition from other countries, potential bureaucratic hurdles",
-      "timing": "invest now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Regulatory tensions between the US and Iran are easing"
-      ],
-      "sector": "tourism",
-      "relevant_sectors": [
-        "tourism",
-        "hospitality",
-        "logistics"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "makkah"
-      ],
-      "ksa_grounding": "This play connects to Saudi market structure by leveraging the government's policy-making capabilities to support the growth of non-oil exports and reduce dependence on oil revenue",
-      "assumptions": "The US-Iran talks will lead to reduced sanctions and increased economic cooperation, and the Saudi government has the necessary capabilities and resources to support the growth of non-oil exports",
-      "invalidation": "Failure of US-Iran talks to produce a peace deal, increased tensions, or imposition of new sanctions",
-      "_at": "2026-06-23T23:54:33.095414"
     }
   ],
-  "lastRefresh": "2026-07-22T23:59:38.807044"
+  "lastRefresh": "2026-07-23T23:57:54.812486"
 }

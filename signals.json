@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to nuclear cooperation with Saudi Arabia have decreased",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "US approval of a 30-year nuclear cooperation agreement with Saudi Arabia allows US firms to enter the Kingdom's atomic energy sector",
+      "ksa_grounding": "Saudi Arabia can now pursue nuclear energy development with US cooperation, potentially diversifying its energy sector and reducing dependence on oil",
+      "affected_sectors": [
+        "energy",
+        "nuclear"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "US approves nuclear cooperation agreement with Saudi Arabia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "US firms",
+        "Saudi government"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased energy diversity and reduced dependence on oil",
+      "downside": "Potential risks associated with nuclear energy development, including safety and proliferation concerns",
+      "first_order": "Direct increase in nuclear cooperation between the US and Saudi Arabia",
+      "second_order": "Potential for increased investment in Saudi Arabia's energy sector and economic growth",
+      "invalidation": "A reversal of the US approval or a failure to implement the agreement would invalidate this signal",
+      "_at": "2026-07-23T23:57:17.008139"
+    },
+    {
       "statement": "Supply of oil from Saudi Arabia is under threat of disruption",
       "change_type": "supply",
       "change_vector": "supply_tighter",
@@ -2261,176 +2288,7 @@
       "second_order": "Growth of related industries, such as finance and real estate",
       "invalidation": "Introduction of policies that deter foreign investment",
       "_at": "2026-06-25T00:06:57.312758"
-    },
-    {
-      "statement": "Regulatory tensions between the US and Iran are easing",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "US-Iran talks resulting in a joint statement and a coordinated roadmap may lead to reduced sanctions and increased economic cooperation",
-      "ksa_grounding": "This could lead to increased oil exports from Iran, potentially affecting Saudi Arabia's market share in the global oil market",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "US-Iran talks result in a joint statement and a coordinated roadmap",
-        "Kuwait expects to raise oil production to 2 million bpd within a week"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabia",
-        "Iran",
-        "Kuwait"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in global oil supply, reduced prices, and increased economic cooperation",
-      "downside": "Potential loss of market share for Saudi Arabia, increased competition in the oil market",
-      "first_order": "Direct impact on oil exports and market share",
-      "second_order": "Downstream effects on the global economy, trade relationships, and regional stability",
-      "invalidation": "Failure of US-Iran talks to produce a peace deal, increased tensions, or imposition of new sanctions",
-      "_at": "2026-06-23T23:54:25.869575"
-    },
-    {
-      "statement": "Investment strategies of the Saudi Central Bank are shifting",
-      "change_type": "cost",
-      "change_vector": "cost_falling",
-      "mechanism": "The Saudi Central Bank pulling money from global asset managers may indicate a shift towards more conservative or low-cost investment strategies",
-      "ksa_grounding": "This could lead to reduced investment costs for the Saudi Central Bank, potentially increasing its returns and affecting the overall financial market in Saudi Arabia",
-      "affected_sectors": [
-        "banking",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi Central Bank pulls money from at least two global asset managers"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Central Bank",
-        "global asset managers"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential reduction in investment costs, increased returns for the Saudi Central Bank",
-      "downside": "Potential impact on global financial markets, reduced investment in certain assets",
-      "first_order": "Direct impact on the Saudi Central Bank's investment portfolio",
-      "second_order": "Downstream effects on the global financial market, potential changes in investment strategies",
-      "invalidation": "The Saudi Central Bank reversing its decision, or the move having no significant impact on its investment costs or returns",
-      "_at": "2026-06-23T23:54:25.869588"
-    },
-    {
-      "statement": "Infrastructure development in Riyadh is increasing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "The awarding of a $90m contract for the initial infrastructure of Rayana's low-density residential development in Riyadh indicates increased investment in infrastructure development",
-      "ksa_grounding": "This could lead to improved living standards, increased economic activity, and growth in the real estate sector in Riyadh",
-      "affected_sectors": [
-        "construction"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "DarGlobal awards $90m Rayana infrastructure contract in Riyadh"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "DarGlobal",
-        "Rayana",
-        "residents of Riyadh"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential improvement in living standards, increased economic activity, and growth in the real estate sector",
-      "downside": "Potential increased costs, delays, or environmental impacts associated with infrastructure development",
-      "first_order": "Direct impact on the infrastructure and real estate sector in Riyadh",
-      "second_order": "Downstream effects on the local economy, population growth, and urban development",
-      "invalidation": "The project being delayed, cancelled, or having no significant impact on the infrastructure and real estate sector in Riyadh",
-      "_at": "2026-06-23T23:54:25.869590"
-    },
-    {
-      "statement": "Regulatory barriers to international trade have decreased",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Lebanese products re-entering the Saudi market indicates a reduction in regulatory barriers to international trade",
-      "ksa_grounding": "Increased trade with Lebanon can boost Saudi Arabia's tourism and hospitality sectors",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Lebanese products return to Saudi market"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "importers",
-        "exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased trade and economic cooperation",
-      "downside": "Potential cultural or economic disruption",
-      "first_order": "Direct increase in trade",
-      "second_order": "Potential increase in tourism and hospitality revenue",
-      "invalidation": "Implementation of new trade restrictions or tariffs",
-      "_at": "2026-06-23T00:02:22.725333"
-    },
-    {
-      "statement": "Risk exposure to cybercrime has increased",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "The use of AI for fake websites by Chinese scammers indicates a rising risk of cybercrime",
-      "ksa_grounding": "Saudi Arabia's growing fintech sector may be vulnerable to similar cyber threats",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Google, FBI target Chinese scammers using Gemini AI for fake sites"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "fintech companies",
-        "consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased awareness and cooperation to combat cybercrime",
-      "downside": "Potential financial losses and reputational damage",
-      "first_order": "Direct risk to fintech companies and consumers",
-      "second_order": "Potential loss of trust in the fintech sector",
-      "invalidation": "Implementation of effective cybersecurity measures that prevent similar scams",
-      "_at": "2026-06-23T00:02:22.725345"
-    },
-    {
-      "statement": "Supply chain diversification efforts are increasing",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "The Hormuz Crisis has sparked a pipeline boom in the Middle East, indicating efforts to reduce reliance on the Strait of Hormuz",
-      "ksa_grounding": "Saudi Arabia's oil and gas sector may benefit from increased pipeline infrastructure and reduced dependence on the Strait of Hormuz",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Hormuz Crisis sparks Middle East pipeline boom"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil and gas companies",
-        "logistics providers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased energy security and reduced transportation costs",
-      "downside": "Potential environmental and social impacts of new pipeline construction",
-      "first_order": "Direct increase in pipeline infrastructure",
-      "second_order": "Potential increase in oil and gas production and exports",
-      "invalidation": "Failure to complete new pipeline projects or significant changes in global energy demand",
-      "_at": "2026-06-23T00:02:22.725347"
     }
   ],
-  "lastRefresh": "2026-07-22T23:59:38.804838"
+  "lastRefresh": "2026-07-23T23:57:54.810467"
 }
