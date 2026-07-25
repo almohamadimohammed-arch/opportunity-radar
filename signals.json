@@ -1,6 +1,89 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to nuclear energy integration has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "US-Saudi nuclear deal approval without Israel normalization requirement",
+      "ksa_grounding": "Increased potential for nuclear energy development in Saudi Arabia, diversifying energy sources and reducing dependence on oil",
+      "affected_sectors": [
+        "energy",
+        "nuclear"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "US-Saudi nuclear deal hinges on normalization with Israel",
+        "Trump approves Saudi nuclear deal, dropping Israel normalization requirement"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "US"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased energy diversity and reduced carbon emissions",
+      "downside": "Potential risks associated with nuclear energy, including safety and waste management concerns",
+      "first_order": "Direct impact on Saudi Arabia's energy sector",
+      "second_order": "Potential downstream effects on the environment and global energy markets",
+      "invalidation": "Cancellation or significant delay of the US-Saudi nuclear deal",
+      "_at": "2026-07-24T23:59:34.918547"
+    },
+    {
+      "statement": "Global oil supply routes are becoming less reliable",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Houthi attacks on tankers in the Red Sea and potential rerouting of Saudi oil flows",
+      "ksa_grounding": "Potential disruption to Saudi Arabia's oil exports, impacting revenue and global energy markets",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Asian oil buyers in talks to reroute Saudi Red Sea flows",
+        "Oil prices surge past $100 as Middle East tensions escalate"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Asian oil buyers"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices, benefiting Saudi Arabia's economy",
+      "downside": "Potential for decreased oil exports, impacting Saudi Arabia's revenue and global energy markets",
+      "first_order": "Direct impact on Saudi Arabia's oil exports",
+      "second_order": "Potential downstream effects on global energy markets and prices",
+      "invalidation": "Successful mitigation of Houthi attacks and stabilization of the Red Sea supply route",
+      "_at": "2026-07-24T23:59:34.918573"
+    },
+    {
+      "statement": "Saudi Arabia's influence in the global entertainment industry is increasing",
+      "change_type": "competition",
+      "change_vector": "competition_intensifying",
+      "mechanism": "Acquisition of Electronic Arts by Saudi Arabia's Public Investment Fund",
+      "ksa_grounding": "Increased investment in the entertainment sector, potentially driving growth and diversification of Saudi Arabia's economy",
+      "affected_sectors": [
+        "entertainment"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "EU approves Saudi Arabia's $55bn acquisition of EA"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Electronic Arts"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment and growth in the entertainment sector",
+      "downside": "Potential risks associated with over-reliance on a single industry or investment",
+      "first_order": "Direct impact on the entertainment industry",
+      "second_order": "Potential downstream effects on Saudi Arabia's economy and global entertainment markets",
+      "invalidation": "Failure of the acquisition or significant decline in the entertainment industry",
+      "_at": "2026-07-24T23:59:34.918575"
+    },
+    {
       "statement": "Regulatory barriers to nuclear cooperation with Saudi Arabia have decreased",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2290,5 +2373,5 @@
       "_at": "2026-06-25T00:06:57.312758"
     }
   ],
-  "lastRefresh": "2026-07-23T23:57:54.810467"
+  "lastRefresh": "2026-07-25T00:00:12.486782"
 }

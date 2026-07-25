@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "title": "Nuclear Energy Development in Saudi Arabia",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi government and private sector companies",
+      "customer": "Saudi Arabia's energy sector",
+      "problem": "Diversifying energy sources and reducing dependence on oil",
+      "action_path": "Develop nuclear energy infrastructure, including power plants and research facilities, to reduce reliance on oil and increase energy security. Partner with international companies to acquire necessary technology and expertise. Invest in workforce development to support the growth of the nuclear energy sector.",
+      "entry_mode": "build",
+      "monetization": "Reduced dependence on oil, increased energy security, and potential export of nuclear energy expertise",
+      "capabilities": "Nuclear energy technology, project management, and workforce development",
+      "barriers": "Regulatory hurdles, public perception, and high upfront costs",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory barrier to nuclear energy integration has reduced"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "nuclear",
+        "energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Increased potential for nuclear energy development in Saudi Arabia, diversifying energy sources and reducing dependence on oil",
+      "assumptions": "The US-Saudi nuclear deal will be successfully implemented, and the Saudi government will provide necessary support and funding",
+      "invalidation": "Cancellation or significant delay of the US-Saudi nuclear deal",
+      "_at": "2026-07-25T00:00:12.484919"
+    },
+    {
+      "title": "Enhanced Oil Supply Route Security",
+      "play_type": "defensive_play",
+      "actor": "Saudi government and oil companies",
+      "customer": "Saudi Arabia's oil sector",
+      "problem": "Potential disruption to Saudi Arabia's oil exports due to Houthi attacks",
+      "action_path": "Implement enhanced security measures for oil supply routes, including increased naval presence and intelligence gathering. Develop contingency plans for potential disruptions, such as rerouting oil flows. Invest in technologies to improve supply chain resilience.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of supply disruptions, increased oil export security, and protection of revenue",
+      "capabilities": "Naval and intelligence capabilities, supply chain management, and technology integration",
+      "barriers": "High costs, complexity of implementation, and potential for escalating conflict",
+      "timing": "enter now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Global oil supply routes are becoming less reliable"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "red_sea"
+      ],
+      "ksa_grounding": "Potential disruption to Saudi Arabia's oil exports, impacting revenue and global energy markets",
+      "assumptions": "The Houthi attacks will continue to pose a significant threat to oil supply routes, and the Saudi government will provide necessary support and funding",
+      "invalidation": "Successful mitigation of Houthi attacks and stabilization of the Red Sea supply route",
+      "_at": "2026-07-25T00:00:12.484931"
+    },
+    {
       "title": "Develop Strategic Oil Reserves",
       "play_type": "infrastructure_play",
       "actor": "Saudi Aramco",
@@ -2075,5 +2134,5 @@
       "_at": "2026-06-25T00:07:04.899571"
     }
   ],
-  "lastRefresh": "2026-07-23T23:57:54.812486"
+  "lastRefresh": "2026-07-25T00:00:12.487970"
 }
