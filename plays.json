@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Diversified Energy Sector Play",
+      "play_type": "business_play",
+      "actor": "Saudi energy companies",
+      "customer": "Saudi government and citizens",
+      "problem": "Reducing reliance on oil exports and increasing energy security",
+      "action_path": "Develop and invest in renewable energy and nuclear power sources to diversify the energy sector. Partner with international companies to acquire the necessary technology and expertise. Build a skilled workforce to support the growth of these new energy sources.",
+      "entry_mode": "build",
+      "monetization": "Increased energy security and reduced reliance on oil exports",
+      "capabilities": "Renewable energy and nuclear power technology, project management, and workforce development",
+      "barriers": "High upfront costs, regulatory hurdles, and public perception",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Saudi Arabia's energy sector is becoming more diversified"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by reducing the country's reliance on oil exports and increasing its energy security",
+      "assumptions": "The civilian nuclear deal with the US will materialize and Saudi Arabia will continue to invest in renewable energy",
+      "invalidation": "If the deal is cancelled or fails to materialize, or if Saudi Arabia's energy demand decreases significantly",
+      "_at": "2026-07-25T23:57:07.534887"
+    },
+    {
+      "title": "Nuclear Energy Development Play",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi government and energy companies",
+      "customer": "Saudi citizens and industries",
+      "problem": "Developing nuclear energy capabilities to support energy diversification",
+      "action_path": "Develop nuclear energy infrastructure, including power plants and research facilities. Invest in workforce development and training programs to support the growth of the nuclear energy sector. Establish regulatory frameworks to ensure safety and security.",
+      "entry_mode": "build",
+      "monetization": "Increased energy security and reduced reliance on oil exports",
+      "capabilities": "Nuclear energy technology, project management, and workforce development",
+      "barriers": "High upfront costs, regulatory hurdles, and public perception",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Saudi Arabia's energy sector is becoming more diversified"
+      ],
+      "sector": "nuclear",
+      "relevant_sectors": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by supporting the development of nuclear energy capabilities",
+      "assumptions": "The civilian nuclear deal with the US will materialize and Saudi Arabia will continue to invest in nuclear energy",
+      "invalidation": "If the deal is cancelled or fails to materialize, or if Saudi Arabia's energy demand decreases significantly",
+      "_at": "2026-07-25T23:57:07.534895"
+    },
+    {
+      "title": "Renewable Energy Investment Play",
+      "play_type": "market_entry_play",
+      "actor": "International renewable energy companies",
+      "customer": "Saudi energy companies and government",
+      "problem": "Entering the Saudi renewable energy market",
+      "action_path": "Partner with Saudi energy companies to develop and invest in renewable energy projects. Establish a local presence and build relationships with key stakeholders. Develop a tailored value proposition to meet the needs of the Saudi market.",
+      "entry_mode": "partner",
+      "monetization": "Increased market share and revenue growth",
+      "capabilities": "Renewable energy technology, project development, and local market knowledge",
+      "barriers": "Regulatory hurdles, competition from established players, and cultural differences",
+      "timing": "enter now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Saudi Arabia's energy sector is becoming more diversified"
+      ],
+      "sector": "renewable_energy",
+      "relevant_sectors": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by supporting the growth of the renewable energy sector",
+      "assumptions": "The Saudi government will continue to support the growth of the renewable energy sector",
+      "invalidation": "If the Saudi government changes its energy policy or if the renewable energy sector becomes oversaturated",
+      "_at": "2026-07-25T23:57:07.534897"
+    },
+    {
       "title": "Nuclear Energy Development in Saudi Arabia",
       "play_type": "infrastructure_play",
       "actor": "Saudi government and private sector companies",
@@ -2072,67 +2162,7 @@
       "assumptions": "The Saudi government and regulatory bodies will provide a supportive environment for fintech innovation, and there will be a steady demand for AI-powered fintech solutions in the region",
       "invalidation": "Failure of AI-powered fintech solutions to gain significant traction in the market, or a decline in fintech innovation in the Middle East region",
       "_at": "2026-06-26T00:07:28.877639"
-    },
-    {
-      "title": "Healthcare Innovation Investment",
-      "play_type": "research_play",
-      "actor": "Healthcare companies, biotech firms",
-      "customer": "Saudi healthcare sector",
-      "problem": "Investment in healthcare innovation is increasing, creating an opportunity for healthcare companies and biotech firms to develop new treatments and services",
-      "action_path": "Healthcare companies and biotech firms can invest in research and development to create innovative treatments and services, partnering with local and international companies to access new technologies and expertise. They can also build local teams to better understand the Saudi healthcare market and tailor their services accordingly. By doing so, they can capitalize on the growing demand for innovative healthcare services in Saudi Arabia.",
-      "entry_mode": "invest",
-      "monetization": "Revenue from sales of innovative treatments and services, partnerships with local and international companies",
-      "capabilities": "Research and development capabilities, innovative treatments and services, local market knowledge",
-      "barriers": "Regulatory hurdles, competition from established players",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Investment in healthcare innovation is increasing"
-      ],
-      "sector": "healthcare",
-      "relevant_sectors": [
-        "healthcare",
-        "biotech"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's healthcare sector is likely to benefit from increased investment in innovation, leading to improved healthcare outcomes and services",
-      "assumptions": "The Saudi government will continue to support healthcare innovation, and the demand for innovative healthcare services will continue to grow",
-      "invalidation": "Decrease in investment in healthcare innovation due to economic downturn",
-      "_at": "2026-06-25T00:07:04.899558"
-    },
-    {
-      "title": "Global Investment Attraction",
-      "play_type": "policy_play",
-      "actor": "Saudi government",
-      "customer": "Global investors",
-      "problem": "Saudi Arabia is becoming a more attractive destination for global investment, creating an opportunity for the Saudi government to attract foreign investment",
-      "action_path": "The Saudi government can implement policies to attract foreign investment, such as tax incentives, regulatory reforms, and investment promotion programs. They can also build relationships with global investors to promote Saudi Arabia as a destination for investment. By doing so, they can capitalize on the growing interest in Saudi Arabia as a investment destination.",
-      "entry_mode": "build",
-      "monetization": "Revenue from foreign investment, job creation, and economic growth",
-      "capabilities": "Policy-making capabilities, investment promotion capabilities, relationships with global investors",
-      "barriers": "Regulatory hurdles, competition from other investment destinations",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Saudi Arabia is becoming a more attractive destination for global investment"
-      ],
-      "sector": "capital_markets",
-      "relevant_sectors": [
-        "capital_markets",
-        "fintech"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi Arabia's economy is likely to benefit from increased foreign investment, leading to job creation and economic growth",
-      "assumptions": "The Saudi government will continue to support foreign investment, and the global economy will continue to grow",
-      "invalidation": "Introduction of policies that deter foreign investment",
-      "_at": "2026-06-25T00:07:04.899571"
     }
   ],
-  "lastRefresh": "2026-07-25T00:00:12.487970"
+  "lastRefresh": "2026-07-25T23:57:07.539876"
 }

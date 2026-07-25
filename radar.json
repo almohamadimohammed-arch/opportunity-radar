@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "title": "EU Commission approves $55bn EA buyout by Saudi Arabia's Public Investment Fund",
+      "source": "GamesIndustry.biz, Rock Paper Shotgun, Eurogamer.net",
+      "source_tier": 2,
+      "time": "2026-07-24",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "entertainment"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "gaming",
+        "investment"
+      ],
+      "summary": "The EU Commission has approved the $55 billion acquisition of Electronic Arts by Saudi Arabia's Public Investment Fund. This move is part of Saudi Arabia's efforts to diversify its economy and invest in the global gaming industry.",
+      "why_it_matters": "This acquisition demonstrates Saudi Arabia's growing influence in the global gaming industry and its efforts to diversify its economy beyond oil exports.",
+      "verification_status": "confirmed",
+      "source_count": 3,
+      "_at": "2026-07-25T23:56:22.952087"
+    },
+    {
+      "title": "Saudi Arabia strikes Hudaydah after Red Sea vessel attack",
+      "source": "Israelnationalnews.com, Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-24",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "shipping",
+        "security"
+      ],
+      "summary": "Saudi Arabia has struck Hudaydah after a Red Sea vessel attack, escalating tensions in the region. The attack has raised concerns about the safety of shipping lanes and the potential for further conflict.",
+      "why_it_matters": "This escalation in the Red Sea has significant implications for global oil supplies and shipping routes, and could impact Saudi Arabia's economy and regional stability.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-25T23:56:22.952096"
+    },
+    {
+      "title": "Saudi Arabia secures civilian nuclear deal with US",
+      "source": "Crypto Briefing, DW (English)",
+      "source_tier": 2,
+      "time": "2026-07-24",
+      "event_type": "partnership",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "diplomacy"
+      ],
+      "summary": "Saudi Arabia has secured a civilian nuclear deal with the US, allowing for potential uranium enrichment and reshaping global energy markets.",
+      "why_it_matters": "This deal has significant implications for Saudi Arabia's energy sector and its efforts to diversify away from oil exports, as well as for regional and global non-proliferation concerns.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-25T23:56:22.952098"
+    },
+    {
+      "title": "OPEC+ set to raise output again despite members' struggles to meet targets",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-07-23",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "OPEC+ is expected to approve another production target increase, despite some members struggling to meet their current targets. This move is intended to stabilize global oil markets and meet growing demand.",
+      "why_it_matters": "This decision has significant implications for global oil prices and Saudi Arabia's economy, as well as for the country's efforts to manage its oil production and exports.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-25T23:56:22.952100"
+    },
+    {
+      "title": "US and Saudi Arabia sign nuclear power deal allowing uranium enrichment",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-24",
+      "event_type": "partnership",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "diplomacy"
+      ],
+      "summary": "The US and Saudi Arabia have signed a nuclear power deal allowing for uranium enrichment, which could reshape global energy markets and raise non-proliferation concerns.",
+      "why_it_matters": "This deal has significant implications for Saudi Arabia's energy sector and its efforts to diversify away from oil exports, as well as for regional and global non-proliferation concerns.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-25T23:56:22.952101"
+    },
+    {
       "title": "US-Saudi nuclear deal hinges on normalization with Israel",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -2960,104 +3074,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-06-26T00:06:43.895472"
-    },
-    {
-      "title": "US Secretary of State Marco Rubio faces a delicate mission in selling the Iran peace deal to Gulf Arab leaders",
-      "source": "Japan Today, gcaptain.com",
-      "source_tier": 2,
-      "time": "2026-06-23",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "diplomacy",
-        "energy"
-      ],
-      "summary": "US Secretary of State Marco Rubio is on a mission to sell the Iran peace deal to Gulf Arab leaders, who are wary of excessive concessions to Tehran. The deal has sparked concerns among Gulf nations about the potential strengthening of Iran. Rubio's task is to alleviate these concerns and secure support for the agreement.",
-      "why_it_matters": "The success of the Iran peace deal has significant implications for Saudi Arabia's energy sector and regional security. A stable Iran could lead to increased oil production, affecting global energy markets and potentially impacting Saudi Arabia's oil exports.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-06-25T00:06:20.050439"
-    },
-    {
-      "title": "Flagship Pioneering and Lean Business Services Company collaborate to advance healthcare innovation in Saudi Arabia",
-      "source": "PRNewswire",
-      "source_tier": 2,
-      "time": "2026-06-23",
-      "event_type": "partnership",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "healthcare",
-        "biotech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "healthcare",
-        "innovation"
-      ],
-      "summary": "Flagship Pioneering and Lean Business Services Company have announced a collaboration to advance healthcare innovation and AI-enabled biomedical research in Saudi Arabia. The partnership aims to accelerate precision medicine and scientific discovery.",
-      "why_it_matters": "This partnership has the potential to drive innovation in Saudi Arabia's healthcare sector, aligning with the country's Vision 2030 goals. It could lead to improved healthcare outcomes and increased investment in the sector.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-25T00:06:20.050453"
-    },
-    {
-      "title": "Saudi Arabia's sovereign wealth fund aims to make the kingdom a global investment center",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-06-23",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "capital_markets",
-        "fintech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance",
-        "investment"
-      ],
-      "summary": "Saudi Arabia's sovereign wealth fund is working to attract global investment to the kingdom, with the goal of making it a major investment hub. The fund has already deployed billions of dollars in capital around the world.",
-      "why_it_matters": "A successful investment hub would diversify Saudi Arabia's economy, reducing its reliance on oil exports and aligning with the country's Vision 2030 goals. It could also attract foreign investment and talent to the kingdom.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-25T00:06:20.050456"
-    },
-    {
-      "title": "Abu Dhabi's MGX raises $50 billion AI fund",
-      "source": "The Next Web, Financial Post",
-      "source_tier": 2,
-      "time": "2026-06-23",
-      "event_type": "funding",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "education"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "AI",
-        "technology"
-      ],
-      "summary": "Abu Dhabi's MGX has raised a $50 billion AI fund, which will be used to accelerate spending on artificial intelligence infrastructure and technology. The fund has already started investing in various projects.",
-      "why_it_matters": "The large-scale investment in AI has significant implications for the regional technology landscape, potentially driving innovation and growth in the sector. Saudi Arabia may need to consider similar investments to remain competitive.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-06-25T00:06:20.050458"
     }
   ],
-  "lastRefresh": "2026-07-25T00:00:12.485005",
+  "lastRefresh": "2026-07-25T23:57:07.535008",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 39,
+    "articles_to_model": 38,
     "radar_generated": 5,
     "radar_confirmed": 3,
     "radar_reported": 2,
@@ -3065,9 +3088,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

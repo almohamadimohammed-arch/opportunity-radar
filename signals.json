@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Saudi Arabia's investment in the global gaming industry is increasing",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "The Public Investment Fund's acquisition of Electronic Arts is expected to increase Saudi Arabia's presence in the global gaming industry",
+      "ksa_grounding": "This investment is part of Saudi Arabia's efforts to diversify its economy and reduce its reliance on oil exports",
+      "affected_sectors": [
+        "entertainment"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "EU Commission approves $55bn EA buyout by Saudi Arabia's Public Investment Fund"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Public Investment Fund",
+        "Electronic Arts"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased revenue and job creation in the gaming industry",
+      "downside": "Potential risks associated with investing in a new industry",
+      "first_order": "Direct investment in the gaming industry",
+      "second_order": "Potential for increased tourism and entertainment revenue in Saudi Arabia",
+      "invalidation": "If the acquisition is blocked or fails to materialize",
+      "_at": "2026-07-25T23:57:00.219967"
+    },
+    {
+      "statement": "Saudi Arabia's energy sector is becoming more diversified",
+      "change_type": "energy mix",
+      "change_vector": "supply_looser",
+      "mechanism": "The civilian nuclear deal with the US allows for potential uranium enrichment and increases Saudi Arabia's energy options",
+      "ksa_grounding": "This deal is expected to reduce Saudi Arabia's reliance on oil exports and increase its energy security",
+      "affected_sectors": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia secures civilian nuclear deal with US",
+        "US and Saudi Arabia sign nuclear power deal allowing uranium enrichment"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "US"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased energy security and reduced reliance on oil exports",
+      "downside": "Potential risks associated with nuclear energy and uranium enrichment",
+      "first_order": "Increased energy options for Saudi Arabia",
+      "second_order": "Potential for increased economic growth and reduced carbon emissions",
+      "invalidation": "If the deal is cancelled or fails to materialize",
+      "_at": "2026-07-25T23:57:00.219975"
+    },
+    {
+      "statement": "Global oil markets are experiencing increased volatility",
+      "change_type": "market volatility",
+      "change_vector": "supply_tighter",
+      "mechanism": "The attack on the Red Sea vessel and the potential for further conflict are increasing tensions in the region",
+      "ksa_grounding": "This volatility is expected to impact Saudi Arabia's oil exports and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Saudi Arabia strikes Hudaydah after Red Sea vessel attack"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia",
+        "global oil markets"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased oil prices and revenue for Saudi Arabia",
+      "downside": "Potential risks associated with increased conflict and market volatility",
+      "first_order": "Increased tensions in the region",
+      "second_order": "Potential for decreased oil exports and revenue for Saudi Arabia",
+      "invalidation": "If the conflict is resolved and tensions decrease",
+      "_at": "2026-07-25T23:57:00.219976"
+    },
+    {
       "statement": "Regulatory barrier to nuclear energy integration has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2311,67 +2395,7 @@
       "second_order": "Development of new industries",
       "invalidation": "Failure of AI investments to lead to significant innovation in the region",
       "_at": "2026-06-26T00:06:50.983578"
-    },
-    {
-      "statement": "Investment in healthcare innovation is increasing",
-      "change_type": "investment",
-      "change_vector": "demand_up",
-      "mechanism": "Partnerships between local and international companies",
-      "ksa_grounding": "Saudi Arabia's healthcare sector is likely to benefit from increased investment in innovation, leading to improved healthcare outcomes and services",
-      "affected_sectors": [
-        "healthcare",
-        "biotech"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Flagship Pioneering and Lean Business Services Company collaborate to advance healthcare innovation in Saudi Arabia",
-        "Abu Dhabi's MGX raises $50 billion AI fund"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "healthcare providers",
-        "patients"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Improved healthcare outcomes and services",
-      "downside": "Potential risks associated with rapid investment in unproven technologies",
-      "first_order": "Direct investment in healthcare sector",
-      "second_order": "Growth of related industries, such as biotech and pharmaceuticals",
-      "invalidation": "Decrease in investment in healthcare innovation due to economic downturn",
-      "_at": "2026-06-25T00:06:57.312745"
-    },
-    {
-      "statement": "Saudi Arabia is becoming a more attractive destination for global investment",
-      "change_type": "investment",
-      "change_vector": "demand_up",
-      "mechanism": "Government efforts to attract foreign investment",
-      "ksa_grounding": "Saudi Arabia's economy is likely to benefit from increased foreign investment, leading to job creation and economic growth",
-      "affected_sectors": [
-        "capital_markets",
-        "fintech"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi Arabia's sovereign wealth fund aims to make the kingdom a global investment center",
-        "Abu Dhabi's MGX raises $50 billion AI fund"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "investors",
-        "businesses"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased foreign investment and job creation",
-      "downside": "Potential risks associated with rapid investment growth, such as inflation and market volatility",
-      "first_order": "Direct investment in various sectors",
-      "second_order": "Growth of related industries, such as finance and real estate",
-      "invalidation": "Introduction of policies that deter foreign investment",
-      "_at": "2026-06-25T00:06:57.312758"
     }
   ],
-  "lastRefresh": "2026-07-25T00:00:12.486782"
+  "lastRefresh": "2026-07-25T23:57:07.537782"
 }
