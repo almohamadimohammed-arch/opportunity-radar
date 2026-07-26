@@ -1,6 +1,62 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to foreign investment in Saudi entertainment sector has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "EU Commission approval of EA buyout led by Saudi Arabia's Public Investment Fund sets a precedent for future foreign investments",
+      "ksa_grounding": "Increased foreign investment in Saudi entertainment sector can lead to job creation, economic growth, and diversification of the economy",
+      "affected_sectors": [
+        "entertainment"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "EU Commission approves $55bn EA buyout"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "foreign investors",
+        "Saudi entertainment industry"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment, job creation, and economic growth",
+      "downside": "Potential cultural and social implications of increased foreign influence",
+      "first_order": "Direct investment in the entertainment sector",
+      "second_order": "Potential for increased tourism and hospitality revenue",
+      "invalidation": "If the Saudi government imposes new restrictions on foreign investment in the entertainment sector",
+      "_at": "2026-07-26T23:57:23.796610"
+    },
+    {
+      "statement": "Feasibility of Saudi Arabia's energy diversification has increased",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "US-Saudi civilian nuclear deal and potential for uranium enrichment",
+      "ksa_grounding": "Increased feasibility of energy diversification can lead to decreased dependence on oil exports and increased economic stability",
+      "affected_sectors": [
+        "renewable_energy",
+        "nuclear"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia secures civilian nuclear deal with US",
+        "Trump ties Saudi nuclear deal to Abraham Accords"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi energy industry",
+        "US energy industry"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased energy diversification, decreased dependence on oil exports, and increased economic stability",
+      "downside": "Potential environmental and safety risks associated with nuclear energy",
+      "first_order": "Direct impact on Saudi energy sector",
+      "second_order": "Potential for increased economic stability and decreased dependence on oil exports",
+      "invalidation": "If the US-Saudi civilian nuclear deal falls through or is significantly delayed",
+      "_at": "2026-07-26T23:57:23.796622"
+    },
+    {
       "statement": "Saudi Arabia's investment in the global gaming industry is increasing",
       "change_type": "investment",
       "change_vector": "demand_up",
@@ -2303,99 +2359,7 @@
       "second_order": "Potential increase in global economic activity",
       "invalidation": "If US-Iran tensions escalate again, leading to renewed oil market volatility",
       "_at": "2026-06-27T00:02:52.622891"
-    },
-    {
-      "statement": "Digital transformation in Saudi Arabia's housing sector is accelerating",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Partnerships between technology companies and housing providers are driving digital infrastructure development",
-      "ksa_grounding": "Improved digital infrastructure in the housing sector can increase efficiency and reduce costs, making Saudi Arabia's housing market more attractive to investors and residents",
-      "affected_sectors": [
-        "housing",
-        "digital_infrastructure"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Lenovo and National Housing Company Innovation Sign MoU to Advance AI and Digital Infrastructure in Saudi Arabia\u2019s Housing Sector"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "National Housing Company Innovation",
-        "Lenovo"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased efficiency and reduced costs in the housing sector",
-      "downside": "Dependence on foreign technology companies",
-      "first_order": "Improved digital infrastructure",
-      "second_order": "Increased attractiveness of Saudi Arabia's housing market",
-      "invalidation": "Cancellation of the MoU between Lenovo and National Housing Company Innovation",
-      "_at": "2026-06-26T00:06:50.983564"
-    },
-    {
-      "statement": "Saudi Arabia is becoming a more attractive destination for global investments",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Saudi Arabia's sovereign wealth fund is actively seeking to attract global investments",
-      "ksa_grounding": "Increased foreign investment can help diversify Saudi Arabia's economy and reduce its reliance on oil exports",
-      "affected_sectors": [
-        "fintech",
-        "banking",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Saudi\u2019s sovereign wealth fund wants the kingdom to become a global investment center"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi's sovereign wealth fund"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Diversified economy and reduced reliance on oil exports",
-      "downside": "Increased competition for local businesses",
-      "first_order": "Increased foreign investment",
-      "second_order": "Diversified economy",
-      "invalidation": "Failure of Saudi Arabia's sovereign wealth fund to attract significant foreign investment",
-      "_at": "2026-06-26T00:06:50.983574"
-    },
-    {
-      "statement": "AI innovation is increasing in the Middle East",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Large investments in AI infrastructure and technology are being made in the region",
-      "ksa_grounding": "Increased AI innovation in the region can lead to the development of new industries and job opportunities in Saudi Arabia",
-      "affected_sectors": [
-        "fintech",
-        "ai",
-        "healthcare"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "evidence": [
-        "Abu Dhabi\u2019s MGX Raises About $50 Billion to Accelerate AI Deals",
-        "Flagship Pioneering and Lean Business Services Company Announce Collaboration to Advance Healthcare Innovation and AI-Enabled Biomedical Research in Saudi Arabia"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "MGX",
-        "Flagship Pioneering",
-        "Lean Business Services Company"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Development of new industries and job opportunities",
-      "downside": "Dependence on foreign investment and technology",
-      "first_order": "Increased AI innovation",
-      "second_order": "Development of new industries",
-      "invalidation": "Failure of AI investments to lead to significant innovation in the region",
-      "_at": "2026-06-26T00:06:50.983578"
     }
   ],
-  "lastRefresh": "2026-07-25T23:57:07.537782"
+  "lastRefresh": "2026-07-26T23:57:31.132767"
 }
