@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "statement": "Regulatory barriers to foreign investment and post-oil economic diversification have reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Investments in megaprojects and foreign investment signal a shift towards a more open economy",
+      "ksa_grounding": "Saudi Arabia's economy is transitioning towards a post-oil future, with a focus on diversification and foreign investment",
+      "affected_sectors": [
+        "oil_gas",
+        "tourism",
+        "hospitality",
+        "entertainment"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah",
+        "neom"
+      ],
+      "evidence": [
+        "Saudi Arabia's Public Investment Fund is investing in megaprojects and foreign investment to secure a post-oil future",
+        "Trump conditions Saudi nuclear deal on normalization with Israel"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Public Investment Fund",
+        "foreign investors"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Increased foreign investment and economic diversification",
+      "downside": "Dependence on oil revenue may persist if diversification efforts are unsuccessful",
+      "first_order": "Direct investment in megaprojects",
+      "second_order": "Growth of new industries and job creation",
+      "invalidation": "Failure of megaprojects or decline in foreign investment",
+      "_at": "2026-07-27T23:59:47.626870"
+    },
+    {
+      "statement": "Supply of oil has loosened, reducing upward pressure on prices",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Increased oil exports and reduced imports have led to a surge in trade surplus",
+      "ksa_grounding": "Saudi Arabia's oil exports have increased, contributing to a loosening of global oil supply",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia's trade surplus jumps to $6.9bn in May",
+        "Oil prices drop as US and Iran pause military strikes"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil exporters",
+        "importers"
+      ],
+      "time_horizon": "now",
+      "upside": "Lower oil prices, increased trade surplus",
+      "downside": "Dependence on oil revenue may persist, price volatility",
+      "first_order": "Increased oil exports",
+      "second_order": "Reduced oil prices, increased economic activity",
+      "invalidation": "Disruption to oil supplies, price increase",
+      "_at": "2026-07-27T23:59:47.626879"
+    },
+    {
+      "statement": "Feasibility of enterprise AI adoption has increased",
+      "change_type": "feasibility",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Partnerships between companies like Wipro and Databricks have improved AI solutions",
+      "ksa_grounding": "Saudi Arabian companies may benefit from improved AI solutions, enhancing their competitiveness",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Wipro expands Databricks partnership for enterprise AI"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Wipro",
+        "Databricks",
+        "Saudi Arabian companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Improved AI solutions, increased competitiveness",
+      "downside": "Dependence on foreign technology, limited adoption",
+      "first_order": "Improved AI solutions",
+      "second_order": "Increased competitiveness, economic growth",
+      "invalidation": "Limited adoption of AI solutions, dependence on foreign technology",
+      "_at": "2026-07-27T23:59:47.626880"
+    },
+    {
       "statement": "Regulatory barrier to foreign investment in Saudi entertainment sector has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2249,117 +2338,7 @@
       "second_order": "Downstream effects on the Saudi economy and trade relationships",
       "invalidation": "A significant reduction in tanker traffic through the Strait of Hormuz, leading to increased supply worries and tensions in the region",
       "_at": "2026-06-29T00:04:49.469974"
-    },
-    {
-      "statement": "Risk exposure in the oil and gas sector is rising due to geopolitical tensions",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Increased tensions between Iran and the GCC/US are threatening the stability of the Strait of Hormuz, a critical oil transportation route",
-      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and any disruption to the Strait of Hormuz could have significant economic implications",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Iran slams the GCC and the US for \u2018interventionist\u2019 statement",
-        "UN pauses plans to evacuate sailors from the Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential disruption to oil exports and increased insurance costs",
-      "first_order": "Direct impact on oil exports and shipping",
-      "second_order": "Potential impact on global oil prices and Saudi Arabia's economy",
-      "invalidation": "A significant reduction in tensions between Iran and the GCC/US, or the establishment of a stable and secure alternative oil transportation route",
-      "_at": "2026-06-27T23:59:00.114847"
-    },
-    {
-      "statement": "Global demand for oil is decreasing due to market shifts",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "Resumption of traffic through the Strait of Hormuz and decreased concerns about global oil supply",
-      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and a decrease in global demand could lead to reduced oil revenues",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Oil prices plunge 10% for the week as Hormuz traffic resumes"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil exporters",
-        "Saudi Aramco"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential reduction in oil revenues for Saudi Arabia",
-      "first_order": "Direct impact on oil prices and revenues",
-      "second_order": "Potential impact on Saudi Arabia's economy and budget",
-      "invalidation": "A significant increase in global demand for oil, or a major disruption to oil supplies",
-      "_at": "2026-06-27T23:59:00.114864"
-    },
-    {
-      "statement": "Regulatory barrier to climate finance has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "The OPEC Fund's launch of the Vulnerability to Viability Compact (V2V) increases access to climate finance for vulnerable countries, potentially influencing Saudi Arabia's energy transition strategies",
-      "ksa_grounding": "This development may encourage Saudi Arabia to increase its commitment to sustainability and renewable energy, aligning with its Vision 2030 goals",
-      "affected_sectors": [
-        "renewable_energy",
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "OPEC Fund launches landmark climate finance compact"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi Arabia",
-        "OPEC Fund"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment in renewable energy and reduced carbon emissions",
-      "downside": "Potential diversion of funds from other priority sectors",
-      "first_order": "Increased access to climate finance",
-      "second_order": "Potential growth of Saudi Arabia's renewable energy sector",
-      "invalidation": "If the V2V compact fails to secure significant funding or support from member countries",
-      "_at": "2026-06-27T00:02:52.622881"
-    },
-    {
-      "statement": "Global oil market volatility has decreased",
-      "change_type": "market",
-      "change_vector": "supply_looser",
-      "mechanism": "Eased US-Iran tensions and the resumption of crude loadings at Ras Tanura contribute to stabilization in global oil markets",
-      "ksa_grounding": "This development may impact Saudi Arabia's oil revenue and energy sector, potentially leading to decreased oil prices and increased global supply",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Crude oil prices crash 42% from April\u2019s $126 peak",
-        "Saudi Aramco resumes crude loadings at Ras Tanura",
-        "Goldman Sachs, Morgan Stanley cut oil forecasts as US-Iran tensions ease"
-      ],
-      "evidence_strength": "strong",
-      "affected_actors": [
-        "Saudi Arabia",
-        "global oil market participants"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased global oil supply and decreased prices",
-      "downside": "Potential negative impact on Saudi Arabia's oil revenue",
-      "first_order": "Decreased oil price volatility",
-      "second_order": "Potential increase in global economic activity",
-      "invalidation": "If US-Iran tensions escalate again, leading to renewed oil market volatility",
-      "_at": "2026-06-27T00:02:52.622891"
     }
   ],
-  "lastRefresh": "2026-07-26T23:57:31.132767"
+  "lastRefresh": "2026-07-27T23:59:54.536821"
 }
