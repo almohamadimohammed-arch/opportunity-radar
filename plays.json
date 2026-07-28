@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Saudi Cybersecurity Firms Building AI-Powered Threat Detection",
+      "play_type": "business_play",
+      "actor": "Saudi cybersecurity firms",
+      "customer": "Saudi enterprises, government institutions",
+      "problem": "Increased risk exposure due to regional tensions and rising military spending",
+      "action_path": "Develop and deploy AI-powered threat detection systems to help Saudi enterprises and government institutions protect themselves from potential cyber threats. This can be achieved by building cloud-native capabilities and partnering with AI technology providers. By doing so, Saudi cybersecurity firms can capitalize on the growing demand for cybersecurity solutions.",
+      "entry_mode": "build",
+      "monetization": "Subscription-based models, consulting services",
+      "capabilities": "Cloud-native capabilities, AI expertise, cybersecurity knowledge",
+      "barriers": "High competition, talent acquisition challenges",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regional tensions may lead to increased military spending"
+      ],
+      "sector": "cybersecurity",
+      "relevant_sectors": [
+        "oil_gas",
+        "fintech"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's military spending may increase to counter potential threats from Iran-backed groups, creating a demand for advanced cybersecurity solutions",
+      "assumptions": "Regional tensions will continue to rise, and Saudi enterprises will invest in cybersecurity solutions",
+      "invalidation": "If tensions between Saudi Arabia and Iran decrease or a peaceful resolution is reached, reducing the demand for cybersecurity solutions",
+      "_at": "2026-07-28T23:56:06.578694"
+    },
+    {
+      "title": "AI Adoption in Saudi Education Sector",
+      "play_type": "market_entry_play",
+      "actor": "Edtech companies",
+      "customer": "Saudi educational institutions",
+      "problem": "Limited adoption of AI and digital technologies in Saudi education sector",
+      "action_path": "Develop and offer AI-powered educational solutions to Saudi schools and universities, helping them improve student outcomes and increase efficiency. This can be achieved by partnering with local educational institutions and leveraging existing AI technologies. By doing so, edtech companies can capitalize on the growing demand for digital education solutions in Saudi Arabia.",
+      "entry_mode": "partner",
+      "monetization": "Subscription-based models, licensing fees",
+      "capabilities": "AI expertise, educational content development, local partnerships",
+      "barriers": "Cultural and language barriers, competition from established players",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Adoption of AI and digital technologies is increasing in Saudi Arabia"
+      ],
+      "sector": "edtech",
+      "relevant_sectors": [
+        "education",
+        "fintech"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's businesses and institutions are becoming more open to adopting AI and digital technologies, creating opportunities for edtech companies",
+      "assumptions": "Adoption of AI and digital technologies will continue to increase in Saudi Arabia, and educational institutions will invest in digital solutions",
+      "invalidation": "If the adoption of AI and digital technologies slows down or faces significant resistance in the Saudi education sector",
+      "_at": "2026-07-28T23:56:06.578704"
+    },
+    {
       "title": "Saudi Enterprises Expanding into Diversified Sectors",
       "play_type": "market_entry_play",
       "actor": "Foreign investors and Saudi enterprises",
@@ -2082,5 +2142,5 @@
       "_at": "2026-06-29T00:04:57.250476"
     }
   ],
-  "lastRefresh": "2026-07-27T23:59:54.538846"
+  "lastRefresh": "2026-07-28T23:56:06.583939"
 }

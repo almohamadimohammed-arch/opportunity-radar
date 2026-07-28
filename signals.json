@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Investment in the Middle East is increasing",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Brookfield's $2 billion fund raise indicates growing interest in the region",
+      "ksa_grounding": "The fund, backed by PIF, is expected to support various projects in Saudi Arabia, boosting the economy",
+      "affected_sectors": [
+        "oil_gas",
+        "fintech"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Brookfield raises $2 billion for Middle East fund backed by PIF"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "PIF",
+        "Brookfield"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased economic activity and job creation",
+      "downside": "Potential risks associated with large-scale investments",
+      "first_order": "Direct investment in the region",
+      "second_order": "Potential for increased economic growth and development",
+      "invalidation": "If the fund fails to materialize or investments are not made as planned",
+      "_at": "2026-07-28T23:55:59.587825"
+    },
+    {
+      "statement": "Regional tensions may lead to increased military spending",
+      "change_type": "geopolitics",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Ongoing tensions between Saudi Arabia and Iran may escalate conflicts",
+      "ksa_grounding": "Saudi Arabia's military spending may increase to counter potential threats from Iran-backed groups",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia intercepts drones from Iran-backed groups",
+        "Trump-Saudi Atomic Energy Deal"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "time_horizon": "now",
+      "upside": "Enhanced national security",
+      "downside": "Potential for increased conflict and instability",
+      "first_order": "Direct impact on regional security",
+      "second_order": "Potential for increased military spending and economic burden",
+      "invalidation": "If tensions between Saudi Arabia and Iran decrease or a peaceful resolution is reached",
+      "_at": "2026-07-28T23:55:59.587835"
+    },
+    {
+      "statement": "Adoption of AI and digital technologies is increasing in Saudi Arabia",
+      "change_type": "technology",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Partnerships like Wipro's expansion of its Databricks partnership facilitate AI adoption",
+      "ksa_grounding": "Saudi Arabia's businesses and institutions are becoming more open to adopting AI and digital technologies",
+      "affected_sectors": [
+        "fintech",
+        "education"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Wipro expands Databricks partnership for enterprise AI",
+        "Digital health information-seeking behaviors and trust in AI-based physician chatbots"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Wipro",
+        "Databricks"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased efficiency and innovation in various sectors",
+      "downside": "Potential job displacement and need for workforce retraining",
+      "first_order": "Direct impact on businesses and institutions",
+      "second_order": "Potential for increased economic growth and competitiveness",
+      "invalidation": "If the adoption of AI and digital technologies slows down or faces significant resistance",
+      "_at": "2026-07-28T23:55:59.587839"
+    },
+    {
       "statement": "Regulatory barriers to foreign investment and post-oil economic diversification have reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2340,5 +2426,5 @@
       "_at": "2026-06-29T00:04:49.469974"
     }
   ],
-  "lastRefresh": "2026-07-27T23:59:54.536821"
+  "lastRefresh": "2026-07-28T23:56:06.581738"
 }

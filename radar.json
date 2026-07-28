@@ -1,6 +1,97 @@
 {
   "items": [
     {
+      "title": "Brookfield raises $2 billion for Middle East fund backed by PIF",
+      "source": "Financial Post, Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-27",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "fintech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "investment",
+        "finance"
+      ],
+      "summary": "Brookfield Asset Management Ltd. has raised $2 billion for a Middle East-focused vehicle backed by Saudi Arabia\u2019s wealth fund. This investment is expected to support various projects in the region. The fund's focus areas have not been explicitly stated.",
+      "why_it_matters": "This funding raise has strategic consequences for Saudi Arabia as it attracts significant investment to the region, potentially boosting economic growth and development. It also underscores the kingdom's efforts to diversify its economy and reduce dependence on oil revenues.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-28T23:55:22.430292"
+    },
+    {
+      "title": "Saudi Arabia intercepts drones from Iran-backed groups",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-07-27",
+      "event_type": "geopolitical_move",
+      "category": "security",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "national security",
+        "defense"
+      ],
+      "summary": "Saudi Arabia has intercepted drones from Iran-backed groups, highlighting ongoing tensions in the region. This incident could escalate conflicts between Saudi Arabia and Iran. The interception demonstrates Saudi Arabia's military capabilities and readiness to respond to threats.",
+      "why_it_matters": "This event has significant strategic consequences for Saudi Arabia, as it indicates the kingdom's vulnerability to drone attacks and the need for enhanced security measures. It also underscores the complex geopolitical dynamics in the region and the potential for further escalation.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-28T23:55:22.430304"
+    },
+    {
+      "title": "Trump-Saudi Atomic Energy Deal",
+      "source": "Juancole.com",
+      "source_tier": 2,
+      "time": "2026-07-27",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "nuclear policy"
+      ],
+      "summary": "The Trump-Saudi Atomic Energy Deal may trigger a nuclear competition in the region, as other countries may feel compelled to pursue nuclear options. This deal has significant implications for regional stability and global non-proliferation efforts.",
+      "why_it_matters": "This deal has strategic consequences for Saudi Arabia, as it may lead to a nuclear arms race in the region, potentially destabilizing the Middle East and undermining global security. It also raises concerns about the kingdom's energy strategy and its commitment to renewable energy sources.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-28T23:55:22.430306"
+    },
+    {
+      "title": "Digital health information-seeking behaviors and trust in AI-based physician chatbots",
+      "source": "National Institutes of Health",
+      "source_tier": 2,
+      "time": "2026-07-27",
+      "event_type": "scientific_result",
+      "category": "healthcare",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare",
+        "biotech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "healthcare services",
+        "medical research"
+      ],
+      "summary": "A study on digital health information-seeking behaviors and trust in AI-based physician chatbots among patients with hypertension in Saudi Arabia found that trust is positively shaped by institutional familiarity with MOH digital services and perceived reliability of self-assessment tools.",
+      "why_it_matters": "This study has strategic consequences for Saudi Arabia's healthcare sector, as it highlights the importance of building trust in AI-based healthcare services and the need for reliable digital health information. It also underscores the potential for AI to improve healthcare outcomes and patient engagement.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-28T23:55:22.430308"
+    },
+    {
       "title": "Saudi Arabia's Public Investment Fund is investing in megaprojects and foreign investment to secure a post-oil future",
       "source": "Space Daily",
       "source_tier": 1,
@@ -2945,14 +3036,14 @@
       "_at": "2026-06-29T00:04:12.691593"
     }
   ],
-  "lastRefresh": "2026-07-27T23:59:54.534087",
+  "lastRefresh": "2026-07-28T23:56:06.578812",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 39,
+    "articles_to_model": 37,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
