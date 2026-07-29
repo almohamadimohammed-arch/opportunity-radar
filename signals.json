@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to oil production has tightened",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "OPEC+ decision to pause oil-production quota hikes",
+      "ksa_grounding": "Saudi Arabia's oil production and export capabilities may be impacted, affecting the country's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "OPEC+ to pause oil output hikes after September",
+        "Iran conflict threatens key Saudi oil export routes"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "OPEC+",
+        "Saudi Aramco"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in oil prices, benefiting Saudi Arabia's oil exports",
+      "downside": "Potential decrease in oil production, impacting Saudi Arabia's economy",
+      "first_order": "Direct impact on Saudi Arabia's oil production and exports",
+      "second_order": "Downstream effects on the global oil market and Saudi Arabia's economy",
+      "invalidation": "If OPEC+ decides to resume oil-production quota hikes, this signal would be invalidated",
+      "_at": "2026-07-29T23:57:57.835702"
+    },
+    {
+      "statement": "Investment in renewable energy is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Saudi Prince Alwaleed bin Talal's investment in Lucid Group",
+      "ksa_grounding": "Increased investment in renewable energy, potentially diversifying Saudi Arabia's economy",
+      "affected_sectors": [
+        "renewable_energy"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Prince Alwaleed bin Talal invests in Lucid Group"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Prince Alwaleed bin Talal",
+        "Lucid Group"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential growth in Saudi Arabia's renewable energy sector",
+      "downside": "Potential risks associated with investing in a new industry",
+      "first_order": "Direct impact on Lucid Group and Saudi Prince Alwaleed bin Talal's investment portfolio",
+      "second_order": "Downstream effects on Saudi Arabia's renewable energy sector and economy",
+      "invalidation": "If the investment in Lucid Group does not lead to increased investment in renewable energy, this signal would be invalidated",
+      "_at": "2026-07-29T23:57:57.835712"
+    },
+    {
+      "statement": "Private equity investment in the Middle East is increasing",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "Brookfield Asset Management's $2 billion Middle East fund",
+      "ksa_grounding": "Increased private equity investment in the Middle East, potentially benefiting Saudi Arabia's economy",
+      "affected_sectors": [
+        "logistics",
+        "infrastructure"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Brookfield raises $2 billion for Middle East fund backed by PIF"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Brookfield Asset Management",
+        "PIF"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential growth in Saudi Arabia's logistics and infrastructure sectors",
+      "downside": "Potential risks associated with investing in a new region",
+      "first_order": "Direct impact on Brookfield Asset Management's investment portfolio and the Middle East's private equity market",
+      "second_order": "Downstream effects on Saudi Arabia's economy and the regional private equity market",
+      "invalidation": "If the $2 billion fund does not lead to increased private equity investment in the Middle East, this signal would be invalidated",
+      "_at": "2026-07-29T23:57:57.835716"
+    },
+    {
       "statement": "Investment in the Middle East is increasing",
       "change_type": "investment",
       "change_vector": "demand_up",
@@ -2369,62 +2454,7 @@
       "second_order": "Support for Saudi Arabia's economic diversification efforts and potential growth in the renewable energy sector",
       "invalidation": "A significant decrease in investment in energy assets by sovereign investors",
       "_at": "2026-06-30T00:00:22.415192"
-    },
-    {
-      "statement": "Risk exposure in the oil and gas sector is rising due to increased geopolitical tensions",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Escalating tensions between Iran and the US-GCC alliance are increasing the likelihood of disruptions to oil supplies",
-      "ksa_grounding": "Saudi Arabia's economy, heavily reliant on oil exports, is vulnerable to disruptions in the Strait of Hormuz and increased tensions in the region",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Iran slams the GCC and the US for \u2018interventionist\u2019 statement",
-        "Iran says it struck U.S.-linked targets as Bahrain reports drone attack"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil prices due to supply disruptions",
-      "downside": "Potential for decreased oil exports and revenue for Saudi Arabia",
-      "first_order": "Direct impact on oil supplies and prices",
-      "second_order": "Downstream effects on the Saudi economy and trade relationships",
-      "invalidation": "A significant and lasting reduction in tensions between Iran and the US-GCC alliance, leading to increased stability in the region",
-      "_at": "2026-06-29T00:04:49.469963"
-    },
-    {
-      "statement": "Supply of oil through the Strait of Hormuz is loosening due to increased tanker traffic",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Increased tanker traffic through the Strait of Hormuz is easing supply worries and reducing the risk of disruptions",
-      "ksa_grounding": "Saudi Arabia's oil exports, which rely heavily on the Strait of Hormuz, may benefit from increased tanker traffic and reduced supply worries",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Oil prices dive as more tankers move through Strait of Hormuz"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil exporters",
-        "tanker operators"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil exports and revenue for Saudi Arabia",
-      "downside": "Potential for decreased oil prices due to increased supply",
-      "first_order": "Direct impact on oil supplies and prices",
-      "second_order": "Downstream effects on the Saudi economy and trade relationships",
-      "invalidation": "A significant reduction in tanker traffic through the Strait of Hormuz, leading to increased supply worries and tensions in the region",
-      "_at": "2026-06-29T00:04:49.469974"
     }
   ],
-  "lastRefresh": "2026-07-28T23:56:06.581738"
+  "lastRefresh": "2026-07-29T23:58:35.460015"
 }
