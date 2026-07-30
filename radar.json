@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia seeks international coalition against Houthis in Red Sea",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-07-29",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "shipping",
+        "energy"
+      ],
+      "summary": "Saudi Arabia is seeking an international coalition to protect shipping in the Red Sea from Houthi attacks. The move comes as oil prices rise due to increased tensions in the region. The Houthis have been targeting Saudi oil tankers in recent weeks.",
+      "why_it_matters": "This development has significant strategic consequences for Saudi Arabia, as it may lead to increased international involvement in the region and potentially escalate tensions with Iran.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-30T23:58:38.867188"
+    },
+    {
+      "title": "US and Saudi Arabia target Iran-aligned militias in Iraq",
+      "source": "BBC News",
+      "source_tier": 1,
+      "time": "2026-07-29",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "The US and Saudi Arabia have carried out joint strikes against Iran-aligned militias in Iraq. The move is seen as an escalation of the conflict between the US and Iran.",
+      "why_it_matters": "This development has significant strategic consequences for Saudi Arabia, as it may lead to increased tensions with Iran and potentially destabilize the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-30T23:58:38.867197"
+    },
+    {
+      "title": "IMF commends Saudi economic resilience",
+      "source": "Ajel.sa",
+      "source_tier": 2,
+      "time": "2026-07-29",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "banking",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "finance"
+      ],
+      "summary": "The IMF has commended Saudi Arabia's economic resilience in its 2026 Article IV report. The report highlights the kingdom's efforts to diversify its economy and reduce its dependence on oil.",
+      "why_it_matters": "This development is significant for Saudi Arabia, as it demonstrates the kingdom's progress in achieving its economic goals and diversifying its economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-30T23:58:38.867200"
+    },
+    {
+      "title": "Saudi Prince Alwaleed takes 5% stake in Lucid",
+      "source": "Electrek",
+      "source_tier": 2,
+      "time": "2026-07-28",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "electric vehicles",
+        "energy"
+      ],
+      "summary": "Saudi Prince Alwaleed has taken a 5% stake in Lucid, a US-based electric vehicle manufacturer. The investment is seen as a vote of confidence in the company's future prospects.",
+      "why_it_matters": "This development is significant for Saudi Arabia, as it demonstrates the kingdom's interest in investing in renewable energy and electric vehicles.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-30T23:58:38.867201"
+    },
+    {
+      "title": "3D Systems' Saudi Arabian joint venture obtains critical military manufacturing license",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-07-29",
+      "event_type": "procurement",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "manufacturing"
+      ],
+      "summary": "3D Systems' Saudi Arabian joint venture has obtained a critical military manufacturing license. The license will enable the company to produce defense hardware for the Saudi military.",
+      "why_it_matters": "This development is significant for Saudi Arabia, as it demonstrates the kingdom's efforts to develop its domestic defense industry and reduce its reliance on foreign manufacturers.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-30T23:58:38.867203"
+    },
+    {
       "title": "OPEC+ to pause oil output hikes after September",
       "source": "Financial Post",
       "source_tier": 2,
@@ -2959,105 +3072,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-01T00:03:19.107630"
-    },
-    {
-      "title": "Helicopter crash kills 14 in Saudi Arabia",
-      "source": "The Punch, Vanguard",
-      "source_tier": 2,
-      "time": "2026-06-28",
-      "event_type": "infrastructure_disruption",
-      "category": "security",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [
-        "eastern_province"
-      ],
-      "affected_domains": [
-        "energy",
-        "transportation"
-      ],
-      "summary": "A helicopter crash in Saudi Arabia has killed 14 Saudi citizens, all Aramco staff. An investigation is underway to determine the cause of the deadly crash. The incident occurred in the energy heartland of Ras Tanura.",
-      "why_it_matters": "The crash highlights the risks associated with the oil and gas industry in Saudi Arabia and may impact the country's energy production and transportation infrastructure. It also underscores the need for improved safety measures to prevent such incidents in the future.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-06-30T00:00:14.806121"
-    },
-    {
-      "title": "Iran mandates designated routes for foreign vessels in Strait of Hormuz",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-06-28",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas",
-        "shipping"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "trade"
-      ],
-      "summary": "Iran has mandated designated routes for foreign vessels in the Strait of Hormuz, which could destabilize global markets and affect oil prices. The move is seen as a response to the US-Iran tensions in the region.",
-      "why_it_matters": "The Iranian move may impact Saudi Arabia's oil exports and the global energy market, as the Strait of Hormuz is a critical waterway for international oil trade. It also highlights the escalating tensions between Iran and the US, which could have broader geopolitical implications for the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-30T00:00:14.806134"
-    },
-    {
-      "title": "Sovereign investors shift focus to energy assets",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-06-28",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "finance"
-      ],
-      "summary": "Sovereign investors with $29 trillion in assets are shifting their focus to energy assets, citing dollar fears and a desire for sustainable investments. The move is seen as a strategic shift towards reducing reliance on volatile currencies.",
-      "why_it_matters": "The shift in focus by sovereign investors may impact Saudi Arabia's energy sector, as the country seeks to diversify its economy and invest in renewable energy sources. It also highlights the growing trend towards sustainable investments and the need for Saudi Arabia to adapt to changing global market dynamics.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-30T00:00:14.806136"
-    },
-    {
-      "title": "US and Iran agree to halt attacks",
-      "source": "Financial Post",
-      "source_tier": 2,
-      "time": "2026-06-28",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "security"
-      ],
-      "summary": "The US and Iran have agreed to halt attacks, following a flare-up in tensions that saw a supertanker carrying Qatari crude hit near the Strait of Hormuz. The agreement is seen as a temporary reprieve from the escalating tensions in the region.",
-      "why_it_matters": "The agreement between the US and Iran may impact Saudi Arabia's oil exports and the global energy market, as the region is critical for international oil trade. It also highlights the complex geopolitical dynamics at play in the region and the need for Saudi Arabia to navigate these tensions carefully.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-06-30T00:00:14.806138"
     }
   ],
-  "lastRefresh": "2026-07-29T23:58:35.456868",
+  "lastRefresh": "2026-07-30T23:59:53.977412",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 32,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,

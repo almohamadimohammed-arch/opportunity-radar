@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "title": "Insurance and Risk Management for Oil Tankers",
+      "play_type": "business_play",
+      "actor": "Insurance Companies and Risk Management Firms",
+      "customer": "Saudi Oil Tanker Operators and International Oil Traders",
+      "problem": "Increased risk exposure to Saudi Arabia's oil tankers due to Houthi attacks in the Red Sea",
+      "action_path": "Offer specialized insurance products and risk management services to Saudi oil tanker operators and international oil traders. Develop tailored policies to cover the increased risk of damage or loss of cargo. Provide risk assessment and mitigation services to help clients reduce their exposure to Houthi attacks.",
+      "entry_mode": "build",
+      "monetization": "Premiums from insurance policies, fees from risk management services",
+      "capabilities": "Specialized insurance products, risk management services, risk assessment and mitigation expertise",
+      "barriers": "High costs of developing specialized insurance products, potential difficulty in assessing and mitigating the risk of Houthi attacks",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure to Saudi Arabia's oil tankers has increased"
+      ],
+      "sector": "insurance",
+      "relevant_sectors": [
+        "oil_gas",
+        "insurance"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi Arabia's insurance industry, which can provide specialized products and services to mitigate the risk of Houthi attacks",
+      "assumptions": "The demand for specialized insurance products and risk management services will increase due to the heightened risk of Houthi attacks",
+      "invalidation": "If the Houthi attacks cease or the international coalition is successful in protecting Saudi oil tankers, reducing the demand for specialized insurance products and risk management services",
+      "_at": "2026-07-30T23:59:53.977263"
+    },
+    {
+      "title": "International Cooperation to Protect Oil Tankers",
+      "play_type": "policy_play",
+      "actor": "Saudi Government and International Partners",
+      "customer": "Saudi Oil Tanker Operators and International Oil Traders",
+      "problem": "Increased risk exposure to Saudi Arabia's oil tankers due to Houthi attacks in the Red Sea",
+      "action_path": "Establish international cooperation to protect oil tankers from Houthi attacks. Collaborate with regional and global partners to share intelligence, coordinate naval operations, and develop common standards for maritime security. Engage in diplomatic efforts to pressure the Houthi militia to cease attacks on oil tankers.",
+      "entry_mode": "partner",
+      "monetization": "Reduced risk of damage or loss of cargo, protection of global oil supplies, and maintenance of Saudi Arabia's oil export revenue",
+      "capabilities": "Diplomatic relations, international cooperation, naval operations, intelligence sharing",
+      "barriers": "Potential diplomatic challenges with international partners, difficulty in coordinating naval operations",
+      "timing": "enter now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure to Saudi Arabia's oil tankers has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "red_sea"
+      ],
+      "ksa_grounding": "This play connects to Saudi Arabia's oil export industry, which is critical to the kingdom's economy",
+      "assumptions": "The international community will support Saudi Arabia's efforts to protect its oil tankers, and the Houthi militia will be pressured to cease attacks",
+      "invalidation": "If the international community does not support Saudi Arabia's efforts, or the Houthi militia continues to attack oil tankers despite international pressure",
+      "_at": "2026-07-30T23:59:53.977279"
+    },
+    {
       "title": "Diversification of Energy Portfolio",
       "play_type": "business_play",
       "actor": "Saudi energy companies",
@@ -2044,101 +2103,7 @@
       "assumptions": "Energy demand will continue to grow, and regulatory frameworks will support investment in energy infrastructure",
       "invalidation": "A significant decrease in energy demand or a shift away from oil and gas would invalidate this play",
       "_at": "2026-07-01T00:04:04.166391"
-    },
-    {
-      "title": "Saudi Energy Sector Investment",
-      "play_type": "business_play",
-      "actor": "Sovereign investors, energy companies",
-      "customer": "Saudi Arabia's energy sector",
-      "problem": "Risk exposure in the oil and gas sector is decreasing, making investment in energy assets more attractive",
-      "action_path": "Invest in Saudi Arabia's energy sector, including oil and gas, to support the country's economic diversification efforts. This can be achieved through partnerships with local energy companies or direct investment in energy assets. By doing so, investors can capitalize on the growing demand for sustainable investments and reduced reliance on volatile currencies.",
-      "entry_mode": "invest",
-      "monetization": "Returns on investment, diversification of portfolio",
-      "capabilities": "Financial resources, energy sector expertise",
-      "barriers": "Geopolitical risks, regulatory hurdles",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Risk exposure in the oil and gas sector is decreasing",
-        "Investment in energy assets is becoming more attractive"
-      ],
-      "sector": "energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, may attract more investment from sovereign investors, supporting the country's economic diversification efforts",
-      "assumptions": "Geopolitical tensions will continue to ease, sovereign investors will maintain their focus on sustainable investments",
-      "invalidation": "A significant increase in attacks on oil tankers or infrastructure in the region, a decrease in investment in energy assets by sovereign investors",
-      "_at": "2026-06-30T00:00:30.318411"
-    },
-    {
-      "title": "Energy Asset Development",
-      "play_type": "infrastructure_play",
-      "actor": "Energy companies, construction firms",
-      "customer": "Saudi Arabia's energy sector",
-      "problem": "Investment in energy assets is becoming more attractive, creating opportunities for development of new energy infrastructure",
-      "action_path": "Develop new energy infrastructure, such as oil and gas facilities, renewable energy plants, and energy storage systems, to support the growing demand for energy in Saudi Arabia. This can be achieved through partnerships with local energy companies, construction firms, and government agencies. By doing so, developers can capitalize on the increasing investment in energy assets and support the country's economic diversification efforts.",
-      "entry_mode": "build",
-      "monetization": "Returns on investment, contracts for construction and maintenance services",
-      "capabilities": "Energy sector expertise, construction capabilities, financial resources",
-      "barriers": "Regulatory hurdles, competition from established players",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Investment in energy assets is becoming more attractive"
-      ],
-      "sector": "energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, may attract more investment from sovereign investors, supporting the country's economic diversification efforts",
-      "assumptions": "Sovereign investors will maintain their focus on sustainable investments, energy demand in Saudi Arabia will continue to grow",
-      "invalidation": "A significant decrease in investment in energy assets by sovereign investors, a decline in energy demand in Saudi Arabia",
-      "_at": "2026-06-30T00:00:30.318423"
-    },
-    {
-      "title": "Energy Sector Risk Management",
-      "play_type": "defensive_play",
-      "actor": "Energy companies, risk management firms",
-      "customer": "Saudi Arabia's energy sector",
-      "problem": "Risk exposure in the oil and gas sector is decreasing, but still exists, creating a need for effective risk management strategies",
-      "action_path": "Develop and implement effective risk management strategies to mitigate potential risks in the energy sector, such as cyber attacks, supply chain disruptions, and geopolitical tensions. This can be achieved through partnerships with risk management firms, insurance companies, and government agencies. By doing so, energy companies can protect their assets and ensure stable operations.",
-      "entry_mode": "partner",
-      "monetization": "Risk management services, insurance premiums",
-      "capabilities": "Risk management expertise, energy sector knowledge, financial resources",
-      "barriers": "Competition from established players, regulatory hurdles",
-      "timing": "monitor only",
-      "action_posture": "Monitor",
-      "linked_signals": [
-        "Risk exposure in the oil and gas sector is decreasing"
-      ],
-      "sector": "energy",
-      "relevant_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah",
-        "eastern_province"
-      ],
-      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, is less likely to be disrupted by regional conflicts, ensuring a stable supply of energy exports",
-      "assumptions": "Geopolitical tensions will continue to ease, energy companies will prioritize risk management",
-      "invalidation": "A significant increase in attacks on oil tankers or infrastructure in the region, a decline in energy demand in Saudi Arabia",
-      "_at": "2026-06-30T00:00:30.318427"
     }
   ],
-  "lastRefresh": "2026-07-29T23:58:35.462359"
+  "lastRefresh": "2026-07-30T23:59:53.982458"
 }

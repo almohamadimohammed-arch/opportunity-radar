@@ -1,6 +1,89 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to foreign investment in Saudi Arabia's defense sector has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Obtaining a critical military manufacturing license enables foreign companies to produce defense hardware for the Saudi military, indicating a reduction in regulatory barriers",
+      "ksa_grounding": "This change allows foreign companies to participate in Saudi Arabia's defense sector, potentially increasing investment and job creation in the kingdom",
+      "affected_sectors": [
+        "mining",
+        "defense"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "3D Systems' Saudi Arabian joint venture obtains critical military manufacturing license"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "foreign investors",
+        "Saudi military"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment in Saudi Arabia's defense sector",
+      "downside": "Potential loss of domestic control over defense production",
+      "first_order": "Increased foreign investment in Saudi Arabia's defense sector",
+      "second_order": "Potential creation of new jobs and stimulation of local economy",
+      "invalidation": "If the Saudi government revokes the license or imposes new restrictions on foreign investment in the defense sector",
+      "_at": "2026-07-30T23:59:16.087076"
+    },
+    {
+      "statement": "Risk exposure to Saudi Arabia's oil tankers has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Houthi attacks on Saudi oil tankers in the Red Sea increase the risk of damage or loss of cargo, and potentially disrupt global oil supplies",
+      "ksa_grounding": "This change affects Saudi Arabia's oil exports, which are a critical component of the kingdom's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Saudi Arabia seeks international coalition against Houthis in Red Sea",
+        "US and Saudi Arabia target Iran-aligned militias in Iraq"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "oil tanker operators"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential disruption to global oil supplies and damage to Saudi Arabia's economy",
+      "first_order": "Increased risk of damage or loss of cargo",
+      "second_order": "Potential increase in insurance premiums and costs for oil tanker operators",
+      "invalidation": "If the Houthi attacks cease or the international coalition is successful in protecting Saudi oil tankers",
+      "_at": "2026-07-30T23:59:16.087086"
+    },
+    {
+      "statement": "Investor confidence in Saudi Arabia's economic resilience has increased",
+      "change_type": "trust",
+      "change_vector": "trust_rising",
+      "mechanism": "The IMF's commendation of Saudi Arabia's economic resilience in its 2026 Article IV report increases investor confidence in the kingdom's economy",
+      "ksa_grounding": "This change affects Saudi Arabia's ability to attract foreign investment and stimulate economic growth",
+      "affected_sectors": [
+        "banking",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "IMF commends Saudi economic resilience"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "foreign investors",
+        "Saudi government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment in Saudi Arabia",
+      "downside": "Potential overconfidence in Saudi Arabia's economic resilience",
+      "first_order": "Increased investor confidence in Saudi Arabia's economy",
+      "second_order": "Potential increase in foreign investment and economic growth",
+      "invalidation": "If the IMF revises its assessment of Saudi Arabia's economic resilience or if the kingdom's economy experiences a significant downturn",
+      "_at": "2026-07-30T23:59:16.087088"
+    },
+    {
       "statement": "Regulatory barrier to oil production has tightened",
       "change_type": "regulation",
       "change_vector": "regulation_tightening",
@@ -2398,63 +2481,7 @@
       "second_order": "Downstream effects on Saudi Arabia's economy and labor market",
       "invalidation": "A significant decrease in tourism and hospitality investment would invalidate this signal",
       "_at": "2026-07-01T00:03:56.563918"
-    },
-    {
-      "statement": "Risk exposure in the oil and gas sector is decreasing",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_falling",
-      "mechanism": "Geopolitical tensions easing between the US and Iran, reducing the likelihood of attacks on oil tankers and infrastructure",
-      "ksa_grounding": "Saudi Arabia's oil and gas sector is less likely to be disrupted by regional conflicts, ensuring a stable supply of energy exports",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "US and Iran agree to halt attacks",
-        "Iran mandates designated routes for foreign vessels in Strait of Hormuz"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Aramco",
-        "foreign vessels"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased stability in the region, potentially leading to higher oil exports and revenue for Saudi Arabia",
-      "downside": "Temporary agreement may not hold, leading to renewed tensions and risk exposure",
-      "first_order": "Direct reduction in risk of attacks on oil infrastructure",
-      "second_order": "Increased investor confidence in the region, potentially leading to more investment in the oil and gas sector",
-      "invalidation": "A significant increase in attacks on oil tankers or infrastructure in the region",
-      "_at": "2026-06-30T00:00:22.415179"
-    },
-    {
-      "statement": "Investment in energy assets is becoming more attractive",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Sovereign investors shifting focus to energy assets, driven by a desire for sustainable investments and reduced reliance on volatile currencies",
-      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, may attract more investment from sovereign investors, supporting the country's economic diversification efforts",
-      "affected_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Sovereign investors shift focus to energy assets",
-        "US and Iran agree to halt attacks"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Sovereign investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment in the energy sector, supporting Saudi Arabia's economic growth and diversification",
-      "downside": "Investment may focus on renewable energy, potentially cannibalizing investment in traditional oil and gas",
-      "first_order": "Increased investment in energy assets",
-      "second_order": "Support for Saudi Arabia's economic diversification efforts and potential growth in the renewable energy sector",
-      "invalidation": "A significant decrease in investment in energy assets by sovereign investors",
-      "_at": "2026-06-30T00:00:22.415192"
     }
   ],
-  "lastRefresh": "2026-07-29T23:58:35.460015"
+  "lastRefresh": "2026-07-30T23:59:53.980277"
 }
