@@ -1,6 +1,87 @@
 {
   "items": [
     {
+      "statement": "Energy security concerns have increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical tensions and attacks on energy infrastructure have heightened fears of supply disruptions",
+      "ksa_grounding": "Saudi Arabia's economy, heavily reliant on oil and gas exports, is vulnerable to energy security risks, potentially impacting government revenue and economic stability",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Saudi Arabia forms a coalition to protect the Red Sea",
+        "Drone strike damages gas tankers near Suez Canal",
+        "Houthis attack Saudi Arabia from Iraq, prompting US-Saudi airstrikes"
+      ],
+      "evidence_strength": "strong",
+      "affected_actors": [
+        "Saudi government",
+        "energy companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased cooperation and investment in energy security measures",
+      "downside": "Potential supply disruptions and economic losses",
+      "first_order": "Direct impact on energy exports and government revenue",
+      "second_order": "Downstream effects on related industries, such as petrochemicals and manufacturing",
+      "invalidation": "A significant and sustained reduction in geopolitical tensions and attacks on energy infrastructure",
+      "_at": "2026-07-31T23:58:54.404055"
+    },
+    {
+      "statement": "Government finances have improved",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "Higher oil prices have increased government revenue, reducing the fiscal deficit",
+      "ksa_grounding": "The improved fiscal situation can enable the Saudi government to increase spending on priority areas, such as economic diversification and infrastructure development",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia's fiscal deficit narrows 75% as oil prices spike"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi government"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased government spending on priority areas",
+      "downside": "Dependence on volatile oil prices, potentially leading to future fiscal instability",
+      "first_order": "Direct impact on government finances",
+      "second_order": "Downstream effects on related industries and the broader economy",
+      "invalidation": "A significant and sustained decline in oil prices, leading to a widening of the fiscal deficit",
+      "_at": "2026-07-31T23:58:54.404064"
+    },
+    {
+      "statement": "Investment in AI infrastructure is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Partnerships between local and international companies are driving investment in AI infrastructure",
+      "ksa_grounding": "The development of AI infrastructure can support the growth of key sectors, such as fintech and technology, in Saudi Arabia",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Napster, DETASAD, and Lenovo partner to deliver sovereign AI infrastructure in Saudi Arabia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "local and international companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased adoption of AI solutions, driving innovation and growth",
+      "downside": "Potential challenges in developing and deploying AI infrastructure",
+      "first_order": "Direct impact on AI infrastructure development",
+      "second_order": "Downstream effects on related industries and the broader economy",
+      "invalidation": "A lack of follow-through on investment and development of AI infrastructure",
+      "_at": "2026-07-31T23:58:54.404066"
+    },
+    {
       "statement": "Regulatory barrier to foreign investment in Saudi Arabia's defense sector has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2395,93 +2476,7 @@
       "second_order": "Indirect impact on Saudi Arabia's economy and trade relationships",
       "invalidation": "A significant increase in demand for Middle East oil or a failure of India's plans to reduce reliance on Middle East oil",
       "_at": "2026-07-02T00:05:00.779337"
-    },
-    {
-      "statement": "Risk exposure in the oil and gas sector is rising due to persistent supply risks",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Increased supply risks, particularly in the Strait of Hormuz, are driving up risk exposure in the oil and gas sector",
-      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, making it vulnerable to supply disruptions and price volatility",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Oil prices near pre-war levels due to persistent supply risks",
-        "Sovereign investors shift focus to energy assets"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil and gas companies",
-        "Saudi government"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased investment in renewable energy sources to mitigate risk",
-      "downside": "Potential for decreased oil exports and revenue for Saudi Arabia",
-      "first_order": "Direct impact on oil prices and supply",
-      "second_order": "Downstream effects on Saudi Arabia's economy and trade relationships",
-      "invalidation": "A significant decrease in supply risks or a shift away from oil and gas would invalidate this signal",
-      "_at": "2026-07-01T00:03:56.563906"
-    },
-    {
-      "statement": "Investment in energy assets is increasing, driven by sovereign investors",
-      "change_type": "investment",
-      "change_vector": "demand_up",
-      "mechanism": "Sovereign investors are shifting their focus to energy assets, driving up demand for investments in the sector",
-      "ksa_grounding": "Saudi Arabia's energy sector, including oil and gas, is likely to attract increased investment from sovereign investors",
-      "affected_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Sovereign investors shift focus to energy assets",
-        "Oil prices near pre-war levels due to persistent supply risks"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "sovereign investors",
-        "energy companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased investment in Saudi Arabia's energy sector",
-      "downside": "Potential for over-reliance on volatile energy markets",
-      "first_order": "Direct impact on energy investment",
-      "second_order": "Downstream effects on Saudi Arabia's economy and energy landscape",
-      "invalidation": "A significant decrease in sovereign investor interest in energy assets would invalidate this signal",
-      "_at": "2026-07-01T00:03:56.563917"
-    },
-    {
-      "statement": "Tourism and hospitality sectors are experiencing increased investment and growth",
-      "change_type": "investment",
-      "change_vector": "demand_up",
-      "mechanism": "International companies, such as Marriott International, are investing in Saudi Arabia's tourism and hospitality sectors",
-      "ksa_grounding": "Saudi Arabia's tourism and hospitality sectors are expected to experience significant growth, driven by government initiatives and international investment",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "red_sea"
-      ],
-      "evidence": [
-        "Marriott International appoints Cluster Director of Sales & Marketing for The Red Sea and AMAALA Portfolio"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "tourism and hospitality companies",
-        "Saudi government"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased tourism revenue and job creation",
-      "downside": "Potential for over-reliance on tourism sector",
-      "first_order": "Direct impact on tourism and hospitality investment",
-      "second_order": "Downstream effects on Saudi Arabia's economy and labor market",
-      "invalidation": "A significant decrease in tourism and hospitality investment would invalidate this signal",
-      "_at": "2026-07-01T00:03:56.563918"
     }
   ],
-  "lastRefresh": "2026-07-30T23:59:53.980277"
+  "lastRefresh": "2026-07-31T23:59:32.010795"
 }

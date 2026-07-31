@@ -1,6 +1,118 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia forms a coalition to protect the Red Sea",
+      "source": "Al Jazeera English, Biztoc.com",
+      "source_tier": "T1",
+      "time": "2026-07-30",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "shipping",
+        "trade"
+      ],
+      "summary": "Saudi Arabia is forming a coalition to protect the Red Sea from attacks by Iran-backed Houthis in Yemen. The alliance aims to defend shipping and secure vital trade and energy routes. Fourteen nations have signed up to the alliance.",
+      "why_it_matters": "This move has significant strategic consequences for Saudi Arabia, as it aims to secure its vital trade and energy routes and protect its interests in the region.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-07-31T23:58:16.736821"
+    },
+    {
+      "title": "Saudi Arabia's fiscal deficit narrows 75% as oil prices spike",
+      "source": "Crypto Briefing",
+      "source_tier": "T2",
+      "time": "2026-07-30",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy"
+      ],
+      "summary": "Saudi Arabia's fiscal deficit has narrowed by 75% due to the spike in oil prices caused by the war with Iran. The country's reliance on volatile oil prices underscores the need for economic diversification.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia's economy and its ability to achieve its Vision 2030 goals, which include diversifying its economy and reducing its reliance on oil exports.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-31T23:58:16.736832"
+    },
+    {
+      "title": "Napster, DETASAD, and Lenovo partner to deliver sovereign AI infrastructure in Saudi Arabia",
+      "source": "GlobeNewswire",
+      "source_tier": "T2",
+      "time": "2026-07-30",
+      "event_type": "partnership",
+      "category": "technology",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "AI",
+        "infrastructure"
+      ],
+      "summary": "Napster, DETASAD, and Lenovo have partnered to deliver sovereign AI infrastructure in Saudi Arabia, supporting local deployment and development of AI solutions.",
+      "why_it_matters": "This partnership has significant strategic consequences for Saudi Arabia, as it aims to develop its AI capabilities and support the growth of its technology sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-31T23:58:16.736834"
+    },
+    {
+      "title": "Drone strike damages gas tankers near Suez Canal",
+      "source": "Crypto Briefing",
+      "source_tier": "T2",
+      "time": "2026-07-30",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "shipping"
+      ],
+      "summary": "A drone strike has damaged gas tankers near the Suez Canal, heightening energy security fears and potentially escalating geopolitical tensions.",
+      "why_it_matters": "This incident has significant implications for global energy security and the stability of the region, and may impact Saudi Arabia's oil exports and energy sector.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-31T23:58:16.736835"
+    },
+    {
+      "title": "Houthis attack Saudi Arabia from Iraq, prompting US-Saudi airstrikes",
+      "source": "Crypto Briefing",
+      "source_tier": "T2",
+      "time": "2026-07-30",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "security",
+        "defense"
+      ],
+      "summary": "The Houthis have attacked Saudi Arabia from Iraq, prompting US-Saudi airstrikes and escalating regional tensions.",
+      "why_it_matters": "This development has significant strategic consequences for Saudi Arabia, as it aims to protect its territory and interests in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-07-31T23:58:16.736837"
+    },
+    {
       "title": "Saudi Arabia seeks international coalition against Houthis in Red Sea",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -2982,111 +3094,21 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-02T00:04:23.290772"
-    },
-    {
-      "title": "Oil prices near pre-war levels due to persistent supply risks",
-      "source": "CNBC",
-      "source_tier": 1,
-      "time": "2026-06-29",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "Oil prices are near pre-war levels due to persistent supply risks, particularly in the Strait of Hormuz. Iranian leverage in the region continues to weigh on oil markets and shipping costs. Middle East producers are pushing ahead with oil and LNG loadings despite fresh ship attacks.",
-      "why_it_matters": "This development has significant implications for Saudi Arabia's oil exports and the overall energy market, potentially impacting the country's economy and Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-01T00:03:19.107615"
-    },
-    {
-      "title": "Marriott International appoints Cluster Director of Sales & Marketing for The Red Sea and AMAALA Portfolio",
-      "source": "Saudia-daily.com",
-      "source_tier": 2,
-      "time": "2026-06-29",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism",
-        "hospitality"
-      ],
-      "region_tags": [
-        "red_sea"
-      ],
-      "affected_domains": [
-        "tourism",
-        "hospitality"
-      ],
-      "summary": "Marriott International has appointed a Cluster Director of Sales & Marketing for The Red Sea and AMAALA Portfolio, strengthening its leadership team to support growth in Saudi Arabia's luxury tourism sector.",
-      "why_it_matters": "This appointment reflects the growing importance of the Red Sea and AMAALA regions in Saudi Arabia's tourism strategy and may contribute to the country's efforts to diversify its economy and achieve Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-01T00:03:19.107627"
-    },
-    {
-      "title": "India's free trade talks with Israel and the GCC are temporarily stalled",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-06-29",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "trade"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "trade",
-        "economy"
-      ],
-      "summary": "India's free trade talks with Israel and the GCC are temporarily stalled due to the West Asia crisis. Discussions with Canada are progressing rapidly, according to Commerce Minister Piyush Goyal.",
-      "why_it_matters": "This development may impact Saudi Arabia's trade relationships and economic partnerships, particularly in the context of the GCC and regional geopolitical dynamics.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-01T00:03:19.107628"
-    },
-    {
-      "title": "Pentagon plans to relocate Gulf bases further from Iran",
-      "source": "Naturalnews.com",
-      "source_tier": 2,
-      "time": "2026-06-29",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "defense"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "defense",
-        "security"
-      ],
-      "summary": "The Pentagon is considering moving several major military installations in the Persian Gulf region to locations farther from Iran's border, according to a report.",
-      "why_it_matters": "This development may have significant implications for regional security and the balance of power in the Middle East, potentially affecting Saudi Arabia's defense and security strategies.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-01T00:03:19.107630"
     }
   ],
-  "lastRefresh": "2026-07-30T23:59:53.977412",
+  "lastRefresh": "2026-07-31T23:59:32.007963",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
+    "articles_to_model": 35,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
-    "signals_strong": 0,
-    "signals_moderate": 1,
+    "signals_strong": 1,
+    "signals_moderate": 0,
     "signals_ksa_grounded": 3,
     "plays_generated": 3,
     "plays_ksa_grounded": 3
