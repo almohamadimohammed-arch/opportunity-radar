@@ -1,6 +1,87 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to foreign investment in the entertainment sector has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The EU's approval of the Saudi-led buyout of EA under its Foreign Subsidies Regulation indicates a more open regulatory environment for foreign investment in the entertainment sector.",
+      "ksa_grounding": "This change can attract more foreign investment to Saudi Arabia's entertainment sector, contributing to the country's economic diversification efforts.",
+      "affected_sectors": [
+        "entertainment"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "EU approves $55 billion Saudi-led buyout of EA"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Foreign investors",
+        "Saudi entertainment companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment in the entertainment sector",
+      "downside": "Potential cultural or economic risks associated with foreign ownership",
+      "first_order": "Direct foreign investment in the entertainment sector",
+      "second_order": "Potential expansion of the entertainment sector, contributing to economic diversification",
+      "invalidation": "If the EU reverses its approval or imposes significant conditions on the deal, it would prove this signal wrong.",
+      "_at": "2026-08-01T23:54:06.278866"
+    },
+    {
+      "statement": "Risk exposure to disruptions in oil supply and shipping has decreased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "The formation of a coalition to protect the Red Sea and the establishment of a multinational maritime defense coalition reduce the risk of disruptions to oil supply and shipping.",
+      "ksa_grounding": "This change can increase the stability of Saudi Arabia's oil exports, contributing to the country's economic stability.",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Saudi Arabia forms coalition to protect the Red Sea",
+        "Saudi Arabia and 13 countries establish multinational maritime defense coalition"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi oil exporters",
+        "International shipping companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased stability of oil exports",
+      "downside": "Potential costs associated with maintaining the coalition",
+      "first_order": "Reduced risk of disruptions to oil supply and shipping",
+      "second_order": "Potential increase in oil exports and revenue for Saudi Arabia",
+      "invalidation": "If the coalition fails to prevent disruptions or if new security threats emerge, it would prove this signal wrong.",
+      "_at": "2026-08-01T23:54:06.278875"
+    },
+    {
+      "statement": "Government revenue has increased due to higher oil prices",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "The spike in oil prices has boosted Saudi Arabia's revenue, narrowing its fiscal deficit.",
+      "ksa_grounding": "This change can provide the Saudi government with more fiscal space to invest in economic development projects.",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia's fiscal deficit narrows 75% as oil prices spike"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi government",
+        "Saudi oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased government revenue",
+      "downside": "Potential volatility of oil prices and reliance on a single revenue source",
+      "first_order": "Direct increase in government revenue",
+      "second_order": "Potential increase in government spending on economic development projects",
+      "invalidation": "If oil prices drop significantly, it would prove this signal wrong.",
+      "_at": "2026-08-01T23:54:06.278877"
+    },
+    {
       "statement": "Energy security concerns have increased",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2391,92 +2472,7 @@
       "second_order": "Growth of new industries and job creation",
       "invalidation": "If the investment in Saudi Arabia does not lead to significant economic growth",
       "_at": "2026-07-03T00:02:56.570394"
-    },
-    {
-      "statement": "Risk exposure to oil price volatility is rising",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Increased supply risks and geopolitical tensions are contributing to oil price volatility",
-      "ksa_grounding": "Saudi Arabia's oil revenue and economy are exposed to the risks of oil price fluctuations",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Oil prices near pre-war levels due to persistent supply risks",
-        "Morgan Stanley cuts oil price forecasts amid supply and demand shifts"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "oil exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil prices and revenue",
-      "downside": "Potential for decreased oil prices and revenue",
-      "first_order": "Direct impact on oil exports and revenue",
-      "second_order": "Indirect impact on Saudi Arabia's economy and Vision 2030 projects",
-      "invalidation": "A significant decrease in oil price volatility or a shift away from oil as a primary source of revenue",
-      "_at": "2026-07-02T00:05:00.779322"
-    },
-    {
-      "statement": "Supply risks in the oil market are increasing",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "Persistent supply risks, particularly in the Strait of Hormuz, are affecting oil markets",
-      "ksa_grounding": "Saudi Arabia's oil exports are at risk due to supply disruptions in the region",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Oil prices near pre-war levels due to persistent supply risks",
-        "Middle East producers continue oil and LNG loadings despite ship attacks"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "shipping companies"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil prices and revenue",
-      "downside": "Potential for decreased oil exports and revenue",
-      "first_order": "Direct impact on oil exports and supply chains",
-      "second_order": "Indirect impact on Saudi Arabia's economy and trade relationships",
-      "invalidation": "A significant reduction in supply risks or a diversification of oil export routes",
-      "_at": "2026-07-02T00:05:00.779334"
-    },
-    {
-      "statement": "Demand for Middle East oil is decreasing",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "India's plans to reduce reliance on Middle East oil are contributing to decreased demand",
-      "ksa_grounding": "Saudi Arabia's oil exports to India may be impacted, affecting overall market share in the region",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "India plans to cut reliance on Middle East oil",
-        "Morgan Stanley cuts oil price forecasts amid supply and demand shifts"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil exporters",
-        "importers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for increased demand from other regions or diversification of oil exports",
-      "downside": "Potential for decreased oil exports and revenue",
-      "first_order": "Direct impact on oil exports and revenue",
-      "second_order": "Indirect impact on Saudi Arabia's economy and trade relationships",
-      "invalidation": "A significant increase in demand for Middle East oil or a failure of India's plans to reduce reliance on Middle East oil",
-      "_at": "2026-07-02T00:05:00.779337"
     }
   ],
-  "lastRefresh": "2026-07-31T23:59:32.010795"
+  "lastRefresh": "2026-08-01T23:54:43.768573"
 }
