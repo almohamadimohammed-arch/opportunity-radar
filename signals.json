@@ -1,6 +1,61 @@
 {
   "items": [
     {
+      "statement": "Fiscal deficit has decreased due to increased oil prices",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "The spike in oil prices caused by the US-Iran conflict has increased Saudi Arabia's oil revenue, narrowing its fiscal deficit",
+      "ksa_grounding": "The decrease in fiscal deficit will give the Saudi government more room to invest in its economic diversification and development plans",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia's fiscal deficit narrows 75% as oil prices spike"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi government",
+        "oil producers"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased government revenue and reduced fiscal deficit",
+      "downside": "Dependence on volatile oil prices and potential for future deficits",
+      "first_order": "Direct impact on government finances",
+      "second_order": "Downstream effects on government spending and economic development",
+      "invalidation": "A significant decrease in oil prices, or a failure to maintain fiscal discipline",
+      "_at": "2026-08-02T23:55:15.418143"
+    },
+    {
+      "statement": "Investment in digital infrastructure is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Partnerships between international companies and Saudi entities are driving investment in digital infrastructure, supporting the country's economic diversification goals",
+      "ksa_grounding": "The development of digital infrastructure will support the growth of Saudi Arabia's technology and fintech sectors, and contribute to its economic diversification",
+      "affected_sectors": [
+        "fintech",
+        "technology"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Napster, DETASAD, and Lenovo partner to deliver sovereign AI infrastructure in Saudi Arabia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "tech companies",
+        "fintech startups"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for growth in the tech and fintech sectors, and increased economic diversification",
+      "downside": "Potential for dependence on foreign technology and expertise",
+      "first_order": "Direct impact on digital infrastructure development",
+      "second_order": "Downstream effects on the growth of the tech and fintech sectors",
+      "invalidation": "A failure to deliver on the partnership's promises, or a lack of demand for digital infrastructure in Saudi Arabia",
+      "_at": "2026-08-02T23:55:15.418152"
+    },
+    {
       "statement": "Regulatory barrier to foreign investment in the entertainment sector has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2418,61 +2473,7 @@
       "second_order": "Growth and development of the fintech sector, leading to increased economic activity",
       "invalidation": "A significant decline in investment in fintech in the next 2 years",
       "_at": "2026-07-04T00:02:09.282499"
-    },
-    {
-      "statement": "Investment in AI technologies is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Large investments in AI funds, such as the $49 billion AI fund raised by MGX, are expected to boost the development of AI technologies in the region",
-      "ksa_grounding": "This increase in AI investment can lead to the development of new technologies and industries in Saudi Arabia, contributing to the country's economic diversification and growth",
-      "affected_sectors": [
-        "fintech",
-        "technology"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "UAE's MGX raises $49 billion AI fund"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "investors",
-        "tech companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for new technologies and industries to emerge",
-      "downside": "Risk of over-investment in AI technologies",
-      "first_order": "Direct investment in AI technologies",
-      "second_order": "Growth of new industries and job creation",
-      "invalidation": "If the investment in AI technologies does not lead to significant innovation or growth",
-      "_at": "2026-07-03T00:02:56.570384"
-    },
-    {
-      "statement": "Investment in Saudi Arabia is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "The Public Investment Fund (PIF) of Saudi Arabia has seen its assets increase by 5% to $1.21 trillion, indicating a growth in investment in the country",
-      "ksa_grounding": "The growth in investment can lead to the development of new industries and sectors in Saudi Arabia, contributing to the country's economic diversification and growth",
-      "affected_sectors": [
-        "capital_markets",
-        "fintech"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "PIF assets rise 5% to $1.21 trillion"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "investors",
-        "companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for new industries and sectors to emerge",
-      "downside": "Risk of over-investment in certain sectors",
-      "first_order": "Direct investment in Saudi Arabia",
-      "second_order": "Growth of new industries and job creation",
-      "invalidation": "If the investment in Saudi Arabia does not lead to significant economic growth",
-      "_at": "2026-07-03T00:02:56.570394"
     }
   ],
-  "lastRefresh": "2026-08-01T23:54:43.768573"
+  "lastRefresh": "2026-08-02T23:55:53.239768"
 }
