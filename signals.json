@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "statement": "Geopolitical tensions in the region are decreasing",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "Cancellation of planned strikes against Iran and announcement of new talks",
+      "ksa_grounding": "Reduced tensions may lead to increased stability and security in the region, benefiting Saudi Arabia's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Trump cancels Iran strikes, announces new round of talks",
+        "OPEC+ agrees to increase oil production by 188,000 barrels per day from September"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "governments",
+        "oil producers"
+      ],
+      "time_horizon": "now",
+      "upside": "potential increase in regional stability",
+      "downside": "potential resurgence of tensions",
+      "first_order": "reduced risk of conflict",
+      "second_order": "potential impact on global oil prices and supply",
+      "invalidation": "if tensions between the US and Iran escalate again",
+      "_at": "2026-08-04T00:04:41.061280"
+    },
+    {
+      "statement": "Investment in Saudi Arabia's tourism and hospitality sectors is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "Construction of Jeddah Tower and other tourism-related projects",
+      "ksa_grounding": "Increased investment in tourism and hospitality may attract more visitors and boost Saudi Arabia's economy",
+      "affected_sectors": [
+        "tourism",
+        "hospitality"
+      ],
+      "affected_regions": [
+        "jeddah"
+      ],
+      "evidence": [
+        "Jeddah Tower construction surpasses 430-meter milestone"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "investors",
+        "tourists"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential increase in tourism revenue",
+      "downside": "potential oversaturation of the market",
+      "first_order": "increased investment in tourism infrastructure",
+      "second_order": "potential impact on Saudi Arabia's economy",
+      "invalidation": "if the construction of Jeddah Tower is delayed or cancelled",
+      "_at": "2026-08-04T00:04:41.061291"
+    },
+    {
       "statement": "Fiscal deficit has decreased due to increased oil prices",
       "change_type": "cost",
       "change_vector": "cost_falling",
@@ -2267,213 +2325,7 @@
       "second_order": "Humanitarian and economic impacts",
       "invalidation": "Evidence of a peaceful resolution to the conflict, or a decline in tensions",
       "_at": "2026-07-06T00:03:07.326599"
-    },
-    {
-      "statement": "Investment in AI and technology is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Abu Dhabi's $49 billion AI fund and rival sovereign funds' investments in AI technologies and companies",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from the increased investment in AI and technology, potentially leading to advancements in various sectors",
-      "affected_sectors": [
-        "fintech",
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Abu Dhabi's $49 Billion AI Fund",
-        "Middle East & Africa Green Data Center Market Poised for Exponential Growth"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabian businesses",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased economic growth and competitiveness",
-      "downside": "Potential for job displacement due to automation",
-      "first_order": "Direct investment in AI and technology",
-      "second_order": "Potential for increased innovation and entrepreneurship",
-      "invalidation": "If the AI fund fails to deliver expected returns or if investment in AI and technology decreases",
-      "_at": "2026-07-04T23:59:09.183413"
-    },
-    {
-      "statement": "Saudi Arabia's crude exports are increasing",
-      "change_type": "trade",
-      "change_vector": "supply_looser",
-      "mechanism": "Reopened Strait of Hormuz and increased loading of oil from Ras Tanura port",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from the increased crude exports, potentially leading to increased revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz",
-        "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Arabian oil industry",
-        "exporters"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased revenue and economic growth",
-      "downside": "Potential for increased dependence on oil exports and vulnerability to price fluctuations",
-      "first_order": "Direct increase in crude exports",
-      "second_order": "Potential for increased economic activity and job creation",
-      "invalidation": "If the Strait of Hormuz is closed again or if global demand for oil decreases",
-      "_at": "2026-07-04T23:59:09.183423"
-    },
-    {
-      "statement": "Green data center market is growing in the Middle East and Africa",
-      "change_type": "market",
-      "change_vector": "demand_up",
-      "mechanism": "Digital transformation, renewable energy, and ESG mandates driving growth",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from the growing green data center market, potentially leading to increased investment and job creation",
-      "affected_sectors": [
-        "renewable_energy",
-        "fintech"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Middle East & Africa Green Data Center Market Poised for Exponential Growth",
-        "Abu Dhabi's $49 Billion AI Fund"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "data center operators",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased economic growth and competitiveness",
-      "downside": "Potential for increased energy consumption and environmental impact",
-      "first_order": "Direct growth in the green data center market",
-      "second_order": "Potential for increased innovation and entrepreneurship",
-      "invalidation": "If the growth of the green data center market slows down or if demand for data centers decreases",
-      "_at": "2026-07-04T23:59:09.183425"
-    },
-    {
-      "statement": "Tourism and hospitality investment is increasing in Saudi Arabia",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "K. Hovnanian Middle East's expansion of investment in Saudi Arabia",
-      "ksa_grounding": "Saudi Arabia's economy may benefit from the increased investment in tourism and hospitality, potentially leading to increased revenue and job creation",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "K. Hovnanian Middle East Expands its Investment in Saudi Arabia",
-        "HOV Global's rebranding and expansion"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "tourism and hospitality businesses",
-        "investors"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased economic growth and competitiveness",
-      "downside": "Potential for increased competition and market saturation",
-      "first_order": "Direct investment in tourism and hospitality",
-      "second_order": "Potential for increased innovation and entrepreneurship",
-      "invalidation": "If the investment in tourism and hospitality decreases or if the sector experiences a downturn",
-      "_at": "2026-07-04T23:59:09.183426"
-    },
-    {
-      "statement": "Investment in technology and education is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Government and private investments in technology and education are expected to drive growth and development in these sectors",
-      "ksa_grounding": "This increase in investment could lead to Saudi Arabia attracting more foreign investment and talent in the technology and education sectors, contributing to the country's economic diversification",
-      "affected_sectors": [
-        "education",
-        "fintech",
-        "renewable_energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "India to Share Rocket Tech to Hasten Development of Space Firms",
-        "India Semiconductor Mission 2.0 Gets EFC Nod with \u20b91.2 Lakh Crore Outlay"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "private companies",
-        "government"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased economic growth and diversification",
-      "downside": "Dependence on foreign investment and technology",
-      "first_order": "Direct investment in technology and education",
-      "second_order": "Growth and development of these sectors, leading to increased economic activity",
-      "invalidation": "A significant decline in investment in technology and education in the next 2 years",
-      "_at": "2026-07-04T00:02:09.282485"
-    },
-    {
-      "statement": "Global oil market stability is improving",
-      "change_type": "market",
-      "change_vector": "supply_looser",
-      "mechanism": "Increased oil exports from Saudi Arabia are expected to stabilize global oil markets",
-      "ksa_grounding": "This increased export activity could lead to increased revenue for Saudi Arabia, supporting the country's economy",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil exporters",
-        "global oil market"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased revenue for Saudi Arabia, stable global oil prices",
-      "downside": "Dependence on oil exports, potential for market fluctuations",
-      "first_order": "Increased oil exports from Saudi Arabia",
-      "second_order": "Stabilization of global oil markets, increased revenue for Saudi Arabia",
-      "invalidation": "A significant decline in oil exports from Saudi Arabia or a major disruption to global oil markets",
-      "_at": "2026-07-04T00:02:09.282496"
-    },
-    {
-      "statement": "Fintech investment is increasing",
-      "change_type": "investment",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Private investments in fintech are expected to drive growth and development in this sector",
-      "ksa_grounding": "This increase in investment could lead to Saudi Arabia's fintech sector attracting more foreign investment and talent, contributing to the country's economic diversification",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Patria Investments Successfully Raises Over USD 670m for Its Secondary Opportunities Fund V",
-        "Microsoft Launches $2.5 Billion 'Frontier Company' to Accelerate Enterprise AI Adoption"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "private companies",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased economic growth and diversification",
-      "downside": "Dependence on foreign investment and technology",
-      "first_order": "Direct investment in fintech",
-      "second_order": "Growth and development of the fintech sector, leading to increased economic activity",
-      "invalidation": "A significant decline in investment in fintech in the next 2 years",
-      "_at": "2026-07-04T00:02:09.282499"
     }
   ],
-  "lastRefresh": "2026-08-02T23:55:53.239768"
+  "lastRefresh": "2026-08-04T00:05:18.176365"
 }
