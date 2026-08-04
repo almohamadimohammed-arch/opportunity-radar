@@ -1,6 +1,123 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia may sell US Treasuries if US strikes Iran",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-03",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "foreign policy"
+      ],
+      "summary": "Saudi Arabia is considering selling US Treasuries if the US strikes Iran. This move could destabilize US-Saudi relations and complicate future diplomatic efforts. The decision is seen as a response to potential US military action against Iran.",
+      "why_it_matters": "This move could have significant strategic consequences for Saudi Arabia, potentially impacting its economy and foreign policy. It highlights the complex geopolitical dynamics at play in the region and the need for careful consideration of potential consequences.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-04T23:59:04.370455"
+    },
+    {
+      "title": "Trump says new talks are Iran's 'last chance' to make deal 'before decapitation'",
+      "source": "PBS",
+      "source_tier": 2,
+      "time": "2026-08-03",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "foreign policy",
+        "security"
+      ],
+      "summary": "US President Trump has stated that new talks with Iran are the country's 'last chance' to make a deal before facing severe consequences. The statement comes amid heightened tensions between the US and Iran.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia, given its proximity to Iran and its role in regional geopolitics. The potential consequences of a US-Iran conflict could have far-reaching effects on the region's stability and security.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-04T23:59:04.370467"
+    },
+    {
+      "title": "Saudi Crown Prince Urges Trump to Avoid Wider Middle Eastern War",
+      "source": "Breitbart News",
+      "source_tier": 2,
+      "time": "2026-08-03",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "foreign policy",
+        "security"
+      ],
+      "summary": "Saudi Crown Prince Mohammed bin Salman has reportedly urged US President Trump to avoid turning the Iran crisis into a wider conflict. The move is seen as an attempt to prevent a regional war.",
+      "why_it_matters": "This development highlights the complex web of alliances and interests in the region, with Saudi Arabia seeking to maintain stability and avoid a wider conflict. The Crown Prince's move demonstrates the kingdom's strategic thinking and its desire to protect its interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-04T23:59:04.370469"
+    },
+    {
+      "title": "Gulf markets rise as Trump holds off on Iran strike",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-03",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "fintech",
+        "banking",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "economy",
+        "finance"
+      ],
+      "summary": "Gulf markets have risen after US President Trump decided not to strike Iran. The move has eased tensions in the region, leading to a surge in market activity.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia's economy, as the kingdom is heavily integrated into the regional financial system. The rise in Gulf markets could have a positive impact on Saudi Arabia's economic stability and growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-04T23:59:04.370470"
+    },
+    {
+      "title": "Jeddah Tower surpasses 430-meter construction milestone, on track to becoming world\u2019s tallest building",
+      "source": "Archinect",
+      "source_tier": 2,
+      "time": "2026-08-02",
+      "event_type": "infrastructure_disruption",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "tourism",
+        "hospitality"
+      ],
+      "region_tags": [
+        "jeddah"
+      ],
+      "affected_domains": [
+        "construction",
+        "real estate"
+      ],
+      "summary": "The Jeddah Tower has surpassed a significant construction milestone, reaching a height of over 430 meters. The project is on track to become the world's tallest building.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia's tourism and hospitality sectors, as the Jeddah Tower is expected to become a major landmark and attraction. The project's completion could boost the kingdom's economy and reputation as a destination for business and leisure.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-04T23:59:04.370474"
+    },
+    {
       "title": "OPEC+ agrees to increase oil production by 188,000 barrels per day from September",
       "source": "Financial Post, Al Jazeera English, New York Post, The Times of India, The Punch, Crypto Briefing, Livemint",
       "source_tier": "T1, T2",
@@ -2903,20 +3020,20 @@
       "_at": "2026-07-06T00:02:30.110549"
     }
   ],
-  "lastRefresh": "2026-08-04T00:05:18.173630",
+  "lastRefresh": "2026-08-04T23:59:47.889155",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 20,
+    "articles_to_model": 29,
     "radar_generated": 5,
-    "radar_confirmed": 2,
-    "radar_reported": 3,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 3,
-    "signals_strong": 0,
-    "signals_moderate": 2,
-    "signals_ksa_grounded": 3,
+    "signals_generated": 2,
+    "signals_strong": 1,
+    "signals_moderate": 1,
+    "signals_ksa_grounded": 2,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
   }

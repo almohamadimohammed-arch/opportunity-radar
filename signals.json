@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "statement": "Geopolitical tensions in the Middle East are decreasing",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "Reduced likelihood of US military action against Iran",
+      "ksa_grounding": "Decreased risk of regional conflict benefits Saudi Arabia's oil and gas sector",
+      "affected_sectors": [
+        "oil_gas",
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Trump says new talks are Iran's 'last chance' to make deal 'before decapitation'",
+        "Saudi Crown Prince Urges Trump to Avoid Wider Middle Eastern War",
+        "Gulf markets rise as Trump holds off on Iran strike"
+      ],
+      "evidence_strength": "strong",
+      "affected_actors": [
+        "Saudi Arabia",
+        "US",
+        "Iran"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased stability and potential for economic growth",
+      "downside": "Risk of conflict still present if talks fail",
+      "first_order": "Direct reduction in geopolitical risk",
+      "second_order": "Potential for increased investment and economic activity in the region",
+      "invalidation": "A US military strike against Iran or significant escalation of tensions",
+      "_at": "2026-08-04T23:59:40.885521"
+    },
+    {
+      "statement": "Investor confidence in Gulf markets is increasing",
+      "change_type": "trust",
+      "change_vector": "trust_rising",
+      "mechanism": "Improved market sentiment due to reduced geopolitical risk",
+      "ksa_grounding": "Increased investor confidence benefits Saudi Arabia's capital markets and banking sector",
+      "affected_sectors": [
+        "fintech",
+        "banking",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Gulf markets rise as Trump holds off on Iran strike",
+        "Saudi Arabia may sell US Treasuries if US strikes Iran"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Investors",
+        "Saudi Arabia"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased investment and economic growth",
+      "downside": "Risk of market volatility if tensions escalate",
+      "first_order": "Direct increase in investor confidence",
+      "second_order": "Potential for increased economic activity and growth",
+      "invalidation": "A significant decline in Gulf markets or increase in geopolitical risk",
+      "_at": "2026-08-04T23:59:40.885532"
+    },
+    {
       "statement": "Geopolitical tensions in the region are decreasing",
       "change_type": "risk",
       "change_vector": "risk_exposure_falling",
@@ -2327,5 +2387,5 @@
       "_at": "2026-07-06T00:03:07.326599"
     }
   ],
-  "lastRefresh": "2026-08-04T00:05:18.176365"
+  "lastRefresh": "2026-08-04T23:59:47.891392"
 }
