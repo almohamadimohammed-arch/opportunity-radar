@@ -1,6 +1,122 @@
 {
   "items": [
     {
+      "statement": "Investment in the Saudi gaming industry has increased",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "The Saudi-led group's purchase of Electronic Arts (EA) indicates a significant investment in the gaming industry, which may lead to increased demand for gaming-related products and services in Saudi Arabia",
+      "ksa_grounding": "The investment in the gaming industry may create new job opportunities and stimulate economic growth in Saudi Arabia, particularly in the entertainment sector",
+      "affected_sectors": [
+        "entertainment"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Saudi-led group completes $55bn purchase of gaming giant EA"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "gaming companies",
+        "investors"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for job creation and economic growth",
+      "downside": "potential for market saturation and decreased demand",
+      "first_order": "increased investment in the gaming industry",
+      "second_order": "potential for increased demand for gaming-related products and services",
+      "invalidation": "a significant decline in the gaming industry or a failure of the investment to materialize",
+      "_at": "2026-08-05T23:56:18.470176"
+    },
+    {
+      "statement": "Oil prices may stabilize due to a potential reopening of the Strait of Hormuz",
+      "change_type": "geopolitics",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "The potential reopening of the Strait of Hormuz may ease tensions in the region and stabilize oil prices, reducing the risk of price volatility",
+      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may benefit from stable oil prices, which could lead to increased revenue and economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "US says deal on reopening Hormuz close as Iran, Oman hold \u2018positive\u2019 talks",
+        "Saudi Aramco reports 44% year-on-year jump in second-quarter net profit"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "oil producers",
+        "traders"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential for increased revenue and economic growth",
+      "downside": "potential for continued price volatility",
+      "first_order": "stabilization of oil prices",
+      "second_order": "potential for increased economic growth and revenue",
+      "invalidation": "a failure to reach a deal on reopening the Strait of Hormuz or a significant increase in oil price volatility",
+      "_at": "2026-08-05T23:56:18.470184"
+    },
+    {
+      "statement": "Construction activity in Jeddah is increasing",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "The Jeddah Tower's construction milestone indicates increased construction activity in Jeddah, which may lead to increased economic growth and development in the region",
+      "ksa_grounding": "The increased construction activity in Jeddah may create new job opportunities and stimulate economic growth in the region, particularly in the construction and real estate sectors",
+      "affected_sectors": [
+        "construction"
+      ],
+      "affected_regions": [
+        "jeddah"
+      ],
+      "evidence": [
+        "Jeddah Tower surpasses 430-meter construction milestone"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "construction companies",
+        "developers"
+      ],
+      "time_horizon": "now",
+      "upside": "potential for job creation and economic growth",
+      "downside": "potential for market saturation and decreased demand",
+      "first_order": "increased construction activity",
+      "second_order": "potential for increased economic growth and development",
+      "invalidation": "a significant decline in construction activity or a failure of the project to materialize",
+      "_at": "2026-08-05T23:56:18.470186"
+    },
+    {
+      "statement": "Renewable energy investment in Saudi Arabia is increasing",
+      "change_type": "investment",
+      "change_vector": "demand_up",
+      "mechanism": "Lucid's plans to finish a factory in Saudi Arabia and develop robotaxis indicate increased investment in renewable energy and electric vehicles, which may lead to increased demand for related products and services",
+      "ksa_grounding": "The investment in renewable energy and electric vehicles may create new job opportunities and stimulate economic growth in Saudi Arabia, particularly in the renewable energy and automotive sectors",
+      "affected_sectors": [
+        "renewable_energy",
+        "hydrogen"
+      ],
+      "affected_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "evidence": [
+        "Lucid's turnaround plan hinges on $1.4B in cash savings, robotaxis"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "renewable energy companies",
+        "investors"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "potential for job creation and economic growth",
+      "downside": "potential for market saturation and decreased demand",
+      "first_order": "increased investment in renewable energy and electric vehicles",
+      "second_order": "potential for increased demand for related products and services",
+      "invalidation": "a significant decline in renewable energy investment or a failure of the project to materialize",
+      "_at": "2026-08-05T23:56:18.470188"
+    },
+    {
       "statement": "Geopolitical tensions in the Middle East are decreasing",
       "change_type": "risk",
       "change_vector": "risk_exposure_falling",
@@ -2302,90 +2418,7 @@
       "second_order": "Potential for decreased economic growth and increased budget deficits in Saudi Arabia",
       "invalidation": "If OPEC+ reverses its decision to increase production or if global demand for oil increases significantly",
       "_at": "2026-07-07T00:04:17.842506"
-    },
-    {
-      "statement": "Regulatory barrier to fintech integration has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Investments and funding in AI and fintech are driving innovation and adoption, leading to a more open regulatory environment",
-      "ksa_grounding": "Saudi Arabia's economy is likely to benefit from increased fintech integration, driving growth in the financial sector",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Abu Dhabi's $49 Billion AI Fund",
-        "Microsoft Launches $2.5 Billion 'Frontier Company' to Accelerate Enterprise AI Adoption"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "fintech companies",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased innovation and growth in the fintech sector",
-      "downside": "Potential risks associated with rapid technological change",
-      "first_order": "Direct investment in AI and fintech",
-      "second_order": "Increased competitiveness and growth in the financial sector",
-      "invalidation": "Evidence of decreased investment in AI and fintech, or a tightening of regulatory barriers",
-      "_at": "2026-07-06T00:03:07.326586"
-    },
-    {
-      "statement": "Global oil demand is shifting",
-      "change_type": "demand",
-      "change_vector": "demand_down",
-      "mechanism": "Asia's increasing interest in biofuels is reducing dependence on Middle East oil, leading to a shift in global oil demand",
-      "ksa_grounding": "Saudi Arabia's economy is heavily reliant on oil exports, and a decline in global demand could impact revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Asia Bets on Biofuels to Dodge Middle East Oil Shortages",
-        "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil producers",
-        "biofuel companies"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased investment in alternative energy sources",
-      "downside": "Potential risks to oil-dependent economies",
-      "first_order": "Reduced demand for Middle East oil",
-      "second_order": "Increased investment in alternative energy sources",
-      "invalidation": "Evidence of increased global demand for oil, or a decline in biofuel production",
-      "_at": "2026-07-06T00:03:07.326597"
-    },
-    {
-      "statement": "Risk exposure is rising in the region",
-      "change_type": "risk",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Escalating tensions in the region, particularly between the Saudi-led coalition and Houthi forces, are increasing the risk of conflict",
-      "ksa_grounding": "Saudi Arabia is directly involved in the conflict, and an escalation could have significant economic and humanitarian impacts",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "Saudi-led Coalition Pledges \u2018Unprecedented\u2019 Force Against Houthi Threats"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Saudi-led coalition",
-        "Houthi forces"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential for increased conflict and instability",
-      "first_order": "Escalating tensions and conflict",
-      "second_order": "Humanitarian and economic impacts",
-      "invalidation": "Evidence of a peaceful resolution to the conflict, or a decline in tensions",
-      "_at": "2026-07-06T00:03:07.326599"
     }
   ],
-  "lastRefresh": "2026-08-04T23:59:47.891392"
+  "lastRefresh": "2026-08-05T23:56:55.732309"
 }
