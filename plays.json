@@ -1,6 +1,96 @@
 {
   "items": [
     {
+      "title": "Enhanced Security Measures for Oil and Gas Infrastructure",
+      "play_type": "defensive_play",
+      "actor": "Saudi Arabian oil and gas companies",
+      "customer": "Saudi Arabian government and oil and gas companies",
+      "problem": "Rising risk exposure in the oil and gas sector due to escalating tensions in the region",
+      "action_path": "Implement enhanced security measures to protect oil and gas infrastructure from potential retaliatory strikes. This includes investing in advanced surveillance systems, increasing security personnel, and conducting regular drills and training exercises. Additionally, companies can consider partnering with security experts to conduct risk assessments and develop emergency response plans.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of disruption to oil and gas production and exports, resulting in maintained revenue streams",
+      "capabilities": "Advanced surveillance systems, security personnel, emergency response planning",
+      "barriers": "High costs of implementing enhanced security measures, potential difficulty in finding qualified security personnel",
+      "timing": "enter now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Potential disruption to Saudi Arabia's oil and gas production and exports",
+      "assumptions": "Escalating tensions in the region will continue, and retaliatory strikes on energy assets are a real threat",
+      "invalidation": "De-escalation of tensions in the region and no retaliatory strikes on energy assets",
+      "_at": "2026-08-07T23:30:08.795980"
+    },
+    {
+      "title": "Diversification of Energy Exports",
+      "play_type": "business_play",
+      "actor": "Saudi Arabian oil and gas companies",
+      "customer": "International energy buyers",
+      "problem": "Rising risk exposure in the oil and gas sector due to escalating tensions in the region",
+      "action_path": "Diversify energy exports to reduce dependence on any one market or region. This includes investing in new energy infrastructure, such as pipelines and liquefied natural gas (LNG) terminals, and developing new trade relationships with countries in other regions. Additionally, companies can consider investing in renewable energy sources, such as solar and wind power, to reduce their reliance on fossil fuels.",
+      "entry_mode": "invest",
+      "monetization": "Reduced risk of disruption to energy exports, resulting in maintained revenue streams and increased competitiveness",
+      "capabilities": "Energy infrastructure development, trade relationship building, renewable energy investment",
+      "barriers": "High costs of investing in new energy infrastructure, potential difficulty in developing new trade relationships",
+      "timing": "prepare now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising"
+      ],
+      "sector": "energy",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Potential disruption to Saudi Arabia's oil and gas production and exports",
+      "assumptions": "Escalating tensions in the region will continue, and diversification of energy exports is necessary to reduce risk",
+      "invalidation": "De-escalation of tensions in the region and no disruption to energy exports",
+      "_at": "2026-08-07T23:30:08.795992"
+    },
+    {
+      "title": "Cybersecurity Measures for Oil and Gas Infrastructure",
+      "play_type": "defensive_play",
+      "actor": "Saudi Arabian oil and gas companies",
+      "customer": "Saudi Arabian government and oil and gas companies",
+      "problem": "Rising risk exposure in the oil and gas sector due to escalating tensions in the region",
+      "action_path": "Implement advanced cybersecurity measures to protect oil and gas infrastructure from potential cyber attacks. This includes investing in threat detection systems, conducting regular security audits, and developing incident response plans. Additionally, companies can consider partnering with cybersecurity experts to conduct risk assessments and develop customized security solutions.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of disruption to oil and gas production and exports, resulting in maintained revenue streams",
+      "capabilities": "Advanced threat detection systems, cybersecurity expertise, incident response planning",
+      "barriers": "High costs of implementing advanced cybersecurity measures, potential difficulty in finding qualified cybersecurity personnel",
+      "timing": "enter now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure in the oil and gas sector is rising"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "Potential disruption to Saudi Arabia's oil and gas production and exports",
+      "assumptions": "Escalating tensions in the region will continue, and cyber attacks on oil and gas infrastructure are a real threat",
+      "invalidation": "De-escalation of tensions in the region and no cyber attacks on oil and gas infrastructure",
+      "_at": "2026-08-07T23:30:08.795994"
+    },
+    {
       "title": "Diversify Trade Partners",
       "play_type": "business_play",
       "actor": "Saudi oil and gas companies",
@@ -2008,5 +2098,5 @@
       "_at": "2026-07-09T00:06:13.521342"
     }
   ],
-  "lastRefresh": "2026-08-07T01:42:24.793519"
+  "lastRefresh": "2026-08-07T23:30:08.801080"
 }

@@ -1,6 +1,91 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to fintech integration has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Increased adoption of blockchain technology and tokenization platforms",
+      "ksa_grounding": "Supports Vision 2030 by enhancing asset liquidity and accelerating blockchain adoption in Saudi Arabia's real estate market",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Tether brings its Hadron tokenization platform to Saudi Arabia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Tether",
+        "local firms"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment and economic growth",
+      "downside": "Potential risks associated with unregulated fintech activities",
+      "first_order": "Direct investment in fintech sector",
+      "second_order": "Growth of related sectors such as real estate and banking",
+      "invalidation": "Lack of significant investment or adoption of blockchain technology in Saudi Arabia",
+      "_at": "2026-08-07T23:29:30.855744"
+    },
+    {
+      "statement": "Risk exposure in the oil and gas sector is rising",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Escalating tensions in the region and potential retaliatory strikes on energy assets",
+      "ksa_grounding": "Potential disruption to Saudi Arabia's oil and gas production and exports",
+      "affected_sectors": [
+        "oil_gas",
+        "energy"
+      ],
+      "affected_regions": [
+        "Eastern Province"
+      ],
+      "evidence": [
+        "Iran warns Gulf states of strikes on energy assets",
+        "Saudi Arabia cuts main crude oil price again"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Iran",
+        "Gulf states",
+        "US"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential loss of revenue and damage to infrastructure",
+      "first_order": "Direct impact on oil and gas production",
+      "second_order": "Potential impact on global energy markets and prices",
+      "invalidation": "De-escalation of tensions in the region and no retaliatory strikes on energy assets",
+      "_at": "2026-08-07T23:29:30.855756"
+    },
+    {
+      "statement": "Competition in the gaming industry is intensifying",
+      "change_type": "competition",
+      "change_vector": "competition_intensifying",
+      "mechanism": "Large investments in the gaming industry by Saudi Arabia's PIF",
+      "ksa_grounding": "Increased investment in the gaming industry supports Saudi Arabia's economic diversification efforts",
+      "affected_sectors": [
+        "entertainment",
+        "gaming"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Electronic Arts goes private in largest leveraged buyout in history, backed by Saudi Arabia's PIF"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Electronic Arts",
+        "Saudi Arabia's PIF"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Growth of the gaming industry and increased economic diversification",
+      "downside": "Potential risks associated with over-investment in a single sector",
+      "first_order": "Direct investment in the gaming sector",
+      "second_order": "Growth of related sectors such as entertainment and technology",
+      "invalidation": "Lack of significant investment or growth in the gaming industry",
+      "_at": "2026-08-07T23:29:30.855758"
+    },
+    {
       "statement": "Regulatory barrier to international trade has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2362,5 +2447,5 @@
       "_at": "2026-07-09T00:06:06.774416"
     }
   ],
-  "lastRefresh": "2026-08-07T01:42:24.791453"
+  "lastRefresh": "2026-08-07T23:30:08.799013"
 }
