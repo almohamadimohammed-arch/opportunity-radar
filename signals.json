@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to international trade has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "International agreements and diplomatic efforts have led to a reduction in regulatory barriers",
+      "ksa_grounding": "This change can increase Saudi Arabia's trade with other countries, particularly with Iran and Oman, and enhance the Kingdom's position as a regional trade hub",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province"
+      ],
+      "evidence": [
+        "Iran and Oman reach agreement on Strait of Hormuz shipping route",
+        "Houthis strike Saudi oil tankers, threaten Red Sea shipping blockade"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "international trading companies"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased trade and economic cooperation",
+      "downside": "Potential for further geopolitical tensions",
+      "first_order": "Reduced regulatory barriers to trade",
+      "second_order": "Increased economic activity and job creation",
+      "invalidation": "Failure to implement the agreement or further escalation of geopolitical tensions",
+      "_at": "2026-08-07T01:41:47.797774"
+    },
+    {
+      "statement": "Risk exposure to geopolitical tensions has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Geopolitical tensions and conflicts in the region have increased the risk of disruptions to trade and economic activity",
+      "ksa_grounding": "This change can negatively impact Saudi Arabia's economy, particularly the oil and gas sector, and increase the risk of supply chain disruptions",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "eastern_province",
+        "red_sea"
+      ],
+      "evidence": [
+        "Houthis strike Saudi oil tankers, threaten Red Sea shipping blockade",
+        "Saudi Aramco's record profits hide growing cash flow crisis"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "international trading companies"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Potential for supply chain disruptions and economic losses",
+      "first_order": "Increased risk of disruptions to trade and economic activity",
+      "second_order": "Potential for long-term damage to the Kingdom's economy and reputation",
+      "invalidation": "Successful diplomatic efforts to reduce geopolitical tensions and prevent further conflicts",
+      "_at": "2026-08-07T01:41:47.797803"
+    },
+    {
+      "statement": "Investment opportunities in fintech and banking have increased",
+      "change_type": "investment",
+      "change_vector": "feasibility_increasing",
+      "mechanism": "International partnerships and agreements have increased investment opportunities in fintech and banking",
+      "ksa_grounding": "This change can attract more foreign investment to Saudi Arabia's fintech and banking sectors, enhancing the Kingdom's position as a regional financial hub",
+      "affected_sectors": [
+        "fintech",
+        "banking"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Indonesia and Saudi Arabia sign MoU to boost direct foreign investment"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "foreign investors",
+        "Saudi banks and fintech companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased foreign investment and economic growth",
+      "downside": "Potential for increased competition and market saturation",
+      "first_order": "Increased investment opportunities in fintech and banking",
+      "second_order": "Potential for job creation and economic growth",
+      "invalidation": "Failure to implement the agreement or lack of interest from foreign investors",
+      "_at": "2026-08-07T01:41:47.797805"
+    },
+    {
       "statement": "Investment in the Saudi gaming industry has increased",
       "change_type": "investment",
       "change_vector": "demand_up",
@@ -2274,151 +2360,7 @@
       "second_order": "Increased efficiency and innovation in the energy sector",
       "invalidation": "A failure to integrate AI in the energy sector, or a lack of investment in this area",
       "_at": "2026-07-09T00:06:06.774416"
-    },
-    {
-      "statement": "Regulatory barrier to digital assets has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Sovereign wealth funds' preference for regulated access to digital assets indicates a shift towards more open regulation",
-      "ksa_grounding": "This change can increase investment in Saudi Arabia's digital asset market, contributing to the country's economic diversification",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Sovereign wealth funds favor regulated access to Bitcoin and digital assets"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Sovereign wealth funds",
-        "Digital asset investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment in digital assets, economic diversification",
-      "downside": "Potential risks associated with digital assets, such as market volatility",
-      "first_order": "Increased investment in digital assets",
-      "second_order": "Growth of Saudi Arabia's digital asset market, job creation",
-      "invalidation": "If sovereign wealth funds reverse their preference for regulated access to digital assets",
-      "_at": "2026-07-07T23:55:42.846858"
-    },
-    {
-      "statement": "Global energy supply has increased",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "OPEC+ decision to boost production further in August increases global energy supply",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be impacted by changes in global energy supply, potentially affecting oil revenues",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "Eastern Province"
-      ],
-      "evidence": [
-        "OPEC+ decides to boost production further in August",
-        "Saudi Arabia slashes crude oil prices for Asian buyers"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Oil producers",
-        "Oil consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased global energy supply, reduced prices",
-      "downside": "Potential negative impact on Saudi Arabia's oil revenues",
-      "first_order": "Increased global energy supply",
-      "second_order": "Reduced oil prices, increased economic activity",
-      "invalidation": "If OPEC+ reverses its decision to boost production or if global demand increases significantly",
-      "_at": "2026-07-07T23:55:42.846868"
-    },
-    {
-      "statement": "Investment in Saudi tourism is increasing",
-      "change_type": "investment",
-      "change_vector": "demand_up",
-      "mechanism": "Private capital entering the Saudi tourism market indicates growing interest in the sector",
-      "ksa_grounding": "Increased investment in Saudi tourism can contribute to the country's economic diversification and growth",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "Riyadh",
-        "Jeddah",
-        "Makkah"
-      ],
-      "evidence": [
-        "Private capital moves into Saudi tourism"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Private investors",
-        "Tourism companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment in Saudi tourism, job creation",
-      "downside": "Potential risks associated with tourism investment, such as market volatility",
-      "first_order": "Increased investment in Saudi tourism",
-      "second_order": "Growth of Saudi Arabia's tourism sector, economic diversification",
-      "invalidation": "If private capital exits the Saudi tourism market or if tourism demand decreases",
-      "_at": "2026-07-07T23:55:42.846869"
-    },
-    {
-      "statement": "Regulatory environment for crypto firms in the Middle East is becoming more favorable",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Dubai's overtaking of Singapore and Hong Kong as the top destination for licensed crypto firms in Asia indicates a shift towards a more welcoming regulatory environment for crypto firms in the region",
-      "ksa_grounding": "This could lead to increased investment and innovation in Saudi Arabia's fintech sector, particularly in the areas of cryptocurrency and blockchain technology",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [
-        "jeddah"
-      ],
-      "evidence": [
-        "Dubai tops Asian crypto hubs"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "crypto firms",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment and innovation in the fintech sector",
-      "downside": "Potential risks associated with unregulated crypto markets",
-      "first_order": "Direct investment and job creation in the fintech sector",
-      "second_order": "Potential for increased economic growth and diversification in Saudi Arabia",
-      "invalidation": "If Dubai's crypto regulations become more restrictive or if Saudi Arabia implements stricter regulations on crypto firms",
-      "_at": "2026-07-07T00:04:17.842496"
-    },
-    {
-      "statement": "Global oil supply is increasing, potentially leading to lower prices",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "OPEC+ agreement to expand monthly oil production will increase global oil supply, potentially leading to lower prices",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia's economy may be affected by lower oil prices, potentially leading to decreased revenue and economic growth",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "OPEC+ agrees to expand monthly oil production"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil producers",
-        "consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Lower oil prices could lead to increased economic growth and decreased inflation",
-      "downside": "Lower oil prices could lead to decreased revenue and economic growth for Saudi Arabia",
-      "first_order": "Direct impact on oil prices and revenue",
-      "second_order": "Potential for decreased economic growth and increased budget deficits in Saudi Arabia",
-      "invalidation": "If OPEC+ reverses its decision to increase production or if global demand for oil increases significantly",
-      "_at": "2026-07-07T00:04:17.842506"
     }
   ],
-  "lastRefresh": "2026-08-05T23:56:55.732309"
+  "lastRefresh": "2026-08-07T01:42:24.791453"
 }

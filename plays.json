@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "title": "Diversify Trade Partners",
+      "play_type": "business_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "International trade partners",
+      "problem": "Reduced regulatory barriers to international trade",
+      "action_path": "Saudi oil and gas companies should diversify their trade partners to capitalize on the reduced regulatory barriers. This can be achieved by establishing new trade agreements and strengthening diplomatic relationships with countries like Iran and Oman. By doing so, they can reduce their dependence on traditional trade partners and increase their market share.",
+      "entry_mode": "partner",
+      "monetization": "Increased trade volumes and revenue",
+      "capabilities": "International trade expertise, diplomatic relationships, and logistics capabilities",
+      "barriers": "Geopolitical tensions and trade agreement complexities",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regulatory barrier to international trade has reduced"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by increasing the Kingdom's trade with other countries and enhancing its position as a regional trade hub",
+      "assumptions": "The reduction in regulatory barriers will lead to increased trade opportunities, and Saudi oil and gas companies have the necessary capabilities to capitalize on these opportunities",
+      "invalidation": "Failure to implement the trade agreements or further escalation of geopolitical tensions",
+      "_at": "2026-08-07T01:42:24.788588"
+    },
+    {
+      "title": "Mitigate Geopolitical Risk",
+      "play_type": "defensive_play",
+      "actor": "Saudi oil and gas companies",
+      "customer": "Shareholders and stakeholders",
+      "problem": "Increased risk exposure to geopolitical tensions",
+      "action_path": "Saudi oil and gas companies should develop strategies to mitigate the risks associated with geopolitical tensions, such as diversifying their supply chains and establishing contingency plans. They should also invest in risk management and insurance solutions to protect their assets and operations. By doing so, they can reduce the potential impact of disruptions to their business.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk exposure and increased business resilience",
+      "capabilities": "Risk management expertise, supply chain management, and insurance solutions",
+      "barriers": "Complexity of geopolitical tensions and high costs of risk management solutions",
+      "timing": "prepare now",
+      "action_posture": "Defend",
+      "linked_signals": [
+        "Risk exposure to geopolitical tensions has increased"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by reducing the potential impact of geopolitical tensions on the Kingdom's economy and oil and gas sector",
+      "assumptions": "The increased risk exposure to geopolitical tensions will lead to disruptions to trade and economic activity, and Saudi oil and gas companies can mitigate these risks through effective risk management strategies",
+      "invalidation": "Successful diplomatic efforts to reduce geopolitical tensions and prevent further conflicts",
+      "_at": "2026-08-07T01:42:24.788597"
+    },
+    {
       "title": "Oil Price Stabilization Play",
       "play_type": "business_play",
       "actor": "Saudi oil producers and exporters",
@@ -1948,35 +2006,7 @@
       "assumptions": "Saudi Arabia's fintech sector will continue to grow, and regulatory environment will be favorable",
       "invalidation": "A significant decline in investment in fintech and banking, or a failure of these sectors to grow as expected",
       "_at": "2026-07-09T00:06:13.521342"
-    },
-    {
-      "title": "Investment in Energy Efficiency",
-      "play_type": "business_play",
-      "actor": "Saudi Energy Companies",
-      "customer": "Saudi Industries",
-      "problem": "Increased global energy supply may lead to decreased oil prices, affecting the profitability of Saudi energy companies",
-      "action_path": "Saudi energy companies should invest in energy efficiency technologies to reduce costs and increase competitiveness. This can be achieved by implementing energy-efficient practices in their operations and investing in research and development of new energy-efficient technologies. Additionally, they can partner with international companies to gain access to new technologies and expertise.",
-      "entry_mode": "invest",
-      "monetization": "Increased profitability and competitiveness",
-      "capabilities": "Energy efficiency technologies, research and development, partnership development",
-      "barriers": "High upfront costs, lack of expertise",
-      "timing": "invest",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Global energy supply has increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "renewable_energy"
-      ],
-      "relevant_regions": [
-        "eastern_province"
-      ],
-      "ksa_grounding": "Investment in energy efficiency is crucial for Saudi energy companies to remain competitive in a market with increased global energy supply",
-      "assumptions": "The Saudi energy companies have the capability and willingness to invest in energy efficiency, and the global energy supply will continue to increase",
-      "invalidation": "If the global energy supply decreases or the Saudi energy companies are unable to invest in energy efficiency",
-      "_at": "2026-07-07T23:56:19.685064"
     }
   ],
-  "lastRefresh": "2026-08-05T23:56:55.734405"
+  "lastRefresh": "2026-08-07T01:42:24.793519"
 }

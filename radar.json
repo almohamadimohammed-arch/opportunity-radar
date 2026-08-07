@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "title": "Iran and Oman reach agreement on Strait of Hormuz shipping route",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-08-06",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "global energy markets",
+        "shipping"
+      ],
+      "summary": "Iran and Oman have reached an agreement on a proposed shipping route through the Strait of Hormuz, which could reopen the vital waterway and ease global economic pressures. The agreement is seen as a positive development in the region. The US has also indicated that a deal is close.",
+      "why_it_matters": "This agreement has significant strategic consequences for Saudi Arabia, as it could impact the global energy market and potentially reduce the Kingdom's oil exports. It also highlights the complex geopolitical dynamics in the region and the need for Saudi Arabia to navigate these relationships carefully.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-07T01:41:10.568528"
+    },
+    {
+      "title": "Saudi Aramco's record profits hide growing cash flow crisis",
+      "source": "OilPrice.com",
+      "source_tier": 2,
+      "time": "2026-08-05",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "Saudi Aramco",
+        "global energy markets"
+      ],
+      "summary": "Despite reporting record profits, Saudi Aramco is facing a growing cash flow crisis due to the geopolitical turmoil in the region. The company's second-quarter results hide risks facing the Kingdom. The high profits are largely due to the increase in oil prices caused by the conflict.",
+      "why_it_matters": "This has significant strategic consequences for Saudi Arabia, as it highlights the risks and challenges facing the Kingdom's oil industry. The cash flow crisis could impact Saudi Aramco's ability to invest in new projects and maintain its production levels, which could have long-term implications for the Kingdom's economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-07T01:41:10.568540"
+    },
+    {
+      "title": "Houthis strike Saudi oil tankers, threaten Red Sea shipping blockade",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-05",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "Saudi oil exports",
+        "global shipping"
+      ],
+      "summary": "The Houthis have struck Saudi oil tankers and threatened to blockade the Red Sea, which could disrupt global oil supplies and impact the Kingdom's economy. The escalation threatens regional stability and could prompt international diplomatic and military responses.",
+      "why_it_matters": "This has significant strategic consequences for Saudi Arabia, as it highlights the security risks facing the Kingdom's oil industry and the potential for disruptions to global energy supplies. The threat of a blockade could also impact the Kingdom's ability to export oil, which could have long-term implications for its economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-07T01:41:10.568542"
+    },
+    {
+      "title": "Indonesia and Saudi Arabia sign MoU to boost direct foreign investment",
+      "source": "Antaranews.com",
+      "source_tier": 2,
+      "time": "2026-08-05",
+      "event_type": "partnership",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "Saudi economy",
+        "Indonesian investments"
+      ],
+      "summary": "Indonesia and Saudi Arabia have signed a Memorandum of Understanding (MoU) to boost direct foreign investment and elevate bilateral economic cooperation. The agreement aims to increase trade and investment between the two countries.",
+      "why_it_matters": "This has significant strategic consequences for Saudi Arabia, as it highlights the Kingdom's efforts to diversify its economy and attract foreign investment. The partnership with Indonesia could lead to new opportunities for trade and investment, which could contribute to the Kingdom's economic growth and development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-07T01:41:10.568543"
+    },
+    {
+      "title": "LIV Golf agrees deal with new 'lead investor' as Saudi funding ends",
+      "source": "Dpa-international.com",
+      "source_tier": 2,
+      "time": "2026-08-05",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "entertainment",
+        "sports"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "LIV Golf",
+        "Saudi sports investments"
+      ],
+      "summary": "LIV Golf has announced that it has reached an agreement with a new 'lead investor', as Saudi Arabia ends its financial backing of the breakaway circuit at the end of the 2026 season. The news comes after the Saudi Public Investment Fund (PIF) had been the main backer of the league.",
+      "why_it_matters": "This has significant strategic consequences for Saudi Arabia, as it highlights the Kingdom's efforts to promote sports and entertainment investments. The end of Saudi funding for LIV Golf could impact the Kingdom's reputation as a major investor in the sports industry, but the new investment deal could also lead to new opportunities for growth and development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-07T01:41:10.568545"
+    },
+    {
       "title": "Saudi Aramco reports 44% year-on-year jump in second-quarter net profit",
       "source": "The Times of India",
       "source_tier": 2,
@@ -2860,244 +2974,22 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-09T00:05:59.253047"
-    },
-    {
-      "title": "Saudi Arabia slashes crude oil prices for Asian buyers",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-06",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "Saudi Arabia has cut its crude oil prices for Asian buyers, signaling a shift in global energy dynamics. The price cut may ease inflation and benefit risk assets like cryptocurrencies. This move comes as the US-Iran deal reshapes energy markets.",
-      "why_it_matters": "The price cut may impact Saudi Arabia's oil revenue and influence the global energy market, potentially affecting the country's economic diversification efforts under Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T23:55:05.496788"
-    },
-    {
-      "title": "OPEC+ decides to boost production further in August",
-      "source": "Rigzone",
-      "source_tier": 2,
-      "time": "2026-07-06",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "OPEC+ has decided to increase oil production further in August, despite tumbling crude prices. The move aims to prioritize oil supply over price floor until the Hormuz situation normalizes.",
-      "why_it_matters": "The decision may impact Saudi Arabia's oil production and revenue, influencing the country's economic stability and affecting its ability to achieve the goals outlined in Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T23:55:05.496800"
-    },
-    {
-      "title": "Abu Dhabi builds the world's first integrated energy-AI economy",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-07-06",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "technology"
-      ],
-      "summary": "Abu Dhabi is developing the world's first integrated energy-AI economy, marking a significant shift in the global economy. The project aims to combine energy and artificial intelligence to create a new economic model.",
-      "why_it_matters": "The initiative may inspire Saudi Arabia to explore similar integrated energy-AI economy models, potentially driving innovation and economic growth in the region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T23:55:05.496802"
-    },
-    {
-      "title": "Private capital moves into Saudi tourism",
-      "source": "Skift",
-      "source_tier": 2,
-      "time": "2026-07-06",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism"
-      ],
-      "region_tags": [
-        "riyadh",
-        "jeddah"
-      ],
-      "affected_domains": [
-        "hospitality",
-        "entertainment"
-      ],
-      "summary": "Private capital is entering the Saudi tourism market, as the Public Investment Fund (PIF) steps back from direct tourism investment. The move may lead to increased investment in the sector.",
-      "why_it_matters": "The influx of private capital may help Saudi Arabia achieve its tourism goals under Vision 2030, driving economic diversification and growth.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T23:55:05.496803"
-    },
-    {
-      "title": "Sovereign wealth funds favor regulated access to Bitcoin and digital assets",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-06",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance",
-        "technology"
-      ],
-      "summary": "Sovereign wealth funds are showing preference for regulated access to Bitcoin and digital assets, indicating growing institutional acceptance. This may lead to increased investment in the digital asset market.",
-      "why_it_matters": "The development may attract more foreign investment to Saudi Arabia's fintech sector, contributing to the country's economic diversification efforts under Vision 2030.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T23:55:05.496807"
-    },
-    {
-      "title": "OPEC+ agrees to expand monthly oil production",
-      "source": "KSAT San Antonio, New York Post, Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-05",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "OPEC+ countries have agreed to increase their oil production by 188,000 barrels per day from August. This decision comes despite falling oil prices. The move is expected to ease inflation and potentially lead to lower interest rates.",
-      "why_it_matters": "This decision may impact Saudi Arabia's oil revenue and influence the global energy market, which is a crucial aspect of the country's economy.",
-      "verification_status": "confirmed",
-      "source_count": 3,
-      "_at": "2026-07-07T00:03:41.091437"
-    },
-    {
-      "title": "Saudi-U.S. ties face strain over Iran and regional security",
-      "source": "Globalresearch.ca",
-      "source_tier": 2,
-      "time": "2026-07-05",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "diplomacy",
-        "security"
-      ],
-      "summary": "The strategic partnership between Saudi Arabia and the United States is facing its most serious strain in years due to disagreements over Iran and regional security.",
-      "why_it_matters": "This strain in relations could have significant implications for Saudi Arabia's security and diplomatic priorities, potentially affecting its ability to achieve its Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T00:03:41.091448"
-    },
-    {
-      "title": "Yemen vows to break Saudi siege",
-      "source": "Globalsecurity.org",
-      "source_tier": 2,
-      "time": "2026-07-05",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "security",
-        "diplomacy"
-      ],
-      "summary": "Yemen's Foreign Ministry has warned Saudi Arabia that the Yemeni people will not retreat from their decision to end the aggression and break the crippling siege.",
-      "why_it_matters": "This development could lead to further instability in the region, potentially affecting Saudi Arabia's security and diplomatic priorities.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T00:03:41.091450"
-    },
-    {
-      "title": "Israel deploys Iron Dome to UAE amid war on Iran",
-      "source": "Globalsecurity.org",
-      "source_tier": 2,
-      "time": "2026-07-05",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Middle East",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "security",
-        "diplomacy"
-      ],
-      "summary": "Israel has confirmed the deployment of an Iron Dome battery to the United Arab Emirates during the US-Israeli war of aggression against Iran.",
-      "why_it_matters": "This move could have significant implications for regional security and diplomacy, potentially affecting Saudi Arabia's relationships with its neighbors and allies.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T00:03:41.091451"
-    },
-    {
-      "title": "Dubai tops Asian crypto hubs",
-      "source": "Cointelegraph",
-      "source_tier": 2,
-      "time": "2026-07-05",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Middle East",
-      "sector_tags": [
-        "fintech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance"
-      ],
-      "summary": "Dubai has overtaken Singapore and Hong Kong as the top destination for licensed crypto firms in Asia.",
-      "why_it_matters": "This development could attract more fintech investment to the region, potentially benefiting Saudi Arabia's own fintech sector and contributing to its Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-07T00:03:41.091453"
     }
   ],
-  "lastRefresh": "2026-08-05T23:56:55.729518",
+  "lastRefresh": "2026-08-07T01:42:24.788701",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 32,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 4,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 1,
-    "signals_ksa_grounded": 4,
+    "signals_moderate": 2,
+    "signals_ksa_grounded": 3,
     "plays_generated": 2,
     "plays_ksa_grounded": 2
   }
