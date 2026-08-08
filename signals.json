@@ -1,6 +1,70 @@
 {
   "items": [
     {
+      "statement": "Geopolitical risk exposure has decreased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_falling",
+      "mechanism": "Joint defense pact between Saudi Arabia, Turkey, and Pakistan",
+      "ksa_grounding": "Enhanced collective deterrence against aggression for Saudi Arabia",
+      "affected_sectors": [
+        "oil_gas",
+        "petrochemicals",
+        "mining",
+        "renewable_energy",
+        "hydrogen",
+        "fintech",
+        "banking",
+        "insurance",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia, Turkey, and Pakistan sign joint defense pact",
+        "Saudi Arabia, Turkey, and Pakistan sign mutual defense pact"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabian government",
+        "Turkish government",
+        "Pakistani government"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased regional stability",
+      "downside": "Potential for increased tensions with other nations",
+      "first_order": "Reduced risk of conflict",
+      "second_order": "Increased investment and economic growth",
+      "invalidation": "The joint defense pact fails to deter aggression or leads to increased tensions",
+      "_at": "2026-08-08T23:23:54.001177"
+    },
+    {
+      "statement": "Global oil market dynamics may shift",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "Saudi Arabia's planned cut in Arab Light crude price in Asia",
+      "ksa_grounding": "Potential impact on Saudi Arabia's oil exports and revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "Asia"
+      ],
+      "evidence": [
+        "Saudi Arabia to cut Arab Light crude price in Asia"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabian government",
+        "oil exporters"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased oil exports and revenue for Saudi Arabia",
+      "downside": "Potential loss of revenue due to lower prices",
+      "first_order": "Changes in oil prices",
+      "second_order": "Impact on global oil market dynamics and regional economic policies",
+      "invalidation": "The price cut does not materialize or has no significant impact on the global oil market",
+      "_at": "2026-08-08T23:23:54.001186"
+    },
+    {
       "statement": "Regulatory barrier to fintech integration has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2361,91 +2425,7 @@
       "second_order": "Job creation and economic growth in the tourism and hospitality sectors",
       "invalidation": "Decrease in tourist arrivals due to global economic downturn",
       "_at": "2026-07-10T00:01:58.499415"
-    },
-    {
-      "statement": "Investment in fintech and banking is increasing",
-      "change_type": "funding",
-      "change_vector": "demand_up",
-      "mechanism": "Gulf sovereign wealth funds are investing in fintech and banking, indicating a growing interest in these sectors",
-      "ksa_grounding": "This increase in investment could lead to the growth of Saudi Arabia's fintech and banking sectors, creating new opportunities for economic development",
-      "affected_sectors": [
-        "fintech",
-        "banking"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Gulf Sovereign Wealth Funds Invest $1.7 Billion in India in 2026",
-        "Middle East BNPL Market to Skyrocket from USD 20.59 Billion in 2025 to USD 330.67 Billion by 2035"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Gulf sovereign wealth funds",
-        "fintech companies",
-        "banks"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential for growth in Saudi Arabia's fintech and banking sectors",
-      "downside": "Risk of over-investment in these sectors, leading to instability",
-      "first_order": "Direct investment in fintech and banking",
-      "second_order": "Growth of these sectors, leading to increased economic activity",
-      "invalidation": "A significant decline in investment in fintech and banking, or a failure of these sectors to grow as expected",
-      "_at": "2026-07-09T00:06:06.774405"
-    },
-    {
-      "statement": "The oil and gas market is experiencing a shift from shortage to glut",
-      "change_type": "market",
-      "change_vector": "supply_looser",
-      "mechanism": "OPEC+ is increasing production, leading to a surplus of oil in the market",
-      "ksa_grounding": "As a major oil producer, Saudi Arabia may be affected by this shift, potentially leading to decreased revenue from oil exports",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "OPEC+ to Pump More Oil as Market Fears Shift from Shortage to Glut",
-        "UAE Defense Budget Grows to $27.2 Billion in 2026"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "OPEC+",
-        "oil producers",
-        "Saudi Arabia"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential for increased oil production and revenue",
-      "downside": "Risk of decreased oil prices and revenue",
-      "first_order": "Increased oil production",
-      "second_order": "Decreased oil prices, affecting Saudi Arabia's revenue",
-      "invalidation": "A significant increase in oil demand, or a disruption to oil production, leading to a shortage",
-      "_at": "2026-07-09T00:06:06.774414"
-    },
-    {
-      "statement": "The energy sector is becoming more integrated with artificial intelligence",
-      "change_type": "technology",
-      "change_vector": "feasibility_increasing",
-      "mechanism": "Abu Dhabi is building an integrated energy-AI economy, combining energy production with artificial intelligence",
-      "ksa_grounding": "This integration could lead to increased efficiency and innovation in Saudi Arabia's energy sector, potentially creating new opportunities for economic growth",
-      "affected_sectors": [
-        "oil_gas",
-        "renewable_energy"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Abu Dhabi Builds the World's First Integrated Energy-AI Economy"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "energy companies",
-        "AI developers"
-      ],
-      "time_horizon": "3-5yr",
-      "upside": "Potential for increased efficiency and innovation in the energy sector",
-      "downside": "Risk of over-reliance on AI, leading to job losses and decreased human expertise",
-      "first_order": "Integration of AI in energy production",
-      "second_order": "Increased efficiency and innovation in the energy sector",
-      "invalidation": "A failure to integrate AI in the energy sector, or a lack of investment in this area",
-      "_at": "2026-07-09T00:06:06.774416"
     }
   ],
-  "lastRefresh": "2026-08-07T23:30:08.799013"
+  "lastRefresh": "2026-08-08T23:24:01.853558"
 }

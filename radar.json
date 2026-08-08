@@ -1,6 +1,137 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia, Turkey, and Pakistan sign joint defense pact",
+      "source": "The Times of India, Hurriyet Daily News, ABC News (AU), New York Post",
+      "source_tier": "2",
+      "time": "2026-08-07",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi, Gulf, Global",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals",
+        "mining",
+        "renewable_energy",
+        "hydrogen",
+        "fintech",
+        "banking",
+        "insurance",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "security",
+        "economy"
+      ],
+      "summary": "Saudi Arabia, Turkey, and Pakistan have signed a joint defense pact, stipulating that an attack on one would be regarded as an attack on all. This agreement aims to strengthen collective deterrence against aggression. The pact follows years of regional conflict and instability.",
+      "why_it_matters": "This pact has significant strategic consequences for Saudi Arabia, as it strengthens its alliances and enhances its defense capabilities in the face of growing regional tensions. It also underscores the importance of cooperation among regional powers in maintaining stability and security.",
+      "verification_status": "confirmed",
+      "source_count": "7",
+      "_at": "2026-08-08T23:23:16.673256"
+    },
+    {
+      "title": "Tether expands tokenization business to Saudi Arabia",
+      "source": "Crypto Briefing, Cryptoprowl.com",
+      "source_tier": "2",
+      "time": "2026-08-07",
+      "event_type": "product_launch",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "economy"
+      ],
+      "summary": "Tether, a stablecoin issuer, is expanding its tokenization business to Saudi Arabia. This move aims to accelerate the Kingdom's digital economy shift and enhance its financial infrastructure.",
+      "why_it_matters": "This development has strategic implications for Saudi Arabia's financial sector, as it promotes the adoption of digital currencies and tokenization, which can enhance the efficiency and security of financial transactions.",
+      "verification_status": "reported",
+      "source_count": "2",
+      "_at": "2026-08-08T23:23:16.673267"
+    },
+    {
+      "title": "Saudi Arabia to cut Arab Light crude price in Asia",
+      "source": "Crypto Briefing",
+      "source_tier": "2",
+      "time": "2026-08-07",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi, Asia",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Saudi Arabia plans to cut the price of Arab Light crude in Asia by 50 cents next month. This move may stabilize fiscal goals but could influence global oil market dynamics and regional economic policies.",
+      "why_it_matters": "This decision has strategic implications for Saudi Arabia's energy sector, as it affects the Kingdom's oil exports and revenue. It also reflects the ongoing efforts to balance fiscal goals with the need to maintain competitiveness in the global oil market.",
+      "verification_status": "reported",
+      "source_count": "1",
+      "_at": "2026-08-08T23:23:16.673269"
+    },
+    {
+      "title": "Saudi Aramco backs India's Mitti Labs for water-resilient rice farming",
+      "source": "TechCrunch",
+      "source_tier": "2",
+      "time": "2026-08-05",
+      "event_type": "funding",
+      "category": "business",
+      "geography": "Saudi, India",
+      "sector_tags": [
+        "agriculture",
+        "water_management"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "agriculture",
+        "environment"
+      ],
+      "summary": "Saudi Aramco has backed India's Mitti Labs to make Asia's rice farming more water-resilient. Mitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business.",
+      "why_it_matters": "This investment has strategic implications for Saudi Arabia's agricultural sector, as it promotes the adoption of water-resilient farming practices and enhances the Kingdom's food security.",
+      "verification_status": "reported",
+      "source_count": "1",
+      "_at": "2026-08-08T23:23:16.673271"
+    },
+    {
+      "title": "Saudi Arabia, Turkey, and Pakistan sign mutual defense pact",
+      "source": "RT, New York Post, The Times of India",
+      "source_tier": "2",
+      "time": "2026-08-07",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi, Gulf, Global",
+      "sector_tags": [
+        "oil_gas",
+        "petrochemicals",
+        "mining",
+        "renewable_energy",
+        "hydrogen",
+        "fintech",
+        "banking",
+        "insurance",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "security",
+        "economy"
+      ],
+      "summary": "Saudi Arabia, Turkey, and Pakistan have signed a mutual defense pact, fueling speculation about an 'Islamic NATO'. The pact stipulates that an attack on one would be regarded as an attack on all.",
+      "why_it_matters": "This pact has significant strategic consequences for Saudi Arabia, as it strengthens its alliances and enhances its defense capabilities in the face of growing regional tensions. It also underscores the importance of cooperation among regional powers in maintaining stability and security.",
+      "verification_status": "confirmed",
+      "source_count": "4",
+      "_at": "2026-08-08T23:23:16.673272"
+    },
+    {
       "title": "Saudi Arabia cuts main crude oil price again",
       "source": "Rigzone, Financial Post",
       "source_tier": 2,
@@ -2994,107 +3125,16 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-10T00:01:21.216717"
-    },
-    {
-      "title": "UAE Defense Budget Grows to $27.2 Billion in 2026",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-07-07",
-      "event_type": "funding",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "defense",
-        "economy"
-      ],
-      "summary": "The UAE defense market offers significant growth opportunities driven by geopolitical tensions and strategic regional positioning. The UAE defense budget is expected to grow to $39.4 billion by 2031. The budget focuses on military aircraft, missiles, and land vehicles.",
-      "why_it_matters": "This growth in defense budget may impact Saudi Arabia's own defense spending and regional security dynamics. It could also lead to increased competition for defense contracts and partnerships in the Gulf region.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-09T00:05:59.253031"
-    },
-    {
-      "title": "OPEC+ to Pump More Oil as Market Fears Shift from Shortage to Glut",
-      "source": "Fortune",
-      "source_tier": 2,
-      "time": "2026-07-07",
-      "event_type": "capacity_change",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "OPEC+ is extending its production increases as Gulf oil flows recover and prices cool. However, fears of a global glut are mounting as supply rises faster than demand.",
-      "why_it_matters": "This shift in oil production could impact Saudi Arabia's oil exports and revenue, as well as the global energy market. It may also lead to changes in Saudi Arabia's energy policy and investments in alternative energy sources.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-09T00:05:59.253042"
-    },
-    {
-      "title": "Gulf Sovereign Wealth Funds Invest $1.7 Billion in India in 2026",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-07-07",
-      "event_type": "funding",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "fintech",
-        "banking"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economy",
-        "finance"
-      ],
-      "summary": "Gulf sovereign funds invested $1.7 billion in India during the first half of 2026, despite geopolitical tensions and fears of reduced overseas deal appetite.",
-      "why_it_matters": "This investment could lead to increased economic cooperation between Saudi Arabia and India, as well as opportunities for Saudi businesses to expand into the Indian market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-09T00:05:59.253045"
-    },
-    {
-      "title": "Middle East BNPL Market to Skyrocket from USD 20.59 Billion in 2025 to USD 330.67 Billion by 2035",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-07-07",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Middle East",
-      "sector_tags": [
-        "fintech",
-        "banking"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance",
-        "economy"
-      ],
-      "summary": "The Middle East BNPL market is rapidly expanding, driven by youthful, digital-savvy consumers and supported by strong e-commerce growth. Major players like Tabby and Tamara are leveraging fintech innovation.",
-      "why_it_matters": "This growth in the BNPL market could lead to increased financial inclusion and access to credit for consumers in Saudi Arabia, as well as opportunities for Saudi fintech companies to expand their services.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-09T00:05:59.253047"
     }
   ],
-  "lastRefresh": "2026-08-07T23:30:08.796101",
+  "lastRefresh": "2026-08-08T23:24:01.850684",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 38,
     "radar_generated": 5,
-    "radar_confirmed": 3,
-    "radar_reported": 2,
+    "radar_confirmed": 2,
+    "radar_reported": 3,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
