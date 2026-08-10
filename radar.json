@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "title": "Iran-backed Houthis attack Aramco refinery in Saudi Arabia",
+      "source": "New York Post, Fortune",
+      "source_tier": 2,
+      "time": "2026-08-09",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "eastern_province"
+      ],
+      "affected_domains": [
+        "energy security",
+        "infrastructure"
+      ],
+      "summary": "The Iran-backed Houthi terrorist group attacked an Aramco oil refinery in Saudi Arabia, killing at least seven people. The attack highlights the ongoing security threats to Saudi Arabia's energy infrastructure.",
+      "why_it_matters": "This attack underscores the continued risks to Saudi Arabia's energy sector and the potential for further disruptions to global oil supplies.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-08-10T23:30:18.076049"
+    },
+    {
+      "title": "Saudi Arabia operator mulls 25-year Cape Town port deal",
+      "source": "Financial Post, News24",
+      "source_tier": 2,
+      "time": "2026-08-07",
+      "event_type": "partnership",
+      "category": "business",
+      "geography": "Saudi, Africa",
+      "sector_tags": [
+        "logistics"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "trade",
+        "infrastructure"
+      ],
+      "summary": "Saudi Arabian ports operator Red Sea Gateway Terminal is considering bidding for a 25-year concession to refurbish and operate a terminal at the Port of Cape Town.",
+      "why_it_matters": "This potential partnership could expand Saudi Arabia's logistics and trade capabilities, enhancing its position as a global trade hub and supporting the country's economic diversification goals.",
+      "verification_status": "confirmed",
+      "source_count": 2,
+      "_at": "2026-08-10T23:30:18.076062"
+    },
+    {
+      "title": "Ministry of Defense Health Services conducts first remote robotic surgery using advanced digital technologies",
+      "source": "Saudi Gazette",
+      "source_tier": 2,
+      "time": "2026-08-09",
+      "event_type": "scientific_result",
+      "category": "healthcare",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "healthcare services",
+        "medical technology"
+      ],
+      "summary": "The Ministry of Defense Health Services has successfully conducted the first remote robotic surgery using advanced digital technologies from stc group.",
+      "why_it_matters": "This achievement demonstrates Saudi Arabia's progress in adopting advanced medical technologies and enhancing its healthcare services, which could improve patient outcomes and support the country's healthcare sector development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-10T23:30:18.076064"
+    },
+    {
       "title": "Turkey, Pakistan, and Saudi Arabia form a defense pact",
       "source": "Al Jazeera English, Abcnews.com, Israelnationalnews.com",
       "source_tier": "T1, T2",
@@ -3007,140 +3075,23 @@
       "verification_status": "reported",
       "source_count": 2,
       "_at": "2026-07-11T23:51:07.116122"
-    },
-    {
-      "title": "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships",
-      "source": "Al Jazeera English",
-      "source_tier": 1,
-      "time": "2026-07-09",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "mining"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "mining"
-      ],
-      "summary": "Canadian Prime Minister Mark Carney visited Saudi Arabia to strengthen energy and mining partnerships. The visit aims to improve relations between the two countries after years of strained relations. Saudi Crown Prince Bin Salman and Carney discussed potential collaborations in the energy and mining sectors.",
-      "why_it_matters": "The strengthened partnership between Canada and Saudi Arabia could lead to increased investments in Saudi Arabia's energy and mining sectors, aligning with the country's Vision 2030 goals. This move may also enhance Saudi Arabia's position in the global energy market.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-10T23:55:12.441741"
-    },
-    {
-      "title": "Saudi Arabia's Humain partners with Cohere for sovereign AI models",
-      "source": "Crypto Briefing, CNA",
-      "source_tier": 2,
-      "time": "2026-07-09",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Saudi",
-      "sector_tags": [
-        "fintech",
-        "technology"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "AI",
-        "technology"
-      ],
-      "summary": "Saudi Arabia's Humain has partnered with Cohere to develop sovereign AI models with a 50 MW compute commitment. This partnership aims to accelerate AI innovation in the Middle East and enhance regional tech capabilities.",
-      "why_it_matters": "The partnership between Humain and Cohere could accelerate the development of AI technologies in Saudi Arabia, supporting the country's Vision 2030 goals. This move may also increase Saudi Arabia's competitiveness in the global AI market.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-07-10T23:55:12.441753"
-    },
-    {
-      "title": "Gulf companies to reveal financial impact of Iran war",
-      "source": "The Times of India, BusinessLine",
-      "source_tier": 2,
-      "time": "2026-07-09",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "banking",
-        "insurance",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance",
-        "economy"
-      ],
-      "summary": "Gulf companies will reveal the financial impact of the Iran war, which is expected to affect the banking and real estate sectors due to inflation and interest rate changes. Energy firms may also see price gains.",
-      "why_it_matters": "The financial impact of the Iran war on Gulf companies may have significant consequences for the regional economy, potentially affecting Saudi Arabia's economic stability and growth. This move may also influence the country's investment decisions and economic policies.",
-      "verification_status": "confirmed",
-      "source_count": 2,
-      "_at": "2026-07-10T23:55:12.441755"
-    },
-    {
-      "title": "Red Sea Global strengthens AMAALA's wellness offering with Six Senses AMAALA",
-      "source": "Financial Post",
-      "source_tier": 2,
-      "time": "2026-07-08",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism",
-        "hospitality"
-      ],
-      "region_tags": [
-        "red_sea"
-      ],
-      "affected_domains": [
-        "tourism",
-        "hospitality"
-      ],
-      "summary": "Red Sea Global has strengthened AMAALA's wellness offering with the opening of Six Senses AMAALA, reinforcing AMAALA's position as a comprehensive wellness destination. This move is expected to drive Saudi Arabia's tourism growth in line with Vision 2030.",
-      "why_it_matters": "The expansion of AMAALA's wellness offerings may attract more tourists to the region, supporting Saudi Arabia's goals to diversify its economy and develop its tourism sector. This move may also enhance the country's reputation as a luxury tourism destination.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-10T23:55:12.441757"
-    },
-    {
-      "title": "Saudi Arabia slashes crude oil price for Asia",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-07-08",
-      "event_type": "market_shift",
-      "category": "energy",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "oil"
-      ],
-      "summary": "Saudi Arabia has slashed the price of its crude oil for Asia, the most significant price cut in two decades. This move is expected to increase the country's market share in the region.",
-      "why_it_matters": "The price cut may help Saudi Arabia maintain its market share in Asia, supporting the country's oil export goals. This move may also influence the global oil market and impact the country's revenue.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-10T23:55:12.441758"
     }
   ],
-  "lastRefresh": "2026-08-09T23:26:31.808378",
+  "lastRefresh": "2026-08-10T23:30:32.794010",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 26,
+    "articles_to_model": 31,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 3,
+    "radar_reported": 2,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
-    "signals_generated": 5,
+    "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 0,
-    "signals_ksa_grounded": 5,
-    "plays_generated": 0,
-    "plays_ksa_grounded": 0
+    "signals_moderate": 2,
+    "signals_ksa_grounded": 3,
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }

@@ -1,6 +1,92 @@
 {
   "items": [
     {
+      "statement": "Regional security dynamics are shifting due to new alliances",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The joint defense pact between Saudi Arabia, Turkey, and Pakistan increases cooperation and reduces the risk of aggression",
+      "ksa_grounding": "This pact may lead to increased stability and reduced risk for Saudi Arabia's energy infrastructure, positively impacting the oil and gas sector",
+      "affected_sectors": [
+        "oil_gas",
+        "defense"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia, Turkey, and Pakistan sign joint defense pact",
+        "Iran-backed Houthis attack Aramco refinery in Saudi Arabia"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Turkey",
+        "Pakistan"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased regional stability and cooperation",
+      "downside": "Potential for increased tensions with other regional actors",
+      "first_order": "Reduced risk of aggression against Saudi Arabia",
+      "second_order": "Potential for increased investment in the oil and gas sector",
+      "invalidation": "A significant increase in attacks on Saudi Arabia's energy infrastructure despite the pact",
+      "_at": "2026-08-10T23:30:25.720238"
+    },
+    {
+      "statement": "Global oil market dynamics are shifting due to changes in Saudi Arabia's oil pricing strategy",
+      "change_type": "cost",
+      "change_vector": "cost_falling",
+      "mechanism": "The reduction in Arab Light crude price in Asia may influence global oil market dynamics and regional economic policies",
+      "ksa_grounding": "This move may stabilize fiscal goals for Saudi Arabia but could also impact the country's oil revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia to cut Arab Light crude price in Asia by 50 cents next month",
+        "Iran-backed Houthis attack Aramco refinery in Saudi Arabia"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "oil consumers in Asia"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased demand for Saudi oil in Asia",
+      "downside": "Potential for reduced oil revenue for Saudi Arabia",
+      "first_order": "Reduced oil price for consumers in Asia",
+      "second_order": "Potential for increased competition in the global oil market",
+      "invalidation": "A significant increase in global oil demand that outweighs the impact of the price reduction",
+      "_at": "2026-08-10T23:30:25.720251"
+    },
+    {
+      "statement": "Saudi Arabia's logistics sector is expanding due to new partnerships and investments",
+      "change_type": "infrastructure",
+      "change_vector": "infrastructure_expanding",
+      "mechanism": "The potential 25-year concession to refurbish and operate a terminal at the Port of Cape Town may increase Saudi Arabia's logistics capabilities",
+      "ksa_grounding": "This move may increase Saudi Arabia's trade and economic ties with Africa and enhance the country's position as a logistics hub",
+      "affected_sectors": [
+        "logistics"
+      ],
+      "affected_regions": [
+        "riyadh"
+      ],
+      "evidence": [
+        "Saudi Arabia operator mulls 25-year Cape Town port deal"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia",
+        "South Africa"
+      ],
+      "time_horizon": "3-5yr",
+      "upside": "Potential for increased trade and economic cooperation between Saudi Arabia and Africa",
+      "downside": "Potential for increased competition in the logistics sector",
+      "first_order": "Increased logistics capabilities for Saudi Arabia",
+      "second_order": "Potential for increased economic growth and diversification",
+      "invalidation": "The deal falls through or does not lead to significant increases in trade and economic cooperation",
+      "_at": "2026-08-10T23:30:25.720253"
+    },
+    {
       "statement": "Regulatory barrier to defense cooperation has reduced",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2451,66 +2537,7 @@
       "second_order": "Potential spillover effects on other sectors, such as infrastructure and logistics",
       "invalidation": "If regulatory barriers are re-imposed or partnerships do not materialize as expected",
       "_at": "2026-07-11T23:51:44.515392"
-    },
-    {
-      "statement": "Competition in the energy market is intensifying",
-      "change_type": "competition",
-      "change_vector": "competition_intensifying",
-      "mechanism": "Saudi Arabia's move to slash crude oil prices for Asia is increasing competition in the energy market",
-      "ksa_grounding": "This change will specifically impact Saudi Arabia's economy by potentially increasing market share in the Asian region, but also putting pressure on profit margins",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Saudi Arabia slashes crude oil price for Asia",
-        "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Saudi Aramco",
-        "International energy companies"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential increase in market share in Asia",
-      "downside": "Potential decrease in profit margins due to price cuts",
-      "first_order": "Direct impact on energy prices and market share",
-      "second_order": "Downstream effects on related sectors such as petrochemicals and mining",
-      "invalidation": "A significant increase in global energy demand that outweighs the effects of price cuts",
-      "_at": "2026-07-10T23:55:49.764127"
-    },
-    {
-      "statement": "Tourism growth is accelerating",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Investments in tourism infrastructure, such as the opening of Six Senses AMAALA, are driving growth in the tourism sector",
-      "ksa_grounding": "This change will specifically impact Saudi Arabia's economy by increasing tourism revenue and creating jobs, aligning with Vision 2030",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "red_sea"
-      ],
-      "evidence": [
-        "Red Sea Global strengthens AMAALA's wellness offering with Six Senses AMAALA",
-        "Canadian PM visits Saudi Arabia to strengthen energy, mining partnerships"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "Tourism companies",
-        "Local communities"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased tourism revenue and job creation",
-      "downside": "Potential environmental and cultural impacts of increased tourism",
-      "first_order": "Direct increase in tourism revenue",
-      "second_order": "Downstream effects on related sectors such as hospitality and entertainment",
-      "invalidation": "A significant decline in global tourism demand or a major setback in Saudi Arabia's tourism infrastructure development",
-      "_at": "2026-07-10T23:55:49.764137"
     }
   ],
-  "lastRefresh": "2026-08-09T23:26:31.811260"
+  "lastRefresh": "2026-08-10T23:30:32.796876"
 }
