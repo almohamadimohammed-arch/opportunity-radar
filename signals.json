@@ -1,6 +1,93 @@
 {
   "items": [
     {
+      "statement": "Regional security concerns are increasing",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Houthi drone attacks and geopolitical tensions are raising concerns about the security of Saudi Arabia's oil infrastructure",
+      "ksa_grounding": "This affects Saudi Arabia's economy by potentially disrupting oil production and exports, which could have a negative impact on the country's revenue",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Houthi drone attack targets Saudi Aramco's Jazan oil refinery",
+        "Erdogan and Saudi Crown Prince discuss Houthi attacks and Red Sea security"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "Saudi government"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased cooperation in defense and security matters",
+      "downside": "Potential disruption to oil production and exports",
+      "first_order": "Direct impact on oil production and exports",
+      "second_order": "Potential impact on Saudi Arabia's revenue and economic growth",
+      "invalidation": "A significant decrease in Houthi attacks and a stabilization of regional tensions",
+      "_at": "2026-08-11T23:35:18.549978"
+    },
+    {
+      "statement": "Investor confidence in the Gulf's energy sector is growing",
+      "change_type": "trust",
+      "change_vector": "trust_rising",
+      "mechanism": "Large investments in the region's energy infrastructure, such as the $16B deal for a Kuwait pipeline stake, are indicating growing confidence in the sector",
+      "ksa_grounding": "This affects Saudi Arabia's economy by potentially attracting more investments in the country's energy sector, which could lead to increased economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Brookfield, KKR, and Blackstone strike $16B deal for Kuwait pipeline stake",
+        "Saudi Arabia signs joint defense agreement with Pakistan and Turkey"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Investors",
+        "Energy companies"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential increase in investments and economic growth",
+      "downside": "Potential risk of over-investment in a single sector",
+      "first_order": "Direct impact on investments in the energy sector",
+      "second_order": "Potential impact on Saudi Arabia's economic diversification and growth",
+      "invalidation": "A significant decrease in investments in the Gulf's energy sector",
+      "_at": "2026-08-11T23:35:18.549988"
+    },
+    {
+      "statement": "Saudi Arabia's oil production and exports are facing disruptions",
+      "change_type": "supply",
+      "change_vector": "supply_tighter",
+      "mechanism": "Houthi drone attacks and delays in refinery restarts are causing disruptions to Saudi Arabia's oil production and exports",
+      "ksa_grounding": "This affects Saudi Arabia's economy by potentially reducing the country's oil revenue and impacting its economic growth",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "jeddah",
+        "eastern_province"
+      ],
+      "evidence": [
+        "Houthi drone attack targets Saudi Aramco's Jazan oil refinery",
+        "Saudi Arabia delays Jazan oil refinery restart to August 30"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Aramco",
+        "Saudi government"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential increase in global oil prices",
+      "downside": "Potential decrease in Saudi Arabia's oil revenue and economic growth",
+      "first_order": "Direct impact on oil production and exports",
+      "second_order": "Potential impact on Saudi Arabia's economic growth and revenue",
+      "invalidation": "A significant increase in Saudi Arabia's oil production and exports",
+      "_at": "2026-08-11T23:35:18.550007"
+    },
+    {
       "statement": "Regional security dynamics are shifting due to new alliances",
       "change_type": "regulation",
       "change_vector": "regulation_opening",
@@ -2453,91 +2540,7 @@
       "second_order": "Potential growth in Saudi Arabia's economy through increased investment in technology and innovation",
       "invalidation": "A return to traditional investment strategies by sovereign wealth funds",
       "_at": "2026-07-12T23:49:53.320019"
-    },
-    {
-      "statement": "Global oil supply has loosened",
-      "change_type": "supply",
-      "change_vector": "supply_looser",
-      "mechanism": "Increased oil production from the UAE and reduced production forecast for Russia",
-      "ksa_grounding": "This could lead to decreased oil prices, affecting Saudi Arabia's oil revenue and potentially prompting strategic shifts in the country's energy sector",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "UAE Oil Production Hits Record 4.1 Million Barrels Per Day",
-        "IEA Cuts Russia's Oil Production Forecast"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "OPEC members",
-        "oil-producing countries"
-      ],
-      "time_horizon": "now",
-      "upside": "Potential decrease in oil prices, benefiting oil-importing countries",
-      "downside": "Potential destabilization of global oil prices, affecting oil-exporting countries' revenue",
-      "first_order": "Direct impact on global oil supply",
-      "second_order": "Potential strategic shifts among OPEC members and oil-producing countries",
-      "invalidation": "If OPEC members successfully counterbalance the increased UAE production and Russia's production forecast is revised upwards",
-      "_at": "2026-07-11T23:51:44.515380"
-    },
-    {
-      "statement": "Saudi Arabia's tourism sector is experiencing growth",
-      "change_type": "demand",
-      "change_vector": "demand_up",
-      "mechanism": "Investments in tourism infrastructure and development of wellness destinations",
-      "ksa_grounding": "This growth aligns with Saudi Arabia's Vision 2030 tourism goals, contributing to the country's economic diversification",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "red_sea"
-      ],
-      "evidence": [
-        "Red Sea Global Strengthens AMAALA's Wellness Offering",
-        "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "tourism companies",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in tourism revenue, contributing to Saudi Arabia's economic growth",
-      "downside": "Potential over-reliance on tourism sector, making the economy vulnerable to external shocks",
-      "first_order": "Direct impact on Saudi Arabia's tourism sector",
-      "second_order": "Potential spillover effects on other sectors, such as hospitality and entertainment",
-      "invalidation": "If tourism growth slows down due to external factors, such as global economic downturn or regional instability",
-      "_at": "2026-07-11T23:51:44.515390"
-    },
-    {
-      "statement": "Regulatory barriers to energy and mining partnerships between Canada and Saudi Arabia have reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Strengthened bilateral partnerships and investments",
-      "ksa_grounding": "This reduction in regulatory barriers can lead to increased trade and investment between Canada and Saudi Arabia, benefiting Saudi Arabia's energy and mining sectors",
-      "affected_sectors": [
-        "oil_gas",
-        "mining"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "Canadian and Saudi Arabian companies",
-        "investors"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Potential increase in trade and investment between Canada and Saudi Arabia",
-      "downside": "Potential risks associated with increased reliance on foreign investments",
-      "first_order": "Direct impact on energy and mining partnerships",
-      "second_order": "Potential spillover effects on other sectors, such as infrastructure and logistics",
-      "invalidation": "If regulatory barriers are re-imposed or partnerships do not materialize as expected",
-      "_at": "2026-07-11T23:51:44.515392"
     }
   ],
-  "lastRefresh": "2026-08-10T23:30:32.796876"
+  "lastRefresh": "2026-08-11T23:35:26.401736"
 }

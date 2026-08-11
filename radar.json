@@ -1,6 +1,120 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia signs joint defense agreement with Pakistan and Turkey",
+      "source": "Globalresearch.ca",
+      "source_tier": 2,
+      "time": "2026-08-07",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "security"
+      ],
+      "summary": "Saudi Arabia, Pakistan, and Turkey have signed a joint defense agreement, marking a significant shift in regional alliances. The agreement aims to enhance cooperation in defense and security matters. This move is seen as a response to the growing tensions in the region, particularly with Iran.",
+      "why_it_matters": "This agreement has significant strategic consequences for Saudi Arabia, as it strengthens its alliances with key regional players and enhances its defense capabilities. It also reflects a shift in Saudi Arabia's foreign policy, as it seeks to diversify its alliances and reduce its dependence on the US.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-11T23:35:11.182365"
+    },
+    {
+      "title": "Houthi drone attack targets Saudi Aramco's Jazan oil refinery",
+      "source": "Naturalnews.com",
+      "source_tier": 2,
+      "time": "2026-08-10",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "jazan"
+      ],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "A Houthi drone attack has targeted Saudi Aramco's Jazan oil refinery, causing a significant disruption to the country's oil production. The attack has raised concerns about the security of Saudi Arabia's oil infrastructure.",
+      "why_it_matters": "This attack has significant strategic consequences for Saudi Arabia, as it highlights the vulnerability of its oil infrastructure to Houthi attacks. It also underscores the need for Saudi Arabia to enhance its defense capabilities and strengthen its alliances with key regional players.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-11T23:35:11.182376"
+    },
+    {
+      "title": "Saudi Arabia delays Jazan oil refinery restart to August 30",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-08-10",
+      "event_type": "capacity_change",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "jazan"
+      ],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Saudi Arabia has delayed the restart of its Jazan oil refinery to August 30, following a Houthi drone attack that caused significant damage to the facility. The delay is expected to impact Saudi Arabia's oil production and exports.",
+      "why_it_matters": "This delay has significant strategic consequences for Saudi Arabia, as it highlights the vulnerability of its oil infrastructure to Houthi attacks. It also underscores the need for Saudi Arabia to enhance its defense capabilities and strengthen its alliances with key regional players.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-11T23:35:11.182378"
+    },
+    {
+      "title": "Erdogan and Saudi Crown Prince discuss Houthi attacks and Red Sea security",
+      "source": "Khaama.com",
+      "source_tier": 2,
+      "time": "2026-08-10",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "defense",
+        "security"
+      ],
+      "summary": "Erdogan and Saudi Crown Prince Mohammed bin Salman have discussed Houthi attacks and Red Sea security, highlighting the growing concerns about regional stability. The two leaders have agreed to enhance cooperation in defense and security matters.",
+      "why_it_matters": "This discussion has significant strategic consequences for Saudi Arabia, as it reflects a growing concern about regional stability and the need for enhanced cooperation with key regional players. It also underscores the importance of the Red Sea as a critical shipping route for Saudi Arabia's oil exports.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-11T23:35:11.182379"
+    },
+    {
+      "title": "Brookfield, KKR, and Blackstone strike $16B deal for Kuwait pipeline stake",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-10",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Gulf",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy",
+        "economy"
+      ],
+      "summary": "Brookfield, KKR, and Blackstone have struck a $16B deal for a stake in a Kuwait pipeline, marking a significant investment in the region's energy infrastructure. The deal reflects growing confidence in the Gulf's energy sector.",
+      "why_it_matters": "This deal has significant strategic consequences for Saudi Arabia, as it reflects growing confidence in the Gulf's energy sector and highlights the importance of regional cooperation in energy infrastructure development. It also underscores the need for Saudi Arabia to enhance its own energy infrastructure and diversify its economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-11T23:35:11.182381"
+    },
+    {
       "title": "Iran-backed Houthis attack Aramco refinery in Saudi Arabia",
       "source": "New York Post, Fortune",
       "source_tier": 2,
@@ -2962,136 +3076,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-12T23:49:15.639358"
-    },
-    {
-      "title": "Canada and Saudi Arabia Strengthen Energy and Mining Partnerships",
-      "source": "Al Jazeera English",
-      "source_tier": 1,
-      "time": "2026-07-09",
-      "event_type": "partnership",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "mining"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "mining"
-      ],
-      "summary": "Canadian Prime Minister Mark Carney visited Saudi Arabia to strengthen energy and mining partnerships. The visit aims to deepen bilateral trade and investment between the two nations. Saudi Arabian investors are interested in Canadian energy, mining, and infrastructure.",
-      "why_it_matters": "This partnership can enhance Saudi Arabia's energy and mining sectors, aligning with Vision 2030 goals. It also signals a strengthening of diplomatic relations between Canada and Saudi Arabia.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-11T23:51:07.116106"
-    },
-    {
-      "title": "UAE Oil Production Hits Record 4.1 Million Barrels Per Day",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "capacity_change",
-      "category": "business",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "The UAE's oil production has reached a record 4.1 million barrels per day after its exit from OPEC. This surge in production could destabilize global oil prices and prompt strategic shifts among remaining OPEC members.",
-      "why_it_matters": "This development can impact Saudi Arabia's oil production and pricing strategies, as well as its relations with other OPEC members. It may also influence global energy market dynamics.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-11T23:51:07.116117"
-    },
-    {
-      "title": "Gulf Companies Reveal Unequal Toll of Iran War",
-      "source": "BusinessLine",
-      "source_tier": 2,
-      "time": "2026-07-09",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "banking",
-        "real estate"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economy",
-        "finance"
-      ],
-      "summary": "Gulf companies will reveal the regional financial impact of the Iran war, with banks and real estate sectors facing challenges due to inflation and interest rate changes. Energy firms have seen price gains.",
-      "why_it_matters": "The economic implications of the Iran war can affect Saudi Arabia's financial stability and growth, particularly in the banking and real estate sectors. This may require strategic adjustments to mitigate potential risks.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-07-11T23:51:07.116119"
-    },
-    {
-      "title": "Red Sea Global Strengthens AMAALA's Wellness Offering",
-      "source": "Financial Post",
-      "source_tier": 2,
-      "time": "2026-07-08",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism",
-        "hospitality"
-      ],
-      "region_tags": [
-        "red_sea"
-      ],
-      "affected_domains": [
-        "tourism",
-        "healthcare"
-      ],
-      "summary": "Red Sea Global has opened the Six Senses AMAALA resort, reinforcing AMAALA's position as a comprehensive wellness destination. This development aligns with Saudi Arabia's Vision 2030 tourism growth goals.",
-      "why_it_matters": "This investment can enhance Saudi Arabia's tourism sector, particularly in the Red Sea region, and contribute to the country's economic diversification efforts.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-11T23:51:07.116121"
-    },
-    {
-      "title": "IEA Cuts Russia's Oil Production Forecast",
-      "source": "OilPrice.com",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "capacity_change",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "The International Energy Agency (IEA) has lowered Russia's oil production forecast for 2026 and 2027 due to intensified Ukrainian drone attacks on Russia's energy infrastructure.",
-      "why_it_matters": "This forecast reduction can impact global oil market dynamics and influence Saudi Arabia's oil production and pricing strategies, as well as its relations with other oil-producing nations.",
-      "verification_status": "reported",
-      "source_count": 2,
-      "_at": "2026-07-11T23:51:07.116122"
     }
   ],
-  "lastRefresh": "2026-08-10T23:30:32.794010",
+  "lastRefresh": "2026-08-11T23:35:26.398876",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 31,
+    "articles_to_model": 35,
     "radar_generated": 5,
-    "radar_confirmed": 3,
-    "radar_reported": 2,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

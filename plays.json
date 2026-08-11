@@ -1,6 +1,65 @@
 {
   "items": [
     {
+      "title": "Enhanced Oil Infrastructure Security",
+      "play_type": "infrastructure_play",
+      "actor": "Saudi Aramco, Saudi government",
+      "customer": "Saudi Arabia's oil industry",
+      "problem": "Disruptions to oil production and exports due to regional security concerns",
+      "action_path": "Implement advanced security measures such as drone detection systems and cybersecurity protocols to protect oil infrastructure. Collaborate with international security experts to share best practices. Invest in research and development of new security technologies.",
+      "entry_mode": "build",
+      "monetization": "Reduced risk of disruptions to oil production and exports, resulting in increased revenue and economic growth",
+      "capabilities": "Advanced security systems, cybersecurity expertise, international collaboration",
+      "barriers": "High costs of implementation, potential technological limitations",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regional security concerns are increasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "eastern_province"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by addressing the country's reliance on oil exports and the need to protect its critical infrastructure",
+      "assumptions": "The threat of Houthi drone attacks and geopolitical tensions will continue, and the implementation of advanced security measures will be effective in mitigating these risks",
+      "invalidation": "A significant decrease in Houthi attacks and a stabilization of regional tensions, rendering the investment in advanced security measures unnecessary",
+      "_at": "2026-08-11T23:35:26.398757"
+    },
+    {
+      "title": "Investment in Gulf Energy Infrastructure",
+      "play_type": "market_entry_play",
+      "actor": "International investors, Saudi government",
+      "customer": "Gulf energy sector",
+      "problem": "Limited investment in the Gulf's energy sector",
+      "action_path": "Encourage foreign investment in the Gulf's energy sector through attractive investment opportunities and incentives. Develop strategic partnerships with international energy companies to enhance the sector's competitiveness. Invest in research and development of new energy technologies.",
+      "entry_mode": "invest",
+      "monetization": "Increased foreign investment, job creation, and economic growth",
+      "capabilities": "Attractive investment opportunities, strategic partnerships, research and development capabilities",
+      "barriers": "Geopolitical risks, competition from other energy-producing regions",
+      "timing": "prepare now",
+      "action_posture": "Invest",
+      "linked_signals": [
+        "Investor confidence in the Gulf's energy sector is growing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "This play connects to Saudi market structure by leveraging the country's strategic location and energy resources to attract foreign investment and drive economic growth",
+      "assumptions": "The growth in investor confidence will continue, and the Gulf energy sector will remain competitive",
+      "invalidation": "A significant decrease in investments in the Gulf's energy sector, indicating a loss of confidence in the region",
+      "_at": "2026-08-11T23:35:26.398767"
+    },
+    {
       "title": "Saudi Energy Infrastructure Security Enhancement",
       "play_type": "defensive_play",
       "actor": "Saudi Arabian government and defense sector companies",
@@ -2050,96 +2109,7 @@
       "assumptions": "Sovereign wealth funds will continue to prioritize national strategic goals, and Saudi Arabian technology and innovation companies will be able to adapt to changing market conditions",
       "invalidation": "A return to traditional investment strategies by sovereign wealth funds",
       "_at": "2026-07-12T23:50:30.855978"
-    },
-    {
-      "title": "Diversify Energy Revenue Streams",
-      "play_type": "business_play",
-      "actor": "Saudi Aramco",
-      "customer": "Saudi Government",
-      "problem": "Decreased oil prices affecting Saudi Arabia's oil revenue",
-      "action_path": "Invest in renewable energy sources and petrochemicals to reduce dependence on oil exports. Develop strategic partnerships with international companies to enhance capabilities. Enhance research and development in energy efficiency and sustainability.",
-      "entry_mode": "invest",
-      "monetization": "Increased revenue from diversified energy sources",
-      "capabilities": "Renewable energy production, petrochemical manufacturing, research and development",
-      "barriers": "High initial investment costs, technological challenges",
-      "timing": "enter now",
-      "action_posture": "Invest",
-      "linked_signals": [
-        "Global oil supply has loosened"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "renewable_energy",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "riyadh"
-      ],
-      "ksa_grounding": "Diversification of energy revenue streams aligns with Saudi Arabia's Vision 2030 goals",
-      "assumptions": "Saudi Arabia will continue to prioritize economic diversification, global demand for renewable energy will increase",
-      "invalidation": "If oil prices rebound significantly, reducing the need for diversification",
-      "_at": "2026-07-11T23:52:22.193504"
-    },
-    {
-      "title": "Develop Tourism Infrastructure",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi Tourism Authority",
-      "customer": "Tourists and hospitality businesses",
-      "problem": "Limited tourism infrastructure hindering sector growth",
-      "action_path": "Develop and invest in tourism infrastructure such as hotels, resorts, and transportation systems. Enhance tourist attractions and experiences. Foster partnerships with international tourism companies to bring in expertise and investment.",
-      "entry_mode": "build",
-      "monetization": "Increased tourism revenue and job creation",
-      "capabilities": "Infrastructure development, project management, marketing and promotion",
-      "barriers": "High development costs, regulatory challenges",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Saudi Arabia's tourism sector is experiencing growth"
-      ],
-      "sector": "tourism",
-      "relevant_sectors": [
-        "hospitality",
-        "entertainment"
-      ],
-      "relevant_regions": [
-        "jeddah",
-        "makkah",
-        "madinah"
-      ],
-      "ksa_grounding": "Tourism development aligns with Saudi Arabia's Vision 2030 tourism goals",
-      "assumptions": "Tourism growth will continue, government support for tourism development will remain strong",
-      "invalidation": "If global economic downturn or regional instability affects tourism demand",
-      "_at": "2026-07-11T23:52:22.193514"
-    },
-    {
-      "title": "Enhance Energy Efficiency",
-      "play_type": "research_play",
-      "actor": "Saudi Research Institutions",
-      "customer": "Energy companies and government agencies",
-      "problem": "Inefficient energy use affecting Saudi Arabia's energy sector",
-      "action_path": "Conduct research and development in energy efficiency and sustainability. Collaborate with international research institutions to leverage expertise and technologies. Develop and implement energy-efficient solutions for buildings and industries.",
-      "entry_mode": "invest",
-      "monetization": "Reduced energy consumption and costs, increased competitiveness",
-      "capabilities": "Research and development, energy auditing and consulting",
-      "barriers": "Limited funding, technological challenges",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Global oil supply has loosened"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "renewable_energy",
-        "energy_efficiency"
-      ],
-      "relevant_regions": [
-        "riyadh"
-      ],
-      "ksa_grounding": "Energy efficiency enhancements align with Saudi Arabia's Vision 2030 sustainability goals",
-      "assumptions": "Energy efficiency will become increasingly important for Saudi Arabia's energy sector, international cooperation will be available",
-      "invalidation": "If energy prices remain low, reducing the incentive for energy efficiency",
-      "_at": "2026-07-11T23:52:22.193516"
     }
   ],
-  "lastRefresh": "2026-08-10T23:30:32.799001"
+  "lastRefresh": "2026-08-11T23:35:26.403928"
 }
