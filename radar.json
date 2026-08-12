@@ -1,6 +1,121 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia imports construction sand from Australia and Scotland due to the smoothness of its desert sand",
+      "source": "Space Daily",
+      "source_tier": 1,
+      "time": "2026-08-09",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "mining"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "construction",
+        "trade"
+      ],
+      "summary": "Saudi Arabia imports construction sand from Australia and Scotland because its desert sand is too smooth for use in concrete. The country's desert sand has been polished by thousands of years of wind erosion, making it unsuitable for modern construction. Saudi Arabia is the world's largest sand desert, yet it still relies on imports for construction purposes.",
+      "why_it_matters": "This highlights the limitations of Saudi Arabia's natural resources and its reliance on international trade for construction materials, which could impact the country's infrastructure development and economic growth.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-12T23:36:14.729780"
+    },
+    {
+      "title": "Trump's foreign licensing business booms to $59.5 million, with significant contributions from Gulf developers",
+      "source": "CNBC",
+      "source_tier": 1,
+      "time": "2026-08-10",
+      "event_type": "company_move",
+      "category": "business",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "capital_markets"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "real estate",
+        "licensing"
+      ],
+      "summary": "Trump's foreign licensing business has seen significant growth, with nearly two-thirds of the revenue coming from Gulf developers in the UAE and Qatar. One of these developers is planning a $20 billion expansion in the US.",
+      "why_it_matters": "This development could have implications for Saudi Arabia's business relationships with the US and the Gulf region, particularly in the context of Trump's dealings with Gulf developers.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-12T23:36:14.729791"
+    },
+    {
+      "title": "Mecca Pact between Saudi Arabia, T\u00fcrkiye, and Pakistan could redefine the Indo-Pacific region's security landscape",
+      "source": "The Times of India",
+      "source_tier": 2,
+      "time": "2026-08-11",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "security",
+        "diplomacy"
+      ],
+      "summary": "The Mecca Pact between Saudi Arabia, T\u00fcrkiye, and Pakistan has the potential to reshape the security landscape of the Indo-Pacific region. This alliance could have significant implications for India and other regional players.",
+      "why_it_matters": "This development could impact Saudi Arabia's relationships with other countries in the region and its position in the global security landscape, potentially affecting its oil and energy interests.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-12T23:36:14.729794"
+    },
+    {
+      "title": "Saudi Arabia's Buy Now Pay Later (BNPL) services market is expected to grow, with key players including Tamara, Tabby, and Spotii",
+      "source": "GlobeNewswire",
+      "source_tier": 2,
+      "time": "2026-08-10",
+      "event_type": "market_shift",
+      "category": "business",
+      "geography": "Saudi",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "e-commerce",
+        "finance"
+      ],
+      "summary": "The BNPL services market in Saudi Arabia is expected to experience significant growth, with key players such as Tamara, Tabby, and Spotii driving the market forward. This growth is driven by increasing demand for digital payment solutions.",
+      "why_it_matters": "This development highlights the growing importance of fintech and digital payment solutions in Saudi Arabia, which could have implications for the country's financial sector and economic development.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-12T23:36:14.729795"
+    },
+    {
+      "title": "Ministry of Defense Health Services conducts first remote robotic surgery using advanced digital technologies from stc group",
+      "source": "Saudi Gazette",
+      "source_tier": 2,
+      "time": "2026-08-09",
+      "event_type": "scientific_result",
+      "category": "science",
+      "geography": "Saudi",
+      "sector_tags": [
+        "healthcare",
+        "biotech"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "medicine",
+        "technology"
+      ],
+      "summary": "The Ministry of Defense Health Services has successfully conducted the first remote robotic surgery in Saudi Arabia, utilizing advanced digital technologies provided by the stc group. This achievement demonstrates the country's growing capabilities in medical technology and innovation.",
+      "why_it_matters": "This development highlights Saudi Arabia's advancements in medical technology and its potential to improve healthcare services, which could have significant implications for the country's healthcare sector and quality of life.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-12T23:36:14.729797"
+    },
+    {
       "title": "Saudi Arabia signs joint defense agreement with Pakistan and Turkey",
       "source": "Globalresearch.ca",
       "source_tier": 2,
@@ -2921,168 +3036,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-13T23:51:09.159478"
-    },
-    {
-      "title": "IEA Cuts Russia's Oil Production Forecast Due to Ukrainian Attacks",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "capacity_change",
-      "category": "energy",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "The International Energy Agency (IEA) has cut Russia's oil production forecast for 2026 and 2027 due to intensified Ukrainian drone attacks on Russia's energy infrastructure.",
-      "why_it_matters": "This reduction in oil production could lead to increased global demand for Saudi Arabian oil, potentially benefiting the country's economy and energy sector.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639333"
-    },
-    {
-      "title": "UAE Oil Production Hits Record 4.1 Million Barrels Per Day After OPEC Exit",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "capacity_change",
-      "category": "energy",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy"
-      ],
-      "summary": "The UAE's oil production has surged to a record 4.1 million barrels per day after exiting OPEC, which could destabilize global oil prices and prompt strategic shifts among remaining OPEC members.",
-      "why_it_matters": "This increase in UAE oil production could lead to increased competition for Saudi Arabian oil exports, potentially affecting the country's energy sector and economy.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639346"
-    },
-    {
-      "title": "Saudis Eye Canadian Assets as Investment Fund Accepts Carney's Invite to Toronto",
-      "source": "Financial Post",
-      "source_tier": 2,
-      "time": "2026-07-09",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "oil_gas",
-        "mining"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "mining"
-      ],
-      "summary": "Saudi Arabian investors are interested in Canadian energy, mining, and infrastructure assets, and have accepted an invitation to visit Toronto.",
-      "why_it_matters": "This investment could lead to increased cooperation and investment in the energy and mining sectors, benefiting Saudi Arabia's economy and contributing to the country's Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639349"
-    },
-    {
-      "title": "Booming Middle East Data Center Market to Reach $7+ Billion by 2031",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-07-09",
-      "event_type": "market_shift",
-      "category": "technology",
-      "geography": "Middle East",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "finance"
-      ],
-      "summary": "The Middle East data center market is expected to reach $7+ billion by 2031, driven by increasing demand for data sovereignty and localized data centers.",
-      "why_it_matters": "This growth in the data center market could lead to increased investment and job creation in the technology and finance sectors, contributing to Saudi Arabia's economic diversification and Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639351"
-    },
-    {
-      "title": "US Eases Export Controls on Advanced Chips and Drones for UAE",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "regulation",
-      "category": "technology",
-      "geography": "Gulf",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology",
-        "finance"
-      ],
-      "summary": "The US has eased export controls on advanced chips and drones for the UAE, strengthening tech ties and potentially boosting the AI and crypto sectors.",
-      "why_it_matters": "This policy shift could lead to increased cooperation and investment in the technology and finance sectors, benefiting Saudi Arabia's economy and contributing to the country's Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639352"
-    },
-    {
-      "title": "Deem Global Raises $1B as Abu Dhabi Sovereign Wealth Capital Floods into Macro Hedge Funds",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "funding",
-      "category": "finance",
-      "geography": "Gulf",
-      "sector_tags": [
-        "banking",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance"
-      ],
-      "summary": "Deem Global has raised $1B as Abu Dhabi sovereign wealth capital floods into macro hedge funds, signaling a strategic shift in investment trends and market dynamics.",
-      "why_it_matters": "This influx of sovereign wealth into macro hedge funds could lead to increased investment and cooperation in the finance sector, benefiting Saudi Arabia's economy and contributing to the country's Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639354"
-    },
-    {
-      "title": "Sovereign Wealth Funds Pivot to Strategic Investments as AI Takes Center Stage",
-      "source": "The Times of India",
-      "source_tier": 2,
-      "time": "2026-07-10",
-      "event_type": "market_shift",
-      "category": "finance",
-      "geography": "Global",
-      "sector_tags": [
-        "banking",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance"
-      ],
-      "summary": "Sovereign wealth funds are increasingly prioritizing national strategic goals over pure financial returns, with artificial intelligence and semiconductors emerging as key investment areas.",
-      "why_it_matters": "This shift in investment strategy could lead to increased cooperation and investment in the technology and finance sectors, benefiting Saudi Arabia's economy and contributing to the country's Vision 2030 goals.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-12T23:49:15.639358"
     }
   ],
-  "lastRefresh": "2026-08-11T23:35:26.398876",
+  "lastRefresh": "2026-08-12T23:36:59.290248",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 35,
+    "articles_to_model": 34,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
