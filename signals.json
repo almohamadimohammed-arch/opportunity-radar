@@ -1,6 +1,90 @@
 {
   "items": [
     {
+      "statement": "Regulatory barrier to regional defense integration has reduced",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "The Mecca Joint Defence Agreement has created a new framework for regional defense cooperation, reducing regulatory barriers to integration",
+      "ksa_grounding": "This agreement strengthens Saudi Arabia's position in regional security frameworks, potentially increasing its influence and cooperation with other nations",
+      "affected_sectors": [
+        "defense"
+      ],
+      "affected_regions": [
+        "makkah"
+      ],
+      "evidence": [
+        "Mecca Joint Defence Agreement signed by Saudi Arabia, Turkey, and Pakistan"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Turkey",
+        "Pakistan"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Increased regional security cooperation and stability",
+      "downside": "Potential backlash from Western nations",
+      "first_order": "Increased defense cooperation between Saudi Arabia, Turkey, and Pakistan",
+      "second_order": "Potential expansion of the agreement to include other nations",
+      "invalidation": "The agreement is not ratified or implemented by the participating nations",
+      "_at": "2026-08-13T23:36:56.062434"
+    },
+    {
+      "statement": "Supply chain risk exposure in the oil and gas sector has increased",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "The Houthi attack and US strike on a ship trying to breach the Hormuz blockade have increased tensions and disrupted oil supply chains",
+      "ksa_grounding": "This increase in risk exposure may lead to higher costs and transit times for Saudi Arabian oil exports, potentially affecting the nation's economy",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Houthi attack kills six as US strikes ship trying to breach Hormuz blockade",
+        "Saudi Arabia ramps up oil exports via Mediterranean pipeline to avoid Red Sea attacks"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Houthi rebels",
+        "US"
+      ],
+      "time_horizon": "now",
+      "upside": "None",
+      "downside": "Increased costs and transit times for oil exports",
+      "first_order": "Disruption of oil supply chains",
+      "second_order": "Potential increase in oil prices",
+      "invalidation": "The Hormuz blockade is lifted or the Houthi attacks cease",
+      "_at": "2026-08-13T23:36:56.062444"
+    },
+    {
+      "statement": "Oil and gas supply has loosened",
+      "change_type": "supply",
+      "change_vector": "supply_looser",
+      "mechanism": "The Gulf ceasefire has held, allowing Saudi Arabia to increase oil production and exports",
+      "ksa_grounding": "This increase in oil production and exports may lead to increased revenue for Saudi Arabia and a more stable global oil market",
+      "affected_sectors": [
+        "oil_gas"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "Saudi Arabia reports 1M-barrel output rebound in July as Gulf ceasefire holds"
+      ],
+      "evidence_strength": "weak",
+      "affected_actors": [
+        "Saudi Arabia"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased revenue for Saudi Arabia and a more stable global oil market",
+      "downside": "Potential oversupply of oil in the global market",
+      "first_order": "Increase in oil production and exports",
+      "second_order": "Potential increase in global oil supply",
+      "invalidation": "The Gulf ceasefire does not hold or oil production decreases",
+      "_at": "2026-08-13T23:36:56.062446"
+    },
+    {
       "statement": "Infrastructure expansion in the construction sector",
       "change_type": "infrastructure",
       "change_vector": "infrastructure_expanding",
@@ -2420,66 +2504,7 @@
       "second_order": "Potential downstream effects on the country's economy and innovation ecosystem",
       "invalidation": "A significant decline in investment in Saudi Arabia's data center market, or a major disruption to the country's technology and innovation ecosystem",
       "_at": "2026-07-14T23:50:41.417448"
-    },
-    {
-      "statement": "Global energy supply has become tighter",
-      "change_type": "supply",
-      "change_vector": "supply_tighter",
-      "mechanism": "Reduced oil production and transportation disruptions",
-      "ksa_grounding": "This change can lead to increased oil prices, benefiting Saudi Arabia's oil export revenues",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Iran attacks five Gulf nations, shuts Hormuz after US bombing",
-        "UAE oil production hits record 4.1 million barrels per day after OPEC exit"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "oil producers",
-        "consumers"
-      ],
-      "time_horizon": "now",
-      "upside": "Increased oil export revenues for Saudi Arabia",
-      "downside": "Potential risks associated with increased global energy prices",
-      "first_order": "Reduced oil production and transportation disruptions",
-      "second_order": "Increased energy prices, leading to reduced consumer spending and economic growth",
-      "invalidation": "If the Strait of Hormuz is reopened and oil production returns to normal levels",
-      "_at": "2026-07-13T23:51:16.455005"
-    },
-    {
-      "statement": "Competition in the AI sector has intensified",
-      "change_type": "competition",
-      "change_vector": "competition_intensifying",
-      "mechanism": "Increased investment in AI capabilities by companies",
-      "ksa_grounding": "This change can lead to improved AI services and lower costs for Saudi businesses and consumers",
-      "affected_sectors": [
-        "fintech",
-        "edtech"
-      ],
-      "affected_regions": [
-        "riyadh"
-      ],
-      "evidence": [
-        "TCS expands AI push by taking on more model & inference costs",
-        "HDFC Bank bets big on AI with in-house GenAI platform 'Neev'"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "AI companies",
-        "consumers"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Improved AI services and lower costs for Saudi businesses and consumers",
-      "downside": "Potential risks associated with increased competition, such as job displacement",
-      "first_order": "Increased investment in AI capabilities by companies",
-      "second_order": "Improved AI services, leading to increased productivity and efficiency for Saudi businesses",
-      "invalidation": "If companies reduce their investment in AI capabilities",
-      "_at": "2026-07-13T23:51:16.455016"
     }
   ],
-  "lastRefresh": "2026-08-12T23:36:59.292451"
+  "lastRefresh": "2026-08-13T23:37:03.195698"
 }

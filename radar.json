@@ -1,6 +1,117 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia ramps up oil exports via Mediterranean pipeline to avoid Red Sea attacks",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-12",
+      "event_type": "infrastructure_disruption",
+      "category": "energy",
+      "geography": "Saudi Arabia",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy_security",
+        "global_markets"
+      ],
+      "summary": "Saudi Arabia is increasing oil exports through the Mediterranean pipeline to avoid attacks in the Red Sea. This move highlights vulnerabilities in global oil supply chains and may increase costs and transit times for Asian markets.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's energy security and global market influence, as it seeks to maintain oil exports despite regional tensions.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-13T23:36:18.633932"
+    },
+    {
+      "title": "Mecca Joint Defence Agreement signed by Saudi Arabia, Turkey, and Pakistan",
+      "source": "Sputnikglobe.com",
+      "source_tier": 2,
+      "time": "2026-08-12",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Middle East",
+      "sector_tags": [
+        "defense"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "regional_security",
+        "global_politics"
+      ],
+      "summary": "The Mecca Joint Defence Agreement has been signed by Saudi Arabia, Turkey, and Pakistan, challenging Western-led security frameworks in the region.",
+      "why_it_matters": "This agreement has significant strategic consequences for Saudi Arabia's regional security and global alliances, as it potentially shifts the balance of power in the Middle East.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-13T23:36:18.633946"
+    },
+    {
+      "title": "Dubai ranks second globally in AI adoption",
+      "source": "ComputerWeekly.com",
+      "source_tier": 2,
+      "time": "2026-08-12",
+      "event_type": "market_shift",
+      "category": "technology",
+      "geography": "UAE",
+      "sector_tags": [
+        "fintech",
+        "technology"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "digital_economy",
+        "innovation"
+      ],
+      "summary": "Dubai has been ranked second globally in AI adoption, with the emirate translating its artificial intelligence ambitions into large-scale deployment.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's own AI ambitions and digital economy, as it highlights the growing importance of technology adoption in the region.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-13T23:36:18.633948"
+    },
+    {
+      "title": "Saudi Arabia reports 1M-barrel output rebound in July as Gulf ceasefire holds",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-12",
+      "event_type": "capacity_change",
+      "category": "energy",
+      "geography": "Saudi Arabia",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "energy_security",
+        "global_markets"
+      ],
+      "summary": "Saudi Arabia has reported a 1M-barrel output rebound in July, as the Gulf ceasefire holds and oil production increases.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's energy security and global market influence, as it seeks to maintain oil exports and production levels.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-13T23:36:18.633949"
+    },
+    {
+      "title": "Houthi attack kills six as US strikes ship trying to breach Hormuz blockade",
+      "source": "Freerepublic.com",
+      "source_tier": 2,
+      "time": "2026-08-12",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Middle East",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "regional_security",
+        "global_markets"
+      ],
+      "summary": "A Houthi attack has killed six people, while the US has struck a ship trying to breach the Hormuz blockade, escalating tensions in the region.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's regional security and global market influence, as it highlights the ongoing risks to oil exports and regional stability.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-13T23:36:18.633952"
+    },
+    {
       "title": "Saudi Arabia imports construction sand from Australia and Scotland due to the smoothness of its desert sand",
       "source": "Space Daily",
       "source_tier": 1,
@@ -2947,102 +3058,13 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-14T23:50:04.236649"
-    },
-    {
-      "title": "Iran attacks five Gulf nations, shuts Hormuz after US bombing",
-      "source": "Al Jazeera English",
-      "source_tier": 1,
-      "time": "2026-07-12",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "security"
-      ],
-      "summary": "Iran has attacked five Gulf nations and shut down the Strait of Hormuz in response to a US bombing. The move is expected to have significant implications for global energy markets. The attack is part of an escalating conflict between Iran and the US.",
-      "why_it_matters": "This development has significant strategic consequences for Saudi Arabia, as it may impact the country's oil exports and energy security. The conflict between Iran and the US could also have broader implications for regional stability.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-13T23:51:09.159459"
-    },
-    {
-      "title": "New Riyadh fertility centre supports Saudi Vision 2030",
-      "source": "PR Newswire UK",
-      "source_tier": 2,
-      "time": "2026-07-12",
-      "event_type": "company_move",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "healthcare"
-      ],
-      "region_tags": [
-        "riyadh"
-      ],
-      "affected_domains": [
-        "health"
-      ],
-      "summary": "A new fertility centre has been established in Riyadh to support Saudi Vision 2030. The centre will provide advanced fertility treatments and services to patients in the region.",
-      "why_it_matters": "This development is significant for Saudi Arabia's healthcare sector, as it aligns with the country's vision to improve healthcare services and increase the quality of life for its citizens.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-13T23:51:09.159473"
-    },
-    {
-      "title": "TCS expands AI push by taking on more model & inference costs",
-      "source": "The Hindu Business Line",
-      "source_tier": 2,
-      "time": "2026-07-13",
-      "event_type": "company_move",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "edtech"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "technology"
-      ],
-      "summary": "Tata Consultancy Services (TCS) is expanding its artificial intelligence (AI) capabilities by taking on more model and inference costs. This move is expected to enhance the company's AI offerings and improve its competitiveness in the market.",
-      "why_it_matters": "This development may have strategic consequences for Saudi Arabia's fintech and edtech sectors, as TCS is a major player in these industries and its expanded AI capabilities could impact the country's digital transformation.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-13T23:51:09.159476"
-    },
-    {
-      "title": "HDFC Bank bets big on AI with in-house GenAI platform 'Neev'",
-      "source": "Business Today",
-      "source_tier": 2,
-      "time": "2026-07-11",
-      "event_type": "product_launch",
-      "category": "technology",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "banking"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "finance"
-      ],
-      "summary": "HDFC Bank has launched an in-house GenAI platform called 'Neev' to integrate AI across its customer service, lending, and operations. This move is expected to enhance the bank's digital capabilities and improve its customer experience.",
-      "why_it_matters": "This development may have strategic consequences for Saudi Arabia's fintech and banking sectors, as HDFC Bank is a major player in these industries and its AI-powered platform could impact the country's financial services landscape.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-13T23:51:09.159478"
     }
   ],
-  "lastRefresh": "2026-08-12T23:36:59.290248",
+  "lastRefresh": "2026-08-13T23:37:03.193459",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 34,
+    "articles_to_model": 33,
     "radar_generated": 5,
     "radar_confirmed": 0,
     "radar_reported": 5,
@@ -3050,9 +3072,9 @@
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 1,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
