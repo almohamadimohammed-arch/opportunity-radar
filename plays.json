@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "title": "Red Sea Defence Alliance Support",
+      "play_type": "policy_play",
+      "actor": "Saudi Arabian government and regional partners",
+      "customer": "Member states of the Red Sea defence alliance",
+      "problem": "Regional security and stability are crucial for economic growth, and the alliance aims to enhance these",
+      "action_path": "Provide strategic support to the Red Sea defence alliance, including sharing intelligence and coordinating military efforts. This can help to enhance regional security and stability, and create a more favorable business environment. Additionally, investing in diplomatic efforts can help to strengthen relationships with regional partners.",
+      "entry_mode": "partner",
+      "monetization": "Improved regional security and stability, resulting in increased economic cooperation and investment",
+      "capabilities": "Diplomatic expertise, military capabilities, intelligence sharing",
+      "barriers": "Difficulty in coordinating efforts among multiple countries, potential conflicts of interest",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Regional security and stability are increasing"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy",
+        "tourism"
+      ],
+      "relevant_regions": [
+        "red_sea",
+        "riyadh"
+      ],
+      "ksa_grounding": "The alliance aims to enhance regional security and stability, which could have positive impacts on Saudi Arabia's economy",
+      "assumptions": "The Red Sea defence alliance will be effective in enhancing regional security and stability, and member states will prioritize cooperation",
+      "invalidation": "The alliance fails to achieve its goals or collapses, or a significant decrease in regional tensions",
+      "_at": "2026-08-15T23:16:24.757477"
+    },
+    {
       "title": "Fintech Integration Opportunity",
       "play_type": "market_entry_play",
       "actor": "Fintech companies",
@@ -2082,68 +2113,7 @@
       "assumptions": "The demand for digital capital markets infrastructure will continue to grow, and the Saudi government will continue to support the development of the financial sector",
       "invalidation": "If the Saudi government changes its policies to favor traditional energy sectors, or if the demand for digital capital markets infrastructure decreases",
       "_at": "2026-07-16T23:55:56.156203"
-    },
-    {
-      "title": "Diversify Saudi Oil Export Routes",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi Aramco",
-      "customer": "Saudi Government",
-      "problem": "Potential disruption to oil exports due to increased volatility in the global oil market",
-      "action_path": "Invest in alternative export routes, such as pipelines or shipping lanes, to reduce dependence on traditional routes. Collaborate with neighboring countries to develop new infrastructure. Develop strategic storage facilities to mitigate potential supply chain disruptions.",
-      "entry_mode": "build",
-      "monetization": "Reduced revenue risk and increased export reliability",
-      "capabilities": "Project management, pipeline construction, and logistics expertise",
-      "barriers": "High upfront costs, geopolitical complexities, and technical challenges",
-      "timing": "enter now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Global oil market volatility has increased"
-      ],
-      "sector": "oil_gas",
-      "relevant_sectors": [
-        "oil_gas",
-        "petrochemicals"
-      ],
-      "relevant_regions": [
-        "eastern_province",
-        "red_sea"
-      ],
-      "ksa_grounding": "Saudi Arabia's oil exports and revenue are critical to the country's economy, and diversifying export routes can help mitigate potential disruptions",
-      "assumptions": "The US-Iran conflict will continue to impact global oil markets, and Saudi Arabia will maintain its position as a major oil exporter",
-      "invalidation": "A peaceful resolution to the US-Iran conflict is reached, reducing global oil market volatility",
-      "_at": "2026-07-15T23:56:48.904423"
-    },
-    {
-      "title": "Enhance Oil Price Risk Management",
-      "play_type": "business_play",
-      "actor": "Saudi financial institutions",
-      "customer": "Saudi oil and gas companies",
-      "problem": "Increased uncertainty in the global oil market poses a risk to Saudi oil exporters' revenue",
-      "action_path": "Develop and offer specialized financial instruments, such as hedging products, to help Saudi oil and gas companies manage oil price risk. Provide training and advisory services to help companies effectively use these instruments. Collaborate with international financial institutions to access global markets and expertise.",
-      "entry_mode": "build",
-      "monetization": "Fee-based financial services and increased customer loyalty",
-      "capabilities": "Financial derivatives expertise, risk management, and international market access",
-      "barriers": "Complexity of financial instruments, regulatory hurdles, and competition from international banks",
-      "timing": "prepare now",
-      "action_posture": "Prepare",
-      "linked_signals": [
-        "Global oil market volatility has increased"
-      ],
-      "sector": "banking",
-      "relevant_sectors": [
-        "oil_gas",
-        "banking",
-        "capital_markets"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "Saudi financial institutions can play a critical role in helping Saudi oil and gas companies manage oil price risk and maintain revenue stability",
-      "assumptions": "The US-Iran conflict will continue to impact global oil markets, and Saudi oil and gas companies will seek to manage their oil price risk",
-      "invalidation": "A peaceful resolution to the US-Iran conflict is reached, reducing global oil market volatility",
-      "_at": "2026-07-15T23:56:48.904434"
     }
   ],
-  "lastRefresh": "2026-08-14T23:18:01.865146"
+  "lastRefresh": "2026-08-15T23:16:24.762811"
 }

@@ -1,6 +1,125 @@
 {
   "items": [
     {
+      "title": "Saudi Arabia announces start of Red Sea defence alliance",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-08-14",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "defence",
+        "security"
+      ],
+      "summary": "Saudi Arabia has announced the start of a Red Sea defence alliance with 13 member countries. The alliance aims to enhance regional security and stability. This move is seen as a response to growing tensions in the region, particularly with Iran.",
+      "why_it_matters": "The establishment of this alliance has significant strategic consequences for Saudi Arabia, as it seeks to strengthen its position in the region and protect its interests. This move may also impact the balance of power in the Middle East and have implications for global security.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-15T23:15:40.646393"
+    },
+    {
+      "title": "Houthi forces claim drone strike on Aramco facility in Jazan",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-14",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "jazan"
+      ],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "Houthi forces have claimed responsibility for a drone strike on an Aramco facility in Jazan, Saudi Arabia. The attack has raised concerns about the security of Saudi Arabia's oil infrastructure and the potential for further disruptions to global energy supplies.",
+      "why_it_matters": "This attack has significant implications for Saudi Arabia's energy sector and the global oil market. The disruption to Aramco's operations could lead to increased oil prices and have a ripple effect on the global economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-15T23:15:40.646405"
+    },
+    {
+      "title": "UAE sovereign funds hold $764M in BlackRock's Bitcoin ETF",
+      "source": "Crypto Briefing",
+      "source_tier": 2,
+      "time": "2026-08-14",
+      "event_type": "funding",
+      "category": "fintech",
+      "geography": "Global",
+      "sector_tags": [
+        "fintech",
+        "banking"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "finance",
+        "investments"
+      ],
+      "summary": "UAE sovereign funds have invested $764M in BlackRock's Bitcoin ETF, according to SEC filings. This investment highlights the growing interest in cryptocurrency among institutional investors and sovereign wealth funds.",
+      "why_it_matters": "This investment has significant implications for the adoption of cryptocurrency in the region and the growth of the fintech sector in Saudi Arabia. It may also lead to increased collaboration between Saudi Arabia and the UAE in the development of cryptocurrency and blockchain technologies.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-15T23:15:40.646408"
+    },
+    {
+      "title": "Saudi Oil Fleet Increasingly Going 'Dark' Due To Houthi Blockade",
+      "source": "Biztoc.com",
+      "source_tier": 2,
+      "time": "2026-08-14",
+      "event_type": "infrastructure_disruption",
+      "category": "security",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "red_sea"
+      ],
+      "affected_domains": [
+        "energy",
+        "security"
+      ],
+      "summary": "Saudi Arabia's oil fleet is increasingly going 'dark' due to a Houthi blockade, making it difficult to track the movement of oil tankers. This has raised concerns about the security of Saudi Arabia's oil exports and the potential for further disruptions to global energy supplies.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia's energy sector and the global oil market. The disruption to Saudi Arabia's oil exports could lead to increased oil prices and have a ripple effect on the global economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-15T23:15:40.646410"
+    },
+    {
+      "title": "Yemen faces highest risk of returning to war since 2022 truce",
+      "source": "Al Jazeera English",
+      "source_tier": 1,
+      "time": "2026-08-14",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas"
+      ],
+      "region_tags": [
+        "yemen"
+      ],
+      "affected_domains": [
+        "defence",
+        "security"
+      ],
+      "summary": "Yemen is facing the highest risk of returning to war since the 2022 truce, according to the UN. The conflict has raised concerns about the stability of the region and the potential for further disruptions to global energy supplies.",
+      "why_it_matters": "This development has significant implications for Saudi Arabia's national security and the stability of the region. A return to war in Yemen could lead to increased instability and have a ripple effect on the global economy.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-15T23:15:40.646412"
+    },
+    {
       "title": "HCLTech and NetApp expand partnership for hybrid cloud storage",
       "source": "The Tribune, ANI, The Economic Times",
       "source_tier": 2,
@@ -2919,135 +3038,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-16T23:55:11.706065"
-    },
-    {
-      "title": "US strikes new targets in Iran as Tehran hits Gulf states, Hormuz shipping",
-      "source": "Al Jazeera English",
-      "source_tier": 1,
-      "time": "2026-07-14",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Gulf",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "shipping",
-        "energy"
-      ],
-      "summary": "The US has struck new targets in Iran, while Tehran has hit Gulf states and Hormuz shipping. Iran's deputy foreign minister accuses the US of destroying the interim peace deal. The renewed conflict threatens regional stability and potentially impacts global oil markets.",
-      "why_it_matters": "The escalation of conflict in the Gulf region may disrupt oil supplies and impact Saudi Arabia's economy, given its significant oil exports. This development has strategic consequences for Saudi Arabia's energy sector and regional security.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-15T23:56:04.275506"
-    },
-    {
-      "title": "OPEC cuts 2026 oil demand forecast, raises 2027 outlook amid tensions",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-14",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "energy",
-        "economy"
-      ],
-      "summary": "OPEC has revised its oil demand forecasts, cutting the 2026 outlook and raising the 2027 projection. This move reflects potential short-term oil price volatility and medium-term demand recovery, impacting global markets.",
-      "why_it_matters": "The revision of OPEC's oil demand forecasts may influence Saudi Arabia's oil production and export strategies, affecting the country's revenue and economic growth. This development has strategic implications for Saudi Arabia's oil and gas sector.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-15T23:56:04.275518"
-    },
-    {
-      "title": "Saudi Arabia opens door to LGBTQ visitors ahead of 2034 World Cup",
-      "source": "Vanguard",
-      "source_tier": 2,
-      "time": "2026-07-14",
-      "event_type": "policy_shift",
-      "category": "geopolitics",
-      "geography": "Saudi",
-      "sector_tags": [
-        "tourism"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "human rights",
-        "tourism"
-      ],
-      "summary": "Saudi Arabia has announced that it will allow LGBTQ visitors to enter the country ahead of the 2034 World Cup. This move marks a significant shift in the country's social policies and may have implications for its human rights record.",
-      "why_it_matters": "The decision to allow LGBTQ visitors may impact Saudi Arabia's international reputation and attract more tourists to the country. However, it also raises questions about the country's human rights record and potential social implications.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-15T23:56:04.275520"
-    },
-    {
-      "title": "Intermap Partners with NSG UP42 to Expand Access to Elevation Intelligence in Saudi Arabia",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-07-14",
-      "event_type": "partnership",
-      "category": "technology",
-      "geography": "Saudi",
-      "sector_tags": [
-        "fintech",
-        "logistics"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "infrastructure",
-        "planning"
-      ],
-      "summary": "Intermap has partnered with NSG UP42 to provide elevation intelligence in Saudi Arabia. The partnership aims to support infrastructure development, flood risk management, and national development planning.",
-      "why_it_matters": "The partnership may enhance Saudi Arabia's infrastructure planning and development capabilities, supporting the country's Vision 2030 goals. This development has strategic implications for Saudi Arabia's logistics and fintech sectors.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-15T23:56:04.275524"
-    },
-    {
-      "title": "Saudi Arabia Commercial Vehicle Electrification Market Study Published",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-07-14",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Saudi",
-      "sector_tags": [
-        "renewable_energy",
-        "hydrogen"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "transportation",
-        "energy"
-      ],
-      "summary": "A study on Saudi Arabia's commercial vehicle electrification market has been published, highlighting the market's growth potential. The study profiles key players, including Tesla, Volvo Group, and Daimler AG.",
-      "why_it_matters": "The growth of Saudi Arabia's commercial vehicle electrification market may support the country's transition to renewable energy sources and reduce its carbon footprint. This development has strategic implications for Saudi Arabia's energy and transportation sectors.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-15T23:56:04.275526"
     }
   ],
-  "lastRefresh": "2026-08-14T23:18:01.860241",
+  "lastRefresh": "2026-08-15T23:16:24.757647",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 32,
+    "articles_to_model": 40,
     "radar_generated": 5,
-    "radar_confirmed": 1,
-    "radar_reported": 4,
+    "radar_confirmed": 0,
+    "radar_reported": 5,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 3,
+    "signals_moderate": 2,
     "signals_ksa_grounded": 3,
-    "plays_generated": 3,
-    "plays_ksa_grounded": 3
+    "plays_generated": 2,
+    "plays_ksa_grounded": 2
   }
 }
