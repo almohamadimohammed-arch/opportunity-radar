@@ -1,6 +1,54 @@
 {
   "items": [
     {
+      "title": "Mecca agreement creates new trilateral security framework",
+      "source": "Globalresearch.ca",
+      "source_tier": 2,
+      "time": "2026-08-13",
+      "event_type": "geopolitical_move",
+      "category": "geopolitics",
+      "geography": "Saudi",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [
+        "makkah"
+      ],
+      "affected_domains": [
+        "regional security",
+        "terrorism"
+      ],
+      "summary": "The Mecca agreement has created a new trilateral security framework between Saudi Arabia, Turkey, and Pakistan. The agreement aims to address growing regional instability and terrorism.",
+      "why_it_matters": "The Mecca agreement has significant strategic consequences for Saudi Arabia, as it aims to enhance regional security and stability.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-16T23:15:00.414290"
+    },
+    {
+      "title": "Iranian attacks push Hormuz shipping toward Tehran-controlled route",
+      "source": "gcaptain.com",
+      "source_tier": 2,
+      "time": "2026-08-14",
+      "event_type": "infrastructure_disruption",
+      "category": "geopolitics",
+      "geography": "Global",
+      "sector_tags": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "region_tags": [],
+      "affected_domains": [
+        "maritime shipping",
+        "global trade"
+      ],
+      "summary": "Iranian attacks on commercial shipping are pushing more vessels away from the U.S.-coordinated route through Omani waters and toward the northern, Tehran-controlled corridor through the Strait of Hormuz.",
+      "why_it_matters": "This development has strategic consequences for Saudi Arabia's oil exports and global trade, as it may impact the security and stability of maritime shipping.",
+      "verification_status": "reported",
+      "source_count": 1,
+      "_at": "2026-08-16T23:15:00.414301"
+    },
+    {
       "title": "Saudi Arabia announces start of Red Sea defence alliance",
       "source": "Al Jazeera English",
       "source_tier": 1,
@@ -2970,91 +3018,23 @@
       "verification_status": "reported",
       "source_count": 1,
       "_at": "2026-07-17T23:48:52.579242"
-    },
-    {
-      "title": "Meta Platforms surpasses Saudi Aramco in market cap",
-      "source": "Crypto Briefing",
-      "source_tier": 2,
-      "time": "2026-07-15",
-      "event_type": "market_shift",
-      "category": "business",
-      "geography": "Global",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economic",
-        "financial"
-      ],
-      "summary": "Meta Platforms has surpassed Saudi Aramco in market capitalization, highlighting the growing dominance of tech companies over traditional energy sectors. This shift reflects changing market dynamics and investor preferences.",
-      "why_it_matters": "This market shift could have significant strategic consequences for Saudi Arabia's economy, as the country seeks to diversify its revenue streams and reduce its dependence on oil exports. It also underscores the importance of investing in tech and fintech sectors.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-16T23:55:11.706046"
-    },
-    {
-      "title": "USD 15.4 Billion GCC Data Center Market Outlook, 2031",
-      "source": "GlobeNewswire",
-      "source_tier": 2,
-      "time": "2026-07-13",
-      "event_type": "market_shift",
-      "category": "technology",
-      "geography": "Gulf",
-      "sector_tags": [
-        "fintech",
-        "capital_markets"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economic",
-        "financial"
-      ],
-      "summary": "The GCC data center market is expected to reach USD 15.4 billion by 2031, driven by government support, rising demand for cloud services, and increasing investments in digital infrastructure. Saudi Arabia is projected to lead the market with a 41.37% power capacity share by 2031.",
-      "why_it_matters": "This market shift could have significant strategic consequences for Saudi Arabia's economy, as the country seeks to develop its digital infrastructure and attract investments in the tech sector. It also underscores the importance of investing in data centers and cloud services.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-16T23:55:11.706060"
-    },
-    {
-      "title": "Iran Threatens Wider Energy Chokepoints After Fresh U.S. Strikes",
-      "source": "gcaptain.com",
-      "source_tier": 2,
-      "time": "2026-07-15",
-      "event_type": "geopolitical_move",
-      "category": "geopolitics",
-      "geography": "Global",
-      "sector_tags": [
-        "oil_gas"
-      ],
-      "region_tags": [],
-      "affected_domains": [
-        "economic",
-        "energy"
-      ],
-      "summary": "Iran has threatened to cut off all supplies of Middle Eastern oil to the rest of the world in retaliation for the restored U.S. blockade of Iranian oil exports. This move could have significant implications for global energy markets and the Saudi economy.",
-      "why_it_matters": "This geopolitical move could have significant strategic consequences for Saudi Arabia's oil exports and the global energy market, potentially leading to supply chain disruptions and price volatility. It also underscores the importance of diversifying Saudi Arabia's economy and reducing its dependence on oil exports.",
-      "verification_status": "reported",
-      "source_count": 1,
-      "_at": "2026-07-16T23:55:11.706065"
     }
   ],
-  "lastRefresh": "2026-08-15T23:16:24.757647",
+  "lastRefresh": "2026-08-16T23:16:15.637161",
   "gate_report": {
     "version": "5.0",
     "discovery_queries": "20 news + 12 tech + 19 reddit_subs + 15 reddit_searches",
-    "articles_to_model": 40,
+    "articles_to_model": 29,
     "radar_generated": 5,
-    "radar_confirmed": 0,
-    "radar_reported": 5,
+    "radar_confirmed": 1,
+    "radar_reported": 4,
     "radar_alleged": 0,
     "radar_sector_tagged": 5,
     "signals_generated": 3,
     "signals_strong": 0,
-    "signals_moderate": 2,
+    "signals_moderate": 3,
     "signals_ksa_grounded": 3,
-    "plays_generated": 2,
-    "plays_ksa_grounded": 2
+    "plays_generated": 3,
+    "plays_ksa_grounded": 3
   }
 }

@@ -1,6 +1,95 @@
 {
   "items": [
     {
+      "statement": "Regional instability is increasing, prompting a shift in security frameworks and alliances",
+      "change_type": "regulation",
+      "change_vector": "regulation_tightening",
+      "mechanism": "Growing regional instability leads to increased cooperation and security agreements among nations",
+      "ksa_grounding": "Saudi Arabia's economy may be affected by increased security spending and potential disruptions to trade and navigation in the Red Sea and Gulf of Aden",
+      "affected_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Saudi Arabia announces start of Red Sea defence alliance",
+        "Mecca agreement creates new trilateral security framework"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Turkey",
+        "Pakistan"
+      ],
+      "time_horizon": "now",
+      "upside": "Increased regional stability and security",
+      "downside": "Potential for increased tensions and conflict",
+      "first_order": "Direct impact on regional security and trade",
+      "second_order": "Potential downstream effects on global energy markets and trade routes",
+      "invalidation": "A significant reduction in regional tensions and instability would invalidate this signal",
+      "_at": "2026-08-16T23:15:37.721537"
+    },
+    {
+      "statement": "Institutional acceptance of crypto assets is increasing, driving investment and adoption",
+      "change_type": "regulation",
+      "change_vector": "regulation_opening",
+      "mechanism": "Growing institutional investment in crypto assets leads to increased adoption and acceptance",
+      "ksa_grounding": "Saudi Arabia's economy may be affected by increased investment and adoption of crypto assets, potentially driving growth in the fintech sector",
+      "affected_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "affected_regions": [],
+      "evidence": [
+        "UAE sovereign funds hold $764M in BlackRock's Bitcoin ETF",
+        "HCLTech and NetApp expand partnership for hybrid cloud storage"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "UAE sovereign funds",
+        "BlackRock"
+      ],
+      "time_horizon": "1-2yr",
+      "upside": "Potential for increased investment and growth in the fintech sector",
+      "downside": "Potential risks associated with crypto asset volatility and regulatory uncertainty",
+      "first_order": "Direct impact on institutional investment and adoption of crypto assets",
+      "second_order": "Potential downstream effects on the broader financial sector and economy",
+      "invalidation": "A significant decline in institutional investment in crypto assets would invalidate this signal",
+      "_at": "2026-08-16T23:15:37.721547"
+    },
+    {
+      "statement": "Risk exposure in the Red Sea and Gulf of Aden is increasing, prompting a shift in shipping routes",
+      "change_type": "risk",
+      "change_vector": "risk_exposure_rising",
+      "mechanism": "Increased attacks on commercial shipping lead to increased risk exposure and changes in shipping routes",
+      "ksa_grounding": "Saudi Arabia's economy may be affected by increased risk exposure and changes in shipping routes, potentially disrupting trade and navigation in the Red Sea and Gulf of Aden",
+      "affected_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "affected_regions": [
+        "red_sea"
+      ],
+      "evidence": [
+        "Iranian attacks push Hormuz shipping toward Tehran-controlled route",
+        "Saudi Arabia announces start of Red Sea defence alliance"
+      ],
+      "evidence_strength": "moderate",
+      "affected_actors": [
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "time_horizon": "now",
+      "upside": "Potential for increased security and stability in the region",
+      "downside": "Potential for increased tensions and conflict, disrupting trade and navigation",
+      "first_order": "Direct impact on shipping routes and risk exposure",
+      "second_order": "Potential downstream effects on global energy markets and trade routes",
+      "invalidation": "A significant reduction in attacks on commercial shipping would invalidate this signal",
+      "_at": "2026-08-16T23:15:37.721549"
+    },
+    {
       "statement": "Risk exposure to Saudi Arabia's oil infrastructure is rising",
       "change_type": "risk",
       "change_vector": "risk_exposure_rising",
@@ -2331,120 +2420,7 @@
       "second_order": "improved infrastructure development and management",
       "invalidation": "if the partnership between Intermap and NSG UP42 is cancelled or if the elevation intelligence technology is not effective",
       "_at": "2026-07-17T23:49:30.335181"
-    },
-    {
-      "statement": "Regulatory barrier to tourism and hospitality has reduced",
-      "change_type": "regulation",
-      "change_vector": "regulation_opening",
-      "mechanism": "Shift in policy allows LGBTQ visitors ahead of 2034 World Cup",
-      "ksa_grounding": "Increased tourism revenue and diversification of economy",
-      "affected_sectors": [
-        "tourism",
-        "hospitality"
-      ],
-      "affected_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "evidence": [
-        "Saudi Arabia opens door to LGBTQ visitors ahead of 2034 World Cup"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "tourists",
-        "hotel owners"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased tourism revenue",
-      "downside": "Potential backlash from conservative groups",
-      "first_order": "Direct increase in tourism",
-      "second_order": "Growth in related industries such as hospitality and entertainment",
-      "invalidation": "If Saudi Arabia reverses its policy on LGBTQ visitors",
-      "_at": "2026-07-16T23:55:49.061563"
-    },
-    {
-      "statement": "Investor interest in tech companies is increasing",
-      "change_type": "market",
-      "change_vector": "demand_up",
-      "mechanism": "Growing dominance of tech companies over traditional energy sectors",
-      "ksa_grounding": "Potential for increased investment in Saudi tech companies",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Meta Platforms surpasses Saudi Aramco in market cap",
-        "USD 15.4 Billion GCC Data Center Market Outlook, 2031"
-      ],
-      "evidence_strength": "moderate",
-      "affected_actors": [
-        "investors",
-        "tech companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment in Saudi tech companies",
-      "downside": "Potential for decreased investment in traditional energy sectors",
-      "first_order": "Direct increase in investment in tech companies",
-      "second_order": "Growth in related industries such as data centers and digital infrastructure",
-      "invalidation": "If investor interest in tech companies decreases",
-      "_at": "2026-07-16T23:55:49.061574"
-    },
-    {
-      "statement": "Risk of global energy market disruption is increasing",
-      "change_type": "geopolitical",
-      "change_vector": "risk_exposure_rising",
-      "mechanism": "Iran's threat to cut off Middle Eastern oil supplies",
-      "ksa_grounding": "Potential for decreased oil exports and revenue",
-      "affected_sectors": [
-        "oil_gas"
-      ],
-      "affected_regions": [
-        "eastern_province"
-      ],
-      "evidence": [
-        "Iran Threatens Wider Energy Chokepoints After Fresh U.S. Strikes"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "oil exporters",
-        "global energy markets"
-      ],
-      "time_horizon": "now",
-      "upside": "None",
-      "downside": "Potential for decreased oil exports and revenue",
-      "first_order": "Direct disruption to global energy markets",
-      "second_order": "Potential for increased prices and decreased economic growth",
-      "invalidation": "If Iran does not follow through on its threat",
-      "_at": "2026-07-16T23:55:49.061576"
-    },
-    {
-      "statement": "Access to digital infrastructure is increasing",
-      "change_type": "infrastructure",
-      "change_vector": "infrastructure_expanding",
-      "mechanism": "Partnership between Intermap and NSG UP42 to expand access to elevation intelligence",
-      "ksa_grounding": "Potential for increased investment in digital infrastructure",
-      "affected_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "affected_regions": [],
-      "evidence": [
-        "Intermap Partners with NSG UP42 to Expand Access to Elevation Intelligence in Saudi Arabia"
-      ],
-      "evidence_strength": "weak",
-      "affected_actors": [
-        "investors",
-        "tech companies"
-      ],
-      "time_horizon": "1-2yr",
-      "upside": "Increased investment in digital infrastructure",
-      "downside": "None",
-      "first_order": "Direct increase in access to digital infrastructure",
-      "second_order": "Growth in related industries such as data centers and cloud services",
-      "invalidation": "If the partnership does not lead to increased investment in digital infrastructure",
-      "_at": "2026-07-16T23:55:49.061581"
     }
   ],
-  "lastRefresh": "2026-08-15T23:16:24.760847"
+  "lastRefresh": "2026-08-16T23:16:15.639971"
 }

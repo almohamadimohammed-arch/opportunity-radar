@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "title": "Crypto Asset Investment Platform",
+      "play_type": "market_entry_play",
+      "actor": "Saudi Fintech Firms",
+      "customer": "Institutional Investors",
+      "problem": "Limited access to crypto asset investment opportunities in Saudi Arabia",
+      "action_path": "Develop a crypto asset investment platform that meets the needs of institutional investors, including security, compliance, and risk management. This could involve partnering with international crypto asset exchanges and custodians to provide access to a wide range of assets. Additionally, establishing relationships with regulatory bodies could help to ensure compliance with relevant laws and regulations.",
+      "entry_mode": "build",
+      "monetization": "Transaction fees, management fees, and custody fees",
+      "capabilities": "Crypto asset expertise, platform development, regulatory compliance",
+      "barriers": "Regulatory uncertainty, competition from established players",
+      "timing": "prepare now",
+      "action_posture": "Prepare",
+      "linked_signals": [
+        "Institutional acceptance of crypto assets is increasing, driving investment and adoption"
+      ],
+      "sector": "fintech",
+      "relevant_sectors": [
+        "fintech",
+        "capital_markets"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy may be affected by increased investment and adoption of crypto assets, potentially driving growth in the fintech sector",
+      "assumptions": "Institutional investment in crypto assets will continue to increase, and regulatory bodies will provide clarity on relevant laws and regulations",
+      "invalidation": "A significant decline in institutional investment in crypto assets would invalidate this play",
+      "_at": "2026-08-16T23:16:15.637044"
+    },
+    {
+      "title": "AI-Powered Cybersecurity Solutions",
+      "play_type": "business_play",
+      "actor": "Saudi Cybersecurity Firms",
+      "customer": "Saudi Enterprises",
+      "problem": "Increased cybersecurity threats and limited internal expertise",
+      "action_path": "Develop and implement AI-powered cybersecurity solutions that can detect and respond to threats in real-time. This could involve partnering with international cybersecurity firms to access advanced technologies and expertise. Additionally, providing training and support to Saudi enterprises could help to build their internal capabilities.",
+      "entry_mode": "build",
+      "monetization": "Subscription fees, consulting fees, and product sales",
+      "capabilities": "AI expertise, cybersecurity expertise, and international partnerships",
+      "barriers": "High upfront costs, competition from established players",
+      "timing": "enter now",
+      "action_posture": "Build",
+      "linked_signals": [
+        "Regional instability is increasing, prompting a shift in security frameworks and alliances"
+      ],
+      "sector": "oil_gas",
+      "relevant_sectors": [
+        "oil_gas",
+        "renewable_energy"
+      ],
+      "relevant_regions": [
+        "riyadh",
+        "jeddah"
+      ],
+      "ksa_grounding": "Saudi Arabia's economy may be affected by increased cybersecurity threats, potentially disrupting critical infrastructure and trade",
+      "assumptions": "Cybersecurity threats will continue to increase, and Saudi enterprises will be willing to invest in advanced cybersecurity solutions",
+      "invalidation": "A significant reduction in cybersecurity threats would invalidate this play",
+      "_at": "2026-08-16T23:16:15.637054"
+    },
+    {
       "title": "Red Sea Defence Alliance Support",
       "play_type": "policy_play",
       "actor": "Saudi Arabian government and regional partners",
@@ -2083,37 +2143,7 @@
       "assumptions": "The partnership between Intermap and NSG UP42 will be successful and elevation intelligence will be effective",
       "invalidation": "If the partnership between Intermap and NSG UP42 is cancelled or if the elevation intelligence technology is not effective",
       "_at": "2026-07-17T23:49:37.808157"
-    },
-    {
-      "title": "Capital Markets Digitalization",
-      "play_type": "infrastructure_play",
-      "actor": "Saudi financial institutions, Fintech companies",
-      "customer": "Investors, Financial institutions",
-      "problem": "Inefficient and outdated capital markets infrastructure",
-      "action_path": "Saudi financial institutions and fintech companies can collaborate to develop and implement digital platforms for capital markets, increasing efficiency and reducing costs. This can be achieved by leveraging cloud-native capabilities and investing in cybersecurity measures. By doing so, they can improve the overall investor experience and attract more investment to the region.",
-      "entry_mode": "build",
-      "monetization": "Transaction fees, subscription-based models",
-      "capabilities": "Digital transformation expertise, cloud-native capabilities, cybersecurity measures",
-      "barriers": "Regulatory hurdles, resistance to change from traditional players",
-      "timing": "prepare now",
-      "action_posture": "Build",
-      "linked_signals": [
-        "Investor interest in tech companies is increasing"
-      ],
-      "sector": "capital_markets",
-      "relevant_sectors": [
-        "fintech",
-        "capital_markets"
-      ],
-      "relevant_regions": [
-        "riyadh",
-        "jeddah"
-      ],
-      "ksa_grounding": "The Saudi government's vision to diversify the economy and develop the financial sector creates an opportunity for financial institutions and fintech companies to collaborate on digitalization initiatives",
-      "assumptions": "The demand for digital capital markets infrastructure will continue to grow, and the Saudi government will continue to support the development of the financial sector",
-      "invalidation": "If the Saudi government changes its policies to favor traditional energy sectors, or if the demand for digital capital markets infrastructure decreases",
-      "_at": "2026-07-16T23:55:56.156203"
     }
   ],
-  "lastRefresh": "2026-08-15T23:16:24.762811"
+  "lastRefresh": "2026-08-16T23:16:15.641975"
 }
